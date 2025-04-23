@@ -1,0 +1,61 @@
+Status of A# compliance with RM sections
+
+Section 2: Lexical Elements
+2.1 Character Set: 	Fully Compliant
+2.2 Lexical Elements: 	Fully Compliant
+2.3 Identifiers: 	Fully Compliant
+2.4 Numeric Literals: 	Fully Compliant
+2.5 Character Literals: Fully Compliant
+2.6 String Literals:	Fully Compliant
+2.7 Comments:		Fully Compliant
+2.8 Pragmas:		Fully Compliant
+2.9 Reserved Words:	Fully Compliant
+
+Section 3: Declarations and Types
+Fully compliant
+3.5.1 Enumeration Types:	Compliant for Ada types
+Types imported from .NET do not support enumeration attributes (e.g. 'image)
+
+Section 4: Names and Expressions
+Fully compliant
+
+Section 5: Statements
+Fully compliant
+
+Section 6: Subprograms
+Fully compliant
+
+Section 7: Packages
+Fully compliant
+
+Section 8: Visibility Rules
+Fully compliant
+
+Section 9: Tasks and Synchronization
+Implemented, not extensively tested
+
+Section 10: Program Structure
+Fully compliant
+
+Section 11: Exceptions
+Fully compliant
+
+Section 12: Generic Units
+Fully Compliant
+
+Section 13: Representation Issues
+13.1 Representation Items:		Not implemented
+13.2 Pragma Pack:			Not implemented
+13.3 Representation Attributes:		Not implemented
+13.4 Enumeration Representation:	Fully compliant
+13.5 Record Layout:			Not implemented
+13.6 Change of Representation:		Not implemented
+13.7 Package System:			Fully compliant
+13.8 Machine Code Insertions:		Not implemented
+13.9 Unchecked Type Conversions:	Partially implemented
+May generate exception on casting object to incompatible type
+13.10 Unchecked_Access:			Fully compliant
+13.11 Storage Management:		Not tested
+13.12 Pragma Restrictions:		Not tested
+13.13 Package Streams:			Implemented-- limited testing
+13.14 Freezing Rules:			Fully compliant
