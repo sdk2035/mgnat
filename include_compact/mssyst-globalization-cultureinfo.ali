@@ -1,0 +1,246 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.globalization.cultureinfo%s  mssyst-globalization-cultureinfo.ads  e791dc40 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.globalization%s  mssyst-globalization.ads  mssyst-globalization.ali
+W mssyst.globalization.culturetypes%s  mssyst-globalization-culturetypes.ads  mssyst-globalization-culturetypes.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.iformatprovider%s  mssyst-iformatprovider.ads  mssyst-iformatprovider.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-dayofweek.ads	20060131171356 9441cb97
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-calendar.ads  20060131171358 c9b64678
+D mssyst-globalization-calendaralgorithmtype.ads  20060131171358 54576874
+D mssyst-globalization-calendarweekrule.ads  20060131171358 3360c2d3
+D mssyst-globalization-compareinfo.ads  20060131171358 8f8d15c7
+D mssyst-globalization-compareoptions.ads  20060131171358 fb611bd7
+D mssyst-globalization-cultureinfo.ads  20060131171358 6ed5a64b
+D mssyst-globalization-culturetypes.ads  20060131171358 9d4d7f13
+D mssyst-globalization-datetimeformatinfo.ads  20060131171358 c2f5b033
+D mssyst-globalization-digitshapes.ads  20060131171358 aceef993
+D mssyst-globalization-numberformatinfo.ads  20060131171400 7fedf704
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-globalization-textinfo.ads  20060131171400 4110ee13
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060131171358 afb77eb6
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 17|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 17|7r6 10r6 11r6 12r6 16r6 23r9 30r20 31r14 32r14 38r14 41r14
+. 53r33 55r14 55r40 58r15 60r33 62r33 64r33 65r39 66r41 68r33 70r33 72r33
+. 74r33 75r43 76r41 86r33 88r33 90r33 92r33 94r33 96r33 98r33 100r33 102r33
+. 106r33 108r33 110r14 111r17 111r43 113r14 113r40 115r14 115r40 117r15 117r67
+. 120r20 120r46 124r12 124r57 127r15 130r15 132r33 175r5 177r20
+X 11 mssyst-globalization.ads
+6K16*Globalization 9|6k9 11|7e25 17|16r13 23r16 55r47 60r40 62r40 64r40 65r46
+. 66r48 68r40 75r50 76r48 90r40 92r40 94r40 96r40 106r40 108r40 111r50 113r47
+. 115r47 117r22 117r74 124r19 124r64 127r22 130r22 175r12 177r27
+X 12 mssyst-globalization-calendar.ads
+18K30 Calendar 17|60r54 92r54
+20P9 Ref(integer) 17|60r63
+23P9 Ref_Array(integer) 17|92r63
+X 15 mssyst-globalization-compareinfo.ads
+17K30 CompareInfo 17|62r54
+19P9 Ref(integer) 17|62r66
+X 17 mssyst-globalization-cultureinfo.ads
+23K30*CultureInfo 11|6k16 17|55r61 65r60 66r62 75r64 76r62 94r54 106r54 108r54
+. 111r64 113r61 115r61 117r88 124r33 124r78 175l26 175e37 177r41
+24R9*Typ 25r27 30c9 51r21 53r21 57r21 60r21 62r21 64r21 68r21 70r21 72r21
+. 74r21 78r21 80r21 82r21 84r21 86r21 88r21 90r21 92r21 94r21 96r21 98r21
+. 100r21 102r21 104r21 106r21 119r21 122r21 126r21 129r21 132r21 134r27
+25P9*Ref(24R9) 26r34 27r47 37r14 38r40 40r14 42r50 44r14 45r33 47r14 49r50
+. 55r73 65r72 66r74 75r76 76r74 94r66 106r66 108r66 111r76 113r73 115r73
+. 124r45 124r90
+26P9*Ref_addrof(25P9)
+27A9*Ref_Arr(25P9) 28r33
+28P9*Ref_Array(27A9) 29r40 117r100
+29P9*Ref_Array_addrof(28P9)
+30R9*Typ<28|18R9> 35e14 50p14 52P13 56P13 59p13 61p13 63p13 67p13 69p13 71p13
+. 73p13 77p13 79p13 81p13 83p13 85p13 87p13 89p13 91p13 93p13 95p13 97p13
+. 99p13 101p13 103p13 105p13 118P13 121P13 125p14 128p14 131P13 28|31p13
+36V13*new_CultureInfo{25P9} 37>7 38>7
+37p7 This{25P9}
+38p7 name{46|27P9}
+39V13*new_CultureInfo{25P9} 40>7 41>7 42>7
+40p7 This{25P9}
+41p7 name{46|27P9}
+42b7 useUserOverride{boolean}
+43V13*new_CultureInfo{25P9} 44>7 45>7
+44p7 This{25P9}
+45i7 culture{integer}
+46V13*new_CultureInfo{25P9} 47>7 48>7 49>7
+47p7 This{25P9}
+48i7 culture{integer}
+49b7 useUserOverride{boolean}
+50U14*ClearCachedData 51^7 136b23
+51p7 This(30R9)
+52V13*Clone{28|13P9} 53^7 137b23
+53p7 This(30R9)
+54V13*CreateSpecificCulture{25P9} 55>7 138b23
+55p7 name{46|27P9}
+56V13*Equals{boolean} 57^7 58>7 139b23
+57p7 This(30R9)
+58p7 value{28|13P9}
+59V13*get_Calendar{12|20P9} 60^7 140b23
+60p7 This(30R9)
+61V13*get_CompareInfo{15|19P9} 62^7 141b23
+62p7 This(30R9)
+63V13*get_CultureTypes{18|16E9} 64^7 142b23
+64p7 This(30R9)
+65V13*get_CurrentCulture{25P9} 143b23
+66V13*get_CurrentUICulture{25P9} 144b23
+67V13*get_DateTimeFormat{19|21P9} 68^7 145b23
+68p7 This(30R9)
+69V13*get_DisplayName{46|27P9} 70^7 146b23
+70p7 This(30R9)
+71V13*get_EnglishName{46|27P9} 72^7 147b23
+72p7 This(30R9)
+73V13*get_IetfLanguageTag{46|27P9} 74^7 148b23
+74p7 This(30R9)
+75V13*get_InstalledUICulture{25P9} 149b23
+76V13*get_InvariantCulture{25P9} 150b23
+77V13*get_IsNeutralCulture{boolean} 78^7 151b23
+78p7 This(30R9)
+79V13*get_IsReadOnly{boolean} 80^7 152b23
+80p7 This(30R9)
+81V13*get_KeyboardLayoutId{integer} 82^7 153b23
+82p7 This(30R9)
+83V13*get_LCID{integer} 84^7 154b23
+84p7 This(30R9)
+85V13*get_Name{46|27P9} 86^7 155b23
+86p7 This(30R9)
+87V13*get_NativeName{46|27P9} 88^7 156b23
+88p7 This(30R9)
+89V13*get_NumberFormat{21|19P9} 90^7 157b23
+90p7 This(30R9)
+91V13*get_OptionalCalendars{12|23P9} 92^7 158b23
+92p7 This(30R9)
+93V13*get_Parent{25P9} 94^7 159b23
+94p7 This(30R9)
+95V13*get_TextInfo{23|17P9} 96^7 160b23
+96p7 This(30R9)
+97V13*get_ThreeLetterISOLanguageName{46|27P9} 98^7 161b23
+98p7 This(30R9)
+99V13*get_ThreeLetterWindowsLanguageName{46|27P9} 100^7 162b23
+100p7 This(30R9)
+101V13*get_TwoLetterISOLanguageName{46|27P9} 102^7 163b23
+102p7 This(30R9)
+103V13*get_UseUserOverride{boolean} 104^7 164b23
+104p7 This(30R9)
+105V13*GetConsoleFallbackUICulture{25P9} 106^7 165b23
+106p7 This(30R9)
+107V13*GetCultureInfo{25P9} 108>7
+108i7 culture{integer}
+109V13*GetCultureInfo{25P9} 110>7 111>7
+110p7 name{46|27P9}
+111p7 altName{46|27P9}
+112V13*GetCultureInfo{25P9} 113>7 166b23
+113p7 name{46|27P9}
+114V13*GetCultureInfoByIetfLanguageTag{25P9} 115>7 167b23
+115p7 name{46|27P9}
+116V13*GetCultures{28P9} 117>7 168b23
+117e7 types{18|16E9}
+118V13*GetFormat{28|13P9} 119^7 120>7 169b23
+119p7 This(30R9)
+120p7 formatType{51|51P9}
+121V13*GetHashCode{integer} 122^7 170b23
+122p7 This(30R9)
+123V13*ReadOnly{25P9} 124>7 171b23
+124p7 ci{25P9}
+125U14*set_DateTimeFormat 126^7 127>7 172b23
+126p7 This(30R9)
+127p7 value{19|21P9}
+128U14*set_NumberFormat 129^7 130>7 173b23
+129p7 This(30R9)
+130p7 value{21|19P9}
+131V13*ToString{46|27P9} 132^7 174b23
+132p7 This(30R9)
+X 18 mssyst-globalization-culturetypes.ads
+15K30*CultureTypes 17|16w27 64r54 117r36 18|72e38
+16E9*ValueType 17|64r67 117r49 18|24e25
+X 19 mssyst-globalization-datetimeformatinfo.ads
+19K30 DateTimeFormatInfo 17|68r54 127r36
+21P9 Ref(integer) 17|68r73 127r55
+X 21 mssyst-globalization-numberformatinfo.ads
+17K30 NumberFormatInfo 17|90r54 130r36
+19P9 Ref(integer) 17|90r71 130r53
+X 23 mssyst-globalization-textinfo.ads
+15K30 TextInfo 17|96r54
+17P9 Ref(integer) 17|96r63
+X 25 mssyst-icloneable.ads
+11K16*ICloneable 17|11w13 31r21 25|23e22
+12R9*Typ 17|31r32
+X 27 mssyst-iformatprovider.ads
+12K16*IFormatProvider 17|12w13 32r21 27|25e27
+13R9*Typ 17|32r37
+X 28 mssyst-object.ads
+11K16*Object 17|7w13 10w13 30r27 53r40 58r22 120r53 28|46e18
+12R9*Typ 17|30r34 28|20e14
+13P9*Ref(12R9) 17|53r47 58r29 120r60
+18R9*Typ
+31V13*GetType{51|51P9}
+X 46 mssyst-string.ads
+25K16 String 17|38r21 41r21 55r21 70r40 72r40 74r40 86r40 88r40 98r40 100r40
+. 102r40 110r21 111r24 113r21 115r21 132r40
+27P9 Ref(integer) 17|38r28 41r28 55r28 70r47 72r47 74r47 86r47 88r47 98r47
+. 100r47 102r47 110r28 111r31 113r28 115r28 132r47
+X 51 mssyst-type_k.ads
+49K16 Type_k 17|120r27
+51P9 Ref(integer) 17|120r34
+

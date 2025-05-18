@@ -1,0 +1,188 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.appdomainmanager%s  mssyst-appdomainmanager.ads  4ac966b0 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.appdomainmanagerinitializationoptions%s  mssyst-appdomainmanagerinitializationoptions.ads  mssyst-appdomainmanagerinitializationoptions.ali
+W mssyst.marshalbyrefobject%s  mssyst-marshalbyrefobject.ads  mssyst-marshalbyrefobject.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-appdomain.ads	20060131171354 b2e50102
+D mssyst-appdomainmanager.ads  20060131171354 a5f8ef0a
+D mssyst-appdomainmanagerinitializationoptions.ads  20060131171354 3ae7a422
+D mssyst-appdomainsetup.ads  20060131171354 77f00d88
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-configuration.ads  20060131165240 03b06563
+D mssyst-configuration-assemblies.ads  20060131165240 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060131171408 81fd999d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-iappdomainsetup.ads  20060131171354 0889d74e
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-loaderoptimization.ads  20060131171354 7e4c796c
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-assembly.ads  20060131171358 cac2cf86
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-emit.ads  20060131165240 4afd7e34
+D mssyst-reflection-emit-assemblybuilderaccess.ads  20060131171406 ad227bb2
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-hosting.ads  20060131165220 9a697d9f
+D mssyst-runtime-hosting-applicationactivator.ads  20060131171354 5d6ad4f3
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-uassembly.ads  20060131171358 5462c788
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-hostsecuritymanager.ads  20060131171404 e85773a2
+D mssyst-security-hostsecuritymanageroptions.ads  20060131171404 078da324
+D mssyst-security-ievidencefactory.ads  20060131171354 3a16bf31
+D mssyst-security-policy.ads  20060131165228 7a609687
+D mssyst-security-policy-evidence.ads  20060131171400 64e7a78f
+D mssyst-security-principal.ads  20060131165230 7adc43fd
+D mssyst-security-principal-principalpolicy.ads  20060131171400 bf481818
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-threading.ads	20060131165222 964d65eb
+D mssyst-threading-hostexecutioncontextmanager.ads  20060131171356 8ccd519c
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uappdomain.ads	20060131171354 0f94e9ee
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 8|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 8|7r6 10r6 22r6 23r9 30r20 37r22 38r22 39r23 39r57 41r33
+. 43r33 45r33 47r33 49r33 52r23 55r15 67r5 69r20
+X 7 mssyst-appdomain.ads
+47K16 AppDomain 8|39r64
+49P9 Ref(integer) 8|39r74
+X 8 mssyst-appdomainmanager.ads
+23K16*AppDomainManager 6|6k9 8|67l12 67e28 69r27
+24R9*Typ 25r27 30c9 36r21 41r21 43r21 45r21 47r21 49r21 51r21 54r21 57r27
+25P9*Ref(24R9) 26r34 27r47 34r14 34r34
+26P9*Ref_addrof(25P9)
+27A9*Ref_Arr(25P9) 28r33
+28P9*Ref_Array(27A9) 29r40
+29P9*Ref_Array_addrof(28P9)
+30R9*Typ<24|21R9> 32e14 35p13 40p13 42p13 44p13 46p13 48p13 50p14 53p14 24|24p13
+. 27p13 29p13 25|23p13 29p13 31p13 36p13
+33V13*new_AppDomainManager{25P9} 34>7 58r28
+34p7 This{25P9}
+35V13*CreateDomain{7|49P9} 36^7 37>7 38>7 39>7 59b23
+36p7 This(30R9)
+37p7 friendlyName{60|27P9}
+38p7 securityInfo{57|19P9}
+39p7 appDomainInfo{10|22P9}
+40V13*get_ApplicationActivator{41|18P9} 41^7 60b23
+41p7 This(30R9)
+42V13*get_EntryAssembly{27|40P9} 43^7 61b23
+43p7 This(30R9)
+44V13*get_HostExecutionContextManager{66|16P9} 45^7 62b23
+45p7 This(30R9)
+46V13*get_HostSecurityManager{53|22P9} 47^7 63b23
+47p7 This(30R9)
+48V13*get_InitializationFlags{9|16E9} 49^7 64b23
+49p7 This(30R9)
+50U14*InitializeNewDomain 51^7 52>7 65b23
+51p7 This(30R9)
+52p7 appDomainInfo{10|22P9}
+53U14*set_InitializationFlags 54^7 55>7 66b23
+54p7 This(30R9)
+55e7 value{9|16E9}
+X 9 mssyst-appdomainmanagerinitializationoptions.ads
+15K16*AppDomainManagerInitializationOptions 8|22w13 49r40 55r22 9|60e49
+16E9*ValueType 8|49r78 55r60 9|18e24
+X 10 mssyst-appdomainsetup.ads
+20K16 AppDomainSetup 8|39r30 52r30
+22P9 Ref(integer) 8|39r45 52r45
+X 24 mssyst-marshalbyrefobject.ads
+14K16*MarshalByRefObject 8|10w13 30r27 24|36e30
+15R9*Typ 8|30r46
+24V13*CreateObjRef{47|23P9}
+27V13*GetLifetimeService{25|13P9}
+29V13*InitializeLifetimeService{25|13P9}
+X 25 mssyst-object.ads
+11K16*Object 8|7w13 25|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{67|51P9}
+36V13*ToString{60|27P9}
+X 26 mssyst-reflection.ads
+6K16 Reflection 8|43r40
+X 27 mssyst-reflection-assembly.ads
+38K27 Assembly 8|43r51
+40P9 Ref(integer) 8|43r60
+X 39 mssyst-runtime.ads
+6K16 Runtime 8|41r40
+X 40 mssyst-runtime-hosting.ads
+6K24 Hosting 8|41r48
+X 41 mssyst-runtime-hosting-applicationactivator.ads
+16K32 ApplicationActivator 8|41r56
+18P9 Ref(integer) 8|41r77
+X 47 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 52 mssyst-security.ads
+6K16 Security 8|38r29 47r40
+X 53 mssyst-security-hostsecuritymanager.ads
+20K25 HostSecurityManager 8|47r49
+22P9 Ref(integer) 8|47r69
+X 56 mssyst-security-policy.ads
+6K25 Policy 8|38r38
+X 57 mssyst-security-policy-evidence.ads
+17K32 Evidence 8|38r45
+19P9 Ref(integer) 8|38r54
+X 60 mssyst-string.ads
+25K16 String 8|37r29
+27P9 Ref(integer) 8|37r36
+X 65 mssyst-threading.ads
+6K16 Threading 8|45r40
+X 66 mssyst-threading-hostexecutioncontextmanager.ads
+14K26 HostExecutionContextManager 8|45r50
+16P9 Ref(integer) 8|45r78
+X 67 mssyst-type_k.ads
+51P9 Ref(integer)
+

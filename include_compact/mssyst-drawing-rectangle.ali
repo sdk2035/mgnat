@@ -1,0 +1,228 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.rectangle%s  mssyst-drawing-rectangle.ads  36fcaeef NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.valuetype%s	mssyst-valuetype.ads	mssyst-valuetype.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-rectanglef.ads  20060131171432 7fcf14fa
+D mssyst-drawing-size.ads  20060131171430 9e839193
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 9|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 9|7r6 10r6 17r9 18r26 29r18 30r14 32r15 32r59 35r12 42r14
+. 45r13 50r32 60r32 64r32 76r14 78r27 81r14 87r11 88r11 88r54 91r14 94r14
+. 97r13 103r14 104r15 106r14 107r15 109r15 109r59 115r15 118r15 129r32 131r15
+. 131r59 133r11 134r11 134r54 169r5 171r20
+X 7 mssyst-drawing.ads
+6K16*Drawing 6|6k9 7|7e19 9|17r16 29r25 30r21 32r22 32r66 35r19 42r21 50r39
+. 60r39 64r39 76r21 78r34 81r21 87r18 88r18 88r61 91r21 94r21 97r20 103r21
+. 104r22 106r21 107r22 109r22 109r66 115r22 118r22 131r22 131r66 133r18 134r18
+. 134r61 169r12 171r27
+X 8 mssyst-drawing-point.ads
+16K24 Point 9|29r33 35r27 60r47 97r28 115r30
+17R9 ValueType 9|29r39 35r33 60r53 97r34 115r36
+X 9 mssyst-drawing-rectangle.ads
+17K24*Rectangle 7|6k16 9|32r74 42r29 50r47 76r29 78r42 87r26 88r26 88r69
+. 91r29 94r29 103r29 104r30 106r29 107r30 109r74 131r74 133r26 134r26 134r69
+. 169l20 169e29 171r35
+18R9*ValueType<41|20R9> 18e63 19r54 21r40 23p13 27r32 28p13 30r52 31p13 32r84
+. 33p13 34r14 36p13 37r14 40p13 41r14 42r39 43p13 44r14 46p13 50r57 51p13
+. 52r14 53p13 54r14 55p13 56r14 57p13 58r14 59p13 60r14 61p13 62r14 63p13
+. 64r14 65p13 66r14 67p13 68r14 69p13 70r14 71p13 72r14 73p13 74r14 75p13
+. 76r39 78r52 79p14 80r14 82p14 83r14 86p13 87r36 88r36 88r79 89p14 90r14
+. 91r39 92p13 93r14 94r39 95p14 96r14 98p14 99r14 102p13 103r39 104r40 105p13
+. 106r39 107r40 108p13 109r84 110p14 111r14 113p14 114r14 116p14 117r14 119p14
+. 120r14 122p14 123r14 125p14 126r14 128p13 129r14 130p13 131r84 132p13 133r36
+. 134r36 134r79 17|31p13 41|23P13 26P13 28P13
+19A9*ValueType_Arr(18R9) 20r39
+20P9*ValueType_Array(19A9) 22r46
+21P9*ValueType_addrof(18R9)
+22P9*ValueType_array_addrof(20P9)
+23V13*new_Rectangle{18R9} 24>7 25>7 26>7 27>7
+24i7 x{integer}
+25i7 y{integer}
+26i7 width{integer}
+27i7 height{integer}
+28V13*new_Rectangle{18R9} 29>7 30>7
+29r7 location{8|17R9}
+30r7 size{11|17R9}
+31V13*Ceiling{18R9} 32>7 137b23
+32r7 value{10|18R9}
+33V13*Contains{boolean} 34>7 35>7
+34r7 This{18R9}
+35r7 pt{8|17R9}
+36V13*Contains{boolean} 37>7 38>7 39>7
+37r7 This{18R9}
+38i7 x{integer}
+39i7 y{integer}
+40V13*Contains{boolean} 41>7 42>7 138b23
+41r7 This{18R9}
+42r7 rect{18R9}
+43V13*Equals{boolean} 44>7 45>7 139b23
+44r7 This{18R9}
+45p7 obj{17|13P9}
+46V13*FromLTRB{18R9} 47>7 48>7 49>7 50>7 140b23
+47i7 left{integer}
+48i7 top{integer}
+49i7 right{integer}
+50i7 bottom{integer}
+51V13*get_Bottom{integer} 52>7 141b23
+52r7 This{18R9}
+53V13*get_Height{integer} 54>7 142b23
+54r7 This{18R9}
+55V13*get_IsEmpty{boolean} 56>7 143b23
+56r7 This{18R9}
+57V13*get_Left{integer} 58>7 144b23
+58r7 This{18R9}
+59V13*get_Location{8|17R9} 60>7 145b23
+60r7 This{18R9}
+61V13*get_Right{integer} 62>7 146b23
+62r7 This{18R9}
+63V13*get_Size{11|17R9} 64>7 147b23
+64r7 This{18R9}
+65V13*get_Top{integer} 66>7 148b23
+66r7 This{18R9}
+67V13*get_Width{integer} 68>7 149b23
+68r7 This{18R9}
+69V13*get_X{integer} 70>7 150b23
+70r7 This{18R9}
+71V13*get_Y{integer} 72>7 151b23
+72r7 This{18R9}
+73V13*GetHashCode{integer} 74>7 152b23
+74r7 This{18R9}
+75V13*Inflate{18R9} 76>7 77>7 78>7
+76r7 rect{18R9}
+77i7 x{integer}
+78i7 y{integer}
+79U14*Inflate 80>7 81>7
+80r7 This{18R9}
+81r7 size{11|17R9}
+82U14*Inflate 83>7 84>7 85>7 153b23
+83r7 This{18R9}
+84i7 width{integer}
+85i7 height{integer}
+86V13*Intersect{18R9} 87>7 88>7
+87r7 a{18R9}
+88r7 b{18R9}
+89U14*Intersect 90>7 91>7 154b23
+90r7 This{18R9}
+91r7 rect{18R9}
+92V13*IntersectsWith{boolean} 93>7 94>7 155b23
+93r7 This{18R9}
+94r7 rect{18R9}
+95U14*Offset 96>7 97>7
+96r7 This{18R9}
+97r7 pos{8|17R9}
+98U14*Offset 99>7 100>7 101>7 156b23
+99r7 This{18R9}
+100i7 x{integer}
+101i7 y{integer}
+102V13*op_Equality{boolean} 103>7 104>7 157b23
+103r7 left{18R9}
+104r7 right{18R9}
+105V13*op_Inequality{boolean} 106>7 107>7 158b23
+106r7 left{18R9}
+107r7 right{18R9}
+108V13*Round{18R9} 109>7 159b23
+109r7 value{10|18R9}
+110U14*set_Height 111>7 112>7 160b23
+111r7 This{18R9}
+112i7 value{integer}
+113U14*set_Location 114>7 115>7 161b23
+114r7 This{18R9}
+115r7 value{8|17R9}
+116U14*set_Size 117>7 118>7 162b23
+117r7 This{18R9}
+118r7 value{11|17R9}
+119U14*set_Width 120>7 121>7 163b23
+120r7 This{18R9}
+121i7 value{integer}
+122U14*set_X 123>7 124>7 164b23
+123r7 This{18R9}
+124i7 value{integer}
+125U14*set_Y 126>7 127>7 165b23
+126r7 This{18R9}
+127i7 value{integer}
+128V13*ToString{33|27P9} 129>7 166b23
+129r7 This{18R9}
+130V13*Truncate{18R9} 131>7 167b23
+131r7 value{10|18R9}
+132V13*Union{18R9} 133>7 134>7 168b23
+133r7 a{18R9}
+134r7 b{18R9}
+X 10 mssyst-drawing-rectanglef.ads
+17K24 RectangleF 9|32r30 109r30 131r30
+18R9 ValueType 9|32r41 109r41 131r41
+X 11 mssyst-drawing-size.ads
+16K24 Size 9|30r29 64r47 81r29 118r30
+17R9 ValueType 9|30r34 64r52 81r34 118r35
+X 17 mssyst-object.ads
+11K16*Object 9|7w13 45r20 17|46e18
+13P9*Ref(12R9) 9|45r27
+18R9*Typ
+31V13*GetType{38|51P9}
+X 33 mssyst-string.ads
+25K16 String 9|129r39
+27P9 Ref(integer) 9|129r46
+X 38 mssyst-type_k.ads
+51P9 Ref(integer)
+X 41 mssyst-valuetype.ads
+13K16*ValueType 9|10w13 18r33 41|35e21
+14R9*Typ 9|18r43
+23V13*Equals{boolean}
+26V13*GetHashCode{integer}
+28V13*ToString{33|27P9}
+

@@ -1,0 +1,258 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.diagnostics.performancecounter%s  mssyst-diagnostics-performancecounter.ads  195067ea NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.component%s  mssyst-componentmodel-component.ads  mssyst-componentmodel-component.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.componentmodel.isupportinitialize%s  mssyst-componentmodel-isupportinitialize.ads  mssyst-componentmodel-isupportinitialize.ali
+W mssyst.diagnostics%s	mssyst-diagnostics.ads	mssyst-diagnostics.ali
+W mssyst.diagnostics.performancecounterinstancelifetime%s  mssyst-diagnostics-performancecounterinstancelifetime.ads  mssyst-diagnostics-performancecounterinstancelifetime.ali
+W mssyst.diagnostics.performancecountertype%s  mssyst-diagnostics-performancecountertype.ads  mssyst-diagnostics-performancecountertype.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-componentmodel-isupportinitialize.ads  20060131171414 998e727f
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-diagnostics.ads  20060131165224 ca17f3f6
+D mssyst-diagnostics-countersample.ads  20060131171426 5bae4bd4
+D mssyst-diagnostics-performancecounter.ads  20060131171428 035d47a5
+D mssyst-diagnostics-performancecounterinstancelifetime.ads  20060131171428 a33f307d
+D mssyst-diagnostics-performancecountertype.ads  20060131171428 e59a5e9d
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 19|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 19|7r6 10r6 11r6 12r6 19r6 20r6 23r9 30r20 31r14 32r14 42r22
+. 43r21 44r22 45r21 48r22 49r21 50r22 53r22 54r21 55r22 59r22 60r21 63r22
+. 64r21 76r33 78r33 80r33 82r33 84r33 86r33 88r33 99r33 106r15 109r15 112r15
+. 115r15 118r15 154r5 156r20
+X 10 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 19|10r13 11r13 12r13 30r27 31r21 32r21
+X 11 mssyst-componentmodel-component.ads
+19K31*Component 60e36 19|10w28 30r42
+20R9*Typ 19|30r52
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{13|15P9}
+40V13*get_Site{14|16P9}
+42U14*remove_Disposed
+45U14*set_Site
+48V13*ToString{53|27P9}
+X 12 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 19|11w28 31r36
+13R9*Typ 19|31r47
+X 13 mssyst-componentmodel-icontainer.ads
+15P9 Ref(integer)
+X 14 mssyst-componentmodel-isite.ads
+16P9 Ref(integer)
+X 15 mssyst-componentmodel-isupportinitialize.ads
+10K31*ISupportInitialize 25e45 19|12w28 32r36
+11R9*Typ 19|32r55
+X 17 mssyst-diagnostics.ads
+6K16*Diagnostics 9|6k9 17|7e23 19|19r13 20r13 23r16 82r40 84r40 99r40 112r22
+. 154r12 156r27
+X 18 mssyst-diagnostics-countersample.ads
+15K28 CounterSample 19|99r52
+16R9 ValueType 19|99r66
+X 19 mssyst-diagnostics-performancecounter.ads
+23K28*PerformanceCounter 17|6k16 19|154l24 154e42 156r39
+24R9*Typ 25r27 30c9 67r21 69r21 72r21 74r21 76r21 78r21 80r21 82r21 84r21
+. 86r21 88r21 90r21 92r21 94r21 96r21 99r21 101r21 103r21 105r21 108r21 111r21
+. 114r21 117r21 120r21 123r21 126r27
+25P9*Ref(24R9) 26r34 27r47 39r14 39r34 41r14 45r47 47r14 50r48 52r14 56r43
+. 58r14 60r47 62r14 65r43
+26P9*Ref_addrof(25P9)
+27A9*Ref_Arr(25P9) 28r33
+28P9*Ref_Array(27A9) 29r40
+29P9*Ref_Array_addrof(28P9)
+30R9*Typ<11|26R9> 11|33P14 36p14 38p13 40P13 42P14 45P14 48P13 19|35e14 66P14
+. 68p14 71p13 73P14 75p13 77p13 79p13 81p13 83p13 85p13 87p13 89p13 91p13
+. 93p13 95p13 98p13 100p13 102p14 104p14 107p14 110p14 113p14 116p14 119p14
+. 122p14 30|24p13 27p13 29p13 32|23p13 29p13 31p13
+36i4*DefaultFileMappingSize{integer} 37m23
+38V13*new_PerformanceCounter{25P9} 39>7
+39p7 This{25P9}
+40V13*new_PerformanceCounter{25P9} 41>7 42>7 43>7 44>7 45>7
+41p7 This{25P9}
+42p7 categoryName{53|27P9}
+43p7 counterName{53|27P9}
+44p7 instanceName{53|27P9}
+45p7 machineName{53|27P9}
+46V13*new_PerformanceCounter{25P9} 47>7 48>7 49>7 50>7
+47p7 This{25P9}
+48p7 categoryName{53|27P9}
+49p7 counterName{53|27P9}
+50p7 instanceName{53|27P9}
+51V13*new_PerformanceCounter{25P9} 52>7 53>7 54>7 55>7 56>7
+52p7 This{25P9}
+53p7 categoryName{53|27P9}
+54p7 counterName{53|27P9}
+55p7 instanceName{53|27P9}
+56b7 readOnly{boolean}
+57V13*new_PerformanceCounter{25P9} 58>7 59>7 60>7
+58p7 This{25P9}
+59p7 categoryName{53|27P9}
+60p7 counterName{53|27P9}
+61V13*new_PerformanceCounter{25P9} 62>7 63>7 64>7 65>7
+62p7 This{25P9}
+63p7 categoryName{53|27P9}
+64p7 counterName{53|27P9}
+65b7 readOnly{boolean}
+66U14*BeginInit 67^7 128b23
+67p7 This(30R9)
+68U14*Close 69^7 129b23
+69p7 This(30R9)
+70U14*CloseSharedResources 130b23
+71V13*Decrement{long_long_integer} 72^7 131b23
+72p7 This(30R9)
+73U14*EndInit 74^7 132b23
+74p7 This(30R9)
+75V13*get_CategoryName{53|27P9} 76^7 133b23
+76p7 This(30R9)
+77V13*get_CounterHelp{53|27P9} 78^7 134b23
+78p7 This(30R9)
+79V13*get_CounterName{53|27P9} 80^7 135b23
+80p7 This(30R9)
+81V13*get_CounterType{21|16E9} 82^7 136b23
+82p7 This(30R9)
+83V13*get_InstanceLifetime{20|16E9} 84^7 137b23
+84p7 This(30R9)
+85V13*get_InstanceName{53|27P9} 86^7 138b23
+86p7 This(30R9)
+87V13*get_MachineName{53|27P9} 88^7 139b23
+88p7 This(30R9)
+89V13*get_RawValue{long_long_integer} 90^7 140b23
+90p7 This(30R9)
+91V13*get_ReadOnly{boolean} 92^7 141b23
+92p7 This(30R9)
+93V13*Increment{long_long_integer} 94^7 142b23
+94p7 This(30R9)
+95V13*IncrementBy{long_long_integer} 96^7 97>7 143b23
+96p7 This(30R9)
+97i7 value{long_long_integer}
+98V13*NextSample{18|16R9} 99^7 144b23
+99p7 This(30R9)
+100V13*NextValue{float} 101^7 145b23
+101p7 This(30R9)
+102U14*RemoveInstance 103^7 146b23
+103p7 This(30R9)
+104U14*set_CategoryName 105^7 106>7 147b23
+105p7 This(30R9)
+106p7 value{53|27P9}
+107U14*set_CounterName 108^7 109>7 148b23
+108p7 This(30R9)
+109p7 value{53|27P9}
+110U14*set_InstanceLifetime 111^7 112>7 149b23
+111p7 This(30R9)
+112e7 value{20|16E9}
+113U14*set_InstanceName 114^7 115>7 150b23
+114p7 This(30R9)
+115p7 value{53|27P9}
+116U14*set_MachineName 117^7 118>7 151b23
+117p7 This(30R9)
+118p7 value{53|27P9}
+119U14*set_RawValue 120^7 121>7 152b23
+120p7 This(30R9)
+121i7 value{long_long_integer}
+122U14*set_ReadOnly 123^7 124>7 153b23
+123p7 This(30R9)
+124b7 value{boolean}
+X 20 mssyst-diagnostics-performancecounterinstancelifetime.ads
+15K28*PerformanceCounterInstanceLifetime 19|20w25 84r52 112r34 20|58e58
+16E9*ValueType 19|84r87 112r69 20|18e15
+X 21 mssyst-diagnostics-performancecountertype.ads
+15K28*PerformanceCounterType 19|19w25 82r52 21|110e46
+16E9*ValueType 19|82r75 21|44e24
+X 30 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{48|23P9}
+27V13*GetLifetimeService{32|13P9}
+29V13*InitializeLifetimeService{32|13P9}
+X 32 mssyst-object.ads
+11K16*Object 19|7w13 32|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{58|51P9}
+X 48 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 53 mssyst-string.ads
+25K16 String 19|42r29 43r28 44r29 45r28 48r29 49r28 50r29 53r29 54r28 55r29
+. 59r29 60r28 63r29 64r28 76r40 78r40 80r40 86r40 88r40 106r22 109r22 115r22
+. 118r22
+27P9 Ref(integer) 19|42r36 43r35 44r36 45r35 48r36 49r35 50r36 53r36 54r35
+. 55r36 59r36 60r35 63r36 64r35 76r47 78r47 80r47 86r47 88r47 106r29 109r29
+. 115r29 118r29
+X 58 mssyst-type_k.ads
+51P9 Ref(integer)
+

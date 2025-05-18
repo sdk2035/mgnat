@@ -1,0 +1,222 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.stringformat%s  mssyst-drawing-stringformat.ads  68b35fc9 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.characterrange%s  mssyst-drawing-characterrange.ads  mssyst-drawing-characterrange.ali
+W mssyst.drawing.stringalignment%s  mssyst-drawing-stringalignment.ads  mssyst-drawing-stringalignment.ali
+W mssyst.drawing.stringdigitsubstitute%s  mssyst-drawing-stringdigitsubstitute.ads  mssyst-drawing-stringdigitsubstitute.ali
+W mssyst.drawing.stringformatflags%s  mssyst-drawing-stringformatflags.ads  mssyst-drawing-stringformatflags.ali
+W mssyst.drawing.stringtrimming%s  mssyst-drawing-stringtrimming.ads  mssyst-drawing-stringtrimming.ali
+W mssyst.drawing.text%s	mssyst-drawing-text.ads	mssyst-drawing-text.ali
+W mssyst.drawing.text.hotkeyprefix%s  mssyst-drawing-text-hotkeyprefix.ads  mssyst-drawing-text-hotkeyprefix.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.marshalbyrefobject%s  mssyst-marshalbyrefobject.ads  mssyst-marshalbyrefobject.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-characterrange.ads  20060131171432 d86a1dc9
+D mssyst-drawing-stringalignment.ads  20060131171432 211d31e2
+D mssyst-drawing-stringdigitsubstitute.ads  20060131171432 47567d09
+D mssyst-drawing-stringformat.ads  20060131171432 876e4f88
+D mssyst-drawing-stringformatflags.ads  20060131171432 c8a9661a
+D mssyst-drawing-stringtrimming.ads  20060131171432 4669219b
+D mssyst-drawing-text.ads  20060131171430 47e8b126
+D mssyst-drawing-text-hotkeyprefix.ads  20060131171430 8eb8b883
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 14|8w6 9r5 68r24 68r58 94r18
+11A9*float32_arr(float) 14|94r29
+12P9*float32_array(11A9) 14|68r69
+61M9*float32_addrof 14|68r35
+X 9 mssyst.ads
+6K9*MSSyst 7e11 14|7r6 10r6 11r6 15r6 16r6 17r6 18r6 19r6 20r6 22r9 29r20
+. 30r14 38r17 41r17 45r16 47r33 51r33 55r33 57r33 58r39 59r43 61r33 63r33
+. 65r33 71r15 74r15 77r15 80r15 83r15 87r20 90r16 96r33 121r5 123r20
+X 10 mssyst-drawing.ads
+6K16*Drawing 9|6k9 10|7e19 14|15r13 16r13 17r13 18r13 19r13 20r13 22r16 38r24
+. 41r24 45r23 51r40 55r40 57r40 58r46 59r50 61r40 63r40 65r40 71r22 74r22
+. 77r22 80r22 83r22 87r27 90r23 121r12 123r27
+X 11 mssyst-drawing-characterrange.ads
+14K24*CharacterRange 54e34 14|20w21 90r31
+16A9*ValueType_Arr(15R9)
+17P9*ValueType_Array(16A9) 14|90r46
+X 12 mssyst-drawing-stringalignment.ads
+15K24*StringAlignment 60e35 14|15w21 51r48 63r48 71r30 80r30
+16E9*ValueType 19e11 14|51r64 63r64 71r46 80r46
+X 13 mssyst-drawing-stringdigitsubstitute.ads
+15K24*StringDigitSubstitute 62e41 14|16w21 55r48 87r35
+16E9*ValueType 20e19 14|55r70 87r57
+X 14 mssyst-drawing-stringformat.ads
+22K24*StringFormat 10|6k16 14|45r31 58r54 59r58 121l20 121e32 123r35
+23R9*Typ 24r27 29c9 47r21 49r21 51r21 53r21 55r21 57r21 61r21 63r21 65r21
+. 67r21 70r21 73r21 76r21 79r21 82r21 85r21 89r21 92r21 96r21 98r27
+24P9*Ref(23R9) 25r34 26r47 35r14 35r34 37r14 38r68 40r14 42r34 44r14 45r44
+. 45r56 58r67 59r71
+25P9*Ref_addrof(24P9)
+26A9*Ref_Arr(24P9) 27r33
+27P9*Ref_Array(26A9) 28r40
+28P9*Ref_Array_addrof(27P9)
+29R9*Typ<25|21R9> 33e14 46P13 48p14 50p13 52p13 54p13 56p13 60p13 62p13 64p13
+. 66p13 69p14 72p14 75p14 78p14 81p14 84p14 88p14 91p14 95P13 25|24p13 27p13
+. 29p13 26|23p13 29p13 31p13
+34V13*new_StringFormat{24P9} 35>7
+35p7 This{24P9}
+36V13*new_StringFormat{24P9} 37>7 38>7
+37p7 This{24P9}
+38e7 options{15|16E9}
+39V13*new_StringFormat{24P9} 40>7 41>7 42>7
+40p7 This{24P9}
+41e7 options{15|16E9}
+42i7 language{integer}
+43V13*new_StringFormat{24P9} 44>7 45>7
+44p7 This{24P9}
+45p7 format{24P9}
+46V13*Clone{26|13P9} 47^7 100b23
+47p7 This(29R9)
+48U14*Dispose 49^7 101b23
+49p7 This(29R9)
+50V13*get_Alignment{12|16E9} 51^7 102b23
+51p7 This(29R9)
+52V13*get_DigitSubstitutionLanguage{integer} 53^7 103b23
+53p7 This(29R9)
+54V13*get_DigitSubstitutionMethod{13|16E9} 55^7 104b23
+55p7 This(29R9)
+56V13*get_FormatFlags{15|16E9} 57^7 105b23
+57p7 This(29R9)
+58V13*get_GenericDefault{24P9} 106b23
+59V13*get_GenericTypographic{24P9} 107b23
+60V13*get_HotkeyPrefix{18|16E9} 61^7 108b23
+61p7 This(29R9)
+62V13*get_LineAlignment{12|16E9} 63^7 109b23
+63p7 This(29R9)
+64V13*get_Trimming{16|16E9} 65^7 110b23
+65p7 This(29R9)
+66V13*GetTabStops{8|12P9} 67^7 68>7 111b23
+67p7 This(29R9)
+68m7 firstTabOffset{8|61M9}
+69U14*set_Alignment 70^7 71>7 112b23
+70p7 This(29R9)
+71e7 value{12|16E9}
+72U14*set_FormatFlags 73^7 74>7 113b23
+73p7 This(29R9)
+74e7 value{15|16E9}
+75U14*set_HotkeyPrefix 76^7 77>7 114b23
+76p7 This(29R9)
+77e7 value{18|16E9}
+78U14*set_LineAlignment 79^7 80>7 115b23
+79p7 This(29R9)
+80e7 value{12|16E9}
+81U14*set_Trimming 82^7 83>7 116b23
+82p7 This(29R9)
+83e7 value{16|16E9}
+84U14*SetDigitSubstitution 85^7 86>7 87>7 117b23
+85p7 This(29R9)
+86i7 language{integer}
+87e7 substitute{13|16E9}
+88U14*SetMeasurableCharacterRanges 89^7 90>7 118b23
+89p7 This(29R9)
+90p7 ranges{11|17P9}
+91U14*SetTabStops 92^7 93>7 94>7 119b23
+92p7 This(29R9)
+93f7 firstTabOffset{float}
+94a7 tabStops{8|11A9}
+95V13*ToString{47|27P9} 96^7 120b23
+96p7 This(29R9)
+X 15 mssyst-drawing-stringformatflags.ads
+15K24*StringFormatFlags 14|17w21 38r32 41r32 57r48 74r30 15|74e37
+16E9*ValueType 14|38r50 41r50 57r66 74r48 15|25e14
+X 16 mssyst-drawing-stringtrimming.ads
+15K24*StringTrimming 14|19w21 65r48 83r30 16|66e34
+16E9*ValueType 14|65r63 83r45 16|22e20
+X 17 mssyst-drawing-text.ads
+6K24*Text 14|18r21 61r48 77r30 17|7e24
+X 18 mssyst-drawing-text-hotkeyprefix.ads
+15K29*HotkeyPrefix 14|18w26 61r53 77r35 18|60e37
+16E9*ValueType 14|61r66 77r48 18|19e12
+X 22 mssyst-icloneable.ads
+11K16*ICloneable 14|11w13 30r21 22|23e22
+12R9*Typ 14|30r32
+X 25 mssyst-marshalbyrefobject.ads
+14K16*MarshalByRefObject 14|10w13 29r27 25|36e30
+15R9*Typ 14|29r46
+24V13*CreateObjRef{42|23P9}
+27V13*GetLifetimeService{26|13P9}
+29V13*InitializeLifetimeService{26|13P9}
+X 26 mssyst-object.ads
+11K16*Object 14|7w13 47r40 26|46e18
+13P9*Ref(12R9) 14|47r47
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{52|51P9}
+X 42 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 47 mssyst-string.ads
+25K16 String 14|96r40
+27P9 Ref(integer) 14|96r47
+X 52 mssyst-type_k.ads
+51P9 Ref(integer)
+

@@ -1,0 +1,177 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.net.webresponse%s  mssyst-net-webresponse.ads  367c7e34 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.marshalbyrefobject%s  mssyst-marshalbyrefobject.ads  mssyst-marshalbyrefobject.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.serialization%s  mssyst-runtime-serialization.ads  mssyst-runtime-serialization.ali
+W mssyst.runtime.serialization.iserializable%s  mssyst-runtime-serialization-iserializable.ads  mssyst-runtime-serialization-iserializable.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-specialized.ads  20060131171418 96cafd88
+D mssyst-collections-specialized-nameobjectcollectionbase.ads  20060131171418 dc04e33f
+D mssyst-collections-specialized-namevaluecollection.ads  20060131171418 bbd95227
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-seekorigin.ads  20060131171404 0f77313e
+D mssyst-io-stream.ads	20060131171402 5b7412c0
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-net.ads	20060131171420 aa03617c
+D mssyst-net-httprequestheader.ads  20060131171420 0fd763b3
+D mssyst-net-httpresponseheader.ads  20060131171420 cd584ea7
+D mssyst-net-webheadercollection.ads  20060131171422 ff3fe5a9
+D mssyst-net-webresponse.ads  20060131171420 0cb216a3
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060131171358 afb77eb6
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-runtime-serialization-serializationinfo.ads  20060131171358 df7a73a0
+D mssyst-runtime-serialization-streamingcontext.ads  20060131171358 58e01b0b
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060131171358 2f27fbc4
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-uri.ads	20060131171420 e4097279
+D mssyst-uricomponents.ads  20060131171420 7ea03585
+D mssyst-uriformat.ads	20060131171420 bf7e8d5a
+D mssyst-urihostnametype.ads  20060131171420 24f50916
+D mssyst-urikind.ads	20060131171420 c1a164ce
+D mssyst-uripartial.ads	20060131171420 4bb7c6be
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 28|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 28|7r6 10r6 11r6 19r9 26r29 27r14 36r33 38r33 44r33 46r33
+. 52r15 65r5 67r20
+X 20 mssyst-io.ads
+6K16 IO 28|46r40
+X 22 mssyst-io-stream.ads
+18K19 Stream 28|46r43
+20P9 Ref(integer) 28|46r50
+X 23 mssyst-marshalbyrefobject.ads
+14K16*MarshalByRefObject 36e30 28|10w13 26r36
+15R9*Typ 28|26r55
+24V13*CreateObjRef{45|23P9}
+27V13*GetLifetimeService{29|13P9}
+29V13*InitializeLifetimeService{29|13P9}
+X 24 mssyst-net.ads
+6K16*Net 9|6k9 24|7e15 28|19r16 38r40 65r12 67r27
+X 27 mssyst-net-webheadercollection.ads
+25K20 WebHeaderCollection 28|38r44
+27P9 Ref(integer) 28|38r64
+X 28 mssyst-net-webresponse.ads
+19K20*WebResponse 24|6k16 28|65l16 65e27 67r31
+20R9*Typ 21r27 26c9 32r21 34r21 36r21 38r21 40r21 42r21 44r21 46r21 48r21
+. 51r21 54r27
+21P9*Ref(20R9) 22r34 23r47
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40
+25P9*Ref_Array_addrof(24P9)
+26H9*Typ<23|21R9> 23|24p13 27p13 29p13 28|30e14 31p14 33p13 35p13 37p13 39p13
+. 41p13 43p13 45p13 47p14 50p14 29|23p13 29p13 31p13 36p13 49|20p14
+31U14*Close 32^7 55b23
+32p7 This(26R9)
+33V13*get_ContentLength{long_long_integer} 34^7 56b23
+34p7 This(26R9)
+35V13*get_ContentType{54|27P9} 36^7 57b23
+36p7 This(26R9)
+37V13*get_Headers{27|27P9} 38^7 58b23
+38p7 This(26R9)
+39V13*get_IsFromCache{boolean} 40^7 59b23
+40p7 This(26R9)
+41V13*get_IsMutuallyAuthenticated{boolean} 42^7 60b23
+42p7 This(26R9)
+43V13*get_ResponseUri{62|24P9} 44^7 61b23
+44p7 This(26R9)
+45V13*GetResponseStream{22|20P9} 46^7 62b23
+46p7 This(26R9)
+47U14*set_ContentLength 48^7 49>7 63b23
+48p7 This(26R9)
+49i7 value{long_long_integer}
+50U14*set_ContentType 51^7 52>7 64b23
+51p7 This(26R9)
+52p7 value{54|27P9}
+X 29 mssyst-object.ads
+11K16*Object 28|7w13 29|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{59|51P9}
+36V13*ToString{54|27P9}
+X 40 mssyst-runtime.ads
+6K16*Runtime 28|11r13 27r21 40|7e19
+X 45 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 46 mssyst-runtime-serialization.ads
+6K24*Serialization 28|11r21 27r29 46|7e33
+X 49 mssyst-runtime-serialization-iserializable.ads
+12K38*ISerializable 28|11w35 27r43 49|26e47
+13R9*Typ 28|27r57
+20x14*GetObjectData
+X 54 mssyst-string.ads
+25K16 String 28|36r40 52r22
+27P9 Ref(integer) 28|36r47 52r29
+X 59 mssyst-type_k.ads
+51P9 Ref(integer)
+X 62 mssyst-uri.ads
+22K16 Uri 28|44r40
+24P9 Ref(integer) 28|44r44
+

@@ -1,0 +1,240 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.imaging.colormatrix%s  mssyst-drawing-imaging-colormatrix.ads  91fa1a3b NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.imaging%s  mssyst-drawing-imaging.ads  mssyst-drawing-imaging.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-imaging.ads  20060131171430 83f7d7de
+D mssyst-drawing-imaging-colormatrix.ads  20060131171430 a7898a15
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 9|8w6 9r5 27r24
+11A9*float32_arr(float)
+12P9*float32_array(11A9)
+13P9*float32_array_array(12P9) 9|27r35
+X 6 mssyst.ads
+6K9*MSSyst 7e11 9|7r6 10r6 13r9 20r20 217r5 219r20
+X 7 mssyst-drawing.ads
+6K16*Drawing 6|6k9 7|7e19 9|13r16 217r12 219r27
+X 8 mssyst-drawing-imaging.ads
+6K24*Imaging 7|6k16 8|7e27 9|13r24 217r20 219r35
+X 9 mssyst-drawing-imaging-colormatrix.ads
+13K32*ColorMatrix 8|6k24 9|217l28 217e39 219r43
+14R9*Typ 15r27 20c9 29r21 33r21 35r21 37r21 39r21 41r21 43r21 45r21 47r21
+. 49r21 51r21 53r21 55r21 57r21 59r21 61r21 63r21 65r21 67r21 69r21 71r21
+. 73r21 75r21 77r21 79r21 81r21 83r21 88r21 91r21 94r21 97r21 100r21 103r21
+. 106r21 109r21 112r21 115r21 118r21 121r21 124r21 127r21 130r21 133r21 136r21
+. 139r21 142r21 145r21 148r21 151r21 154r21 157r21 160r21 163r27
+15P9*Ref(14R9) 16r34 17r47 24r14 24r34 26r14 27r63
+16P9*Ref_addrof(15P9)
+17A9*Ref_Arr(15P9) 18r33
+18P9*Ref_Array(17A9) 19r40
+19P9*Ref_Array_addrof(18P9)
+20R9*Typ<15|18R9> 22e14 28p13 32p13 34p13 36p13 38p13 40p13 42p13 44p13 46p13
+. 48p13 50p13 52p13 54p13 56p13 58p13 60p13 62p13 64p13 66p13 68p13 70p13
+. 72p13 74p13 76p13 78p13 80p13 82p14 87p14 90p14 93p14 96p14 99p14 102p14
+. 105p14 108p14 111p14 114p14 117p14 120p14 123p14 126p14 129p14 132p14 135p14
+. 138p14 141p14 144p14 147p14 150p14 153p14 156p14 159p14 15|23p13 29p13
+. 31p13 36p13
+23V13*new_ColorMatrix{15P9} 24>7
+24p7 This{15P9}
+25V13*new_ColorMatrix{15P9} 26>7 27>7
+26p7 This{15P9}
+27p7 newColorMatrix{5|13P9}
+28V13*get_Item{float} 29^7 30>7 31>7 165b23
+29p7 This(20R9)
+30i7 row{integer}
+31i7 column{integer}
+32V13*get_Matrix00{float} 33^7 166b23
+33p7 This(20R9)
+34V13*get_Matrix01{float} 35^7 167b23
+35p7 This(20R9)
+36V13*get_Matrix02{float} 37^7 168b23
+37p7 This(20R9)
+38V13*get_Matrix03{float} 39^7 169b23
+39p7 This(20R9)
+40V13*get_Matrix04{float} 41^7 170b23
+41p7 This(20R9)
+42V13*get_Matrix10{float} 43^7 171b23
+43p7 This(20R9)
+44V13*get_Matrix11{float} 45^7 172b23
+45p7 This(20R9)
+46V13*get_Matrix12{float} 47^7 173b23
+47p7 This(20R9)
+48V13*get_Matrix13{float} 49^7 174b23
+49p7 This(20R9)
+50V13*get_Matrix14{float} 51^7 175b23
+51p7 This(20R9)
+52V13*get_Matrix20{float} 53^7 176b23
+53p7 This(20R9)
+54V13*get_Matrix21{float} 55^7 177b23
+55p7 This(20R9)
+56V13*get_Matrix22{float} 57^7 178b23
+57p7 This(20R9)
+58V13*get_Matrix23{float} 59^7 179b23
+59p7 This(20R9)
+60V13*get_Matrix24{float} 61^7 180b23
+61p7 This(20R9)
+62V13*get_Matrix30{float} 63^7 181b23
+63p7 This(20R9)
+64V13*get_Matrix31{float} 65^7 182b23
+65p7 This(20R9)
+66V13*get_Matrix32{float} 67^7 183b23
+67p7 This(20R9)
+68V13*get_Matrix33{float} 69^7 184b23
+69p7 This(20R9)
+70V13*get_Matrix34{float} 71^7 185b23
+71p7 This(20R9)
+72V13*get_Matrix40{float} 73^7 186b23
+73p7 This(20R9)
+74V13*get_Matrix41{float} 75^7 187b23
+75p7 This(20R9)
+76V13*get_Matrix42{float} 77^7 188b23
+77p7 This(20R9)
+78V13*get_Matrix43{float} 79^7 189b23
+79p7 This(20R9)
+80V13*get_Matrix44{float} 81^7 190b23
+81p7 This(20R9)
+82U14*set_Item 83^7 84>7 85>7 86>7 191b23
+83p7 This(20R9)
+84i7 row{integer}
+85i7 column{integer}
+86f7 value{float}
+87U14*set_Matrix00 88^7 89>7 192b23
+88p7 This(20R9)
+89f7 value{float}
+90U14*set_Matrix01 91^7 92>7 193b23
+91p7 This(20R9)
+92f7 value{float}
+93U14*set_Matrix02 94^7 95>7 194b23
+94p7 This(20R9)
+95f7 value{float}
+96U14*set_Matrix03 97^7 98>7 195b23
+97p7 This(20R9)
+98f7 value{float}
+99U14*set_Matrix04 100^7 101>7 196b23
+100p7 This(20R9)
+101f7 value{float}
+102U14*set_Matrix10 103^7 104>7 197b23
+103p7 This(20R9)
+104f7 value{float}
+105U14*set_Matrix11 106^7 107>7 198b23
+106p7 This(20R9)
+107f7 value{float}
+108U14*set_Matrix12 109^7 110>7 199b23
+109p7 This(20R9)
+110f7 value{float}
+111U14*set_Matrix13 112^7 113>7 200b23
+112p7 This(20R9)
+113f7 value{float}
+114U14*set_Matrix14 115^7 116>7 201b23
+115p7 This(20R9)
+116f7 value{float}
+117U14*set_Matrix20 118^7 119>7 202b23
+118p7 This(20R9)
+119f7 value{float}
+120U14*set_Matrix21 121^7 122>7 203b23
+121p7 This(20R9)
+122f7 value{float}
+123U14*set_Matrix22 124^7 125>7 204b23
+124p7 This(20R9)
+125f7 value{float}
+126U14*set_Matrix23 127^7 128>7 205b23
+127p7 This(20R9)
+128f7 value{float}
+129U14*set_Matrix24 130^7 131>7 206b23
+130p7 This(20R9)
+131f7 value{float}
+132U14*set_Matrix30 133^7 134>7 207b23
+133p7 This(20R9)
+134f7 value{float}
+135U14*set_Matrix31 136^7 137>7 208b23
+136p7 This(20R9)
+137f7 value{float}
+138U14*set_Matrix32 139^7 140>7 209b23
+139p7 This(20R9)
+140f7 value{float}
+141U14*set_Matrix33 142^7 143>7 210b23
+142p7 This(20R9)
+143f7 value{float}
+144U14*set_Matrix34 145^7 146>7 211b23
+145p7 This(20R9)
+146f7 value{float}
+147U14*set_Matrix40 148^7 149>7 212b23
+148p7 This(20R9)
+149f7 value{float}
+150U14*set_Matrix41 151^7 152>7 213b23
+151p7 This(20R9)
+152f7 value{float}
+153U14*set_Matrix42 154^7 155>7 214b23
+154p7 This(20R9)
+155f7 value{float}
+156U14*set_Matrix43 157^7 158>7 215b23
+157p7 This(20R9)
+158f7 value{float}
+159U14*set_Matrix44 160^7 161>7 216b23
+160p7 This(20R9)
+161f7 value{float}
+X 15 mssyst-object.ads
+11K16*Object 9|7w13 10w13 20r27 15|46e18
+12R9*Typ 9|20r34 15|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{36|51P9}
+36V13*ToString{31|27P9}
+X 31 mssyst-string.ads
+27P9 Ref(integer)
+X 36 mssyst-type_k.ads
+51P9 Ref(integer)
+

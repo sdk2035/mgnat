@@ -1,0 +1,20 @@
+V "GNAT Lib v5.04"
+A -gnat05
+A -gnatwu
+A -gnatc
+A -mtune=pentium
+P NO ZX
+R nnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U strings%s		strings.ads		12ab350f EE PK
+
+D charenumerator.ads	20060220024030 a886b4fd
+D strings.ads		20060220024046 ba2d81f2
+X 1 charenumerator.ads
+6K9 CharEnumerator 2|12r40
+X 2 strings.ads
+7K9*Strings 13l5 13e12
+8R9*Typ 10e14 11p13 12r21
+11V13*GetEnumerator 12^7
+12p7 This(8R9)
+

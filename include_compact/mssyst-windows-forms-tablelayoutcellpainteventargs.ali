@@ -1,0 +1,143 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.tablelayoutcellpainteventargs%s  mssyst-windows-forms-tablelayoutcellpainteventargs.ads  29791f0b NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.painteventargs%s  mssyst-windows-forms-painteventargs.ads  mssyst-windows-forms-painteventargs.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-copypixeloperation.ads  20060131171430 bcae6884
+D mssyst-drawing-drawing2d.ads  20060131171430 02b10736
+D mssyst-drawing-drawing2d-combinemode.ads  20060131171430 467ba574
+D mssyst-drawing-drawing2d-compositingmode.ads  20060131171430 3ce094d4
+D mssyst-drawing-drawing2d-compositingquality.ads  20060131171430 777a28ce
+D mssyst-drawing-drawing2d-coordinatespace.ads  20060131171430 4eae09c0
+D mssyst-drawing-drawing2d-fillmode.ads  20060131171430 fd618471
+D mssyst-drawing-drawing2d-flushintention.ads  20060131171430 c85a32e0
+D mssyst-drawing-drawing2d-interpolationmode.ads  20060131171430 923a6e49
+D mssyst-drawing-drawing2d-matrixorder.ads  20060131171430 32337ee5
+D mssyst-drawing-drawing2d-pixeloffsetmode.ads  20060131171432 290cbe8f
+D mssyst-drawing-drawing2d-smoothingmode.ads  20060131171432 35dda90b
+D mssyst-drawing-graphics.ads  20060131171430 a787a9b1
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-idevicecontext.ads  20060131171428 3b407974
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-pointf.ads  20060131171432 a63d5a83
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-rectanglef.ads  20060131171432 7fcf14fa
+D mssyst-drawing-text.ads  20060131171430 47e8b126
+D mssyst-drawing-text-textrenderinghint.ads  20060131171432 e6fd5e60
+D mssyst-eventargs.ads	20060131171354 20b9e5e0
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-painteventargs.ads  20060131171436 f208d99f
+D mssyst-windows-forms-tablelayoutcellpainteventargs.ads  20060131171446 8a4479f7
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 64|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 64|7r6 10r6 16r9 23r20 28r11 29r23 30r20 34r33 45r5 47r20
+X 7 mssyst-drawing.ads
+6K16 Drawing 64|28r18 29r30 30r27 34r40
+X 20 mssyst-drawing-graphics.ads
+56K24 Graphics 64|28r26
+58P9 Ref(integer) 64|28r35
+X 25 mssyst-drawing-rectangle.ads
+17K24 Rectangle 64|29r38 30r35 34r48
+18R9 ValueType 64|29r48 30r45 34r58
+X 36 mssyst-object.ads
+11K16*Object 46e18 64|7w13
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{57|51P9}
+36V13*ToString{52|27P9}
+X 52 mssyst-string.ads
+27P9 Ref(integer)
+X 57 mssyst-type_k.ads
+51P9 Ref(integer)
+X 61 mssyst-windows.ads
+6K16*Windows 6|6k9 61|7e19 64|10r13 16r16 23r27 45r12 47r27
+X 62 mssyst-windows-forms.ads
+6K24*Forms 61|6k16 62|7e25 64|10r21 16r24 23r35 45r20 47r35
+X 63 mssyst-windows-forms-painteventargs.ads
+16K30*PaintEventArgs 42e40 64|10w27 23r41
+17R9*Typ 64|23r56
+30U14*Dispose
+32V13*get_ClipRectangle{25|18R9}
+34V13*get_Graphics{20|58P9}
+X 64 mssyst-windows-forms-tablelayoutcellpainteventargs.ads
+16K30*TableLayoutCellPaintEventArgs 62|6k24 64|45l26 45e55 47r41
+17R9*Typ 18r27 23c9 34r21 36r21 38r21 40r27
+18P9*Ref(17R9) 19r34 20r47 27r14 32r29
+19P9*Ref_addrof(18P9)
+20A9*Ref_Arr(18P9) 21r33
+21P9*Ref_Array(20A9) 22r40
+22P9*Ref_Array_addrof(21P9)
+23R9*Typ<63|23R9> 36|23p13 29p13 31p13 36p13 63|30p14 32p13 34p13 64|25e14
+. 33p13 35p13 37p13
+26V13*new_TableLayoutCellPaintEventArgs{18P9} 27>7 28>7 29>7 30>7 31>7 32>7
+. 41r28
+27p7 This{18P9}
+28p7 g{20|58P9}
+29r7 clipRectangle{25|18R9}
+30r7 cellBounds{25|18R9}
+31i7 column{integer}
+32i7 row{integer}
+33V13*get_CellBounds{25|18R9} 34^7 42b23
+34p7 This(23R9)
+35V13*get_Column{integer} 36^7 43b23
+36p7 This(23R9)
+37V13*get_Row{integer} 38^7 44b23
+38p7 This(23R9)
+

@@ -1,0 +1,143 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.printing.printerunitconvert%s  mssyst-drawing-printing-printerunitconvert.ads  dada09be NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.printing%s  mssyst-drawing-printing.ads  mssyst-drawing-printing.ali
+W mssyst.drawing.printing.printerunit%s  mssyst-drawing-printing-printerunit.ads  mssyst-drawing-printing-printerunit.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-printing.ads  20060131171432 b389d8c7
+D mssyst-drawing-printing-margins.ads  20060131171432 40b0be78
+D mssyst-drawing-printing-printerunit.ads  20060131171434 e835ad0d
+D mssyst-drawing-printing-printerunitconvert.ads  20060131171434 34e23b84
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-size.ads  20060131171430 9e839193
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 12|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 12|7r6 10r6 12r6 18r9 25r20 29r15 30r18 31r16 31r70 33r15
+. 34r18 35r16 35r70 37r15 38r18 39r16 39r70 42r18 43r16 46r18 47r16 49r15
+. 50r18 51r16 51r70 55r5 57r20
+X 7 mssyst-drawing.ads
+6K16*Drawing 6|6k9 7|7e19 12|12r13 18r16 29r22 30r25 31r23 31r77 33r22 34r25
+. 35r23 35r77 37r22 38r25 39r23 39r77 42r25 43r23 46r25 47r23 49r22 50r25
+. 51r23 51r77 55r12 57r27
+X 8 mssyst-drawing-point.ads
+16K24 Point 12|49r30 51r85
+17R9 ValueType 12|49r36 51r91
+X 9 mssyst-drawing-printing.ads
+6K24*Printing 7|6k16 9|7e28 12|12r21 18r24 30r33 31r31 34r33 35r31 37r30
+. 38r33 39r31 39r85 42r33 43r31 46r33 47r31 50r33 51r31 55r20 57r35
+X 10 mssyst-drawing-printing-margins.ads
+14K33 Margins 12|37r39 39r94
+16P9 Ref(integer) 12|37r47 39r102
+X 11 mssyst-drawing-printing-printerunit.ads
+15K33*PrinterUnit 62e40 12|12w30 30r42 31r40 34r42 35r40 38r42 39r40 42r42
+. 43r40 46r42 47r40 50r42 51r40
+16E9*ValueType 20e27 12|30r54 31r52 34r54 35r52 38r54 39r52 42r54 43r52 46r54
+. 47r52 50r54 51r52
+X 12 mssyst-drawing-printing-printerunitconvert.ads
+18K33*PrinterUnitConvert 9|6k24 12|55l29 55e47 57r44
+19R9*Typ 20r27 25c9 53r27
+20P9*Ref(19R9) 21r34 22r47
+21P9*Ref_addrof(20P9)
+22A9*Ref_Arr(20P9) 23r33
+23P9*Ref_Array(22A9) 24r40
+24P9*Ref_Array_addrof(23P9)
+25R9*Typ<21|18R9> 27e14 21|23p13 29p13 31p13 36p13
+28V13*Convert{14|17R9} 29>7 30>7 31>7
+29r7 value{14|17R9}
+30e7 fromUnit{11|16E9}
+31e7 toUnit{11|16E9}
+32V13*Convert{13|18R9} 33>7 34>7 35>7
+33r7 value{13|18R9}
+34e7 fromUnit{11|16E9}
+35e7 toUnit{11|16E9}
+36V13*Convert{10|16P9} 37>7 38>7 39>7
+37p7 value{10|16P9}
+38e7 fromUnit{11|16E9}
+39e7 toUnit{11|16E9}
+40V13*Convert{long_float} 41>7 42>7 43>7
+41f7 value{long_float}
+42e7 fromUnit{11|16E9}
+43e7 toUnit{11|16E9}
+44V13*Convert{integer} 45>7 46>7 47>7
+45i7 value{integer}
+46e7 fromUnit{11|16E9}
+47e7 toUnit{11|16E9}
+48V13*Convert{8|17R9} 49>7 50>7 51>7 54b23
+49r7 value{8|17R9}
+50e7 fromUnit{11|16E9}
+51e7 toUnit{11|16E9}
+X 13 mssyst-drawing-rectangle.ads
+17K24 Rectangle 12|33r30 35r85
+18R9 ValueType 12|33r40 35r95
+X 14 mssyst-drawing-size.ads
+16K24 Size 12|29r30 31r85
+17R9 ValueType 12|29r35 31r90
+X 21 mssyst-object.ads
+11K16*Object 12|7w13 10w13 25r27 21|46e18
+12R9*Typ 12|25r34 21|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{42|51P9}
+36V13*ToString{37|27P9}
+X 37 mssyst-string.ads
+27P9 Ref(integer)
+X 42 mssyst-type_k.ads
+51P9 Ref(integer)
+

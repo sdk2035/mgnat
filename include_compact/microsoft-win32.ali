@@ -1,0 +1,18 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U microsoft.win32%s	microsoft-win32.ads	bdc5949d EE PK
+W microsoft%s		microsoft.ads		microsoft.ali
+
+D microsoft.ads		20060131165226 02f2695c
+D microsoft-win32.ads	20060131165226 bf37fdc1
+D system.ads		20050820125040 15131902
+X 1 microsoft.ads
+6K9*Microsoft 7e14 2|6r9 7r5
+X 2 microsoft-win32.ads
+6K19*Win32 1|6k9 2|7l15 7e20
+

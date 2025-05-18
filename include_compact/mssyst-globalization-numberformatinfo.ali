@@ -1,0 +1,283 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.globalization.numberformatinfo%s  mssyst-globalization-numberformatinfo.ads  c70a0b8f NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.globalization%s  mssyst-globalization.ads  mssyst-globalization.ali
+W mssyst.globalization.digitshapes%s  mssyst-globalization-digitshapes.ads  mssyst-globalization-digitshapes.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.iformatprovider%s  mssyst-iformatprovider.ads  mssyst-iformatprovider.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-digitshapes.ads  20060131171358 aceef993
+D mssyst-globalization-numberformatinfo.ads  20060131171400 7fedf704
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 12|8w6 9r5 41r33 69r33 79r33 110r15 146r15 161r15
+34A9*int32_arr(integer) 12|110r26 146r26 161r26
+35P9*Int32_Array(34A9) 12|41r44 69r44 79r44
+X 9 mssyst.ads
+6K9*MSSyst 7e11 12|7r6 10r6 11r6 12r6 14r6 17r9 24r20 25r14 26r14 33r33 37r33
+. 39r33 47r33 48r36 50r33 51r38 55r33 57r33 59r33 61r33 65r33 67r33 75r33
+. 77r33 85r33 87r33 89r33 91r33 94r20 94r46 96r24 96r59 98r13 98r63 104r15
+. 107r15 119r15 122r15 125r15 128r15 131r15 134r15 140r15 143r15 155r15 158r15
+. 170r15 173r15 176r15 179r15 244r5 246r20
+X 10 mssyst-globalization.ads
+6K16*Globalization 9|6k9 10|7e25 12|14r13 17r16 48r43 50r40 51r45 96r66 98r20
+. 98r70 122r22 244r12 246r27
+X 11 mssyst-globalization-digitshapes.ads
+15K30*DigitShapes 60e37 12|14w27 50r54 122r36
+16E9*ValueType 19e22 12|50r66 122r48
+X 12 mssyst-globalization-numberformatinfo.ads
+17K30*NumberFormatInfo 10|6k16 12|48r57 51r59 96r80 98r34 98r84 244l26 244e42
+. 246r41
+18R9*Typ 19r27 24c9 33r21 35r21 37r21 39r21 41r21 43r21 45r21 47r21 50r21
+. 53r21 55r21 57r21 59r21 61r21 63r21 65r21 67r21 69r21 71r21 73r21 75r21
+. 77r21 79r21 81r21 83r21 85r21 87r21 89r21 91r21 93r21 100r21 103r21 106r21
+. 109r21 112r21 115r21 118r21 121r21 124r21 127r21 130r21 133r21 136r21 139r21
+. 142r21 145r21 148r21 151r21 154r21 157r21 160r21 163r21 166r21 169r21 172r21
+. 175r21 178r21 181r27
+19P9*Ref(18R9) 20r34 21r47 31r14 31r34 48r74 51r76 96r97 98r51 98r101
+20P9*Ref_addrof(19P9)
+21A9*Ref_Arr(19P9) 22r33
+22P9*Ref_Array(21A9) 23r40
+23P9*Ref_Array_addrof(22P9)
+24R9*Typ<18|18R9> 29e14 32P13 34p13 36p13 38p13 40p13 42p13 44p13 46p13 49p13
+. 52p13 54p13 56p13 58p13 60p13 62p13 64p13 66p13 68p13 70p13 72p13 74p13
+. 76p13 78p13 80p13 82p13 84p13 86p13 88p13 90p13 92P13 99p14 102p14 105p14
+. 108p14 111p14 114p14 117p14 120p14 123p14 126p14 129p14 132p14 135p14 138p14
+. 141p14 144p14 147p14 150p14 153p14 156p14 159p14 162p14 165p14 168p14 171p14
+. 174p14 177p14 18|23p13 29p13 31p13 36p13
+30V13*new_NumberFormatInfo{19P9} 31>7 182r28
+31p7 This{19P9}
+32V13*Clone{18|13P9} 33^7 183b23
+33p7 This(24R9)
+34V13*get_CurrencyDecimalDigits{integer} 35^7 184b23
+35p7 This(24R9)
+36V13*get_CurrencyDecimalSeparator{34|27P9} 37^7 185b23
+37p7 This(24R9)
+38V13*get_CurrencyGroupSeparator{34|27P9} 39^7 186b23
+39p7 This(24R9)
+40V13*get_CurrencyGroupSizes{8|35P9} 41^7 187b23
+41p7 This(24R9)
+42V13*get_CurrencyNegativePattern{integer} 43^7 188b23
+43p7 This(24R9)
+44V13*get_CurrencyPositivePattern{integer} 45^7 189b23
+45p7 This(24R9)
+46V13*get_CurrencySymbol{34|27P9} 47^7 190b23
+47p7 This(24R9)
+48V13*get_CurrentInfo{19P9} 191b23
+49V13*get_DigitSubstitution{11|16E9} 50^7 192b23
+50p7 This(24R9)
+51V13*get_InvariantInfo{19P9} 193b23
+52V13*get_IsReadOnly{boolean} 53^7 194b23
+53p7 This(24R9)
+54V13*get_NaNSymbol{34|27P9} 55^7 195b23
+55p7 This(24R9)
+56V13*get_NativeDigits{34|30P9} 57^7 196b23
+57p7 This(24R9)
+58V13*get_NegativeInfinitySymbol{34|27P9} 59^7 197b23
+59p7 This(24R9)
+60V13*get_NegativeSign{34|27P9} 61^7 198b23
+61p7 This(24R9)
+62V13*get_NumberDecimalDigits{integer} 63^7 199b23
+63p7 This(24R9)
+64V13*get_NumberDecimalSeparator{34|27P9} 65^7 200b23
+65p7 This(24R9)
+66V13*get_NumberGroupSeparator{34|27P9} 67^7 201b23
+67p7 This(24R9)
+68V13*get_NumberGroupSizes{8|35P9} 69^7 202b23
+69p7 This(24R9)
+70V13*get_NumberNegativePattern{integer} 71^7 203b23
+71p7 This(24R9)
+72V13*get_PercentDecimalDigits{integer} 73^7 204b23
+73p7 This(24R9)
+74V13*get_PercentDecimalSeparator{34|27P9} 75^7 205b23
+75p7 This(24R9)
+76V13*get_PercentGroupSeparator{34|27P9} 77^7 206b23
+77p7 This(24R9)
+78V13*get_PercentGroupSizes{8|35P9} 79^7 207b23
+79p7 This(24R9)
+80V13*get_PercentNegativePattern{integer} 81^7 208b23
+81p7 This(24R9)
+82V13*get_PercentPositivePattern{integer} 83^7 209b23
+83p7 This(24R9)
+84V13*get_PercentSymbol{34|27P9} 85^7 210b23
+85p7 This(24R9)
+86V13*get_PerMilleSymbol{34|27P9} 87^7 211b23
+87p7 This(24R9)
+88V13*get_PositiveInfinitySymbol{34|27P9} 89^7 212b23
+89p7 This(24R9)
+90V13*get_PositiveSign{34|27P9} 91^7 213b23
+91p7 This(24R9)
+92V13*GetFormat{18|13P9} 93^7 94>7 214b23
+93p7 This(24R9)
+94p7 formatType{39|51P9}
+95V13*GetInstance{19P9} 96>7 215b23
+96p7 formatProvider{17|14P9}
+97V13*ReadOnly{19P9} 98>7 216b23
+98p7 nfi{19P9}
+99U14*set_CurrencyDecimalDigits 100^7 101>7 217b23
+100p7 This(24R9)
+101i7 value{integer}
+102U14*set_CurrencyDecimalSeparator 103^7 104>7 218b23
+103p7 This(24R9)
+104p7 value{34|27P9}
+105U14*set_CurrencyGroupSeparator 106^7 107>7 219b23
+106p7 This(24R9)
+107p7 value{34|27P9}
+108U14*set_CurrencyGroupSizes 109^7 110>7 220b23
+109p7 This(24R9)
+110a7 value{8|34A9}
+111U14*set_CurrencyNegativePattern 112^7 113>7 221b23
+112p7 This(24R9)
+113i7 value{integer}
+114U14*set_CurrencyPositivePattern 115^7 116>7 222b23
+115p7 This(24R9)
+116i7 value{integer}
+117U14*set_CurrencySymbol 118^7 119>7 223b23
+118p7 This(24R9)
+119p7 value{34|27P9}
+120U14*set_DigitSubstitution 121^7 122>7 224b23
+121p7 This(24R9)
+122e7 value{11|16E9}
+123U14*set_NaNSymbol 124^7 125>7 225b23
+124p7 This(24R9)
+125p7 value{34|27P9}
+126U14*set_NativeDigits 127^7 128>7 226b23
+127p7 This(24R9)
+128p7 value{34|30P9}
+129U14*set_NegativeInfinitySymbol 130^7 131>7 227b23
+130p7 This(24R9)
+131p7 value{34|27P9}
+132U14*set_NegativeSign 133^7 134>7 228b23
+133p7 This(24R9)
+134p7 value{34|27P9}
+135U14*set_NumberDecimalDigits 136^7 137>7 229b23
+136p7 This(24R9)
+137i7 value{integer}
+138U14*set_NumberDecimalSeparator 139^7 140>7 230b23
+139p7 This(24R9)
+140p7 value{34|27P9}
+141U14*set_NumberGroupSeparator 142^7 143>7 231b23
+142p7 This(24R9)
+143p7 value{34|27P9}
+144U14*set_NumberGroupSizes 145^7 146>7 232b23
+145p7 This(24R9)
+146a7 value{8|34A9}
+147U14*set_NumberNegativePattern 148^7 149>7 233b23
+148p7 This(24R9)
+149i7 value{integer}
+150U14*set_PercentDecimalDigits 151^7 152>7 234b23
+151p7 This(24R9)
+152i7 value{integer}
+153U14*set_PercentDecimalSeparator 154^7 155>7 235b23
+154p7 This(24R9)
+155p7 value{34|27P9}
+156U14*set_PercentGroupSeparator 157^7 158>7 236b23
+157p7 This(24R9)
+158p7 value{34|27P9}
+159U14*set_PercentGroupSizes 160^7 161>7 237b23
+160p7 This(24R9)
+161a7 value{8|34A9}
+162U14*set_PercentNegativePattern 163^7 164>7 238b23
+163p7 This(24R9)
+164i7 value{integer}
+165U14*set_PercentPositivePattern 166^7 167>7 239b23
+166p7 This(24R9)
+167i7 value{integer}
+168U14*set_PercentSymbol 169^7 170>7 240b23
+169p7 This(24R9)
+170p7 value{34|27P9}
+171U14*set_PerMilleSymbol 172^7 173>7 241b23
+172p7 This(24R9)
+173p7 value{34|27P9}
+174U14*set_PositiveInfinitySymbol 175^7 176>7 242b23
+175p7 This(24R9)
+176p7 value{34|27P9}
+177U14*set_PositiveSign 178^7 179>7 243b23
+178p7 This(24R9)
+179p7 value{34|27P9}
+X 15 mssyst-icloneable.ads
+11K16*ICloneable 12|11w13 25r21 15|23e22
+12R9*Typ 12|25r32
+X 17 mssyst-iformatprovider.ads
+12K16*IFormatProvider 12|12w13 26r21 96r31 17|25e27
+13R9*Typ 12|26r37
+14P9*Ref(13R9) 12|96r47
+X 18 mssyst-object.ads
+11K16*Object 12|7w13 10w13 24r27 33r40 94r53 18|46e18
+12R9*Typ 12|24r34 18|20e14
+13P9*Ref(12R9) 12|33r47 94r60
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{39|51P9}
+36V13*ToString{34|27P9}
+X 34 mssyst-string.ads
+25K16 String 12|37r40 39r40 47r40 55r40 57r40 59r40 61r40 65r40 67r40 75r40
+. 77r40 85r40 87r40 89r40 91r40 104r22 107r22 119r22 125r22 128r22 131r22
+. 134r22 140r22 143r22 155r22 158r22 170r22 173r22 176r22 179r22
+27P9 Ref(integer) 12|37r47 39r47 47r47 55r47 59r47 61r47 65r47 67r47 75r47
+. 77r47 85r47 87r47 89r47 91r47 104r29 107r29 119r29 125r29 131r29 134r29
+. 140r29 143r29 155r29 158r29 170r29 173r29 176r29 179r29
+30P9 Ref_Array(integer) 12|57r47 128r29
+X 39 mssyst-type_k.ads
+49K16 Type_k 12|94r27
+51P9 Ref(integer) 12|94r34
+

@@ -1,0 +1,155 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.componentmodel.com2interop.icompropertybrowser%s  mssyst-windows-forms-componentmodel-com2interop-icompropertybrowser.ads  68de3987 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.componentmodel%s  mssyst-windows-forms-componentmodel.ads  mssyst-windows-forms-componentmodel.ali
+W mssyst.windows.forms.componentmodel.com2interop%s  mssyst-windows-forms-componentmodel-com2interop.ads  mssyst-windows-forms-componentmodel-com2interop.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060131165226 02f2695c
+D microsoft-win32.ads	20060131165226 bf37fdc1
+D microsoft-win32-registryhive.ads  20060131171400 528576f3
+D microsoft-win32-registrykey.ads  20060131171400 26195ad0
+D microsoft-win32-registrykeypermissioncheck.ads  20060131171400 4340232d
+D microsoft-win32-registryvaluekind.ads  20060131171400 27672cef
+D microsoft-win32-registryvalueoptions.ads  20060131171400 c83e4e71
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-design.ads  20060131171414 dcbb2ca1
+D mssyst-componentmodel-design-componentrenameeventhandler.ads  20060131171414 5ed2138c
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-accesscontrol.ads  20060131165242 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060131171410 dea99828
+D mssyst-security-accesscontrol-registryrights.ads  20060131171410 d9e9ca4b
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-componentmodel.ads  20060131171322 4e39ebc2
+D mssyst-windows-forms-componentmodel-com2interop.ads  20060131171322 5846b386
+D mssyst-windows-forms-componentmodel-com2interop-icompropertybrowser.ads  20060131171446 a763ad4b
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 microsoft.ads
+6K9 Microsoft 63|33r13 39r13
+X 9 microsoft-win32.ads
+6K19 Win32 63|33r23 39r23
+X 11 microsoft-win32-registrykey.ads
+23K25 RegistryKey 63|33r29 39r29
+25P9 Ref(integer) 63|33r41 39r41
+X 15 msil_types.ads
+7K9*Msil_Types 71e15 63|8w6 9r5
+X 16 mssyst.ads
+6K9*MSSyst 7e11 63|7r6 12r9 22r15 36r15 49r5 51r20
+X 17 mssyst-componentmodel.ads
+6K16 ComponentModel 63|22r22 36r22
+X 18 mssyst-componentmodel-design.ads
+6K31 Design 63|22r37 36r37
+X 19 mssyst-componentmodel-design-componentrenameeventhandler.ads
+24K38 ComponentRenameEventHandler 63|22r44 36r44
+26P9 Ref(integer) 63|22r72 36r72
+X 28 mssyst-object.ads
+11K16*Object 46e18 63|7w13
+X 59 mssyst-windows.ads
+6K16*Windows 16|6k9 59|7e19 63|12r16 49r12 51r27
+X 60 mssyst-windows-forms.ads
+6K24*Forms 59|6k16 60|7e25 63|12r24 49r20 51r35
+X 61 mssyst-windows-forms-componentmodel.ads
+6K30*ComponentModel 60|6k24 61|7e40 63|12r30 49r26 51r41
+X 62 mssyst-windows-forms-componentmodel-com2interop.ads
+6K45*Com2Interop 61|6k30 62|7e52 63|12r45 49r41 51r56
+X 63 mssyst-windows-forms-componentmodel-com2interop-icompropertybrowser.ads
+12K57*IComPropertyBrowser 62|6k45 63|49l53 49e72 51r68
+13R9*Typ 14r27 19c9 21r21 24r21 26r21 28r21 30r21 32r21 35r21 38r21
+14P9*Ref(13R9) 15r34 16r47
+15P9*Ref_addrof(14P9)
+16A9*Ref_Arr(14P9) 17r33
+17P9*Ref_Array(16A9) 18r40
+18P9*Ref_Array_addrof(17P9)
+19H9*Typ 20p14 23p14 25p13 27p13 29p14 31p14 34p14 37p14
+20x14*add_ComComponentNameChanged 21^7 22>7 41b23
+21p7 This(19R9)
+22p7 value{19|26P9}
+23x14*DropDownDone 24^7 42b23
+24p7 This(19R9)
+25y13*EnsurePendingChangesCommitted{boolean} 26^7 43b23
+26p7 This(19R9)
+27y13*get_InPropertySet{boolean} 28^7 44b23
+28p7 This(19R9)
+29x14*HandleF4 30^7 45b23
+30p7 This(19R9)
+31x14*LoadState 32^7 33>7 46b23
+32p7 This(19R9)
+33p7 key{11|25P9}
+34x14*remove_ComComponentNameChanged 35^7 36>7 47b23
+35p7 This(19R9)
+36p7 value{19|26P9}
+37x14*SaveState 38^7 39>7 48b23
+38p7 This(19R9)
+39p7 key{11|25P9}
+

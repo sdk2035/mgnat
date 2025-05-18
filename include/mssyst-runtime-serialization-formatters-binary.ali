@@ -1,0 +1,26 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.serialization.formatters.binary%s  mssyst-runtime-serialization-formatters-binary.ads  ae760b9b EE PK
+W mssyst.runtime.serialization.formatters%s  mssyst-runtime-serialization-formatters.ads  mssyst-runtime-serialization-formatters.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-runtime.ads	20060517214744 31dcc047
+D mssyst-runtime-serialization.ads  20060517214744 8d5305f0
+D mssyst-runtime-serialization-formatters.ads  20060517214754 f2e43a4d
+D mssyst-runtime-serialization-formatters-binary.ads  20060517214756 5c9231d6
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 5|6r9 7r5
+X 2 mssyst-runtime.ads
+6K16*Runtime 1|6k9 2|7e19 5|6r16 7r12
+X 3 mssyst-runtime-serialization.ads
+6K24*Serialization 2|6k16 3|7e33 5|6r24 7r20
+X 4 mssyst-runtime-serialization-formatters.ads
+6K38*Formatters 3|6k24 4|7e44 5|6r38 7r34
+X 5 mssyst-runtime-serialization-formatters-binary.ads
+6K49*Binary 4|6k38 5|7l45 7e51
+

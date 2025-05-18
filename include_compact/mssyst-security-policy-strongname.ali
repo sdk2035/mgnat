@@ -1,0 +1,149 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.security.policy.strongname%s  mssyst-security-policy-strongname.ads  3d506d0f NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.policy%s  mssyst-security-policy.ads  mssyst-security-policy.ali
+W mssyst.security.policy.iidentitypermissionfactory%s  mssyst-security-policy-iidentitypermissionfactory.ads  mssyst-security-policy-iidentitypermissionfactory.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-ipermission.ads  20060131171404 ac3cc26b
+D mssyst-security-isecurityencodable.ads  20060131171400 401a78fc
+D mssyst-security-permissions.ads  20060131165236 554c10f6
+D mssyst-security-permissions-strongnamepublickeyblob.ads  20060131171404 e8074954
+D mssyst-security-policy.ads  20060131165228 7a609687
+D mssyst-security-policy-evidence.ads  20060131171400 64e7a78f
+D mssyst-security-policy-iidentitypermissionfactory.ads  20060131171400 6cc107e1
+D mssyst-security-policy-strongname.ads  20060131171400 9e75bb99
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-version.ads	20060131171356 6c768437
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 41|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 41|7r6 10r6 11r6 18r9 25r20 26r14 32r14 33r14 34r17 36r33
+. 39r18 39r62 42r11 44r33 46r33 48r33 52r33 64r5 66r20
+X 17 mssyst-object.ads
+11K16*Object 46e18 41|7w13 10w13 25r27 36r40 42r18
+12R9*Typ 20e14 41|25r34
+13P9*Ref(12R9) 41|36r47 42r25
+18R9*Typ
+31V13*GetType{47|51P9}
+X 33 mssyst-security.ads
+6K16*Security 9|6k9 33|7e20 41|11r13 18r16 26r21 32r21 39r25 39r69 46r40
+. 64r12 66r27
+X 34 mssyst-security-ipermission.ads
+11K25 IPermission 41|39r78
+13P9 Ref(integer) 41|39r90
+X 36 mssyst-security-permissions.ads
+6K25 Permissions 41|32r30 46r49
+X 37 mssyst-security-permissions-strongnamepublickeyblob.ads
+13K37 StrongNamePublicKeyBlob 41|32r42 46r61
+15P9 Ref(integer) 41|32r66 46r85
+X 38 mssyst-security-policy.ads
+6K25*Policy 33|6k16 38|7e27 41|11r22 18r25 26r30 39r34 64r21 66r36
+X 39 mssyst-security-policy-evidence.ads
+17K32 Evidence 41|39r41
+19P9 Ref(integer) 41|39r50
+X 40 mssyst-security-policy-iidentitypermissionfactory.ads
+12K32*IIdentityPermissionFactory 25e54 41|11w29 26r37
+13R9*Typ 41|26r64
+X 41 mssyst-security-policy-strongname.ads
+18K32*StrongName 38|6k25 41|64l28 64e38 66r43
+19R9*Typ 20r27 25c9 36r21 38r21 41r21 44r21 46r21 48r21 50r21 52r21 54r27
+20P9*Ref(19R9) 21r34 22r47 31r14 34r44
+21P9*Ref_addrof(20P9)
+22A9*Ref_Arr(20P9) 23r33
+23P9*Ref_Array(22A9) 24r40
+24P9*Ref_Array_addrof(23P9)
+25R9*Typ<17|18R9> 17|31p13 41|29e14 35p13 37P13 40P13 43p13 45p13 47p13 49P13
+. 51P13
+30V13*new_StrongName{20P9} 31>7 32>7 33>7 34>7 55r28
+31p7 This{20P9}
+32p7 blob{37|15P9}
+33p7 name{42|27P9}
+34p7 version{51|17P9}
+35V13*Copy{17|13P9} 36^7 56b23
+36p7 This(25R9)
+37V13*CreateIdentityPermission{34|13P9} 38^7 39>7 57b23
+38p7 This(25R9)
+39p7 evidence{39|19P9}
+40V13*Equals{boolean} 41^7 42>7 58b23
+41p7 This(25R9)
+42p7 o{17|13P9}
+43V13*get_Name{42|27P9} 44^7 59b23
+44p7 This(25R9)
+45V13*get_PublicKey{37|15P9} 46^7 60b23
+46p7 This(25R9)
+47V13*get_Version{51|17P9} 48^7 61b23
+48p7 This(25R9)
+49V13*GetHashCode{integer} 50^7 62b23
+50p7 This(25R9)
+51V13*ToString{42|27P9} 52^7 63b23
+52p7 This(25R9)
+X 42 mssyst-string.ads
+25K16 String 41|33r21 44r40 52r40
+27P9 Ref(integer) 41|33r28 44r47 52r47
+X 47 mssyst-type_k.ads
+51P9 Ref(integer)
+X 51 mssyst-version.ads
+15K16 Version 41|34r24 48r40
+17P9 Ref(integer) 41|34r32 48r48
+

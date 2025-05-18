@@ -1,0 +1,175 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.remoting.activation.urlattribute%s  mssyst-runtime-remoting-activation-urlattribute.ads  dd2c4251 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.remoting%s  mssyst-runtime-remoting.ads  mssyst-runtime-remoting.ali
+W mssyst.runtime.remoting.activation%s  mssyst-runtime-remoting-activation.ads  mssyst-runtime-remoting-activation.ali
+W mssyst.runtime.remoting.contexts%s  mssyst-runtime-remoting-contexts.ads  mssyst-runtime-remoting-contexts.ali
+W mssyst.runtime.remoting.contexts.contextattribute%s  mssyst-runtime-remoting-contexts-contextattribute.ads  mssyst-runtime-remoting-contexts-contextattribute.ali
+W mssyst.runtime.remoting.contexts.icontextattribute%s  mssyst-runtime-remoting-contexts-icontextattribute.ads  mssyst-runtime-remoting-contexts-icontextattribute.ali
+W mssyst.runtime.remoting.contexts.icontextproperty%s  mssyst-runtime-remoting-contexts-icontextproperty.ads  mssyst-runtime-remoting-contexts-icontextproperty.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-attribute.ads	20060131171354 578cce83
+D mssyst-configuration.ads  20060131165240 03b06563
+D mssyst-configuration-assemblies.ads  20060131165240 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060131171408 81fd999d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-assembly.ads  20060131171358 cac2cf86
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-imagefilemachine.ads  20060131171358 57db8f30
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-module.ads  20060131171358 384ba6f0
+D mssyst-reflection-parameterattributes.ads  20060131171358 c0936dac
+D mssyst-reflection-parameterinfo.ads  20060131171358 c39e33ed
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-portableexecutablekinds.ads  20060131171358 da84966e
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-uassembly.ads  20060131171358 5462c788
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-umodule.ads  20060131171358 02c2dfd0
+D mssyst-runtime-interopservices-uparameterinfo.ads  20060131171358 4359b720
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-activation.ads  20060131165236 4116fead
+D mssyst-runtime-remoting-activation-iconstructioncallmessage.ads  20060131171404 72e7c3fe
+D mssyst-runtime-remoting-activation-urlattribute.ads  20060131171406 01024eea
+D mssyst-runtime-remoting-contexts.ads  20060131165236 eb69b8b6
+D mssyst-runtime-remoting-contexts-context.ads  20060131171404 4a4763e5
+D mssyst-runtime-remoting-contexts-contextattribute.ads  20060131171404 6059f7a2
+D mssyst-runtime-remoting-contexts-icontextattribute.ads  20060131171404 e988b3cd
+D mssyst-runtime-remoting-contexts-icontextproperty.ads  20060131171404 83129133
+D mssyst-runtime-remoting-messaging.ads  20060131165236 4bfbab1c
+D mssyst-runtime-remoting-messaging-imessage.ads  20060131171404 4a6683f1
+D mssyst-runtime-remoting-messaging-imethodcallmessage.ads  20060131171404 6399584e
+D mssyst-runtime-remoting-messaging-imethodmessage.ads  20060131171404 60eed5d3
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-ievidencefactory.ads  20060131171354 3a16bf31
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 46|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 46|7r6 10r6 11r6 12r6 18r9 25r20 26r14 27r14 33r21 36r11
+. 38r33 43r17 46r13 47r13 56r5 58r20
+X 10 mssyst-attribute.ads
+31V13*get_TypeId{19|13P9}
+111V13*IsDefaultAttribute{boolean}
+141V13*Match{boolean}
+X 19 mssyst-object.ads
+11K16*Object 46e18 46|7w13 36r18
+13P9*Ref(12R9) 46|36r25
+18R9*Typ
+31V13*GetType{66|51P9}
+36V13*ToString{61|27P9}
+X 36 mssyst-runtime.ads
+6K16*Runtime 9|6k9 36|7e19 46|10r13 11r13 12r13 18r16 25r27 26r21 27r21 43r24
+. 46r20 47r20 56r12 58r27
+X 43 mssyst-runtime-remoting.ads
+6K24*Remoting 36|6k16 43|7e28 46|10r21 11r21 12r21 18r24 25r35 26r29 27r29
+. 43r32 46r28 47r28 56r20 58r35
+X 44 mssyst-runtime-remoting-activation.ads
+6K33*Activation 43|6k24 44|7e39 46|18r33 43r41 47r37 56r29 58r44
+X 45 mssyst-runtime-remoting-activation-iconstructioncallmessage.ads
+18K44 IConstructionCallMessage 46|43r52 47r48
+20P9 Ref(integer) 46|43r77 47r73
+X 46 mssyst-runtime-remoting-activation-urlattribute.ads
+18K44*UrlAttribute 44|6k33 46|56l40 56e52 58r55
+19R9*Typ 20r27 25c9 35r21 38r21 40r21 42r21 45r21 49r27
+20P9*Ref(19R9) 21r34 22r47 32r14 33r47
+21P9*Ref_addrof(20P9)
+22A9*Ref_Arr(20P9) 23r33
+23P9*Ref_Array(22A9) 24r40
+24P9*Ref_Array_addrof(23P9)
+25R9*Typ<49|25R9> 10|31p13 111p13 141p13 19|31p13 36p13 46|30e14 34P13 37p13
+. 39P13 41P14 44P13 49|37P14 40P13 51P13
+31V13*new_UrlAttribute{20P9} 32>7 33>7 50r28
+32p7 This{20P9}
+33p7 callsiteURL{61|27P9}
+34V13*Equals{boolean} 35^7 36>7 51b23
+35p7 This(25R9)
+36p7 o{19|13P9}
+37V13*get_UrlValue{61|27P9} 38^7 52b23
+38p7 This(25R9)
+39V13*GetHashCode{integer} 40^7 53b23
+40p7 This(25R9)
+41U14*GetPropertiesForNewContext 42^7 43>7 54b23
+42p7 This(25R9)
+43p7 ctorMsg{45|20P9}
+44V13*IsContextOK{boolean} 45^7 46>7 47>7 55b23
+45p7 This(25R9)
+46p7 ctx{48|21P9}
+47p7 msg{45|20P9}
+X 47 mssyst-runtime-remoting-contexts.ads
+6K33*Contexts 46|10r30 11r30 12r30 25r44 26r38 27r38 46r37 47|7e37
+X 48 mssyst-runtime-remoting-contexts-context.ads
+19K42 Context 46|46r46
+21P9 Ref(integer) 46|46r54
+X 49 mssyst-runtime-remoting-contexts-contextattribute.ads
+18K42*ContextAttribute 46|10w39 25r53 49|64e54
+19R9*Typ 46|25r70
+37U14*Freeze
+40V13*get_Name{61|27P9}
+51V13*IsNewContextOK{boolean}
+X 50 mssyst-runtime-remoting-contexts-icontextattribute.ads
+12K42*IContextAttribute 46|11w39 26r47 50|30e55
+13R9*Typ 46|26r65
+X 51 mssyst-runtime-remoting-contexts-icontextproperty.ads
+12K42*IContextProperty 46|12w39 27r47 51|32e54
+13R9*Typ 46|27r64
+X 61 mssyst-string.ads
+25K16 String 46|33r28 38r40
+27P9 Ref(integer) 46|33r35 38r47
+X 66 mssyst-type_k.ads
+51P9 Ref(integer)
+

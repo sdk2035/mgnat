@@ -1,0 +1,91 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U microsoft.win32.nativemethods.winprocessentry%s  microsoft-win32-nativemethods-winprocessentry.ads  876aa1d7 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W microsoft%s		microsoft.ads		microsoft.ali
+W microsoft.win32%s	microsoft-win32.ads	microsoft-win32.ali
+W microsoft.win32.nativemethods%s  microsoft-win32-nativemethods.ads  microsoft-win32-nativemethods.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20050914013254 02f2695c
+D microsoft-win32.ads	20050914013254 bf37fdc1
+D microsoft-win32-nativemethods.ads  20050914013306 1e366b2e
+D microsoft-win32-nativemethods-winprocessentry.ads  20041030171620 1de37e42
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 microsoft.ads
+6K9*Microsoft 7e14 8|14r9 48r5 50r20
+X 6 microsoft-win32.ads
+6K19*Win32 5|6k9 6|7e20 8|14r19 48r15 50r30
+X 7 microsoft-win32-nativemethods.ads
+6K25*NativeMethods 6|6k19 7|7e34 8|14r25 48r21 50r36
+X 8 microsoft-win32-nativemethods-winprocessentry.ads
+14K39*WinProcessEntry 7|6k25 8|48l35 48e50 50r50
+15R9*Typ 16r27 21c9 46r27
+16P9*Ref(15R9) 17r34 18r47 44r14 44r34
+17P9*Ref_addrof(16P9)
+18A9*Ref_Arr(16P9) 19r33
+19P9*Ref_Array(18A9) 20r40
+20P9*Ref_Array_addrof(19P9)
+21R9*Typ<13|18R9> 40e14 13|26p13 29p13 31p13 36p13
+22i7*dwSize{integer}
+24i7*cntUsage{integer}
+26i7*th32ProcessID{integer}
+28m7*th32DefaultHeapID{9|52M9}
+30i7*th32ModuleID{integer}
+32i7*cntThreads{integer}
+34i7*th32ParentProcessID{integer}
+36i7*pcPriClassBase{integer}
+38i7*dwFlags{integer}
+41i4*sizeofFileName{integer} 42m23
+43V13*new_WinProcessEntry{16P9} 44>7 47r28
+44p7 This{16P9}
+X 9 msil_types.ads
+7K9*Msil_Types 8|8w6 9r5 28r27 9|72e15
+52M9*native_int 8|28r38
+X 10 mssyst.ads
+6K9*MSSyst 8|7r6 13r6 21r20 10|7e11
+X 13 mssyst-object.ads
+11K16*Object 8|7w13 13w13 21r27 13|46e18
+12R9*Typ 8|21r34 13|20e14
+18R9*Typ
+26V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{23|44P9}
+36V13*ToString{22|22P9}
+X 22 mssyst-string.ads
+22P9 Ref(integer)
+X 23 mssyst-type_k.ads
+44P9 Ref(integer)
+

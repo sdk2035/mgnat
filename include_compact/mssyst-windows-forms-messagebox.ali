@@ -1,0 +1,325 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.messagebox%s  mssyst-windows-forms-messagebox.ads  139bc5df NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.dialogresult%s  mssyst-windows-forms-dialogresult.ads  mssyst-windows-forms-dialogresult.ali
+W mssyst.windows.forms.helpnavigator%s  mssyst-windows-forms-helpnavigator.ads  mssyst-windows-forms-helpnavigator.ali
+W mssyst.windows.forms.messageboxbuttons%s  mssyst-windows-forms-messageboxbuttons.ads  mssyst-windows-forms-messageboxbuttons.ali
+W mssyst.windows.forms.messageboxdefaultbutton%s  mssyst-windows-forms-messageboxdefaultbutton.ads  mssyst-windows-forms-messageboxdefaultbutton.ali
+W mssyst.windows.forms.messageboxicon%s  mssyst-windows-forms-messageboxicon.ads  mssyst-windows-forms-messageboxicon.ali
+W mssyst.windows.forms.messageboxoptions%s  mssyst-windows-forms-messageboxoptions.ads  mssyst-windows-forms-messageboxoptions.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-dialogresult.ads  20060131171440 e555f490
+D mssyst-windows-forms-helpnavigator.ads  20060131171442 497fd938
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D mssyst-windows-forms-messagebox.ads  20060131171444 8d3fd88b
+D mssyst-windows-forms-messageboxbuttons.ads  20060131171444 8bc1973e
+D mssyst-windows-forms-messageboxdefaultbutton.ads  20060131171444 e97155f2
+D mssyst-windows-forms-messageboxicon.ads  20060131171444 ff538646
+D mssyst-windows-forms-messageboxoptions.ads  20060131171444 dc27abaf
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 43|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 43|7r6 10r6 12r6 15r6 16r6 17r6 18r6 19r6 20r9 27r20 31r14
+. 31r40 33r15 34r14 35r17 36r17 37r14 38r23 39r17 39r74 41r14 42r17 43r17
+. 43r74 45r14 46r17 46r43 48r15 49r14 50r17 51r17 52r14 53r23 53r86 55r15
+. 56r14 57r17 57r43 59r15 60r14 60r40 62r15 63r14 64r17 65r17 66r14 66r68
+. 68r15 69r14 70r17 71r17 71r74 73r14 74r17 75r17 76r14 77r23 78r17 79r22
+. 80r17 80r43 82r15 83r14 84r17 85r17 86r14 87r23 88r17 89r22 90r17 90r43
+. 92r14 93r17 94r17 95r14 96r23 97r17 98r22 99r19 99r72 101r14 102r17 103r17
+. 104r14 105r23 106r17 107r52 109r14 110r17 111r17 112r14 113r23 114r17 115r22
+. 115r48 117r15 118r14 119r17 120r17 121r14 122r23 123r17 124r22 124r48 126r14
+. 127r17 128r17 129r14 130r23 131r17 131r74 133r14 134r17 135r17 136r14 137r23
+. 137r86 139r14 140r17 141r17 142r14 142r68 144r14 145r17 146r17 147r14 148r23
+. 149r17 150r22 151r19 152r15 152r41 154r15 155r14 156r17 157r17 158r14 159r23
+. 160r17 161r22 162r19 162r72 164r15 165r14 166r17 167r17 168r14 169r23 170r17
+. 171r22 172r19 173r15 173r41 177r5 179r20
+X 13 mssyst-object.ads
+11K16*Object 46e18 43|7w13 10w13 27r27 152r22 173r22
+12R9*Typ 20e14 43|27r34
+13P9*Ref(12R9) 43|152r29 173r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{34|51P9}
+36V13*ToString{29|27P9}
+X 29 mssyst-string.ads
+25K16 String 43|31r21 34r21 35r24 41r21 42r24 45r21 46r24 49r21 50r24 56r21
+. 57r24 60r21 63r21 64r24 69r21 70r24 73r21 74r24 79r29 80r24 83r21 84r24
+. 89r29 90r24 92r21 93r24 98r29 101r21 102r24 109r21 110r24 115r29 118r21
+. 119r24 124r29 126r21 127r24 133r21 134r24 139r21 140r24 144r21 145r24 150r29
+. 155r21 156r24 161r29 165r21 166r24 171r29
+27P9 Ref(integer) 43|31r28 34r28 35r31 41r28 42r31 45r28 46r31 49r28 50r31
+. 56r28 57r31 60r28 63r28 64r31 69r28 70r31 73r28 74r31 79r36 80r31 83r28
+. 84r31 89r36 90r31 92r28 93r31 98r36 101r28 102r31 109r28 110r31 115r36
+. 118r28 119r31 124r36 126r28 127r31 133r28 134r31 139r28 140r31 144r28 145r31
+. 150r36 155r28 156r31 161r36 165r28 166r31 171r36
+X 34 mssyst-type_k.ads
+51P9 Ref(integer)
+X 38 mssyst-windows.ads
+6K16*Windows 6|6k9 38|7e19 43|12r13 15r13 16r13 17r13 18r13 19r13 20r16 31r47
+. 33r22 36r24 37r21 38r30 39r24 39r81 43r24 43r81 46r50 48r22 51r24 52r21
+. 53r30 53r93 55r22 57r50 59r22 60r47 62r22 65r24 66r21 66r75 68r22 71r24
+. 71r81 75r24 76r21 77r30 78r24 80r50 82r22 85r24 86r21 87r30 88r24 90r50
+. 94r24 95r21 96r30 97r24 99r26 99r79 103r24 104r21 105r30 106r24 107r59
+. 111r24 112r21 113r30 114r24 115r55 117r22 120r24 121r21 122r30 123r24 124r55
+. 128r24 129r21 130r30 131r24 131r81 135r24 136r21 137r30 137r93 141r24 142r21
+. 142r75 146r24 147r21 148r30 149r24 151r26 152r48 154r22 157r24 158r21 159r30
+. 160r24 162r26 162r79 164r22 167r24 168r21 169r30 170r24 172r26 173r48 177r12
+. 179r27
+X 39 mssyst-windows-forms.ads
+6K24*Forms 38|6k16 39|7e25 43|12r21 15r21 16r21 17r21 18r21 19r21 20r24 31r55
+. 33r30 36r32 37r29 38r38 39r32 39r89 43r32 43r89 46r58 48r30 51r32 52r29
+. 53r38 53r101 55r30 57r58 59r30 60r55 62r30 65r32 66r29 66r83 68r30 71r32
+. 71r89 75r32 76r29 77r38 78r32 80r58 82r30 85r32 86r29 87r38 88r32 90r58
+. 94r32 95r29 96r38 97r32 99r34 99r87 103r32 104r29 105r38 106r32 107r67
+. 111r32 112r29 113r38 114r32 115r63 117r30 120r32 121r29 122r38 123r32 124r63
+. 128r32 129r29 130r38 131r32 131r89 135r32 136r29 137r38 137r101 141r32
+. 142r29 142r83 146r32 147r29 148r38 149r32 151r34 152r56 154r30 157r32 158r29
+. 159r38 160r32 162r34 162r87 164r30 167r32 168r29 169r38 170r32 172r34 173r56
+. 177r20 179r35
+X 40 mssyst-windows-forms-dialogresult.ads
+15K30*DialogResult 70e38 43|12w27 31r61 39r95 43r95 46r64 53r107 57r64 60r61
+. 66r89 71r95 80r64 90r64 99r93 107r73 115r69 124r69 131r95 137r107 142r89
+. 152r62 162r93 173r62
+16E9*ValueType 24e10 43|31r74 39r108 43r108 46r77 53r120 57r77 60r74 66r102
+. 71r108 80r77 90r77 99r106 107r86 115r82 124r82 131r108 137r120 142r102
+. 152r75 162r106 173r75
+X 41 mssyst-windows-forms-helpnavigator.ads
+15K30*HelpNavigator 68e39 43|19w27 99r40 151r40 162r40 172r40
+16E9*ValueType 23e13 43|99r54 151r54 162r54 172r54
+X 42 mssyst-windows-forms-iwin32window.ads
+10K30 IWin32Window 43|33r36 48r36 55r36 59r36 62r36 68r36 82r36 117r36 154r36
+. 164r36
+12P9 Ref(integer) 43|33r49 48r49 55r49 59r49 62r49 68r49 82r49 117r49 154r49
+. 164r49
+X 43 mssyst-windows-forms-messagebox.ads
+20K30*MessageBox 39|6k24 43|177l26 177e36 179r41
+21R9*Typ 22r27 27c9 175r27
+22P9*Ref(21R9) 23r34 24r47
+23P9*Ref_addrof(22P9)
+24A9*Ref_Arr(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27R9*Typ<13|18R9> 13|23p13 29p13 31p13 36p13 43|29e14
+30V13*Show{40|16E9} 31>7
+31p7 text{29|27P9}
+32V13*Show{40|16E9} 33>7 34>7 35>7 36>7 37>7 38>7 39>7
+33p7 owner{42|12P9}
+34p7 text{29|27P9}
+35p7 caption{29|27P9}
+36e7 buttons{44|16E9}
+37e7 icon{46|16E9}
+38e7 defaultButton{45|16E9}
+39e7 options{47|16E9}
+40V13*Show{40|16E9} 41>7 42>7 43>7
+41p7 text{29|27P9}
+42p7 caption{29|27P9}
+43e7 buttons{44|16E9}
+44V13*Show{40|16E9} 45>7 46>7
+45p7 text{29|27P9}
+46p7 caption{29|27P9}
+47V13*Show{40|16E9} 48>7 49>7 50>7 51>7 52>7 53>7
+48p7 owner{42|12P9}
+49p7 text{29|27P9}
+50p7 caption{29|27P9}
+51e7 buttons{44|16E9}
+52e7 icon{46|16E9}
+53e7 defaultButton{45|16E9}
+54V13*Show{40|16E9} 55>7 56>7 57>7
+55p7 owner{42|12P9}
+56p7 text{29|27P9}
+57p7 caption{29|27P9}
+58V13*Show{40|16E9} 59>7 60>7
+59p7 owner{42|12P9}
+60p7 text{29|27P9}
+61V13*Show{40|16E9} 62>7 63>7 64>7 65>7 66>7
+62p7 owner{42|12P9}
+63p7 text{29|27P9}
+64p7 caption{29|27P9}
+65e7 buttons{44|16E9}
+66e7 icon{46|16E9}
+67V13*Show{40|16E9} 68>7 69>7 70>7 71>7
+68p7 owner{42|12P9}
+69p7 text{29|27P9}
+70p7 caption{29|27P9}
+71e7 buttons{44|16E9}
+72V13*Show{40|16E9} 73>7 74>7 75>7 76>7 77>7 78>7 79>7 80>7
+73p7 text{29|27P9}
+74p7 caption{29|27P9}
+75e7 buttons{44|16E9}
+76e7 icon{46|16E9}
+77e7 defaultButton{45|16E9}
+78e7 options{47|16E9}
+79p7 helpFilePath{29|27P9}
+80p7 keyword{29|27P9}
+81V13*Show{40|16E9} 82>7 83>7 84>7 85>7 86>7 87>7 88>7 89>7 90>7
+82p7 owner{42|12P9}
+83p7 text{29|27P9}
+84p7 caption{29|27P9}
+85e7 buttons{44|16E9}
+86e7 icon{46|16E9}
+87e7 defaultButton{45|16E9}
+88e7 options{47|16E9}
+89p7 helpFilePath{29|27P9}
+90p7 keyword{29|27P9}
+91V13*Show{40|16E9} 92>7 93>7 94>7 95>7 96>7 97>7 98>7 99>7
+92p7 text{29|27P9}
+93p7 caption{29|27P9}
+94e7 buttons{44|16E9}
+95e7 icon{46|16E9}
+96e7 defaultButton{45|16E9}
+97e7 options{47|16E9}
+98p7 helpFilePath{29|27P9}
+99e7 navigator{41|16E9}
+100V13*Show{40|16E9} 101>7 102>7 103>7 104>7 105>7 106>7 107>7
+101p7 text{29|27P9}
+102p7 caption{29|27P9}
+103e7 buttons{44|16E9}
+104e7 icon{46|16E9}
+105e7 defaultButton{45|16E9}
+106e7 options{47|16E9}
+107b7 displayHelpButton{boolean}
+108V13*Show{40|16E9} 109>7 110>7 111>7 112>7 113>7 114>7 115>7
+109p7 text{29|27P9}
+110p7 caption{29|27P9}
+111e7 buttons{44|16E9}
+112e7 icon{46|16E9}
+113e7 defaultButton{45|16E9}
+114e7 options{47|16E9}
+115p7 helpFilePath{29|27P9}
+116V13*Show{40|16E9} 117>7 118>7 119>7 120>7 121>7 122>7 123>7 124>7
+117p7 owner{42|12P9}
+118p7 text{29|27P9}
+119p7 caption{29|27P9}
+120e7 buttons{44|16E9}
+121e7 icon{46|16E9}
+122e7 defaultButton{45|16E9}
+123e7 options{47|16E9}
+124p7 helpFilePath{29|27P9}
+125V13*Show{40|16E9} 126>7 127>7 128>7 129>7 130>7 131>7
+126p7 text{29|27P9}
+127p7 caption{29|27P9}
+128e7 buttons{44|16E9}
+129e7 icon{46|16E9}
+130e7 defaultButton{45|16E9}
+131e7 options{47|16E9}
+132V13*Show{40|16E9} 133>7 134>7 135>7 136>7 137>7
+133p7 text{29|27P9}
+134p7 caption{29|27P9}
+135e7 buttons{44|16E9}
+136e7 icon{46|16E9}
+137e7 defaultButton{45|16E9}
+138V13*Show{40|16E9} 139>7 140>7 141>7 142>7
+139p7 text{29|27P9}
+140p7 caption{29|27P9}
+141e7 buttons{44|16E9}
+142e7 icon{46|16E9}
+143V13*Show{40|16E9} 144>7 145>7 146>7 147>7 148>7 149>7 150>7 151>7 152>7
+144p7 text{29|27P9}
+145p7 caption{29|27P9}
+146e7 buttons{44|16E9}
+147e7 icon{46|16E9}
+148e7 defaultButton{45|16E9}
+149e7 options{47|16E9}
+150p7 helpFilePath{29|27P9}
+151e7 navigator{41|16E9}
+152p7 param{13|13P9}
+153V13*Show{40|16E9} 154>7 155>7 156>7 157>7 158>7 159>7 160>7 161>7 162>7
+154p7 owner{42|12P9}
+155p7 text{29|27P9}
+156p7 caption{29|27P9}
+157e7 buttons{44|16E9}
+158e7 icon{46|16E9}
+159e7 defaultButton{45|16E9}
+160e7 options{47|16E9}
+161p7 helpFilePath{29|27P9}
+162e7 navigator{41|16E9}
+163V13*Show{40|16E9} 164>7 165>7 166>7 167>7 168>7 169>7 170>7 171>7 172>7
+. 173>7 176b23
+164p7 owner{42|12P9}
+165p7 text{29|27P9}
+166p7 caption{29|27P9}
+167e7 buttons{44|16E9}
+168e7 icon{46|16E9}
+169e7 defaultButton{45|16E9}
+170e7 options{47|16E9}
+171p7 helpFilePath{29|27P9}
+172e7 navigator{41|16E9}
+173p7 param{13|13P9}
+X 44 mssyst-windows-forms-messageboxbuttons.ads
+15K30*MessageBoxButtons 43|15w27 36r38 43r38 51r38 65r38 71r38 75r38 85r38
+. 94r38 103r38 111r38 120r38 128r38 135r38 141r38 146r38 157r38 167r38 44|66e43
+16E9*ValueType 43|36r56 43r56 51r56 65r56 71r56 75r56 85r56 94r56 103r56
+. 111r56 120r56 128r56 135r56 141r56 146r56 157r56 167r56 44|22e19
+X 45 mssyst-windows-forms-messageboxdefaultbutton.ads
+15K30*MessageBoxDefaultButton 43|17w27 38r44 53r44 77r44 87r44 96r44 105r44
+. 113r44 122r44 130r44 137r44 148r44 159r44 169r44 45|60e49
+16E9*ValueType 43|38r68 53r68 77r68 87r68 96r68 105r68 113r68 122r68 130r68
+. 137r68 148r68 159r68 169r68 45|19e15
+X 46 mssyst-windows-forms-messageboxicon.ads
+15K30*MessageBoxIcon 43|16w27 37r35 52r35 66r35 76r35 86r35 95r35 104r35
+. 112r35 121r35 129r35 136r35 142r35 147r35 158r35 168r35 46|68e40
+16E9*ValueType 43|37r50 52r50 66r50 76r50 86r50 95r50 104r50 112r50 121r50
+. 129r50 136r50 142r50 147r50 158r50 168r50 46|21e19
+X 47 mssyst-windows-forms-messageboxoptions.ads
+15K30*MessageBoxOptions 43|18w27 39r38 78r38 88r38 97r38 106r38 114r38 123r38
+. 131r38 149r38 160r38 170r38 47|64e43
+16E9*ValueType 43|39r56 78r56 88r56 97r56 106r56 114r56 123r56 131r56 149r56
+. 160r56 170r56 47|20e27
+

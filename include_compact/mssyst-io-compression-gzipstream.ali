@@ -1,0 +1,208 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.io.compression.gzipstream%s  mssyst-io-compression-gzipstream.ads  a5600899 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.io%s		mssyst-io.ads		mssyst-io.ali
+W mssyst.io.compression%s  mssyst-io-compression.ads  mssyst-io-compression.ali
+W mssyst.io.compression.compressionmode%s  mssyst-io-compression-compressionmode.ads  mssyst-io-compression-compressionmode.ali
+W mssyst.io.seekorigin%s  mssyst-io-seekorigin.ads  mssyst-io-seekorigin.ali
+W mssyst.io.stream%s	mssyst-io-stream.ads	mssyst-io-stream.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-asynccallback.ads  20060131171354 20264380
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-iasyncresult.ads  20060131171356 e48639e4
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-compression.ads  20060131171418 a1794780
+D mssyst-io-compression-compressionmode.ads  20060131171418 783b48cd
+D mssyst-io-compression-gzipstream.ads  20060131171418 bfda0360
+D mssyst-io-seekorigin.ads  20060131171404 0f77313e
+D mssyst-io-stream.ads	20060131171402 5b7412c0
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 19|8w6 9r5 40r17 47r17 74r17 89r17
+24E9*unsigned_int8<character>
+44A9*unsigned_int8_arr(24E9) 19|40r28 47r28 74r28 89r28
+X 6 mssyst.ads
+6K9*MSSyst 7e11 19|7r6 10r6 16r6 18r6 19r9 26r20 31r16 32r14 35r16 36r14
+. 43r23 44r20 44r46 50r23 51r20 51r46 54r21 57r21 61r33 80r16 111r5 113r20
+X 7 mssyst-asynccallback.ads
+22K16 AsyncCallback 19|43r30 50r30
+24P9 Ref(integer) 19|43r44 50r44
+X 12 mssyst-iasyncresult.ads
+12K16 IAsyncResult 19|44r53 51r53 54r28 57r28
+14P9 Ref(integer) 19|44r66 51r66 54r41 57r41
+X 16 mssyst-io.ads
+6K16*IO 6|6k9 16|7e14 19|10r13 16r13 18r13 19r16 26r27 31r23 32r21 35r23
+. 36r21 61r40 80r23 111r12 113r27
+X 17 mssyst-io-compression.ads
+6K19*Compression 16|6k16 17|7e26 19|18r16 19r19 32r24 36r24 111r15 113r30
+X 18 mssyst-io-compression-compressionmode.ads
+15K31*CompressionMode 58e42 19|18w28 32r36 36r36
+16E9*ValueType 18e16 19|32r52 36r52
+X 19 mssyst-io-compression-gzipstream.ads
+19K31*GZipStream 17|6k19 19|111l27 111e37 113r42
+20R9*Typ 21r27 26c9 39r21 46r21 53r21 56r21 59r21 61r21 63r21 65r21 67r21
+. 69r21 71r21 73r21 78r21 82r21 85r21 88r21 93r27
+21P9*Ref(20R9) 22r34 23r47 30r14 32r70 34r14 37r44
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40
+25P9*Ref_Array_addrof(24P9)
+26R9*Typ<21|25R9> 28e14 38P13 45P13 52P13 55P14 58P14 60p13 62P13 64P13 66P13
+. 68P13 70P13 72P13 77P13 81P14 84P14 87P14 21|44p14 46p14 60p13 68p13 70p13
+. 77p13 86p14 89p14 102p14 22|24p13 27p13 29p13 24|23p13 29p13 31p13 36p13
+29V13*new_GZipStream{21P9} 30>7 31>7 32>7
+30p7 This{21P9}
+31p7 stream{21|20P9}
+32e7 mode{18|16E9}
+33V13*new_GZipStream{21P9} 34>7 35>7 36>7 37>7
+34p7 This{21P9}
+35p7 stream{21|20P9}
+36e7 mode{18|16E9}
+37b7 leaveOpen{boolean}
+38V13*BeginRead{12|14P9} 39^7 40>7 41>7 42>7 43>7 44>7 95b23
+39p7 This(26R9)
+40a7 array_k{5|44A9}
+41i7 offset{integer}
+42i7 count{integer}
+43p7 asyncCallback{7|24P9}
+44p7 asyncState{24|13P9}
+45V13*BeginWrite{12|14P9} 46^7 47>7 48>7 49>7 50>7 51>7 96b23
+46p7 This(26R9)
+47a7 array_k{5|44A9}
+48i7 offset{integer}
+49i7 count{integer}
+50p7 asyncCallback{7|24P9}
+51p7 asyncState{24|13P9}
+52V13*EndRead{integer} 53^7 54>7 97b23
+53p7 This(26R9)
+54p7 asyncResult{12|14P9}
+55U14*EndWrite 56^7 57>7 98b23
+56p7 This(26R9)
+57p7 asyncResult{12|14P9}
+58U14*Flush 59^7 99b23
+59p7 This(26R9)
+60V13*get_BaseStream{21|20P9} 61^7 100b23
+61p7 This(26R9)
+62V13*get_CanRead{boolean} 63^7 101b23
+63p7 This(26R9)
+64V13*get_CanSeek{boolean} 65^7 102b23
+65p7 This(26R9)
+66V13*get_CanWrite{boolean} 67^7 103b23
+67p7 This(26R9)
+68V13*get_Length{long_long_integer} 69^7 104b23
+69p7 This(26R9)
+70V13*get_Position{long_long_integer} 71^7 105b23
+71p7 This(26R9)
+72V13*Read{integer} 73^7 74>7 75>7 76>7 106b23
+73p7 This(26R9)
+74a7 array_k{5|44A9}
+75i7 offset{integer}
+76i7 count{integer}
+77V13*Seek{long_long_integer} 78^7 79>7 80>7 107b23
+78p7 This(26R9)
+79i7 offset{long_long_integer}
+80e7 origin{20|16E9}
+81U14*set_Position 82^7 83>7 108b23
+82p7 This(26R9)
+83i7 value{long_long_integer}
+84U14*SetLength 85^7 86>7 109b23
+85p7 This(26R9)
+86i7 value{long_long_integer}
+87U14*Write 88^7 89>7 90>7 91>7 110b23
+88p7 This(26R9)
+89a7 array_k{5|44A9}
+90i7 offset{integer}
+91i7 count{integer}
+X 20 mssyst-io-seekorigin.ads
+15K19*SeekOrigin 19|16w16 80r26 20|60e25
+16E9*ValueType 19|80r37 20|19e13
+X 21 mssyst-io-stream.ads
+18K19*Stream 19|10w16 26r30 31r26 35r26 61r43 21|132e21
+19R9*Typ 19|26r37
+20P9*Ref(19R9) 19|31r33 35r33 61r50
+44U14*Close
+46U14*Dispose
+60V13*get_CanTimeout{boolean}
+68V13*get_ReadTimeout{integer}
+70V13*get_WriteTimeout{integer}
+77V13*ReadByte{integer}
+86U14*set_ReadTimeout
+89U14*set_WriteTimeout
+102U14*WriteByte
+X 22 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{40|23P9}
+27V13*GetLifetimeService{24|13P9}
+29V13*InitializeLifetimeService{24|13P9}
+X 24 mssyst-object.ads
+11K16*Object 19|7w13 44r27 51r27 24|46e18
+13P9*Ref(12R9) 19|44r34 51r34
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{50|51P9}
+36V13*ToString{45|27P9}
+X 40 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 45 mssyst-string.ads
+27P9 Ref(integer)
+X 50 mssyst-type_k.ads
+51P9 Ref(integer)
+

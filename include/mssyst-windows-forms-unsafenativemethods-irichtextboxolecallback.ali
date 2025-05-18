@@ -1,0 +1,156 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.unsafenativemethods.irichtextboxolecallback%s  mssyst-windows-forms-unsafenativemethods-irichtextboxolecallback.ads  39b38ab4 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.guid%s		mssyst-guid.ads		mssyst-guid.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.unsafenativemethods%s  mssyst-windows-forms-unsafenativemethods.ads  mssyst-windows-forms-unsafenativemethods.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-guid.ads	20050914133428 8b55ed7b
+D mssyst-iformatprovider.ads  20050914133428 c126b837
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D mssyst-windows.ads	20050914013316 8e5e07ed
+D mssyst-windows-forms.ads  20050914013316 c6ce9829
+D mssyst-windows-forms-nativemethods.ads  20050914013324 7704f2a2
+D mssyst-windows-forms-nativemethods-charrange.ads  20050914133506 51479fa4
+D mssyst-windows-forms-unsafenativemethods.ads  20050914013316 a7f33d5f
+D mssyst-windows-forms-unsafenativemethods-ioledataobject.ads  20050914133458 c9b0a688
+D mssyst-windows-forms-unsafenativemethods-irichtextboxolecallback.ads  20050914133458 f7c678a5
+D mssyst-windows-forms-unsafenativemethods-istorage.ads  20050914133500 60cb8360
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 72e15 34|8w6 9r5 27r18 32r21 35r17 36r18 38r15 43r19 46r19
+. 47r17 48r21 55r20 58r19 62r15
+20I9*int16<short_integer> 34|35r28
+52M9*native_int 34|27r29 32r32 36r29 46r30 47r28 48r32 55r31 58r30 62r26
+59M9*int32_addrof 34|43r30
+66P9*native_int_addrof(52M9) 34|38r26
+X 9 mssyst.ads
+6K9*MSSyst 7e11 34|7r6 13r6 14r9 30r16 37r16 51r13 54r19 61r17 78r5 80r20
+X 12 mssyst-guid.ads
+15K16*Guid 90e16 34|13w13 61r24
+19P9*ValueType_addrof(16R9) 34|61r29
+X 14 mssyst-object.ads
+11K16*Object 46e18 34|7w13
+18R9*Typ
+X 28 mssyst-windows.ads
+6K16*Windows 9|6k9 28|7e19 34|14r16 30r23 37r23 51r20 54r26 78r12 80r27
+X 29 mssyst-windows-forms.ads
+6K24*Forms 28|6k16 29|7e25 34|14r24 30r31 37r31 51r28 54r34 78r20 80r35
+X 30 mssyst-windows-forms-nativemethods.ads
+6K30 NativeMethods 34|30r37 37r37
+X 31 mssyst-windows-forms-nativemethods-charrange.ads
+13K44 CHARRANGE 34|30r51 37r51
+15P9 Ref(integer) 34|30r61 37r61
+X 32 mssyst-windows-forms-unsafenativemethods.ads
+6K30*UnsafeNativeMethods 29|6k24 32|7e45 34|14r30 51r34 54r40 78r26 80r41
+X 33 mssyst-windows-forms-unsafenativemethods-ioledataobject.ads
+15K50 IOleDataObject 34|54r60
+17P9 Ref(integer) 34|54r75
+X 34 mssyst-windows-forms-unsafenativemethods-irichtextboxolecallback.ads
+14K50*IRichTextBoxOleCallback 32|6k30 34|78l46 78e69 80r61
+15R9*Typ 16r27 21c9 23r21 26r21 29r21 34r21 40r21 45r21 50r21 53r21 60r21
+. 65r21
+16P9*Ref(15R9) 17r34 18r47
+17P9*Ref_addrof(16P9)
+18A9*Ref_Arr(16P9) 19r33
+19P9*Ref_Array(18A9) 20r40
+20P9*Ref_Array_addrof(19P9)
+21H9*Typ 22p13 25p13 28p13 33p13 39p13 44p13 49p13 52p13 59p13 64p13
+22y13*ContextSensitiveHelp{integer} 23^7 24>7 68b23
+23p7 This(21R9)
+24i7 fEnterMode{integer}
+25y13*DeleteObject{integer} 26^7 27>7 69b23
+26p7 This(21R9)
+27m7 lpoleobj{8|52M9}
+28y13*GetClipboardData{integer} 29^7 30>7 31>7 32>7 70b23
+29p7 This(21R9)
+30p7 lpchrg{31|15P9}
+31i7 reco{integer}
+32m7 lplpdataobj{8|52M9}
+33y13*GetContextMenu{integer} 34^7 35>7 36>7 37>7 38>7 71b23
+34p7 This(21R9)
+35i7 seltype{8|20I9}
+36m7 lpoleobj{8|52M9}
+37p7 lpchrg{31|15P9}
+38p7 hmenu{8|66P9}
+39y13*GetDragDropEffect{integer} 40^7 41>7 42>7 43>7 72b23
+40p7 This(21R9)
+41b7 fDrag{boolean}
+42i7 grfKeyState{integer}
+43m7 pdwEffect{8|59M9}
+44y13*GetInPlaceContext{integer} 45^7 46>7 47>7 48>7 73b23
+45p7 This(21R9)
+46m7 lplpFrame{8|52M9}
+47m7 lplpDoc{8|52M9}
+48m7 lpFrameInfo{8|52M9}
+49y13*GetNewStorage{integer} 50^7 51>7 74b23
+50p7 This(21R9)
+51p7 ret{35|19P9}
+52y13*QueryAcceptData{integer} 53^7 54>7 55>7 56>7 57>7 58>7 75b23
+53p7 This(21R9)
+54p7 lpdataobj{33|17P9}
+55m7 lpcfFormat{8|52M9}
+56i7 reco{integer}
+57i7 fReally{integer}
+58m7 hMetaPict{8|52M9}
+59y13*QueryInsertObject{integer} 60^7 61>7 62>7 63>7 76b23
+60p7 This(21R9)
+61p7 lpclsid{12|19P9}
+62m7 lpstg{8|52M9}
+63i7 cp{integer}
+64y13*ShowContainerUI{integer} 65^7 66>7 77b23
+65p7 This(21R9)
+66i7 fShow{integer}
+X 35 mssyst-windows-forms-unsafenativemethods-istorage.ads
+16K50 IStorage 34|51r54
+19P9 Ref_addrof(integer) 34|51r63
+

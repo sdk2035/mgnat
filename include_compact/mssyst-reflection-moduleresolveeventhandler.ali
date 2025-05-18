@@ -1,0 +1,175 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.reflection.moduleresolveeventhandler%s  mssyst-reflection-moduleresolveeventhandler.ads  b8391435 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.multicastdelegate%s  mssyst-multicastdelegate.ads  mssyst-multicastdelegate.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.reflection%s	mssyst-reflection.ads	mssyst-reflection.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.serialization%s  mssyst-runtime-serialization.ads  mssyst-runtime-serialization.ali
+W mssyst.runtime.serialization.iserializable%s  mssyst-runtime-serialization-iserializable.ads  mssyst-runtime-serialization-iserializable.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-asynccallback.ads  20060131171354 20264380
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-eventargs.ads	20060131171354 20b9e5e0
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-iasyncresult.ads  20060131171356 e48639e4
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-imagefilemachine.ads  20060131171358 57db8f30
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-methodattributes.ads  20060131171358 3d878e1d
+D mssyst-reflection-methodbase.ads  20060131171358 8cf6333b
+D mssyst-reflection-methodimplattributes.ads  20060131171358 4937947b
+D mssyst-reflection-methodinfo.ads  20060131171358 ef578403
+D mssyst-reflection-module.ads  20060131171358 384ba6f0
+D mssyst-reflection-moduleresolveeventhandler.ads  20060131171358 9a70abbf
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-portableexecutablekinds.ads  20060131171358 da84966e
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-resolveeventargs.ads  20060131171354 9a00c230
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-umethodbase.ads  20060131171358 b1429f1d
+D mssyst-runtime-interopservices-umethodinfo.ads  20060131171358 2ecfe02d
+D mssyst-runtime-interopservices-umodule.ads  20060131171358 02c2dfd0
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-runtime-serialization-serializationinfo.ads  20060131171358 df7a73a0
+D mssyst-runtime-serialization-streamingcontext.ads  20060131171358 58e01b0b
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060131171358 2f27fbc4
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 35|8w6 9r5 41r16
+52M9*native_int 35|41r27
+X 9 mssyst.ads
+6K9*MSSyst 7e11 35|7r6 10r6 11r6 12r6 25r9 32r20 33r14 34r14 40r16 44r16
+. 45r11 46r18 47r16 47r42 50r16 50r48 53r16 54r11 54r47 61r5 63r20
+X 10 mssyst-asynccallback.ads
+22K16 AsyncCallback 35|46r25
+24P9 Ref(integer) 35|46r39
+X 11 mssyst-delegate.ads
+22P9*Ref(21R9)
+24A9*Ref_Arr(22P9)
+25P9*Ref_Array(24A9)
+33V13*Clone{20|13P9}
+86V13*DynamicInvoke{20|13P9}
+92V13*get_Method{33|34P9}
+94V13*get_Target{20|13P9}
+X 16 mssyst-iasyncresult.ads
+12K16 IAsyncResult 35|47r49 50r23
+14P9 Ref(integer) 35|47r62 50r36
+X 17 mssyst-icloneable.ads
+11K16*ICloneable 23e22 35|11w13 33r21
+12R9*Typ 35|33r32
+X 19 mssyst-multicastdelegate.ads
+21K16*MulticastDelegate 59e29 35|10w13 32r27
+22R9*Typ 35|32r45
+34V13*Equals{boolean}
+37V13*GetHashCode{integer}
+39V13*GetInvocationList{11|25P9}
+41U14*GetObjectData
+X 20 mssyst-object.ads
+11K16*Object 46e18 35|7w13 40r23 44r23 47r23 53r23
+13P9*Ref(12R9) 35|40r30 44r30 47r30 53r30
+18R9*Typ
+31V13*GetType{58|51P9}
+36V13*ToString{53|27P9}
+X 21 mssyst-reflection.ads
+6K16*Reflection 9|6k9 21|7e22 35|25r16 50r55 54r54 61r12 63r27
+X 33 mssyst-reflection-methodinfo.ads
+34P9 Ref(integer)
+X 34 mssyst-reflection-module.ads
+37K27 Module 35|50r66 54r65
+39P9 Ref(integer) 35|50r73 54r72
+X 35 mssyst-reflection-moduleresolveeventhandler.ads
+25K27*ModuleResolveEventHandler 21|6k16 35|61l23 61e48 63r38
+26R9*Typ 27r27 32c9 43r21 49r21 52r21 56r27
+27P9*Ref(26R9) 28r34 29r47 39r14 41r46
+28P9*Ref_addrof(27P9)
+29A9*Ref_Arr(27P9) 30r33
+30P9*Ref_Array(29A9) 31r40
+31P9*Ref_Array_addrof(30P9)
+32R9*Typ<19|28R9> 11|33P13 86p13 92p13 94p13 19|34P13 37P13 39P13 41P14 20|31p13
+. 36p13 35|37e14 42p13 48p13 51p13
+38V13*new_ModuleResolveEventHandler{27P9} 39>7 40>7 41>7 57r28
+39p7 This{27P9}
+40p7 object{20|13P9}
+41m7 method{8|52M9}
+42V13*BeginInvoke{16|14P9} 43^7 44>7 45>7 46>7 47>7 58b23
+43p7 This(32R9)
+44p7 sender{20|13P9}
+45p7 e{39|16P9}
+46p7 callback{10|24P9}
+47p7 object{20|13P9}
+48V13*EndInvoke{34|39P9} 49^7 50>7 59b23
+49p7 This(32R9)
+50p7 result{16|14P9}
+51V13*Invoke{34|39P9} 52^7 53>7 54>7 60b23
+52p7 This(32R9)
+53p7 sender{20|13P9}
+54p7 e{39|16P9}
+X 39 mssyst-resolveeventargs.ads
+14K16 ResolveEventArgs 35|45r18 54r18
+16P9 Ref(integer) 35|45r35 54r35
+X 40 mssyst-runtime.ads
+6K16*Runtime 35|12r13 34r21 40|7e19
+X 47 mssyst-runtime-serialization.ads
+6K24*Serialization 35|12r21 34r29 47|7e33
+X 48 mssyst-runtime-serialization-iserializable.ads
+12K38*ISerializable 35|12w35 34r43 48|26e47
+13R9*Typ 35|34r57
+X 53 mssyst-string.ads
+27P9 Ref(integer)
+X 58 mssyst-type_k.ads
+51P9 Ref(integer)
+

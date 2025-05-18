@@ -1,0 +1,732 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U mssyst.uappdomain%s	mssyst-uappdomain.ads	7011eb06 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.guid%s		mssyst-guid.ads		mssyst-guid.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060517214748 02f2695c
+D microsoft-win32.ads	20060517214748 bf37fdc1
+D microsoft-win32-safehandles.ads  20060517214748 c240eeab
+D microsoft-win32-safehandles-safefilehandle.ads  20060518130024 34c2417a
+D microsoft-win32-safehandles-safehandlezeroorminusoneisinvalid.ads  20060518130024 66041aba
+D microsoft-win32-safehandles-safewaithandle.ads  20060518130024 ae8855ed
+D msil_types.ads	20060219005222 3027c2c3
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-array_k.ads	20060518130004 44c548ce
+D mssyst-assemblyloadeventargs.ads  20060518130006 0cc04d8c
+D mssyst-assemblyloadeventhandler.ads  20060518130006 f3f6423b
+D mssyst-asynccallback.ads  20060518130006 80e54e38
+D mssyst-attribute.ads	20060518130006 394ce8b0
+D mssyst-charenumerator.ads  20060518130008 d83886d0
+D mssyst-collections.ads  20060517214744 22f80fd8
+D mssyst-collections-arraylist.ads  20060518130016 857e5702
+D mssyst-collections-dictionaryentry.ads  20060518130016 222dd9e6
+D mssyst-collections-hashtable.ads  20060518130016 f3875b3d
+D mssyst-collections-icollection.ads  20060518130004 3a339eb6
+D mssyst-collections-icomparer.ads  20060518130006 71266c2a
+D mssyst-collections-idictionary.ads  20060518130016 d5a87938
+D mssyst-collections-idictionaryenumerator.ads  20060518130016 174d5352
+D mssyst-collections-ienumerable.ads  20060518130004 8a6639a6
+D mssyst-collections-ienumerator.ads  20060518130004 bc4e7b44
+D mssyst-collections-iequalitycomparer.ads  20060518130006 e6351514
+D mssyst-collections-ihashcodeprovider.ads  20060518130016 c0df22d7
+D mssyst-collections-ilist.ads  20060518130004 d5fdb5e8
+D mssyst-collections-readonlycollectionbase.ads  20060518130016 2b7b6f73
+D mssyst-configuration.ads  20060517214756 03b06563
+D mssyst-configuration-assemblies.ads  20060517214756 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060518130040 813ea3b2
+D mssyst-configuration-assemblies-assemblyversioncompatibility.ads  20060518130040 80640b26
+D mssyst-crossappdomaindelegate.ads  20060518130006 654c5848
+D mssyst-datetime.ads	20060518130006 e8dd3274
+D mssyst-datetimekind.ads  20060518130006 db5b4b1d
+D mssyst-dayofweek.ads	20060518130008 4570cbc5
+D mssyst-decimal.ads	20060518130008 5671c372
+D mssyst-delegate.ads	20060518130006 5344fd33
+D mssyst-diagnostics.ads  20060517214746 ca17f3f6
+D mssyst-diagnostics-symbolstore.ads  20060517214748 73002a8f
+D mssyst-diagnostics-symbolstore-isymboldocumentwriter.ads  20060518130016 0efc8bbe
+D mssyst-diagnostics-symbolstore-isymbolwriter.ads  20060518130016 1fd68955
+D mssyst-diagnostics-symbolstore-symaddresskind.ads  20060518130016 6a08ad89
+D mssyst-diagnostics-symbolstore-symboltoken.ads  20060518130016 0edd0a13
+D mssyst-eventargs.ads	20060518130006 f2d88790
+D mssyst-eventhandler.ads  20060518130008 a8186cec
+D mssyst-globalization.ads  20060517214748 13e8d46f
+D mssyst-globalization-calendar.ads  20060518130020 6b493ab4
+D mssyst-globalization-calendaralgorithmtype.ads  20060518130020 3e24c29f
+D mssyst-globalization-calendarweekrule.ads  20060518130020 fd7e4fa4
+D mssyst-globalization-compareinfo.ads  20060518130020 1578aa69
+D mssyst-globalization-compareoptions.ads  20060518130020 aa1d08c4
+D mssyst-globalization-cultureinfo.ads  20060518130020 eff0653d
+D mssyst-globalization-culturetypes.ads  20060518130020 0714709f
+D mssyst-globalization-datetimeformatinfo.ads  20060518130020 12cc668e
+D mssyst-globalization-datetimestyles.ads  20060518130020 493eba39
+D mssyst-globalization-digitshapes.ads  20060518130020 159048c6
+D mssyst-globalization-numberformatinfo.ads  20060518130020 3e2c26cf
+D mssyst-globalization-numberstyles.ads  20060518130020 e67a6e84
+D mssyst-globalization-sortkey.ads  20060518130020 fbdd0312
+D mssyst-globalization-textinfo.ads  20060518130020 87fe0838
+D mssyst-guid.ads	20060518130008 81a28a48
+D mssyst-iasyncresult.ads  20060518130008 f67d3866
+D mssyst-icloneable.ads	20060518130004 e17b533e
+D mssyst-icomparable.ads  20060518130004 bf9ec2a5
+D mssyst-iconvertible.ads  20060518130004 5fd73d03
+D mssyst-idisposable.ads  20060518130004 43dfd267
+D mssyst-iformatprovider.ads  20060518130008 0282a90a
+D mssyst-io.ads		20060517214752 31f12609
+D mssyst-io-fileaccess.ads  20060518130030 86b9fb32
+D mssyst-io-filemode.ads  20060518130030 cd9a2184
+D mssyst-io-fileoptions.ads  20060518130030 dcc00896
+D mssyst-io-fileshare.ads  20060518130030 9c1d8f8e
+D mssyst-io-filestream.ads  20060518130030 e99dd9b5
+D mssyst-io-seekorigin.ads  20060518130030 84ee3c99
+D mssyst-io-stream.ads	20060518130030 8edee4de
+D mssyst-marshalbyrefobject.ads  20060518130006 1fa39a8f
+D mssyst-midpointrounding.ads  20060518130008 67720843
+D mssyst-modulehandle.ads  20060518130010 ea2bb724
+D mssyst-multicastdelegate.ads  20060518130006 378f1b43
+D mssyst-object.ads	20060518130004 47535304
+D mssyst-reflection.ads	20060517214746 25abbfbc
+D mssyst-reflection-assembly.ads  20060518130016 123eb80d
+D mssyst-reflection-assemblyname.ads  20060518130018 15212dcc
+D mssyst-reflection-assemblynameflags.ads  20060518130018 086c5b0c
+D mssyst-reflection-binder.ads  20060518130008 8f817e78
+D mssyst-reflection-bindingflags.ads  20060518130018 44cb2c03
+D mssyst-reflection-callingconventions.ads  20060518130018 6e41b7d5
+D mssyst-reflection-constructorinfo.ads  20060518130018 4a784f3e
+D mssyst-reflection-emit.ads  20060517214756 4afd7e34
+D mssyst-reflection-emit-assemblybuilder.ads  20060518130038 2594f2be
+D mssyst-reflection-emit-assemblybuilderaccess.ads  20060518130038 3e905f0b
+D mssyst-reflection-emit-constructorbuilder.ads  20060518130040 8edba5c2
+D mssyst-reflection-emit-customattributebuilder.ads  20060518130040 1e1657ec
+D mssyst-reflection-emit-enumbuilder.ads  20060518130040 9046bd80
+D mssyst-reflection-emit-eventbuilder.ads  20060518130040 12a25336
+D mssyst-reflection-emit-eventtoken.ads  20060518130040 c31dedc0
+D mssyst-reflection-emit-fieldbuilder.ads  20060518130040 4e556ec6
+D mssyst-reflection-emit-fieldtoken.ads  20060518130040 6e5683c9
+D mssyst-reflection-emit-flowcontrol.ads  20060518130040 ff69310a
+D mssyst-reflection-emit-generictypeparameterbuilder.ads  20060518130040 7da5a0ef
+D mssyst-reflection-emit-ilgenerator.ads  20060518130040 ca8a11d0
+D mssyst-reflection-emit-label.ads  20060518130040 92273418
+D mssyst-reflection-emit-localbuilder.ads  20060518130040 336f280d
+D mssyst-reflection-emit-methodbuilder.ads  20060518130040 f0b00fe2
+D mssyst-reflection-emit-methodtoken.ads  20060518130040 f3616fdf
+D mssyst-reflection-emit-modulebuilder.ads  20060518130040 4623cf58
+D mssyst-reflection-emit-opcode.ads  20060518130040 44329a45
+D mssyst-reflection-emit-opcodetype.ads  20060518130040 267092a0
+D mssyst-reflection-emit-operandtype.ads  20060518130040 ca28d2b6
+D mssyst-reflection-emit-packingsize.ads  20060518130040 751ed347
+D mssyst-reflection-emit-parameterbuilder.ads  20060518130040 87907581
+D mssyst-reflection-emit-parametertoken.ads  20060518130040 5035ac50
+D mssyst-reflection-emit-pefilekinds.ads  20060518130040 aa44e6ff
+D mssyst-reflection-emit-propertybuilder.ads  20060518130040 c031070b
+D mssyst-reflection-emit-propertytoken.ads  20060518130040 44508317
+D mssyst-reflection-emit-signaturehelper.ads  20060518130040 12f43880
+D mssyst-reflection-emit-signaturetoken.ads  20060518130040 4b5608cc
+D mssyst-reflection-emit-stackbehaviour.ads  20060518130040 67619f36
+D mssyst-reflection-emit-stringtoken.ads  20060518130040 4f873324
+D mssyst-reflection-emit-typebuilder.ads  20060518130040 9ca8f05d
+D mssyst-reflection-emit-typetoken.ads  20060518130040 f1621947
+D mssyst-reflection-emit-unmanagedmarshal.ads  20060518130040 471e56c9
+D mssyst-reflection-eventattributes.ads  20060518130018 601969cf
+D mssyst-reflection-eventinfo.ads  20060518130018 d074f51e
+D mssyst-reflection-fieldattributes.ads  20060518130018 7952d5f0
+D mssyst-reflection-fieldinfo.ads  20060518130018 467b8c48
+D mssyst-reflection-genericparameterattributes.ads  20060518130018 bf8892e6
+D mssyst-reflection-icustomattributeprovider.ads  20060518130010 f243134e
+D mssyst-reflection-imagefilemachine.ads  20060518130018 e85430a4
+D mssyst-reflection-interfacemapping.ads  20060518130018 8db7a5bb
+D mssyst-reflection-ireflect.ads  20060518130010 881bf639
+D mssyst-reflection-localvariableinfo.ads  20060518130018 bcbdaeb3
+D mssyst-reflection-manifestresourceinfo.ads  20060518130018 ad6bbbfa
+D mssyst-reflection-memberfilter.ads  20060518130018 50297139
+D mssyst-reflection-memberinfo.ads  20060518130010 0224f482
+D mssyst-reflection-membertypes.ads  20060518130018 781a8ce9
+D mssyst-reflection-methodattributes.ads  20060518130018 7f00d77d
+D mssyst-reflection-methodbase.ads  20060518130018 d9f75bde
+D mssyst-reflection-methodbody.ads  20060518130018 57c34b79
+D mssyst-reflection-methodimplattributes.ads  20060518130018 9b393827
+D mssyst-reflection-methodinfo.ads  20060518130018 9554c467
+D mssyst-reflection-module.ads  20060518130018 f7c1ae4f
+D mssyst-reflection-moduleresolveeventhandler.ads  20060518130016 55175e4b
+D mssyst-reflection-parameterattributes.ads  20060518130018 9852456a
+D mssyst-reflection-parameterinfo.ads  20060518130018 9faca9a0
+D mssyst-reflection-parametermodifier.ads  20060518130018 bf1ace9a
+D mssyst-reflection-portableexecutablekinds.ads  20060518130018 7dc22cdb
+D mssyst-reflection-processorarchitecture.ads  20060518130018 ed5839f4
+D mssyst-reflection-propertyattributes.ads  20060518130018 b25fd6ac
+D mssyst-reflection-propertyinfo.ads  20060518130018 83708877
+D mssyst-reflection-resourceattributes.ads  20060518130018 297f88c1
+D mssyst-reflection-resourcelocation.ads  20060518130018 f7e12499
+D mssyst-reflection-strongnamekeypair.ads  20060518130018 80794f06
+D mssyst-reflection-typeattributes.ads  20060518130018 4ce15869
+D mssyst-reflection-typefilter.ads  20060518130018 1bb8611f
+D mssyst-resolveeventargs.ads  20060518130006 a313837d
+D mssyst-resolveeventhandler.ads  20060518130006 4dd2120d
+D mssyst-resources.ads	20060517214748 5e28da10
+D mssyst-resources-iresourcewriter.ads  20060518130024 e5febceb
+D mssyst-runtime.ads	20060517214744 31dcc047
+D mssyst-runtime-constrainedexecution.ads  20060517214746 f6aa2aec
+D mssyst-runtime-constrainedexecution-criticalfinalizerobject.ads  20060518130008 d30c8885
+D mssyst-runtime-interopservices.ads  20060517214744 59769bf0
+D mssyst-runtime-interopservices-callingconvention.ads  20060518130026 8e366245
+D mssyst-runtime-interopservices-charset.ads  20060518130026 91df90fa
+D mssyst-runtime-interopservices-layoutkind.ads  20060518130026 c12116e8
+D mssyst-runtime-interopservices-safehandle.ads  20060518130010 973569bf
+D mssyst-runtime-interopservices-structlayoutattribute.ads  20060518130026 78989125
+D mssyst-runtime-interopservices-uassembly.ads  20060518130016 f96b0f31
+D mssyst-runtime-interopservices-uassemblybuilder.ads  20060518130038 76871991
+D mssyst-runtime-interopservices-uassemblyname.ads  20060518130018 de1b10ef
+D mssyst-runtime-interopservices-uattribute.ads  20060518130006 caafc494
+D mssyst-runtime-interopservices-uconstructorbuilder.ads  20060518130038 e7ee236d
+D mssyst-runtime-interopservices-uconstructorinfo.ads  20060518130018 c34639c6
+D mssyst-runtime-interopservices-ucustomattributebuilder.ads  20060518130038 fd206358
+D mssyst-runtime-interopservices-uenumbuilder.ads  20060518130038 45c734af
+D mssyst-runtime-interopservices-ueventbuilder.ads  20060518130038 7bfe1270
+D mssyst-runtime-interopservices-ueventinfo.ads  20060518130018 04844734
+D mssyst-runtime-interopservices-ufieldbuilder.ads  20060518130038 a6ee848f
+D mssyst-runtime-interopservices-ufieldinfo.ads  20060518130018 cdb9c056
+D mssyst-runtime-interopservices-uilgenerator.ads  20060518130038 e75ff4f3
+D mssyst-runtime-interopservices-ulocalbuilder.ads  20060518130038 2c5b9249
+D mssyst-runtime-interopservices-umemberinfo.ads  20060518130010 e5d5c7c0
+D mssyst-runtime-interopservices-umethodbase.ads  20060518130018 1ff9475f
+D mssyst-runtime-interopservices-umethodbuilder.ads  20060518130038 de518012
+D mssyst-runtime-interopservices-umethodinfo.ads  20060518130018 fc46035a
+D mssyst-runtime-interopservices-umodule.ads  20060518130018 85209d28
+D mssyst-runtime-interopservices-umodulebuilder.ads  20060518130038 50d1cfd9
+D mssyst-runtime-interopservices-unmanagedtype.ads  20060518130026 699e5342
+D mssyst-runtime-interopservices-uparameterbuilder.ads  20060518130038 bbe58743
+D mssyst-runtime-interopservices-uparameterinfo.ads  20060518130018 b106ef1a
+D mssyst-runtime-interopservices-upropertybuilder.ads  20060518130038 0181f0b3
+D mssyst-runtime-interopservices-upropertyinfo.ads  20060518130018 f015b8d5
+D mssyst-runtime-interopservices-usignaturehelper.ads  20060518130038 8e1bbf56
+D mssyst-runtime-interopservices-utype.ads  20060518130010 edc8eebe
+D mssyst-runtime-interopservices-utypebuilder.ads  20060518130038 22dfe411
+D mssyst-runtime-remoting.ads  20060517214746 74500271
+D mssyst-runtime-remoting-ichannelinfo.ads  20060518130036 42c0549f
+D mssyst-runtime-remoting-ienvoyinfo.ads  20060518130036 0d613007
+D mssyst-runtime-remoting-iobjecthandle.ads  20060518130012 c6e688b1
+D mssyst-runtime-remoting-iremotingtypeinfo.ads  20060518130036 9c09dda1
+D mssyst-runtime-remoting-messaging.ads  20060517214754 4bfbab1c
+D mssyst-runtime-remoting-messaging-imessage.ads  20060518130034 bf177a61
+D mssyst-runtime-remoting-messaging-imessagectrl.ads  20060518130034 e22b39ed
+D mssyst-runtime-remoting-messaging-imessagesink.ads  20060518130034 9c27ef9e
+D mssyst-runtime-remoting-objecthandle.ads  20060518130036 05701610
+D mssyst-runtime-remoting-objref.ads  20060518130036 cc63dccf
+D mssyst-runtime-serialization.ads  20060517214744 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060518130016 a25d9d2b
+D mssyst-runtime-serialization-iformatterconverter.ads  20060518130018 02d31acb
+D mssyst-runtime-serialization-iobjectreference.ads  20060518130008 c3279c62
+D mssyst-runtime-serialization-iserializable.ads  20060518130006 bc8947c1
+D mssyst-runtime-serialization-serializationentry.ads  20060518130020 a6dd57a6
+D mssyst-runtime-serialization-serializationinfo.ads  20060518130020 fe6300a3
+D mssyst-runtime-serialization-serializationinfoenumerator.ads  20060518130020 b2a6a08c
+D mssyst-runtime-serialization-streamingcontext.ads  20060518130020 b7580dc0
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060518130020 ab32dd44
+D mssyst-runtimefieldhandle.ads  20060518130010 1a535b0a
+D mssyst-runtimemethodhandle.ads  20060518130010 b5a8fc11
+D mssyst-runtimetypehandle.ads  20060518130010 2dc72f74
+D mssyst-sbyte.ads	20060518130010 0b40b4c3
+D mssyst-security.ads	20060517214744 a4c8227c
+D mssyst-security-accesscontrol.ads  20060517214756 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060518130042 da644f3b
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060518130042 983129b3
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060518130042 aaa7f08e
+D mssyst-security-accesscontrol-accessrule.ads  20060518130042 357b7164
+D mssyst-security-accesscontrol-auditflags.ads  20060518130042 6697b648
+D mssyst-security-accesscontrol-auditrule.ads  20060518130042 548a6e76
+D mssyst-security-accesscontrol-authorizationrule.ads  20060518130042 d4d98288
+D mssyst-security-accesscontrol-authorizationrulecollection.ads  20060518130042 bd787679
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060518130042 87d97b1c
+D mssyst-security-accesscontrol-filesecurity.ads  20060518130042 d4ef23f2
+D mssyst-security-accesscontrol-filesystemaccessrule.ads  20060518130042 3996455e
+D mssyst-security-accesscontrol-filesystemauditrule.ads  20060518130042 364a20bb
+D mssyst-security-accesscontrol-filesystemrights.ads  20060518130042 99ab4846
+D mssyst-security-accesscontrol-filesystemsecurity.ads  20060518130042 6b12c956
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060518130042 cb8e28ec
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060518130042 68e32c77
+D mssyst-security-accesscontrol-objectsecurity.ads  20060518130042 d97d6fc7
+D mssyst-security-accesscontrol-propagationflags.ads  20060518130042 7d0c8f98
+D mssyst-security-cryptography.ads  20060517214756 6bbb0e6b
+D mssyst-security-cryptography-x509certificates.ads  20060517214756 1b20ddcc
+D mssyst-security-cryptography-x509certificates-x509certificate.ads  20060518130042 438b9ef5
+D mssyst-security-cryptography-x509certificates-x509contenttype.ads  20060518130042 6cfaa0cf
+D mssyst-security-cryptography-x509certificates-x509keystorageflags.ads  20060518130042 db32c0bb
+D mssyst-security-ievidencefactory.ads  20060518130006 43c6d461
+D mssyst-security-ipermission.ads  20060518130032 711b8ada
+D mssyst-security-isecurityencodable.ads  20060518130024 b71a6cc4
+D mssyst-security-isecuritypolicyencodable.ads  20060518130024 b1742d9e
+D mssyst-security-istackwalk.ads  20060518130032 6df551dc
+D mssyst-security-namedpermissionset.ads  20060518130034 abb6d0c0
+D mssyst-security-permissions.ads  20060517214752 554c10f6
+D mssyst-security-permissions-permissionstate.ads  20060518130032 d1f9b637
+D mssyst-security-permissions-securityaction.ads  20060518130032 5ee82cad
+D mssyst-security-permissions-strongnamepublickeyblob.ads  20060518130034 0bd640e4
+D mssyst-security-permissionset.ads  20060518130034 1154d0f0
+D mssyst-security-policy.ads  20060517214748 7a609687
+D mssyst-security-policy-codegroup.ads  20060518130024 02882054
+D mssyst-security-policy-evidence.ads  20060518130024 1eabe8be
+D mssyst-security-policy-iidentitypermissionfactory.ads  20060518130024 04dbd58a
+D mssyst-security-policy-imembershipcondition.ads  20060518130024 936d128e
+D mssyst-security-policy-policylevel.ads  20060518130024 caea6cb5
+D mssyst-security-policy-policystatement.ads  20060518130024 74bf17c0
+D mssyst-security-policy-policystatementattribute.ads  20060518130024 13177284
+D mssyst-security-policy-strongname.ads  20060518130024 d1d6d523
+D mssyst-security-policy-strongnamemembershipcondition.ads  20060518130024 7487f502
+D mssyst-security-policyleveltype.ads  20060518130034 ab79f5f0
+D mssyst-security-principal.ads  20060517214748 7adc43fd
+D mssyst-security-principal-identityreference.ads  20060518130042 0b9e5f80
+D mssyst-security-principal-iidentity.ads  20060518130024 5382b3e5
+D mssyst-security-principal-iprincipal.ads  20060518130024 f6ee0b8a
+D mssyst-security-principal-principalpolicy.ads  20060518130024 2cd833d4
+D mssyst-security-securestring.ads  20060518130034 a9a06371
+D mssyst-security-securityelement.ads  20060518130032 39668539
+D mssyst-string.ads	20060518130004 b98d995f
+D mssyst-stringcomparison.ads  20060518130006 86ec68cf
+D mssyst-stringsplitoptions.ads  20060518130006 f2d0599e
+D mssyst-text.ads	20060517214744 a7ed250d
+D mssyst-text-decoder.ads  20060518130022 3b11b35a
+D mssyst-text-decoderfallback.ads  20060518130022 75e2f645
+D mssyst-text-decoderfallbackbuffer.ads  20060518130022 cf5e5e9e
+D mssyst-text-encoder.ads  20060518130022 58ffabf7
+D mssyst-text-encoderfallback.ads  20060518130022 77489063
+D mssyst-text-encoderfallbackbuffer.ads  20060518130022 50c8196a
+D mssyst-text-encoding.ads  20060518130022 9fed9190
+D mssyst-text-encodinginfo.ads  20060518130022 ce8a22c1
+D mssyst-text-normalizationform.ads  20060518130022 2ca43f9a
+D mssyst-threading.ads	20060517214746 964d65eb
+D mssyst-threading-waithandle.ads  20060518130010 cebe4958
+D mssyst-timespan.ads	20060518130010 642ef661
+D mssyst-type_k.ads	20060518130010 5ccf03f1
+D mssyst-typecode.ads	20060518130010 f5c22e86
+D mssyst-typedreference.ads  20060518130010 9b3bbb41
+D mssyst-uappdomain.ads	20060518130006 896f3395
+D mssyst-unhandledexceptioneventargs.ads  20060518130010 453db3fc
+D mssyst-unhandledexceptioneventhandler.ads  20060518130010 39b4f891
+D mssyst-valuetype.ads	20060518130004 4fb553b0
+D mssyst-version.ads	20060518130010 523fbb99
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 14 msil_types.ads
+5K9*Msil_Types 66e15 303|7w6 8r5 207r19 208r16 209r14 210r18 217r16 218r14
+. 219r17 222r17 227r22 229r14 230r16 231r21 232r20 233r20 234r18 245r21 246r24
+. 256r21 257r24 260r21
+18I9*int16<short_integer> 303|230r27
+22E9*unsigned_int8<character>
+27I9*unsigned_integer<integer> 303|208r27 209r25 217r27 218r25 227r33 229r25
+42A9*unsigned_int8_arr(22E9) 303|245r32 246r35 256r32 257r35 260r32
+50M9*native_int 303|207r30 210r29 219r28 231r32 232r31 233r31 234r29
+53M9*unsigned_integer_addrof 303|222r28
+X 15 mssyst.ads
+6K9*MSSyst 7e11 303|6r6 13r6 30r9 39r22 42r22 45r22 48r22 51r22 54r22 57r22
+. 60r21 67r29 68r25 69r37 69r74 72r29 73r25 75r21 76r23 77r21 78r24 79r37
+. 80r35 80r92 83r29 84r25 84r64 87r29 88r25 89r37 89r74 92r29 93r25 93r64
+. 96r29 97r25 99r21 100r23 101r21 102r24 103r37 104r35 104r92 107r21 108r18
+. 109r20 109r59 112r21 113r18 113r88 116r21 117r18 118r25 119r36 120r36 121r35
+. 121r90 124r21 125r18 126r20 127r25 128r36 129r36 130r35 130r90 133r21 134r18
+. 135r20 136r25 137r36 138r36 139r35 140r56 143r21 144r18 145r20 146r36 147r36
+. 148r35 148r90 151r21 152r18 153r25 153r82 156r21 157r18 158r36 159r36 160r35
+. 160r90 163r21 164r18 165r20 166r25 166r82 169r28 172r22 175r29 178r29 179r33
+. 182r29 183r33 184r21 186r40 188r40 190r40 192r40 194r40 198r40 201r21 201r60
+. 206r21 212r40 214r40 224r40 228r21 237r28 238r33 238r90 241r31 242r33 242r90
+. 247r33 247r90 250r31 250r70 253r28 253r84 257r68 260r65 263r22 266r22 269r22
+. 272r22 275r22 278r22 281r22 284r29 287r18 290r21 291r21 294r16 297r18 300r26
+. 302r40 351r5 352r20
+X 18 mssyst-assemblyloadeventhandler.ads
+21K16 AssemblyLoadEventHandler 303|39r29 263r29
+X 40 mssyst-crossappdomaindelegate.ads
+20K16 CrossAppDomainDelegate 303|169r35
+X 53 mssyst-eventhandler.ads
+21K16 EventHandler 303|45r29 48r29 269r29 272r29
+X 54 mssyst-globalization.ads
+6K16 Globalization 303|78r31 102r31
+X 60 mssyst-globalization-cultureinfo.ads
+19K30 CultureInfo 303|78r45 102r45
+X 69 mssyst-guid.ads
+13K16*Guid 94e16 303|13w13 206r28 228r28
+14R9*ValueType<306|12R9> 14e63 303|206r33 228r33
+X 88 mssyst-object.ads
+10K16*Object 44e18 303|6w13 69r44 77r28 79r44 89r44 101r28 103r44 172r29
+. 201r67 212r47 224r47 291r28
+11R9*Typ 13e14 303|172r36 201r74 212r54 224r54 291r35
+14P9*Ref(11R9)
+16A9*Ref_Arr(14P9) 303|69r51 77r35 79r51 89r51 101r35 103r51
+X 89 mssyst-reflection.ads
+6K16 Reflection 303|75r28 76r30 99r28 100r30 107r28 108r25 109r66 112r28
+. 113r25 113r95 116r28 117r25 121r97 124r28 125r25 130r97 133r28 134r25 140r63
+. 143r28 144r25 148r97 151r28 152r25 153r89 156r28 157r25 160r97 163r28 164r25
+. 166r89 198r47 237r35 238r97 242r97 247r97 250r77 253r35 253r91 257r75 260r72
+X 90 mssyst-reflection-assembly.ads
+30K27 Assembly 303|198r58 238r108 242r108 247r108 250r88 253r102 257r86 260r83
+X 91 mssyst-reflection-assemblyname.ads
+24K27 AssemblyName 303|107r39 112r39 116r39 124r39 133r39 143r39 151r39 156r39
+. 163r39 237r46 253r46
+X 93 mssyst-reflection-binder.ads
+17K27 Binder 303|76r41 100r41
+X 94 mssyst-reflection-bindingflags.ads
+13K27 BindingFlags 303|75r39 99r39
+X 97 mssyst-reflection-emit.ads
+6K27 Emit 303|108r36 109r77 113r36 113r106 117r36 121r108 125r36 130r108
+. 134r36 140r74 144r36 148r108 152r36 153r100 157r36 160r108 164r36 166r100
+X 98 mssyst-reflection-emit-assemblybuilder.ads
+39K32 AssemblyBuilder 303|109r82 113r111 121r113 130r113 140r79 148r113 153r105
+. 160r113 166r105
+X 99 mssyst-reflection-emit-assemblybuilderaccess.ads
+13K32 AssemblyBuilderAccess 303|108r41 113r41 117r41 125r41 134r41 144r41
+. 152r41 157r41 164r41
+X 165 mssyst-resolveeventhandler.ads
+22K16 ResolveEventHandler 303|42r29 51r29 54r29 266r29 275r29 278r29
+X 168 mssyst-runtime.ads
+6K16 Runtime 303|69r81 80r99 84r71 89r81 93r71 104r99
+X 205 mssyst-runtime-remoting.ads
+6K24 Remoting 303|69r89 80r107 84r79 89r89 93r79 104r107
+X 214 mssyst-runtime-remoting-objecthandle.ads
+14K33 ObjectHandle 303|69r98 80r116 84r88 89r98 93r88 104r116
+X 230 mssyst-security.ads
+6K16 Security 303|80r42 104r42 118r32 119r43 120r43 121r42 127r32 128r43
+. 129r43 130r42 136r32 137r43 138r43 139r42 146r43 147r43 148r42 153r32 158r43
+. 159r43 160r42 166r32 179r40 183r40 190r47 238r40 242r40 247r40 284r36 294r23
+. 300r33
+X 265 mssyst-security-permissionset.ads
+21K25 PermissionSet 303|119r52 120r52 121r51 128r52 129r52 130r51 137r52
+. 138r52 139r51 146r52 147r52 148r51 158r52 159r52 160r51
+X 266 mssyst-security-policy.ads
+6K25 Policy 303|80r51 104r51 118r41 127r41 136r41 153r41 166r41 179r49 183r49
+. 190r56 238r49 242r49 247r49 284r45
+X 268 mssyst-security-policy-evidence.ads
+15K32 Evidence 303|80r58 104r58 118r48 127r48 136r48 153r48 166r48 179r56
+. 183r56 190r63 238r56 242r56 247r56
+X 271 mssyst-security-policy-policylevel.ads
+21K32 PolicyLevel 303|284r52
+X 277 mssyst-security-principal.ads
+6K25 Principal 303|294r32 300r42
+X 280 mssyst-security-principal-iprincipal.ads
+11K35 IPrincipal 303|300r52
+X 281 mssyst-security-principal-principalpolicy.ads
+13K35 PrincipalPolicy 303|294r42
+X 284 mssyst-string.ads
+23K16 String 303|60r28 67r36 68r32 72r36 73r32 83r36 84r32 87r36 88r32 92r36
+. 93r32 96r36 97r32 109r27 126r27 135r27 145r27 165r27 175r36 178r36 182r36
+. 184r28 186r47 188r47 192r47 194r47 201r28 241r38 250r38 287r25 290r28 297r25
+. 302r47
+X 300 mssyst-type_k.ads
+38K16 Type_k 303|214r47
+X 303 mssyst-uappdomain.ads
+30K16*uAppDomain 15|6k9 303|351l12 351e22 352r27
+31H9*Typ 32r27 37p14 38r21 40p14 41r21 43p14 44r21 46p14 47r21 49p14 50r21
+. 52p14 53r21 55p14 56r21 58p14 59r21 61p14 62r21 63p14 64r21 65p13 66r21
+. 70p13 71r21 81p13 82r21 85p13 86r21 90p13 91r21 94p13 95r21 105p13 106r21
+. 110p13 111r21 114p13 115r21 122p13 123r21 131p13 132r21 141p13 142r21 149p13
+. 150r21 154p13 155r21 161p13 162r21 167p14 168r21 170p13 171r21 173p13 174r21
+. 176p13 177r21 180p13 181r21 185p13 186r21 187p13 188r21 189p13 190r21 191p13
+. 192r21 193p13 194r21 195p13 196r21 197p13 198r21 199p13 200r21 202p13 203r21
+. 204p14 205r21 211p13 212r21 213p13 214r21 215p14 216r21 220p14 221r21 223p13
+. 224r21 225p14 226r21 235p13 236r21 239p13 240r21 243p13 244r21 248p13 249r21
+. 251p13 252r21 254p13 255r21 258p13 259r21 261p14 262r21 264p14 265r21 267p14
+. 268r21 270p14 271r21 273p14 274r21 276p14 277r21 279p14 280r21 282p14 283r21
+. 285p14 286r21 288p14 289r21 292p14 293r21 295p14 296r21 298p14 299r21 301p13
+. 302r21
+32P9*Ref(31R9) 33r34 34r47
+33P9*Ref_addrof(32P9)
+34A9*Ref_Arr(32P9) 35r33
+35P9*Ref_Array(34A9) 36r40
+36P9*Ref_Array_addrof(35P9)
+37x14*add_AssemblyLoad 38^7 39^7 304b23
+38p7 This(31R9)
+39p7 value
+40x14*add_AssemblyResolve 41^7 42^7 305b23
+41p7 This(31R9)
+42p7 value
+43x14*add_DomainUnload 44^7 45^7 306b23
+44p7 This(31R9)
+45p7 value
+46x14*add_ProcessExit 47^7 48^7 307b23
+47p7 This(31R9)
+48p7 value
+49x14*add_ResourceResolve 50^7 51^7 308b23
+50p7 This(31R9)
+51p7 value
+52x14*add_TypeResolve 53^7 54^7 309b23
+53p7 This(31R9)
+54p7 value
+55x14*add_UnhandledException 56^7 57^7 310b23
+56p7 This(31R9)
+57p7 value
+58x14*AppendPrivatePath 59^7 60^7 311b23
+59p7 This(31R9)
+60p7 path
+61x14*ClearPrivatePath 62^7 312b23
+62p7 This(31R9)
+63x14*ClearShadowCopyPath 64^7 313b23
+64p7 This(31R9)
+65y13*CreateInstance 66^7 67^7 68^7 69^7
+66p7 This(31R9)
+67p7 assemblyName
+68p7 typeName
+69p7 activationAttributes(88|16A9)
+70y13*CreateInstance 71^7 72^7 73^7 74>7 75>7 76^7 77^7 78^7 79^7 80^7
+71p7 This(31R9)
+72p7 assemblyName
+73p7 typeName
+74b7 ignoreCase{boolean}
+75+7 bindingAttr
+76p7 binder
+77p7 args(88|16A9)
+78p7 culture
+79p7 activationAttributes(88|16A9)
+80p7 securityAttributes
+81y13*CreateInstance 82^7 83^7 84^7 314b23
+82p7 This(31R9)
+83p7 assemblyName
+84p7 typeName
+85y13*CreateInstanceFrom 86^7 87^7 88^7 89^7
+86p7 This(31R9)
+87p7 assemblyFile
+88p7 typeName
+89p7 activationAttributes(88|16A9)
+90y13*CreateInstanceFrom 91^7 92^7 93^7
+91p7 This(31R9)
+92p7 assemblyFile
+93p7 typeName
+94y13*CreateInstanceFrom 95^7 96^7 97^7 98>7 99>7 100^7 101^7 102^7 103^7
+. 104^7 315b23
+95p7 This(31R9)
+96p7 assemblyFile
+97p7 typeName
+98b7 ignoreCase{boolean}
+99+7 bindingAttr
+100p7 binder
+101p7 args(88|16A9)
+102p7 culture
+103p7 activationAttributes(88|16A9)
+104p7 securityAttributes
+105y13*DefineDynamicAssembly 106^7 107^7 108>7 109^7
+106p7 This(31R9)
+107p7 name
+108+7 access_k
+109p7 dir
+110y13*DefineDynamicAssembly 111^7 112^7 113>7
+111p7 This(31R9)
+112p7 name
+113+7 access_k
+114y13*DefineDynamicAssembly 115^7 116^7 117>7 118^7 119^7 120^7 121^7
+115p7 This(31R9)
+116p7 name
+117+7 access_k
+118p7 evidence
+119p7 requiredPermissions
+120p7 optionalPermissions
+121p7 refusedPermissions
+122y13*DefineDynamicAssembly 123^7 124^7 125>7 126^7 127^7 128^7 129^7 130^7
+123p7 This(31R9)
+124p7 name
+125+7 access_k
+126p7 dir
+127p7 evidence
+128p7 requiredPermissions
+129p7 optionalPermissions
+130p7 refusedPermissions
+131y13*DefineDynamicAssembly 132^7 133^7 134>7 135^7 136^7 137^7 138^7 139^7
+. 140>7
+132p7 This(31R9)
+133p7 name
+134+7 access_k
+135p7 dir
+136p7 evidence
+137p7 requiredPermissions
+138p7 optionalPermissions
+139p7 refusedPermissions
+140b7 isSynchronized{boolean}
+141y13*DefineDynamicAssembly 142^7 143^7 144>7 145^7 146^7 147^7 148^7
+142p7 This(31R9)
+143p7 name
+144+7 access_k
+145p7 dir
+146p7 requiredPermissions
+147p7 optionalPermissions
+148p7 refusedPermissions
+149y13*DefineDynamicAssembly 150^7 151^7 152>7 153^7
+150p7 This(31R9)
+151p7 name
+152+7 access_k
+153p7 evidence
+154y13*DefineDynamicAssembly 155^7 156^7 157>7 158^7 159^7 160^7
+155p7 This(31R9)
+156p7 name
+157+7 access_k
+158p7 requiredPermissions
+159p7 optionalPermissions
+160p7 refusedPermissions
+161y13*DefineDynamicAssembly 162^7 163^7 164>7 165^7 166^7 316b23
+162p7 This(31R9)
+163p7 name
+164+7 access_k
+165p7 dir
+166p7 evidence
+167x14*DoCallBack 168^7 169^7 317b23
+168p7 This(31R9)
+169p7 theDelegate
+170y13*Equals{boolean} 171^7 172^7 318b23
+171p7 This(31R9)
+172p7 other(88|11R9)
+173y13*ExecuteAssembly{integer} 174^7 175^7
+174p7 This(31R9)
+175p7 assemblyFile
+176y13*ExecuteAssembly{integer} 177^7 178^7 179^7
+177p7 This(31R9)
+178p7 assemblyFile
+179p7 assemblySecurity
+180y13*ExecuteAssembly{integer} 181^7 182^7 183^7 184^7 319b23
+181p7 This(31R9)
+182p7 assemblyFile
+183p7 assemblySecurity
+184p7 args
+185y13*get_BaseDirectory 186^7 320b23
+186p7 This(31R9)
+187y13*get_DynamicDirectory 188^7 321b23
+188p7 This(31R9)
+189y13*get_Evidence 190^7 322b23
+190p7 This(31R9)
+191y13*get_FriendlyName 192^7 323b23
+192p7 This(31R9)
+193y13*get_RelativeSearchPath 194^7 324b23
+194p7 This(31R9)
+195y13*get_ShadowCopyFiles{boolean} 196^7 325b23
+196p7 This(31R9)
+197y13*GetAssemblies 198^7 326b23
+198p7 This(31R9)
+199y13*GetData(88|11R9) 200^7 201^7 327b23
+200p7 This(31R9)
+201p7 name
+202y13*GetHashCode{integer} 203^7 328b23
+203p7 This(31R9)
+204x14*GetIDsOfNames 205^7 206^7 207>7 208>7 209>7 210>7 329b23
+205p7 This(31R9)
+206p7 riid(69|14R9)
+207m7 rgszNames{14|50M9}
+208i7 cNames{14|27I9}
+209i7 lcid{14|27I9}
+210m7 rgDispId{14|50M9}
+211y13*GetLifetimeService(88|11R9) 212^7 330b23
+212p7 This(31R9)
+213y13*GetType 214^7 331b23
+214p7 This(31R9)
+215x14*GetTypeInfo 216^7 217>7 218>7 219>7 332b23
+216p7 This(31R9)
+217i7 iTInfo{14|27I9}
+218i7 lcid{14|27I9}
+219m7 ppTInfo{14|50M9}
+220x14*GetTypeInfoCount 221^7 222>7 333b23
+221p7 This(31R9)
+222m7 pcTInfo{14|53M9}
+223y13*InitializeLifetimeService(88|11R9) 224^7 334b23
+224p7 This(31R9)
+225x14*Invoke 226^7 227>7 228^7 229>7 230>7 231>7 232>7 233>7 234>7 335b23
+226p7 This(31R9)
+227i7 dispIdMember{14|27I9}
+228p7 riid(69|14R9)
+229i7 lcid{14|27I9}
+230i7 wFlags{14|18I9}
+231m7 pDispParams{14|50M9}
+232m7 pVarResult{14|50M9}
+233m7 pExcepInfo{14|50M9}
+234m7 puArgErr{14|50M9}
+235y13*Load 236^7 237^7 238^7
+236p7 This(31R9)
+237p7 assemblyRef
+238p7 assemblySecurity
+239y13*Load 240^7 241^7 242^7
+240p7 This(31R9)
+241p7 assemblyString
+242p7 assemblySecurity
+243y13*Load 244^7 245>7 246>7 247^7
+244p7 This(31R9)
+245a7 rawAssembly{14|42A9}
+246a7 rawSymbolStore{14|42A9}
+247p7 securityEvidence
+248y13*Load 249^7 250^7
+249p7 This(31R9)
+250p7 assemblyString
+251y13*Load 252^7 253^7
+252p7 This(31R9)
+253p7 assemblyRef
+254y13*Load 255^7 256>7 257>7
+255p7 This(31R9)
+256a7 rawAssembly{14|42A9}
+257a7 rawSymbolStore{14|42A9}
+258y13*Load 259^7 260>7 336b23
+259p7 This(31R9)
+260a7 rawAssembly{14|42A9}
+261x14*remove_AssemblyLoad 262^7 263^7 337b23
+262p7 This(31R9)
+263p7 value
+264x14*remove_AssemblyResolve 265^7 266^7 338b23
+265p7 This(31R9)
+266p7 value
+267x14*remove_DomainUnload 268^7 269^7 339b23
+268p7 This(31R9)
+269p7 value
+270x14*remove_ProcessExit 271^7 272^7 340b23
+271p7 This(31R9)
+272p7 value
+273x14*remove_ResourceResolve 274^7 275^7 341b23
+274p7 This(31R9)
+275p7 value
+276x14*remove_TypeResolve 277^7 278^7 342b23
+277p7 This(31R9)
+278p7 value
+279x14*remove_UnhandledException 280^7 281^7 343b23
+280p7 This(31R9)
+281p7 value
+282x14*SetAppDomainPolicy 283^7 284^7 344b23
+283p7 This(31R9)
+284p7 domainPolicy
+285x14*SetCachePath 286^7 287^7 345b23
+286p7 This(31R9)
+287p7 s
+288x14*SetData 289^7 290^7 291^7 346b23
+289p7 This(31R9)
+290p7 name
+291p7 data(88|11R9)
+292x14*SetPrincipalPolicy 293^7 294>7 347b23
+293p7 This(31R9)
+294+7 policy
+295x14*SetShadowCopyPath 296^7 297^7 348b23
+296p7 This(31R9)
+297p7 s
+298x14*SetThreadPrincipal 299^7 300^7 349b23
+299p7 This(31R9)
+300p7 principal
+301y13*ToString 302^7 350b23
+302p7 This(31R9)
+X 305 mssyst-unhandledexceptioneventhandler.ads
+21K16 UnhandledExceptionEventHandler 303|57r29 281r29
+

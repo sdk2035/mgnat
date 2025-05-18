@@ -1,0 +1,196 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.security.policy.codegroup%s  mssyst-security-policy-codegroup.ads  8949d0e6 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.policy%s  mssyst-security-policy.ads  mssyst-security-policy.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-isecurityencodable.ads  20060131171400 401a78fc
+D mssyst-security-isecuritypolicyencodable.ads  20060131171400 10b9f113
+D mssyst-security-policy.ads  20060131165228 7a609687
+D mssyst-security-policy-codegroup.ads  20060131171400 46ad0191
+D mssyst-security-policy-evidence.ads  20060131171400 64e7a78f
+D mssyst-security-policy-imembershipcondition.ads  20060131171400 76eb86bf
+D mssyst-security-policy-policylevel.ads  20060131171400 d33bd980
+D mssyst-security-policy-policystatement.ads  20060131171400 19bc6307
+D mssyst-security-policy-policystatementattribute.ads  20060131171400 0a6ffe1d
+D mssyst-security-policyleveltype.ads  20060131171404 27675b3c
+D mssyst-security-securityelement.ads  20060131171404 9c7ab9d5
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 35|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 35|7r6 10r6 19r9 26r29 31r15 33r33 36r12 40r11 43r11 46r11
+. 47r15 49r33 51r33 53r33 55r33 57r33 59r33 61r33 63r33 68r15 71r18 71r62
+. 74r18 74r62 77r15 80r15 83r15 86r15 89r15 91r33 94r15 94r62 119r5 121r20
+X 7 mssyst-collections.ads
+6K16 Collections 35|51r40 77r22
+X 9 mssyst-collections-ilist.ads
+12K28 IList 35|51r52 77r34
+14P9 Ref(integer) 35|51r58 77r40
+X 15 mssyst-object.ads
+11K16*Object 46e18 35|7w13 10w13 26r36 40r18
+12R9*Typ 20e14 35|26r43
+13P9*Ref(12R9) 35|40r25
+18R9*Typ
+31V13*GetType{48|51P9}
+36V13*ToString{43|27P9}
+X 31 mssyst-security.ads
+6K16*Security 6|6k9 31|7e20 35|19r16 31r22 33r40 36r19 43r18 46r18 47r22
+. 55r40 63r40 68r22 71r25 71r69 74r25 74r69 83r22 89r22 91r40 94r22 94r69
+. 119r12 121r27
+X 34 mssyst-security-policy.ads
+6K25*Policy 31|6k16 34|7e27 35|19r25 31r31 33r49 36r28 47r31 55r49 63r49
+. 68r31 71r34 71r78 74r34 74r78 83r31 89r31 94r31 119r21 121r36
+X 35 mssyst-security-policy-codegroup.ads
+19K32*CodeGroup 34|6k25 35|31r38 33r56 36r35 68r38 74r85 119l28 119e37 121r43
+20R9*Typ 21r27 26c9 30r21 33r21 35r21 39r21 42r21 45r21 49r21 51r21 53r21
+. 55r21 57r21 59r21 61r21 63r21 65r21 67r21 70r21 73r21 76r21 79r21 82r21
+. 85r21 88r21 91r21 93r21 96r27
+21P9*Ref(20R9) 22r34 23r47 31r48 33r66 36r45 68r48 74r95
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40
+25P9*Ref_Array_addrof(24P9)
+26H9*Typ<15|18R9> 15|31p13 36p13 35|28e14 29p14 32p13 34p13 38P13 41p14 44p14
+. 48p13 50p13 52p13 54p13 56p13 58p13 60p13 62p13 64P13 66p14 69p13 72p13
+. 75p14 78p14 81p14 84p14 87p14 90p13 92p13
+29U14*AddChild 30^7 31>7 97b23
+30p7 This(26R9)
+31p7 group{21P9}
+32V13*Copy{21P9} 33^7 98b23
+33p7 This(26R9)
+34V13*Equals{boolean} 35^7 36>7 37>7
+35p7 This(26R9)
+36p7 cg{21P9}
+37b7 compareChildren{boolean}
+38V13*Equals{boolean} 39^7 40>7 99b23
+39p7 This(26R9)
+40p7 o{15|13P9}
+41U14*FromXml 42^7 43>7
+42p7 This(26R9)
+43p7 e{42|17P9}
+44U14*FromXml 45^7 46>7 47>7 100b23
+45p7 This(26R9)
+46p7 e{42|17P9}
+47p7 level{38|25P9}
+48V13*get_AttributeString{43|27P9} 49^7 101b23
+49p7 This(26R9)
+50V13*get_Children{9|14P9} 51^7 102b23
+51p7 This(26R9)
+52V13*get_Description{43|27P9} 53^7 103b23
+53p7 This(26R9)
+54V13*get_MembershipCondition{37|17P9} 55^7 104b23
+55p7 This(26R9)
+56V13*get_MergeLogic{43|27P9} 57^7 105b23
+57p7 This(26R9)
+58V13*get_Name{43|27P9} 59^7 106b23
+59p7 This(26R9)
+60V13*get_PermissionSetName{43|27P9} 61^7 107b23
+61p7 This(26R9)
+62V13*get_PolicyStatement{39|21P9} 63^7 108b23
+63p7 This(26R9)
+64V13*GetHashCode{integer} 65^7 109b23
+65p7 This(26R9)
+66U14*RemoveChild 67^7 68>7 110b23
+67p7 This(26R9)
+68p7 group{21P9}
+69V13*Resolve{39|21P9} 70^7 71>7 111b23
+70p7 This(26R9)
+71p7 evidence{36|19P9}
+72V13*ResolveMatchingCodeGroups{21P9} 73^7 74>7 112b23
+73p7 This(26R9)
+74p7 evidence{36|19P9}
+75U14*set_Children 76^7 77>7 113b23
+76p7 This(26R9)
+77p7 value{9|14P9}
+78U14*set_Description 79^7 80>7 114b23
+79p7 This(26R9)
+80p7 value{43|27P9}
+81U14*set_MembershipCondition 82^7 83>7 115b23
+82p7 This(26R9)
+83p7 value{37|17P9}
+84U14*set_Name 85^7 86>7 116b23
+85p7 This(26R9)
+86p7 value{43|27P9}
+87U14*set_PolicyStatement 88^7 89>7 117b23
+88p7 This(26R9)
+89p7 value{39|21P9}
+90V13*ToXml{42|17P9} 91^7
+91p7 This(26R9)
+92V13*ToXml{42|17P9} 93^7 94>7 118b23
+93p7 This(26R9)
+94p7 level{38|25P9}
+X 36 mssyst-security-policy-evidence.ads
+17K32 Evidence 35|71r41 74r41
+19P9 Ref(integer) 35|71r50 74r50
+X 37 mssyst-security-policy-imembershipcondition.ads
+15K32 IMembershipCondition 35|55r56 83r38
+17P9 Ref(integer) 35|55r77 83r59
+X 38 mssyst-security-policy-policylevel.ads
+23K32 PolicyLevel 35|47r38 94r38
+25P9 Ref(integer) 35|47r50 94r50
+X 39 mssyst-security-policy-policystatement.ads
+19K32 PolicyStatement 35|63r56 71r85 89r38
+21P9 Ref(integer) 35|63r72 71r101 89r54
+X 42 mssyst-security-securityelement.ads
+15K25 SecurityElement 35|43r27 46r27 91r49 94r78
+17P9 Ref(integer) 35|43r43 46r43 91r65 94r94
+X 43 mssyst-string.ads
+25K16 String 35|49r40 53r40 57r40 59r40 61r40 80r22 86r22
+27P9 Ref(integer) 35|49r47 53r47 57r47 59r47 61r47 80r29 86r29
+X 48 mssyst-type_k.ads
+51P9 Ref(integer)
+

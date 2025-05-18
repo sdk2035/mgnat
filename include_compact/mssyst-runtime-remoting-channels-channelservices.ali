@@ -1,0 +1,186 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.remoting.channels.channelservices%s  mssyst-runtime-remoting-channels-channelservices.ads  a178c826 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.remoting%s  mssyst-runtime-remoting.ads  mssyst-runtime-remoting.ali
+W mssyst.runtime.remoting.channels%s  mssyst-runtime-remoting-channels.ads  mssyst-runtime-remoting-channels.ali
+W mssyst.runtime.remoting.channels.serverprocessing%s  mssyst-runtime-remoting-channels-serverprocessing.ads  mssyst-runtime-remoting-channels-serverprocessing.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-idictionary.ads  20060131171358 0d4908a9
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-channels.ads  20060131165236 68763e3c
+D mssyst-runtime-remoting-channels-channelservices.ads  20060131171404 e9de1aef
+D mssyst-runtime-remoting-channels-ichannel.ads  20060131171404 1bb9b0e5
+D mssyst-runtime-remoting-channels-ichannelreceiver.ads  20060131171404 49f07710
+D mssyst-runtime-remoting-channels-ichannelsinkbase.ads  20060131171404 f0c51af9
+D mssyst-runtime-remoting-channels-iserverchannelsink.ads  20060131171404 aa7b6ca6
+D mssyst-runtime-remoting-channels-iserverchannelsinkprovider.ads  20060131171404 a516444c
+D mssyst-runtime-remoting-channels-iserverchannelsinkstack.ads  20060131171404 e8f809cb
+D mssyst-runtime-remoting-channels-iserverresponsechannelsinkstack.ads  20060131171404 cc7ee92e
+D mssyst-runtime-remoting-channels-serverprocessing.ads  20060131171404 9554ab05
+D mssyst-runtime-remoting-messaging.ads  20060131165236 4bfbab1c
+D mssyst-runtime-remoting-messaging-imessage.ads  20060131171404 4a6683f1
+D mssyst-runtime-remoting-messaging-imessagectrl.ads  20060131171406 451ecb84
+D mssyst-runtime-remoting-messaging-imessagesink.ads  20060131171404 ee6abc9b
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 34|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 34|7r6 10r6 17r6 27r9 34r20 38r13 39r19 39r78 41r18 42r17
+. 42r79 44r19 45r13 46r18 46r80 47r43 49r14 49r40 51r13 51r39 53r13 53r51
+. 55r14 58r14 60r13 60r68 62r14 75r5 77r20
+X 7 mssyst-collections.ads
+6K16 Collections 34|51r46
+X 9 mssyst-collections-idictionary.ads
+13K28 IDictionary 34|51r58
+15P9 Ref(integer) 34|51r70
+X 16 mssyst-marshalbyrefobject.ads
+14K16 MarshalByRefObject 34|53r20
+16P9 Ref(integer) 34|53r39
+X 17 mssyst-object.ads
+11K16*Object 46e18 34|7w13 10w13 34r27 51r20
+12R9*Typ 20e14 34|34r34
+13P9*Ref(12R9) 34|51r27
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{53|51P9}
+36V13*ToString{48|27P9}
+X 28 mssyst-runtime.ads
+6K16*Runtime 6|6k9 28|7e19 34|17r13 27r16 38r20 39r26 39r85 41r25 42r24 42r86
+. 44r26 45r20 46r25 46r87 47r50 49r47 55r21 58r21 60r20 60r75 62r21 75r12
+. 77r27
+X 32 mssyst-runtime-remoting.ads
+6K24*Remoting 28|6k16 32|7e28 34|17r21 27r24 38r28 39r34 39r93 41r33 42r32
+. 42r94 44r34 45r28 46r33 46r95 47r58 49r55 55r29 58r29 60r28 60r83 62r29
+. 75r20 77r35
+X 33 mssyst-runtime-remoting-channels.ads
+6K33*Channels 32|6k24 33|7e37 34|17r30 27r33 41r42 42r41 42r103 44r43 46r104
+. 47r67 49r64 55r38 58r38 62r38 75r29 77r44
+X 34 mssyst-runtime-remoting-channels-channelservices.ads
+27K42*ChannelServices 33|6k33 34|75l38 75e53 77r53
+28R9*Typ 29r27 34c9 64r27
+29P9*Ref(28R9) 30r34 31r47
+30P9*Ref_addrof(29P9)
+31A9*Ref_Arr(29P9) 32r33
+32P9*Ref_Array(31A9) 33r40
+33P9*Ref_Array_addrof(32P9)
+34R9*Typ<17|18R9> 17|23p13 29p13 31p13 36p13 34|36e14
+37V13*AsyncDispatchMessage{45|12P9} 38>7 39>7 65b23
+38p7 msg{44|13P9}
+39p7 replySink{46|14P9}
+40V13*CreateServerChannelSinkChain{38|23P9} 41>7 42>7 66b23
+41p7 provider{39|15P9}
+42p7 channel{36|16P9}
+43V13*DispatchMessage{42|16E9} 44>7 45>7 46>7 67b23
+44p7 sinkStack{40|16P9}
+45p7 msg{44|13P9}
+46p7 replyMsg{44|14P9}
+47V13*get_RegisteredChannels{35|17P9} 68b23
+48V13*GetChannel{35|14P9} 49>7 69b23
+49p7 name{48|27P9}
+50V13*GetChannelSinkProperties{9|15P9} 51>7 70b23
+51p7 obj{17|13P9}
+52V13*GetUrlsForObject{48|30P9} 53>7 71b23
+53p7 obj{16|16P9}
+54U14*RegisterChannel 55>7 56>7
+55p7 chnl{35|14P9}
+56b7 ensureSecurity{boolean}
+57U14*RegisterChannel 58>7 72b23
+58p7 chnl{35|14P9}
+59V13*SyncDispatchMessage{44|13P9} 60>7 73b23
+60p7 msg{44|13P9}
+61U14*UnregisterChannel 62>7 74b23
+62p7 chnl{35|14P9}
+X 35 mssyst-runtime-remoting-channels-ichannel.ads
+12K42 IChannel 34|47r76 49r73 55r47 58r47 62r47
+14P9 Ref(integer) 34|49r82 55r56 58r56 62r56
+17P9 Ref_Array(integer) 34|47r85
+X 36 mssyst-runtime-remoting-channels-ichannelreceiver.ads
+14K42 IChannelReceiver 34|42r50
+16P9 Ref(integer) 34|42r67
+X 38 mssyst-runtime-remoting-channels-iserverchannelsink.ads
+21K42 IServerChannelSink 34|42r112
+23P9 Ref(integer) 34|42r131
+X 39 mssyst-runtime-remoting-channels-iserverchannelsinkprovider.ads
+13K42 IServerChannelSinkProvider 34|41r51
+15P9 Ref(integer) 34|41r78
+X 40 mssyst-runtime-remoting-channels-iserverchannelsinkstack.ads
+14K42 IServerChannelSinkStack 34|44r52
+16P9 Ref(integer) 34|44r76
+X 42 mssyst-runtime-remoting-channels-serverprocessing.ads
+15K42*ServerProcessing 34|17w39 46r113 42|60e54
+16E9*ValueType 34|46r130 42|19e13
+X 43 mssyst-runtime-remoting-messaging.ads
+6K33 Messaging 34|38r37 39r43 39r102 45r37 46r42 60r37 60r92
+X 44 mssyst-runtime-remoting-messaging-imessage.ads
+11K43 IMessage 34|38r47 45r47 46r52 60r47 60r102
+13P9 Ref(integer) 34|38r56 45r56 60r56 60r111
+14P9 Ref_addrof(integer) 34|46r61
+X 45 mssyst-runtime-remoting-messaging-imessagectrl.ads
+10K43 IMessageCtrl 34|39r112
+12P9 Ref(integer) 34|39r125
+X 46 mssyst-runtime-remoting-messaging-imessagesink.ads
+12K43 IMessageSink 34|39r53
+14P9 Ref(integer) 34|39r66
+X 48 mssyst-string.ads
+25K16 String 34|49r21 53r58
+27P9 Ref(integer) 34|49r28
+30P9 Ref_Array(integer) 34|53r65
+X 53 mssyst-type_k.ads
+51P9 Ref(integer)
+

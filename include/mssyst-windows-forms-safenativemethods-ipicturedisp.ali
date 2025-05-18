@@ -1,0 +1,106 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.safenativemethods.ipicturedisp%s  mssyst-windows-forms-safenativemethods-ipicturedisp.ads  233ab75e NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.safenativemethods%s  mssyst-windows-forms-safenativemethods.ads  mssyst-windows-forms-safenativemethods.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D mssyst-windows.ads	20050914013316 8e5e07ed
+D mssyst-windows-forms.ads  20050914013316 c6ce9829
+D mssyst-windows-forms-safenativemethods.ads  20050914013326 ab6157df
+D mssyst-windows-forms-safenativemethods-ipicturedisp.ads  20050914133506 6a88c2b4
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 72e15 29|8w6 9r5 19r33 23r33 25r33 30r13
+20I9*int16<short_integer> 29|25r44
+52M9*native_int 29|19r44 23r44 30r24
+X 9 mssyst.ads
+6K9*MSSyst 7e11 29|7r6 10r9 46r5 48r20
+X 12 mssyst-object.ads
+11K16*Object 46e18 29|7w13
+X 26 mssyst-windows.ads
+6K16*Windows 9|6k9 26|7e19 29|10r16 46r12 48r27
+X 27 mssyst-windows-forms.ads
+6K24*Forms 26|6k16 27|7e25 29|10r24 46r20 48r35
+X 28 mssyst-windows-forms-safenativemethods.ads
+6K30*SafeNativeMethods 27|6k24 28|7e43 29|10r30 46r26 48r41
+X 29 mssyst-windows-forms-safenativemethods-ipicturedisp.ads
+10K48*IPictureDisp 28|6k30 29|46l44 46e56 48r59
+11R9*Typ 12r27 17c9 19r21 21r21 23r21 25r21 27r21 29r21
+12P9*Ref(11R9) 13r34 14r47
+13P9*Ref_addrof(12P9)
+14A9*Ref_Arr(12P9) 15r33
+15P9*Ref_Array(14A9) 16r40
+16P9*Ref_Array_addrof(15P9)
+17H9*Typ 18p13 20p13 22p13 24p13 26p13 28p14
+18y13*get_Handle{8|52M9} 19^7 40b23
+19p7 This(17R9)
+20y13*get_Height{integer} 21^7 41b23
+21p7 This(17R9)
+22y13*get_HPal{8|52M9} 23^7 42b23
+23p7 This(17R9)
+24y13*get_PictureType{8|20I9} 25^7 43b23
+25p7 This(17R9)
+26y13*get_Width{integer} 27^7 44b23
+27p7 This(17R9)
+28x14*Render 29^7 30>7 31>7 32>7 33>7 34>7 35>7 36>7 37>7 38>7 45b23
+29p7 This(17R9)
+30m7 hdc{8|52M9}
+31i7 x{integer}
+32i7 y{integer}
+33i7 cx{integer}
+34i7 cy{integer}
+35i7 xSrc{integer}
+36i7 ySrc{integer}
+37i7 cxSrc{integer}
+38i7 cySrc{integer}
+

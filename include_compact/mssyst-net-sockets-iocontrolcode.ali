@@ -1,0 +1,153 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.net.sockets.iocontrolcode%s  mssyst-net-sockets-iocontrolcode.ads  c3b54120 NE PK
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.net.sockets%s	mssyst-net-sockets.ads	mssyst-net-sockets.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.typecode%s	mssyst-typecode.ads	mssyst-typecode.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-net.ads	20060131171420 aa03617c
+D mssyst-net-sockets.ads  20060131171422 4d59735d
+D mssyst-net-sockets-iocontrolcode.ads  20060131171422 8019f358
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 15|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 15|7r6 12r6 15r9 93r16 96r13 100r32 102r32 105r18 105r53
+. 107r32 110r16 111r18 111r53 114r16 114r42 122r5 124r20
+X 12 mssyst-iformatprovider.ads
+12K16 IFormatProvider 15|105r25 111r25
+14P9 Ref(integer) 15|105r41 111r41
+X 13 mssyst-net.ads
+6K16*Net 6|6k9 13|7e15 15|15r16 122r12 124r27
+X 14 mssyst-net-sockets.ads
+6K20*Sockets 13|6k16 14|7e23 15|15r20 122r16 124r31
+X 15 mssyst-net-sockets-iocontrolcode.ads
+15K28*IOControlCode 14|6k20 15|122l24 122e37 124r39
+16E9*ValueType 50e28 51r29 52r8 87r54 89r40 92r14 95r14 98r14 100r14 102r14
+. 104r14 107r14 109r14 113r14
+17n7*AsyncIO{16E9} 53r7
+18n7*NonBlockingIO{16E9} 54r7
+19n7*AssociateHandle{16E9} 55r7
+20n7*MultipointLoopback{16E9} 56r7
+21n7*MulticastScope{16E9} 57r7
+22n7*SetQos{16E9} 58r7
+23n7*SetGroupQos{16E9} 59r7
+24n7*RoutingInterfaceChange{16E9} 60r7
+25n7*NamespaceChange{16E9} 61r7
+26n7*ReceiveAll{16E9} 62r7
+27n7*ReceiveAllMulticast{16E9} 63r7
+28n7*ReceiveAllIgmpMulticast{16E9} 64r7
+29n7*KeepAliveValues{16E9} 65r7
+30n7*AbsorbRouterAlert{16E9} 66r7
+31n7*UnicastInterface{16E9} 67r7
+32n7*LimitBroadcasts{16E9} 68r7
+33n7*BindToInterface{16E9} 69r7
+34n7*MulticastInterface{16E9} 70r7
+35n7*AddMulticastGroupOnInterface{16E9} 71r7
+36n7*DeleteMulticastGroupFromInterface{16E9} 72r7
+37n7*GetExtensionFunctionPointer{16E9} 73r7
+38n7*GetQos{16E9} 74r7
+39n7*GetGroupQos{16E9} 75r7
+40n7*TranslateHandle{16E9} 76r7
+41n7*RoutingInterfaceQuery{16E9} 77r7
+42n7*AddressListSort{16E9} 78r7
+43n7*EnableCircularQueuing{16E9} 79r7
+44n7*Flush{16E9} 80r7
+45n7*AddressListChange{16E9} 81r7
+46n7*DataToRead{16E9} 82r7
+47n7*OobDataRead{16E9} 83r7
+48n7*GetBroadcastAddress{16E9} 84r7
+49n7*AddressListQuery{16E9} 85r7
+50n7*QueryTargetPnpHandle{16E9} 86r7
+87A9*ValueType_Arr(16E9) 88r39
+88P9*ValueType_Array(87A9) 90r46
+89P9*ValueType_addrof(16E9)
+90P9*ValueType_array_addrof(88P9)
+91V13*CompareTo{integer} 92>7 93>7 116b23
+92e7 This{16E9}
+93p7 target{16|13P9}
+94V13*Equals{boolean} 95>7 96>7 117b23
+95e7 This{16E9}
+96p7 obj{16|13P9}
+97V13*GetHashCode{integer} 98>7 118b23
+98e7 This{16E9}
+99V13*GetType{37|51P9} 100>7 119b23
+100e7 This{16E9}
+101V13*GetTypeCode{38|15E9} 102>7 120b23
+102e7 This{16E9}
+103V13*ToString{32|27P9} 104>7 105>7
+104e7 This{16E9}
+105p7 provider{12|14P9}
+106V13*ToString{32|27P9} 107>7
+107e7 This{16E9}
+108V13*ToString{32|27P9} 109>7 110>7 111>7
+109e7 This{16E9}
+110p7 format{32|27P9}
+111p7 provider{12|14P9}
+112V13*ToString{32|27P9} 113>7 114>7 121b23
+113e7 This{16E9}
+114p7 format{32|27P9}
+X 16 mssyst-object.ads
+11K16*Object 15|7w13 93r23 96r20 16|46e18
+12R9*Typ 20e14
+13P9*Ref(12R9) 15|93r30 96r27
+X 32 mssyst-string.ads
+25K16 String 15|105r60 107r39 110r23 111r60 114r23 114r49
+27P9 Ref(integer) 15|105r67 107r46 110r30 111r67 114r30 114r56
+X 37 mssyst-type_k.ads
+49K16 Type_k 15|100r39
+51P9 Ref(integer) 15|100r46
+X 38 mssyst-typecode.ads
+14K16*TypeCode 15|12w13 102r39 38|89e20
+15E9*ValueType 15|102r48 38|33e14
+

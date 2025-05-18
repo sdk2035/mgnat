@@ -1,0 +1,98 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.nativemethods.tagtlibattr%s  mssyst-windows-forms-nativemethods-tagtlibattr.ads  22e48a85 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.nativemethods%s  mssyst-windows-forms-nativemethods.ads  mssyst-windows-forms-nativemethods.ali
+W mssyst.windows.forms.nativemethods.tagsyskind%s  mssyst-windows-forms-nativemethods-tagsyskind.ads  mssyst-windows-forms-nativemethods-tagsyskind.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-guid.ads	20050914133428 8b55ed7b
+D mssyst-iformatprovider.ads  20050914133428 c126b837
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D mssyst-windows.ads	20050914013316 8e5e07ed
+D mssyst-windows-forms.ads  20050914013316 c6ce9829
+D mssyst-windows-forms-nativemethods.ads  20050914013324 7704f2a2
+D mssyst-windows-forms-nativemethods-tagsyskind.ads  20050914133506 e6a7f0e6
+D mssyst-windows-forms-nativemethods-tagtlibattr.ads  20050914133506 37f83c7a
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 72e15 29|8w6 9r5 29r22 31r22 33r19
+20I9*int16<short_integer> 29|29r33 31r33 33r30
+X 6 mssyst.ads
+6K9*MSSyst 7e11 29|7r6 10r6 12r6 15r9 22r20 23r14 27r17 41r5 43r20
+X 9 mssyst-guid.ads
+15K16 Guid 29|23r21
+16R9 ValueType 29|23r26
+X 11 mssyst-object.ads
+11K16*Object 46e18 29|7w13 10w13 22r27
+12R9*Typ 20e14 29|22r34
+18R9*Typ
+26V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{21|44P9}
+36V13*ToString{20|22P9}
+X 20 mssyst-string.ads
+22P9 Ref(integer)
+X 21 mssyst-type_k.ads
+44P9 Ref(integer)
+X 25 mssyst-windows.ads
+6K16*Windows 6|6k9 25|7e19 29|12r13 15r16 27r24 41r12 43r27
+X 26 mssyst-windows-forms.ads
+6K24*Forms 25|6k16 26|7e25 29|12r21 15r24 27r32 41r20 43r35
+X 27 mssyst-windows-forms-nativemethods.ads
+6K30*NativeMethods 26|6k24 27|7e39 29|12r27 15r30 27r38 41r26 43r41
+X 28 mssyst-windows-forms-nativemethods-tagsyskind.ads
+15K44*tagSYSKIND 58e50 29|12w41 27r52
+16E9*ValueType 18e15 29|27r63
+X 29 mssyst-windows-forms-nativemethods-tagtlibattr.ads
+15K44*tagTLIBATTR 27|6k30 29|41l40 41e51 43r55
+16R9*Typ 17r27 22c9 39r27
+17P9*Ref(16R9) 18r34 19r47 37r14 37r34
+18P9*Ref_addrof(17P9)
+19A9*Ref_Arr(17P9) 20r33
+20P9*Ref_Array(19A9) 21r40
+21P9*Ref_Array_addrof(20P9)
+22R9*Typ<11|18R9> 11|26p13 29p13 31p13 36p13 29|35e14
+23r7*guid{9|16R9}
+25i7*lcid{integer}
+27e7*syskind{28|16E9}
+29i7*wMajorVerNum{5|20I9}
+31i7*wMinorVerNum{5|20I9}
+33i7*wLibFlags{5|20I9}
+36V13*new_tagTLIBATTR{17P9} 37>7 40r28
+37p7 This{17P9}
+

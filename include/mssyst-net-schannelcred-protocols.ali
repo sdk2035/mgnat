@@ -1,0 +1,109 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.net.schannelcred.protocols%s  mssyst-net-schannelcred-protocols.ads  9f6c9eaf NE PK
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.net.schannelcred%s  mssyst-net-schannelcred.ads  mssyst-net-schannelcred.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.typecode%s	mssyst-typecode.ads	mssyst-typecode.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-iformatprovider.ads  20050914133428 c126b837
+D mssyst-net.ads	20050914013308 aa03617c
+D mssyst-net-schannelcred.ads  20050914013308 560b0e06
+D mssyst-net-schannelcred-protocols.ads  20050914133448 257a82e6
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 72e15 12|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 12|7r6 12r6 15r9 35r16 38r13 42r32 44r32 47r16 47r42 49r32
+. 52r16 53r18 53r53 56r18 56r53 64r5 66r20
+X 9 mssyst-iformatprovider.ads
+12K16 IFormatProvider 12|53r25 56r25
+14P9 Ref(integer) 12|53r41 56r41
+X 10 mssyst-net.ads
+6K16*Net 6|6k9 10|7e15 12|15r16 64r12 66r27
+X 11 mssyst-net-schannelcred.ads
+6K20*SChannelCred 10|6k16 11|7e28 12|15r20 64r16 66r31
+X 12 mssyst-net-schannelcred-protocols.ads
+15K33*Protocols 11|6k20 12|64l29 64e38 66r44
+16E9*ValueType 21e32 22r29 23r8 29r54 31r40 34r14 37r14 40r14 42r14 44r14
+. 46r14 49r14 51r14 55r14
+17n7*SP_PROT_UNI_CLIENT{16E9} 24r7
+18n7*SP_PROT_SSL2_CLIENT{16E9} 25r7
+19n7*SP_PROT_SSL3_CLIENT{16E9} 26r7
+20n7*SP_PROT_TLS1_CLIENT{16E9} 27r7
+21n7*SP_PROT_SSL3TLS1_CLIENTS{16E9} 28r7
+29A9*ValueType_Arr(16E9) 30r39
+30P9*ValueType_Array(29A9) 32r46
+31P9*ValueType_addrof(16E9)
+32P9*ValueType_array_addrof(30P9)
+33V13*CompareTo{integer} 34>7 35>7 58b23
+34e7 This{16E9}
+35p7 target{13|13P9}
+36V13*Equals{boolean} 37>7 38>7 59b23
+37e7 This{16E9}
+38p7 obj{13|13P9}
+39V13*GetHashCode{integer} 40>7 60b23
+40e7 This{16E9}
+41V13*GetType{23|44P9} 42>7 61b23
+42e7 This{16E9}
+43V13*GetTypeCode{24|15E9} 44>7 62b23
+44e7 This{16E9}
+45V13*ToString{22|22P9} 46>7 47>7
+46e7 This{16E9}
+47p7 format{22|22P9}
+48V13*ToString{22|22P9} 49>7
+49e7 This{16E9}
+50V13*ToString{22|22P9} 51>7 52>7 53>7
+51e7 This{16E9}
+52p7 format{22|22P9}
+53p7 provider{9|14P9}
+54V13*ToString{22|22P9} 55>7 56>7 63b23
+55e7 This{16E9}
+56p7 provider{9|14P9}
+X 13 mssyst-object.ads
+11K16*Object 12|7w13 35r23 38r20 13|46e18
+12R9*Typ 20e14
+13P9*Ref(12R9) 12|35r30 38r27
+X 22 mssyst-string.ads
+20K16 String 12|47r23 47r49 49r39 52r23 53r60 56r60
+22P9 Ref(integer) 12|47r30 47r56 49r46 52r30 53r67 56r67
+X 23 mssyst-type_k.ads
+42K16 Type_k 12|42r39
+44P9 Ref(integer) 12|42r46
+X 24 mssyst-typecode.ads
+14K16*TypeCode 12|12w13 44r39 24|89e20
+15E9*ValueType 12|44r48 24|33e14
+

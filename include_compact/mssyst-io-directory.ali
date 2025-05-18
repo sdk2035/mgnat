@@ -1,0 +1,237 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.io.directory%s	mssyst-io-directory.ads	d7ce46ef NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.io%s		mssyst-io.ads		mssyst-io.ali
+W mssyst.io.searchoption%s  mssyst-io-searchoption.ads  mssyst-io-searchoption.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.accesscontrol%s  mssyst-security-accesscontrol.ads  mssyst-security-accesscontrol.ali
+W mssyst.security.accesscontrol.accesscontrolsections%s  mssyst-security-accesscontrol-accesscontrolsections.ads  mssyst-security-accesscontrol-accesscontrolsections.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-datetime.ads	20060131171354 8b310f47
+D mssyst-datetimekind.ads  20060131171354 c9caab99
+D mssyst-dayofweek.ads	20060131171356 9441cb97
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-datetimestyles.ads  20060131171358 230aa7c6
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-directory.ads  20060131171402 e79ee518
+D mssyst-io-directoryinfo.ads  20060131171402 91260dd6
+D mssyst-io-fileattributes.ads  20060131171402 7663b97b
+D mssyst-io-filesysteminfo.ads  20060131171402 e462028b
+D mssyst-io-searchoption.ads  20060131171402 6a8c5a26
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-accesscontrol.ads  20060131165242 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060131171410 d41b00a6
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060131171410 dea99828
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060131171410 8a7c3246
+D mssyst-security-accesscontrol-auditflags.ads  20060131171410 7b3aaf2b
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060131171410 d4d4024f
+D mssyst-security-accesscontrol-directorysecurity.ads  20060131171410 d190965c
+D mssyst-security-accesscontrol-filesystemsecurity.ads  20060131171410 dbb4caf6
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060131171410 f9355c16
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060131171410 d5b3ab4d
+D mssyst-security-accesscontrol-objectsecurity.ads  20060131171410 5d18e96d
+D mssyst-security-accesscontrol-propagationflags.ads  20060131171410 df68af09
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 18|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 18|7r6 10r6 14r6 17r6 19r9 26r29 30r14 30r40 32r14 33r27
+. 33r87 35r14 38r14 40r14 42r14 42r40 44r14 45r25 45r95 47r14 47r40 49r14
+. 49r40 50r40 52r14 53r23 53r49 55r14 55r40 57r14 58r23 59r22 59r63 61r14
+. 61r40 63r14 64r23 65r22 65r63 67r14 68r23 68r49 70r14 70r40 72r14 73r23
+. 73r49 75r14 75r40 77r14 77r40 79r14 79r40 81r14 81r40 83r14 83r40 84r37
+. 86r14 86r40 88r23 89r21 91r14 92r27 94r14 95r22 97r14 98r25 100r14 102r14
+. 103r24 105r14 106r27 108r14 109r23 111r14 112r26 141r5 143r20
+X 7 mssyst-datetime.ads
+22K16 DateTime 18|47r47 49r47 77r47 79r47 81r47 83r47 95r29 98r32 103r31
+. 106r34 109r30 112r33
+23R9 ValueType 18|47r56 49r56 77r56 79r56 81r56 83r56 95r38 98r41 103r40
+. 106r43 109r39 112r42
+X 17 mssyst-io.ads
+6K16*IO 6|6k9 17|7e14 18|17r13 19r16 30r47 33r94 59r29 65r29 86r47 141r12
+. 143r27
+X 18 mssyst-io-directory.ads
+19K19*Directory 17|6k16 18|141l15 141e24 143r30
+20R9*Typ 21r27 26c9 114r27
+21P9*Ref(20R9) 22r34 23r47
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40
+25P9*Ref_Array_addrof(24P9)
+26H9*Typ<24|18R9> 28e14 24|23p13 29p13 31p13 36p13
+29V13*CreateDirectory{19|28P9} 30>7
+30p7 path{55|27P9}
+31V13*CreateDirectory{19|28P9} 32>7 33>7 115b23
+32p7 path{55|27P9}
+33p7 directorySecurity{49|28P9}
+34U14*Delete 35>7 36>7
+35p7 path{55|27P9}
+36b7 recursive{boolean}
+37U14*Delete 38>7 116b23
+38p7 path{55|27P9}
+39V13*Exists{boolean} 40>7 117b23
+40p7 path{55|27P9}
+41V13*GetAccessControl{49|28P9} 42>7
+42p7 path{55|27P9}
+43V13*GetAccessControl{49|28P9} 44>7 45>7 118b23
+44p7 path{55|27P9}
+45e7 includeSections{45|16E9}
+46V13*GetCreationTime{7|23R9} 47>7 119b23
+47p7 path{55|27P9}
+48V13*GetCreationTimeUtc{7|23R9} 49>7 120b23
+49p7 path{55|27P9}
+50V13*GetCurrentDirectory{55|27P9} 121b23
+51V13*GetDirectories{55|30P9} 52>7 53>7
+52p7 path{55|27P9}
+53p7 searchPattern{55|27P9}
+54V13*GetDirectories{55|30P9} 55>7
+55p7 path{55|27P9}
+56V13*GetDirectories{55|30P9} 57>7 58>7 59>7 122b23
+57p7 path{55|27P9}
+58p7 searchPattern{55|27P9}
+59e7 searchOption{22|16E9}
+60V13*GetDirectoryRoot{55|27P9} 61>7 123b23
+61p7 path{55|27P9}
+62V13*GetFiles{55|30P9} 63>7 64>7 65>7
+63p7 path{55|27P9}
+64p7 searchPattern{55|27P9}
+65e7 searchOption{22|16E9}
+66V13*GetFiles{55|30P9} 67>7 68>7
+67p7 path{55|27P9}
+68p7 searchPattern{55|27P9}
+69V13*GetFiles{55|30P9} 70>7 124b23
+70p7 path{55|27P9}
+71V13*GetFileSystemEntries{55|30P9} 72>7 73>7
+72p7 path{55|27P9}
+73p7 searchPattern{55|27P9}
+74V13*GetFileSystemEntries{55|30P9} 75>7 125b23
+75p7 path{55|27P9}
+76V13*GetLastAccessTime{7|23R9} 77>7 126b23
+77p7 path{55|27P9}
+78V13*GetLastAccessTimeUtc{7|23R9} 79>7 127b23
+79p7 path{55|27P9}
+80V13*GetLastWriteTime{7|23R9} 81>7 128b23
+81p7 path{55|27P9}
+82V13*GetLastWriteTimeUtc{7|23R9} 83>7 129b23
+83p7 path{55|27P9}
+84V13*GetLogicalDrives{55|30P9} 130b23
+85V13*GetParent{19|28P9} 86>7 131b23
+86p7 path{55|27P9}
+87U14*Move 88>7 89>7 132b23
+88p7 sourceDirName{55|27P9}
+89p7 destDirName{55|27P9}
+90U14*SetAccessControl 91>7 92>7 133b23
+91p7 path{55|27P9}
+92p7 directorySecurity{49|28P9}
+93U14*SetCreationTime 94>7 95>7 134b23
+94p7 path{55|27P9}
+95r7 creationTime{7|23R9}
+96U14*SetCreationTimeUtc 97>7 98>7 135b23
+97p7 path{55|27P9}
+98r7 creationTimeUtc{7|23R9}
+99U14*SetCurrentDirectory 100>7 136b23
+100p7 path{55|27P9}
+101U14*SetLastAccessTime 102>7 103>7 137b23
+102p7 path{55|27P9}
+103r7 lastAccessTime{7|23R9}
+104U14*SetLastAccessTimeUtc 105>7 106>7 138b23
+105p7 path{55|27P9}
+106r7 lastAccessTimeUtc{7|23R9}
+107U14*SetLastWriteTime 108>7 109>7 139b23
+108p7 path{55|27P9}
+109r7 lastWriteTime{7|23R9}
+110U14*SetLastWriteTimeUtc 111>7 112>7 140b23
+111p7 path{55|27P9}
+112r7 lastWriteTimeUtc{7|23R9}
+X 19 mssyst-io-directoryinfo.ads
+26K19 DirectoryInfo 18|30r50 33r97 86r50
+28P9 Ref(integer) 18|30r64 33r111 86r64
+X 22 mssyst-io-searchoption.ads
+15K19*SearchOption 18|17w16 59r32 65r32 22|58e27
+16E9*ValueType 18|59r45 65r45 22|18e22
+X 24 mssyst-object.ads
+11K16*Object 18|7w13 10w13 26r36 24|46e18
+12R9*Typ 18|26r43 24|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{60|51P9}
+36V13*ToString{55|27P9}
+X 42 mssyst-security.ads
+6K16*Security 18|14r13 33r34 42r47 45r32 45r102 92r34 42|7e20
+X 43 mssyst-security-accesscontrol.ads
+6K25*AccessControl 18|14r22 33r43 42r56 45r41 45r111 92r43 43|7e34
+X 45 mssyst-security-accesscontrol-accesscontrolsections.ads
+15K39*AccessControlSections 18|14w36 45r55 45|68e56
+16E9*ValueType 18|45r77 45|22e13
+X 49 mssyst-security-accesscontrol-directorysecurity.ads
+26K39 DirectorySecurity 18|33r57 42r70 45r125 92r57
+28P9 Ref(integer) 18|33r75 42r88 45r143 92r75
+X 55 mssyst-string.ads
+25K16 String 18|30r21 32r21 35r21 38r21 40r21 42r21 44r21 47r21 49r21 50r47
+. 52r21 53r30 53r56 55r21 55r47 57r21 58r30 59r70 61r21 61r47 63r21 64r30
+. 65r70 67r21 68r30 68r56 70r21 70r47 72r21 73r30 73r56 75r21 75r47 77r21
+. 79r21 81r21 83r21 84r44 86r21 88r30 89r28 91r21 94r21 97r21 100r21 102r21
+. 105r21 108r21 111r21
+27P9 Ref(integer) 18|30r28 32r28 35r28 38r28 40r28 42r28 44r28 47r28 49r28
+. 50r54 52r28 53r37 55r28 57r28 58r37 61r28 61r54 63r28 64r37 67r28 68r37
+. 70r28 72r28 73r37 75r28 77r28 79r28 81r28 83r28 86r28 88r37 89r35 91r28
+. 94r28 97r28 100r28 102r28 105r28 108r28 111r28
+30P9 Ref_Array(integer) 18|53r63 55r54 59r77 65r77 68r63 70r54 73r63 75r54
+. 84r51
+X 60 mssyst-type_k.ads
+51P9 Ref(integer)
+

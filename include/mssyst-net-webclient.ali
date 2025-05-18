@@ -1,0 +1,772 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U mssyst.net.webclient%s  mssyst-net-webclient.ads  b33bfc97 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.component%s  mssyst-componentmodel-component.ads  mssyst-componentmodel-component.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.idisposable%s	mssyst-idisposable.ads	mssyst-idisposable.ali
+W mssyst.marshalbyrefobject%s  mssyst-marshalbyrefobject.ads  mssyst-marshalbyrefobject.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060517214748 02f2695c
+D microsoft-win32.ads	20060517214748 bf37fdc1
+D microsoft-win32-safehandles.ads  20060517214748 c240eeab
+D microsoft-win32-safehandles-safefilehandle.ads  20060518130024 34c2417a
+D microsoft-win32-safehandles-safehandlezeroorminusoneisinvalid.ads  20060518130024 66041aba
+D microsoft-win32-safehandles-safewaithandle.ads  20060518130024 ae8855ed
+D msil_types.ads	20060219005222 3027c2c3
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-array_k.ads	20060518130004 44c548ce
+D mssyst-asynccallback.ads  20060518130006 80e54e38
+D mssyst-attribute.ads	20060518130006 394ce8b0
+D mssyst-charenumerator.ads  20060518130008 d83886d0
+D mssyst-collections.ads  20060517214744 22f80fd8
+D mssyst-collections-dictionaryentry.ads  20060518130016 222dd9e6
+D mssyst-collections-icollection.ads  20060518130004 3a339eb6
+D mssyst-collections-icomparer.ads  20060518130006 71266c2a
+D mssyst-collections-idictionary.ads  20060518130016 d5a87938
+D mssyst-collections-idictionaryenumerator.ads  20060518130016 174d5352
+D mssyst-collections-ienumerable.ads  20060518130004 8a6639a6
+D mssyst-collections-ienumerator.ads  20060518130004 bc4e7b44
+D mssyst-collections-iequalitycomparer.ads  20060518130006 e6351514
+D mssyst-collections-ihashcodeprovider.ads  20060518130016 c0df22d7
+D mssyst-collections-ilist.ads  20060518130004 d5fdb5e8
+D mssyst-collections-readonlycollectionbase.ads  20060518130016 2b7b6f73
+D mssyst-collections-specialized.ads  20060517222318 96cafd88
+D mssyst-collections-specialized-nameobjectcollectionbase.ads  20060518130052 42bca307
+D mssyst-collections-specialized-nameobjectcollectionbase-keyscollection.ads  20060518130052 874dec6f
+D mssyst-collections-specialized-namevaluecollection.ads  20060518130052 16f7db96
+D mssyst-componentmodel.ads  20060517222310 36ea93a4
+D mssyst-componentmodel-asynccompletedeventargs.ads  20060518130048 5d836cb8
+D mssyst-componentmodel-asynccompletedeventhandler.ads  20060518130048 6083df15
+D mssyst-componentmodel-component.ads  20060518130048 ea58059c
+D mssyst-componentmodel-componentcollection.ads  20060518130048 a4ac7c9c
+D mssyst-componentmodel-icomponent.ads  20060518130048 f5da8b05
+D mssyst-componentmodel-icontainer.ads  20060518130048 80192781
+D mssyst-componentmodel-isite.ads  20060518130048 6ae4a879
+D mssyst-componentmodel-progresschangedeventargs.ads  20060518130050 0a61c813
+D mssyst-configuration.ads  20060517214756 03b06563
+D mssyst-configuration-assemblies.ads  20060517214756 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060518130040 813ea3b2
+D mssyst-configuration-assemblies-assemblyversioncompatibility.ads  20060518130040 80640b26
+D mssyst-datetime.ads	20060518130006 e8dd3274
+D mssyst-datetimekind.ads  20060518130006 db5b4b1d
+D mssyst-dayofweek.ads	20060518130008 4570cbc5
+D mssyst-decimal.ads	20060518130008 5671c372
+D mssyst-delegate.ads	20060518130006 5344fd33
+D mssyst-eventargs.ads	20060518130006 f2d88790
+D mssyst-eventhandler.ads  20060518130008 a8186cec
+D mssyst-exception_k.ads  20060518130006 77505d65
+D mssyst-globalization.ads  20060517214748 13e8d46f
+D mssyst-globalization-calendar.ads  20060518130020 6b493ab4
+D mssyst-globalization-calendaralgorithmtype.ads  20060518130020 3e24c29f
+D mssyst-globalization-calendarweekrule.ads  20060518130020 fd7e4fa4
+D mssyst-globalization-compareinfo.ads  20060518130020 1578aa69
+D mssyst-globalization-compareoptions.ads  20060518130020 aa1d08c4
+D mssyst-globalization-cultureinfo.ads  20060518130020 eff0653d
+D mssyst-globalization-culturetypes.ads  20060518130020 0714709f
+D mssyst-globalization-datetimeformatinfo.ads  20060518130020 12cc668e
+D mssyst-globalization-datetimestyles.ads  20060518130020 493eba39
+D mssyst-globalization-digitshapes.ads  20060518130020 159048c6
+D mssyst-globalization-numberformatinfo.ads  20060518130020 3e2c26cf
+D mssyst-globalization-numberstyles.ads  20060518130020 e67a6e84
+D mssyst-globalization-sortkey.ads  20060518130020 fbdd0312
+D mssyst-globalization-textinfo.ads  20060518130020 87fe0838
+D mssyst-guid.ads	20060518130008 81a28a48
+D mssyst-iasyncresult.ads  20060518130008 f67d3866
+D mssyst-icloneable.ads	20060518130004 e17b533e
+D mssyst-icomparable.ads  20060518130004 bf9ec2a5
+D mssyst-iconvertible.ads  20060518130004 5fd73d03
+D mssyst-idisposable.ads  20060518130004 43dfd267
+D mssyst-iformatprovider.ads  20060518130008 0282a90a
+D mssyst-io.ads		20060517214752 31f12609
+D mssyst-io-fileaccess.ads  20060518130030 86b9fb32
+D mssyst-io-filemode.ads  20060518130030 cd9a2184
+D mssyst-io-fileoptions.ads  20060518130030 dcc00896
+D mssyst-io-fileshare.ads  20060518130030 9c1d8f8e
+D mssyst-io-filestream.ads  20060518130030 e99dd9b5
+D mssyst-io-seekorigin.ads  20060518130030 84ee3c99
+D mssyst-io-stream.ads	20060518130030 8edee4de
+D mssyst-iserviceprovider.ads  20060518130008 3ab8180a
+D mssyst-marshalbyrefobject.ads  20060518130006 1fa39a8f
+D mssyst-midpointrounding.ads  20060518130008 67720843
+D mssyst-modulehandle.ads  20060518130010 ea2bb724
+D mssyst-multicastdelegate.ads  20060518130006 378f1b43
+D mssyst-net.ads	20060517222318 aa03617c
+D mssyst-net-cache.ads	20060517222322 79cb10a2
+D mssyst-net-cache-requestcachelevel.ads  20060518130056 fad0b57d
+D mssyst-net-cache-requestcachepolicy.ads  20060518130056 5a116050
+D mssyst-net-downloaddatacompletedeventargs.ads  20060518130056 ad2a4f78
+D mssyst-net-downloaddatacompletedeventhandler.ads  20060518130056 5bed0927
+D mssyst-net-downloadprogresschangedeventargs.ads  20060518130056 2368408e
+D mssyst-net-downloadprogresschangedeventhandler.ads  20060518130056 c1e11a4d
+D mssyst-net-downloadstringcompletedeventargs.ads  20060518130056 3a2c54fe
+D mssyst-net-downloadstringcompletedeventhandler.ads  20060518130056 92f08f1b
+D mssyst-net-httprequestheader.ads  20060518130054 36c37a06
+D mssyst-net-httpresponseheader.ads  20060518130054 6cecc0d3
+D mssyst-net-icredentials.ads  20060518130054 c941d01d
+D mssyst-net-icredentialsbyhost.ads  20060518130054 51ada725
+D mssyst-net-iwebproxy.ads  20060518130054 c9b2fa25
+D mssyst-net-networkcredential.ads  20060518130054 122e2670
+D mssyst-net-openreadcompletedeventargs.ads  20060518130056 7695c728
+D mssyst-net-openreadcompletedeventhandler.ads  20060518130056 b7cf041d
+D mssyst-net-openwritecompletedeventargs.ads  20060518130056 774b7652
+D mssyst-net-openwritecompletedeventhandler.ads  20060518130056 22931dce
+D mssyst-net-uploaddatacompletedeventargs.ads  20060518130056 66753a7d
+D mssyst-net-uploaddatacompletedeventhandler.ads  20060518130056 39d81a58
+D mssyst-net-uploadfilecompletedeventargs.ads  20060518130056 36f8de0b
+D mssyst-net-uploadfilecompletedeventhandler.ads  20060518130056 d48f78b8
+D mssyst-net-uploadprogresschangedeventargs.ads  20060518130056 0bea57a2
+D mssyst-net-uploadprogresschangedeventhandler.ads  20060518130056 1c947845
+D mssyst-net-uploadstringcompletedeventargs.ads  20060518130056 28c4116b
+D mssyst-net-uploadstringcompletedeventhandler.ads  20060518130056 6c9aafe8
+D mssyst-net-uploadvaluescompletedeventargs.ads  20060518130056 4c7139e8
+D mssyst-net-uploadvaluescompletedeventhandler.ads  20060518130056 2f10480b
+D mssyst-net-webclient.ads  20060518130056 6bb03711
+D mssyst-net-webheadercollection.ads  20060518130056 fda4939e
+D mssyst-object.ads	20060518130004 47535304
+D mssyst-reflection.ads	20060517214746 25abbfbc
+D mssyst-reflection-assembly.ads  20060518130016 123eb80d
+D mssyst-reflection-assemblyname.ads  20060518130018 15212dcc
+D mssyst-reflection-assemblynameflags.ads  20060518130018 086c5b0c
+D mssyst-reflection-binder.ads  20060518130008 8f817e78
+D mssyst-reflection-bindingflags.ads  20060518130018 44cb2c03
+D mssyst-reflection-callingconventions.ads  20060518130018 6e41b7d5
+D mssyst-reflection-constructorinfo.ads  20060518130018 4a784f3e
+D mssyst-reflection-eventattributes.ads  20060518130018 601969cf
+D mssyst-reflection-eventinfo.ads  20060518130018 d074f51e
+D mssyst-reflection-fieldattributes.ads  20060518130018 7952d5f0
+D mssyst-reflection-fieldinfo.ads  20060518130018 467b8c48
+D mssyst-reflection-genericparameterattributes.ads  20060518130018 bf8892e6
+D mssyst-reflection-icustomattributeprovider.ads  20060518130010 f243134e
+D mssyst-reflection-imagefilemachine.ads  20060518130018 e85430a4
+D mssyst-reflection-interfacemapping.ads  20060518130018 8db7a5bb
+D mssyst-reflection-ireflect.ads  20060518130010 881bf639
+D mssyst-reflection-manifestresourceinfo.ads  20060518130018 ad6bbbfa
+D mssyst-reflection-memberfilter.ads  20060518130018 50297139
+D mssyst-reflection-memberinfo.ads  20060518130010 0224f482
+D mssyst-reflection-membertypes.ads  20060518130018 781a8ce9
+D mssyst-reflection-methodattributes.ads  20060518130018 7f00d77d
+D mssyst-reflection-methodbase.ads  20060518130018 d9f75bde
+D mssyst-reflection-methodbody.ads  20060518130018 57c34b79
+D mssyst-reflection-methodimplattributes.ads  20060518130018 9b393827
+D mssyst-reflection-methodinfo.ads  20060518130018 9554c467
+D mssyst-reflection-module.ads  20060518130018 f7c1ae4f
+D mssyst-reflection-moduleresolveeventhandler.ads  20060518130016 55175e4b
+D mssyst-reflection-parameterattributes.ads  20060518130018 9852456a
+D mssyst-reflection-parameterinfo.ads  20060518130018 9faca9a0
+D mssyst-reflection-parametermodifier.ads  20060518130018 bf1ace9a
+D mssyst-reflection-portableexecutablekinds.ads  20060518130018 7dc22cdb
+D mssyst-reflection-processorarchitecture.ads  20060518130018 ed5839f4
+D mssyst-reflection-propertyattributes.ads  20060518130018 b25fd6ac
+D mssyst-reflection-propertyinfo.ads  20060518130018 83708877
+D mssyst-reflection-resourcelocation.ads  20060518130018 f7e12499
+D mssyst-reflection-strongnamekeypair.ads  20060518130018 80794f06
+D mssyst-reflection-typeattributes.ads  20060518130018 4ce15869
+D mssyst-reflection-typefilter.ads  20060518130018 1bb8611f
+D mssyst-resolveeventargs.ads  20060518130006 a313837d
+D mssyst-runtime.ads	20060517214744 31dcc047
+D mssyst-runtime-constrainedexecution.ads  20060517214746 f6aa2aec
+D mssyst-runtime-constrainedexecution-criticalfinalizerobject.ads  20060518130008 d30c8885
+D mssyst-runtime-interopservices.ads  20060517214744 59769bf0
+D mssyst-runtime-interopservices-charset.ads  20060518130026 91df90fa
+D mssyst-runtime-interopservices-layoutkind.ads  20060518130026 c12116e8
+D mssyst-runtime-interopservices-safehandle.ads  20060518130010 973569bf
+D mssyst-runtime-interopservices-structlayoutattribute.ads  20060518130026 78989125
+D mssyst-runtime-interopservices-uassembly.ads  20060518130016 f96b0f31
+D mssyst-runtime-interopservices-uassemblyname.ads  20060518130018 de1b10ef
+D mssyst-runtime-interopservices-uattribute.ads  20060518130006 caafc494
+D mssyst-runtime-interopservices-uconstructorinfo.ads  20060518130018 c34639c6
+D mssyst-runtime-interopservices-ueventinfo.ads  20060518130018 04844734
+D mssyst-runtime-interopservices-uexception.ads  20060518130006 5f238516
+D mssyst-runtime-interopservices-ufieldinfo.ads  20060518130018 cdb9c056
+D mssyst-runtime-interopservices-umemberinfo.ads  20060518130010 e5d5c7c0
+D mssyst-runtime-interopservices-umethodbase.ads  20060518130018 1ff9475f
+D mssyst-runtime-interopservices-umethodinfo.ads  20060518130018 fc46035a
+D mssyst-runtime-interopservices-umodule.ads  20060518130018 85209d28
+D mssyst-runtime-interopservices-uparameterinfo.ads  20060518130018 b106ef1a
+D mssyst-runtime-interopservices-upropertyinfo.ads  20060518130018 f015b8d5
+D mssyst-runtime-interopservices-utype.ads  20060518130010 edc8eebe
+D mssyst-runtime-remoting.ads  20060517214746 74500271
+D mssyst-runtime-remoting-ichannelinfo.ads  20060518130036 42c0549f
+D mssyst-runtime-remoting-ienvoyinfo.ads  20060518130036 0d613007
+D mssyst-runtime-remoting-iremotingtypeinfo.ads  20060518130036 9c09dda1
+D mssyst-runtime-remoting-messaging.ads  20060517214754 4bfbab1c
+D mssyst-runtime-remoting-messaging-imessage.ads  20060518130034 bf177a61
+D mssyst-runtime-remoting-messaging-imessagectrl.ads  20060518130034 e22b39ed
+D mssyst-runtime-remoting-messaging-imessagesink.ads  20060518130034 9c27ef9e
+D mssyst-runtime-remoting-objref.ads  20060518130036 cc63dccf
+D mssyst-runtime-serialization.ads  20060517214744 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060518130016 a25d9d2b
+D mssyst-runtime-serialization-iformatterconverter.ads  20060518130018 02d31acb
+D mssyst-runtime-serialization-iobjectreference.ads  20060518130008 c3279c62
+D mssyst-runtime-serialization-iserializable.ads  20060518130006 bc8947c1
+D mssyst-runtime-serialization-serializationentry.ads  20060518130020 a6dd57a6
+D mssyst-runtime-serialization-serializationinfo.ads  20060518130020 fe6300a3
+D mssyst-runtime-serialization-serializationinfoenumerator.ads  20060518130020 b2a6a08c
+D mssyst-runtime-serialization-streamingcontext.ads  20060518130020 b7580dc0
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060518130020 ab32dd44
+D mssyst-runtimefieldhandle.ads  20060518130010 1a535b0a
+D mssyst-runtimemethodhandle.ads  20060518130010 b5a8fc11
+D mssyst-runtimetypehandle.ads  20060518130010 2dc72f74
+D mssyst-sbyte.ads	20060518130010 0b40b4c3
+D mssyst-security.ads	20060517214744 a4c8227c
+D mssyst-security-accesscontrol.ads  20060517214756 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060518130042 da644f3b
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060518130042 983129b3
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060518130042 aaa7f08e
+D mssyst-security-accesscontrol-accessrule.ads  20060518130042 357b7164
+D mssyst-security-accesscontrol-auditflags.ads  20060518130042 6697b648
+D mssyst-security-accesscontrol-auditrule.ads  20060518130042 548a6e76
+D mssyst-security-accesscontrol-authorizationrule.ads  20060518130042 d4d98288
+D mssyst-security-accesscontrol-authorizationrulecollection.ads  20060518130042 bd787679
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060518130042 87d97b1c
+D mssyst-security-accesscontrol-filesecurity.ads  20060518130042 d4ef23f2
+D mssyst-security-accesscontrol-filesystemaccessrule.ads  20060518130042 3996455e
+D mssyst-security-accesscontrol-filesystemauditrule.ads  20060518130042 364a20bb
+D mssyst-security-accesscontrol-filesystemrights.ads  20060518130042 99ab4846
+D mssyst-security-accesscontrol-filesystemsecurity.ads  20060518130042 6b12c956
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060518130042 cb8e28ec
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060518130042 68e32c77
+D mssyst-security-accesscontrol-objectsecurity.ads  20060518130042 d97d6fc7
+D mssyst-security-accesscontrol-propagationflags.ads  20060518130042 7d0c8f98
+D mssyst-security-cryptography.ads  20060517214756 6bbb0e6b
+D mssyst-security-cryptography-x509certificates.ads  20060517214756 1b20ddcc
+D mssyst-security-cryptography-x509certificates-x509certificate.ads  20060518130042 438b9ef5
+D mssyst-security-cryptography-x509certificates-x509contenttype.ads  20060518130042 6cfaa0cf
+D mssyst-security-cryptography-x509certificates-x509keystorageflags.ads  20060518130042 db32c0bb
+D mssyst-security-ievidencefactory.ads  20060518130006 43c6d461
+D mssyst-security-policy.ads  20060517214748 7a609687
+D mssyst-security-policy-evidence.ads  20060518130024 1eabe8be
+D mssyst-security-principal.ads  20060517214748 7adc43fd
+D mssyst-security-principal-identityreference.ads  20060518130042 0b9e5f80
+D mssyst-security-securestring.ads  20060518130034 a9a06371
+D mssyst-string.ads	20060518130004 b98d995f
+D mssyst-stringcomparison.ads  20060518130006 86ec68cf
+D mssyst-stringsplitoptions.ads  20060518130006 f2d0599e
+D mssyst-text.ads	20060517214744 a7ed250d
+D mssyst-text-decoder.ads  20060518130022 3b11b35a
+D mssyst-text-decoderfallback.ads  20060518130022 75e2f645
+D mssyst-text-decoderfallbackbuffer.ads  20060518130022 cf5e5e9e
+D mssyst-text-encoder.ads  20060518130022 58ffabf7
+D mssyst-text-encoderfallback.ads  20060518130022 77489063
+D mssyst-text-encoderfallbackbuffer.ads  20060518130022 50c8196a
+D mssyst-text-encoding.ads  20060518130022 9fed9190
+D mssyst-text-encodinginfo.ads  20060518130022 ce8a22c1
+D mssyst-text-normalizationform.ads  20060518130022 2ca43f9a
+D mssyst-threading.ads	20060517214746 964d65eb
+D mssyst-threading-waithandle.ads  20060518130010 cebe4958
+D mssyst-timespan.ads	20060518130010 642ef661
+D mssyst-type_k.ads	20060518130010 5ccf03f1
+D mssyst-typecode.ads	20060518130010 f5c22e86
+D mssyst-typedreference.ads  20060518130010 9b3bbb41
+D mssyst-uri.ads	20060518130054 c22e88e6
+D mssyst-uricomponents.ads  20060518130054 c52bdb9f
+D mssyst-uriformat.ads	20060518130054 c2f05e84
+D mssyst-urihostnametype.ads  20060518130054 336f94bf
+D mssyst-urikind.ads	20060518130054 84748590
+D mssyst-uripartial.ads	20060518130054 b52b6a22
+D mssyst-valuetype.ads	20060518130004 4fb553b0
+D mssyst-version.ads	20060518130010 523fbb99
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 14 msil_types.ads
+5K9*Msil_Types 66e15 122|7w6 8r5 89r56 92r53 249r14 249r51 254r14 254r51
+. 259r14 259r51 263r14 263r51 268r14 273r14 278r14 282r57 287r57 291r57 296r57
+. 349r90 354r90 358r90 362r90
+22E9*unsigned_int8<character>
+42A9*unsigned_int8_arr(22E9) 122|249r25 254r25 259r25 263r25 268r25 273r25
+. 278r25
+43P9*Unsigned_Int8_Array(42A9) 122|89r67 92r64 249r62 254r62 259r62 263r62
+. 282r68 287r68 291r68 296r68 349r101 354r101 358r101 362r101
+X 15 mssyst.ads
+6K9*MSSyst 7e11 122|6r6 11r6 12r6 16r6 18r6 38r9 39r20 40r14 41r14 54r22
+. 57r22 60r22 63r22 66r22 69r22 72r22 75r22 78r22 81r22 84r22 89r24 92r24
+. 95r24 96r26 99r24 102r24 103r25 106r24 107r25 110r24 111r25 112r26 115r24
+. 116r25 119r24 119r60 122r24 122r63 125r24 128r24 129r26 131r40 133r40 135r40
+. 137r40 139r40 143r40 145r40 147r40 152r24 152r60 155r24 155r63 158r24 161r24
+. 162r26 165r24 165r60 168r24 168r63 171r24 172r23 172r62 175r24 176r23 176r62
+. 179r24 180r23 181r26 184r24 185r23 188r24 191r22 194r22 197r22 200r22 203r22
+. 206r22 209r22 212r22 215r22 218r22 221r22 224r22 227r22 230r22 233r22 236r22
+. 239r22 242r22 248r24 252r24 253r23 257r24 258r23 262r24 266r24 267r23 271r24
+. 272r23 274r26 277r24 281r24 282r25 285r24 286r23 287r25 290r24 291r25 294r24
+. 295r23 296r25 299r24 300r23 301r25 302r26 305r24 306r23 307r25 310r24 311r25
+. 314r24 315r23 316r21 316r60 319r24 320r21 320r60 323r24 324r21 324r60 327r24
+. 328r23 329r21 329r60 332r24 333r21 336r24 337r23 338r21 339r26 342r24 343r23
+. 344r21 347r24 348r23 349r21 352r24 353r23 354r21 357r24 358r21 361r24 362r21
+. 365r24 366r23 367r21 368r26 371r24 372r23 373r21 376r24 377r21 440r5 441r20
+X 20 mssyst-collections.ads
+6K16 Collections 122|145r47 242r29 349r28 354r28 358r28 362r28 367r28 373r28
+. 377r28
+X 32 mssyst-collections-specialized.ads
+6K28 Specialized 122|145r59 242r41 349r40 354r40 358r40 362r40 367r40 373r40
+. 377r40
+X 35 mssyst-collections-specialized-namevaluecollection.ads
+24K40 NameValueCollection 122|145r71 242r53 349r52 354r52 358r52 362r52 367r52
+. 373r52 377r52
+X 36 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 122|11r13 12r13 39r27 40r21 57r29 194r29
+X 38 mssyst-componentmodel-asynccompletedeventhandler.ads
+21K31 AsyncCompletedEventHandler 122|57r44 194r44
+X 39 mssyst-componentmodel-component.ads
+18K31*Component 59e36 122|11w28 39r42
+19R9*Typ<88|13R9> 24e14 122|39r52
+32U14*add_Disposed<41|19p14>
+35U14*Dispose<77|16p14>
+37V13*get_Container
+39V13*get_Site<41|22p13>
+41U14*remove_Disposed<41|24p14>
+44U14*set_Site<41|27p14>
+47V13*ToString<88|13p9>
+X 41 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 35e37 122|12w28 40r36
+13H9*Typ 122|40r47
+X 77 mssyst-idisposable.ads
+9K16*IDisposable 20e23 122|16w13 41r21
+10H9*Typ 122|41r33
+X 79 mssyst-io.ads
+6K16 IO 122|152r67 155r70 165r67 168r70 172r69 176r69
+X 86 mssyst-io-stream.ads
+17K19 Stream 122|152r70 155r73 165r70 168r73 172r72 176r72
+X 88 mssyst-marshalbyrefobject.ads
+12K16*MarshalByRefObject 33e30 122|18w13
+21V13*CreateObjRef
+24V13*GetLifetimeService(124|11R9)
+26V13*InitializeLifetimeService(124|11R9)
+X 92 mssyst-net.ads
+6K16*Net 15|6k9 92|7e15 122|38r16 54r29 60r29 63r29 66r29 69r29 72r29 75r29
+. 78r29 81r29 84r29 133r47 135r47 139r47 143r47 147r47 191r29 197r29 200r29
+. 203r29 206r29 209r29 212r29 215r29 218r29 221r29 227r29 230r29 236r29 239r29
+. 440r12 441r27
+X 93 mssyst-net-cache.ads
+6K20 Cache 122|133r51 227r33
+X 95 mssyst-net-cache-requestcachepolicy.ads
+12K26 RequestCachePolicy 122|133r57 227r39
+X 97 mssyst-net-downloaddatacompletedeventhandler.ads
+21K20 DownloadDataCompletedEventHandler 122|54r33 191r33
+X 99 mssyst-net-downloadprogresschangedeventhandler.ads
+21K20 DownloadProgressChangedEventHandler 122|60r33 197r33
+X 101 mssyst-net-downloadstringcompletedeventhandler.ads
+21K20 DownloadStringCompletedEventHandler 122|63r33 200r33
+X 104 mssyst-net-icredentials.ads
+12K20 ICredentials 122|135r51 230r33
+X 106 mssyst-net-iwebproxy.ads
+11K20 IWebProxy 122|143r51 239r33
+X 109 mssyst-net-openreadcompletedeventhandler.ads
+21K20 OpenReadCompletedEventHandler 122|66r33 203r33
+X 111 mssyst-net-openwritecompletedeventhandler.ads
+21K20 OpenWriteCompletedEventHandler 122|69r33 206r33
+X 113 mssyst-net-uploaddatacompletedeventhandler.ads
+21K20 UploadDataCompletedEventHandler 122|72r33 209r33
+X 115 mssyst-net-uploadfilecompletedeventhandler.ads
+21K20 UploadFileCompletedEventHandler 122|75r33 212r33
+X 117 mssyst-net-uploadprogresschangedeventhandler.ads
+21K20 UploadProgressChangedEventHandler 122|78r33 215r33
+X 119 mssyst-net-uploadstringcompletedeventhandler.ads
+21K20 UploadStringCompletedEventHandler 122|81r33 218r33
+X 121 mssyst-net-uploadvaluescompletedeventhandler.ads
+21K20 UploadValuesCompletedEventHandler 122|84r33 221r33
+X 122 mssyst-net-webclient.ads
+38K20*WebClient 92|6k16 122|440l16 440e25 441r31
+39R9*Typ<39|19R9> 39|32P14 35P14 37p13 39P13 41P14 44P14 47P13 88|21p13 24p13
+. 26p13 122|44e14 45r27 52p14 53r21 55p14 56r21 58p14 59r21 61p14 62r21 64p14
+. 65r21 67p14 68r21 70p14 71r21 73p14 74r21 76p14 77r21 79p14 80r21 82p14
+. 83r21 85p14 86r21 87p13 88r21 90p13 91r21 93p14 94r21 97p14 98r21 100p14
+. 101r21 104p14 105r21 108p14 109r21 113p14 114r21 117p13 118r21 120p13 121r21
+. 123p14 124r21 126p14 127r21 130p13 131r21 132p13 133r21 134p13 135r21 136p13
+. 137r21 138p13 139r21 140p13 141r21 142p13 143r21 144p13 145r21 146p13 147r21
+. 148p13 149r21 150p13 151r21 153p13 154r21 156p14 157r21 159p14 160r21 163p13
+. 164r21 166p13 167r21 169p13 170r21 173p13 174r21 177p14 178r21 182p14 183r21
+. 186p14 187r21 189p14 190r21 192p14 193r21 195p14 196r21 198p14 199r21 201p14
+. 202r21 204p14 205r21 207p14 208r21 210p14 211r21 213p14 214r21 216p14 217r21
+. 219p14 220r21 222p14 223r21 225p14 226r21 228p14 229r21 231p14 232r21 234p14
+. 235r21 237p14 238r21 240p14 241r21 243p14 244r21 246p13 247r21 250p13 251r21
+. 255p13 256r21 260p13 261r21 264p14 265r21 269p14 270r21 275p14 276r21 279p13
+. 280r21 283p13 284r21 288p13 289r21 292p13 293r21 297p14 298r21 303p14 304r21
+. 308p14 309r21 312p13 313r21 317p13 318r21 321p13 322r21 325p13 326r21 330p14
+. 331r21 334p14 335r21 340p14 341r21 345p13 346r21 350p13 351r21 355p13 356r21
+. 359p13 360r21 363p14 364r21 369p14 370r21 374p14 375r21 379r27 124|21p13
+. 27p13 29p13
+45P9*Ref(39R9) 46r34 47r47 51r14 51r34
+46P9*Ref_addrof(45P9)
+47A9*Ref_Arr(45P9) 48r33
+48P9*Ref_Array(47A9) 49r40
+49P9*Ref_Array_addrof(48P9)
+50V13*new_WebClient{45P9} 51>7 380r28
+51p7 This{45P9}
+52U14*add_DownloadDataCompleted 53^7 54^7 381b23
+53p7 This(39R9)
+54p7 value
+55U14*add_DownloadFileCompleted 56^7 57^7 382b23
+56p7 This(39R9)
+57p7 value
+58U14*add_DownloadProgressChanged 59^7 60^7 383b23
+59p7 This(39R9)
+60p7 value
+61U14*add_DownloadStringCompleted 62^7 63^7 384b23
+62p7 This(39R9)
+63p7 value
+64U14*add_OpenReadCompleted 65^7 66^7 385b23
+65p7 This(39R9)
+66p7 value
+67U14*add_OpenWriteCompleted 68^7 69^7 386b23
+68p7 This(39R9)
+69p7 value
+70U14*add_UploadDataCompleted 71^7 72^7 387b23
+71p7 This(39R9)
+72p7 value
+73U14*add_UploadFileCompleted 74^7 75^7 388b23
+74p7 This(39R9)
+75p7 value
+76U14*add_UploadProgressChanged 77^7 78^7 389b23
+77p7 This(39R9)
+78p7 value
+79U14*add_UploadStringCompleted 80^7 81^7 390b23
+80p7 This(39R9)
+81p7 value
+82U14*add_UploadValuesCompleted 83^7 84^7 391b23
+83p7 This(39R9)
+84p7 value
+85U14*CancelAsync 86^7 392b23
+86p7 This(39R9)
+87V13*DownloadData{14|43P9} 88^7 89^7
+88p7 This(39R9)
+89p7 address
+90V13*DownloadData{14|43P9} 91^7 92^7 393b23
+91p7 This(39R9)
+92p7 address
+93U14*DownloadDataAsync 94^7 95^7 96^7
+94p7 This(39R9)
+95p7 address
+96p7 userToken(124|11R9)
+97U14*DownloadDataAsync 98^7 99^7 394b23
+98p7 This(39R9)
+99p7 address
+100U14*DownloadFile 101^7 102^7 103^7
+101p7 This(39R9)
+102p7 address
+103p7 fileName
+104U14*DownloadFile 105^7 106^7 107^7 395b23
+105p7 This(39R9)
+106p7 address
+107p7 fileName
+108U14*DownloadFileAsync 109^7 110^7 111^7 112^7
+109p7 This(39R9)
+110p7 address
+111p7 fileName
+112p7 userToken(124|11R9)
+113U14*DownloadFileAsync 114^7 115^7 116^7 396b23
+114p7 This(39R9)
+115p7 address
+116p7 fileName
+117V13*DownloadString 118^7 119^7
+118p7 This(39R9)
+119p7 address
+120V13*DownloadString 121^7 122^7 397b23
+121p7 This(39R9)
+122p7 address
+123U14*DownloadStringAsync 124^7 125^7
+124p7 This(39R9)
+125p7 address
+126U14*DownloadStringAsync 127^7 128^7 129^7 398b23
+127p7 This(39R9)
+128p7 address
+129p7 userToken(124|11R9)
+130V13*get_BaseAddress 131^7 399b23
+131p7 This(39R9)
+132V13*get_CachePolicy 133^7 400b23
+133p7 This(39R9)
+134V13*get_Credentials 135^7 401b23
+135p7 This(39R9)
+136V13*get_Encoding 137^7 402b23
+137p7 This(39R9)
+138V13*get_Headers 139^7 403b23
+139p7 This(39R9)
+140V13*get_IsBusy{boolean} 141^7 404b23
+141p7 This(39R9)
+142V13*get_Proxy 143^7 405b23
+143p7 This(39R9)
+144V13*get_QueryString 145^7 406b23
+145p7 This(39R9)
+146V13*get_ResponseHeaders 147^7 407b23
+147p7 This(39R9)
+148V13*get_UseDefaultCredentials{boolean} 149^7 408b23
+149p7 This(39R9)
+150V13*OpenRead 151^7 152^7
+151p7 This(39R9)
+152p7 address
+153V13*OpenRead 154^7 155^7 409b23
+154p7 This(39R9)
+155p7 address
+156U14*OpenReadAsync 157^7 158^7
+157p7 This(39R9)
+158p7 address
+159U14*OpenReadAsync 160^7 161^7 162^7 410b23
+160p7 This(39R9)
+161p7 address
+162p7 userToken(124|11R9)
+163V13*OpenWrite 164^7 165^7
+164p7 This(39R9)
+165p7 address
+166V13*OpenWrite 167^7 168^7
+167p7 This(39R9)
+168p7 address
+169V13*OpenWrite 170^7 171^7 172^7
+170p7 This(39R9)
+171p7 address
+172p7 method
+173V13*OpenWrite 174^7 175^7 176^7 411b23
+174p7 This(39R9)
+175p7 address
+176p7 method
+177U14*OpenWriteAsync 178^7 179^7 180^7 181^7
+178p7 This(39R9)
+179p7 address
+180p7 method
+181p7 userToken(124|11R9)
+182U14*OpenWriteAsync 183^7 184^7 185^7
+183p7 This(39R9)
+184p7 address
+185p7 method
+186U14*OpenWriteAsync 187^7 188^7 412b23
+187p7 This(39R9)
+188p7 address
+189U14*remove_DownloadDataCompleted 190^7 191^7 413b23
+190p7 This(39R9)
+191p7 value
+192U14*remove_DownloadFileCompleted 193^7 194^7 414b23
+193p7 This(39R9)
+194p7 value
+195U14*remove_DownloadProgressChanged 196^7 197^7 415b23
+196p7 This(39R9)
+197p7 value
+198U14*remove_DownloadStringCompleted 199^7 200^7 416b23
+199p7 This(39R9)
+200p7 value
+201U14*remove_OpenReadCompleted 202^7 203^7 417b23
+202p7 This(39R9)
+203p7 value
+204U14*remove_OpenWriteCompleted 205^7 206^7 418b23
+205p7 This(39R9)
+206p7 value
+207U14*remove_UploadDataCompleted 208^7 209^7 419b23
+208p7 This(39R9)
+209p7 value
+210U14*remove_UploadFileCompleted 211^7 212^7 420b23
+211p7 This(39R9)
+212p7 value
+213U14*remove_UploadProgressChanged 214^7 215^7 421b23
+214p7 This(39R9)
+215p7 value
+216U14*remove_UploadStringCompleted 217^7 218^7 422b23
+217p7 This(39R9)
+218p7 value
+219U14*remove_UploadValuesCompleted 220^7 221^7 423b23
+220p7 This(39R9)
+221p7 value
+222U14*set_BaseAddress 223^7 224^7 424b23
+223p7 This(39R9)
+224p7 value
+225U14*set_CachePolicy 226^7 227^7 425b23
+226p7 This(39R9)
+227p7 value
+228U14*set_Credentials 229^7 230^7 426b23
+229p7 This(39R9)
+230p7 value
+231U14*set_Encoding 232^7 233^7 427b23
+232p7 This(39R9)
+233p7 value
+234U14*set_Headers 235^7 236^7 428b23
+235p7 This(39R9)
+236p7 value
+237U14*set_Proxy 238^7 239^7 429b23
+238p7 This(39R9)
+239p7 value
+240U14*set_QueryString 241^7 242^7 430b23
+241p7 This(39R9)
+242p7 value
+243U14*set_UseDefaultCredentials 244^7 245>7 431b23
+244p7 This(39R9)
+245b7 value{boolean}
+246V13*UploadData{14|43P9} 247^7 248^7 249>7
+247p7 This(39R9)
+248p7 address
+249a7 data{14|42A9}
+250V13*UploadData{14|43P9} 251^7 252^7 253^7 254>7
+251p7 This(39R9)
+252p7 address
+253p7 method
+254a7 data{14|42A9}
+255V13*UploadData{14|43P9} 256^7 257^7 258^7 259>7
+256p7 This(39R9)
+257p7 address
+258p7 method
+259a7 data{14|42A9}
+260V13*UploadData{14|43P9} 261^7 262^7 263>7 432b23
+261p7 This(39R9)
+262p7 address
+263a7 data{14|42A9}
+264U14*UploadDataAsync 265^7 266^7 267^7 268>7
+265p7 This(39R9)
+266p7 address
+267p7 method
+268a7 data{14|42A9}
+269U14*UploadDataAsync 270^7 271^7 272^7 273>7 274^7
+270p7 This(39R9)
+271p7 address
+272p7 method
+273a7 data{14|42A9}
+274p7 userToken(124|11R9)
+275U14*UploadDataAsync 276^7 277^7 278>7 433b23
+276p7 This(39R9)
+277p7 address
+278a7 data{14|42A9}
+279V13*UploadFile{14|43P9} 280^7 281^7 282^7
+280p7 This(39R9)
+281p7 address
+282p7 fileName
+283V13*UploadFile{14|43P9} 284^7 285^7 286^7 287^7
+284p7 This(39R9)
+285p7 address
+286p7 method
+287p7 fileName
+288V13*UploadFile{14|43P9} 289^7 290^7 291^7
+289p7 This(39R9)
+290p7 address
+291p7 fileName
+292V13*UploadFile{14|43P9} 293^7 294^7 295^7 296^7 434b23
+293p7 This(39R9)
+294p7 address
+295p7 method
+296p7 fileName
+297U14*UploadFileAsync 298^7 299^7 300^7 301^7 302^7
+298p7 This(39R9)
+299p7 address
+300p7 method
+301p7 fileName
+302p7 userToken(124|11R9)
+303U14*UploadFileAsync 304^7 305^7 306^7 307^7
+304p7 This(39R9)
+305p7 address
+306p7 method
+307p7 fileName
+308U14*UploadFileAsync 309^7 310^7 311^7 435b23
+309p7 This(39R9)
+310p7 address
+311p7 fileName
+312V13*UploadString 313^7 314^7 315^7 316^7
+313p7 This(39R9)
+314p7 address
+315p7 method
+316p7 data
+317V13*UploadString 318^7 319^7 320^7
+318p7 This(39R9)
+319p7 address
+320p7 data
+321V13*UploadString 322^7 323^7 324^7
+322p7 This(39R9)
+323p7 address
+324p7 data
+325V13*UploadString 326^7 327^7 328^7 329^7 436b23
+326p7 This(39R9)
+327p7 address
+328p7 method
+329p7 data
+330U14*UploadStringAsync 331^7 332^7 333^7
+331p7 This(39R9)
+332p7 address
+333p7 data
+334U14*UploadStringAsync 335^7 336^7 337^7 338^7 339^7
+335p7 This(39R9)
+336p7 address
+337p7 method
+338p7 data
+339p7 userToken(124|11R9)
+340U14*UploadStringAsync 341^7 342^7 343^7 344^7 437b23
+341p7 This(39R9)
+342p7 address
+343p7 method
+344p7 data
+345V13*UploadValues{14|43P9} 346^7 347^7 348^7 349^7
+346p7 This(39R9)
+347p7 address
+348p7 method
+349p7 data
+350V13*UploadValues{14|43P9} 351^7 352^7 353^7 354^7
+351p7 This(39R9)
+352p7 address
+353p7 method
+354p7 data
+355V13*UploadValues{14|43P9} 356^7 357^7 358^7
+356p7 This(39R9)
+357p7 address
+358p7 data
+359V13*UploadValues{14|43P9} 360^7 361^7 362^7 438b23
+360p7 This(39R9)
+361p7 address
+362p7 data
+363U14*UploadValuesAsync 364^7 365^7 366^7 367^7 368^7
+364p7 This(39R9)
+365p7 address
+366p7 method
+367p7 data
+368p7 userToken(124|11R9)
+369U14*UploadValuesAsync 370^7 371^7 372^7 373^7
+370p7 This(39R9)
+371p7 address
+372p7 method
+373p7 data
+374U14*UploadValuesAsync 375^7 376^7 377^7 439b23
+375p7 This(39R9)
+376p7 address
+377p7 data
+X 123 mssyst-net-webheadercollection.ads
+24K20 WebHeaderCollection 122|139r51 147r51 236r33
+X 124 mssyst-object.ads
+10K16*Object 122|6w13 96r33 112r33 129r33 162r33 181r33 274r33 302r33 339r33
+. 368r33 124|44e18
+11R9*Typ 122|96r40 112r40 129r40 162r40 181r40 274r40 302r40 339r40 368r40
+. 124|13e14
+21V13*Equals{boolean}
+27V13*GetHashCode{integer}
+29V13*GetType
+X 241 mssyst-string.ads
+23K16 String 122|89r31 103r32 106r31 107r32 111r32 116r32 119r67 122r31 122r70
+. 131r47 155r31 168r31 172r30 175r31 176r30 180r30 185r30 224r29 253r30 257r31
+. 258r30 262r31 267r30 272r30 281r31 282r32 286r30 287r32 291r32 294r31 295r30
+. 296r32 300r30 301r32 306r30 307r32 311r32 315r30 316r28 316r67 319r31 320r28
+. 320r67 324r28 324r67 327r31 328r30 329r28 329r67 333r28 337r30 338r28 343r30
+. 344r28 348r30 352r31 353r30 357r31 366r30 372r30
+X 244 mssyst-text.ads
+6K16 Text 122|137r47 233r29
+X 251 mssyst-text-encoding.ads
+18K21 Encoding 122|137r52 233r34
+X 260 mssyst-uri.ads
+18K16 Uri 122|92r31 95r31 99r31 102r31 110r31 115r31 119r31 125r31 128r31
+. 152r31 158r31 161r31 165r31 171r31 179r31 184r31 188r31 248r31 252r31 266r31
+. 271r31 277r31 285r31 290r31 299r31 305r31 310r31 314r31 323r31 332r31 336r31
+. 342r31 347r31 361r31 365r31 371r31 376r31
+

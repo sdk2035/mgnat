@@ -1,0 +1,211 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.data.constraintcollection%s  mssyst-data-constraintcollection.ads  3faca4b4 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.data%s		mssyst-data.ads		mssyst-data.ali
+W mssyst.data.internaldatacollectionbase%s  mssyst-data-internaldatacollectionbase.ads  mssyst-data-internaldatacollectionbase.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-array_k.ads	20060131171354 937a0605
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-ienumerable.ads  20060131171354 b0800740
+D mssyst-collections-ienumerator.ads  20060131171354 1d07849c
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-collectionchangeeventhandler.ads  20060131171412 7312024a
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-marshalbyvaluecomponent.ads  20060131171414 700ce2d6
+D mssyst-data.ads	20060131171910 7139211c
+D mssyst-data-constraint.ads  20040901193212 b9d47dfd
+D mssyst-data-constraintcollection.ads  20040901193212 701d7b7d
+D mssyst-data-datacolumn.ads  20040901193212 f4861cb9
+D mssyst-data-internaldatacollectionbase.ads  20040901193212 a973d99f
+D mssyst-data-mappingtype.ads  20040901193212 ddece85b
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 19|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 19|7r6 22r6 23r9 31r26 32r26 33r16 41r14 42r16 43r45 46r14
+. 47r17 48r45 51r14 52r26 53r26 53r61 56r20 59r14 60r27 61r27 61r68 64r15
+. 67r21 70r20 75r14 78r31 81r14 81r40 84r20 87r24 90r14 93r20 96r15 113r5
+. 115r20
+X 8 mssyst-collections.ads
+6K16 Collections 19|31r33 32r33
+X 9 mssyst-collections-icollection.ads
+12K28 ICollection 19|31r45
+14P9 Ref(integer) 19|31r57
+X 10 mssyst-collections-ienumerable.ads
+11K28 IEnumerable 19|32r45
+13P9 Ref(integer) 19|32r57
+X 11 mssyst-collections-ienumerator.ads
+13P9 Ref(integer)
+X 13 mssyst-componentmodel.ads
+6K16 ComponentModel 19|64r22 96r22
+X 14 mssyst-componentmodel-collectionchangeeventhandler.ads
+24K31 CollectionChangeEventHandler 19|64r37 96r37
+26P9 Ref(integer) 19|64r66 96r66
+X 17 mssyst-data.ads
+6K16*Data 6|6k9 17|7e16 19|22r13 23r16 33r23 42r23 43r52 47r24 48r52 52r33
+. 53r33 53r68 56r27 60r34 61r34 61r75 67r28 70r27 78r38 81r47 84r27 93r27
+. 113r12 115r27
+X 18 mssyst-data-constraint.ads
+16K21 Constraint 19|43r57 48r57 53r73 56r32 61r80 67r33 70r32 78r43 81r52
+. 84r32 93r32
+18P9 Ref(integer) 19|43r68 48r68 53r84 56r43 61r91 70r43 78r54 81r63 84r43
+. 93r43
+21P9 Ref_Array(integer) 19|67r44
+X 19 mssyst-data-constraintcollection.ads
+23K21*ConstraintCollection 17|6k16 19|113l17 113e37 115r32
+24R9*Typ 25r27 30c9 40r21 45r21 50r21 55r21 58r21 63r21 66r21 69r21 72r21
+. 74r21 77r21 80r21 83r21 86r21 89r21 92r21 95r21 98r21 101r27
+25P9*Ref(24R9) 26r34 27r44
+26P9*Ref_addrof(25P9)
+27A9*Arr1(25P9) 28r33
+28P9*Ref_Array(27A9) 29r40
+29P9*Ref_Array_addrof(28P9)
+30R9*Typ<21|25R9> 31d10 32d10 38e14 39p13 44p13 49p13 54p14 57p13 62p14 65p14
+. 68p13 71p14 73p13 76p13 79p13 82p13 85p13 88p14 91p14 94p14 97p14 21|33p14
+. 37p13 39p13 41p13 43p13 45p13 31|23p13 29p13 31p13 36p13
+31p10*I_ICollection{9|14P9} 34r27
+32p10*I_IEnumerable{10|13P9} 35r27
+39V13*Add{18|18P9} 40^7 41>7 42>7 43>7
+40p7 This(30R9)
+41p7 name{49|27P9}
+42p7 column{20|25P9}
+43b7 primaryKey{boolean}
+44V13*Add{18|18P9} 45^7 46>7 47>7 48>7
+45p7 This(30R9)
+46p7 name{49|27P9}
+47p7 columns{20|28P9}
+48b7 primaryKey{boolean}
+49V13*Add{18|18P9} 50^7 51>7 52>7 53>7
+50p7 This(30R9)
+51p7 name{49|27P9}
+52p7 primaryKeyColumn{20|25P9}
+53p7 foreignKeyColumn{20|25P9}
+54U14*Add 55^7 56>7
+55p7 This(30R9)
+56p7 constraint{18|18P9}
+57V13*Add{18|18P9} 58^7 59>7 60>7 61>7 102b23
+58p7 This(30R9)
+59p7 name{49|27P9}
+60p7 primaryKeyColumns{20|28P9}
+61p7 foreignKeyColumns{20|28P9}
+62U14*add_CollectionChanged 63^7 64>7 103b23
+63p7 This(30R9)
+64p7 value{14|26P9}
+65U14*AddRange 66^7 67>7 104b23
+66p7 This(30R9)
+67p7 constraints{18|21P9}
+68V13*CanRemove{boolean} 69^7 70>7 105b23
+69p7 This(30R9)
+70p7 constraint{18|18P9}
+71U14*Clear 72^7 106b23
+72p7 This(30R9)
+73V13*Contains{boolean} 74^7 75>7 107b23
+74p7 This(30R9)
+75p7 name{49|27P9}
+76V13*get_Item{18|18P9} 77^7 78>7
+77p7 This(30R9)
+78i7 index{integer}
+79V13*get_Item{18|18P9} 80^7 81>7 108b23
+80p7 This(30R9)
+81p7 name{49|27P9}
+82V13*IndexOf{integer} 83^7 84>7
+83p7 This(30R9)
+84p7 constraint{18|18P9}
+85V13*IndexOf{integer} 86^7 87>7 109b23
+86p7 This(30R9)
+87p7 constraintName{49|27P9}
+88U14*Remove 89^7 90>7
+89p7 This(30R9)
+90p7 name{49|27P9}
+91U14*Remove 92^7 93>7 110b23
+92p7 This(30R9)
+93p7 constraint{18|18P9}
+94U14*remove_CollectionChanged 95^7 96>7 111b23
+95p7 This(30R9)
+96p7 value{14|26P9}
+97U14*RemoveAt 98^7 99>7 112b23
+98p7 This(30R9)
+99i7 index{integer}
+X 20 mssyst-data-datacolumn.ads
+23K21 DataColumn 19|42r28 47r29 52r38 53r38 60r39 61r39
+25P9 Ref(integer) 19|42r39 52r49 53r49
+28P9 Ref_Array(integer) 19|47r40 60r50 61r50
+X 21 mssyst-data-internaldatacollectionbase.ads
+18K21*InternalDataCollectionBase 19|22w18 33r28 21|56e43
+19R9*Typ 19|33r55
+33U14*CopyTo
+37V13*get_Count{integer}
+39V13*get_IsReadOnly{boolean}
+41V13*get_IsSynchronized{boolean}
+43V13*get_SyncRoot{31|13P9}
+45V13*GetEnumerator{11|13P9}
+X 31 mssyst-object.ads
+11K16*Object 19|7w13 31|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{54|51P9}
+36V13*ToString{49|27P9}
+X 49 mssyst-string.ads
+25K16 String 19|41r21 46r21 51r21 59r21 75r21 81r21 87r31 90r21
+27P9 Ref(integer) 19|41r28 46r28 51r28 59r28 75r28 81r28 87r38 90r28
+X 54 mssyst-type_k.ads
+51P9 Ref(integer)
+

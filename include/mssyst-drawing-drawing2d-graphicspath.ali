@@ -1,0 +1,866 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.drawing2d.graphicspath%s  mssyst-drawing-drawing2d-graphicspath.ads  ce53cfd4 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.drawing2d%s  mssyst-drawing-drawing2d.ads  mssyst-drawing-drawing2d.ali
+W mssyst.drawing.point%s  mssyst-drawing-point.ads  mssyst-drawing-point.ali
+W mssyst.drawing.pointf%s  mssyst-drawing-pointf.ads  mssyst-drawing-pointf.ali
+W mssyst.drawing.rectangle%s  mssyst-drawing-rectangle.ads  mssyst-drawing-rectangle.ali
+W mssyst.drawing.rectanglef%s  mssyst-drawing-rectanglef.ads  mssyst-drawing-rectanglef.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.idisposable%s	mssyst-idisposable.ads	mssyst-idisposable.ali
+W mssyst.marshalbyrefobject%s  mssyst-marshalbyrefobject.ads  mssyst-marshalbyrefobject.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060517214748 02f2695c
+D microsoft-win32.ads	20060517214748 bf37fdc1
+D microsoft-win32-safehandles.ads  20060517214748 c240eeab
+D microsoft-win32-safehandles-safefilehandle.ads  20060518130024 34c2417a
+D microsoft-win32-safehandles-safehandlezeroorminusoneisinvalid.ads  20060518130024 66041aba
+D microsoft-win32-safehandles-safewaithandle.ads  20060518130024 ae8855ed
+D msil_types.ads	20060219005222 3027c2c3
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-array_k.ads	20060518130004 44c548ce
+D mssyst-asynccallback.ads  20060518130006 80e54e38
+D mssyst-attribute.ads	20060518130006 394ce8b0
+D mssyst-charenumerator.ads  20060518130008 d83886d0
+D mssyst-collections.ads  20060517214744 22f80fd8
+D mssyst-collections-dictionaryentry.ads  20060518130016 222dd9e6
+D mssyst-collections-icollection.ads  20060518130004 3a339eb6
+D mssyst-collections-icomparer.ads  20060518130006 71266c2a
+D mssyst-collections-idictionary.ads  20060518130016 d5a87938
+D mssyst-collections-idictionaryenumerator.ads  20060518130016 174d5352
+D mssyst-collections-ienumerable.ads  20060518130004 8a6639a6
+D mssyst-collections-ienumerator.ads  20060518130004 bc4e7b44
+D mssyst-collections-ilist.ads  20060518130004 d5fdb5e8
+D mssyst-collections-readonlycollectionbase.ads  20060518130016 2b7b6f73
+D mssyst-configuration.ads  20060517214756 03b06563
+D mssyst-configuration-assemblies.ads  20060517214756 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060518130040 813ea3b2
+D mssyst-configuration-assemblies-assemblyversioncompatibility.ads  20060518130040 80640b26
+D mssyst-datetime.ads	20060518130006 e8dd3274
+D mssyst-datetimekind.ads  20060518130006 db5b4b1d
+D mssyst-dayofweek.ads	20060518130008 4570cbc5
+D mssyst-decimal.ads	20060518130008 5671c372
+D mssyst-delegate.ads	20060518130006 5344fd33
+D mssyst-drawing.ads	20060517222328 770dd27a
+D mssyst-drawing-bitmap.ads  20060518130104 1656ebd0
+D mssyst-drawing-brush.ads  20060518130104 87de3b43
+D mssyst-drawing-characterrange.ads  20060518130106 8185ef8a
+D mssyst-drawing-color.ads  20060518130104 9c0c9df9
+D mssyst-drawing-copypixeloperation.ads  20060518130104 eda8ff93
+D mssyst-drawing-drawing2d.ads  20060517222328 02b10736
+D mssyst-drawing-drawing2d-combinemode.ads  20060518130106 b3c0aa67
+D mssyst-drawing-drawing2d-compositingmode.ads  20060518130106 0691fc40
+D mssyst-drawing-drawing2d-compositingquality.ads  20060518130106 9964cf10
+D mssyst-drawing-drawing2d-coordinatespace.ads  20060518130106 098741b9
+D mssyst-drawing-drawing2d-customlinecap.ads  20060518130104 c70f89e5
+D mssyst-drawing-drawing2d-dashcap.ads  20060518130104 17b9c081
+D mssyst-drawing-drawing2d-dashstyle.ads  20060518130106 aed31dd9
+D mssyst-drawing-drawing2d-fillmode.ads  20060518130106 7bb9485f
+D mssyst-drawing-drawing2d-flushintention.ads  20060518130106 460694b2
+D mssyst-drawing-drawing2d-graphicscontainer.ads  20060518130106 289862ef
+D mssyst-drawing-drawing2d-graphicspath.ads  20060518130106 fe945149
+D mssyst-drawing-drawing2d-graphicsstate.ads  20060518130106 40c42a8a
+D mssyst-drawing-drawing2d-interpolationmode.ads  20060518130106 dc6e60e0
+D mssyst-drawing-drawing2d-linecap.ads  20060518130106 ceac1a15
+D mssyst-drawing-drawing2d-linejoin.ads  20060518130106 95975be4
+D mssyst-drawing-drawing2d-matrix.ads  20060518130106 5f15817e
+D mssyst-drawing-drawing2d-matrixorder.ads  20060518130106 feb7512a
+D mssyst-drawing-drawing2d-pathdata.ads  20060518130106 9d5206e7
+D mssyst-drawing-drawing2d-penalignment.ads  20060518130106 5954b74f
+D mssyst-drawing-drawing2d-pentype.ads  20060518130106 8c0f6955
+D mssyst-drawing-drawing2d-pixeloffsetmode.ads  20060518130106 d6d76c6e
+D mssyst-drawing-drawing2d-regiondata.ads  20060518130106 ddf73808
+D mssyst-drawing-drawing2d-smoothingmode.ads  20060518130106 b79ee792
+D mssyst-drawing-drawing2d-warpmode.ads  20060518130106 3553d930
+D mssyst-drawing-drawing2d-wrapmode.ads  20060518130106 a13fedb8
+D mssyst-drawing-font.ads  20060518130106 8afb5f98
+D mssyst-drawing-fontfamily.ads  20060518130106 50bccb85
+D mssyst-drawing-fontstyle.ads  20060518130106 d394da08
+D mssyst-drawing-graphics.ads  20060518130104 8fd75c1a
+D mssyst-drawing-graphics-drawimageabort.ads  20060518130104 1736c04c
+D mssyst-drawing-graphics-enumeratemetafileproc.ads  20060518130104 e3724f1a
+D mssyst-drawing-graphicsunit.ads  20060518130106 d701e470
+D mssyst-drawing-icon.ads  20060518130104 a54ef9c2
+D mssyst-drawing-idevicecontext.ads  20060518130104 6fa977b6
+D mssyst-drawing-image.ads  20060518130104 25f13672
+D mssyst-drawing-image-getthumbnailimageabort.ads  20060518130104 87351692
+D mssyst-drawing-imaging.ads  20060517222330 83f7d7de
+D mssyst-drawing-imaging-bitmapdata.ads  20060518130104 73e151ea
+D mssyst-drawing-imaging-coloradjusttype.ads  20060518130104 dba9e0a4
+D mssyst-drawing-imaging-colorchannelflag.ads  20060518130104 12ccfa78
+D mssyst-drawing-imaging-colormap.ads  20060518130104 443e3c70
+D mssyst-drawing-imaging-colormatrix.ads  20060518130104 f72c9656
+D mssyst-drawing-imaging-colormatrixflag.ads  20060518130104 9c982390
+D mssyst-drawing-imaging-colorpalette.ads  20060518130104 4cd52973
+D mssyst-drawing-imaging-emfplusrecordtype.ads  20060518130106 3b607e40
+D mssyst-drawing-imaging-emftype.ads  20060518130106 111a9b10
+D mssyst-drawing-imaging-encoder.ads  20060518130106 fc018a64
+D mssyst-drawing-imaging-encoderparameter.ads  20060518130106 d5042ed1
+D mssyst-drawing-imaging-encoderparameters.ads  20060518130106 700fb5a1
+D mssyst-drawing-imaging-encoderparametervaluetype.ads  20060518130106 d96220a8
+D mssyst-drawing-imaging-framedimension.ads  20060518130106 447af772
+D mssyst-drawing-imaging-imageattributes.ads  20060518130106 f0a3576b
+D mssyst-drawing-imaging-imagecodecflags.ads  20060518130106 a08551bd
+D mssyst-drawing-imaging-imagecodecinfo.ads  20060518130106 64cbfb39
+D mssyst-drawing-imaging-imageformat.ads  20060518130106 2f9d601a
+D mssyst-drawing-imaging-imagelockmode.ads  20060518130106 2b321977
+D mssyst-drawing-imaging-metafile.ads  20060518130106 aa3ad4f3
+D mssyst-drawing-imaging-metafileframeunit.ads  20060518130106 353b4f36
+D mssyst-drawing-imaging-metafileheader.ads  20060518130106 9e07f6d6
+D mssyst-drawing-imaging-metafiletype.ads  20060518130106 df27f9d0
+D mssyst-drawing-imaging-metaheader.ads  20060518130106 d7277e5d
+D mssyst-drawing-imaging-pixelformat.ads  20060518130106 c188c773
+D mssyst-drawing-imaging-playrecordcallback.ads  20060518130106 272b4b10
+D mssyst-drawing-imaging-propertyitem.ads  20060518130106 743f151a
+D mssyst-drawing-imaging-wmfplaceablefileheader.ads  20060518130106 adf2d18c
+D mssyst-drawing-knowncolor.ads  20060518130104 cf83d381
+D mssyst-drawing-pen.ads  20060518130104 1a9a6706
+D mssyst-drawing-point.ads  20060518130104 05358661
+D mssyst-drawing-pointf.ads  20060518130106 f30e71b6
+D mssyst-drawing-rectangle.ads  20060518130104 b59756d9
+D mssyst-drawing-rectanglef.ads  20060518130106 870ef971
+D mssyst-drawing-region.ads  20060518130104 2db70a12
+D mssyst-drawing-rotatefliptype.ads  20060518130104 a534a6c5
+D mssyst-drawing-size.ads  20060518130104 ff0ce726
+D mssyst-drawing-sizef.ads  20060518130106 2d88001a
+D mssyst-drawing-stringalignment.ads  20060518130106 5ec5fb27
+D mssyst-drawing-stringdigitsubstitute.ads  20060518130106 afb2a0a8
+D mssyst-drawing-stringformat.ads  20060518130106 5cdaebcb
+D mssyst-drawing-stringformatflags.ads  20060518130106 80d13db4
+D mssyst-drawing-stringtrimming.ads  20060518130106 2e4f6a19
+D mssyst-drawing-text.ads  20060517222330 47e8b126
+D mssyst-drawing-text-fontcollection.ads  20060518130106 7dd4249e
+D mssyst-drawing-text-genericfontfamilies.ads  20060518130106 76bf5346
+D mssyst-drawing-text-hotkeyprefix.ads  20060518130106 cbfb5c04
+D mssyst-drawing-text-textrenderinghint.ads  20060518130106 0da59ab9
+D mssyst-eventargs.ads	20060518130006 f2d88790
+D mssyst-globalization.ads  20060517214748 13e8d46f
+D mssyst-globalization-calendar.ads  20060518130020 6b493ab4
+D mssyst-globalization-calendaralgorithmtype.ads  20060518130020 3e24c29f
+D mssyst-globalization-calendarweekrule.ads  20060518130020 fd7e4fa4
+D mssyst-globalization-compareinfo.ads  20060518130020 1578aa69
+D mssyst-globalization-compareoptions.ads  20060518130020 aa1d08c4
+D mssyst-globalization-cultureinfo.ads  20060518130020 eff0653d
+D mssyst-globalization-culturetypes.ads  20060518130020 0714709f
+D mssyst-globalization-datetimeformatinfo.ads  20060518130020 12cc668e
+D mssyst-globalization-datetimestyles.ads  20060518130020 493eba39
+D mssyst-globalization-digitshapes.ads  20060518130020 159048c6
+D mssyst-globalization-numberformatinfo.ads  20060518130020 3e2c26cf
+D mssyst-globalization-numberstyles.ads  20060518130020 e67a6e84
+D mssyst-globalization-sortkey.ads  20060518130020 fbdd0312
+D mssyst-globalization-textinfo.ads  20060518130020 87fe0838
+D mssyst-guid.ads	20060518130008 81a28a48
+D mssyst-iasyncresult.ads  20060518130008 f67d3866
+D mssyst-icloneable.ads	20060518130004 e17b533e
+D mssyst-icomparable.ads  20060518130004 bf9ec2a5
+D mssyst-iconvertible.ads  20060518130004 5fd73d03
+D mssyst-idisposable.ads  20060518130004 43dfd267
+D mssyst-iformatprovider.ads  20060518130008 0282a90a
+D mssyst-io.ads		20060517214752 31f12609
+D mssyst-io-fileaccess.ads  20060518130030 86b9fb32
+D mssyst-io-filemode.ads  20060518130030 cd9a2184
+D mssyst-io-fileoptions.ads  20060518130030 dcc00896
+D mssyst-io-fileshare.ads  20060518130030 9c1d8f8e
+D mssyst-io-filestream.ads  20060518130030 e99dd9b5
+D mssyst-io-seekorigin.ads  20060518130030 84ee3c99
+D mssyst-io-stream.ads	20060518130030 8edee4de
+D mssyst-marshalbyrefobject.ads  20060518130006 1fa39a8f
+D mssyst-midpointrounding.ads  20060518130008 67720843
+D mssyst-modulehandle.ads  20060518130010 ea2bb724
+D mssyst-multicastdelegate.ads  20060518130006 378f1b43
+D mssyst-object.ads	20060518130004 47535304
+D mssyst-reflection.ads	20060517214746 25abbfbc
+D mssyst-reflection-assembly.ads  20060518130016 123eb80d
+D mssyst-reflection-assemblyname.ads  20060518130018 15212dcc
+D mssyst-reflection-assemblynameflags.ads  20060518130018 086c5b0c
+D mssyst-reflection-binder.ads  20060518130008 8f817e78
+D mssyst-reflection-bindingflags.ads  20060518130018 44cb2c03
+D mssyst-reflection-callingconventions.ads  20060518130018 6e41b7d5
+D mssyst-reflection-constructorinfo.ads  20060518130018 4a784f3e
+D mssyst-reflection-eventattributes.ads  20060518130018 601969cf
+D mssyst-reflection-eventinfo.ads  20060518130018 d074f51e
+D mssyst-reflection-fieldattributes.ads  20060518130018 7952d5f0
+D mssyst-reflection-fieldinfo.ads  20060518130018 467b8c48
+D mssyst-reflection-genericparameterattributes.ads  20060518130018 bf8892e6
+D mssyst-reflection-icustomattributeprovider.ads  20060518130010 f243134e
+D mssyst-reflection-imagefilemachine.ads  20060518130018 e85430a4
+D mssyst-reflection-interfacemapping.ads  20060518130018 8db7a5bb
+D mssyst-reflection-ireflect.ads  20060518130010 881bf639
+D mssyst-reflection-manifestresourceinfo.ads  20060518130018 ad6bbbfa
+D mssyst-reflection-memberfilter.ads  20060518130018 50297139
+D mssyst-reflection-memberinfo.ads  20060518130010 0224f482
+D mssyst-reflection-membertypes.ads  20060518130018 781a8ce9
+D mssyst-reflection-methodattributes.ads  20060518130018 7f00d77d
+D mssyst-reflection-methodbase.ads  20060518130018 d9f75bde
+D mssyst-reflection-methodbody.ads  20060518130018 57c34b79
+D mssyst-reflection-methodimplattributes.ads  20060518130018 9b393827
+D mssyst-reflection-methodinfo.ads  20060518130018 9554c467
+D mssyst-reflection-module.ads  20060518130018 f7c1ae4f
+D mssyst-reflection-moduleresolveeventhandler.ads  20060518130016 55175e4b
+D mssyst-reflection-parameterattributes.ads  20060518130018 9852456a
+D mssyst-reflection-parameterinfo.ads  20060518130018 9faca9a0
+D mssyst-reflection-parametermodifier.ads  20060518130018 bf1ace9a
+D mssyst-reflection-portableexecutablekinds.ads  20060518130018 7dc22cdb
+D mssyst-reflection-processorarchitecture.ads  20060518130018 ed5839f4
+D mssyst-reflection-propertyattributes.ads  20060518130018 b25fd6ac
+D mssyst-reflection-propertyinfo.ads  20060518130018 83708877
+D mssyst-reflection-resourcelocation.ads  20060518130018 f7e12499
+D mssyst-reflection-strongnamekeypair.ads  20060518130018 80794f06
+D mssyst-reflection-typeattributes.ads  20060518130018 4ce15869
+D mssyst-reflection-typefilter.ads  20060518130018 1bb8611f
+D mssyst-resolveeventargs.ads  20060518130006 a313837d
+D mssyst-runtime.ads	20060517214744 31dcc047
+D mssyst-runtime-constrainedexecution.ads  20060517214746 f6aa2aec
+D mssyst-runtime-constrainedexecution-criticalfinalizerobject.ads  20060518130008 d30c8885
+D mssyst-runtime-interopservices.ads  20060517214744 59769bf0
+D mssyst-runtime-interopservices-charset.ads  20060518130026 91df90fa
+D mssyst-runtime-interopservices-layoutkind.ads  20060518130026 c12116e8
+D mssyst-runtime-interopservices-safehandle.ads  20060518130010 973569bf
+D mssyst-runtime-interopservices-structlayoutattribute.ads  20060518130026 78989125
+D mssyst-runtime-interopservices-uassembly.ads  20060518130016 f96b0f31
+D mssyst-runtime-interopservices-uassemblyname.ads  20060518130018 de1b10ef
+D mssyst-runtime-interopservices-uattribute.ads  20060518130006 caafc494
+D mssyst-runtime-interopservices-uconstructorinfo.ads  20060518130018 c34639c6
+D mssyst-runtime-interopservices-ueventinfo.ads  20060518130018 04844734
+D mssyst-runtime-interopservices-ufieldinfo.ads  20060518130018 cdb9c056
+D mssyst-runtime-interopservices-umemberinfo.ads  20060518130010 e5d5c7c0
+D mssyst-runtime-interopservices-umethodbase.ads  20060518130018 1ff9475f
+D mssyst-runtime-interopservices-umethodinfo.ads  20060518130018 fc46035a
+D mssyst-runtime-interopservices-umodule.ads  20060518130018 85209d28
+D mssyst-runtime-interopservices-uparameterinfo.ads  20060518130018 b106ef1a
+D mssyst-runtime-interopservices-upropertyinfo.ads  20060518130018 f015b8d5
+D mssyst-runtime-interopservices-utype.ads  20060518130010 edc8eebe
+D mssyst-runtime-remoting.ads  20060517214746 74500271
+D mssyst-runtime-remoting-ichannelinfo.ads  20060518130036 42c0549f
+D mssyst-runtime-remoting-ienvoyinfo.ads  20060518130036 0d613007
+D mssyst-runtime-remoting-iremotingtypeinfo.ads  20060518130036 9c09dda1
+D mssyst-runtime-remoting-messaging.ads  20060517214754 4bfbab1c
+D mssyst-runtime-remoting-messaging-imessage.ads  20060518130034 bf177a61
+D mssyst-runtime-remoting-messaging-imessagectrl.ads  20060518130034 e22b39ed
+D mssyst-runtime-remoting-messaging-imessagesink.ads  20060518130034 9c27ef9e
+D mssyst-runtime-remoting-objref.ads  20060518130036 cc63dccf
+D mssyst-runtime-serialization.ads  20060517214744 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060518130016 a25d9d2b
+D mssyst-runtime-serialization-iformatterconverter.ads  20060518130018 02d31acb
+D mssyst-runtime-serialization-iobjectreference.ads  20060518130008 c3279c62
+D mssyst-runtime-serialization-iserializable.ads  20060518130006 bc8947c1
+D mssyst-runtime-serialization-serializationentry.ads  20060518130020 a6dd57a6
+D mssyst-runtime-serialization-serializationinfo.ads  20060518130020 fe6300a3
+D mssyst-runtime-serialization-serializationinfoenumerator.ads  20060518130020 b2a6a08c
+D mssyst-runtime-serialization-streamingcontext.ads  20060518130020 b7580dc0
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060518130020 ab32dd44
+D mssyst-runtimefieldhandle.ads  20060518130010 1a535b0a
+D mssyst-runtimemethodhandle.ads  20060518130010 b5a8fc11
+D mssyst-runtimetypehandle.ads  20060518130010 2dc72f74
+D mssyst-sbyte.ads	20060518130010 0b40b4c3
+D mssyst-security.ads	20060517214744 a4c8227c
+D mssyst-security-accesscontrol.ads  20060517214756 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060518130042 da644f3b
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060518130042 983129b3
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060518130042 aaa7f08e
+D mssyst-security-accesscontrol-accessrule.ads  20060518130042 357b7164
+D mssyst-security-accesscontrol-auditflags.ads  20060518130042 6697b648
+D mssyst-security-accesscontrol-auditrule.ads  20060518130042 548a6e76
+D mssyst-security-accesscontrol-authorizationrule.ads  20060518130042 d4d98288
+D mssyst-security-accesscontrol-authorizationrulecollection.ads  20060518130042 bd787679
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060518130042 87d97b1c
+D mssyst-security-accesscontrol-filesecurity.ads  20060518130042 d4ef23f2
+D mssyst-security-accesscontrol-filesystemaccessrule.ads  20060518130042 3996455e
+D mssyst-security-accesscontrol-filesystemauditrule.ads  20060518130042 364a20bb
+D mssyst-security-accesscontrol-filesystemrights.ads  20060518130042 99ab4846
+D mssyst-security-accesscontrol-filesystemsecurity.ads  20060518130042 6b12c956
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060518130042 cb8e28ec
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060518130042 68e32c77
+D mssyst-security-accesscontrol-objectsecurity.ads  20060518130042 d97d6fc7
+D mssyst-security-accesscontrol-propagationflags.ads  20060518130042 7d0c8f98
+D mssyst-security-cryptography.ads  20060517214756 6bbb0e6b
+D mssyst-security-cryptography-x509certificates.ads  20060517214756 1b20ddcc
+D mssyst-security-cryptography-x509certificates-x509certificate.ads  20060518130042 438b9ef5
+D mssyst-security-cryptography-x509certificates-x509contenttype.ads  20060518130042 6cfaa0cf
+D mssyst-security-cryptography-x509certificates-x509keystorageflags.ads  20060518130042 db32c0bb
+D mssyst-security-ievidencefactory.ads  20060518130006 43c6d461
+D mssyst-security-policy.ads  20060517214748 7a609687
+D mssyst-security-policy-evidence.ads  20060518130024 1eabe8be
+D mssyst-security-principal.ads  20060517214748 7adc43fd
+D mssyst-security-principal-identityreference.ads  20060518130042 0b9e5f80
+D mssyst-security-securestring.ads  20060518130034 a9a06371
+D mssyst-string.ads	20060518130004 b98d995f
+D mssyst-stringcomparison.ads  20060518130006 86ec68cf
+D mssyst-stringsplitoptions.ads  20060518130006 f2d0599e
+D mssyst-text.ads	20060517214744 a7ed250d
+D mssyst-text-decoder.ads  20060518130022 3b11b35a
+D mssyst-text-decoderfallback.ads  20060518130022 75e2f645
+D mssyst-text-decoderfallbackbuffer.ads  20060518130022 cf5e5e9e
+D mssyst-text-encoder.ads  20060518130022 58ffabf7
+D mssyst-text-encoderfallback.ads  20060518130022 77489063
+D mssyst-text-encoderfallbackbuffer.ads  20060518130022 50c8196a
+D mssyst-text-encoding.ads  20060518130022 9fed9190
+D mssyst-text-encodinginfo.ads  20060518130022 ce8a22c1
+D mssyst-text-normalizationform.ads  20060518130022 2ca43f9a
+D mssyst-threading.ads	20060517214746 964d65eb
+D mssyst-threading-waithandle.ads  20060518130010 cebe4958
+D mssyst-timespan.ads	20060518130010 642ef661
+D mssyst-type_k.ads	20060518130010 5ccf03f1
+D mssyst-typecode.ads	20060518130010 f5c22e86
+D mssyst-typedreference.ads  20060518130010 9b3bbb41
+D mssyst-valuetype.ads	20060518130004 4fb553b0
+D mssyst-version.ads	20060518130010 523fbb99
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 14 msil_types.ads
+5K9*Msil_Types 66e15 56|7w6 8r5 47r15 51r15 56r15 60r15 311r33
+22E9*unsigned_int8<character>
+42A9*unsigned_int8_arr(22E9) 56|47r26 51r26 56r26 60r26
+43P9*Unsigned_Int8_Array(42A9) 56|311r44
+X 15 mssyst.ads
+6K9*MSSyst 7e11 56|6r6 16r6 17r6 18r6 19r6 21r6 22r6 23r6 27r9 28r20 29r14
+. 30r14 43r18 46r20 50r20 52r18 55r20 59r20 61r18 72r14 85r14 100r13 101r13
+. 102r13 103r13 106r13 107r13 108r13 109r13 122r23 125r23 128r23 131r23 135r23
+. 138r23 142r23 145r23 149r23 155r23 158r23 162r23 180r14 183r14 186r13 187r13
+. 196r13 197r13 206r23 209r23 212r27 216r14 237r23 240r23 243r14 246r14 249r22
+. 252r22 255r18 256r23 259r16 260r23 263r18 264r23 267r16 268r23 271r18 272r23
+. 275r20 276r23 279r18 280r23 283r20 284r23 288r40 297r23 303r23 305r33 307r40
+. 309r40 316r23 316r73 319r23 320r20 320r57 322r33 324r33 329r20 332r15 333r20
+. 338r20 339r25 342r12 343r20 344r25 349r20 352r15 353r20 358r20 359r25 362r12
+. 363r20 364r25 371r15 374r12 375r25 380r25 387r12 388r25 393r25 396r15 403r15
+. 410r23 413r27 414r17 415r23 418r27 419r17 422r27 423r17 424r23 425r18 429r27
+. 430r17 431r23 432r18 435r20 438r20 439r23 442r20 443r23 485r5 486r20
+X 39 mssyst-drawing.ads
+6K16*Drawing 15|6k9 39|7e19 56|16r13 17r13 18r13 19r13 27r16 43r25 46r27
+. 50r27 52r25 55r27 59r27 61r25 72r21 85r21 100r20 101r20 102r20 103r20 106r20
+. 107r20 108r20 109r20 122r30 125r30 128r30 131r30 135r30 138r30 142r30 145r30
+. 149r30 155r30 158r30 162r30 180r21 183r21 186r20 187r20 196r20 197r20 206r30
+. 209r30 212r34 216r21 237r30 240r30 243r21 246r21 249r29 252r29 256r30 259r23
+. 260r30 264r30 267r23 268r30 272r30 275r27 276r30 280r30 283r27 284r30 297r30
+. 303r30 305r40 307r47 309r47 316r30 316r80 319r30 320r27 320r64 322r40 324r40
+. 329r27 332r22 333r27 338r27 339r32 342r19 343r27 344r32 349r27 352r22 353r27
+. 358r27 359r32 362r19 363r27 364r32 371r22 374r19 375r32 380r32 387r19 388r32
+. 393r32 396r22 403r22 410r30 413r34 414r24 415r30 418r34 419r24 422r34 423r24
+. 424r30 425r25 429r34 430r24 431r30 432r25 435r27 438r27 439r30 442r27 443r30
+. 485r12 486r27
+X 45 mssyst-drawing-drawing2d.ads
+6K24*Drawing2D 39|6k16 45|7e29 56|27r24 43r33 52r33 61r33 212r42 297r38 303r38
+. 305r48 307r55 316r38 319r38 403r30 410r38 415r38 424r38 425r33 431r38 432r33
+. 439r38 443r38 485r20 486r35
+X 53 mssyst-drawing-drawing2d-fillmode.ads
+13K34 FillMode 56|43r43 52r43 61r43 305r58 403r40
+X 56 mssyst-drawing-drawing2d-graphicspath.ads
+27K34*GraphicsPath 45|6k24 56|212r52 485l30 485e42 486r45
+28R9*Typ<162|13R9> 33e14 34r27 62p14 63r21 70p14 71r21 75p14 76r21 83p14
+. 84r21 88p14 89r21 98p14 99r21 104p14 105r21 110p14 111r21 120p14 121r21
+. 123p14 124r21 126p14 127r21 129p14 130r21 133p14 134r21 136p14 137r21 140p14
+. 141r21 143p14 144r21 147p14 148r21 153p14 154r21 156p14 157r21 160p14 161r21
+. 166p14 167r21 172p14 173r21 178p14 179r21 181p14 182r21 184p14 185r21 188p14
+. 189r21 194p14 195r21 198p14 199r21 204p14 205r21 207p14 208r21 210p14 211r21
+. 212r65 214p14 215r21 219p14 220r21 227p14 228r21 235p14 236r21 238p14 239r21
+. 241p14 242r21 244p14 245r21 247p14 248r21 250p14 251r21 253p14 254r21 261p14
+. 262r21 269p14 270r21 277p14 278r21 285p14 286r21 287P13 288r21 289p14 290r21
+. 291p14 292r21 293P14 294r21 295p14 296r21 299p14 300r21 301p14 302r21 304p13
+. 305r21 306p13 307r21 308p13 309r21 310p13 311r21 312p13 313r21 314p13 315r21
+. 317p13 318r21 321p13 322r21 323p13 324r21 325p13 326r21 330p13 331r21 334p13
+. 335r21 340p13 341r21 345p13 346r21 350p13 351r21 354p13 355r21 360p13 361r21
+. 365p13 366r21 369p13 370r21 372p13 373r21 376p13 377r21 381p13 382r21 385p13
+. 386r21 389p13 390r21 394p13 395r21 397p14 398r21 399p14 400r21 401p14 402r21
+. 404p14 405r21 406p14 407r21 408p14 409r21 411p14 412r21 416p14 417r21 420p14
+. 421r21 427p14 428r21 433p14 434r21 436p14 437r21 440p14 441r21 446r27 162|21p13
+. 24p13 26p13 166|21p13 27p13 29p13 34p13
+34P9*Ref(28R9) 35r34 36r47 40r14 40r34 42r14 43r70 45r14 47r52 49r14 52r70
+. 54r14 56r52 58r14 61r70
+35P9*Ref_addrof(34P9)
+36A9*Ref_Arr(34P9) 37r33
+37P9*Ref_Array(36A9) 38r40
+38P9*Ref_Array_addrof(37P9)
+39V13*new_GraphicsPath{34P9} 40>7
+40p7 This{34P9}
+41V13*new_GraphicsPath{34P9} 42>7 43>7
+42p7 This{34P9}
+43+7 fillMode
+44V13*new_GraphicsPath{34P9} 45>7 46^7 47>7
+45p7 This{34P9}
+46p7 pts(114|16A9)
+47a7 types{14|42A9}
+48V13*new_GraphicsPath{34P9} 49>7 50^7 51>7 52>7
+49p7 This{34P9}
+50p7 pts(114|16A9)
+51a7 types{14|42A9}
+52+7 fillMode
+53V13*new_GraphicsPath{34P9} 54>7 55^7 56>7
+54p7 This{34P9}
+55p7 pts(113|16A9)
+56a7 types{14|42A9}
+57V13*new_GraphicsPath{34P9} 58>7 59^7 60>7 61>7
+58p7 This{34P9}
+59p7 pts(113|16A9)
+60a7 types{14|42A9}
+61+7 fillMode
+62U14*AddArc 63^7 64>7 65>7 66>7 67>7 68>7 69>7
+63p7 This(28R9)
+64f7 x{float}
+65f7 y{float}
+66f7 width{float}
+67f7 height{float}
+68f7 startAngle{float}
+69f7 sweepAngle{float}
+70U14*AddArc 71^7 72>7 73>7 74>7
+71p7 This(28R9)
+72r7 rect{116|16R9}
+73f7 startAngle{float}
+74f7 sweepAngle{float}
+75U14*AddArc 76^7 77>7 78>7 79>7 80>7 81>7 82>7
+76p7 This(28R9)
+77i7 x{integer}
+78i7 y{integer}
+79i7 width{integer}
+80i7 height{integer}
+81f7 startAngle{float}
+82f7 sweepAngle{float}
+83U14*AddArc 84^7 85>7 86>7 87>7 448b23
+84p7 This(28R9)
+85r7 rect{115|16R9}
+86f7 startAngle{float}
+87f7 sweepAngle{float}
+88U14*AddBezier 89^7 90>7 91>7 92>7 93>7 94>7 95>7 96>7 97>7
+89p7 This(28R9)
+90f7 x1{float}
+91f7 y1{float}
+92f7 x2{float}
+93f7 y2{float}
+94f7 x3{float}
+95f7 y3{float}
+96f7 x4{float}
+97f7 y4{float}
+98U14*AddBezier 99^7 100>7 101>7 102>7 103>7
+99p7 This(28R9)
+100r7 pt1{114|15R9}
+101r7 pt2{114|15R9}
+102r7 pt3{114|15R9}
+103r7 pt4{114|15R9}
+104U14*AddBezier 105^7 106>7 107>7 108>7 109>7
+105p7 This(28R9)
+106r7 pt1{113|15R9}
+107r7 pt2{113|15R9}
+108r7 pt3{113|15R9}
+109r7 pt4{113|15R9}
+110U14*AddBezier 111^7 112>7 113>7 114>7 115>7 116>7 117>7 118>7 119>7 449b23
+111p7 This(28R9)
+112i7 x1{integer}
+113i7 y1{integer}
+114i7 x2{integer}
+115i7 y2{integer}
+116i7 x3{integer}
+117i7 y3{integer}
+118i7 x4{integer}
+119i7 y4{integer}
+120U14*AddBeziers 121^7 122^7
+121p7 This(28R9)
+122p7 points(113|16A9)
+123U14*AddBeziers 124^7 125^7 450b23
+124p7 This(28R9)
+125p7 points(114|16A9)
+126U14*AddClosedCurve 127^7 128^7
+127p7 This(28R9)
+128p7 points(114|16A9)
+129U14*AddClosedCurve 130^7 131^7 132>7
+130p7 This(28R9)
+131p7 points(113|16A9)
+132f7 tension{float}
+133U14*AddClosedCurve 134^7 135^7
+134p7 This(28R9)
+135p7 points(113|16A9)
+136U14*AddClosedCurve 137^7 138^7 139>7 451b23
+137p7 This(28R9)
+138p7 points(114|16A9)
+139f7 tension{float}
+140U14*AddCurve 141^7 142^7
+141p7 This(28R9)
+142p7 points(113|16A9)
+143U14*AddCurve 144^7 145^7 146>7
+144p7 This(28R9)
+145p7 points(113|16A9)
+146f7 tension{float}
+147U14*AddCurve 148^7 149^7 150>7 151>7 152>7
+148p7 This(28R9)
+149p7 points(113|16A9)
+150i7 offset{integer}
+151i7 numberOfSegments{integer}
+152f7 tension{float}
+153U14*AddCurve 154^7 155^7
+154p7 This(28R9)
+155p7 points(114|16A9)
+156U14*AddCurve 157^7 158^7 159>7
+157p7 This(28R9)
+158p7 points(114|16A9)
+159f7 tension{float}
+160U14*AddCurve 161^7 162^7 163>7 164>7 165>7 452b23
+161p7 This(28R9)
+162p7 points(114|16A9)
+163i7 offset{integer}
+164i7 numberOfSegments{integer}
+165f7 tension{float}
+166U14*AddEllipse 167^7 168>7 169>7 170>7 171>7
+167p7 This(28R9)
+168i7 x{integer}
+169i7 y{integer}
+170i7 width{integer}
+171i7 height{integer}
+172U14*AddEllipse 173^7 174>7 175>7 176>7 177>7
+173p7 This(28R9)
+174f7 x{float}
+175f7 y{float}
+176f7 width{float}
+177f7 height{float}
+178U14*AddEllipse 179^7 180>7
+179p7 This(28R9)
+180r7 rect{116|16R9}
+181U14*AddEllipse 182^7 183>7 453b23
+182p7 This(28R9)
+183r7 rect{115|16R9}
+184U14*AddLine 185^7 186>7 187>7
+185p7 This(28R9)
+186r7 pt1{114|15R9}
+187r7 pt2{114|15R9}
+188U14*AddLine 189^7 190>7 191>7 192>7 193>7
+189p7 This(28R9)
+190i7 x1{integer}
+191i7 y1{integer}
+192i7 x2{integer}
+193i7 y2{integer}
+194U14*AddLine 195^7 196>7 197>7
+195p7 This(28R9)
+196r7 pt1{113|15R9}
+197r7 pt2{113|15R9}
+198U14*AddLine 199^7 200>7 201>7 202>7 203>7 454b23
+199p7 This(28R9)
+200f7 x1{float}
+201f7 y1{float}
+202f7 x2{float}
+203f7 y2{float}
+204U14*AddLines 205^7 206^7
+205p7 This(28R9)
+206p7 points(114|16A9)
+207U14*AddLines 208^7 209^7 455b23
+208p7 This(28R9)
+209p7 points(113|16A9)
+210U14*AddPath 211^7 212^7 213>7 456b23
+211p7 This(28R9)
+212p7 addingPath(28R9)
+213b7 connect{boolean}
+214U14*AddPie 215^7 216>7 217>7 218>7
+215p7 This(28R9)
+216r7 rect{115|16R9}
+217f7 startAngle{float}
+218f7 sweepAngle{float}
+219U14*AddPie 220^7 221>7 222>7 223>7 224>7 225>7 226>7
+220p7 This(28R9)
+221f7 x{float}
+222f7 y{float}
+223f7 width{float}
+224f7 height{float}
+225f7 startAngle{float}
+226f7 sweepAngle{float}
+227U14*AddPie 228^7 229>7 230>7 231>7 232>7 233>7 234>7 457b23
+228p7 This(28R9)
+229i7 x{integer}
+230i7 y{integer}
+231i7 width{integer}
+232i7 height{integer}
+233f7 startAngle{float}
+234f7 sweepAngle{float}
+235U14*AddPolygon 236^7 237^7
+236p7 This(28R9)
+237p7 points(114|16A9)
+238U14*AddPolygon 239^7 240^7 458b23
+239p7 This(28R9)
+240p7 points(113|16A9)
+241U14*AddRectangle 242^7 243>7
+242p7 This(28R9)
+243r7 rect{115|16R9}
+244U14*AddRectangle 245^7 246>7 459b23
+245p7 This(28R9)
+246r7 rect{116|16R9}
+247U14*AddRectangles 248^7 249^7
+248p7 This(28R9)
+249p7 rects(116|17A9)
+250U14*AddRectangles 251^7 252^7 460b23
+251p7 This(28R9)
+252p7 rects(115|17A9)
+253U14*AddString 254^7 255^7 256^7 257>7 258>7 259>7 260^7
+254p7 This(28R9)
+255p7 s
+256p7 family
+257i7 style{integer}
+258f7 emSize{float}
+259r7 origin{113|15R9}
+260p7 format
+261U14*AddString 262^7 263^7 264^7 265>7 266>7 267>7 268^7
+262p7 This(28R9)
+263p7 s
+264p7 family
+265i7 style{integer}
+266f7 emSize{float}
+267r7 origin{114|15R9}
+268p7 format
+269U14*AddString 270^7 271^7 272^7 273>7 274>7 275>7 276^7
+270p7 This(28R9)
+271p7 s
+272p7 family
+273i7 style{integer}
+274f7 emSize{float}
+275r7 layoutRect{116|16R9}
+276p7 format
+277U14*AddString 278^7 279^7 280^7 281>7 282>7 283>7 284^7 461b23
+278p7 This(28R9)
+279p7 s
+280p7 family
+281i7 style{integer}
+282f7 emSize{float}
+283r7 layoutRect{115|16R9}
+284p7 format
+285U14*ClearMarkers 286^7 462b23
+286p7 This(28R9)
+287V13*Clone(166|11R9)<149|16p13> 288^7 463b23
+288p7 This(28R9)
+289U14*CloseAllFigures 290^7 464b23
+290p7 This(28R9)
+291U14*CloseFigure 292^7 465b23
+292p7 This(28R9)
+293U14*Dispose<152|16p14> 294^7 466b23
+294p7 This(28R9)
+295U14*Flatten 296^7 297^7 298>7
+296p7 This(28R9)
+297p7 matrix
+298f7 flatness{float}
+299U14*Flatten 300^7
+300p7 This(28R9)
+301U14*Flatten 302^7 303^7 467b23
+302p7 This(28R9)
+303p7 matrix
+304V13*get_FillMode 305^7 468b23
+305p7 This(28R9)
+306V13*get_PathData 307^7 469b23
+307p7 This(28R9)
+308V13*get_PathPoints(114|16A9) 309^7 470b23
+309p7 This(28R9)
+310V13*get_PathTypes{14|43P9} 311^7 471b23
+311p7 This(28R9)
+312V13*get_PointCount{integer} 313^7 472b23
+313p7 This(28R9)
+314V13*GetBounds{116|16R9} 315^7 316^7
+315p7 This(28R9)
+316p7 matrix
+317V13*GetBounds{116|16R9} 318^7 319^7 320^7
+318p7 This(28R9)
+319p7 matrix
+320p7 pen
+321V13*GetBounds{116|16R9} 322^7 473b23
+322p7 This(28R9)
+323V13*GetLastPoint{114|15R9} 324^7 474b23
+324p7 This(28R9)
+325V13*IsOutlineVisible{boolean} 326^7 327>7 328>7 329^7
+326p7 This(28R9)
+327f7 x{float}
+328f7 y{float}
+329p7 pen
+330V13*IsOutlineVisible{boolean} 331^7 332>7 333^7
+331p7 This(28R9)
+332r7 point{113|15R9}
+333p7 pen
+334V13*IsOutlineVisible{boolean} 335^7 336>7 337>7 338^7 339^7
+335p7 This(28R9)
+336i7 x{integer}
+337i7 y{integer}
+338p7 pen
+339p7 graphics
+340V13*IsOutlineVisible{boolean} 341^7 342>7 343^7 344^7
+341p7 This(28R9)
+342r7 pt{113|15R9}
+343p7 pen
+344p7 graphics
+345V13*IsOutlineVisible{boolean} 346^7 347>7 348>7 349^7
+346p7 This(28R9)
+347i7 x{integer}
+348i7 y{integer}
+349p7 pen
+350V13*IsOutlineVisible{boolean} 351^7 352>7 353^7
+351p7 This(28R9)
+352r7 point{114|15R9}
+353p7 pen
+354V13*IsOutlineVisible{boolean} 355^7 356>7 357>7 358^7 359^7
+355p7 This(28R9)
+356f7 x{float}
+357f7 y{float}
+358p7 pen
+359p7 graphics
+360V13*IsOutlineVisible{boolean} 361^7 362>7 363^7 364^7 475b23
+361p7 This(28R9)
+362r7 pt{114|15R9}
+363p7 pen
+364p7 graphics
+365V13*IsVisible{boolean} 366^7 367>7 368>7
+366p7 This(28R9)
+367f7 x{float}
+368f7 y{float}
+369V13*IsVisible{boolean} 370^7 371>7
+370p7 This(28R9)
+371r7 point{114|15R9}
+372V13*IsVisible{boolean} 373^7 374>7 375^7
+373p7 This(28R9)
+374r7 pt{114|15R9}
+375p7 graphics
+376V13*IsVisible{boolean} 377^7 378>7 379>7 380^7
+377p7 This(28R9)
+378f7 x{float}
+379f7 y{float}
+380p7 graphics
+381V13*IsVisible{boolean} 382^7 383>7 384>7
+382p7 This(28R9)
+383i7 x{integer}
+384i7 y{integer}
+385V13*IsVisible{boolean} 386^7 387>7 388^7
+386p7 This(28R9)
+387r7 pt{113|15R9}
+388p7 graphics
+389V13*IsVisible{boolean} 390^7 391>7 392>7 393^7
+390p7 This(28R9)
+391i7 x{integer}
+392i7 y{integer}
+393p7 graphics
+394V13*IsVisible{boolean} 395^7 396>7 476b23
+395p7 This(28R9)
+396r7 point{113|15R9}
+397U14*Reset 398^7 477b23
+398p7 This(28R9)
+399U14*Reverse_k 400^7 478b23
+400p7 This(28R9)
+401U14*set_FillMode 402^7 403>7 479b23
+402p7 This(28R9)
+403+7 value
+404U14*SetMarkers 405^7 480b23
+405p7 This(28R9)
+406U14*StartFigure 407^7 481b23
+407p7 This(28R9)
+408U14*Transform 409^7 410^7 482b23
+409p7 This(28R9)
+410p7 matrix
+411U14*Warp 412^7 413^7 414>7 415^7
+412p7 This(28R9)
+413p7 destPoints(114|16A9)
+414r7 srcRect{116|16R9}
+415p7 matrix
+416U14*Warp 417^7 418^7 419>7
+417p7 This(28R9)
+418p7 destPoints(114|16A9)
+419r7 srcRect{116|16R9}
+420U14*Warp 421^7 422^7 423>7 424^7 425>7 426>7
+421p7 This(28R9)
+422p7 destPoints(114|16A9)
+423r7 srcRect{116|16R9}
+424p7 matrix
+425+7 warpMode
+426f7 flatness{float}
+427U14*Warp 428^7 429^7 430>7 431^7 432>7 483b23
+428p7 This(28R9)
+429p7 destPoints(114|16A9)
+430r7 srcRect{116|16R9}
+431p7 matrix
+432+7 warpMode
+433U14*Widen 434^7 435^7
+434p7 This(28R9)
+435p7 pen
+436U14*Widen 437^7 438^7 439^7
+437p7 This(28R9)
+438p7 pen
+439p7 matrix
+440U14*Widen 441^7 442^7 443^7 444>7 484b23
+441p7 This(28R9)
+442p7 pen
+443p7 matrix
+444f7 flatness{float}
+X 61 mssyst-drawing-drawing2d-matrix.ads
+19K34 Matrix 56|297r48 303r48 316r48 319r48 410r48 415r48 424r48 431r48 439r48
+. 443r48
+X 63 mssyst-drawing-drawing2d-pathdata.ads
+12K34 PathData 56|307r65
+X 69 mssyst-drawing-drawing2d-warpmode.ads
+13K34 WarpMode 56|425r43 432r43
+X 72 mssyst-drawing-fontfamily.ads
+18K24 FontFamily 56|256r38 264r38 272r38 280r38
+X 74 mssyst-drawing-graphics.ads
+50K24 Graphics 56|339r40 344r40 359r40 364r40 375r40 380r40 388r40 393r40
+X 112 mssyst-drawing-pen.ads
+26K24 Pen 56|320r35 329r35 333r35 338r35 343r35 349r35 353r35 358r35 363r35
+. 435r35 438r35 442r35
+X 113 mssyst-drawing-point.ads
+14K24*Point 56|16w21 55r35 59r35 106r28 107r28 108r28 109r28 122r38 131r38
+. 135r38 142r38 145r38 149r38 196r28 197r28 209r38 240r38 259r31 332r30 342r27
+. 387r27 396r30 113|103e25
+15R9*ValueType<301|12R9> 56|106r34 107r34 108r34 109r34 196r34 197r34 259r37
+. 332r36 342r33 387r33 396r36 113|15e63
+16A9*ValueType_Arr(15R9) 56|55r41 59r41 122r44 131r44 135r44 142r44 145r44
+. 149r44 209r44 240r44
+X 114 mssyst-drawing-pointf.ads
+14K24*PointF 56|17w21 46r35 50r35 100r28 101r28 102r28 103r28 125r38 128r38
+. 138r38 155r38 158r38 162r38 186r28 187r28 206r38 237r38 267r31 309r55 324r48
+. 352r30 362r27 371r30 374r27 413r42 418r42 422r42 429r42 114|88e26
+15R9*ValueType<301|12R9> 56|100r35 101r35 102r35 103r35 186r35 187r35 267r38
+. 324r55 352r37 362r34 371r37 374r34 114|15e63
+16A9*ValueType_Arr(15R9) 56|46r42 50r42 125r45 128r45 138r45 155r45 158r45
+. 162r45 206r45 237r45 309r62 413r49 418r49 422r49 429r49
+X 115 mssyst-drawing-rectangle.ads
+15K24*Rectangle 56|18w21 85r29 183r29 216r29 243r29 252r37 283r35 115|167e29
+16R9*ValueType<301|12R9> 56|85r39 183r39 216r39 243r39 283r45 115|16e63
+17A9*ValueType_Arr(16R9) 56|252r47
+X 116 mssyst-drawing-rectanglef.ads
+15K24*RectangleF 56|19w21 72r29 180r29 246r29 249r37 275r35 316r88 320r72
+. 322r48 414r32 419r32 423r32 430r32 116|161e30
+16R9*ValueType<301|12R9> 56|72r40 180r40 246r40 275r46 316r99 320r83 322r59
+. 414r43 419r43 423r43 430r43 116|16e63
+17A9*ValueType_Arr(16R9) 56|249r48
+X 123 mssyst-drawing-stringformat.ads
+21K24 StringFormat 56|260r38 268r38 276r38 284r38
+X 149 mssyst-icloneable.ads
+9K16*ICloneable 56|21w13 29r21 149|20e22
+10H9*Typ 56|29r32
+X 152 mssyst-idisposable.ads
+9K16*IDisposable 56|22w13 30r21 152|20e23
+10H9*Typ 56|30r33
+X 162 mssyst-marshalbyrefobject.ads
+12K16*MarshalByRefObject 56|23w13 28r27 162|33e30
+13H9*Typ<166|11R9> 56|28r46 162|15e14
+21V13*CreateObjRef
+24V13*GetLifetimeService(166|11R9)
+26V13*InitializeLifetimeService(166|11R9)
+X 166 mssyst-object.ads
+10K16*Object 56|6w13 288r47 166|44e18
+11R9*Typ 56|288r54 166|13e14
+21V13*Equals{boolean}
+27V13*GetHashCode{integer}
+29V13*GetType
+34V13*ToString
+X 282 mssyst-string.ads
+23K16 String 56|255r25 263r25 271r25 279r25
+

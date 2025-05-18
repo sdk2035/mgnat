@@ -1,0 +1,181 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.uribuilder%s	mssyst-uribuilder.ads	1717dff0 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-uri.ads	20060131171420 e4097279
+D mssyst-uribuilder.ads	20060131171420 204f2836
+D mssyst-uricomponents.ads  20060131171420 7ea03585
+D mssyst-uriformat.ads	20060131171420 bf7e8d5a
+D mssyst-urihostnametype.ads  20060131171420 24f50916
+D mssyst-urikind.ads	20060131171420 c1a164ce
+D mssyst-uripartial.ads	20060131171420 4bb7c6be
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 39|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 39|7r6 10r6 14r9 21r20 28r13 31r13 34r20 35r18 38r16 39r14
+. 43r16 44r14 46r19 49r16 50r14 52r14 53r20 56r16 58r33 60r33 62r33 64r33
+. 68r33 70r33 72r33 74r33 79r15 82r15 85r15 88r15 94r15 97r15 100r15 102r33
+. 126r5 128r20
+X 12 mssyst-object.ads
+11K16*Object 46e18 39|7w13 10w13 21r27 56r23
+12R9*Typ 20e14 39|21r34
+13P9*Ref(12R9) 39|56r30
+18R9*Typ
+31V13*GetType{35|51P9}
+X 30 mssyst-string.ads
+25K16 String 39|28r20 34r27 35r25 38r23 39r21 43r23 44r21 46r26 49r23 50r21
+. 52r21 53r27 58r40 60r40 62r40 64r40 68r40 70r40 74r40 79r22 82r22 85r22
+. 88r22 94r22 97r22 100r22 102r40
+27P9 Ref(integer) 39|28r27 34r34 35r32 38r30 39r28 43r30 44r28 46r33 49r30
+. 50r28 52r28 53r34 58r47 60r47 62r47 64r47 68r47 70r47 74r47 79r29 82r29
+. 85r29 88r29 94r29 97r29 100r29 102r47
+X 35 mssyst-type_k.ads
+51P9 Ref(integer)
+X 38 mssyst-uri.ads
+22K16 Uri 39|31r20 72r40
+24P9 Ref(integer) 39|31r24 72r44
+X 39 mssyst-uribuilder.ads
+14K16*UriBuilder 6|6k9 39|126l12 126e22 128r27
+15R9*Typ 16r27 21c9 55r21 58r21 60r21 62r21 64r21 66r21 68r21 70r21 72r21
+. 74r21 76r21 78r21 81r21 84r21 87r21 90r21 93r21 96r21 99r21 102r21 104r27
+16P9*Ref(15R9) 17r34 18r47 25r14 25r34 27r14 28r39 30r14 31r36 33r14 35r44
+. 37r14 40r36 42r14 46r45 48r14 53r46
+17P9*Ref_addrof(16P9)
+18A9*Ref_Arr(16P9) 19r33
+19P9*Ref_Array(18A9) 20r40
+20P9*Ref_Array_addrof(19P9)
+21R9*Typ<12|18R9> 12|31p13 39|23e14 54P13 57p13 59p13 61p13 63p13 65p13 67p13
+. 69p13 71p13 73p13 75P13 77p14 80p14 83p14 86p14 89p14 92p14 95p14 98p14
+. 101P13
+24V13*new_UriBuilder{16P9} 25>7
+25p7 This{16P9}
+26V13*new_UriBuilder{16P9} 27>7 28>7
+27p7 This{16P9}
+28p7 uri{30|27P9}
+29V13*new_UriBuilder{16P9} 30>7 31>7
+30p7 This{16P9}
+31p7 uri{38|24P9}
+32V13*new_UriBuilder{16P9} 33>7 34>7 35>7
+33p7 This{16P9}
+34p7 schemeName{30|27P9}
+35p7 hostName{30|27P9}
+36V13*new_UriBuilder{16P9} 37>7 38>7 39>7 40>7
+37p7 This{16P9}
+38p7 scheme{30|27P9}
+39p7 host{30|27P9}
+40i7 portNumber{integer}
+41V13*new_UriBuilder{16P9} 42>7 43>7 44>7 45>7 46>7
+42p7 This{16P9}
+43p7 scheme{30|27P9}
+44p7 host{30|27P9}
+45i7 port{integer}
+46p7 pathValue{30|27P9}
+47V13*new_UriBuilder{16P9} 48>7 49>7 50>7 51>7 52>7 53>7
+48p7 This{16P9}
+49p7 scheme{30|27P9}
+50p7 host{30|27P9}
+51i7 port{integer}
+52p7 path{30|27P9}
+53p7 extraValue{30|27P9}
+54V13*Equals{boolean} 55^7 56>7 106b23
+55p7 This(21R9)
+56p7 rparam{12|13P9}
+57V13*get_Fragment{30|27P9} 58^7 107b23
+58p7 This(21R9)
+59V13*get_Host{30|27P9} 60^7 108b23
+60p7 This(21R9)
+61V13*get_Password{30|27P9} 62^7 109b23
+62p7 This(21R9)
+63V13*get_Path{30|27P9} 64^7 110b23
+64p7 This(21R9)
+65V13*get_Port{integer} 66^7 111b23
+66p7 This(21R9)
+67V13*get_Query{30|27P9} 68^7 112b23
+68p7 This(21R9)
+69V13*get_Scheme{30|27P9} 70^7 113b23
+70p7 This(21R9)
+71V13*get_Uri{38|24P9} 72^7 114b23
+72p7 This(21R9)
+73V13*get_UserName{30|27P9} 74^7 115b23
+74p7 This(21R9)
+75V13*GetHashCode{integer} 76^7 116b23
+76p7 This(21R9)
+77U14*set_Fragment 78^7 79>7 117b23
+78p7 This(21R9)
+79p7 value{30|27P9}
+80U14*set_Host 81^7 82>7 118b23
+81p7 This(21R9)
+82p7 value{30|27P9}
+83U14*set_Password 84^7 85>7 119b23
+84p7 This(21R9)
+85p7 value{30|27P9}
+86U14*set_Path 87^7 88>7 120b23
+87p7 This(21R9)
+88p7 value{30|27P9}
+89U14*set_Port 90^7 91>7 121b23
+90p7 This(21R9)
+91i7 value{integer}
+92U14*set_Query 93^7 94>7 122b23
+93p7 This(21R9)
+94p7 value{30|27P9}
+95U14*set_Scheme 96^7 97>7 123b23
+96p7 This(21R9)
+97p7 value{30|27P9}
+98U14*set_UserName 99^7 100>7 124b23
+99p7 This(21R9)
+100p7 value{30|27P9}
+101V13*ToString{30|27P9} 102^7 125b23
+102p7 This(21R9)
+

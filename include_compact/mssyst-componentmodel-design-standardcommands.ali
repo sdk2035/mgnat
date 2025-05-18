@@ -1,0 +1,173 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.componentmodel.design.standardcommands%s  mssyst-componentmodel-design-standardcommands.ads  a150bf80 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.design%s  mssyst-componentmodel-design.ads  mssyst-componentmodel-design.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-design.ads  20060131171414 dcbb2ca1
+D mssyst-componentmodel-design-commandid.ads  20060131171414 2459a362
+D mssyst-componentmodel-design-standardcommands.ads  20060131171416 c86fd4d1
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 10|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 10|7r6 10r6 14r9 21r20 24r18 26r29 28r16 30r17 32r18 34r15
+. 36r27 38r20 40r19 42r19 44r19 46r25 48r23 50r15 52r22 54r11 56r10 58r13
+. 60r12 62r28 64r25 66r25 68r26 70r12 72r17 74r11 76r21 78r16 80r19 82r17
+. 84r20 86r26 88r25 90r16 92r17 94r17 96r15 98r11 100r21 102r14 104r27 106r24
+. 108r24 110r25 112r15 114r15 116r14 118r23 120r19 122r13 124r19 126r18 128r21
+. 130r16 132r15 139r5 141r20
+X 7 mssyst-componentmodel.ads
+6K16*ComponentModel 6|6k9 7|7e26 10|14r16 24r25 26r36 28r23 30r24 32r25 34r22
+. 36r34 38r27 40r26 42r26 44r26 46r32 48r30 50r22 52r29 54r18 56r17 58r20
+. 60r19 62r35 64r32 66r32 68r33 70r19 72r24 74r18 76r28 78r23 80r26 82r24
+. 84r27 86r33 88r32 90r23 92r24 94r24 96r22 98r18 100r28 102r21 104r34 106r31
+. 108r31 110r32 112r22 114r22 116r21 118r30 120r26 122r20 124r26 126r25 128r28
+. 130r23 132r22 139r12 141r27
+X 8 mssyst-componentmodel-design.ads
+6K31*Design 7|6k16 8|7e33 10|14r31 24r40 26r51 28r38 30r39 32r40 34r37 36r49
+. 38r42 40r41 42r41 44r41 46r47 48r45 50r37 52r44 54r33 56r32 58r35 60r34
+. 62r50 64r47 66r47 68r48 70r34 72r39 74r33 76r43 78r38 80r41 82r39 84r42
+. 86r48 88r47 90r38 92r39 94r39 96r37 98r33 100r43 102r36 104r49 106r46 108r46
+. 110r47 112r37 114r37 116r36 118r45 120r41 122r35 124r41 126r40 128r43 130r38
+. 132r37 139r27 141r42
+X 9 mssyst-componentmodel-design-commandid.ads
+14K38 CommandID 10|24r47 26r58 28r45 30r46 32r47 34r44 36r56 38r49 40r48
+. 42r48 44r48 46r54 48r52 50r44 52r51 54r40 56r39 58r42 60r41 62r57 64r54
+. 66r54 68r55 70r41 72r46 74r40 76r50 78r45 80r48 82r46 84r49 86r55 88r54
+. 90r45 92r46 94r46 96r44 98r40 100r50 102r43 104r56 106r53 108r53 110r54
+. 112r44 114r44 116r43 118r52 120r48 122r42 124r48 126r47 128r50 130r45 132r44
+16P9 Ref(integer) 10|24r57 26r68 28r55 30r56 32r57 34r54 36r66 38r59 40r58
+. 42r58 44r58 46r64 48r62 50r54 52r61 54r50 56r49 58r52 60r51 62r67 64r64
+. 66r64 68r65 70r51 72r56 74r50 76r60 78r55 80r58 82r56 84r59 86r65 88r64
+. 90r55 92r56 94r56 96r54 98r50 100r60 102r53 104r66 106r63 108r63 110r64
+. 112r54 114r54 116r53 118r62 120r58 122r52 124r58 126r57 128r60 130r55 132r54
+X 10 mssyst-componentmodel-design-standardcommands.ads
+14K38*StandardCommands 8|6k31 10|139l34 139e50 141r49
+15R9*Typ 16r27 21c9 137r27
+16P9*Ref(15R9) 17r34 18r47 135r14 135r34
+17P9*Ref_addrof(16P9)
+18A9*Ref_Arr(16P9) 19r33
+19P9*Ref_Array(18A9) 20r40
+20P9*Ref_Array_addrof(19P9)
+21R9*Typ<16|18R9> 23e14 16|23p13 29p13 31p13 36p13
+24p4*AlignBottom{9|16P9} 25m23
+26p4*AlignHorizontalCenters{9|16P9} 27m23
+28p4*AlignLeft{9|16P9} 29m23
+30p4*AlignRight{9|16P9} 31m23
+32p4*AlignToGrid{9|16P9} 33m23
+34p4*AlignTop{9|16P9} 35m23
+36p4*AlignVerticalCenters{9|16P9} 37m23
+38p4*ArrangeBottom{9|16P9} 39m23
+40p4*ArrangeRight{9|16P9} 41m23
+42p4*BringForward{9|16P9} 43m23
+44p4*BringToFront{9|16P9} 45m23
+46p4*CenterHorizontally{9|16P9} 47m23
+48p4*CenterVertically{9|16P9} 49m23
+50p4*ViewCode{9|16P9} 51m23
+52p4*DocumentOutline{9|16P9} 53m23
+54p4*Copy{9|16P9} 55m23
+56p4*Cut{9|16P9} 57m23
+58p4*Delete{9|16P9} 59m23
+60p4*Group{9|16P9} 61m23
+62p4*HorizSpaceConcatenate{9|16P9} 63m23
+64p4*HorizSpaceDecrease{9|16P9} 65m23
+66p4*HorizSpaceIncrease{9|16P9} 67m23
+68p4*HorizSpaceMakeEqual{9|16P9} 69m23
+70p4*Paste{9|16P9} 71m23
+72p4*Properties{9|16P9} 73m23
+74p4*Redo{9|16P9} 75m23
+76p4*MultiLevelRedo{9|16P9} 77m23
+78p4*SelectAll{9|16P9} 79m23
+80p4*SendBackward{9|16P9} 81m23
+82p4*SendToBack{9|16P9} 83m23
+84p4*SizeToControl{9|16P9} 85m23
+86p4*SizeToControlHeight{9|16P9} 87m23
+88p4*SizeToControlWidth{9|16P9} 89m23
+90p4*SizeToFit{9|16P9} 91m23
+92p4*SizeToGrid{9|16P9} 93m23
+94p4*SnapToGrid{9|16P9} 95m23
+96p4*TabOrder{9|16P9} 97m23
+98p4*Undo{9|16P9} 99m23
+100p4*MultiLevelUndo{9|16P9} 101m23
+102p4*Ungroup{9|16P9} 103m23
+104p4*VertSpaceConcatenate{9|16P9} 105m23
+106p4*VertSpaceDecrease{9|16P9} 107m23
+108p4*VertSpaceIncrease{9|16P9} 109m23
+110p4*VertSpaceMakeEqual{9|16P9} 111m23
+112p4*ShowGrid{9|16P9} 113m23
+114p4*ViewGrid{9|16P9} 115m23
+116p4*Replace{9|16P9} 117m23
+118p4*PropertiesWindow{9|16P9} 119m23
+120p4*LockControls{9|16P9} 121m23
+122p4*F1Help{9|16P9} 123m23
+124p4*ArrangeIcons{9|16P9} 125m23
+126p4*LineupIcons{9|16P9} 127m23
+128p4*ShowLargeIcons{9|16P9} 129m23
+130p4*VerbFirst{9|16P9} 131m23
+132p4*VerbLast{9|16P9} 133m23
+134V13*new_StandardCommands{16P9} 135>7 138r28
+135p7 This{16P9}
+X 16 mssyst-object.ads
+11K16*Object 10|7w13 10w13 21r27 16|46e18
+12R9*Typ 10|21r34 16|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{37|51P9}
+36V13*ToString{32|27P9}
+X 32 mssyst-string.ads
+27P9 Ref(integer)
+X 37 mssyst-type_k.ads
+51P9 Ref(integer)
+

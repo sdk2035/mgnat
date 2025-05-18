@@ -1,0 +1,91 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.safenativemethods.comrect%s  mssyst-drawing-safenativemethods-comrect.ads  26df469d NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.safenativemethods%s  mssyst-drawing-safenativemethods.ads  mssyst-drawing-safenativemethods.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-drawing.ads	20050914013312 770dd27a
+D mssyst-drawing-safenativemethods.ads  20050914013314 51180271
+D mssyst-drawing-safenativemethods-comrect.ads  20050914133454 f378f057
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 72e15 9|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 9|7r6 10r6 13r9 20r20 42r32 47r5 49r20
+X 7 mssyst-drawing.ads
+6K16*Drawing 6|6k9 7|7e19 9|13r16 42r39 47r12 49r27
+X 8 mssyst-drawing-safenativemethods.ads
+6K24*SafeNativeMethods 7|6k16 8|7e37 9|13r24 42r47 47r20 49r35
+X 9 mssyst-drawing-safenativemethods-comrect.ads
+13K42*COMRECT 8|6k24 9|42r65 47l38 47e45 49r53
+14R9*Typ 15r27 20c9 44r27
+15P9*Ref(14R9) 16r34 17r47 31r14 31r34 33r14 37r32 42r73
+16P9*Ref_addrof(15P9)
+17A9*Ref_Arr(15P9) 18r33
+18P9*Ref_Array(17A9) 19r40
+19P9*Ref_Array_addrof(18P9)
+20R9*Typ<12|18R9> 29e14 12|26p13 29p13 31p13 36p13
+21i7*left{integer}
+23i7*top{integer}
+25i7*right{integer}
+27i7*bottom{integer}
+30V13*new_COMRECT{15P9} 31>7
+31p7 This{15P9}
+32V13*new_COMRECT{15P9} 33>7 34>7 35>7 36>7 37>7
+33p7 This{15P9}
+34i7 left{integer}
+35i7 top{integer}
+36i7 right{integer}
+37i7 bottom{integer}
+38V13*FromXYWH{15P9} 39>7 40>7 41>7 42>7 46b23
+39i7 x{integer}
+40i7 y{integer}
+41i7 width{integer}
+42i7 height{integer}
+X 12 mssyst-object.ads
+11K16*Object 9|7w13 10w13 20r27 12|46e18
+12R9*Typ 9|20r34 12|20e14
+18R9*Typ
+26V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{22|44P9}
+36V13*ToString{21|22P9}
+X 21 mssyst-string.ads
+22P9 Ref(integer)
+X 22 mssyst-type_k.ads
+44P9 Ref(integer)
+

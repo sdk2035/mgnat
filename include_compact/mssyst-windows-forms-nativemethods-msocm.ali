@@ -1,0 +1,135 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.nativemethods.msocm%s  mssyst-windows-forms-nativemethods-msocm.ads  6a0ce30c NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.nativemethods%s  mssyst-windows-forms-nativemethods.ads  mssyst-windows-forms-nativemethods.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-nativemethods.ads  20060131171318 7704f2a2
+D mssyst-windows-forms-nativemethods-msocm.ads  20060131171444 a88c565e
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 40|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 40|7r6 10r6 13r9 20r20 108r5 110r20
+X 12 mssyst-object.ads
+11K16*Object 46e18 40|7w13 10w13 20r27
+12R9*Typ 20e14 40|20r34
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{33|51P9}
+36V13*ToString{28|27P9}
+X 28 mssyst-string.ads
+27P9 Ref(integer)
+X 33 mssyst-type_k.ads
+51P9 Ref(integer)
+X 37 mssyst-windows.ads
+6K16*Windows 6|6k9 37|7e19 40|13r16 108r12 110r27
+X 38 mssyst-windows-forms.ads
+6K24*Forms 37|6k16 38|7e25 40|13r24 108r20 110r35
+X 39 mssyst-windows-forms-nativemethods.ads
+6K30*NativeMethods 38|6k24 39|7e39 40|13r30 108r26 110r41
+X 40 mssyst-windows-forms-nativemethods-msocm.ads
+13K44*MSOCM 39|6k30 40|108l40 108e45 110r55
+14R9*Typ 15r27 20c9 106r27
+15P9*Ref(14R9) 16r34 17r47 104r14 104r34
+16P9*Ref_addrof(15P9)
+17A9*Ref_Arr(15P9) 18r33
+18P9*Ref_Array(17A9) 19r40
+19P9*Ref_Array_addrof(18P9)
+20R9*Typ<12|18R9> 12|23p13 29p13 31p13 36p13 40|22e14
+23i4*msocrfNeedIdleTime{integer} 24m23
+25i4*msocrfNeedPeriodicIdleTime{integer} 26m23
+27i4*msocrfPreTranslateKeys{integer} 28m23
+29i4*msocrfPreTranslateAll{integer} 30m23
+31i4*msocrfNeedSpecActiveNotifs{integer} 32m23
+33i4*msocrfNeedAllActiveNotifs{integer} 34m23
+35i4*msocrfExclusiveBorderSpace{integer} 36m23
+37i4*msocrfExclusiveActivation{integer} 38m23
+39i4*msocrfNeedAllMacEvents{integer} 40m23
+41i4*msocrfMaster{integer} 42m23
+43i4*msocadvfModal{integer} 44m23
+45i4*msocadvfRedrawOff{integer} 46m23
+47i4*msocadvfWarningsOff{integer} 48m23
+49i4*msocadvfRecording{integer} 50m23
+51i4*msochostfExclusiveBorderSpace{integer} 52m23
+53i4*msoidlefPeriodic{integer} 54m23
+55i4*msoidlefNonPeriodic{integer} 56m23
+57i4*msoidlefPriority{integer} 58m23
+59i4*msoidlefAll{integer} 60m23
+61i4*msoloopDoEventsModal{integer} 62m23
+63i4*msoloopMain{integer} 64m23
+65i4*msoloopFocusWait{integer} 66m23
+67i4*msoloopDoEvents{integer} 68m23
+69i4*msoloopDebug{integer} 70m23
+71i4*msoloopModalForm{integer} 72m23
+73i4*msoloopModalAlert{integer} 74m23
+75i4*msocstateModal{integer} 76m23
+77i4*msocstateRedrawOff{integer} 78m23
+79i4*msocstateWarningsOff{integer} 80m23
+81i4*msocstateRecording{integer} 82m23
+83i4*msoccontextAll{integer} 84m23
+85i4*msoccontextMine{integer} 86m23
+87i4*msoccontextOthers{integer} 88m23
+89i4*msogacActive{integer} 90m23
+91i4*msogacTracking{integer} 92m23
+93i4*msogacTrackingOrActive{integer} 94m23
+95i4*msocWindowFrameToplevel{integer} 96m23
+97i4*msocWindowFrameOwner{integer} 98m23
+99i4*msocWindowComponent{integer} 100m23
+101i4*msocWindowDlgOwner{integer} 102m23
+103V13*new_MSOCM{15P9} 104>7 107r28
+104p7 This{15P9}
+

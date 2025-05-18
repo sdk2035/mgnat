@@ -1,0 +1,289 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.unsafenativemethods.itextrange%s  mssyst-windows-forms-unsafenativemethods-itextrange.ads  8894dbf5 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.unsafenativemethods%s  mssyst-windows-forms-unsafenativemethods.ads  mssyst-windows-forms-unsafenativemethods.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-unsafenativemethods.ads  20060131171244 a7f33d5f
+D mssyst-windows-forms-unsafenativemethods-itextrange.ads  20060131171436 b89cc1e0
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 43|8w6 9r5 85r11 86r11
+59M9*int32_addrof 43|85r22 86r22
+X 9 mssyst.ads
+6K9*MSSyst 7e11 43|7r6 13r9 25r14 35r14 38r14 52r14 57r14 62r14 66r33 68r33
+. 70r33 74r33 76r33 81r33 94r33 97r17 100r17 103r17 114r14 118r14 126r14
+. 130r14 134r14 138r14 142r14 151r12 157r14 160r17 168r14 184r14 241r5 243r20
+X 15 mssyst-object.ads
+11K16*Object 46e18 43|7w13 25r21 35r21 38r21 66r40 70r40 74r40 81r40 114r21
+. 118r21 126r21 130r21 134r21 138r21 142r21 151r19 157r21 168r21
+12R9*Typ 20e14
+13P9*Ref(12R9) 43|25r28 66r47 70r47 74r47 81r47 114r28 118r28 126r28 130r28
+. 134r28 138r28 142r28 151r26 157r28 168r28
+14P9*Ref_addrof(13P9) 43|35r28 38r28
+X 31 mssyst-string.ads
+25K16 String 43|52r21 57r21 62r21 94r40 184r21
+27P9 Ref(integer) 43|52r28 57r28 62r28 94r47 184r28
+X 40 mssyst-windows.ads
+6K16*Windows 9|6k9 40|7e19 43|13r16 68r40 76r40 97r24 100r24 103r24 160r24
+. 241r12 243r27
+X 41 mssyst-windows-forms.ads
+6K24*Forms 40|6k16 41|7e25 43|13r24 68r48 76r48 97r32 100r32 103r32 160r32
+. 241r20 243r35
+X 42 mssyst-windows-forms-unsafenativemethods.ads
+6K30*UnsafeNativeMethods 41|6k24 42|7e45 43|13r30 68r54 76r54 97r38 100r38
+. 103r38 160r38 241r26 243r41
+X 43 mssyst-windows-forms-unsafenativemethods-itextrange.ads
+13K50*ITextRange 42|6k30 43|68r74 76r74 97r58 100r58 103r58 160r58 241l46
+. 241e56 243r61
+14R9*Typ 15r27 20c9 22r21 24r21 28r21 31r21 34r21 37r21 40r21 44r21 48r21
+. 51r21 56r21 61r21 66r21 68r21 70r21 72r21 74r21 76r21 78r21 81r21 83r21
+. 88r21 90r21 92r21 94r21 96r21 99r21 102r21 105r21 109r21 113r21 117r21
+. 121r21 125r21 129r21 133r21 137r21 141r21 145r21 148r21 150r21 153r21 156r21
+. 159r21 162r21 167r21 170r21 176r21 180r21 183r21 186r21
+15P9*Ref(14R9) 16r34 17r47 68r85 76r85 97r69 100r69 103r69 160r69
+16P9*Ref_addrof(15P9)
+17A9*Ref_Arr(15P9) 18r33
+18P9*Ref_Array(17A9) 19r40
+19P9*Ref_Array_addrof(18P9)
+20H9*Typ 21p13 23p13 27p14 30p14 33p14 36p14 39p13 43p13 47p13 50p13 55p13
+. 60p13 65p13 67p13 69p13 71p13 73p13 75p13 77p13 80p13 82p14 87p13 89p13
+. 91p13 93p13 95p13 98p13 101p13 104p13 108p13 112p13 116p13 120p13 124p13
+. 128p13 132p13 136p13 140p14 144p14 147p14 149p14 152p14 155p14 158p14 161p14
+. 166p14 169p14 175p14 179p14 182p14 185p13
+21y13*CanEdit{integer} 22^7 190b23
+22p7 This(20R9)
+23y13*CanPaste{integer} 24^7 25>7 26>7 191b23
+24p7 This(20R9)
+25p7 pVar{15|13P9}
+26i7 format{integer}
+27x14*ChangeCase 28^7 29>7 192b23
+28p7 This(20R9)
+29i7 type_k{integer}
+30x14*Collapse 31^7 32>7 193b23
+31p7 This(20R9)
+32i7 start{integer}
+33x14*Copy 34^7 35>7 194b23
+34p7 This(20R9)
+35p7 pVar{15|14P9}
+36x14*Cut 37^7 38>7 195b23
+37p7 This(20R9)
+38p7 pVar{15|14P9}
+39y13*Delete{integer} 40^7 41>7 42>7 196b23
+40p7 This(20R9)
+41i7 unit{integer}
+42i7 count{integer}
+43y13*EndOf{integer} 44^7 45>7 46>7 197b23
+44p7 This(20R9)
+45i7 unit{integer}
+46i7 extend{integer}
+47y13*Expand{integer} 48^7 49>7 198b23
+48p7 This(20R9)
+49i7 unit{integer}
+50y13*FindText{integer} 51^7 52>7 53>7 54>7 199b23
+51p7 This(20R9)
+52p7 text{31|27P9}
+53i7 cch{integer}
+54i7 flags{integer}
+55y13*FindTextEnd{integer} 56^7 57>7 58>7 59>7 200b23
+56p7 This(20R9)
+57p7 text{31|27P9}
+58i7 cch{integer}
+59i7 flags{integer}
+60y13*FindTextStart{integer} 61^7 62>7 63>7 64>7 201b23
+61p7 This(20R9)
+62p7 text{31|27P9}
+63i7 cch{integer}
+64i7 flags{integer}
+65y13*GetChar{15|13P9} 66^7 202b23
+66p7 This(20R9)
+67y13*GetDuplicate{15P9} 68^7 203b23
+68p7 This(20R9)
+69y13*GetEmbeddedObject{15|13P9} 70^7 204b23
+70p7 This(20R9)
+71y13*GetEnd{integer} 72^7 205b23
+72p7 This(20R9)
+73y13*GetFont{15|13P9} 74^7 206b23
+74p7 This(20R9)
+75y13*GetFormattedText{15P9} 76^7 207b23
+76p7 This(20R9)
+77y13*GetIndex{integer} 78^7 79>7 208b23
+78p7 This(20R9)
+79i7 unit{integer}
+80y13*GetPara{15|13P9} 81^7 209b23
+81p7 This(20R9)
+82x14*GetPoint 83^7 84>7 85>7 86>7 210b23
+83p7 This(20R9)
+84i7 type_k{integer}
+85m7 x{8|59M9}
+86m7 y{8|59M9}
+87y13*GetStart{integer} 88^7 211b23
+88p7 This(20R9)
+89y13*GetStoryLength{integer} 90^7 212b23
+90p7 This(20R9)
+91y13*GetStoryType{integer} 92^7 213b23
+92p7 This(20R9)
+93y13*GetText{31|27P9} 94^7 214b23
+94p7 This(20R9)
+95y13*InRange{integer} 96^7 97>7 215b23
+96p7 This(20R9)
+97p7 range_k{15P9}
+98y13*InStory{integer} 99^7 100>7 216b23
+99p7 This(20R9)
+100p7 range_k{15P9}
+101y13*IsEqual{integer} 102^7 103>7 217b23
+102p7 This(20R9)
+103p7 range_k{15P9}
+104y13*Move{integer} 105^7 106>7 107>7 218b23
+105p7 This(20R9)
+106i7 unit{integer}
+107i7 count{integer}
+108y13*MoveEnd{integer} 109^7 110>7 111>7 219b23
+109p7 This(20R9)
+110i7 unit{integer}
+111i7 count{integer}
+112y13*MoveEndUntil{integer} 113^7 114>7 115>7 220b23
+113p7 This(20R9)
+114p7 cset{15|13P9}
+115i7 count{integer}
+116y13*MoveEndWhile{integer} 117^7 118>7 119>7 221b23
+117p7 This(20R9)
+118p7 cset{15|13P9}
+119i7 count{integer}
+120y13*MoveStart{integer} 121^7 122>7 123>7 222b23
+121p7 This(20R9)
+122i7 unit{integer}
+123i7 count{integer}
+124y13*MoveStartUntil{integer} 125^7 126>7 127>7 223b23
+125p7 This(20R9)
+126p7 cset{15|13P9}
+127i7 count{integer}
+128y13*MoveStartWhile{integer} 129^7 130>7 131>7 224b23
+129p7 This(20R9)
+130p7 cset{15|13P9}
+131i7 count{integer}
+132y13*MoveUntil{integer} 133^7 134>7 135>7 225b23
+133p7 This(20R9)
+134p7 cset{15|13P9}
+135i7 count{integer}
+136y13*MoveWhile{integer} 137^7 138>7 139>7 226b23
+137p7 This(20R9)
+138p7 cset{15|13P9}
+139i7 count{integer}
+140x14*Paste 141^7 142>7 143>7 227b23
+141p7 This(20R9)
+142p7 pVar{15|13P9}
+143i7 format{integer}
+144x14*ScrollIntoView 145^7 146>7 228b23
+145p7 This(20R9)
+146i7 value{integer}
+147x14*Select_k 148^7 229b23
+148p7 This(20R9)
+149x14*SetChar 150^7 151>7 230b23
+150p7 This(20R9)
+151p7 ch{15|13P9}
+152x14*SetEnd 153^7 154>7 231b23
+153p7 This(20R9)
+154i7 cpLim{integer}
+155x14*SetFont 156^7 157>7 232b23
+156p7 This(20R9)
+157p7 font{15|13P9}
+158x14*SetFormattedText 159^7 160>7 233b23
+159p7 This(20R9)
+160p7 range_k{15P9}
+161x14*SetIndex 162^7 163>7 164>7 165>7 234b23
+162p7 This(20R9)
+163i7 unit{integer}
+164i7 index{integer}
+165i7 extend{integer}
+166x14*SetPara 167^7 168>7 235b23
+167p7 This(20R9)
+168p7 para{15|13P9}
+169x14*SetPoint 170^7 171>7 172>7 173>7 174>7 236b23
+170p7 This(20R9)
+171i7 x{integer}
+172i7 y{integer}
+173i7 type_k{integer}
+174i7 extend{integer}
+175x14*SetRange 176^7 177>7 178>7 237b23
+176p7 This(20R9)
+177i7 cpActive{integer}
+178i7 cpOther{integer}
+179x14*SetStart 180^7 181>7 238b23
+180p7 This(20R9)
+181i7 cpFirst{integer}
+182x14*SetText 183^7 184>7 239b23
+183p7 This(20R9)
+184p7 text{31|27P9}
+185y13*StartOf{integer} 186^7 187>7 188>7 240b23
+186p7 This(20R9)
+187i7 unit{integer}
+188i7 extend{integer}
+

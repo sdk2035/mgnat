@@ -1,0 +1,166 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.security.permissions.principalpermission%s  mssyst-security-permissions-principalpermission.ads  c814fc4e NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.ipermission%s  mssyst-security-ipermission.ads  mssyst-security-ipermission.ali
+W mssyst.security.isecurityencodable%s  mssyst-security-isecurityencodable.ads  mssyst-security-isecurityencodable.ali
+W mssyst.security.permissions%s  mssyst-security-permissions.ads  mssyst-security-permissions.ali
+W mssyst.security.permissions.iunrestrictedpermission%s  mssyst-security-permissions-iunrestrictedpermission.ads  mssyst-security-permissions-iunrestrictedpermission.ali
+W mssyst.security.permissions.permissionstate%s  mssyst-security-permissions-permissionstate.ads  mssyst-security-permissions-permissionstate.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-ipermission.ads  20060131171404 ac3cc26b
+D mssyst-security-isecurityencodable.ads  20060131171400 401a78fc
+D mssyst-security-permissions.ads  20060131165236 554c10f6
+D mssyst-security-permissions-iunrestrictedpermission.ads  20060131171404 7edf6549
+D mssyst-security-permissions-permissionstate.ads  20060131171404 15f9e1b7
+D mssyst-security-permissions-principalpermission.ads  20060131171404 afdc9521
+D mssyst-security-securityelement.ads  20060131171404 9c7ab9d5
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 38|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 38|7r6 10r6 11r6 12r6 13r6 17r6 18r9 25r20 26r14 27r14 28r14
+. 34r15 37r14 38r14 41r14 42r14 45r33 50r13 53r14 58r16 58r56 61r16 65r33
+. 67r33 70r15 70r55 85r5 87r20
+X 16 mssyst-object.ads
+11K16*Object 46e18 38|7w13 10w13 25r27 50r20
+12R9*Typ 20e14 38|25r34
+13P9*Ref(12R9) 38|50r27
+18R9*Typ
+31V13*GetType{45|51P9}
+X 32 mssyst-security.ads
+6K16*Security 9|6k9 32|7e20 38|11r13 12r13 13r13 17r13 18r16 26r21 27r21
+. 28r21 34r22 45r40 53r21 58r23 58r63 61r23 67r40 70r22 70r62 85r12 87r27
+X 33 mssyst-security-ipermission.ads
+11K25*IPermission 38e32 38|11w22 26r30 45r49 58r32 58r72 61r32 70r31 70r71
+12R9*Typ 38|26r42
+13P9*Ref(12R9) 38|45r61 58r44 58r84 61r44 70r43 70r83
+X 34 mssyst-security-isecurityencodable.ads
+11K25*ISecurityEncodable 27e39 38|12w22 27r30
+12R9*Typ 38|27r49
+X 35 mssyst-security-permissions.ads
+6K25*Permissions 32|6k16 35|7e32 38|13r22 17r22 18r25 28r30 34r31 85r21 87r36
+X 36 mssyst-security-permissions-iunrestrictedpermission.ads
+10K37*IUnrestrictedPermission 22e56 38|13w34 28r42
+11R9*Typ 38|28r66
+X 37 mssyst-security-permissions-permissionstate.ads
+15K37*PermissionState 58e48 38|17w34 34r43
+16E9*ValueType 18e20 38|34r59
+X 38 mssyst-security-permissions-principalpermission.ads
+18K37*PrincipalPermission 35|6k25 38|85l33 85e52 87r48
+19R9*Typ 20r27 25c9 45r21 47r21 49r21 52r21 55r21 57r21 60r21 63r21 65r21
+. 67r21 69r21 72r27
+20P9*Ref(19R9) 21r34 22r47 33r14 34r77 36r14 38r40 40r14 43r50
+21P9*Ref_addrof(20P9)
+22A9*Ref_Arr(20P9) 23r33
+23P9*Ref_Array(22A9) 24r40
+24P9*Ref_Array_addrof(23P9)
+25R9*Typ<16|18R9> 16|31p13 38|31e14 44P13 46P14 48P13 51P14 54P13 56P13 59P13
+. 62P13 64P13 66P13 68P13
+32V13*new_PrincipalPermission{20P9} 33>7 34>7
+33p7 This{20P9}
+34e7 state{37|16E9}
+35V13*new_PrincipalPermission{20P9} 36>7 37>7 38>7
+36p7 This{20P9}
+37p7 name{40|27P9}
+38p7 role{40|27P9}
+39V13*new_PrincipalPermission{20P9} 40>7 41>7 42>7 43>7
+40p7 This{20P9}
+41p7 name{40|27P9}
+42p7 role{40|27P9}
+43b7 isAuthenticated{boolean}
+44V13*Copy{33|13P9} 45^7 74b23
+45p7 This(25R9)
+46U14*Demand 47^7 75b23
+47p7 This(25R9)
+48V13*Equals{boolean} 49^7 50>7 76b23
+49p7 This(25R9)
+50p7 obj{16|13P9}
+51U14*FromXml 52^7 53>7 77b23
+52p7 This(25R9)
+53p7 elem{39|17P9}
+54V13*GetHashCode{integer} 55^7 78b23
+55p7 This(25R9)
+56V13*Intersect{33|13P9} 57^7 58>7 79b23
+57p7 This(25R9)
+58p7 target{33|13P9}
+59V13*IsSubsetOf{boolean} 60^7 61>7 80b23
+60p7 This(25R9)
+61p7 target{33|13P9}
+62V13*IsUnrestricted{boolean} 63^7 81b23
+63p7 This(25R9)
+64V13*ToString{40|27P9} 65^7 82b23
+65p7 This(25R9)
+66V13*ToXml{39|17P9} 67^7 83b23
+67p7 This(25R9)
+68V13*Union{33|13P9} 69^7 70>7 84b23
+69p7 This(25R9)
+70p7 other{33|13P9}
+X 39 mssyst-security-securityelement.ads
+15K25 SecurityElement 38|53r30 67r49
+17P9 Ref(integer) 38|53r46 67r65
+X 40 mssyst-string.ads
+25K16 String 38|37r21 38r21 41r21 42r21 65r40
+27P9 Ref(integer) 38|37r28 38r28 41r28 42r28 65r47
+X 45 mssyst-type_k.ads
+51P9 Ref(integer)
+

@@ -1,0 +1,675 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.drawing2d.graphicspath%s  mssyst-drawing-drawing2d-graphicspath.ads  79155149 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.drawing2d%s  mssyst-drawing-drawing2d.ads  mssyst-drawing-drawing2d.ali
+W mssyst.drawing.drawing2d.fillmode%s  mssyst-drawing-drawing2d-fillmode.ads  mssyst-drawing-drawing2d-fillmode.ali
+W mssyst.drawing.drawing2d.warpmode%s  mssyst-drawing-drawing2d-warpmode.ads  mssyst-drawing-drawing2d-warpmode.ali
+W mssyst.drawing.point%s  mssyst-drawing-point.ads  mssyst-drawing-point.ali
+W mssyst.drawing.pointf%s  mssyst-drawing-pointf.ads  mssyst-drawing-pointf.ali
+W mssyst.drawing.rectangle%s  mssyst-drawing-rectangle.ads  mssyst-drawing-rectangle.ali
+W mssyst.drawing.rectanglef%s  mssyst-drawing-rectanglef.ads  mssyst-drawing-rectanglef.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.marshalbyrefobject%s  mssyst-marshalbyrefobject.ads  mssyst-marshalbyrefobject.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-characterrange.ads  20060131171432 d86a1dc9
+D mssyst-drawing-copypixeloperation.ads  20060131171430 bcae6884
+D mssyst-drawing-drawing2d.ads  20060131171430 02b10736
+D mssyst-drawing-drawing2d-combinemode.ads  20060131171430 467ba574
+D mssyst-drawing-drawing2d-compositingmode.ads  20060131171430 3ce094d4
+D mssyst-drawing-drawing2d-compositingquality.ads  20060131171430 777a28ce
+D mssyst-drawing-drawing2d-coordinatespace.ads  20060131171430 4eae09c0
+D mssyst-drawing-drawing2d-dashcap.ads  20060131171430 9ca08845
+D mssyst-drawing-drawing2d-dashstyle.ads  20060131171430 64feb1e7
+D mssyst-drawing-drawing2d-fillmode.ads  20060131171430 fd618471
+D mssyst-drawing-drawing2d-flushintention.ads  20060131171430 c85a32e0
+D mssyst-drawing-drawing2d-graphicspath.ads  20060131171430 16dbf5d7
+D mssyst-drawing-drawing2d-interpolationmode.ads  20060131171430 923a6e49
+D mssyst-drawing-drawing2d-linecap.ads  20060131171430 0dc60f04
+D mssyst-drawing-drawing2d-linejoin.ads  20060131171430 d6cfbcf1
+D mssyst-drawing-drawing2d-matrix.ads  20060131171430 b2e63513
+D mssyst-drawing-drawing2d-matrixorder.ads  20060131171430 32337ee5
+D mssyst-drawing-drawing2d-pathdata.ads  20060131171432 690d32d2
+D mssyst-drawing-drawing2d-penalignment.ads  20060131171432 847d698f
+D mssyst-drawing-drawing2d-pentype.ads  20060131171432 4fcce98c
+D mssyst-drawing-drawing2d-pixeloffsetmode.ads  20060131171432 290cbe8f
+D mssyst-drawing-drawing2d-smoothingmode.ads  20060131171432 35dda90b
+D mssyst-drawing-drawing2d-warpmode.ads  20060131171432 1e61b940
+D mssyst-drawing-fontfamily.ads  20060131171430 69afea6b
+D mssyst-drawing-fontstyle.ads  20060131171430 a1bbe068
+D mssyst-drawing-graphics.ads  20060131171430 a787a9b1
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-idevicecontext.ads  20060131171428 3b407974
+D mssyst-drawing-pen.ads  20060131171430 100173dc
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-pointf.ads  20060131171432 a63d5a83
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-rectanglef.ads  20060131171432 7fcf14fa
+D mssyst-drawing-size.ads  20060131171430 9e839193
+D mssyst-drawing-sizef.ads  20060131171432 32b1bdc4
+D mssyst-drawing-stringalignment.ads  20060131171432 211d31e2
+D mssyst-drawing-stringdigitsubstitute.ads  20060131171432 47567d09
+D mssyst-drawing-stringformat.ads  20060131171432 876e4f88
+D mssyst-drawing-stringformatflags.ads  20060131171432 c8a9661a
+D mssyst-drawing-stringtrimming.ads  20060131171432 4669219b
+D mssyst-drawing-text.ads  20060131171430 47e8b126
+D mssyst-drawing-text-genericfontfamilies.ads  20060131171430 14725d1c
+D mssyst-drawing-text-hotkeyprefix.ads  20060131171430 8eb8b883
+D mssyst-drawing-text-textrenderinghint.ads  20060131171432 e6fd5e60
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 22|8w6 9r5 52r15 56r15 61r15 65r15 316r33
+24E9*unsigned_int8<character>
+44A9*unsigned_int8_arr(24E9) 22|52r26 56r26 61r26 65r26
+45P9*Unsigned_Int8_Array(44A9) 22|316r44
+X 9 mssyst.ads
+6K9*MSSyst 7e11 22|7r6 10r6 11r6 16r6 17r6 18r6 19r6 27r6 31r6 32r9 39r20
+. 40r14 48r18 51r13 55r13 57r18 60r13 64r13 66r18 77r14 90r14 105r13 106r13
+. 107r13 108r13 111r13 112r13 113r13 114r13 127r16 130r16 133r16 136r16 140r16
+. 143r16 147r16 150r16 154r16 160r16 163r16 167r16 185r14 188r14 191r13 192r13
+. 201r13 202r13 211r16 214r16 217r20 221r14 242r16 245r16 248r14 251r14 254r15
+. 257r15 260r11 261r16 264r16 265r16 268r11 269r16 272r16 273r16 276r11 277r16
+. 280r20 281r16 284r11 285r16 288r20 289r16 293r33 302r16 308r16 310r33 312r33
+. 314r33 321r16 321r60 324r16 325r13 325r44 327r33 329r33 334r13 337r15 338r13
+. 343r13 344r18 347r12 348r13 349r18 354r13 357r15 358r13 363r13 364r18 367r12
+. 368r13 369r18 376r15 379r12 380r18 385r18 392r12 393r18 398r18 401r15 408r15
+. 415r16 418r20 419r17 420r16 423r20 424r17 427r20 428r17 429r16 430r18 434r20
+. 435r17 436r16 437r18 440r13 443r13 444r16 447r13 448r16 490r5 492r20
+X 10 mssyst-drawing.ads
+6K16*Drawing 9|6k9 10|7e19 22|16r13 17r13 18r13 19r13 27r13 31r13 32r16 48r25
+. 51r20 55r20 57r25 60r20 64r20 66r25 77r21 90r21 105r20 106r20 107r20 108r20
+. 111r20 112r20 113r20 114r20 127r23 130r23 133r23 136r23 140r23 143r23 147r23
+. 150r23 154r23 160r23 163r23 167r23 185r21 188r21 191r20 192r20 201r20 202r20
+. 211r23 214r23 217r27 221r21 242r23 245r23 248r21 251r21 254r22 257r22 261r23
+. 264r23 265r23 269r23 272r23 273r23 277r23 280r27 281r23 285r23 288r27 289r23
+. 302r23 308r23 310r40 312r40 314r40 321r23 321r67 324r23 325r20 325r51 327r40
+. 329r40 334r20 337r22 338r20 343r20 344r25 347r19 348r20 349r25 354r20 357r22
+. 358r20 363r20 364r25 367r19 368r20 369r25 376r22 379r19 380r25 385r25 392r19
+. 393r25 398r25 401r22 408r22 415r23 418r27 419r24 420r23 423r27 424r24 427r27
+. 428r24 429r23 430r25 434r27 435r24 436r23 437r25 440r20 443r20 444r23 447r20
+. 448r23 490r12 492r27
+X 13 mssyst-drawing-drawing2d.ads
+6K24*Drawing2D 10|6k16 13|7e29 22|27r21 31r21 32r24 48r33 57r33 66r33 217r35
+. 302r31 308r31 310r48 312r48 321r31 324r31 408r30 415r31 420r31 429r31 430r33
+. 436r31 437r33 444r31 448r31 490r20 492r35
+X 20 mssyst-drawing-drawing2d-fillmode.ads
+15K34*FillMode 58e38 22|27w31 48r43 57r43 66r43 310r58 408r40
+16E9*ValueType 18e15 22|48r52 57r52 66r52 310r67 408r49
+X 22 mssyst-drawing-drawing2d-graphicspath.ads
+32K34*GraphicsPath 13|6k24 22|217r45 490l30 490e42 492r45
+33R9*Typ 34r27 39c9 68r21 76r21 81r21 89r21 94r21 104r21 110r21 116r21 126r21
+. 129r21 132r21 135r21 139r21 142r21 146r21 149r21 153r21 159r21 162r21 166r21
+. 172r21 178r21 184r21 187r21 190r21 194r21 200r21 204r21 210r21 213r21 216r21
+. 220r21 225r21 233r21 241r21 244r21 247r21 250r21 253r21 256r21 259r21 267r21
+. 275r21 283r21 291r21 293r21 295r21 297r21 299r21 301r21 305r21 307r21 310r21
+. 312r21 314r21 316r21 318r21 320r21 323r21 327r21 329r21 331r21 336r21 340r21
+. 346r21 351r21 356r21 360r21 366r21 371r21 375r21 378r21 382r21 387r21 391r21
+. 395r21 400r21 403r21 405r21 407r21 410r21 412r21 414r21 417r21 422r21 426r21
+. 433r21 439r21 442r21 446r21 451r27
+34P9*Ref(33R9) 35r34 36r47 45r14 45r34 47r14 48r70 50r14 52r52 54r14 57r70
+. 59r14 61r52 63r14 66r70 217r58
+35P9*Ref_addrof(34P9)
+36A9*Ref_Arr(34P9) 37r33
+37P9*Ref_Array(36A9) 38r40
+38P9*Ref_Array_addrof(37P9)
+39R9*Typ<61|21R9> 43e14 67p14 75p14 80p14 88p14 93p14 103p14 109p14 115p14
+. 125p14 128p14 131p14 134p14 138p14 141p14 145p14 148p14 152p14 158p14 161p14
+. 165p14 171p14 177p14 183p14 186p14 189p14 193p14 199p14 203p14 209p14 212p14
+. 215p14 219p14 224p14 232p14 240p14 243p14 246p14 249p14 252p14 255p14 258p14
+. 266p14 274p14 282p14 290p14 292P13 294p14 296p14 298p14 300p14 304p14 306p14
+. 309p13 311p13 313p13 315p13 317p13 319p13 322p13 326p13 328p13 330p13 335p13
+. 339p13 345p13 350p13 355p13 359p13 365p13 370p13 374p13 377p13 381p13 386p13
+. 390p13 394p13 399p13 402p14 404p14 406p14 409p14 411p14 413p14 416p14 421p14
+. 425p14 432p14 438p14 441p14 445p14 61|24p13 27p13 29p13 62|23p13 29p13
+. 31p13 36p13
+44V13*new_GraphicsPath{34P9} 45>7
+45p7 This{34P9}
+46V13*new_GraphicsPath{34P9} 47>7 48>7
+47p7 This{34P9}
+48e7 fillMode{20|16E9}
+49V13*new_GraphicsPath{34P9} 50>7 51>7 52>7
+50p7 This{34P9}
+51p7 pts{41|19P9}
+52a7 types{8|44A9}
+53V13*new_GraphicsPath{34P9} 54>7 55>7 56>7 57>7
+54p7 This{34P9}
+55p7 pts{41|19P9}
+56a7 types{8|44A9}
+57e7 fillMode{20|16E9}
+58V13*new_GraphicsPath{34P9} 59>7 60>7 61>7
+59p7 This{34P9}
+60p7 pts{40|19P9}
+61a7 types{8|44A9}
+62V13*new_GraphicsPath{34P9} 63>7 64>7 65>7 66>7
+63p7 This{34P9}
+64p7 pts{40|19P9}
+65a7 types{8|44A9}
+66e7 fillMode{20|16E9}
+67U14*AddArc 68^7 69>7 70>7 71>7 72>7 73>7 74>7
+68p7 This(39R9)
+69f7 x{float}
+70f7 y{float}
+71f7 width{float}
+72f7 height{float}
+73f7 startAngle{float}
+74f7 sweepAngle{float}
+75U14*AddArc 76^7 77>7 78>7 79>7
+76p7 This(39R9)
+77r7 rect{43|18R9}
+78f7 startAngle{float}
+79f7 sweepAngle{float}
+80U14*AddArc 81^7 82>7 83>7 84>7 85>7 86>7 87>7
+81p7 This(39R9)
+82i7 x{integer}
+83i7 y{integer}
+84i7 width{integer}
+85i7 height{integer}
+86f7 startAngle{float}
+87f7 sweepAngle{float}
+88U14*AddArc 89^7 90>7 91>7 92>7 453b23
+89p7 This(39R9)
+90r7 rect{42|18R9}
+91f7 startAngle{float}
+92f7 sweepAngle{float}
+93U14*AddBezier 94^7 95>7 96>7 97>7 98>7 99>7 100>7 101>7 102>7
+94p7 This(39R9)
+95f7 x1{float}
+96f7 y1{float}
+97f7 x2{float}
+98f7 y2{float}
+99f7 x3{float}
+100f7 y3{float}
+101f7 x4{float}
+102f7 y4{float}
+103U14*AddBezier 104^7 105>7 106>7 107>7 108>7
+104p7 This(39R9)
+105r7 pt1{41|17R9}
+106r7 pt2{41|17R9}
+107r7 pt3{41|17R9}
+108r7 pt4{41|17R9}
+109U14*AddBezier 110^7 111>7 112>7 113>7 114>7
+110p7 This(39R9)
+111r7 pt1{40|17R9}
+112r7 pt2{40|17R9}
+113r7 pt3{40|17R9}
+114r7 pt4{40|17R9}
+115U14*AddBezier 116^7 117>7 118>7 119>7 120>7 121>7 122>7 123>7 124>7 454b23
+116p7 This(39R9)
+117i7 x1{integer}
+118i7 y1{integer}
+119i7 x2{integer}
+120i7 y2{integer}
+121i7 x3{integer}
+122i7 y3{integer}
+123i7 x4{integer}
+124i7 y4{integer}
+125U14*AddBeziers 126^7 127>7
+126p7 This(39R9)
+127p7 points{40|19P9}
+128U14*AddBeziers 129^7 130>7 455b23
+129p7 This(39R9)
+130p7 points{41|19P9}
+131U14*AddClosedCurve 132^7 133>7
+132p7 This(39R9)
+133p7 points{41|19P9}
+134U14*AddClosedCurve 135^7 136>7 137>7
+135p7 This(39R9)
+136p7 points{40|19P9}
+137f7 tension{float}
+138U14*AddClosedCurve 139^7 140>7
+139p7 This(39R9)
+140p7 points{40|19P9}
+141U14*AddClosedCurve 142^7 143>7 144>7 456b23
+142p7 This(39R9)
+143p7 points{41|19P9}
+144f7 tension{float}
+145U14*AddCurve 146^7 147>7
+146p7 This(39R9)
+147p7 points{40|19P9}
+148U14*AddCurve 149^7 150>7 151>7
+149p7 This(39R9)
+150p7 points{40|19P9}
+151f7 tension{float}
+152U14*AddCurve 153^7 154>7 155>7 156>7 157>7
+153p7 This(39R9)
+154p7 points{40|19P9}
+155i7 offset{integer}
+156i7 numberOfSegments{integer}
+157f7 tension{float}
+158U14*AddCurve 159^7 160>7
+159p7 This(39R9)
+160p7 points{41|19P9}
+161U14*AddCurve 162^7 163>7 164>7
+162p7 This(39R9)
+163p7 points{41|19P9}
+164f7 tension{float}
+165U14*AddCurve 166^7 167>7 168>7 169>7 170>7 457b23
+166p7 This(39R9)
+167p7 points{41|19P9}
+168i7 offset{integer}
+169i7 numberOfSegments{integer}
+170f7 tension{float}
+171U14*AddEllipse 172^7 173>7 174>7 175>7 176>7
+172p7 This(39R9)
+173i7 x{integer}
+174i7 y{integer}
+175i7 width{integer}
+176i7 height{integer}
+177U14*AddEllipse 178^7 179>7 180>7 181>7 182>7
+178p7 This(39R9)
+179f7 x{float}
+180f7 y{float}
+181f7 width{float}
+182f7 height{float}
+183U14*AddEllipse 184^7 185>7
+184p7 This(39R9)
+185r7 rect{43|18R9}
+186U14*AddEllipse 187^7 188>7 458b23
+187p7 This(39R9)
+188r7 rect{42|18R9}
+189U14*AddLine 190^7 191>7 192>7
+190p7 This(39R9)
+191r7 pt1{41|17R9}
+192r7 pt2{41|17R9}
+193U14*AddLine 194^7 195>7 196>7 197>7 198>7
+194p7 This(39R9)
+195i7 x1{integer}
+196i7 y1{integer}
+197i7 x2{integer}
+198i7 y2{integer}
+199U14*AddLine 200^7 201>7 202>7
+200p7 This(39R9)
+201r7 pt1{40|17R9}
+202r7 pt2{40|17R9}
+203U14*AddLine 204^7 205>7 206>7 207>7 208>7 459b23
+204p7 This(39R9)
+205f7 x1{float}
+206f7 y1{float}
+207f7 x2{float}
+208f7 y2{float}
+209U14*AddLines 210^7 211>7
+210p7 This(39R9)
+211p7 points{41|19P9}
+212U14*AddLines 213^7 214>7 460b23
+213p7 This(39R9)
+214p7 points{40|19P9}
+215U14*AddPath 216^7 217>7 218>7 461b23
+216p7 This(39R9)
+217p7 addingPath{34P9}
+218b7 connect{boolean}
+219U14*AddPie 220^7 221>7 222>7 223>7
+220p7 This(39R9)
+221r7 rect{42|18R9}
+222f7 startAngle{float}
+223f7 sweepAngle{float}
+224U14*AddPie 225^7 226>7 227>7 228>7 229>7 230>7 231>7
+225p7 This(39R9)
+226f7 x{float}
+227f7 y{float}
+228f7 width{float}
+229f7 height{float}
+230f7 startAngle{float}
+231f7 sweepAngle{float}
+232U14*AddPie 233^7 234>7 235>7 236>7 237>7 238>7 239>7 462b23
+233p7 This(39R9)
+234i7 x{integer}
+235i7 y{integer}
+236i7 width{integer}
+237i7 height{integer}
+238f7 startAngle{float}
+239f7 sweepAngle{float}
+240U14*AddPolygon 241^7 242>7
+241p7 This(39R9)
+242p7 points{41|19P9}
+243U14*AddPolygon 244^7 245>7 463b23
+244p7 This(39R9)
+245p7 points{40|19P9}
+246U14*AddRectangle 247^7 248>7
+247p7 This(39R9)
+248r7 rect{42|18R9}
+249U14*AddRectangle 250^7 251>7 464b23
+250p7 This(39R9)
+251r7 rect{43|18R9}
+252U14*AddRectangles 253^7 254>7
+253p7 This(39R9)
+254p7 rects{43|20P9}
+255U14*AddRectangles 256^7 257>7 465b23
+256p7 This(39R9)
+257p7 rects{42|20P9}
+258U14*AddString 259^7 260>7 261>7 262>7 263>7 264>7 265>7
+259p7 This(39R9)
+260p7 s{83|27P9}
+261p7 family{34|22P9}
+262i7 style{integer}
+263f7 emSize{float}
+264r7 origin{40|17R9}
+265p7 format{48|24P9}
+266U14*AddString 267^7 268>7 269>7 270>7 271>7 272>7 273>7
+267p7 This(39R9)
+268p7 s{83|27P9}
+269p7 family{34|22P9}
+270i7 style{integer}
+271f7 emSize{float}
+272r7 origin{41|17R9}
+273p7 format{48|24P9}
+274U14*AddString 275^7 276>7 277>7 278>7 279>7 280>7 281>7
+275p7 This(39R9)
+276p7 s{83|27P9}
+277p7 family{34|22P9}
+278i7 style{integer}
+279f7 emSize{float}
+280r7 layoutRect{43|18R9}
+281p7 format{48|24P9}
+282U14*AddString 283^7 284>7 285>7 286>7 287>7 288>7 289>7 466b23
+283p7 This(39R9)
+284p7 s{83|27P9}
+285p7 family{34|22P9}
+286i7 style{integer}
+287f7 emSize{float}
+288r7 layoutRect{42|18R9}
+289p7 format{48|24P9}
+290U14*ClearMarkers 291^7 467b23
+291p7 This(39R9)
+292V13*Clone{62|13P9} 293^7 468b23
+293p7 This(39R9)
+294U14*CloseAllFigures 295^7 469b23
+295p7 This(39R9)
+296U14*CloseFigure 297^7 470b23
+297p7 This(39R9)
+298U14*Dispose 299^7 471b23
+299p7 This(39R9)
+300U14*Flatten 301^7 302>7 303>7
+301p7 This(39R9)
+302p7 matrix{26|23P9}
+303f7 flatness{float}
+304U14*Flatten 305^7
+305p7 This(39R9)
+306U14*Flatten 307^7 308>7 472b23
+307p7 This(39R9)
+308p7 matrix{26|23P9}
+309V13*get_FillMode{20|16E9} 310^7 473b23
+310p7 This(39R9)
+311V13*get_PathData{28|16P9} 312^7 474b23
+312p7 This(39R9)
+313V13*get_PathPoints{41|19P9} 314^7 475b23
+314p7 This(39R9)
+315V13*get_PathTypes{8|45P9} 316^7 476b23
+316p7 This(39R9)
+317V13*get_PointCount{integer} 318^7 477b23
+318p7 This(39R9)
+319V13*GetBounds{43|18R9} 320^7 321>7
+320p7 This(39R9)
+321p7 matrix{26|23P9}
+322V13*GetBounds{43|18R9} 323^7 324>7 325>7
+323p7 This(39R9)
+324p7 matrix{26|23P9}
+325p7 pen{39|29P9}
+326V13*GetBounds{43|18R9} 327^7 478b23
+327p7 This(39R9)
+328V13*GetLastPoint{41|17R9} 329^7 479b23
+329p7 This(39R9)
+330V13*IsOutlineVisible{boolean} 331^7 332>7 333>7 334>7
+331p7 This(39R9)
+332f7 x{float}
+333f7 y{float}
+334p7 pen{39|29P9}
+335V13*IsOutlineVisible{boolean} 336^7 337>7 338>7
+336p7 This(39R9)
+337r7 point{40|17R9}
+338p7 pen{39|29P9}
+339V13*IsOutlineVisible{boolean} 340^7 341>7 342>7 343>7 344>7
+340p7 This(39R9)
+341i7 x{integer}
+342i7 y{integer}
+343p7 pen{39|29P9}
+344p7 graphics{36|58P9}
+345V13*IsOutlineVisible{boolean} 346^7 347>7 348>7 349>7
+346p7 This(39R9)
+347r7 pt{40|17R9}
+348p7 pen{39|29P9}
+349p7 graphics{36|58P9}
+350V13*IsOutlineVisible{boolean} 351^7 352>7 353>7 354>7
+351p7 This(39R9)
+352i7 x{integer}
+353i7 y{integer}
+354p7 pen{39|29P9}
+355V13*IsOutlineVisible{boolean} 356^7 357>7 358>7
+356p7 This(39R9)
+357r7 point{41|17R9}
+358p7 pen{39|29P9}
+359V13*IsOutlineVisible{boolean} 360^7 361>7 362>7 363>7 364>7
+360p7 This(39R9)
+361f7 x{float}
+362f7 y{float}
+363p7 pen{39|29P9}
+364p7 graphics{36|58P9}
+365V13*IsOutlineVisible{boolean} 366^7 367>7 368>7 369>7 480b23
+366p7 This(39R9)
+367r7 pt{41|17R9}
+368p7 pen{39|29P9}
+369p7 graphics{36|58P9}
+370V13*IsVisible{boolean} 371^7 372>7 373>7
+371p7 This(39R9)
+372f7 x{float}
+373f7 y{float}
+374V13*IsVisible{boolean} 375^7 376>7
+375p7 This(39R9)
+376r7 point{41|17R9}
+377V13*IsVisible{boolean} 378^7 379>7 380>7
+378p7 This(39R9)
+379r7 pt{41|17R9}
+380p7 graphics{36|58P9}
+381V13*IsVisible{boolean} 382^7 383>7 384>7 385>7
+382p7 This(39R9)
+383f7 x{float}
+384f7 y{float}
+385p7 graphics{36|58P9}
+386V13*IsVisible{boolean} 387^7 388>7 389>7
+387p7 This(39R9)
+388i7 x{integer}
+389i7 y{integer}
+390V13*IsVisible{boolean} 391^7 392>7 393>7
+391p7 This(39R9)
+392r7 pt{40|17R9}
+393p7 graphics{36|58P9}
+394V13*IsVisible{boolean} 395^7 396>7 397>7 398>7
+395p7 This(39R9)
+396i7 x{integer}
+397i7 y{integer}
+398p7 graphics{36|58P9}
+399V13*IsVisible{boolean} 400^7 401>7 481b23
+400p7 This(39R9)
+401r7 point{40|17R9}
+402U14*Reset 403^7 482b23
+403p7 This(39R9)
+404U14*Reverse_k 405^7 483b23
+405p7 This(39R9)
+406U14*set_FillMode 407^7 408>7 484b23
+407p7 This(39R9)
+408e7 value{20|16E9}
+409U14*SetMarkers 410^7 485b23
+410p7 This(39R9)
+411U14*StartFigure 412^7 486b23
+412p7 This(39R9)
+413U14*Transform 414^7 415>7 487b23
+414p7 This(39R9)
+415p7 matrix{26|23P9}
+416U14*Warp 417^7 418>7 419>7 420>7
+417p7 This(39R9)
+418p7 destPoints{41|19P9}
+419r7 srcRect{43|18R9}
+420p7 matrix{26|23P9}
+421U14*Warp 422^7 423>7 424>7
+422p7 This(39R9)
+423p7 destPoints{41|19P9}
+424r7 srcRect{43|18R9}
+425U14*Warp 426^7 427>7 428>7 429>7 430>7 431>7
+426p7 This(39R9)
+427p7 destPoints{41|19P9}
+428r7 srcRect{43|18R9}
+429p7 matrix{26|23P9}
+430e7 warpMode{33|16E9}
+431f7 flatness{float}
+432U14*Warp 433^7 434>7 435>7 436>7 437>7 488b23
+433p7 This(39R9)
+434p7 destPoints{41|19P9}
+435r7 srcRect{43|18R9}
+436p7 matrix{26|23P9}
+437e7 warpMode{33|16E9}
+438U14*Widen 439^7 440>7
+439p7 This(39R9)
+440p7 pen{39|29P9}
+441U14*Widen 442^7 443>7 444>7
+442p7 This(39R9)
+443p7 pen{39|29P9}
+444p7 matrix{26|23P9}
+445U14*Widen 446^7 447>7 448>7 449>7 489b23
+446p7 This(39R9)
+447p7 pen{39|29P9}
+448p7 matrix{26|23P9}
+449f7 flatness{float}
+X 26 mssyst-drawing-drawing2d-matrix.ads
+21K34 Matrix 22|302r41 308r41 321r41 324r41 415r41 420r41 429r41 436r41 444r41
+. 448r41
+23P9 Ref(integer) 22|302r48 308r48 321r48 324r48 415r48 420r48 429r48 436r48
+. 444r48 448r48
+X 28 mssyst-drawing-drawing2d-pathdata.ads
+14K34 PathData 22|312r58
+16P9 Ref(integer) 22|312r67
+X 33 mssyst-drawing-drawing2d-warpmode.ads
+15K34*WarpMode 22|31w31 430r43 437r43 33|58e38
+16E9*ValueType 22|430r52 437r52 33|18e16
+X 34 mssyst-drawing-fontfamily.ads
+20K24 FontFamily 22|261r31 269r31 277r31 285r31
+22P9 Ref(integer) 22|261r42 269r42 277r42 285r42
+X 36 mssyst-drawing-graphics.ads
+56K24 Graphics 22|344r33 349r33 364r33 369r33 380r33 385r33 393r33 398r33
+58P9 Ref(integer) 22|344r42 349r42 364r42 369r42 380r42 385r42 393r42 398r42
+X 39 mssyst-drawing-pen.ads
+27K24 Pen 22|325r28 334r28 338r28 343r28 348r28 354r28 358r28 363r28 368r28
+. 440r28 443r28 447r28
+29P9 Ref(integer) 22|325r32 334r32 338r32 343r32 348r32 354r32 358r32 363r32
+. 368r32 440r32 443r32 447r32
+X 40 mssyst-drawing-point.ads
+16K24*Point 22|16w21 60r28 64r28 111r28 112r28 113r28 114r28 127r31 136r31
+. 140r31 147r31 150r31 154r31 201r28 202r28 214r31 245r31 264r31 337r30 347r27
+. 392r27 401r30 40|105e25
+17R9*ValueType<91|20R9> 22|111r34 112r34 113r34 114r34 201r34 202r34 264r37
+. 337r36 347r33 392r33 401r36 40|17e63
+18A9*ValueType_Arr(17R9)
+19P9*ValueType_Array(18A9) 22|60r34 64r34 127r37 136r37 140r37 147r37 150r37
+. 154r37 214r37 245r37
+X 41 mssyst-drawing-pointf.ads
+16K24*PointF 22|17w21 51r28 55r28 105r28 106r28 107r28 108r28 130r31 133r31
+. 143r31 160r31 163r31 167r31 191r28 192r28 211r31 242r31 272r31 314r48 329r48
+. 357r30 367r27 376r30 379r27 418r35 423r35 427r35 434r35 41|90e26
+17R9*ValueType<91|20R9> 22|105r35 106r35 107r35 108r35 191r35 192r35 272r38
+. 329r55 357r37 367r34 376r37 379r34 41|17e63
+18A9*ValueType_Arr(17R9)
+19P9*ValueType_Array(18A9) 22|51r35 55r35 130r38 133r38 143r38 160r38 163r38
+. 167r38 211r38 242r38 314r55 418r42 423r42 427r42 434r42
+X 42 mssyst-drawing-rectangle.ads
+17K24*Rectangle 22|19w21 90r29 188r29 221r29 248r29 257r30 288r35 42|169e29
+18R9*ValueType<91|20R9> 22|90r39 188r39 221r39 248r39 288r45 42|18e63
+19A9*ValueType_Arr(18R9)
+20P9*ValueType_Array(19A9) 22|257r40
+X 43 mssyst-drawing-rectanglef.ads
+17K24*RectangleF 22|18w21 77r29 185r29 251r29 254r30 280r35 321r75 325r59
+. 327r48 419r32 424r32 428r32 435r32 43|163e30
+18R9*ValueType<91|20R9> 22|77r40 185r40 251r40 280r46 321r86 325r70 327r59
+. 419r43 424r43 428r43 435r43 43|18e63
+19A9*ValueType_Arr(18R9)
+20P9*ValueType_Array(19A9) 22|254r41
+X 48 mssyst-drawing-stringformat.ads
+22K24 StringFormat 22|265r31 273r31 281r31 289r31
+24P9 Ref(integer) 22|265r44 273r44 281r44 289r44
+X 58 mssyst-icloneable.ads
+11K16*ICloneable 22|11w13 40r21 58|23e22
+12R9*Typ 22|40r32
+X 61 mssyst-marshalbyrefobject.ads
+14K16*MarshalByRefObject 22|10w13 39r27 61|36e30
+15R9*Typ 22|39r46
+24V13*CreateObjRef{78|23P9}
+27V13*GetLifetimeService{62|13P9}
+29V13*InitializeLifetimeService{62|13P9}
+X 62 mssyst-object.ads
+11K16*Object 22|7w13 293r40 62|46e18
+13P9*Ref(12R9) 22|293r47
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{88|51P9}
+36V13*ToString{83|27P9}
+X 78 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 83 mssyst-string.ads
+25K16 String 22|260r18 268r18 276r18 284r18
+27P9 Ref(integer) 22|260r25 268r25 276r25 284r25
+X 88 mssyst-type_k.ads
+51P9 Ref(integer)
+

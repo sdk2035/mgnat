@@ -1,0 +1,389 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.componentmodel.typedescriptor%s  mssyst-componentmodel-typedescriptor.ads  83d06ea6 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-attribute.ads	20060131171354 578cce83
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-hashtable.ads  20060131171358 2e1459fe
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-idictionary.ads  20060131171358 0d4908a9
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-attributecollection.ads  20060131171412 a1cc5ba6
+D mssyst-componentmodel-design.ads  20060131171414 dcbb2ca1
+D mssyst-componentmodel-design-idesigner.ads  20060131171416 2993e40d
+D mssyst-componentmodel-designerserializationvisibility.ads  20060131171412 42f0b201
+D mssyst-componentmodel-eventdescriptor.ads  20060131171412 49679b11
+D mssyst-componentmodel-eventdescriptorcollection.ads  20060131171412 06ce14d4
+D mssyst-componentmodel-icomnativedescriptorhandler.ads  20060131171412 12eac9fc
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-memberdescriptor.ads  20060131171412 ebdb73f4
+D mssyst-componentmodel-propertydescriptor.ads  20060131171412 9db79170
+D mssyst-componentmodel-propertydescriptorcollection.ads  20060131171414 a46c49a6
+D mssyst-componentmodel-refresheventhandler.ads  20060131171414 0345d438
+D mssyst-componentmodel-typeconverter.ads  20060131171412 0d522a74
+D mssyst-componentmodel-typedescriptionprovider.ads  20060131171412 f7fc383d
+D mssyst-componentmodel-typedescriptor.ads  20060131171414 00bebaf2
+D mssyst-configuration.ads  20060131165240 03b06563
+D mssyst-configuration-assemblies.ads  20060131165240 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060131171408 81fd999d
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-assembly.ads  20060131171358 cac2cf86
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-imagefilemachine.ads  20060131171358 57db8f30
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-module.ads  20060131171358 384ba6f0
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-portableexecutablekinds.ads  20060131171358 da84966e
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-uassembly.ads  20060131171358 5462c788
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-umodule.ads  20060131171358 02c2dfd0
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060131171358 afb77eb6
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-ievidencefactory.ads  20060131171354 3a16bf31
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 28|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 28|7r6 10r6 32r9 39r20 43r15 45r16 46r20 46r55 48r18 49r20
+. 49r55 51r24 52r15 54r18 55r16 57r18 58r18 60r17 61r19 63r19 64r26 64r52
+. 66r23 67r14 68r16 69r20 69r55 71r23 72r28 73r20 73r55 75r18 76r20 77r18
+. 78r14 78r46 80r23 81r31 82r20 82r55 84r23 85r14 86r16 87r20 87r55 88r51
+. 89r38 91r16 92r17 92r43 94r19 94r45 96r19 97r51 99r23 99r49 101r19 102r51
+. 104r23 104r49 106r19 106r45 108r19 109r51 111r19 111r45 113r19 114r51 116r16
+. 116r42 118r19 118r45 120r19 120r45 122r19 123r51 125r23 125r49 127r19 127r45
+. 129r19 130r51 132r23 132r49 134r19 135r24 136r51 138r16 139r24 139r50 141r19
+. 142r24 142r50 144r19 145r51 147r19 148r20 148r55 150r19 151r20 152r51 154r19
+. 154r45 156r23 156r49 158r23 159r20 159r55 161r19 161r45 163r19 164r51 166r19
+. 167r20 167r55 169r19 170r20 171r51 173r23 173r49 175r23 176r20 176r55 178r19
+. 178r45 180r18 180r44 182r16 182r42 184r18 184r44 186r16 186r42 188r18 190r16
+. 192r19 194r16 196r15 198r17 199r19 201r17 203r18 204r16 206r18 207r18 209r15
+. 211r15 245r5 247r20
+X 7 mssyst-attribute.ads
+18K16 Attribute 28|46r27 49r27 69r27 73r27 82r27 87r27 148r27 151r27 159r27
+. 167r27 170r27 176r27
+23P9 Ref_Array(integer) 28|46r37 49r37 69r37 73r37 82r37 87r37 148r37 151r37
+. 159r37 167r37 170r37 176r37
+X 8 mssyst-collections.ads
+6K16 Collections 28|52r22 211r22
+X 9 mssyst-collections-hashtable.ads
+25K28 Hashtable 28|52r34
+27P9 Ref(integer) 28|52r44
+X 12 mssyst-collections-ilist.ads
+12K28 IList 28|211r34
+14P9 Ref(integer) 28|211r40
+X 13 mssyst-componentmodel.ads
+6K16*ComponentModel 6|6k9 13|7e26 28|32r16 43r22 46r62 49r62 54r25 57r25
+. 63r26 64r59 69r62 72r35 73r62 81r38 82r62 87r62 88r58 94r52 97r58 99r56
+. 114r58 116r49 118r52 120r52 123r58 125r56 127r52 130r58 132r56 145r58 148r62
+. 152r58 154r52 156r56 159r62 164r58 167r62 171r58 173r56 176r62 178r52 180r51
+. 182r49 196r22 203r25 206r25 209r22 245r12 247r27
+X 14 mssyst-componentmodel-attributecollection.ads
+18K31 AttributeCollection 28|94r67 97r73 99r71
+20P9 Ref(integer) 28|94r87 97r93 99r91
+X 15 mssyst-componentmodel-design.ads
+6K31 Design 28|64r74
+X 16 mssyst-componentmodel-design-idesigner.ads
+12K38 IDesigner 28|64r81
+14P9 Ref(integer) 28|64r91
+X 18 mssyst-componentmodel-eventdescriptor.ads
+16K31 EventDescriptor 28|69r77 72r50 73r77 120r67 123r73 125r71
+18P9 Ref(integer) 28|69r93 72r66 73r93 120r83 123r89 125r87
+X 19 mssyst-componentmodel-eventdescriptorcollection.ads
+20K31 EventDescriptorCollection 28|145r73 148r77 152r73 154r67 156r71 159r77
+22P9 Ref(integer) 28|145r99 148r103 152r99 154r93 156r97 159r103
+X 20 mssyst-componentmodel-icomnativedescriptorhandler.ads
+20K31 IComNativeDescriptorHandler 28|88r73 209r37
+22P9 Ref(integer) 28|88r101 209r65
+X 21 mssyst-componentmodel-icomponent.ads
+12K31 IComponent 28|63r41
+14P9 Ref(integer) 28|63r52
+X 23 mssyst-componentmodel-propertydescriptor.ads
+20K31 PropertyDescriptor 28|81r53 82r77 87r77 127r67 130r73 132r71
+22P9 Ref(integer) 28|81r72 82r96 87r96 127r86 130r92 132r90
+X 24 mssyst-componentmodel-propertydescriptorcollection.ads
+22K31 PropertyDescriptorCollection 28|164r73 167r77 171r73 173r71 176r77
+. 178r67
+24P9 Ref(integer) 28|164r102 167r106 171r102 173r100 176r106 178r96
+X 25 mssyst-componentmodel-refresheventhandler.ads
+24K31 RefreshEventHandler 28|43r37 196r37
+26P9 Ref(integer) 28|43r57 196r57
+X 26 mssyst-componentmodel-typeconverter.ads
+20K31 TypeConverter 28|114r73 116r64 118r67
+22P9 Ref(integer) 28|114r87 116r78 118r81
+X 27 mssyst-componentmodel-typedescriptionprovider.ads
+18K31 TypeDescriptionProvider 28|46r77 49r77 54r40 57r40 180r66 182r64 203r40
+. 206r40
+20P9 Ref(integer) 28|46r101 49r101 54r64 57r64 180r90 182r88 203r64 206r64
+X 28 mssyst-componentmodel-typedescriptor.ads
+32K31*TypeDescriptor 13|6k16 28|245l27 245e41 247r42
+33R9*Typ 34r27 39c9 213r27
+34P9*Ref(33R9) 35r34 36r47
+35P9*Ref_addrof(34P9)
+36A9*Ref_Arr(34P9) 37r33
+37P9*Ref_Array(36A9) 38r40
+38P9*Ref_Array_addrof(37P9)
+39R9*Typ<40|18R9> 41e14 40|23p13 29p13 31p13 36p13
+42U14*add_Refreshed 43>7 214b23
+43p7 value{25|26P9}
+44V13*AddAttributes{27|20P9} 45>7 46>7
+45p7 type_k{72|51P9}
+46p7 attributes{7|23P9}
+47V13*AddAttributes{27|20P9} 48>7 49>7 215b23
+48p7 instance{40|13P9}
+49p7 attributes{7|23P9}
+50U14*AddEditorTable 51>7 52>7 216b23
+51p7 editorBaseType{72|51P9}
+52p7 table{9|27P9}
+53U14*AddProvider 54>7 55>7
+54p7 provider{27|20P9}
+55p7 type_k{72|51P9}
+56U14*AddProvider 57>7 58>7 217b23
+57p7 provider{27|20P9}
+58p7 instance{40|13P9}
+59U14*CreateAssociation 60>7 61>7 218b23
+60p7 primary{40|13P9}
+61p7 secondary{40|13P9}
+62V13*CreateDesigner{16|14P9} 63>7 64>7 219b23
+63p7 component{21|14P9}
+64p7 designerBaseType{72|51P9}
+65V13*CreateEvent{18|18P9} 66>7 67>7 68>7 69>7
+66p7 componentType{72|51P9}
+67p7 name{67|27P9}
+68p7 type_k{72|51P9}
+69p7 attributes{7|23P9}
+70V13*CreateEvent{18|18P9} 71>7 72>7 73>7 220b23
+71p7 componentType{72|51P9}
+72p7 oldEventDescriptor{18|18P9}
+73p7 attributes{7|23P9}
+74V13*CreateInstance{40|13P9} 75>7 76>7 77>7 78>7 221b23
+75p7 provider{38|14P9}
+76p7 objectType{72|51P9}
+77p7 argTypes{72|54P9}
+78p7 args{40|16P9}
+79V13*CreateProperty{23|22P9} 80>7 81>7 82>7
+80p7 componentType{72|51P9}
+81p7 oldPropertyDescriptor{23|22P9}
+82p7 attributes{7|23P9}
+83V13*CreateProperty{23|22P9} 84>7 85>7 86>7 87>7 222b23
+84p7 componentType{72|51P9}
+85p7 name{67|27P9}
+86p7 type_k{72|51P9}
+87p7 attributes{7|23P9}
+88V13*get_ComNativeDescriptorHandler{20|22P9} 223b23
+89V13*get_ComObjectType{72|51P9} 224b23
+90V13*GetAssociation{40|13P9} 91>7 92>7 225b23
+91p7 type_k{72|51P9}
+92p7 primary{40|13P9}
+93V13*GetAttributes{14|20P9} 94>7
+94p7 component{40|13P9}
+95V13*GetAttributes{14|20P9} 96>7 97>7
+96p7 component{40|13P9}
+97b7 noCustomTypeDesc{boolean}
+98V13*GetAttributes{14|20P9} 99>7 226b23
+99p7 componentType{72|51P9}
+100V13*GetClassName{67|27P9} 101>7 102>7
+101p7 component{40|13P9}
+102b7 noCustomTypeDesc{boolean}
+103V13*GetClassName{67|27P9} 104>7
+104p7 componentType{72|51P9}
+105V13*GetClassName{67|27P9} 106>7 227b23
+106p7 component{40|13P9}
+107V13*GetComponentName{67|27P9} 108>7 109>7
+108p7 component{40|13P9}
+109b7 noCustomTypeDesc{boolean}
+110V13*GetComponentName{67|27P9} 111>7 228b23
+111p7 component{40|13P9}
+112V13*GetConverter{26|22P9} 113>7 114>7
+113p7 component{40|13P9}
+114b7 noCustomTypeDesc{boolean}
+115V13*GetConverter{26|22P9} 116>7
+116p7 type_k{72|51P9}
+117V13*GetConverter{26|22P9} 118>7 229b23
+118p7 component{40|13P9}
+119V13*GetDefaultEvent{18|18P9} 120>7
+120p7 component{40|13P9}
+121V13*GetDefaultEvent{18|18P9} 122>7 123>7
+122p7 component{40|13P9}
+123b7 noCustomTypeDesc{boolean}
+124V13*GetDefaultEvent{18|18P9} 125>7 230b23
+125p7 componentType{72|51P9}
+126V13*GetDefaultProperty{23|22P9} 127>7
+127p7 component{40|13P9}
+128V13*GetDefaultProperty{23|22P9} 129>7 130>7
+129p7 component{40|13P9}
+130b7 noCustomTypeDesc{boolean}
+131V13*GetDefaultProperty{23|22P9} 132>7 231b23
+132p7 componentType{72|51P9}
+133V13*GetEditor{40|13P9} 134>7 135>7 136>7
+134p7 component{40|13P9}
+135p7 editorBaseType{72|51P9}
+136b7 noCustomTypeDesc{boolean}
+137V13*GetEditor{40|13P9} 138>7 139>7
+138p7 type_k{72|51P9}
+139p7 editorBaseType{72|51P9}
+140V13*GetEditor{40|13P9} 141>7 142>7 232b23
+141p7 component{40|13P9}
+142p7 editorBaseType{72|51P9}
+143V13*GetEvents{19|22P9} 144>7 145>7
+144p7 component{40|13P9}
+145b7 noCustomTypeDesc{boolean}
+146V13*GetEvents{19|22P9} 147>7 148>7
+147p7 component{40|13P9}
+148p7 attributes{7|23P9}
+149V13*GetEvents{19|22P9} 150>7 151>7 152>7
+150p7 component{40|13P9}
+151p7 attributes{7|23P9}
+152b7 noCustomTypeDesc{boolean}
+153V13*GetEvents{19|22P9} 154>7
+154p7 component{40|13P9}
+155V13*GetEvents{19|22P9} 156>7
+156p7 componentType{72|51P9}
+157V13*GetEvents{19|22P9} 158>7 159>7 233b23
+158p7 componentType{72|51P9}
+159p7 attributes{7|23P9}
+160V13*GetFullComponentName{67|27P9} 161>7 234b23
+161p7 component{40|13P9}
+162V13*GetProperties{24|24P9} 163>7 164>7
+163p7 component{40|13P9}
+164b7 noCustomTypeDesc{boolean}
+165V13*GetProperties{24|24P9} 166>7 167>7
+166p7 component{40|13P9}
+167p7 attributes{7|23P9}
+168V13*GetProperties{24|24P9} 169>7 170>7 171>7
+169p7 component{40|13P9}
+170p7 attributes{7|23P9}
+171b7 noCustomTypeDesc{boolean}
+172V13*GetProperties{24|24P9} 173>7
+173p7 componentType{72|51P9}
+174V13*GetProperties{24|24P9} 175>7 176>7
+175p7 componentType{72|51P9}
+176p7 attributes{7|23P9}
+177V13*GetProperties{24|24P9} 178>7 235b23
+178p7 component{40|13P9}
+179V13*GetProvider{27|20P9} 180>7
+180p7 instance{40|13P9}
+181V13*GetProvider{27|20P9} 182>7 236b23
+182p7 type_k{72|51P9}
+183V13*GetReflectionType{72|51P9} 184>7
+184p7 instance{40|13P9}
+185V13*GetReflectionType{72|51P9} 186>7 237b23
+186p7 type_k{72|51P9}
+187U14*Refresh 188>7
+188p7 assembly{42|40P9}
+189U14*Refresh 190>7
+190p7 module{51|39P9}
+191U14*Refresh 192>7
+192p7 component{40|13P9}
+193U14*Refresh 194>7 238b23
+194p7 type_k{72|51P9}
+195U14*remove_Refreshed 196>7 239b23
+196p7 value{25|26P9}
+197U14*RemoveAssociation 198>7 199>7 240b23
+198p7 primary{40|13P9}
+199p7 secondary{40|13P9}
+200U14*RemoveAssociations 201>7 241b23
+201p7 primary{40|13P9}
+202U14*RemoveProvider 203>7 204>7
+203p7 provider{27|20P9}
+204p7 type_k{72|51P9}
+205U14*RemoveProvider 206>7 207>7 242b23
+206p7 provider{27|20P9}
+207p7 instance{40|13P9}
+208U14*set_ComNativeDescriptorHandler 209>7 243b23
+209p7 value{20|22P9}
+210U14*SortDescriptorArray 211>7 244b23
+211p7 infos{12|14P9}
+X 38 mssyst-iserviceprovider.ads
+12K16 IServiceProvider 28|75r25
+14P9 Ref(integer) 28|75r42
+X 40 mssyst-object.ads
+11K16*Object 28|7w13 10w13 39r27 48r25 58r25 60r24 61r26 78r21 78r53 92r24
+. 92r50 94r26 96r26 101r26 106r26 108r26 111r26 113r26 118r26 120r26 122r26
+. 127r26 129r26 134r26 136r58 139r57 141r26 142r57 144r26 147r26 150r26 154r26
+. 161r26 163r26 166r26 169r26 178r26 180r25 184r25 192r26 198r24 199r26 201r24
+. 207r25 40|46e18
+12R9*Typ 28|39r34 40|20e14
+13P9*Ref(12R9) 28|48r32 58r32 60r31 61r33 78r60 92r31 92r57 94r33 96r33 101r33
+. 106r33 108r33 111r33 113r33 118r33 120r33 122r33 127r33 129r33 134r33 136r65
+. 139r64 141r33 142r64 144r33 147r33 150r33 154r33 161r33 163r33 166r33 169r33
+. 178r33 180r32 184r32 192r33 198r31 199r33 201r31 207r32
+15A9*Ref_Arr(13P9)
+16P9*Ref_Array(15A9) 28|78r28
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{72|51P9}
+36V13*ToString{67|27P9}
+X 41 mssyst-reflection.ads
+6K16 Reflection 28|188r25 190r23
+X 42 mssyst-reflection-assembly.ads
+38K27 Assembly 28|188r36
+40P9 Ref(integer) 28|188r45
+X 51 mssyst-reflection-module.ads
+37K27 Module 28|190r34
+39P9 Ref(integer) 28|190r41
+X 67 mssyst-string.ads
+25K16 String 28|67r21 85r21 102r58 104r56 106r52 109r58 111r52 161r52
+27P9 Ref(integer) 28|67r28 85r28 102r65 104r63 106r59 109r65 111r59 161r59
+X 72 mssyst-type_k.ads
+49K16 Type_k 28|45r23 51r31 55r23 64r33 66r30 68r23 71r30 76r27 77r25 80r30
+. 84r30 86r23 89r45 91r23 99r30 104r30 116r23 125r30 132r30 135r31 138r23
+. 139r31 142r31 156r30 158r30 173r30 175r30 182r23 184r51 186r23 186r49 194r23
+. 204r23
+51P9 Ref(integer) 28|45r30 51r38 55r30 64r40 66r37 68r30 71r37 76r34 80r37
+. 84r37 86r30 89r52 91r30 99r37 104r37 116r30 125r37 132r37 135r38 138r30
+. 139r38 142r38 156r37 158r37 173r37 175r37 182r30 184r58 186r30 186r56 194r30
+. 204r30
+54P9 Ref_Array(integer) 28|77r32
+

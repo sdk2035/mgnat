@@ -1,0 +1,114 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.security.cryptography.oid%s  mssyst-security-cryptography-oid.ads  ddc94925 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.cryptography%s  mssyst-security-cryptography.ads  mssyst-security-cryptography.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-cryptography.ads  20060131165240 6bbb0e6b
+D mssyst-security-cryptography-oid.ads  20060131171418 03f600be
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 30|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 30|7r6 10r6 13r9 20r20 27r13 30r15 31r22 34r13 36r33 38r33
+. 41r15 44r15 52r5 54r20
+X 12 mssyst-object.ads
+11K16*Object 46e18 30|7w13 10w13 20r27
+12R9*Typ 20e14 30|20r34
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{36|51P9}
+36V13*ToString{31|27P9}
+X 28 mssyst-security.ads
+6K16*Security 6|6k9 28|7e20 30|13r16 34r20 52r12 54r27
+X 29 mssyst-security-cryptography.ads
+6K25*Cryptography 28|6k16 29|7e33 30|13r25 34r29 52r21 54r36
+X 30 mssyst-security-cryptography-oid.ads
+13K38*Oid 29|6k25 30|34r42 52l34 52e37 54r49
+14R9*Typ 15r27 20c9 36r21 38r21 40r21 43r21 46r27
+15P9*Ref(14R9) 16r34 17r47 24r14 24r34 26r14 27r39 29r14 31r48 33r14 34r46
+. 34r58
+16P9*Ref_addrof(15P9)
+17A9*Ref_Arr(15P9) 18r33
+18P9*Ref_Array(17A9) 19r40
+19P9*Ref_Array_addrof(18P9)
+20R9*Typ<12|18R9> 12|23p13 29p13 31p13 36p13 30|22e14 35p13 37p13 39p14 42p14
+23V13*new_Oid{15P9} 24>7
+24p7 This{15P9}
+25V13*new_Oid{15P9} 26>7 27>7
+26p7 This{15P9}
+27p7 oid{31|27P9}
+28V13*new_Oid{15P9} 29>7 30>7 31>7
+29p7 This{15P9}
+30p7 value{31|27P9}
+31p7 friendlyName{31|27P9}
+32V13*new_Oid{15P9} 33>7 34>7
+33p7 This{15P9}
+34p7 oid{15P9}
+35V13*get_FriendlyName{31|27P9} 36^7 48b23
+36p7 This(20R9)
+37V13*get_Value{31|27P9} 38^7 49b23
+38p7 This(20R9)
+39U14*set_FriendlyName 40^7 41>7 50b23
+40p7 This(20R9)
+41p7 value{31|27P9}
+42U14*set_Value 43^7 44>7 51b23
+43p7 This(20R9)
+44p7 value{31|27P9}
+X 31 mssyst-string.ads
+25K16 String 30|27r20 30r22 31r29 36r40 38r40 41r22 44r22
+27P9 Ref(integer) 30|27r27 30r29 31r36 36r47 38r47 41r29 44r29
+X 36 mssyst-type_k.ads
+51P9 Ref(integer)
+

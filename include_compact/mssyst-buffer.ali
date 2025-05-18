@@ -1,0 +1,105 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.buffer%s	mssyst-buffer.ads	43745357 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-array_k.ads	20060131171354 937a0605
+D mssyst-buffer.ads	20060131171354 742ca491
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 8|8w6 9r5 34r31 38r15
+24E9*unsigned_int8<character> 8|34r42 38r26
+X 6 mssyst.ads
+6K9*MSSyst 7e11 8|7r6 10r6 14r9 21r29 25r13 27r13 31r17 33r17 36r17 45r5
+. 47r20
+X 7 mssyst-array_k.ads
+18K16 Array_k 8|25r20 27r20 31r24 33r24 36r24
+20P9 Ref(integer) 8|25r28 27r28 31r32 33r32 36r32
+X 8 mssyst-buffer.ads
+14K16*Buffer 6|6k9 8|45l12 45e18 47r27
+15R9*Typ 16r27 21c9 40r27
+16P9*Ref(15R9) 17r34 18r47
+17P9*Ref_addrof(16P9)
+18A9*Ref_Arr(16P9) 19r33
+19P9*Ref_Array(18A9) 20r40
+20P9*Ref_Array_addrof(19P9)
+21H9*Typ<17|18R9> 23e14 17|23p13 29p13 31p13 36p13
+24U14*BlockCopy 25>7 26>7 27>7 28>7 29>7 41b23
+25p7 src{7|20P9}
+26i7 srcOffset{integer}
+27p7 dst{7|20P9}
+28i7 dstOffset{integer}
+29i7 count{integer}
+30V13*ByteLength{integer} 31>7 42b23
+31p7 array_k{7|20P9}
+32V13*GetByte{5|24E9} 33>7 34>7 43b23
+33p7 array_k{7|20P9}
+34i7 index{integer}
+35U14*SetByte 36>7 37>7 38>7 44b23
+36p7 array_k{7|20P9}
+37i7 index{integer}
+38e7 value{5|24E9}
+X 17 mssyst-object.ads
+11K16*Object 8|7w13 10w13 21r36 17|46e18
+12R9*Typ 8|21r43 17|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{38|51P9}
+36V13*ToString{33|27P9}
+X 33 mssyst-string.ads
+27P9 Ref(integer)
+X 38 mssyst-type_k.ads
+51P9 Ref(integer)
+

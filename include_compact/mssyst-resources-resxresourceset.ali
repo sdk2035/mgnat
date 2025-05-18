@@ -1,0 +1,125 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.resources.resxresourceset%s  mssyst-resources-resxresourceset.ads  24e55349 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.resources%s	mssyst-resources.ads	mssyst-resources.ali
+W mssyst.resources.resourceset%s  mssyst-resources-resourceset.ads  mssyst-resources-resourceset.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-idictionaryenumerator.ads  20060131171358 7e0297d5
+D mssyst-collections-ienumerator.ads  20060131171354 1d07849c
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-seekorigin.ads  20060131171404 0f77313e
+D mssyst-io-stream.ads	20060131171402 5b7412c0
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-resources.ads	20060131165226 5e28da10
+D mssyst-resources-iresourcereader.ads  20060131171400 a4d9522f
+D mssyst-resources-resourceset.ads  20060131171400 d40aa215
+D mssyst-resources-resxresourceset.ads  20060131171434 393c0c06
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 33|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 33|7r6 10r6 16r9 23r20 28r18 31r16 33r33 35r33 41r5 43r20
+X 8 mssyst-collections-idictionaryenumerator.ads
+15P9 Ref(integer)
+X 15 mssyst-io.ads
+6K16 IO 33|31r23
+X 17 mssyst-io-stream.ads
+18K19 Stream 33|31r26
+20P9 Ref(integer) 33|31r33
+X 19 mssyst-object.ads
+11K16*Object 46e18 33|7w13
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{44|51P9}
+36V13*ToString{39|27P9}
+X 30 mssyst-resources.ads
+6K16*Resources 6|6k9 30|7e21 33|10r13 16r16 23r27 41r12 43r27
+X 32 mssyst-resources-resourceset.ads
+16K26*ResourceSet 69e33 33|10w23 23r37
+17R9*Typ 33|23r49
+35U14*Close
+37U14*Dispose
+43V13*GetEnumerator{8|15P9}
+45V13*GetObject{19|13P9}
+49V13*GetObject{19|13P9}
+52V13*GetString{39|27P9}
+56V13*GetString{39|27P9}
+X 33 mssyst-resources-resxresourceset.ads
+16K26*ResXResourceSet 30|6k16 33|41l22 41e37 43r37
+17R9*Typ 18r27 23c9 33r21 35r21 37r27
+18P9*Ref(17R9) 19r34 20r47 27r14 28r44 30r14 31r45
+19P9*Ref_addrof(18P9)
+20A9*Ref_Arr(18P9) 21r33
+21P9*Ref_Array(20A9) 22r40
+22P9*Ref_Array_addrof(21P9)
+23R9*Typ<32|23R9> 19|23p13 29p13 31p13 36p13 32|35p14 37p14 43p13 45p13 49p13
+. 52p13 56p13 33|25e14 32P13 34P13
+26V13*new_ResXResourceSet{18P9} 27>7 28>7
+27p7 This{18P9}
+28p7 fileName{39|27P9}
+29V13*new_ResXResourceSet{18P9} 30>7 31>7
+30p7 This{18P9}
+31p7 stream{17|20P9}
+32V13*GetDefaultReader{44|51P9} 33^7 39b23
+33p7 This(23R9)
+34V13*GetDefaultWriter{44|51P9} 35^7 40b23
+35p7 This(23R9)
+X 39 mssyst-string.ads
+25K16 String 33|28r25
+27P9 Ref(integer) 33|28r32
+X 44 mssyst-type_k.ads
+49K16 Type_k 33|33r40 35r40
+51P9 Ref(integer) 33|33r47 35r47
+

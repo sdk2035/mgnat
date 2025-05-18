@@ -1,0 +1,196 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U microsoft.win32.systemevents%s  microsoft-win32-systemevents.ads  30a0e2bf NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W microsoft%s		microsoft.ads		microsoft.ali
+W microsoft.win32%s	microsoft-win32.ads	microsoft-win32.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060131165226 02f2695c
+D microsoft-win32.ads	20060131165226 bf37fdc1
+D microsoft-win32-powermodechangedeventhandler.ads  20060131171418 031d480d
+D microsoft-win32-sessionendedeventhandler.ads  20060131171418 3b9614b7
+D microsoft-win32-sessionendingeventhandler.ads  20060131171418 5ac16b01
+D microsoft-win32-sessionswitcheventhandler.ads  20060131171418 e6a3dfb1
+D microsoft-win32-systemevents.ads  20060131171418 3a13588e
+D microsoft-win32-timerelapsedeventhandler.ads  20060131171418 6316fd94
+D microsoft-win32-userpreferencechangedeventhandler.ads  20060131171418 1ad8fa64
+D microsoft-win32-userpreferencechangingeventhandler.ads  20060131171418 a22d24e3
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 microsoft.ads
+6K9*Microsoft 7e14 11|22r9 45r15 47r15 49r15 51r15 55r15 57r15 59r15 79r15
+. 81r15 83r15 85r15 89r15 91r15 93r15 127r5 129r20
+X 6 microsoft-win32.ads
+6K19*Win32 5|6k9 6|7e20 11|22r19 45r25 47r25 49r25 51r25 55r25 57r25 59r25
+. 79r25 81r25 83r25 85r25 89r25 91r25 93r25 127r15 129r30
+X 7 microsoft-win32-powermodechangedeventhandler.ads
+24K25 PowerModeChangedEventHandler 11|45r31 79r31
+26P9 Ref(integer) 11|45r60 79r60
+X 8 microsoft-win32-sessionendedeventhandler.ads
+24K25 SessionEndedEventHandler 11|47r31 81r31
+26P9 Ref(integer) 11|47r56 81r56
+X 9 microsoft-win32-sessionendingeventhandler.ads
+24K25 SessionEndingEventHandler 11|49r31 83r31
+26P9 Ref(integer) 11|49r57 83r57
+X 10 microsoft-win32-sessionswitcheventhandler.ads
+24K25 SessionSwitchEventHandler 11|51r31 85r31
+26P9 Ref(integer) 11|51r57 85r57
+X 11 microsoft-win32-systemevents.ads
+22K25*SystemEvents 6|6k19 11|127l21 127e33 129r36
+23R9*Typ 24r27 29c9 95r27
+24P9*Ref(23R9) 25r34 26r47
+25P9*Ref_addrof(24P9)
+26A9*Ref_Arr(24P9) 27r33
+27P9*Ref_Array(26A9) 28r40
+28P9*Ref_Array_addrof(27P9)
+29R9*Typ<25|18R9> 31e14 25|23p13 29p13 31p13 36p13
+32U14*add_DisplaySettingsChanged 33>7 96b23
+33p7 value{18|26P9}
+34U14*add_DisplaySettingsChanging 35>7 97b23
+35p7 value{18|26P9}
+36U14*add_EventsThreadShutdown 37>7 98b23
+37p7 value{18|26P9}
+38U14*add_InstalledFontsChanged 39>7 99b23
+39p7 value{18|26P9}
+40U14*add_LowMemory 41>7 100b23
+41p7 value{18|26P9}
+42U14*add_PaletteChanged 43>7 101b23
+43p7 value{18|26P9}
+44U14*add_PowerModeChanged 45>7 102b23
+45p7 value{7|26P9}
+46U14*add_SessionEnded 47>7 103b23
+47p7 value{8|26P9}
+48U14*add_SessionEnding 49>7 104b23
+49p7 value{9|26P9}
+50U14*add_SessionSwitch 51>7 105b23
+51p7 value{10|26P9}
+52U14*add_TimeChanged 53>7 106b23
+53p7 value{18|26P9}
+54U14*add_TimerElapsed 55>7 107b23
+55p7 value{12|26P9}
+56U14*add_UserPreferenceChanged 57>7 108b23
+57p7 value{13|26P9}
+58U14*add_UserPreferenceChanging 59>7 109b23
+59p7 value{14|26P9}
+60V13*CreateTimer{15|52M9} 61>7 110b23
+61i7 interval{integer}
+62U14*InvokeOnEventsThread 63>7 111b23
+63p7 method{17|22P9}
+64U14*KillTimer 65>7 112b23
+65m7 timerId{15|52M9}
+66U14*remove_DisplaySettingsChanged 67>7 113b23
+67p7 value{18|26P9}
+68U14*remove_DisplaySettingsChanging 69>7 114b23
+69p7 value{18|26P9}
+70U14*remove_EventsThreadShutdown 71>7 115b23
+71p7 value{18|26P9}
+72U14*remove_InstalledFontsChanged 73>7 116b23
+73p7 value{18|26P9}
+74U14*remove_LowMemory 75>7 117b23
+75p7 value{18|26P9}
+76U14*remove_PaletteChanged 77>7 118b23
+77p7 value{18|26P9}
+78U14*remove_PowerModeChanged 79>7 119b23
+79p7 value{7|26P9}
+80U14*remove_SessionEnded 81>7 120b23
+81p7 value{8|26P9}
+82U14*remove_SessionEnding 83>7 121b23
+83p7 value{9|26P9}
+84U14*remove_SessionSwitch 85>7 122b23
+85p7 value{10|26P9}
+86U14*remove_TimeChanged 87>7 123b23
+87p7 value{18|26P9}
+88U14*remove_TimerElapsed 89>7 124b23
+89p7 value{12|26P9}
+90U14*remove_UserPreferenceChanged 91>7 125b23
+91p7 value{13|26P9}
+92U14*remove_UserPreferenceChanging 93>7 126b23
+93p7 value{14|26P9}
+X 12 microsoft-win32-timerelapsedeventhandler.ads
+24K25 TimerElapsedEventHandler 11|55r31 89r31
+26P9 Ref(integer) 11|55r56 89r56
+X 13 microsoft-win32-userpreferencechangedeventhandler.ads
+24K25 UserPreferenceChangedEventHandler 11|57r31 91r31
+26P9 Ref(integer) 11|57r65 91r65
+X 14 microsoft-win32-userpreferencechangingeventhandler.ads
+24K25 UserPreferenceChangingEventHandler 11|59r31 93r31
+26P9 Ref(integer) 11|59r66 93r66
+X 15 msil_types.ads
+7K9*Msil_Types 11|8w6 9r5 61r34 65r17 15|71e15
+52M9*native_int 11|61r45 65r28
+X 16 mssyst.ads
+6K9*MSSyst 11|7r6 10r6 29r20 33r15 35r15 37r15 39r15 41r15 43r15 53r15 63r16
+. 67r15 69r15 71r15 73r15 75r15 77r15 87r15 16|7e11
+X 17 mssyst-delegate.ads
+20K16 Delegate 11|63r23
+22P9 Ref(integer) 11|63r32
+X 18 mssyst-eventhandler.ads
+24K16 EventHandler 11|33r22 35r22 37r22 39r22 41r22 43r22 53r22 67r22 69r22
+. 71r22 73r22 75r22 77r22 87r22
+26P9 Ref(integer) 11|33r35 35r35 37r35 39r35 41r35 43r35 53r35 67r35 69r35
+. 71r35 73r35 75r35 77r35 87r35
+X 25 mssyst-object.ads
+11K16*Object 11|7w13 10w13 29r27 25|46e18
+12R9*Typ 11|29r34 25|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{48|51P9}
+36V13*ToString{43|27P9}
+X 43 mssyst-string.ads
+27P9 Ref(integer)
+X 48 mssyst-type_k.ads
+51P9 Ref(integer)
+

@@ -1,0 +1,274 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.shortcut%s  mssyst-windows-forms-shortcut.ads  bb7a2ba8 NE PK
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.typecode%s	mssyst-typecode.ads	mssyst-typecode.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-shortcut.ads  20060131171446 734172a4
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 40|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 40|7r6 12r6 15r9 333r16 336r13 340r32 342r32 345r18 345r53
+. 347r32 350r16 351r18 351r53 354r16 354r42 362r5 364r20
+X 12 mssyst-iformatprovider.ads
+12K16 IFormatProvider 40|345r25 351r25
+14P9 Ref(integer) 40|345r41 351r41
+X 13 mssyst-object.ads
+11K16*Object 46e18 40|7w13 333r23 336r20
+12R9*Typ 20e14
+13P9*Ref(12R9) 40|333r30 336r27
+X 29 mssyst-string.ads
+25K16 String 40|345r60 347r39 350r23 351r60 354r23 354r49
+27P9 Ref(integer) 40|345r67 347r46 350r30 351r67 354r30 354r56
+X 34 mssyst-type_k.ads
+49K16 Type_k 40|340r39
+51P9 Ref(integer) 40|340r46
+X 35 mssyst-typecode.ads
+14K16*TypeCode 89e20 40|12w13 342r39
+15E9*ValueType 33e14 40|342r48
+X 38 mssyst-windows.ads
+6K16*Windows 6|6k9 38|7e19 40|15r16 362r12 364r27
+X 39 mssyst-windows-forms.ads
+6K24*Forms 38|6k16 39|7e25 40|15r24 362r20 364r35
+X 40 mssyst-windows-forms-shortcut.ads
+15K30*Shortcut 39|6k24 40|362l26 362e34 364r41
+16E9*ValueType 170e14 171r29 172r8 327r54 329r40 332r14 335r14 338r14 340r14
+. 342r14 344r14 347r14 349r14 353r14
+17n7*None{16E9} 173r7
+18n7*Ins{16E9} 174r7
+19n7*Del{16E9} 175r7
+20n7*F1{16E9} 176r7
+21n7*F2{16E9} 177r7
+22n7*F3{16E9} 178r7
+23n7*F4{16E9} 179r7
+24n7*F5{16E9} 180r7
+25n7*F6{16E9} 181r7
+26n7*F7{16E9} 182r7
+27n7*F8{16E9} 183r7
+28n7*F9{16E9} 184r7
+29n7*F10{16E9} 185r7
+30n7*F11{16E9} 186r7
+31n7*F12{16E9} 187r7
+32n7*ShiftIns{16E9} 188r7
+33n7*ShiftDel{16E9} 189r7
+34n7*ShiftF1{16E9} 190r7
+35n7*ShiftF2{16E9} 191r7
+36n7*ShiftF3{16E9} 192r7
+37n7*ShiftF4{16E9} 193r7
+38n7*ShiftF5{16E9} 194r7
+39n7*ShiftF6{16E9} 195r7
+40n7*ShiftF7{16E9} 196r7
+41n7*ShiftF8{16E9} 197r7
+42n7*ShiftF9{16E9} 198r7
+43n7*ShiftF10{16E9} 199r7
+44n7*ShiftF11{16E9} 200r7
+45n7*ShiftF12{16E9} 201r7
+46n7*CtrlIns{16E9} 202r7
+47n7*CtrlDel{16E9} 203r7
+48n7*Ctrl0{16E9} 204r7
+49n7*Ctrl1{16E9} 205r7
+50n7*Ctrl2{16E9} 206r7
+51n7*Ctrl3{16E9} 207r7
+52n7*Ctrl4{16E9} 208r7
+53n7*Ctrl5{16E9} 209r7
+54n7*Ctrl6{16E9} 210r7
+55n7*Ctrl7{16E9} 211r7
+56n7*Ctrl8{16E9} 212r7
+57n7*Ctrl9{16E9} 213r7
+58n7*CtrlA{16E9} 214r7
+59n7*CtrlB{16E9} 215r7
+60n7*CtrlC{16E9} 216r7
+61n7*CtrlD{16E9} 217r7
+62n7*CtrlE{16E9} 218r7
+63n7*CtrlF{16E9} 219r7
+64n7*CtrlG{16E9} 220r7
+65n7*CtrlH{16E9} 221r7
+66n7*CtrlI{16E9} 222r7
+67n7*CtrlJ{16E9} 223r7
+68n7*CtrlK{16E9} 224r7
+69n7*CtrlL{16E9} 225r7
+70n7*CtrlM{16E9} 226r7
+71n7*CtrlN{16E9} 227r7
+72n7*CtrlO{16E9} 228r7
+73n7*CtrlP{16E9} 229r7
+74n7*CtrlQ{16E9} 230r7
+75n7*CtrlR{16E9} 231r7
+76n7*CtrlS{16E9} 232r7
+77n7*CtrlT{16E9} 233r7
+78n7*CtrlU{16E9} 234r7
+79n7*CtrlV{16E9} 235r7
+80n7*CtrlW{16E9} 236r7
+81n7*CtrlX{16E9} 237r7
+82n7*CtrlY{16E9} 238r7
+83n7*CtrlZ{16E9} 239r7
+84n7*CtrlF1{16E9} 240r7
+85n7*CtrlF2{16E9} 241r7
+86n7*CtrlF3{16E9} 242r7
+87n7*CtrlF4{16E9} 243r7
+88n7*CtrlF5{16E9} 244r7
+89n7*CtrlF6{16E9} 245r7
+90n7*CtrlF7{16E9} 246r7
+91n7*CtrlF8{16E9} 247r7
+92n7*CtrlF9{16E9} 248r7
+93n7*CtrlF10{16E9} 249r7
+94n7*CtrlF11{16E9} 250r7
+95n7*CtrlF12{16E9} 251r7
+96n7*CtrlShift0{16E9} 252r7
+97n7*CtrlShift1{16E9} 253r7
+98n7*CtrlShift2{16E9} 254r7
+99n7*CtrlShift3{16E9} 255r7
+100n7*CtrlShift4{16E9} 256r7
+101n7*CtrlShift5{16E9} 257r7
+102n7*CtrlShift6{16E9} 258r7
+103n7*CtrlShift7{16E9} 259r7
+104n7*CtrlShift8{16E9} 260r7
+105n7*CtrlShift9{16E9} 261r7
+106n7*CtrlShiftA{16E9} 262r7
+107n7*CtrlShiftB{16E9} 263r7
+108n7*CtrlShiftC{16E9} 264r7
+109n7*CtrlShiftD{16E9} 265r7
+110n7*CtrlShiftE{16E9} 266r7
+111n7*CtrlShiftF{16E9} 267r7
+112n7*CtrlShiftG{16E9} 268r7
+113n7*CtrlShiftH{16E9} 269r7
+114n7*CtrlShiftI{16E9} 270r7
+115n7*CtrlShiftJ{16E9} 271r7
+116n7*CtrlShiftK{16E9} 272r7
+117n7*CtrlShiftL{16E9} 273r7
+118n7*CtrlShiftM{16E9} 274r7
+119n7*CtrlShiftN{16E9} 275r7
+120n7*CtrlShiftO{16E9} 276r7
+121n7*CtrlShiftP{16E9} 277r7
+122n7*CtrlShiftQ{16E9} 278r7
+123n7*CtrlShiftR{16E9} 279r7
+124n7*CtrlShiftS{16E9} 280r7
+125n7*CtrlShiftT{16E9} 281r7
+126n7*CtrlShiftU{16E9} 282r7
+127n7*CtrlShiftV{16E9} 283r7
+128n7*CtrlShiftW{16E9} 284r7
+129n7*CtrlShiftX{16E9} 285r7
+130n7*CtrlShiftY{16E9} 286r7
+131n7*CtrlShiftZ{16E9} 287r7
+132n7*CtrlShiftF1{16E9} 288r7
+133n7*CtrlShiftF2{16E9} 289r7
+134n7*CtrlShiftF3{16E9} 290r7
+135n7*CtrlShiftF4{16E9} 291r7
+136n7*CtrlShiftF5{16E9} 292r7
+137n7*CtrlShiftF6{16E9} 293r7
+138n7*CtrlShiftF7{16E9} 294r7
+139n7*CtrlShiftF8{16E9} 295r7
+140n7*CtrlShiftF9{16E9} 296r7
+141n7*CtrlShiftF10{16E9} 297r7
+142n7*CtrlShiftF11{16E9} 298r7
+143n7*CtrlShiftF12{16E9} 299r7
+144n7*AltBksp{16E9} 300r7
+145n7*AltLeftArrow{16E9} 301r7
+146n7*AltUpArrow{16E9} 302r7
+147n7*AltRightArrow{16E9} 303r7
+148n7*AltDownArrow{16E9} 304r7
+149n7*Alt0{16E9} 305r7
+150n7*Alt1{16E9} 306r7
+151n7*Alt2{16E9} 307r7
+152n7*Alt3{16E9} 308r7
+153n7*Alt4{16E9} 309r7
+154n7*Alt5{16E9} 310r7
+155n7*Alt6{16E9} 311r7
+156n7*Alt7{16E9} 312r7
+157n7*Alt8{16E9} 313r7
+158n7*Alt9{16E9} 314r7
+159n7*AltF1{16E9} 315r7
+160n7*AltF2{16E9} 316r7
+161n7*AltF3{16E9} 317r7
+162n7*AltF4{16E9} 318r7
+163n7*AltF5{16E9} 319r7
+164n7*AltF6{16E9} 320r7
+165n7*AltF7{16E9} 321r7
+166n7*AltF8{16E9} 322r7
+167n7*AltF9{16E9} 323r7
+168n7*AltF10{16E9} 324r7
+169n7*AltF11{16E9} 325r7
+170n7*AltF12{16E9} 326r7
+327A9*ValueType_Arr(16E9) 328r39
+328P9*ValueType_Array(327A9) 330r46
+329P9*ValueType_addrof(16E9)
+330P9*ValueType_array_addrof(328P9)
+331V13*CompareTo{integer} 332>7 333>7 356b23
+332e7 This{16E9}
+333p7 target{13|13P9}
+334V13*Equals{boolean} 335>7 336>7 357b23
+335e7 This{16E9}
+336p7 obj{13|13P9}
+337V13*GetHashCode{integer} 338>7 358b23
+338e7 This{16E9}
+339V13*GetType{34|51P9} 340>7 359b23
+340e7 This{16E9}
+341V13*GetTypeCode{35|15E9} 342>7 360b23
+342e7 This{16E9}
+343V13*ToString{29|27P9} 344>7 345>7
+344e7 This{16E9}
+345p7 provider{12|14P9}
+346V13*ToString{29|27P9} 347>7
+347e7 This{16E9}
+348V13*ToString{29|27P9} 349>7 350>7 351>7
+349e7 This{16E9}
+350p7 format{29|27P9}
+351p7 provider{12|14P9}
+352V13*ToString{29|27P9} 353>7 354>7 361b23
+353e7 This{16E9}
+354p7 format{29|27P9}
+

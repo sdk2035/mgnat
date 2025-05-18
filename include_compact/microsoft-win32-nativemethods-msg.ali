@@ -1,0 +1,94 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U microsoft.win32.nativemethods.msg%s  microsoft-win32-nativemethods-msg.ads  c066f41d NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W microsoft%s		microsoft.ads		microsoft.ali
+W microsoft.win32%s	microsoft-win32.ads	microsoft-win32.ali
+W microsoft.win32.nativemethods%s  microsoft-win32-nativemethods.ads  microsoft-win32-nativemethods.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.valuetype%s	mssyst-valuetype.ads	mssyst-valuetype.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060131165226 02f2695c
+D microsoft-win32.ads	20060131165226 bf37fdc1
+D microsoft-win32-nativemethods.ads  20060131171418 1e366b2e
+D microsoft-win32-nativemethods-msg.ads  20060131171418 1b43c2e6
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 microsoft.ads
+6K9*Microsoft 7e14 8|14r9 21r5 23r20
+X 6 microsoft-win32.ads
+6K19*Win32 5|6k9 6|7e20 8|14r19 21r15 23r30
+X 7 microsoft-win32-nativemethods.ads
+6K25*NativeMethods 6|6k19 7|7e34 8|14r25 21r21 23r36
+X 8 microsoft-win32-nativemethods-msg.ads
+14K39*MSG 7|6k25 8|21l35 21e38 23r50
+15R9*ValueType<40|20R9> 15e63 16r54 18r40 16|31p13 40|23P13 26P13 28P13
+16A9*ValueType_Arr(15R9) 17r39
+17P9*ValueType_Array(16A9) 19r46
+18P9*ValueType_addrof(15R9)
+19P9*ValueType_array_addrof(17P9)
+X 9 msil_types.ads
+7K9*Msil_Types 8|8w6 9r5 9|71e15
+X 10 mssyst.ads
+6K9*MSSyst 8|7r6 10r6 15r26 10|7e11
+X 16 mssyst-object.ads
+11K16*Object 8|7w13 16|46e18
+18R9*Typ
+31V13*GetType{37|51P9}
+X 32 mssyst-string.ads
+27P9 Ref(integer)
+X 37 mssyst-type_k.ads
+51P9 Ref(integer)
+X 40 mssyst-valuetype.ads
+13K16*ValueType 8|10w13 15r33 40|35e21
+14R9*Typ 8|15r43
+23V13*Equals{boolean}
+26V13*GetHashCode{integer}
+28V13*ToString{32|27P9}
+

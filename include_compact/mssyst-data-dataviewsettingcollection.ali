@@ -1,0 +1,157 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.data.dataviewsettingcollection%s  mssyst-data-dataviewsettingcollection.ads  0ca9096c NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.data%s		mssyst-data.ads		mssyst-data.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-array_k.ads	20060131171354 937a0605
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-ienumerable.ads  20060131171354 b0800740
+D mssyst-collections-ienumerator.ads  20060131171354 1d07849c
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-marshalbyvaluecomponent.ads  20060131171414 700ce2d6
+D mssyst-data.ads	20060131171910 7139211c
+D mssyst-data-datatable.ads  20040901193212 7523122d
+D mssyst-data-dataviewrowstate.ads  20040901193212 d72fdcc6
+D mssyst-data-dataviewsetting.ads  20040901193212 ada1545c
+D mssyst-data-dataviewsettingcollection.ads  20040901193212 c8146f80
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 20|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 20|7r6 19r6 20r9 28r26 29r26 30r16 35r12 45r19 45r45 48r15
+. 48r49 51r31 53r33 55r33 58r15 59r15 63r15 74r5 76r20
+X 7 mssyst-array_k.ads
+18K16 Array_k 20|35r19
+20P9 Ref(integer) 20|35r27
+X 8 mssyst-collections.ads
+6K16 Collections 20|28r33 29r33 55r40
+X 9 mssyst-collections-icollection.ads
+12K28 ICollection 20|28r45
+14P9 Ref(integer) 20|28r57
+X 10 mssyst-collections-ienumerable.ads
+11K28 IEnumerable 20|29r45
+13P9 Ref(integer) 20|29r57
+X 11 mssyst-collections-ienumerator.ads
+11K28 IEnumerator 20|55r52
+13P9 Ref(integer) 20|55r64
+X 16 mssyst-data.ads
+6K16*Data 6|6k9 16|7e16 20|20r16 45r52 48r22 48r56 51r38 58r22 59r22 63r22
+. 74r12 76r27
+X 17 mssyst-data-datatable.ads
+36K21 DataTable 20|48r27 58r27
+38P9 Ref(integer) 20|48r37 58r37
+X 19 mssyst-data-dataviewsetting.ads
+17K21 DataViewSetting 20|45r57 48r61 51r43 59r27 63r27
+19P9 Ref(integer) 20|45r73 48r77 51r59 59r43 63r43
+X 20 mssyst-data-dataviewsettingcollection.ads
+20K21*DataViewSettingCollection 16|6k16 20|74l17 74e42 76r32
+21R9*Typ 22r27 27c9 34r21 38r21 40r21 42r21 44r21 47r21 50r21 53r21 55r21
+. 57r21 61r21 65r27
+22P9*Ref(21R9) 23r34 24r44
+23P9*Ref_addrof(22P9)
+24A9*Arr1(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27R9*Typ<27|18R9> 28d10 29d10 32e14 33p14 37p13 39p13 41p13 43p13 46p13 49p13
+. 52p13 54p13 56p14 60p14 27|23p13 29p13 31p13 36p13
+28p10*I_ICollection{9|14P9}
+29p10*I_IEnumerable{10|13P9}
+33U14*CopyTo 34^7 35>7 36>7 66b23
+34p7 This(27R9)
+35p7 ar{7|20P9}
+36i7 index{integer}
+37V13*get_Count{integer} 38^7 67b23
+38p7 This(27R9)
+39V13*get_IsReadOnly{boolean} 40^7 68b23
+40p7 This(27R9)
+41V13*get_IsSynchronized{boolean} 42^7 69b23
+42p7 This(27R9)
+43V13*get_Item{19|19P9} 44^7 45>7
+44p7 This(27R9)
+45p7 tableName{43|27P9}
+46V13*get_Item{19|19P9} 47^7 48>7
+47p7 This(27R9)
+48p7 table{17|38P9}
+49V13*get_Item{19|19P9} 50^7 51>7 70b23
+50p7 This(27R9)
+51i7 index{integer}
+52V13*get_SyncRoot{27|13P9} 53^7 71b23
+53p7 This(27R9)
+54V13*GetEnumerator{11|13P9} 55^7 72b23
+55p7 This(27R9)
+56U14*set_Item 57^7 58>7 59>7
+57p7 This(27R9)
+58p7 table{17|38P9}
+59p7 value{19|19P9}
+60U14*set_Item 61^7 62>7 63>7 73b23
+61p7 This(27R9)
+62i7 index{integer}
+63p7 value{19|19P9}
+X 27 mssyst-object.ads
+11K16*Object 20|7w13 19w13 30r23 53r40 27|46e18
+12R9*Typ 20|30r30 27|20e14
+13P9*Ref(12R9) 20|53r47
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{48|51P9}
+36V13*ToString{43|27P9}
+X 43 mssyst-string.ads
+25K16 String 20|45r26
+27P9 Ref(integer) 20|45r33
+X 48 mssyst-type_k.ads
+51P9 Ref(integer)
+

@@ -1,0 +1,272 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.io.filesystemwatcher%s  mssyst-io-filesystemwatcher.ads  e37c3b12 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.component%s  mssyst-componentmodel-component.ads  mssyst-componentmodel-component.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.componentmodel.isupportinitialize%s  mssyst-componentmodel-isupportinitialize.ads  mssyst-componentmodel-isupportinitialize.ali
+W mssyst.io%s		mssyst-io.ads		mssyst-io.ali
+W mssyst.io.notifyfilters%s  mssyst-io-notifyfilters.ads  mssyst-io-notifyfilters.ali
+W mssyst.io.watcherchangetypes%s  mssyst-io-watcherchangetypes.ads  mssyst-io-watcherchangetypes.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-componentmodel-isupportinitialize.ads  20060131171414 998e727f
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-erroreventhandler.ads  20060131171426 50d31647
+D mssyst-io-filesystemeventhandler.ads  20060131171426 919ed5c4
+D mssyst-io-filesystemwatcher.ads  20060131171426 60333d87
+D mssyst-io-notifyfilters.ads  20060131171426 93c76f38
+D mssyst-io-renamedeventhandler.ads  20060131171426 6c536091
+D mssyst-io-waitforchangedresult.ads  20060131171426 f6294771
+D mssyst-io-watcherchangetypes.ads  20060131171426 b7c6f2fd
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 28|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 28|7r6 10r6 11r6 12r6 22r6 26r6 27r9 34r20 35r14 36r14 44r14
+. 47r14 48r16 51r15 54r15 57r15 60r15 63r15 71r33 77r33 79r33 81r33 83r33
+. 86r15 89r15 92r15 95r15 98r15 104r15 113r15 116r15 119r15 122r15 125r20
+. 125r67 128r20 129r33 162r5 164r20
+X 10 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 28|10r13 11r13 12r13 34r27 35r21 36r21 81r40 83r40
+. 119r22 122r22
+X 11 mssyst-componentmodel-component.ads
+19K31*Component 60e36 28|10w28 34r42
+20R9*Typ 28|34r52
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{13|15P9}
+42U14*remove_Disposed
+48V13*ToString{57|27P9}
+X 12 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 28|11w28 35r36
+13R9*Typ 28|35r47
+X 13 mssyst-componentmodel-icontainer.ads
+15P9 Ref(integer)
+X 14 mssyst-componentmodel-isite.ads
+14K31 ISite 28|81r55 119r37
+16P9 Ref(integer) 28|81r61 119r43
+X 15 mssyst-componentmodel-isupportinitialize.ads
+10K31*ISupportInitialize 25e45 28|12w28 36r36
+11R9*Typ 28|36r55
+X 16 mssyst-componentmodel-isynchronizeinvoke.ads
+14K31 ISynchronizeInvoke 28|83r55 122r37
+16P9 Ref(integer) 28|83r74 122r56
+X 25 mssyst-io.ads
+6K16*IO 9|6k9 25|7e14 28|22r13 26r13 27r16 51r22 54r22 57r22 60r22 63r22
+. 77r40 86r22 89r22 92r22 95r22 98r22 113r22 125r27 125r74 128r27 129r40
+. 162r12 164r27
+X 26 mssyst-io-erroreventhandler.ads
+24K19 ErrorEventHandler 28|60r25 95r25
+26P9 Ref(integer) 28|60r43 95r43
+X 27 mssyst-io-filesystemeventhandler.ads
+24K19 FileSystemEventHandler 28|51r25 54r25 57r25 86r25 89r25 92r25
+26P9 Ref(integer) 28|51r48 54r48 57r48 86r48 89r48 92r48
+X 28 mssyst-io-filesystemwatcher.ads
+27K19*FileSystemWatcher 25|6k16 28|162l15 162e32 164r30
+28R9*Typ 29r27 34c9 50r21 53r21 56r21 59r21 62r21 65r21 67r21 69r21 71r21
+. 73r21 75r21 77r21 79r21 81r21 83r21 85r21 88r21 91r21 94r21 97r21 100r21
+. 103r21 106r21 109r21 112r21 115r21 118r21 121r21 124r21 127r21 131r27
+29P9*Ref(28R9) 30r34 31r47 41r14 41r34 43r14 44r40 46r14 48r42
+30P9*Ref_addrof(29P9)
+31A9*Ref_Arr(29P9) 32r33
+32P9*Ref_Array(31A9) 33r40
+33P9*Ref_Array_addrof(32P9)
+34R9*Typ<11|26R9> 11|33P14 36p14 38p13 42P14 48P13 28|39e14 49p14 52p14 55p14
+. 58p14 61p14 64P14 66P14 68p13 70p13 72p13 74p13 76p13 78p13 80P13 82p13
+. 84p14 87p14 90p14 93p14 96p14 99p14 102p14 105p14 108p14 111p14 114p14
+. 117P14 120p14 123p13 126p13 34|24p13 27p13 29p13 36|23p13 29p13 31p13
+40V13*new_FileSystemWatcher{29P9} 41>7
+41p7 This{29P9}
+42V13*new_FileSystemWatcher{29P9} 43>7 44>7
+43p7 This{29P9}
+44p7 path{57|27P9}
+45V13*new_FileSystemWatcher{29P9} 46>7 47>7 48>7
+46p7 This{29P9}
+47p7 path{57|27P9}
+48p7 filter{57|27P9}
+49U14*add_Changed 50^7 51>7 133b23
+50p7 This(34R9)
+51p7 value{27|26P9}
+52U14*add_Created 53^7 54>7 134b23
+53p7 This(34R9)
+54p7 value{27|26P9}
+55U14*add_Deleted 56^7 57>7 135b23
+56p7 This(34R9)
+57p7 value{27|26P9}
+58U14*add_Error 59^7 60>7 136b23
+59p7 This(34R9)
+60p7 value{26|26P9}
+61U14*add_Renamed 62^7 63>7 137b23
+62p7 This(34R9)
+63p7 value{30|26P9}
+64U14*BeginInit 65^7 138b23
+65p7 This(34R9)
+66U14*EndInit 67^7 139b23
+67p7 This(34R9)
+68V13*get_EnableRaisingEvents{boolean} 69^7 140b23
+69p7 This(34R9)
+70V13*get_Filter{57|27P9} 71^7 141b23
+71p7 This(34R9)
+72V13*get_IncludeSubdirectories{boolean} 73^7 142b23
+73p7 This(34R9)
+74V13*get_InternalBufferSize{integer} 75^7 143b23
+75p7 This(34R9)
+76V13*get_NotifyFilter{29|16E9} 77^7 144b23
+77p7 This(34R9)
+78V13*get_Path{57|27P9} 79^7 145b23
+79p7 This(34R9)
+80V13*get_Site{14|16P9} 81^7 146b23
+81p7 This(34R9)
+82V13*get_SynchronizingObject{16|16P9} 83^7 147b23
+83p7 This(34R9)
+84U14*remove_Changed 85^7 86>7 148b23
+85p7 This(34R9)
+86p7 value{27|26P9}
+87U14*remove_Created 88^7 89>7 149b23
+88p7 This(34R9)
+89p7 value{27|26P9}
+90U14*remove_Deleted 91^7 92>7 150b23
+91p7 This(34R9)
+92p7 value{27|26P9}
+93U14*remove_Error 94^7 95>7 151b23
+94p7 This(34R9)
+95p7 value{26|26P9}
+96U14*remove_Renamed 97^7 98>7 152b23
+97p7 This(34R9)
+98p7 value{30|26P9}
+99U14*set_EnableRaisingEvents 100^7 101>7 153b23
+100p7 This(34R9)
+101b7 value{boolean}
+102U14*set_Filter 103^7 104>7 154b23
+103p7 This(34R9)
+104p7 value{57|27P9}
+105U14*set_IncludeSubdirectories 106^7 107>7 155b23
+106p7 This(34R9)
+107b7 value{boolean}
+108U14*set_InternalBufferSize 109^7 110>7 156b23
+109p7 This(34R9)
+110i7 value{integer}
+111U14*set_NotifyFilter 112^7 113>7 157b23
+112p7 This(34R9)
+113e7 value{29|16E9}
+114U14*set_Path 115^7 116>7 158b23
+115p7 This(34R9)
+116p7 value{57|27P9}
+117U14*set_Site 118^7 119>7 159b23
+118p7 This(34R9)
+119p7 value{14|16P9}
+120U14*set_SynchronizingObject 121^7 122>7 160b23
+121p7 This(34R9)
+122p7 value{16|16P9}
+123V13*WaitForChanged{31|16R9} 124^7 125>7
+124p7 This(34R9)
+125e7 changeType{32|16E9}
+126V13*WaitForChanged{31|16R9} 127^7 128>7 129>7 161b23
+127p7 This(34R9)
+128e7 changeType{32|16E9}
+129i7 timeout{integer}
+X 29 mssyst-io-notifyfilters.ads
+15K19*NotifyFilters 28|22w16 77r43 113r25 29|72e28
+16E9*ValueType 28|77r57 113r39 29|24e16
+X 30 mssyst-io-renamedeventhandler.ads
+24K19 RenamedEventHandler 28|63r25 98r25
+26P9 Ref(integer) 28|63r45 98r45
+X 31 mssyst-io-waitforchangedresult.ads
+15K19 WaitForChangedResult 28|125r77 129r43
+16R9 ValueType 28|125r98 129r64
+X 32 mssyst-io-watcherchangetypes.ads
+15K19*WatcherChangeTypes 28|26w16 125r30 128r30 32|66e33
+16E9*ValueType 28|125r49 128r49 32|21e13
+X 34 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{52|23P9}
+27V13*GetLifetimeService{36|13P9}
+29V13*InitializeLifetimeService{36|13P9}
+X 36 mssyst-object.ads
+11K16*Object 28|7w13 36|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{62|51P9}
+X 52 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 57 mssyst-string.ads
+25K16 String 28|44r21 47r21 48r23 71r40 79r40 104r22 116r22
+27P9 Ref(integer) 28|44r28 47r28 48r30 71r47 79r47 104r29 116r29
+X 62 mssyst-type_k.ads
+51P9 Ref(integer)
+

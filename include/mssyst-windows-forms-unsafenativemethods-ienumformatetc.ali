@@ -1,0 +1,104 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.unsafenativemethods.ienumformatetc%s  mssyst-windows-forms-unsafenativemethods-ienumformatetc.ads  55d753c3 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.unsafenativemethods%s  mssyst-windows-forms-unsafenativemethods.ads  mssyst-windows-forms-unsafenativemethods.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D mssyst-windows.ads	20050914013316 8e5e07ed
+D mssyst-windows-forms.ads  20050914013316 c6ce9829
+D mssyst-windows-forms-nativemethods.ads  20050914013324 7704f2a2
+D mssyst-windows-forms-nativemethods-formatetc.ads  20050914133504 be3fe957
+D mssyst-windows-forms-unsafenativemethods.ads  20050914013316 a7f33d5f
+D mssyst-windows-forms-unsafenativemethods-ienumformatetc.ads  20050914133500 10f74ca9
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 72e15 31|8w6 9r5 27r22
+34A9*int32_arr(integer) 31|27r33
+X 9 mssyst.ads
+6K9*MSSyst 7e11 31|7r6 12r9 22r16 26r15 38r5 40r20
+X 12 mssyst-object.ads
+11K16*Object 46e18 31|7w13
+X 26 mssyst-windows.ads
+6K16*Windows 9|6k9 26|7e19 31|12r16 22r23 26r22 38r12 40r27
+X 27 mssyst-windows-forms.ads
+6K24*Forms 26|6k16 27|7e25 31|12r24 22r31 26r30 38r20 40r35
+X 28 mssyst-windows-forms-nativemethods.ads
+6K30 NativeMethods 31|26r36
+X 29 mssyst-windows-forms-nativemethods-formatetc.ads
+13K44 FORMATETC 31|26r50
+15P9 Ref(integer) 31|26r60
+X 30 mssyst-windows-forms-unsafenativemethods.ads
+6K30*UnsafeNativeMethods 27|6k24 30|7e45 31|12r30 22r37 38r26 40r41
+X 31 mssyst-windows-forms-unsafenativemethods-ienumformatetc.ads
+12K50*IEnumFORMATETC 30|6k30 31|22r57 38l46 38e60 40r61
+13R9*Typ 14r27 19c9 21r21 24r21 29r21 31r21
+14P9*Ref(13R9) 15r34 16r47
+15P9*Ref_addrof(14P9)
+16A9*Ref_Arr(14P9) 17r33
+17P9*Ref_Array(16A9) 18r40 22r72
+18P9*Ref_Array_addrof(17P9)
+19H9*Typ 20p13 23p13 28p13 30p13
+20y13*Clone{integer} 21^7 22>7 34b23
+21p7 This(19R9)
+22p7 ppenum{17P9}
+23y13*Next{integer} 24^7 25>7 26>7 27>7 35b23
+24p7 This(19R9)
+25i7 celt{integer}
+26p7 rgelt{29|15P9}
+27a7 pceltFetched{8|34A9}
+28y13*Reset{integer} 29^7 36b23
+29p7 This(19R9)
+30y13*Skip{integer} 31^7 32>7 37b23
+31p7 This(19R9)
+32i7 celt{integer}
+

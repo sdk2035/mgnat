@@ -1,0 +1,1268 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.webbrowser%s  mssyst-windows-forms-webbrowser.ads  e4c6602b NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.component%s  mssyst-componentmodel-component.ads  mssyst-componentmodel-component.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.componentmodel.isynchronizeinvoke%s  mssyst-componentmodel-isynchronizeinvoke.ads  mssyst-componentmodel-isynchronizeinvoke.ali
+W mssyst.idisposable%s	mssyst-idisposable.ads	mssyst-idisposable.ali
+W mssyst.marshalbyrefobject%s  mssyst-marshalbyrefobject.ads  mssyst-marshalbyrefobject.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.control%s  mssyst-windows-forms-control.ads  mssyst-windows-forms-control.ali
+W mssyst.windows.forms.ibindablecomponent%s  mssyst-windows-forms-ibindablecomponent.ads  mssyst-windows-forms-ibindablecomponent.ali
+W mssyst.windows.forms.idroptarget%s  mssyst-windows-forms-idroptarget.ads  mssyst-windows-forms-idroptarget.ali
+W mssyst.windows.forms.iwin32window%s  mssyst-windows-forms-iwin32window.ads  mssyst-windows-forms-iwin32window.ali
+W mssyst.windows.forms.message%s  mssyst-windows-forms-message.ads  mssyst-windows-forms-message.ali
+W mssyst.windows.forms.webbrowserbase%s  mssyst-windows-forms-webbrowserbase.ads  mssyst-windows-forms-webbrowserbase.ali
+
+D accessibility.ads	20060518124702 b094c4cf
+D accessibility-iaccessible.ads  20060518130144 f41bae62
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060517214748 02f2695c
+D microsoft-win32.ads	20060517214748 bf37fdc1
+D microsoft-win32-safehandles.ads  20060517214748 c240eeab
+D microsoft-win32-safehandles-safefilehandle.ads  20060518130024 34c2417a
+D microsoft-win32-safehandles-safehandlezeroorminusoneisinvalid.ads  20060518130024 66041aba
+D microsoft-win32-safehandles-safewaithandle.ads  20060518130024 ae8855ed
+D msil_types.ads	20060219005222 3027c2c3
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-array_k.ads	20060518130004 44c548ce
+D mssyst-asynccallback.ads  20060518130006 80e54e38
+D mssyst-attribute.ads	20060518130006 394ce8b0
+D mssyst-charenumerator.ads  20060518130008 d83886d0
+D mssyst-collections.ads  20060517214744 22f80fd8
+D mssyst-collections-dictionaryentry.ads  20060518130016 222dd9e6
+D mssyst-collections-icollection.ads  20060518130004 3a339eb6
+D mssyst-collections-icomparer.ads  20060518130006 71266c2a
+D mssyst-collections-idictionary.ads  20060518130016 d5a87938
+D mssyst-collections-idictionaryenumerator.ads  20060518130016 174d5352
+D mssyst-collections-ienumerable.ads  20060518130004 8a6639a6
+D mssyst-collections-ienumerator.ads  20060518130004 bc4e7b44
+D mssyst-collections-ilist.ads  20060518130004 d5fdb5e8
+D mssyst-collections-readonlycollectionbase.ads  20060518130016 2b7b6f73
+D mssyst-collections-specialized.ads  20060517222318 96cafd88
+D mssyst-collections-specialized-stringcollection.ads  20060518130052 bb5c63d3
+D mssyst-collections-specialized-stringenumerator.ads  20060518130052 126e18f4
+D mssyst-componentmodel.ads  20060517222310 36ea93a4
+D mssyst-componentmodel-attributecollection.ads  20060518130048 def7e8f0
+D mssyst-componentmodel-canceleventargs.ads  20060518130048 44ebfd69
+D mssyst-componentmodel-canceleventhandler.ads  20060518130048 dee4231c
+D mssyst-componentmodel-collectionchangeaction.ads  20060518130048 da99b6a0
+D mssyst-componentmodel-collectionchangeeventargs.ads  20060518130048 26dc190e
+D mssyst-componentmodel-collectionchangeeventhandler.ads  20060518130048 732d3b47
+D mssyst-componentmodel-component.ads  20060518130048 ea58059c
+D mssyst-componentmodel-componentcollection.ads  20060518130048 a4ac7c9c
+D mssyst-componentmodel-designerserializationvisibility.ads  20060518130048 a9a216f4
+D mssyst-componentmodel-icomponent.ads  20060518130048 f5da8b05
+D mssyst-componentmodel-icontainer.ads  20060518130048 80192781
+D mssyst-componentmodel-isite.ads  20060518130048 6ae4a879
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060518130050 5c040a84
+D mssyst-componentmodel-itypedescriptorcontext.ads  20060518130050 081a3ab3
+D mssyst-componentmodel-memberdescriptor.ads  20060518130048 36245dab
+D mssyst-componentmodel-propertydescriptor.ads  20060518130048 1a9ca296
+D mssyst-componentmodel-propertydescriptorcollection.ads  20060518130050 831ecf4b
+D mssyst-componentmodel-typeconverter.ads  20060518130048 fdf4a407
+D mssyst-componentmodel-typeconverter-standardvaluescollection.ads  20060518130048 fa8397b9
+D mssyst-configuration.ads  20060517214756 03b06563
+D mssyst-configuration-assemblies.ads  20060517214756 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060518130040 813ea3b2
+D mssyst-configuration-assemblies-assemblyversioncompatibility.ads  20060518130040 80640b26
+D mssyst-datetime.ads	20060518130006 e8dd3274
+D mssyst-datetimekind.ads  20060518130006 db5b4b1d
+D mssyst-dayofweek.ads	20060518130008 4570cbc5
+D mssyst-decimal.ads	20060518130008 5671c372
+D mssyst-delegate.ads	20060518130006 5344fd33
+D mssyst-drawing.ads	20060517222328 770dd27a
+D mssyst-drawing-bitmap.ads  20060518130104 1656ebd0
+D mssyst-drawing-brush.ads  20060518130104 87de3b43
+D mssyst-drawing-characterrange.ads  20060518130106 8185ef8a
+D mssyst-drawing-color.ads  20060518130104 9c0c9df9
+D mssyst-drawing-contentalignment.ads  20060518130104 f9044a7d
+D mssyst-drawing-copypixeloperation.ads  20060518130104 eda8ff93
+D mssyst-drawing-drawing2d.ads  20060517222328 02b10736
+D mssyst-drawing-drawing2d-combinemode.ads  20060518130106 b3c0aa67
+D mssyst-drawing-drawing2d-compositingmode.ads  20060518130106 0691fc40
+D mssyst-drawing-drawing2d-compositingquality.ads  20060518130106 9964cf10
+D mssyst-drawing-drawing2d-coordinatespace.ads  20060518130106 098741b9
+D mssyst-drawing-drawing2d-customlinecap.ads  20060518130104 c70f89e5
+D mssyst-drawing-drawing2d-dashcap.ads  20060518130104 17b9c081
+D mssyst-drawing-drawing2d-dashstyle.ads  20060518130106 aed31dd9
+D mssyst-drawing-drawing2d-fillmode.ads  20060518130106 7bb9485f
+D mssyst-drawing-drawing2d-flushintention.ads  20060518130106 460694b2
+D mssyst-drawing-drawing2d-graphicscontainer.ads  20060518130106 289862ef
+D mssyst-drawing-drawing2d-graphicspath.ads  20060518130106 fe945149
+D mssyst-drawing-drawing2d-graphicsstate.ads  20060518130106 40c42a8a
+D mssyst-drawing-drawing2d-interpolationmode.ads  20060518130106 dc6e60e0
+D mssyst-drawing-drawing2d-linecap.ads  20060518130106 ceac1a15
+D mssyst-drawing-drawing2d-linejoin.ads  20060518130106 95975be4
+D mssyst-drawing-drawing2d-matrix.ads  20060518130106 5f15817e
+D mssyst-drawing-drawing2d-matrixorder.ads  20060518130106 feb7512a
+D mssyst-drawing-drawing2d-pathdata.ads  20060518130106 9d5206e7
+D mssyst-drawing-drawing2d-penalignment.ads  20060518130106 5954b74f
+D mssyst-drawing-drawing2d-pentype.ads  20060518130106 8c0f6955
+D mssyst-drawing-drawing2d-pixeloffsetmode.ads  20060518130106 d6d76c6e
+D mssyst-drawing-drawing2d-regiondata.ads  20060518130106 ddf73808
+D mssyst-drawing-drawing2d-smoothingmode.ads  20060518130106 b79ee792
+D mssyst-drawing-drawing2d-warpmode.ads  20060518130106 3553d930
+D mssyst-drawing-drawing2d-wrapmode.ads  20060518130106 a13fedb8
+D mssyst-drawing-font.ads  20060518130106 8afb5f98
+D mssyst-drawing-fontfamily.ads  20060518130106 50bccb85
+D mssyst-drawing-fontstyle.ads  20060518130106 d394da08
+D mssyst-drawing-graphics.ads  20060518130104 8fd75c1a
+D mssyst-drawing-graphics-drawimageabort.ads  20060518130104 1736c04c
+D mssyst-drawing-graphics-enumeratemetafileproc.ads  20060518130104 e3724f1a
+D mssyst-drawing-graphicsunit.ads  20060518130106 d701e470
+D mssyst-drawing-icon.ads  20060518130104 a54ef9c2
+D mssyst-drawing-idevicecontext.ads  20060518130104 6fa977b6
+D mssyst-drawing-image.ads  20060518130104 25f13672
+D mssyst-drawing-image-getthumbnailimageabort.ads  20060518130104 87351692
+D mssyst-drawing-imaging.ads  20060517222330 83f7d7de
+D mssyst-drawing-imaging-bitmapdata.ads  20060518130104 73e151ea
+D mssyst-drawing-imaging-coloradjusttype.ads  20060518130104 dba9e0a4
+D mssyst-drawing-imaging-colorchannelflag.ads  20060518130104 12ccfa78
+D mssyst-drawing-imaging-colormap.ads  20060518130104 443e3c70
+D mssyst-drawing-imaging-colormatrix.ads  20060518130104 f72c9656
+D mssyst-drawing-imaging-colormatrixflag.ads  20060518130104 9c982390
+D mssyst-drawing-imaging-colorpalette.ads  20060518130104 4cd52973
+D mssyst-drawing-imaging-emfplusrecordtype.ads  20060518130106 3b607e40
+D mssyst-drawing-imaging-emftype.ads  20060518130106 111a9b10
+D mssyst-drawing-imaging-encoder.ads  20060518130106 fc018a64
+D mssyst-drawing-imaging-encoderparameter.ads  20060518130106 d5042ed1
+D mssyst-drawing-imaging-encoderparameters.ads  20060518130106 700fb5a1
+D mssyst-drawing-imaging-encoderparametervaluetype.ads  20060518130106 d96220a8
+D mssyst-drawing-imaging-framedimension.ads  20060518130106 447af772
+D mssyst-drawing-imaging-imageattributes.ads  20060518130106 f0a3576b
+D mssyst-drawing-imaging-imagecodecflags.ads  20060518130106 a08551bd
+D mssyst-drawing-imaging-imagecodecinfo.ads  20060518130106 64cbfb39
+D mssyst-drawing-imaging-imageformat.ads  20060518130106 2f9d601a
+D mssyst-drawing-imaging-imagelockmode.ads  20060518130106 2b321977
+D mssyst-drawing-imaging-metafile.ads  20060518130106 aa3ad4f3
+D mssyst-drawing-imaging-metafileframeunit.ads  20060518130106 353b4f36
+D mssyst-drawing-imaging-metafileheader.ads  20060518130106 9e07f6d6
+D mssyst-drawing-imaging-metafiletype.ads  20060518130106 df27f9d0
+D mssyst-drawing-imaging-metaheader.ads  20060518130106 d7277e5d
+D mssyst-drawing-imaging-pixelformat.ads  20060518130106 c188c773
+D mssyst-drawing-imaging-playrecordcallback.ads  20060518130106 272b4b10
+D mssyst-drawing-imaging-propertyitem.ads  20060518130106 743f151a
+D mssyst-drawing-imaging-wmfplaceablefileheader.ads  20060518130106 adf2d18c
+D mssyst-drawing-knowncolor.ads  20060518130104 cf83d381
+D mssyst-drawing-pen.ads  20060518130104 1a9a6706
+D mssyst-drawing-point.ads  20060518130104 05358661
+D mssyst-drawing-pointf.ads  20060518130106 f30e71b6
+D mssyst-drawing-rectangle.ads  20060518130104 b59756d9
+D mssyst-drawing-rectanglef.ads  20060518130106 870ef971
+D mssyst-drawing-region.ads  20060518130104 2db70a12
+D mssyst-drawing-rotatefliptype.ads  20060518130104 a534a6c5
+D mssyst-drawing-size.ads  20060518130104 ff0ce726
+D mssyst-drawing-sizef.ads  20060518130106 2d88001a
+D mssyst-drawing-stringalignment.ads  20060518130106 5ec5fb27
+D mssyst-drawing-stringdigitsubstitute.ads  20060518130106 afb2a0a8
+D mssyst-drawing-stringformat.ads  20060518130106 5cdaebcb
+D mssyst-drawing-stringformatflags.ads  20060518130106 80d13db4
+D mssyst-drawing-stringtrimming.ads  20060518130106 2e4f6a19
+D mssyst-drawing-text.ads  20060517222330 47e8b126
+D mssyst-drawing-text-fontcollection.ads  20060518130106 7dd4249e
+D mssyst-drawing-text-genericfontfamilies.ads  20060518130106 76bf5346
+D mssyst-drawing-text-hotkeyprefix.ads  20060518130106 cbfb5c04
+D mssyst-drawing-text-textrenderinghint.ads  20060518130106 0da59ab9
+D mssyst-eventargs.ads	20060518130006 f2d88790
+D mssyst-eventhandler.ads  20060518130008 a8186cec
+D mssyst-exception_k.ads  20060518130006 77505d65
+D mssyst-globalization.ads  20060517214748 13e8d46f
+D mssyst-globalization-calendar.ads  20060518130020 6b493ab4
+D mssyst-globalization-calendaralgorithmtype.ads  20060518130020 3e24c29f
+D mssyst-globalization-calendarweekrule.ads  20060518130020 fd7e4fa4
+D mssyst-globalization-compareinfo.ads  20060518130020 1578aa69
+D mssyst-globalization-compareoptions.ads  20060518130020 aa1d08c4
+D mssyst-globalization-cultureinfo.ads  20060518130020 eff0653d
+D mssyst-globalization-culturetypes.ads  20060518130020 0714709f
+D mssyst-globalization-datetimeformatinfo.ads  20060518130020 12cc668e
+D mssyst-globalization-datetimestyles.ads  20060518130020 493eba39
+D mssyst-globalization-digitshapes.ads  20060518130020 159048c6
+D mssyst-globalization-numberformatinfo.ads  20060518130020 3e2c26cf
+D mssyst-globalization-numberstyles.ads  20060518130020 e67a6e84
+D mssyst-globalization-sortkey.ads  20060518130020 fbdd0312
+D mssyst-globalization-textinfo.ads  20060518130020 87fe0838
+D mssyst-guid.ads	20060518130008 81a28a48
+D mssyst-iasyncresult.ads  20060518130008 f67d3866
+D mssyst-icloneable.ads	20060518130004 e17b533e
+D mssyst-icomparable.ads  20060518130004 bf9ec2a5
+D mssyst-iconvertible.ads  20060518130004 5fd73d03
+D mssyst-idisposable.ads  20060518130004 43dfd267
+D mssyst-iformatprovider.ads  20060518130008 0282a90a
+D mssyst-io.ads		20060517214752 31f12609
+D mssyst-io-fileaccess.ads  20060518130030 86b9fb32
+D mssyst-io-filemode.ads  20060518130030 cd9a2184
+D mssyst-io-fileoptions.ads  20060518130030 dcc00896
+D mssyst-io-fileshare.ads  20060518130030 9c1d8f8e
+D mssyst-io-filestream.ads  20060518130030 e99dd9b5
+D mssyst-io-seekorigin.ads  20060518130030 84ee3c99
+D mssyst-io-stream.ads	20060518130030 8edee4de
+D mssyst-iserviceprovider.ads  20060518130008 3ab8180a
+D mssyst-marshalbyrefobject.ads  20060518130006 1fa39a8f
+D mssyst-midpointrounding.ads  20060518130008 67720843
+D mssyst-modulehandle.ads  20060518130010 ea2bb724
+D mssyst-multicastdelegate.ads  20060518130006 378f1b43
+D mssyst-object.ads	20060518130004 47535304
+D mssyst-reflection.ads	20060517214746 25abbfbc
+D mssyst-reflection-assembly.ads  20060518130016 123eb80d
+D mssyst-reflection-assemblyname.ads  20060518130018 15212dcc
+D mssyst-reflection-assemblynameflags.ads  20060518130018 086c5b0c
+D mssyst-reflection-binder.ads  20060518130008 8f817e78
+D mssyst-reflection-bindingflags.ads  20060518130018 44cb2c03
+D mssyst-reflection-callingconventions.ads  20060518130018 6e41b7d5
+D mssyst-reflection-constructorinfo.ads  20060518130018 4a784f3e
+D mssyst-reflection-eventattributes.ads  20060518130018 601969cf
+D mssyst-reflection-eventinfo.ads  20060518130018 d074f51e
+D mssyst-reflection-fieldattributes.ads  20060518130018 7952d5f0
+D mssyst-reflection-fieldinfo.ads  20060518130018 467b8c48
+D mssyst-reflection-genericparameterattributes.ads  20060518130018 bf8892e6
+D mssyst-reflection-icustomattributeprovider.ads  20060518130010 f243134e
+D mssyst-reflection-imagefilemachine.ads  20060518130018 e85430a4
+D mssyst-reflection-interfacemapping.ads  20060518130018 8db7a5bb
+D mssyst-reflection-ireflect.ads  20060518130010 881bf639
+D mssyst-reflection-manifestresourceinfo.ads  20060518130018 ad6bbbfa
+D mssyst-reflection-memberfilter.ads  20060518130018 50297139
+D mssyst-reflection-memberinfo.ads  20060518130010 0224f482
+D mssyst-reflection-membertypes.ads  20060518130018 781a8ce9
+D mssyst-reflection-methodattributes.ads  20060518130018 7f00d77d
+D mssyst-reflection-methodbase.ads  20060518130018 d9f75bde
+D mssyst-reflection-methodbody.ads  20060518130018 57c34b79
+D mssyst-reflection-methodimplattributes.ads  20060518130018 9b393827
+D mssyst-reflection-methodinfo.ads  20060518130018 9554c467
+D mssyst-reflection-module.ads  20060518130018 f7c1ae4f
+D mssyst-reflection-moduleresolveeventhandler.ads  20060518130016 55175e4b
+D mssyst-reflection-parameterattributes.ads  20060518130018 9852456a
+D mssyst-reflection-parameterinfo.ads  20060518130018 9faca9a0
+D mssyst-reflection-parametermodifier.ads  20060518130018 bf1ace9a
+D mssyst-reflection-portableexecutablekinds.ads  20060518130018 7dc22cdb
+D mssyst-reflection-processorarchitecture.ads  20060518130018 ed5839f4
+D mssyst-reflection-propertyattributes.ads  20060518130018 b25fd6ac
+D mssyst-reflection-propertyinfo.ads  20060518130018 83708877
+D mssyst-reflection-resourcelocation.ads  20060518130018 f7e12499
+D mssyst-reflection-strongnamekeypair.ads  20060518130018 80794f06
+D mssyst-reflection-typeattributes.ads  20060518130018 4ce15869
+D mssyst-reflection-typefilter.ads  20060518130018 1bb8611f
+D mssyst-resolveeventargs.ads  20060518130006 a313837d
+D mssyst-runtime.ads	20060517214744 31dcc047
+D mssyst-runtime-constrainedexecution.ads  20060517214746 f6aa2aec
+D mssyst-runtime-constrainedexecution-criticalfinalizerobject.ads  20060518130008 d30c8885
+D mssyst-runtime-interopservices.ads  20060517214744 59769bf0
+D mssyst-runtime-interopservices-charset.ads  20060518130026 91df90fa
+D mssyst-runtime-interopservices-layoutkind.ads  20060518130026 c12116e8
+D mssyst-runtime-interopservices-safehandle.ads  20060518130010 973569bf
+D mssyst-runtime-interopservices-standardolemarshalobject.ads  20060518130052 02f5ee97
+D mssyst-runtime-interopservices-structlayoutattribute.ads  20060518130026 78989125
+D mssyst-runtime-interopservices-uassembly.ads  20060518130016 f96b0f31
+D mssyst-runtime-interopservices-uassemblyname.ads  20060518130018 de1b10ef
+D mssyst-runtime-interopservices-uattribute.ads  20060518130006 caafc494
+D mssyst-runtime-interopservices-uconstructorinfo.ads  20060518130018 c34639c6
+D mssyst-runtime-interopservices-ueventinfo.ads  20060518130018 04844734
+D mssyst-runtime-interopservices-uexception.ads  20060518130006 5f238516
+D mssyst-runtime-interopservices-ufieldinfo.ads  20060518130018 cdb9c056
+D mssyst-runtime-interopservices-umemberinfo.ads  20060518130010 e5d5c7c0
+D mssyst-runtime-interopservices-umethodbase.ads  20060518130018 1ff9475f
+D mssyst-runtime-interopservices-umethodinfo.ads  20060518130018 fc46035a
+D mssyst-runtime-interopservices-umodule.ads  20060518130018 85209d28
+D mssyst-runtime-interopservices-uparameterinfo.ads  20060518130018 b106ef1a
+D mssyst-runtime-interopservices-upropertyinfo.ads  20060518130018 f015b8d5
+D mssyst-runtime-interopservices-utype.ads  20060518130010 edc8eebe
+D mssyst-runtime-remoting.ads  20060517214746 74500271
+D mssyst-runtime-remoting-ichannelinfo.ads  20060518130036 42c0549f
+D mssyst-runtime-remoting-ienvoyinfo.ads  20060518130036 0d613007
+D mssyst-runtime-remoting-iremotingtypeinfo.ads  20060518130036 9c09dda1
+D mssyst-runtime-remoting-messaging.ads  20060517214754 4bfbab1c
+D mssyst-runtime-remoting-messaging-imessage.ads  20060518130034 bf177a61
+D mssyst-runtime-remoting-messaging-imessagectrl.ads  20060518130034 e22b39ed
+D mssyst-runtime-remoting-messaging-imessagesink.ads  20060518130034 9c27ef9e
+D mssyst-runtime-remoting-objref.ads  20060518130036 cc63dccf
+D mssyst-runtime-serialization.ads  20060517214744 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060518130016 a25d9d2b
+D mssyst-runtime-serialization-iformatterconverter.ads  20060518130018 02d31acb
+D mssyst-runtime-serialization-iobjectreference.ads  20060518130008 c3279c62
+D mssyst-runtime-serialization-iserializable.ads  20060518130006 bc8947c1
+D mssyst-runtime-serialization-serializationentry.ads  20060518130020 a6dd57a6
+D mssyst-runtime-serialization-serializationinfo.ads  20060518130020 fe6300a3
+D mssyst-runtime-serialization-serializationinfoenumerator.ads  20060518130020 b2a6a08c
+D mssyst-runtime-serialization-streamingcontext.ads  20060518130020 b7580dc0
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060518130020 ab32dd44
+D mssyst-runtimefieldhandle.ads  20060518130010 1a535b0a
+D mssyst-runtimemethodhandle.ads  20060518130010 b5a8fc11
+D mssyst-runtimetypehandle.ads  20060518130010 2dc72f74
+D mssyst-sbyte.ads	20060518130010 0b40b4c3
+D mssyst-security.ads	20060517214744 a4c8227c
+D mssyst-security-accesscontrol.ads  20060517214756 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060518130042 da644f3b
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060518130042 983129b3
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060518130042 aaa7f08e
+D mssyst-security-accesscontrol-accessrule.ads  20060518130042 357b7164
+D mssyst-security-accesscontrol-auditflags.ads  20060518130042 6697b648
+D mssyst-security-accesscontrol-auditrule.ads  20060518130042 548a6e76
+D mssyst-security-accesscontrol-authorizationrule.ads  20060518130042 d4d98288
+D mssyst-security-accesscontrol-authorizationrulecollection.ads  20060518130042 bd787679
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060518130042 87d97b1c
+D mssyst-security-accesscontrol-filesecurity.ads  20060518130042 d4ef23f2
+D mssyst-security-accesscontrol-filesystemaccessrule.ads  20060518130042 3996455e
+D mssyst-security-accesscontrol-filesystemauditrule.ads  20060518130042 364a20bb
+D mssyst-security-accesscontrol-filesystemrights.ads  20060518130042 99ab4846
+D mssyst-security-accesscontrol-filesystemsecurity.ads  20060518130042 6b12c956
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060518130042 cb8e28ec
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060518130042 68e32c77
+D mssyst-security-accesscontrol-objectsecurity.ads  20060518130042 d97d6fc7
+D mssyst-security-accesscontrol-propagationflags.ads  20060518130042 7d0c8f98
+D mssyst-security-cryptography.ads  20060517214756 6bbb0e6b
+D mssyst-security-cryptography-x509certificates.ads  20060517214756 1b20ddcc
+D mssyst-security-cryptography-x509certificates-x509certificate.ads  20060518130042 438b9ef5
+D mssyst-security-cryptography-x509certificates-x509contenttype.ads  20060518130042 6cfaa0cf
+D mssyst-security-cryptography-x509certificates-x509keystorageflags.ads  20060518130042 db32c0bb
+D mssyst-security-ievidencefactory.ads  20060518130006 43c6d461
+D mssyst-security-policy.ads  20060517214748 7a609687
+D mssyst-security-policy-evidence.ads  20060518130024 1eabe8be
+D mssyst-security-principal.ads  20060517214748 7adc43fd
+D mssyst-security-principal-identityreference.ads  20060518130042 0b9e5f80
+D mssyst-security-securestring.ads  20060518130034 a9a06371
+D mssyst-string.ads	20060518130004 b98d995f
+D mssyst-stringcomparison.ads  20060518130006 86ec68cf
+D mssyst-stringsplitoptions.ads  20060518130006 f2d0599e
+D mssyst-text.ads	20060517214744 a7ed250d
+D mssyst-text-decoder.ads  20060518130022 3b11b35a
+D mssyst-text-decoderfallback.ads  20060518130022 75e2f645
+D mssyst-text-decoderfallbackbuffer.ads  20060518130022 cf5e5e9e
+D mssyst-text-encoder.ads  20060518130022 58ffabf7
+D mssyst-text-encoderfallback.ads  20060518130022 77489063
+D mssyst-text-encoderfallbackbuffer.ads  20060518130022 50c8196a
+D mssyst-text-encoding.ads  20060518130022 9fed9190
+D mssyst-text-encodinginfo.ads  20060518130022 ce8a22c1
+D mssyst-text-normalizationform.ads  20060518130022 2ca43f9a
+D mssyst-threading.ads	20060517214746 964d65eb
+D mssyst-threading-waithandle.ads  20060518130010 cebe4958
+D mssyst-timespan.ads	20060518130010 642ef661
+D mssyst-type_k.ads	20060518130010 5ccf03f1
+D mssyst-typecode.ads	20060518130010 f5c22e86
+D mssyst-typedreference.ads  20060518130010 9b3bbb41
+D mssyst-uri.ads	20060518130054 c22e88e6
+D mssyst-uricomponents.ads  20060518130054 c52bdb9f
+D mssyst-uriformat.ads	20060518130054 c2f05e84
+D mssyst-urihostnametype.ads  20060518130054 336f94bf
+D mssyst-urikind.ads	20060518130054 84748590
+D mssyst-uripartial.ads	20060518130054 b52b6a22
+D mssyst-valuetype.ads	20060518130004 4fb553b0
+D mssyst-version.ads	20060518130010 523fbb99
+D mssyst-windows.ads	20060517222336 8e5e07ed
+D mssyst-windows-forms.ads  20060517222336 c6ce9829
+D mssyst-windows-forms-accessiblenavigation.ads  20060518130110 3d32775c
+D mssyst-windows-forms-accessibleobject.ads  20060518130114 820cef9d
+D mssyst-windows-forms-accessiblerole.ads  20060518130114 c1d0c107
+D mssyst-windows-forms-accessibleselection.ads  20060518130114 b1973c0a
+D mssyst-windows-forms-accessiblestates.ads  20060518130114 a2289712
+D mssyst-windows-forms-anchorstyles.ads  20060518130114 4e536be4
+D mssyst-windows-forms-arrowdirection.ads  20060518130116 c5035255
+D mssyst-windows-forms-autoscalemode.ads  20060518130116 9d124fe9
+D mssyst-windows-forms-autosizemode.ads  20060518130116 43aa5778
+D mssyst-windows-forms-autovalidate.ads  20060518130116 32449e28
+D mssyst-windows-forms-basecollection.ads  20060518130116 447e3383
+D mssyst-windows-forms-binding.ads  20060518130116 aceeb110
+D mssyst-windows-forms-bindingcompletecontext.ads  20060518130116 61904e92
+D mssyst-windows-forms-bindingcompleteeventargs.ads  20060518130116 a40c8d78
+D mssyst-windows-forms-bindingcompleteeventhandler.ads  20060518130116 930db984
+D mssyst-windows-forms-bindingcompletestate.ads  20060518130116 da465ef5
+D mssyst-windows-forms-bindingcontext.ads  20060518130116 23b66d53
+D mssyst-windows-forms-bindingmanagerbase.ads  20060518130116 e0eb4c35
+D mssyst-windows-forms-bindingmanagerdataerroreventargs.ads  20060518130116 faa46525
+D mssyst-windows-forms-bindingmanagerdataerroreventhandler.ads  20060518130116 33a7344c
+D mssyst-windows-forms-bindingmemberinfo.ads  20060518130116 b593394d
+D mssyst-windows-forms-bindingscollection.ads  20060518130116 779e2073
+D mssyst-windows-forms-borderstyle.ads  20060518130118 42f16b32
+D mssyst-windows-forms-boundsspecified.ads  20060518130118 a97aaa63
+D mssyst-windows-forms-checkstate.ads  20060518130120 2595d314
+D mssyst-windows-forms-closereason.ads  20060518130120 6b0f1186
+D mssyst-windows-forms-colordepth.ads  20060518130120 49a8326f
+D mssyst-windows-forms-containercontrol.ads  20060518130116 4ef13035
+D mssyst-windows-forms-contextmenu.ads  20060518130120 652c65c2
+D mssyst-windows-forms-contextmenustrip.ads  20060518130120 22543584
+D mssyst-windows-forms-control.ads  20060518130114 026ee308
+D mssyst-windows-forms-control-controlcollection.ads  20060518130116 6a3c9f7b
+D mssyst-windows-forms-controlbindingscollection.ads  20060518130120 1b29252d
+D mssyst-windows-forms-controleventargs.ads  20060518130120 f604d960
+D mssyst-windows-forms-controleventhandler.ads  20060518130120 19cbda99
+D mssyst-windows-forms-controlupdatemode.ads  20060518130120 818961e5
+D mssyst-windows-forms-converteventargs.ads  20060518130120 01eaf98e
+D mssyst-windows-forms-converteventhandler.ads  20060518130120 ce2c2d9a
+D mssyst-windows-forms-cursor.ads  20060518130120 2a79b6ff
+D mssyst-windows-forms-datasourceupdatemode.ads  20060518130124 f602e300
+D mssyst-windows-forms-dialogresult.ads  20060518130124 f0beb1e0
+D mssyst-windows-forms-dockstyle.ads  20060518130124 03507d30
+D mssyst-windows-forms-dragaction.ads  20060518130124 7042b38a
+D mssyst-windows-forms-dragdropeffects.ads  20060518130124 71495740
+D mssyst-windows-forms-drageventargs.ads  20060518130124 e2f22b2a
+D mssyst-windows-forms-drageventhandler.ads  20060518130124 4c7dbe68
+D mssyst-windows-forms-drawitemeventargs.ads  20060518130124 cae0080c
+D mssyst-windows-forms-drawitemeventhandler.ads  20060518130124 7c53e1da
+D mssyst-windows-forms-drawitemstate.ads  20060518130124 a239d972
+D mssyst-windows-forms-form.ads  20060518130124 4344be7a
+D mssyst-windows-forms-formborderstyle.ads  20060518130124 b5877fd2
+D mssyst-windows-forms-formclosedeventargs.ads  20060518130124 2f33b66f
+D mssyst-windows-forms-formclosedeventhandler.ads  20060518130124 1a45477d
+D mssyst-windows-forms-formclosingeventargs.ads  20060518130124 a615b23f
+D mssyst-windows-forms-formclosingeventhandler.ads  20060518130124 3d17849c
+D mssyst-windows-forms-formstartposition.ads  20060518130124 f4847630
+D mssyst-windows-forms-formwindowstate.ads  20060518130124 57e437d8
+D mssyst-windows-forms-getchildatpointskip.ads  20060518130126 51d01052
+D mssyst-windows-forms-givefeedbackeventargs.ads  20060518130124 177cd17b
+D mssyst-windows-forms-givefeedbackeventhandler.ads  20060518130124 e21d2f33
+D mssyst-windows-forms-helpeventargs.ads  20060518130126 9f315a3f
+D mssyst-windows-forms-helpeventhandler.ads  20060518130126 c6a277e0
+D mssyst-windows-forms-hscrollproperties.ads  20060518130126 f6cc9414
+D mssyst-windows-forms-htmldocument.ads  20060518130126 d6a96df2
+D mssyst-windows-forms-htmlelement.ads  20060518130126 73c80dd6
+D mssyst-windows-forms-htmlelementcollection.ads  20060518130126 41efb0b8
+D mssyst-windows-forms-htmlelementerroreventargs.ads  20060518130126 fcc4eb10
+D mssyst-windows-forms-htmlelementerroreventhandler.ads  20060518130126 d48e4f4c
+D mssyst-windows-forms-htmlelementeventargs.ads  20060518130126 3b7c180a
+D mssyst-windows-forms-htmlelementeventhandler.ads  20060518130126 d6cfd209
+D mssyst-windows-forms-htmlelementinsertionorientation.ads  20060518130126 71d7ae4c
+D mssyst-windows-forms-htmlhistory.ads  20060518130126 082d7c2e
+D mssyst-windows-forms-htmlwindow.ads  20060518130126 43aa68bd
+D mssyst-windows-forms-htmlwindowcollection.ads  20060518130126 36b2e212
+D mssyst-windows-forms-ibindablecomponent.ads  20060518130114 e6b91879
+D mssyst-windows-forms-ibuttoncontrol.ads  20060518130118 51fe36ae
+D mssyst-windows-forms-icontainercontrol.ads  20060518130116 6cc09154
+D mssyst-windows-forms-idataobject.ads  20060518130124 f4cf6cce
+D mssyst-windows-forms-idroptarget.ads  20060518130114 8d9d2cd7
+D mssyst-windows-forms-imagelayout.ads  20060518130126 5906f39d
+D mssyst-windows-forms-imagelist.ads  20060518130120 64fadde2
+D mssyst-windows-forms-imagelist-imagecollection.ads  20060518130120 bb19910e
+D mssyst-windows-forms-imageliststreamer.ads  20060518130126 571c546e
+D mssyst-windows-forms-imemode.ads  20060518130126 78e43109
+D mssyst-windows-forms-inputlanguage.ads  20060518130126 48296280
+D mssyst-windows-forms-inputlanguagechangedeventargs.ads  20060518130126 1beaaef9
+D mssyst-windows-forms-inputlanguagechangedeventhandler.ads  20060518130126 cc6a7a74
+D mssyst-windows-forms-inputlanguagechangingeventargs.ads  20060518130126 c66b0bc5
+D mssyst-windows-forms-inputlanguagechangingeventhandler.ads  20060518130126 b7b98b9a
+D mssyst-windows-forms-inputlanguagecollection.ads  20060518130126 0c2cc084
+D mssyst-windows-forms-invalidateeventargs.ads  20060518130126 8a4e9ce0
+D mssyst-windows-forms-invalidateeventhandler.ads  20060518130126 b945e3b8
+D mssyst-windows-forms-iwin32window.ads  20060518130114 08a4c7a2
+D mssyst-windows-forms-iwindowtarget.ads  20060518130116 57798aab
+D mssyst-windows-forms-keyeventargs.ads  20060518130126 bf9bbd85
+D mssyst-windows-forms-keyeventhandler.ads  20060518130126 de22b50d
+D mssyst-windows-forms-keypresseventargs.ads  20060518130126 1f0dd90f
+D mssyst-windows-forms-keypresseventhandler.ads  20060518130126 80dda25a
+D mssyst-windows-forms-keys.ads  20060518130126 dd1b1ea0
+D mssyst-windows-forms-layout.ads  20060517222340 3299b9a1
+D mssyst-windows-forms-layout-arrangedelementcollection.ads  20060518130116 226098af
+D mssyst-windows-forms-layout-layoutengine.ads  20060518130120 54188778
+D mssyst-windows-forms-layouteventargs.ads  20060518130126 aa97f78f
+D mssyst-windows-forms-layouteventhandler.ads  20060518130126 ee9a8e28
+D mssyst-windows-forms-layoutsettings.ads  20060518130124 ac541dea
+D mssyst-windows-forms-leftrightalignment.ads  20060518130126 1fe30291
+D mssyst-windows-forms-mainmenu.ads  20060518130128 c2697632
+D mssyst-windows-forms-mdilayout.ads  20060518130128 3ae5cdc2
+D mssyst-windows-forms-measureitemeventargs.ads  20060518130128 dd99311a
+D mssyst-windows-forms-measureitemeventhandler.ads  20060518130128 cf61bb53
+D mssyst-windows-forms-menu.ads  20060518130120 7e688df2
+D mssyst-windows-forms-menu-menuitemcollection.ads  20060518130120 3ea949c3
+D mssyst-windows-forms-menuitem.ads  20060518130128 d786aedf
+D mssyst-windows-forms-menumerge.ads  20060518130128 f535a896
+D mssyst-windows-forms-menustrip.ads  20060518130128 bfb3e983
+D mssyst-windows-forms-mergeaction.ads  20060518130128 cade9c84
+D mssyst-windows-forms-message.ads  20060518130128 91e42acd
+D mssyst-windows-forms-mousebuttons.ads  20060518130128 6934ff7d
+D mssyst-windows-forms-mouseeventargs.ads  20060518130122 296b5121
+D mssyst-windows-forms-mouseeventhandler.ads  20060518130128 347ed6e0
+D mssyst-windows-forms-orientation.ads  20060518130132 0d5ffb7a
+D mssyst-windows-forms-padding.ads  20060518130132 8737cf24
+D mssyst-windows-forms-painteventargs.ads  20060518130116 65c2db26
+D mssyst-windows-forms-painteventhandler.ads  20060518130132 4c2a1756
+D mssyst-windows-forms-panel.ads  20060518130124 663cb433
+D mssyst-windows-forms-preprocesscontrolstate.ads  20060518130132 35062a83
+D mssyst-windows-forms-previewkeydowneventargs.ads  20060518130132 93a13188
+D mssyst-windows-forms-previewkeydowneventhandler.ads  20060518130132 f4f2a3ff
+D mssyst-windows-forms-queryaccessibilityhelpeventargs.ads  20060518130132 6a899610
+D mssyst-windows-forms-queryaccessibilityhelpeventhandler.ads  20060518130132 24bfd98a
+D mssyst-windows-forms-querycontinuedrageventargs.ads  20060518130132 ae63f79a
+D mssyst-windows-forms-querycontinuedrageventhandler.ads  20060518130132 de33ca22
+D mssyst-windows-forms-righttoleft.ads  20060518130132 4570a852
+D mssyst-windows-forms-scrollablecontrol.ads  20060518130116 86bb7bcc
+D mssyst-windows-forms-scrollablecontrol-dockpaddingedges.ads  20060518130116 15e132d7
+D mssyst-windows-forms-scrolleventargs.ads  20060518130132 5ff3febb
+D mssyst-windows-forms-scrolleventhandler.ads  20060518130132 c8dea5e0
+D mssyst-windows-forms-scrolleventtype.ads  20060518130132 bc9d682f
+D mssyst-windows-forms-scrollorientation.ads  20060518130132 a478268c
+D mssyst-windows-forms-scrollproperties.ads  20060518130126 830007a2
+D mssyst-windows-forms-shortcut.ads  20060518130132 517883ce
+D mssyst-windows-forms-sizegripstyle.ads  20060518130132 dd489a31
+D mssyst-windows-forms-textformatflags.ads  20060518130144 5eb99bbd
+D mssyst-windows-forms-textimagerelation.ads  20060518130134 924c5746
+D mssyst-windows-forms-toolstrip.ads  20060518130116 ed663419
+D mssyst-windows-forms-toolstriparrowrendereventargs.ads  20060518130134 51450b65
+D mssyst-windows-forms-toolstriparrowrendereventhandler.ads  20060518130134 8fbb60e9
+D mssyst-windows-forms-toolstripcontentpanel.ads  20060518130136 555aedca
+D mssyst-windows-forms-toolstripcontentpanelrendereventargs.ads  20060518130136 5f368dbd
+D mssyst-windows-forms-toolstripcontentpanelrendereventhandler.ads  20060518130136 00547e34
+D mssyst-windows-forms-toolstripdropdown.ads  20060518130120 77c27e05
+D mssyst-windows-forms-toolstripdropdownbutton.ads  20060518130134 773cef69
+D mssyst-windows-forms-toolstripdropdownclosedeventargs.ads  20060518130134 d4a0958a
+D mssyst-windows-forms-toolstripdropdownclosedeventhandler.ads  20060518130134 3aee4abb
+D mssyst-windows-forms-toolstripdropdownclosereason.ads  20060518130134 1ce047e7
+D mssyst-windows-forms-toolstripdropdownclosingeventargs.ads  20060518130134 7a54eb1b
+D mssyst-windows-forms-toolstripdropdownclosingeventhandler.ads  20060518130134 b3246de1
+D mssyst-windows-forms-toolstripdropdowndirection.ads  20060518130134 92c6d253
+D mssyst-windows-forms-toolstripdropdownitem.ads  20060518130128 b214b94b
+D mssyst-windows-forms-toolstripdropdownmenu.ads  20060518130120 12491fa6
+D mssyst-windows-forms-toolstripgripdisplaystyle.ads  20060518130134 02f378b3
+D mssyst-windows-forms-toolstripgriprendereventargs.ads  20060518130134 fa6eb3f3
+D mssyst-windows-forms-toolstripgriprendereventhandler.ads  20060518130134 8bc57858
+D mssyst-windows-forms-toolstripgripstyle.ads  20060518130134 d6d946b8
+D mssyst-windows-forms-toolstripitem.ads  20060518130116 a104b27f
+D mssyst-windows-forms-toolstripitemalignment.ads  20060518130134 411436ed
+D mssyst-windows-forms-toolstripitemclickedeventargs.ads  20060518130134 dea38b73
+D mssyst-windows-forms-toolstripitemclickedeventhandler.ads  20060518130134 ff16a059
+D mssyst-windows-forms-toolstripitemcollection.ads  20060518130136 be7fc7a1
+D mssyst-windows-forms-toolstripitemdisplaystyle.ads  20060518130136 986d6adc
+D mssyst-windows-forms-toolstripitemeventargs.ads  20060518130136 7581c883
+D mssyst-windows-forms-toolstripitemeventhandler.ads  20060518130136 d4fb18fc
+D mssyst-windows-forms-toolstripitemimagerendereventargs.ads  20060518130136 7ea213ce
+D mssyst-windows-forms-toolstripitemimagerendereventhandler.ads  20060518130136 ee9595d1
+D mssyst-windows-forms-toolstripitemimagescaling.ads  20060518130136 531ffd1d
+D mssyst-windows-forms-toolstripitemoverflow.ads  20060518130136 0f08e382
+D mssyst-windows-forms-toolstripitemplacement.ads  20060518130136 1f634eb4
+D mssyst-windows-forms-toolstripitemrendereventargs.ads  20060518130136 8fd8812d
+D mssyst-windows-forms-toolstripitemrendereventhandler.ads  20060518130136 b7026286
+D mssyst-windows-forms-toolstripitemtextrendereventargs.ads  20060518130136 f8bdcc16
+D mssyst-windows-forms-toolstripitemtextrendereventhandler.ads  20060518130136 2866c437
+D mssyst-windows-forms-toolstriplayoutstyle.ads  20060518130136 cd2e7f39
+D mssyst-windows-forms-toolstripmenuitem.ads  20060518130128 1d68acdd
+D mssyst-windows-forms-toolstripoverflowbutton.ads  20060518130136 2b6bd31f
+D mssyst-windows-forms-toolstrippanel.ads  20060518130136 226a3d64
+D mssyst-windows-forms-toolstrippanelrendereventargs.ads  20060518130136 a6dfff4e
+D mssyst-windows-forms-toolstrippanelrendereventhandler.ads  20060518130136 fc1881c8
+D mssyst-windows-forms-toolstrippanelrow.ads  20060518130136 37dd87c3
+D mssyst-windows-forms-toolstriprenderer.ads  20060518130134 b97e3af1
+D mssyst-windows-forms-toolstriprendereventargs.ads  20060518130134 3a2e4e13
+D mssyst-windows-forms-toolstriprendereventhandler.ads  20060518130136 25bcdaad
+D mssyst-windows-forms-toolstriprendermode.ads  20060518130136 992f6797
+D mssyst-windows-forms-toolstripseparator.ads  20060518130136 4571d46a
+D mssyst-windows-forms-toolstripseparatorrendereventargs.ads  20060518130136 64871c1b
+D mssyst-windows-forms-toolstripseparatorrendereventhandler.ads  20060518130136 2763a3ab
+D mssyst-windows-forms-toolstriptextdirection.ads  20060518130136 d0b644b6
+D mssyst-windows-forms-uicues.ads  20060518130138 bbbabf6e
+D mssyst-windows-forms-uicueseventargs.ads  20060518130138 a2e4d49d
+D mssyst-windows-forms-uicueseventhandler.ads  20060518130138 d69d34c9
+D mssyst-windows-forms-validationconstraints.ads  20060518130138 67ad96a1
+D mssyst-windows-forms-vscrollproperties.ads  20060518130138 116d6b5f
+D mssyst-windows-forms-webbrowser.ads  20060518130138 daaaaa84
+D mssyst-windows-forms-webbrowserbase.ads  20060518130138 1c9a16eb
+D mssyst-windows-forms-webbrowserdocumentcompletedeventargs.ads  20060518130138 30a88c9f
+D mssyst-windows-forms-webbrowserdocumentcompletedeventhandler.ads  20060518130138 2e7ef84c
+D mssyst-windows-forms-webbrowserencryptionlevel.ads  20060518130138 ae0b17b5
+D mssyst-windows-forms-webbrowsernavigatedeventargs.ads  20060518130138 c44b2c07
+D mssyst-windows-forms-webbrowsernavigatedeventhandler.ads  20060518130138 e2551bfc
+D mssyst-windows-forms-webbrowsernavigatingeventargs.ads  20060518130138 4b671118
+D mssyst-windows-forms-webbrowsernavigatingeventhandler.ads  20060518130138 510596ac
+D mssyst-windows-forms-webbrowserprogresschangedeventargs.ads  20060518130138 48587b59
+D mssyst-windows-forms-webbrowserprogresschangedeventhandler.ads  20060518130138 3c1fe41d
+D mssyst-windows-forms-webbrowserreadystate.ads  20060518130138 4cbfea9b
+D mssyst-windows-forms-webbrowserrefreshoption.ads  20060518130138 9816824b
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 16 msil_types.ads
+5K9*Msil_Types 66e15 543|7w6 8r5 206r18 226r18
+22E9*unsigned_int8<character>
+42A9*unsigned_int8_arr(22E9) 543|206r29 226r29
+50M9*native_int
+X 17 mssyst.ads
+6K9*MSSyst 7e11 543|6r6 10r6 11r6 14r6 28r6 30r6 43r6 56r6 58r6 59r6 68r6
+. 78r6 86r9 87r20 88r14 89r14 90r14 91r14 92r14 93r14 106r22 109r22 112r22
+. 115r22 118r22 121r22 124r22 127r22 130r22 133r22 136r22 139r22 149r40 151r40
+. 153r40 155r40 157r40 159r33 169r40 171r33 173r33 179r40 181r40 183r40 196r20
+. 200r26 204r20 205r32 207r34 210r26 211r32 214r20 217r26 220r20 221r32 224r26
+. 225r32 227r34 232r13 237r22 240r22 243r22 246r22 249r22 252r22 255r22 258r22
+. 261r22 264r22 267r22 270r22 279r22 282r22 288r22 291r15 300r22 390r5 391r20
+X 35 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 543|10r13 11r13 14r13 88r21 91r21 130r29 261r29
+X 38 mssyst-componentmodel-canceleventhandler.ads
+21K31 CancelEventHandler 543|130r44 261r44
+X 42 mssyst-componentmodel-component.ads
+18K31*Component 59e36 543|10w28
+32U14*add_Disposed<45|19p14>
+35U14*Dispose<180|16p14>
+37V13*get_Container
+41U14*remove_Disposed<45|24p14>
+47V13*ToString<191|13p9>
+X 45 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 35e37 543|11w28 88r36
+13H9*Typ 543|88r47
+X 48 mssyst-componentmodel-isynchronizeinvoke.ads
+11K31*ISynchronizeInvoke 36e45 543|14w28 91r36
+12H9*Typ 543|91r55
+X 158 mssyst-eventhandler.ads
+21K16 EventHandler 543|106r29 109r29 115r29 118r29 121r29 133r29 139r29 237r29
+. 240r29 246r29 249r29 252r29 264r29 270r29
+X 180 mssyst-idisposable.ads
+9K16*IDisposable 20e23 543|28w13 89r21
+10H9*Typ 543|89r33
+X 182 mssyst-io.ads
+6K16 IO 543|151r47 279r29
+X 189 mssyst-io-stream.ads
+17K19 Stream 543|151r50 279r32
+X 191 mssyst-marshalbyrefobject.ads
+12K16*MarshalByRefObject 33e30 543|30w13
+21V13*CreateObjRef
+24V13*GetLifetimeService(195|11R9)
+26V13*InitializeLifetimeService(195|11R9)
+X 195 mssyst-object.ads
+10K16*Object 44e18 543|6w13 169r47 288r29
+11R9*Typ 13e14 543|169r54 288r36
+21V13*Equals{boolean}
+27V13*GetHashCode{integer}
+29V13*GetType
+X 313 mssyst-string.ads
+23K16 String 543|153r47 155r47 157r47 179r47 200r33 205r39 207r41 210r33
+. 211r39 217r33 221r39 224r33 225r39 227r41 282r29
+X 332 mssyst-uri.ads
+18K16 Uri 543|181r47 196r27 204r27 214r27 220r27 300r29
+X 339 mssyst-version.ads
+13K16 Version 543|183r47
+X 340 mssyst-windows.ads
+6K16*Windows 17|6k9 340|7e19 543|43r13 56r13 58r13 59r13 68r13 78r13 86r16
+. 87r27 90r21 92r21 93r21 112r29 124r29 127r29 136r29 149r47 159r40 171r40
+. 173r40 232r20 243r29 255r29 258r29 267r29 291r22 390r12 391r27
+X 341 mssyst-windows-forms.ads
+6K24*Forms 340|6k16 341|7e25 543|43r21 56r21 58r21 59r21 68r21 78r21 86r24
+. 87r35 90r29 92r29 93r29 112r37 124r37 127r37 136r37 149r55 159r48 171r48
+. 173r48 232r28 243r37 255r37 258r37 267r37 291r30 390r20 391r35
+X 372 mssyst-windows-forms-control.ads
+75K30*Control 1303e33 543|43w27
+115U14*add_AutoSizeChanged
+130U14*add_CausesValidationChanged
+139U14*add_ClientSizeChanged
+142U14*add_ContextMenuChanged
+145U14*add_ContextMenuStripChanged
+148U14*add_ControlAdded
+151U14*add_ControlRemoved
+157U14*add_DockChanged
+190U14*add_GotFocus
+193U14*add_HandleCreated
+196U14*add_HandleDestroyed
+205U14*add_Invalidated
+223U14*add_LocationChanged
+226U14*add_LostFocus
+229U14*add_MarginChanged
+262U14*add_Move
+271U14*add_ParentChanged
+274U14*add_PreviewKeyDown
+283U14*add_RegionChanged
+286U14*add_Resize
+292U14*add_SizeChanged
+298U14*add_SystemColorsChanged
+301U14*add_TabIndexChanged
+304U14*add_TabStopChanged
+310U14*add_Validated
+313U14*add_Validating
+316U14*add_VisibleChanged
+319V13*BeginInvoke
+322V13*BeginInvoke<48|18p13>
+326U14*BringToFront
+328V13*Contains{boolean}
+331U14*CreateControl
+333V13*CreateGraphics
+335V13*DoDragDrop
+343V13*EndInvoke(195|11R9)<48|22p13>
+346V13*FindForm
+348V13*Focus{boolean}
+354V13*get_AccessibilityObject
+356V13*get_AccessibleDefaultActionDescription
+358V13*get_AccessibleDescription
+360V13*get_AccessibleName
+362V13*get_AccessibleRole
+366V13*get_Anchor
+368V13*get_AutoScrollOffset
+370V13*get_AutoSize{boolean}
+378V13*get_BindingContext<416|20p13>
+380V13*get_Bottom{integer}
+382V13*get_Bounds
+384V13*get_CanFocus{boolean}
+386V13*get_CanSelect{boolean}
+388V13*get_Capture{boolean}
+390V13*get_CausesValidation{boolean}
+393V13*get_ClientRectangle
+395V13*get_ClientSize
+397V13*get_CompanyName
+399V13*get_ContainsFocus{boolean}
+401V13*get_ContextMenu
+403V13*get_ContextMenuStrip
+405V13*get_Controls
+407V13*get_Created{boolean}
+411V13*get_DataBindings<416|22p13>
+416V13*get_DisplayRectangle
+418V13*get_Disposing{boolean}
+420V13*get_Dock
+430V13*get_Handle{16|50M9}<434|16p13>
+432V13*get_HasChildren{boolean}
+434V13*get_Height{integer}
+438V13*get_InvokeRequired{boolean}<48|25p13>
+440V13*get_IsAccessible{boolean}
+442V13*get_IsDisposed{boolean}
+444V13*get_IsHandleCreated{boolean}
+446V13*get_IsMirrored{boolean}
+448V13*get_LayoutEngine
+450V13*get_Left{integer}
+452V13*get_Location
+454V13*get_Margin
+456V13*get_MaximumSize
+458V13*get_MinimumSize
+463V13*get_Name
+467V13*get_Parent(76R9)
+469V13*get_PreferredSize
+471V13*get_ProductName
+473V13*get_ProductVersion
+475V13*get_RecreatingHandle{boolean}
+477V13*get_Region
+479V13*get_Right{integer}
+483V13*get_Site<42|39p13>
+485V13*get_Size
+487V13*get_TabIndex{integer}
+489V13*get_TabStop{boolean}
+491V13*get_Tag(195|11R9)
+495V13*get_Top{integer}
+497V13*get_TopLevelControl(76R9)
+501V13*get_Visible{boolean}
+503V13*get_Width{integer}
+505V13*get_WindowTarget
+507V13*GetChildAtPoint(76R9)
+511V13*GetChildAtPoint(76R9)
+514V13*GetContainerControl
+516V13*GetNextControl(76R9)
+520V13*GetPreferredSize
+523U14*Hide
+525U14*Invalidate
+529U14*Invalidate
+533U14*Invalidate
+536U14*Invalidate
+539U14*Invalidate
+542U14*Invalidate
+544V13*Invoke(195|11R9)
+547V13*Invoke(195|11R9)<48|27p13>
+556U14*PerformLayout
+560U14*PerformLayout
+562V13*PointToClient
+565V13*PointToScreen
+568V13*PreProcessControlMessage
+574V13*RectangleToClient
+577V13*RectangleToScreen
+582U14*remove_AutoSizeChanged
+597U14*remove_CausesValidationChanged
+606U14*remove_ClientSizeChanged
+609U14*remove_ContextMenuChanged
+612U14*remove_ContextMenuStripChanged
+615U14*remove_ControlAdded
+618U14*remove_ControlRemoved
+624U14*remove_DockChanged
+657U14*remove_GotFocus
+660U14*remove_HandleCreated
+663U14*remove_HandleDestroyed
+672U14*remove_Invalidated
+690U14*remove_LocationChanged
+693U14*remove_LostFocus
+696U14*remove_MarginChanged
+729U14*remove_Move
+738U14*remove_ParentChanged
+741U14*remove_PreviewKeyDown
+750U14*remove_RegionChanged
+753U14*remove_Resize
+759U14*remove_SizeChanged
+765U14*remove_SystemColorsChanged
+768U14*remove_TabIndexChanged
+771U14*remove_TabStopChanged
+777U14*remove_Validated
+780U14*remove_Validating
+783U14*remove_VisibleChanged
+786U14*ResetBackColor
+788U14*ResetBindings
+790U14*ResetCursor
+792U14*ResetFont
+794U14*ResetForeColor
+796U14*ResetImeMode
+798U14*ResetRightToLeft
+800U14*ResetText
+802U14*ResumeLayout
+805U14*ResumeLayout
+807U14*Scale
+810U14*Scale
+814U14*Scale
+817U14*Select_k
+819V13*SelectNextControl{boolean}
+826U14*SendToBack
+828U14*set_AccessibleDefaultActionDescription
+831U14*set_AccessibleDescription
+834U14*set_AccessibleName
+837U14*set_AccessibleRole
+843U14*set_Anchor
+846U14*set_AutoScrollOffset
+849U14*set_AutoSize
+861U14*set_BindingContext<416|24p14>
+864U14*set_Bounds
+867U14*set_Capture
+870U14*set_CausesValidation
+875U14*set_ClientSize
+878U14*set_ContextMenu
+881U14*set_ContextMenuStrip
+887U14*set_Dock
+899U14*set_Height
+905U14*set_IsAccessible
+908U14*set_Left
+911U14*set_Location
+914U14*set_Margin
+917U14*set_MaximumSize
+920U14*set_MinimumSize
+923U14*set_Name
+929U14*set_Parent
+932U14*set_Region
+941U14*set_Size
+944U14*set_TabIndex
+947U14*set_TabStop
+950U14*set_Tag
+956U14*set_Top
+962U14*set_Visible
+965U14*set_Width
+968U14*set_WindowTarget
+971U14*SetBounds
+977U14*SetBounds
+984U14*Show
+986U14*SuspendLayout
+988U14*Update
+X 405 mssyst-windows-forms-htmldocument.ads
+19K30 HtmlDocument 543|149r61
+X 416 mssyst-windows-forms-ibindablecomponent.ads
+13K30*IBindableComponent 31e44 543|56w27 93r35
+14H9*Typ 543|93r54
+X 420 mssyst-windows-forms-idroptarget.ads
+11K30*IDropTarget 35e37 543|58w27 90r35
+12H9*Typ 543|90r47
+18x14*OnDragDrop
+21x14*OnDragEnter
+24x14*OnDragLeave
+27x14*OnDragOver
+X 434 mssyst-windows-forms-iwin32window.ads
+9K30*IWin32Window 20e38 543|59w27 92r35
+10H9*Typ 543|92r48
+X 458 mssyst-windows-forms-message.ads
+12K30*Message 82e33 543|68w27
+X 463 mssyst-windows-forms-padding.ads
+13K30 Padding 543|171r54 291r36
+X 543 mssyst-windows-forms-webbrowser.ads
+86K30*WebBrowser 341|6k24 543|390l26 390e36 391r41
+87R9*Typ<544|75R9> 42|32P14 35P14 37p13 41P14 47P13 191|21p13 24p13 26p13
+. 195|21p13 27p13 29p13 372|115p14 130p14 139p14 142p14 145p14 148p14 151p14
+. 157p14 190p14 193p14 196p14 205p14 223p14 226p14 229p14 262p14 271p14 274p14
+. 283p14 286p14 292p14 298p14 301p14 304p14 310p14 313p14 316p14 319p13 322P13
+. 326p14 328p13 331p14 333p13 335p13 343P13 346p13 348p13 354p13 356p13 358p13
+. 360p13 362p13 366p13 368p13 370p13 378P13 380p13 382p13 384p13 386p13 388p13
+. 390p13 393p13 395p13 397p13 399p13 401p13 403p13 405p13 407p13 411P13 416p13
+. 418p13 420p13 430P13 432p13 434p13 438P13 440p13 442p13 444p13 446p13 448p13
+. 450p13 452p13 454p13 456p13 458p13 463p13 467p13 469p13 471p13 473p13 475p13
+. 477p13 479p13 483P13 485p13 487p13 489p13 491p13 495p13 497p13 501p13 503p13
+. 505p13 507p13 511p13 514p13 516p13 520p13 523p14 525p14 529p14 533p14 536p14
+. 539p14 542p14 544p13 547P13 556p14 560p14 562p13 565p13 568p13 574p13 577p13
+. 582p14 597p14 606p14 609p14 612p14 615p14 618p14 624p14 657p14 660p14 663p14
+. 672p14 690p14 693p14 696p14 729p14 738p14 741p14 750p14 753p14 759p14 765p14
+. 768p14 771p14 777p14 780p14 783p14 786p14 788p14 790p14 792p14 794p14 796p14
+. 798p14 800p14 802p14 805p14 807p14 810p14 814p14 817p14 819p13 826p14 828p14
+. 831p14 834p14 837p14 843p14 846p14 849p14 861P14 864p14 867p14 870p14 875p14
+. 878p14 881p14 887p14 899p14 905p14 908p14 911p14 914p14 917p14 920p14 923p14
+. 929p14 932p14 941p14 944p14 947p14 950p14 956p14 962p14 965p14 968p14 971p14
+. 977p14 984p14 986p14 988p14 420|18p14 21p14 24p14 27p14 543|96e14 97r27
+. 104p14 105r21 107p14 108r21 110p14 111r21 113p14 114r21 116p14 117r21 119p14
+. 120r21 122p14 123r21 125p14 126r21 128p14 129r21 131P14 132r21 134p14 135r21
+. 137p14 138r21 140p13 141r21 142p13 143r21 144p13 145r21 146p13 147r21 148p13
+. 149r21 150p13 151r21 152p13 153r21 154p13 155r21 156p13 157r21 158p13 159r21
+. 160P13 161r21 162p13 163r21 164p13 165r21 166p13 167r21 168p13 169r21 170P13
+. 171r21 172p13 173r21 174p13 175r21 176p13 177r21 178p13 179r21 180p13 181r21
+. 182p13 183r21 184p13 185r21 186p13 187r21 188p13 189r21 190p14 191r21 192p14
+. 193r21 194p14 195r21 198p14 199r21 202p14 203r21 208p14 209r21 212p14 213r21
+. 215p14 216r21 218p14 219r21 222p14 223r21 228p14 229r21 230p14 231r21 233P14
+. 234r21 235p14 236r21 238p14 239r21 241p14 242r21 244p14 245r21 247p14 248r21
+. 250p14 251r21 253p14 254r21 256p14 257r21 259p14 260r21 262P14 263r21 265p14
+. 266r21 268p14 269r21 271p14 272r21 274p14 275r21 277p14 278r21 280p14 281r21
+. 283p14 284r21 286p14 287r21 289P14 290r21 292p14 293r21 295p14 296r21 298p14
+. 299r21 301p14 302r21 304p14 305r21 306p14 307r21 308p14 309r21 310p14 311r21
+. 312p14 313r21 314p14 315r21 317r27 544|90P14 93P14 96P14 99P14 102P14 105P14
+. 108P14 111P14 114P14 117P14 120P14 123P14 126P14 129P14 132P14 135P14 138P14
+. 141P14 144P14 147P14 150P14 153P14 156P14 159P14 162P14 165P14 168P14 171P14
+. 174P14 177P14 180P14 183P14 186P14 189P14 192P14 195P14 198P14 201P14 204P14
+. 207P14 210P14 214p13 216P13 218P13 220P13 222P13 224P13 226P13 228P13 230P13
+. 232P13 234P13 236P13 238P13 240P13 243P14 246P14 249P14 252P14 255P14 258P14
+. 261P14 264P14 267P14 270P14 273P14 276P14 279P14 282P14 285P14 288P14 291P14
+. 294P14 297P14 300P14 303P14 306P14 309P14 312P14 315P14 318P14 321P14 324P14
+. 327P14 330P14 333P14 336P14 339P14 342P14 345P14 348P14 351P14 354P14 357P14
+. 360P14 363P14 366P14 369P14 372P14 375P14 378P14 381P14 384P14 387P14 390P14
+. 393P14 396P14 399P14
+97P9*Ref(87R9) 98r34 99r47 103r14 103r34
+98P9*Ref_addrof(97P9)
+99A9*Ref_Arr(97P9) 100r33
+100P9*Ref_Array(99A9) 101r40
+101P9*Ref_Array_addrof(100P9)
+102V13*new_WebBrowser{97P9} 103>7 318r28
+103p7 This{97P9}
+104U14*add_CanGoBackChanged 105^7 106^7 319b23
+105p7 This(87R9)
+106p7 value
+107U14*add_CanGoForwardChanged 108^7 109^7 320b23
+108p7 This(87R9)
+109p7 value
+110U14*add_DocumentCompleted 111^7 112^7 321b23
+111p7 This(87R9)
+112p7 value
+113U14*add_DocumentTitleChanged 114^7 115^7 322b23
+114p7 This(87R9)
+115p7 value
+116U14*add_EncryptionLevelChanged 117^7 118^7 323b23
+117p7 This(87R9)
+118p7 value
+119U14*add_FileDownload 120^7 121^7 324b23
+120p7 This(87R9)
+121p7 value
+122U14*add_Navigated 123^7 124^7 325b23
+123p7 This(87R9)
+124p7 value
+125U14*add_Navigating 126^7 127^7 326b23
+126p7 This(87R9)
+127p7 value
+128U14*add_NewWindow 129^7 130^7 327b23
+129p7 This(87R9)
+130p7 value
+131U14*add_PaddingChanged<544|75p9> 132^7 133^7 328b23
+132p7 This(87R9)
+133p7 value
+134U14*add_ProgressChanged 135^7 136^7 329b23
+135p7 This(87R9)
+136p7 value
+137U14*add_StatusTextChanged 138^7 139^7 330b23
+138p7 This(87R9)
+139p7 value
+140V13*get_AllowNavigation{boolean} 141^7 331b23
+141p7 This(87R9)
+142V13*get_AllowWebBrowserDrop{boolean} 143^7 332b23
+143p7 This(87R9)
+144V13*get_CanGoBack{boolean} 145^7 333b23
+145p7 This(87R9)
+146V13*get_CanGoForward{boolean} 147^7 334b23
+147p7 This(87R9)
+148V13*get_Document 149^7 335b23
+149p7 This(87R9)
+150V13*get_DocumentStream 151^7 336b23
+151p7 This(87R9)
+152V13*get_DocumentText 153^7 337b23
+153p7 This(87R9)
+154V13*get_DocumentTitle 155^7 338b23
+155p7 This(87R9)
+156V13*get_DocumentType 157^7 339b23
+157p7 This(87R9)
+158V13*get_EncryptionLevel 159^7 340b23
+159p7 This(87R9)
+160V13*get_Focused{boolean}<544|75p9> 161^7 341b23
+161p7 This(87R9)
+162V13*get_IsBusy{boolean} 163^7 342b23
+163p7 This(87R9)
+164V13*get_IsOffline{boolean} 165^7 343b23
+165p7 This(87R9)
+166V13*get_IsWebBrowserContextMenuEnabled{boolean} 167^7 344b23
+167p7 This(87R9)
+168V13*get_ObjectForScripting(195|11R9) 169^7 345b23
+169p7 This(87R9)
+170V13*get_Padding<544|75p9> 171^7 346b23
+171p7 This(87R9)
+172V13*get_ReadyState 173^7 347b23
+173p7 This(87R9)
+174V13*get_ScriptErrorsSuppressed{boolean} 175^7 348b23
+175p7 This(87R9)
+176V13*get_ScrollBarsEnabled{boolean} 177^7 349b23
+177p7 This(87R9)
+178V13*get_StatusText 179^7 350b23
+179p7 This(87R9)
+180V13*get_Url 181^7 351b23
+181p7 This(87R9)
+182V13*get_Version 183^7 352b23
+183p7 This(87R9)
+184V13*get_WebBrowserShortcutsEnabled{boolean} 185^7 353b23
+185p7 This(87R9)
+186V13*GoBack{boolean} 187^7 354b23
+187p7 This(87R9)
+188V13*GoForward{boolean} 189^7 355b23
+189p7 This(87R9)
+190U14*GoHome 191^7 356b23
+191p7 This(87R9)
+192U14*GoSearch 193^7 357b23
+193p7 This(87R9)
+194U14*Navigate 195^7 196^7 197>7
+195p7 This(87R9)
+196p7 url
+197b7 newWindow{boolean}
+198U14*Navigate 199^7 200^7 201>7
+199p7 This(87R9)
+200p7 urlString
+201b7 newWindow{boolean}
+202U14*Navigate 203^7 204^7 205^7 206>7 207^7
+203p7 This(87R9)
+204p7 url
+205p7 targetFrameName
+206a7 postData{16|42A9}
+207p7 additionalHeaders
+208U14*Navigate 209^7 210^7 211^7
+209p7 This(87R9)
+210p7 urlString
+211p7 targetFrameName
+212U14*Navigate 213^7 214^7
+213p7 This(87R9)
+214p7 url
+215U14*Navigate 216^7 217^7
+216p7 This(87R9)
+217p7 urlString
+218U14*Navigate 219^7 220^7 221^7
+219p7 This(87R9)
+220p7 url
+221p7 targetFrameName
+222U14*Navigate 223^7 224^7 225^7 226>7 227^7 358b23
+223p7 This(87R9)
+224p7 urlString
+225p7 targetFrameName
+226a7 postData{16|42A9}
+227p7 additionalHeaders
+228U14*Print 229^7 359b23
+229p7 This(87R9)
+230U14*Refresh 231^7 232>7
+231p7 This(87R9)
+232+7 opt
+233U14*Refresh<544|75p9> 234^7 360b23
+234p7 This(87R9)
+235U14*remove_CanGoBackChanged 236^7 237^7 361b23
+236p7 This(87R9)
+237p7 value
+238U14*remove_CanGoForwardChanged 239^7 240^7 362b23
+239p7 This(87R9)
+240p7 value
+241U14*remove_DocumentCompleted 242^7 243^7 363b23
+242p7 This(87R9)
+243p7 value
+244U14*remove_DocumentTitleChanged 245^7 246^7 364b23
+245p7 This(87R9)
+246p7 value
+247U14*remove_EncryptionLevelChanged 248^7 249^7 365b23
+248p7 This(87R9)
+249p7 value
+250U14*remove_FileDownload 251^7 252^7 366b23
+251p7 This(87R9)
+252p7 value
+253U14*remove_Navigated 254^7 255^7 367b23
+254p7 This(87R9)
+255p7 value
+256U14*remove_Navigating 257^7 258^7 368b23
+257p7 This(87R9)
+258p7 value
+259U14*remove_NewWindow 260^7 261^7 369b23
+260p7 This(87R9)
+261p7 value
+262U14*remove_PaddingChanged<544|75p9> 263^7 264^7 370b23
+263p7 This(87R9)
+264p7 value
+265U14*remove_ProgressChanged 266^7 267^7 371b23
+266p7 This(87R9)
+267p7 value
+268U14*remove_StatusTextChanged 269^7 270^7 372b23
+269p7 This(87R9)
+270p7 value
+271U14*set_AllowNavigation 272^7 273>7 373b23
+272p7 This(87R9)
+273b7 value{boolean}
+274U14*set_AllowWebBrowserDrop 275^7 276>7 374b23
+275p7 This(87R9)
+276b7 value{boolean}
+277U14*set_DocumentStream 278^7 279^7 375b23
+278p7 This(87R9)
+279p7 value
+280U14*set_DocumentText 281^7 282^7 376b23
+281p7 This(87R9)
+282p7 value
+283U14*set_IsWebBrowserContextMenuEnabled 284^7 285>7 377b23
+284p7 This(87R9)
+285b7 value{boolean}
+286U14*set_ObjectForScripting 287^7 288^7 378b23
+287p7 This(87R9)
+288p7 value(195|11R9)
+289U14*set_Padding<544|75p9> 290^7 291>7 379b23
+290p7 This(87R9)
+291+7 value
+292U14*set_ScriptErrorsSuppressed 293^7 294>7 380b23
+293p7 This(87R9)
+294b7 value{boolean}
+295U14*set_ScrollBarsEnabled 296^7 297>7 381b23
+296p7 This(87R9)
+297b7 value{boolean}
+298U14*set_Url 299^7 300^7 382b23
+299p7 This(87R9)
+300p7 value
+301U14*set_WebBrowserShortcutsEnabled 302^7 303>7 383b23
+302p7 This(87R9)
+303b7 value{boolean}
+304U14*ShowPageSetupDialog 305^7 384b23
+305p7 This(87R9)
+306U14*ShowPrintDialog 307^7 385b23
+307p7 This(87R9)
+308U14*ShowPrintPreviewDialog 309^7 386b23
+309p7 This(87R9)
+310U14*ShowPropertiesDialog 311^7 387b23
+311p7 This(87R9)
+312U14*ShowSaveAsDialog 313^7 388b23
+313p7 This(87R9)
+314U14*Stop 315^7 389b23
+315p7 This(87R9)
+X 544 mssyst-windows-forms-webbrowserbase.ads
+74K30*WebBrowserBase 543|78w27 87r41 544|512e40
+75R9*Typ<372|76R9> 543|87r56 544|84e14
+90U14*add_BackColorChanged<372|118p14>
+93U14*add_BackgroundImageChanged<372|121p14>
+96U14*add_BackgroundImageLayoutChanged<372|124p14>
+99U14*add_BindingContextChanged<372|127p14>
+102U14*add_ChangeUICues<372|133p14>
+105U14*add_Click<372|136p14>
+108U14*add_CursorChanged<372|154p14>
+111U14*add_DoubleClick<372|160p14>
+114U14*add_DragDrop<372|163p14>
+117U14*add_DragEnter<372|166p14>
+120U14*add_DragLeave<372|169p14>
+123U14*add_DragOver<372|172p14>
+126U14*add_EnabledChanged<372|175p14>
+129U14*add_Enter<372|178p14>
+132U14*add_FontChanged<372|181p14>
+135U14*add_ForeColorChanged<372|184p14>
+138U14*add_GiveFeedback<372|187p14>
+141U14*add_HelpRequested<372|199p14>
+144U14*add_ImeModeChanged<372|202p14>
+147U14*add_KeyDown<372|208p14>
+150U14*add_KeyPress<372|211p14>
+153U14*add_KeyUp<372|214p14>
+156U14*add_Layout<372|217p14>
+159U14*add_Leave<372|220p14>
+162U14*add_MouseCaptureChanged<372|232p14>
+165U14*add_MouseClick<372|235p14>
+168U14*add_MouseDoubleClick<372|238p14>
+171U14*add_MouseDown<372|241p14>
+174U14*add_MouseEnter<372|244p14>
+177U14*add_MouseHover<372|247p14>
+180U14*add_MouseLeave<372|250p14>
+183U14*add_MouseMove<372|253p14>
+186U14*add_MouseUp<372|256p14>
+189U14*add_MouseWheel<372|259p14>
+192U14*add_Paint<372|268p14>
+195U14*add_QueryAccessibilityHelp<372|277p14>
+198U14*add_QueryContinueDrag<372|280p14>
+201U14*add_RightToLeftChanged<372|289p14>
+204U14*add_StyleChanged<372|295p14>
+207U14*add_TextChanged<372|307p14>
+210U14*DrawToBitmap<372|339p14>
+214V13*get_ActiveXInstance(195|11R9)
+216V13*get_AllowDrop{boolean}<372|364p13>
+218V13*get_BackColor<372|372p13>
+220V13*get_BackgroundImage<372|374p13>
+222V13*get_BackgroundImageLayout<372|376p13>
+224V13*get_Cursor<372|409p13>
+226V13*get_Enabled{boolean}<372|422p13>
+228V13*get_Font<372|426p13>
+230V13*get_ForeColor<372|428p13>
+232V13*get_ImeMode<372|436p13>
+234V13*get_RightToLeft<372|481p13>
+236V13*get_Text<372|493p13>
+238V13*get_UseWaitCursor{boolean}<372|499p13>
+240V13*PreProcessMessage{boolean}<372|571p13>
+243U14*remove_BackColorChanged<372|585p14>
+246U14*remove_BackgroundImageChanged<372|588p14>
+249U14*remove_BackgroundImageLayoutChanged<372|591p14>
+252U14*remove_BindingContextChanged<372|594p14>
+255U14*remove_ChangeUICues<372|600p14>
+258U14*remove_Click<372|603p14>
+261U14*remove_CursorChanged<372|621p14>
+264U14*remove_DoubleClick<372|627p14>
+267U14*remove_DragDrop<372|630p14>
+270U14*remove_DragEnter<372|633p14>
+273U14*remove_DragLeave<372|636p14>
+276U14*remove_DragOver<372|639p14>
+279U14*remove_EnabledChanged<372|642p14>
+282U14*remove_Enter<372|645p14>
+285U14*remove_FontChanged<372|648p14>
+288U14*remove_ForeColorChanged<372|651p14>
+291U14*remove_GiveFeedback<372|654p14>
+294U14*remove_HelpRequested<372|666p14>
+297U14*remove_ImeModeChanged<372|669p14>
+300U14*remove_KeyDown<372|675p14>
+303U14*remove_KeyPress<372|678p14>
+306U14*remove_KeyUp<372|681p14>
+309U14*remove_Layout<372|684p14>
+312U14*remove_Leave<372|687p14>
+315U14*remove_MouseCaptureChanged<372|699p14>
+318U14*remove_MouseClick<372|702p14>
+321U14*remove_MouseDoubleClick<372|705p14>
+324U14*remove_MouseDown<372|708p14>
+327U14*remove_MouseEnter<372|711p14>
+330U14*remove_MouseHover<372|714p14>
+333U14*remove_MouseLeave<372|717p14>
+336U14*remove_MouseMove<372|720p14>
+339U14*remove_MouseUp<372|723p14>
+342U14*remove_MouseWheel<372|726p14>
+345U14*remove_Paint<372|735p14>
+348U14*remove_QueryAccessibilityHelp<372|744p14>
+351U14*remove_QueryContinueDrag<372|747p14>
+354U14*remove_RightToLeftChanged<372|756p14>
+357U14*remove_StyleChanged<372|762p14>
+360U14*remove_TextChanged<372|774p14>
+363U14*set_AllowDrop<372|840p14>
+366U14*set_BackColor<372|852p14>
+369U14*set_BackgroundImage<372|855p14>
+372U14*set_BackgroundImageLayout<372|858p14>
+375U14*set_Cursor<372|884p14>
+378U14*set_Enabled<372|890p14>
+381U14*set_Font<372|893p14>
+384U14*set_ForeColor<372|896p14>
+387U14*set_ImeMode<372|902p14>
+390U14*set_RightToLeft<372|935p14>
+393U14*set_Site<372|938p14>
+396U14*set_Text<372|953p14>
+399U14*set_UseWaitCursor<372|959p14>
+X 546 mssyst-windows-forms-webbrowserdocumentcompletedeventhandler.ads
+21K30 WebBrowserDocumentCompletedEventHandler 543|112r43 243r43
+X 547 mssyst-windows-forms-webbrowserencryptionlevel.ads
+13K30 WebBrowserEncryptionLevel 543|159r54
+X 549 mssyst-windows-forms-webbrowsernavigatedeventhandler.ads
+21K30 WebBrowserNavigatedEventHandler 543|124r43 255r43
+X 551 mssyst-windows-forms-webbrowsernavigatingeventhandler.ads
+21K30 WebBrowserNavigatingEventHandler 543|127r43 258r43
+X 553 mssyst-windows-forms-webbrowserprogresschangedeventhandler.ads
+21K30 WebBrowserProgressChangedEventHandler 543|136r43 267r43
+X 554 mssyst-windows-forms-webbrowserreadystate.ads
+13K30 WebBrowserReadyState 543|173r54
+X 555 mssyst-windows-forms-webbrowserrefreshoption.ads
+13K30 WebBrowserRefreshOption 543|232r34
+

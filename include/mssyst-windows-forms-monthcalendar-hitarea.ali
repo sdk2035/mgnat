@@ -1,0 +1,222 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.monthcalendar.hitarea%s  mssyst-windows-forms-monthcalendar-hitarea.ads  b3e4b5f2 NE PK
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.typecode%s	mssyst-typecode.ads	mssyst-typecode.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.monthcalendar%s  mssyst-windows-forms-monthcalendar.ads  mssyst-windows-forms-monthcalendar.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-componentmodel.ads  20050914013302 36ea93a4
+D mssyst-componentmodel-canceleventhandler.ads  20050914133446 cd8f886e
+D mssyst-componentmodel-component.ads  20050914133446 58368c69
+D mssyst-componentmodel-icontainer.ads  20050914133446 5316b165
+D mssyst-componentmodel-isite.ads  20050914133446 a6beb9dd
+D mssyst-datetime.ads	20050914133428 9903fbc0
+D mssyst-dayofweek.ads	20050914133428 d43eb67e
+D mssyst-delegate.ads	20050914133428 0015dc38
+D mssyst-drawing.ads	20050914013312 770dd27a
+D mssyst-drawing-color.ads  20050914133454 35052e9b
+D mssyst-drawing-drawing2d.ads  20050914013312 02b10736
+D mssyst-drawing-drawing2d-combinemode.ads  20050914133454 b93fc0a5
+D mssyst-drawing-drawing2d-compositingmode.ads  20050914133454 81a407ae
+D mssyst-drawing-drawing2d-compositingquality.ads  20050914133454 c0b33e22
+D mssyst-drawing-drawing2d-coordinatespace.ads  20050914133454 700deb53
+D mssyst-drawing-drawing2d-fillmode.ads  20050914133454 b77dddb5
+D mssyst-drawing-drawing2d-flushintention.ads  20050914133454 8b3386a1
+D mssyst-drawing-drawing2d-interpolationmode.ads  20050914133454 9f90bfca
+D mssyst-drawing-drawing2d-matrixorder.ads  20050914133456 e55d6bf5
+D mssyst-drawing-drawing2d-pixeloffsetmode.ads  20050914133456 c733ccb1
+D mssyst-drawing-drawing2d-smoothingmode.ads  20050914133456 e18b4277
+D mssyst-drawing-font.ads  20050914133454 ab936b80
+D mssyst-drawing-fontstyle.ads  20050914133454 ec8c41d4
+D mssyst-drawing-graphics.ads  20050914133454 29b92fd5
+D mssyst-drawing-graphicsunit.ads  20050914133456 9f96cfad
+D mssyst-drawing-image.ads  20050914133452 d5c52014
+D mssyst-drawing-imaging.ads  20050914013312 83f7d7de
+D mssyst-drawing-imaging-pixelformat.ads  20050914133456 975b1f1a
+D mssyst-drawing-knowncolor.ads  20050914133454 25113a2d
+D mssyst-drawing-point.ads  20050914133454 4b2c7497
+D mssyst-drawing-pointf.ads  20050914133456 3ff22b32
+D mssyst-drawing-rectangle.ads  20050914133454 aa161bfb
+D mssyst-drawing-rectanglef.ads  20050914133456 847ecb04
+D mssyst-drawing-region.ads  20050914133454 14c9b45c
+D mssyst-drawing-rotatefliptype.ads  20050914133454 873a9c76
+D mssyst-drawing-size.ads  20050914133454 159f58b5
+D mssyst-drawing-text.ads  20050914013314 47e8b126
+D mssyst-drawing-text-textrenderinghint.ads  20050914133456 afa59c2c
+D mssyst-eventhandler.ads  20050914133428 ac868423
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-calendar.ads  20050914133430 760562ef
+D mssyst-globalization-calendarweekrule.ads  20050914133430 06b3e357
+D mssyst-globalization-datetimestyles.ads  20050914133430 254277da
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-guid.ads	20050914133428 8b55ed7b
+D mssyst-iasyncresult.ads  20050914133428 efccf1fb
+D mssyst-iformatprovider.ads  20050914133428 c126b837
+D mssyst-marshalbyrefobject.ads  20050914133428 bff7d8e0
+D mssyst-multicastdelegate.ads  20050914133428 2bb11668
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-runtime.ads	20050914013248 31dcc047
+D mssyst-runtime-remoting.ads  20050914013252 74500271
+D mssyst-runtime-remoting-objref.ads  20050914133440 fd15b012
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-timespan.ads	20050914133430 2f568ec6
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D mssyst-windows.ads	20050914013316 8e5e07ed
+D mssyst-windows-forms.ads  20050914013316 c6ce9829
+D mssyst-windows-forms-accessiblenavigation.ads  20050914133458 34076c23
+D mssyst-windows-forms-accessibleobject.ads  20050914133500 24716316
+D mssyst-windows-forms-accessiblerole.ads  20050914133500 522e1241
+D mssyst-windows-forms-accessibleselection.ads  20050914133500 b2d99716
+D mssyst-windows-forms-accessiblestates.ads  20050914133500 1cd5f2cb
+D mssyst-windows-forms-anchorstyles.ads  20050914133500 db1c7eb5
+D mssyst-windows-forms-basecollection.ads  20050914133500 b38071fc
+D mssyst-windows-forms-bindingcontext.ads  20050914133500 f73ccc49
+D mssyst-windows-forms-bindingscollection.ads  20050914133500 bd2749b3
+D mssyst-windows-forms-boundsspecified.ads  20050914133500 5017e776
+D mssyst-windows-forms-containercontrol.ads  20050914133500 e628b671
+D mssyst-windows-forms-contextmenu.ads  20050914133500 37f602a5
+D mssyst-windows-forms-control.ads  20050914133500 7593522b
+D mssyst-windows-forms-control-controlcollection.ads  20050914133500 e57f043a
+D mssyst-windows-forms-controlbindingscollection.ads  20050914133500 a2a6ffc3
+D mssyst-windows-forms-controleventhandler.ads  20050914133500 529ac340
+D mssyst-windows-forms-cursor.ads  20050914133500 93441c96
+D mssyst-windows-forms-daterangeeventhandler.ads  20050914133502 e661e069
+D mssyst-windows-forms-day.ads  20050914133502 dd328beb
+D mssyst-windows-forms-dialogresult.ads  20050914133502 c70064de
+D mssyst-windows-forms-dockstyle.ads  20050914133502 99a93017
+D mssyst-windows-forms-dragdropeffects.ads  20050914133502 8aadadc7
+D mssyst-windows-forms-drageventhandler.ads  20050914133502 dbebf103
+D mssyst-windows-forms-form.ads  20050914133502 3c9e2d51
+D mssyst-windows-forms-formborderstyle.ads  20050914133502 da061e82
+D mssyst-windows-forms-formstartposition.ads  20050914133502 5266a072
+D mssyst-windows-forms-formwindowstate.ads  20050914133502 706c401e
+D mssyst-windows-forms-givefeedbackeventhandler.ads  20050914133502 3932b851
+D mssyst-windows-forms-helpeventhandler.ads  20050914133502 2b4da68f
+D mssyst-windows-forms-icontainercontrol.ads  20050914133500 d9bfe20b
+D mssyst-windows-forms-imemode.ads  20050914133504 988564c7
+D mssyst-windows-forms-invalidateeventhandler.ads  20050914133504 72fd4569
+D mssyst-windows-forms-iwindowtarget.ads  20050914133500 7fabf659
+D mssyst-windows-forms-keyeventhandler.ads  20050914133504 0783c69c
+D mssyst-windows-forms-keypresseventhandler.ads  20050914133504 f1da7f05
+D mssyst-windows-forms-keys.ads  20050914133504 e7a2b2fc
+D mssyst-windows-forms-layouteventhandler.ads  20050914133504 8cee9057
+D mssyst-windows-forms-mdilayout.ads  20050914133504 6e8350a7
+D mssyst-windows-forms-menu.ads  20050914133500 25799a45
+D mssyst-windows-forms-message.ads  20050914133504 6a24f8ac
+D mssyst-windows-forms-monthcalendar.ads  20050914133504 82ff20dd
+D mssyst-windows-forms-monthcalendar-hitarea.ads  20050914133504 dd068760
+D mssyst-windows-forms-monthcalendar-hittestinfo.ads  20050914133504 0597991c
+D mssyst-windows-forms-mousebuttons.ads  20050914133504 905a70ef
+D mssyst-windows-forms-mouseeventhandler.ads  20050914133504 3a57b681
+D mssyst-windows-forms-painteventhandler.ads  20050914133506 9cf21501
+D mssyst-windows-forms-queryaccessibilityhelpeventhandler.ads  20050914133506 58344db9
+D mssyst-windows-forms-querycontinuedrageventhandler.ads  20050914133506 21b35f5e
+D mssyst-windows-forms-righttoleft.ads  20050914133506 6d762fa3
+D mssyst-windows-forms-scrollablecontrol.ads  20050914133500 d3fe7a8f
+D mssyst-windows-forms-selectionrange.ads  20050914133506 bd4f0d0d
+D mssyst-windows-forms-sizegripstyle.ads  20050914133506 c3bc2a3a
+D mssyst-windows-forms-uicueseventhandler.ads  20050914133506 9af5903e
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 72e15 117|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 117|7r6 12r6 15r9 51r16 54r13 58r32 60r32 63r16 63r42 65r32
+. 68r16 69r18 69r53 72r18 72r53 80r5 82r20
+X 53 mssyst-iformatprovider.ads
+12K16 IFormatProvider 117|69r25 72r25
+14P9 Ref(integer) 117|69r41 72r41
+X 56 mssyst-object.ads
+11K16*Object 46e18 117|7w13 51r23 54r20
+13P9*Ref(12R9) 117|51r30 54r27
+18R9*Typ
+X 68 mssyst-string.ads
+20K16 String 117|63r23 63r49 65r39 68r23 69r60 72r60
+22P9 Ref(integer) 117|63r30 63r56 65r46 68r30 69r67 72r67
+X 70 mssyst-type_k.ads
+42K16 Type_k 117|58r39
+44P9 Ref(integer) 117|58r46
+X 71 mssyst-typecode.ads
+14K16*TypeCode 89e20 117|12w13 60r39
+15E9*ValueType 33e14 117|60r48
+X 74 mssyst-windows.ads
+6K16*Windows 6|6k9 74|7e19 117|15r16 80r12 82r27
+X 75 mssyst-windows-forms.ads
+6K24*Forms 74|6k16 75|7e25 117|15r24 80r20 82r35
+X 116 mssyst-windows-forms-monthcalendar.ads
+66K30*MonthCalendar 75|6k24 116|384e39 117|15r30 80r26 82r41
+X 117 mssyst-windows-forms-monthcalendar-hitarea.ads
+15K44*HitArea 116|66k30 117|80l40 80e47 82r55
+16E9*ValueType 29e17 30r29 31r8 45r54 47r40 50r14 53r14 56r14 58r14 60r14
+. 62r14 65r14 67r14 71r14
+17n7*Nowhere{16E9} 32r7
+18n7*TitleBackground{16E9} 33r7
+19n7*TitleMonth{16E9} 34r7
+20n7*TitleYear{16E9} 35r7
+21n7*NextMonthButton{16E9} 36r7
+22n7*PrevMonthButton{16E9} 37r7
+23n7*CalendarBackground{16E9} 38r7
+24n7*Date{16E9} 39r7
+25n7*NextMonthDate{16E9} 40r7
+26n7*PrevMonthDate{16E9} 41r7
+27n7*DayOfWeek{16E9} 42r7
+28n7*WeekNumbers{16E9} 43r7
+29n7*TodayLink{16E9} 44r7
+45A9*ValueType_Arr(16E9) 46r39
+46P9*ValueType_Array(45A9) 48r46
+47P9*ValueType_addrof(16E9)
+48P9*ValueType_array_addrof(46P9)
+49V13*CompareTo{integer} 50>7 51>7 74b23
+50e7 This{16E9}
+51p7 target{56|13P9}
+52V13*Equals{boolean} 53>7 54>7 75b23
+53e7 This{16E9}
+54p7 obj{56|13P9}
+55V13*GetHashCode{integer} 56>7 76b23
+56e7 This{16E9}
+57V13*GetType{70|44P9} 58>7 77b23
+58e7 This{16E9}
+59V13*GetTypeCode{71|15E9} 60>7 78b23
+60e7 This{16E9}
+61V13*ToString{68|22P9} 62>7 63>7
+62e7 This{16E9}
+63p7 format{68|22P9}
+64V13*ToString{68|22P9} 65>7
+65e7 This{16E9}
+66V13*ToString{68|22P9} 67>7 68>7 69>7
+67e7 This{16E9}
+68p7 format{68|22P9}
+69p7 provider{53|14P9}
+70V13*ToString{68|22P9} 71>7 72>7 79b23
+71e7 This{16E9}
+72p7 provider{53|14P9}
+

@@ -1,0 +1,132 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.remoting.metadata.w3cxsd2001.soapnonnegativeinteger%s  mssyst-runtime-remoting-metadata-w3cxsd2001-soapnonnegativeinteger.ads  5086b064 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.remoting%s  mssyst-runtime-remoting.ads  mssyst-runtime-remoting.ali
+W mssyst.runtime.remoting.metadata%s  mssyst-runtime-remoting-metadata.ads  mssyst-runtime-remoting-metadata.ali
+W mssyst.runtime.remoting.metadata.w3cxsd2001%s  mssyst-runtime-remoting-metadata-w3cxsd2001.ads  mssyst-runtime-remoting-metadata-w3cxsd2001.ali
+W mssyst.runtime.remoting.metadata.w3cxsd2001.isoapxsd%s  mssyst-runtime-remoting-metadata-w3cxsd2001-isoapxsd.ads  mssyst-runtime-remoting-metadata-w3cxsd2001-isoapxsd.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-decimal.ads	20060131171356 9b70fee6
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-midpointrounding.ads  20060131171356 5160c7d2
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-metadata.ads  20060131165238 5a51a030
+D mssyst-runtime-remoting-metadata-w3cxsd2001.ads  20060131165238 b2252d7c
+D mssyst-runtime-remoting-metadata-w3cxsd2001-isoapxsd.ads  20060131171406 ee691613
+D mssyst-runtime-remoting-metadata-w3cxsd2001-soapnonnegativeinteger.ads  20060131171406 b94eccfb
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 36|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 36|7r6 10r6 11r6 15r9 22r20 23r14 31r15 33r33 34r32 36r33
+. 38r15 38r41 41r15 43r33 53r5 55r20
+X 10 mssyst-decimal.ads
+19K16 Decimal 36|31r22 33r40 41r22
+20R9 ValueType 36|31r30 33r48 41r30
+X 17 mssyst-object.ads
+11K16*Object 46e18 36|7w13 10w13 22r27
+12R9*Typ 20e14 36|22r34
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{43|51P9}
+X 28 mssyst-runtime.ads
+6K16*Runtime 9|6k9 28|7e19 36|11r13 15r16 23r21 38r48 53r12 55r27
+X 32 mssyst-runtime-remoting.ads
+6K24*Remoting 28|6k16 32|7e28 36|11r21 15r24 23r29 38r56 53r20 55r35
+X 33 mssyst-runtime-remoting-metadata.ads
+6K33*Metadata 32|6k24 33|7e37 36|11r30 15r33 23r38 38r65 53r29 55r44
+X 34 mssyst-runtime-remoting-metadata-w3cxsd2001.ads
+6K42*W3cXsd2001 33|6k33 34|7e48 36|11r39 15r42 23r47 38r74 53r38 55r53
+X 35 mssyst-runtime-remoting-metadata-w3cxsd2001-isoapxsd.ads
+11K53*ISoapXsd 23e57 36|11w50 23r58
+12R9*Typ 36|23r67
+X 36 mssyst-runtime-remoting-metadata-w3cxsd2001-soapnonnegativeinteger.ads
+15K53*SoapNonNegativeInteger 34|6k42 36|38r85 53l49 53e71 55r64
+16R9*Typ 17r27 22c9 33r21 36r21 40r21 43r21 45r27
+17P9*Ref(16R9) 18r34 19r47 28r14 28r34 30r14 31r48 38r108
+18P9*Ref_addrof(17P9)
+19A9*Ref_Arr(17P9) 20r33
+20P9*Ref_Array(19A9) 21r40
+21P9*Ref_Array_addrof(20P9)
+22R9*Typ<17|18R9> 17|23p13 29p13 31p13 36|26e14 32p13 35P13 39p14 42P13
+27V13*new_SoapNonNegativeInteger{17P9} 28>7
+28p7 This{17P9}
+29V13*new_SoapNonNegativeInteger{17P9} 30>7 31>7
+30p7 This{17P9}
+31r7 value{10|20R9}
+32V13*get_Value{10|20R9} 33^7 47b23
+33p7 This(22R9)
+34V13*get_XsdType{38|27P9} 48b23
+35V13*GetXsdType{38|27P9} 36^7 49b23
+36p7 This(22R9)
+37V13*Parse{17P9} 38>7 50b23
+38p7 value{38|27P9}
+39U14*set_Value 40^7 41>7 51b23
+40p7 This(22R9)
+41r7 value{10|20R9}
+42V13*ToString{38|27P9} 43^7 52b23
+43p7 This(22R9)
+X 38 mssyst-string.ads
+25K16 String 36|34r39 36r40 38r22 43r40
+27P9 Ref(integer) 36|34r46 36r47 38r29 43r47
+X 43 mssyst-type_k.ads
+51P9 Ref(integer)
+

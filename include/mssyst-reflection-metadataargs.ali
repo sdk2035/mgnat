@@ -1,0 +1,20 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.reflection.metadataargs%s  mssyst-reflection-metadataargs.ads  c5cc0096 EE PK
+W mssyst.reflection%s	mssyst-reflection.ads	mssyst-reflection.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-reflection.ads	20060517214746 25abbfbc
+D mssyst-reflection-metadataargs.ads  20060517214748 e067bf2a
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 3|6r9 7r5
+X 2 mssyst-reflection.ads
+6K16*Reflection 1|6k9 2|7e22 3|6r16 7r12
+X 3 mssyst-reflection-metadataargs.ads
+6K27*MetadataArgs 2|6k16 3|7l23 7e35
+

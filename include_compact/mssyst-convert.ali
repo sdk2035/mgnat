@@ -1,0 +1,926 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.convert%s	mssyst-convert.ads	585d2865 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.base64formattingoptions%s  mssyst-base64formattingoptions.ads  mssyst-base64formattingoptions.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.typecode%s	mssyst-typecode.ads	mssyst-typecode.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-base64formattingoptions.ads  20060131171356 63706257
+D mssyst-convert.ads	20060131171356 957b5b9b
+D mssyst-datetime.ads	20060131171354 8b310f47
+D mssyst-datetimekind.ads  20060131171354 c9caab99
+D mssyst-dayofweek.ads	20060131171356 9441cb97
+D mssyst-decimal.ads	20060131171356 9b70fee6
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-datetimestyles.ads  20060131171358 230aa7c6
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-midpointrounding.ads  20060131171356 5160c7d2
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 8|8w6 9r5 46r17 48r32 50r37 56r17 59r18 62r17 65r18
+. 69r17 72r17 77r17 79r17 83r15 85r15 91r15 93r15 114r15 121r15 121r61 123r29
+. 125r15 125r51 127r41 129r34 132r53 134r49 136r48 138r41 140r40 142r15 142r48
+. 144r41 147r53 149r38 151r15 151r49 153r31 155r46 157r15 157r40 160r34 162r15
+. 181r15 183r15 187r15 194r15 200r15 204r15 206r15 230r15 234r15 238r15 240r15
+. 242r15 253r15 268r15 276r15 280r15 284r15 291r15 306r15 314r46 316r15 316r48
+. 318r40 320r38 322r15 322r49 324r15 324r40 326r41 328r31 330r15 330r51 333r53
+. 336r53 338r41 341r34 343r49 345r48 347r15 347r61 349r41 351r34 353r29 364r15
+. 366r15 383r15 385r15 389r15 396r15 398r15 402r15 426r15 428r15 437r15 441r15
+. 449r15 454r15 456r15 486r15 490r15 494r15 498r15 502r15 518r15 521r15 528r15
+. 531r15 536r15 539r15 541r15 544r15 551r15 564r15 581r15 584r15 608r15 608r61
+. 610r29 612r41 614r15 614r49 616r15 616r51 619r53 621r49 623r41 625r34 627r48
+. 630r53 632r40 635r34 637r41 639r38 641r15 641r40 643r31 645r46 647r15 647r48
+. 649r15 649r48 651r46 653r15 653r49 655r15 655r40 657r38 659r41 662r34 664r40
+. 667r53 669r48 671r34 673r41 675r49 678r53 680r15 680r51 682r31 684r41 686r29
+. 688r15 688r61 690r29 692r34 694r41 696r15 696r61 698r48 701r53 703r49 705r41
+. 708r34 710r15 710r51 712r40 714r38 716r41 719r53 721r46 723r15 723r49 725r31
+. 727r15 727r48 729r15 729r40
+9E12*Char{wide_character}
+20I9*int16<short_integer> 8|85r26 157r26 181r26 206r26 240r26 284r26 314r57
+. 316r59 318r51 320r49 322r60 324r26 324r51 326r52 328r42 330r62 333r64 336r64
+. 338r52 341r45 343r60 345r59 347r72 349r52 351r45 353r40 364r26 398r26 454r26
+. 498r26 536r26 539r26 584r26 641r26 655r26 729r26
+24E9*unsigned_int8<character> 8|93r26 121r72 123r40 125r62 127r52 129r45
+. 132r64 134r60 136r59 138r52 140r51 142r26 142r59 144r52 147r64 149r49 151r60
+. 153r42 155r57 157r51 160r45 183r26 200r26 253r26 291r26 316r26 366r26 396r26
+. 456r26 502r26 541r26 564r26 581r26 647r26 649r26 727r26
+25I9*unsigned_int16<short_integer> 8|83r26 151r26 187r26 204r26 238r26 276r26
+. 322r26 385r26 402r26 441r26 494r26 544r26 551r26 608r72 610r40 612r52 614r26
+. 614r60 616r62 619r64 621r60 623r52 625r45 627r59 630r64 632r51 635r45 637r52
+. 639r49 641r51 643r42 645r57 647r59 653r26 723r26
+29I9*unsigned_integer<integer> 8|91r26 125r26 194r26 230r26 242r26 280r26
+. 330r26 383r26 428r26 437r26 490r26 518r26 521r26 616r26 649r59 651r57 653r60
+. 655r51 657r49 659r52 662r45 664r51 667r64 669r59 671r45 673r52 675r60 678r64
+. 680r26 680r62 682r42 684r52 686r40 688r72 710r26
+33I9*unsigned_long_long_integer<long_long_integer> 8|114r26 121r26 162r26
+. 234r26 268r26 306r26 347r26 389r26 426r26 449r26 486r26 528r26 531r26 608r26
+. 688r26 690r40 692r45 694r52 696r26 696r72 698r59 701r64 703r60 705r52 708r45
+. 710r62 712r51 714r49 716r52 719r64 721r57 723r60 725r42 727r59 729r51
+40A9*char_arr(9E12) 8|46r28 59r29 65r29
+44A9*unsigned_int8_arr(24E9) 8|56r28 62r28 69r28 72r28 77r28 79r28
+45P9*Unsigned_Int8_Array(44A9) 8|48r43 50r48
+X 6 mssyst.ads
+6K9*MSSyst 7e11 8|7r6 10r6 11r6 15r6 19r9 26r29 29r13 32r15 33r18 34r18 34r53
+. 36r15 37r18 37r52 39r15 40r24 41r18 41r53 43r15 44r24 44r50 50r11 52r15
+. 52r41 54r15 67r17 70r17 70r66 75r17 75r66 77r54 81r32 95r15 96r18 98r15
+. 104r15 108r15 110r15 116r15 118r15 119r18 131r15 132r18 134r15 136r15 138r15
+. 144r15 146r15 147r18 155r15 159r15 164r15 166r15 170r15 171r18 173r15 175r15
+. 189r15 191r15 192r18 200r48 202r15 202r46 204r49 206r40 208r15 209r18 209r53
+. 211r15 211r41 213r15 213r49 215r15 215r41 217r15 218r18 218r53 220r29 222r38
+. 224r15 224r48 226r34 228r40 230r51 232r31 234r61 236r41 238r49 240r40 242r51
+. 244r31 246r38 248r15 249r18 249r53 251r15 251r41 253r48 255r15 255r46 257r15
+. 257r49 259r15 260r18 260r53 262r15 262r48 264r40 266r15 266r41 268r61 270r41
+. 272r34 274r29 286r15 287r18 289r15 293r15 295r15 296r18 298r15 300r15 304r15
+. 314r15 332r15 333r18 335r15 336r18 338r15 340r15 343r15 345r15 349r15 357r15
+. 358r18 360r15 368r15 370r15 374r15 376r15 378r15 379r18 393r15 404r15 405r18
+. 407r15 411r15 415r15 417r15 419r15 421r15 422r18 434r15 437r51 439r31 441r49
+. 443r41 445r34 447r29 449r61 451r15 452r34 454r40 456r48 458r38 460r40 462r15
+. 462r46 464r15 464r41 466r15 467r18 467r53 469r15 469r48 471r15 471r49 473r15
+. 474r18 474r53 476r15 476r41 482r15 484r15 500r15 504r15 505r18 509r15 511r15
+. 513r15 514r18 516r29 519r18 519r53 521r51 524r18 524r53 526r41 529r18 529r53
+. 531r61 534r18 534r53 537r18 537r53 539r40 542r18 542r53 544r49 546r15 547r18
+. 547r53 549r31 552r18 552r53 554r38 557r18 557r53 559r40 562r18 562r53 564r48
+. 566r15 567r18 567r53 569r15 569r46 571r15 571r41 573r15 574r18 574r53 576r15
+. 576r41 579r32 582r32 585r32 588r32 591r18 591r53 593r34 596r18 596r53 598r15
+. 598r48 600r15 601r18 601r53 603r15 603r49 605r15 606r18 606r53 618r15 619r18
+. 621r15 623r15 627r15 629r15 630r18 634r15 637r15 645r15 651r15 659r15 661r15
+. 666r15 667r18 669r15 673r15 675r15 677r15 678r18 698r15 700r15 701r18 703r15
+. 705r15 707r15 716r15 718r15 719r18 721r15 754r5 756r20
+X 7 mssyst-base64formattingoptions.ads
+15K16*Base64FormattingOptions 60e35 8|15w13 67r24 70r24 75r24
+16E9*ValueType 18e24 8|67r48 70r48 75r48
+X 8 mssyst-convert.ads
+19K16*Convert 6|6k9 8|754l12 754e19 756r27
+20R9*Typ 21r27 26c9 731r27
+21P9*Ref(20R9) 22r34 23r47
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40
+25P9*Ref_Array_addrof(24P9)
+26H9*Typ<21|18R9> 28e14 21|23p13 29p13 31p13 36p13
+29p4*DBNull{21|13P9} 30m23
+31V13*ChangeType{21|13P9} 32>7 33>7 34>7
+32p7 value{21|13P9}
+33e7 typeCode{43|15E9}
+34p7 provider{19|14P9}
+35V13*ChangeType{21|13P9} 36>7 37>7
+36p7 value{21|13P9}
+37e7 typeCode{43|15E9}
+38V13*ChangeType{21|13P9} 39>7 40>7 41>7
+39p7 value{21|13P9}
+40p7 conversionType{42|51P9}
+41p7 provider{19|14P9}
+42V13*ChangeType{21|13P9} 43>7 44>7 732b23
+43p7 value{21|13P9}
+44p7 conversionType{42|51P9}
+45V13*FromBase64CharArray{5|45P9} 46>7 47>7 48>7 733b23
+46a7 inArray{5|40A9}
+47i7 offset{integer}
+48i7 length{integer}
+49V13*FromBase64String{5|45P9} 50>7 734b23
+50p7 s{37|27P9}
+51V13*GetTypeCode{43|15E9} 52>7 735b23
+52p7 value{21|13P9}
+53V13*IsDBNull{boolean} 54>7 736b23
+54p7 value{21|13P9}
+55V13*ToBase64CharArray{integer} 56>7 57>7 58>7 59>7 60>7
+56a7 inArray{5|44A9}
+57i7 offsetIn{integer}
+58i7 length{integer}
+59a7 outArray{5|40A9}
+60i7 offsetOut{integer}
+61V13*ToBase64CharArray{integer} 62>7 63>7 64>7 65>7 66>7 67>7 737b23
+62a7 inArray{5|44A9}
+63i7 offsetIn{integer}
+64i7 length{integer}
+65a7 outArray{5|40A9}
+66i7 offsetOut{integer}
+67e7 options{7|16E9}
+68V13*ToBase64String{37|27P9} 69>7 70>7
+69a7 inArray{5|44A9}
+70e7 options{7|16E9}
+71V13*ToBase64String{37|27P9} 72>7 73>7 74>7 75>7
+72a7 inArray{5|44A9}
+73i7 offset{integer}
+74i7 length{integer}
+75e7 options{7|16E9}
+76V13*ToBase64String{37|27P9} 77>7
+77a7 inArray{5|44A9}
+78V13*ToBase64String{37|27P9} 79>7 80>7 81>7 738b23
+79a7 inArray{5|44A9}
+80i7 offset{integer}
+81i7 length{integer}
+82V13*ToBoolean{boolean} 83>7
+83i7 value{5|25I9}
+84V13*ToBoolean{boolean} 85>7
+85i7 value{5|20I9}
+86V13*ToBoolean{boolean} 87>7
+87i7 value{integer}
+88V13*ToBoolean{boolean} 89>7
+89i7 value{long_long_integer}
+90V13*ToBoolean{boolean} 91>7
+91i7 value{5|29I9}
+92V13*ToBoolean{boolean} 93>7
+93e7 value{5|24E9}
+94V13*ToBoolean{boolean} 95>7 96>7
+95p7 value{21|13P9}
+96p7 provider{19|14P9}
+97V13*ToBoolean{boolean} 98>7
+98p7 value{21|13P9}
+99V13*ToBoolean{boolean} 100>7
+100b7 value{boolean}
+101V13*ToBoolean{boolean} 102>7
+102e7 value{wide_character}
+103V13*ToBoolean{boolean} 104>7
+104r7 value{36|18R9}
+105V13*ToBoolean{boolean} 106>7
+106f7 value{long_float}
+107V13*ToBoolean{boolean} 108>7
+108r7 value{12|20R9}
+109V13*ToBoolean{boolean} 110>7
+110r7 value{9|23R9}
+111V13*ToBoolean{boolean} 112>7
+112f7 value{float}
+113V13*ToBoolean{boolean} 114>7
+114i7 value{5|33I9}
+115V13*ToBoolean{boolean} 116>7
+116p7 value{37|27P9}
+117V13*ToBoolean{boolean} 118>7 119>7 739b23
+118p7 value{37|27P9}
+119p7 provider{19|14P9}
+120V13*ToByte{5|24E9} 121>7
+121i7 value{5|33I9}
+122V13*ToByte{5|24E9} 123>7
+123f7 value{float}
+124V13*ToByte{5|24E9} 125>7
+125i7 value{5|29I9}
+126V13*ToByte{5|24E9} 127>7
+127i7 value{long_long_integer}
+128V13*ToByte{5|24E9} 129>7
+129f7 value{long_float}
+130V13*ToByte{5|24E9} 131>7 132>7
+131p7 value{37|27P9}
+132p7 provider{19|14P9}
+133V13*ToByte{5|24E9} 134>7
+134r7 value{9|23R9}
+135V13*ToByte{5|24E9} 136>7
+136r7 value{12|20R9}
+137V13*ToByte{5|24E9} 138>7
+138p7 value{37|27P9}
+139V13*ToByte{5|24E9} 140>7
+140b7 value{boolean}
+141V13*ToByte{5|24E9} 142>7
+142e7 value{5|24E9}
+143V13*ToByte{5|24E9} 144>7
+144p7 value{21|13P9}
+145V13*ToByte{5|24E9} 146>7 147>7
+146p7 value{21|13P9}
+147p7 provider{19|14P9}
+148V13*ToByte{5|24E9} 149>7
+149e7 value{wide_character}
+150V13*ToByte{5|24E9} 151>7
+151i7 value{5|25I9}
+152V13*ToByte{5|24E9} 153>7
+153i7 value{integer}
+154V13*ToByte{5|24E9} 155>7
+155r7 value{36|18R9}
+156V13*ToByte{5|24E9} 157>7
+157i7 value{5|20I9}
+158V13*ToByte{5|24E9} 159>7 160>7 740b23
+159p7 value{37|27P9}
+160i7 fromBase{integer}
+161V13*ToChar{wide_character} 162>7
+162i7 value{5|33I9}
+163V13*ToChar{wide_character} 164>7
+164p7 value{37|27P9}
+165V13*ToChar{wide_character} 166>7
+166p7 value{21|13P9}
+167V13*ToChar{wide_character} 168>7
+168i7 value{long_long_integer}
+169V13*ToChar{wide_character} 170>7 171>7
+170p7 value{37|27P9}
+171p7 provider{19|14P9}
+172V13*ToChar{wide_character} 173>7
+173r7 value{12|20R9}
+174V13*ToChar{wide_character} 175>7
+175r7 value{9|23R9}
+176V13*ToChar{wide_character} 177>7
+177f7 value{float}
+178V13*ToChar{wide_character} 179>7
+179f7 value{long_float}
+180V13*ToChar{wide_character} 181>7
+181i7 value{5|20I9}
+182V13*ToChar{wide_character} 183>7
+183e7 value{5|24E9}
+184V13*ToChar{wide_character} 185>7
+185i7 value{integer}
+186V13*ToChar{wide_character} 187>7
+187i7 value{5|25I9}
+188V13*ToChar{wide_character} 189>7
+189r7 value{36|18R9}
+190V13*ToChar{wide_character} 191>7 192>7
+191p7 value{21|13P9}
+192p7 provider{19|14P9}
+193V13*ToChar{wide_character} 194>7
+194i7 value{5|29I9}
+195V13*ToChar{wide_character} 196>7
+196e7 value{wide_character}
+197V13*ToChar{wide_character} 198>7 741b23
+198b7 value{boolean}
+199V13*ToDateTime{9|23R9} 200>7
+200e7 value{5|24E9}
+201V13*ToDateTime{9|23R9} 202>7
+202r7 value{36|18R9}
+203V13*ToDateTime{9|23R9} 204>7
+204i7 value{5|25I9}
+205V13*ToDateTime{9|23R9} 206>7
+206i7 value{5|20I9}
+207V13*ToDateTime{9|23R9} 208>7 209>7
+208p7 value{37|27P9}
+209p7 provider{19|14P9}
+210V13*ToDateTime{9|23R9} 211>7
+211p7 value{21|13P9}
+212V13*ToDateTime{9|23R9} 213>7
+213r7 value{9|23R9}
+214V13*ToDateTime{9|23R9} 215>7
+215p7 value{37|27P9}
+216V13*ToDateTime{9|23R9} 217>7 218>7
+217p7 value{21|13P9}
+218p7 provider{19|14P9}
+219V13*ToDateTime{9|23R9} 220>7
+220f7 value{float}
+221V13*ToDateTime{9|23R9} 222>7
+222e7 value{wide_character}
+223V13*ToDateTime{9|23R9} 224>7
+224r7 value{12|20R9}
+225V13*ToDateTime{9|23R9} 226>7
+226f7 value{long_float}
+227V13*ToDateTime{9|23R9} 228>7
+228b7 value{boolean}
+229V13*ToDateTime{9|23R9} 230>7
+230i7 value{5|29I9}
+231V13*ToDateTime{9|23R9} 232>7
+232i7 value{integer}
+233V13*ToDateTime{9|23R9} 234>7
+234i7 value{5|33I9}
+235V13*ToDateTime{9|23R9} 236>7 742b23
+236i7 value{long_long_integer}
+237V13*ToDecimal{12|20R9} 238>7
+238i7 value{5|25I9}
+239V13*ToDecimal{12|20R9} 240>7
+240i7 value{5|20I9}
+241V13*ToDecimal{12|20R9} 242>7
+242i7 value{5|29I9}
+243V13*ToDecimal{12|20R9} 244>7
+244i7 value{integer}
+245V13*ToDecimal{12|20R9} 246>7
+246e7 value{wide_character}
+247V13*ToDecimal{12|20R9} 248>7 249>7
+248p7 value{21|13P9}
+249p7 provider{19|14P9}
+250V13*ToDecimal{12|20R9} 251>7
+251p7 value{21|13P9}
+252V13*ToDecimal{12|20R9} 253>7
+253e7 value{5|24E9}
+254V13*ToDecimal{12|20R9} 255>7
+255r7 value{36|18R9}
+256V13*ToDecimal{12|20R9} 257>7
+257r7 value{9|23R9}
+258V13*ToDecimal{12|20R9} 259>7 260>7
+259p7 value{37|27P9}
+260p7 provider{19|14P9}
+261V13*ToDecimal{12|20R9} 262>7
+262r7 value{12|20R9}
+263V13*ToDecimal{12|20R9} 264>7
+264b7 value{boolean}
+265V13*ToDecimal{12|20R9} 266>7
+266p7 value{37|27P9}
+267V13*ToDecimal{12|20R9} 268>7
+268i7 value{5|33I9}
+269V13*ToDecimal{12|20R9} 270>7
+270i7 value{long_long_integer}
+271V13*ToDecimal{12|20R9} 272>7
+272f7 value{long_float}
+273V13*ToDecimal{12|20R9} 274>7 743b23
+274f7 value{float}
+275V13*ToDouble{long_float} 276>7
+276i7 value{5|25I9}
+277V13*ToDouble{long_float} 278>7
+278e7 value{wide_character}
+279V13*ToDouble{long_float} 280>7
+280i7 value{5|29I9}
+281V13*ToDouble{long_float} 282>7
+282i7 value{integer}
+283V13*ToDouble{long_float} 284>7
+284i7 value{5|20I9}
+285V13*ToDouble{long_float} 286>7 287>7
+286p7 value{21|13P9}
+287p7 provider{19|14P9}
+288V13*ToDouble{long_float} 289>7
+289p7 value{21|13P9}
+290V13*ToDouble{long_float} 291>7
+291e7 value{5|24E9}
+292V13*ToDouble{long_float} 293>7
+293r7 value{36|18R9}
+294V13*ToDouble{long_float} 295>7 296>7
+295p7 value{37|27P9}
+296p7 provider{19|14P9}
+297V13*ToDouble{long_float} 298>7
+298p7 value{37|27P9}
+299V13*ToDouble{long_float} 300>7
+300r7 value{9|23R9}
+301V13*ToDouble{long_float} 302>7
+302b7 value{boolean}
+303V13*ToDouble{long_float} 304>7
+304r7 value{12|20R9}
+305V13*ToDouble{long_float} 306>7
+306i7 value{5|33I9}
+307V13*ToDouble{long_float} 308>7
+308i7 value{long_long_integer}
+309V13*ToDouble{long_float} 310>7
+310f7 value{long_float}
+311V13*ToDouble{long_float} 312>7 744b23
+312f7 value{float}
+313V13*ToInt16{5|20I9} 314>7
+314r7 value{36|18R9}
+315V13*ToInt16{5|20I9} 316>7
+316e7 value{5|24E9}
+317V13*ToInt16{5|20I9} 318>7
+318b7 value{boolean}
+319V13*ToInt16{5|20I9} 320>7
+320e7 value{wide_character}
+321V13*ToInt16{5|20I9} 322>7
+322i7 value{5|25I9}
+323V13*ToInt16{5|20I9} 324>7
+324i7 value{5|20I9}
+325V13*ToInt16{5|20I9} 326>7
+326i7 value{long_long_integer}
+327V13*ToInt16{5|20I9} 328>7
+328i7 value{integer}
+329V13*ToInt16{5|20I9} 330>7
+330i7 value{5|29I9}
+331V13*ToInt16{5|20I9} 332>7 333>7
+332p7 value{21|13P9}
+333p7 provider{19|14P9}
+334V13*ToInt16{5|20I9} 335>7 336>7
+335p7 value{37|27P9}
+336p7 provider{19|14P9}
+337V13*ToInt16{5|20I9} 338>7
+338p7 value{37|27P9}
+339V13*ToInt16{5|20I9} 340>7 341>7
+340p7 value{37|27P9}
+341i7 fromBase{integer}
+342V13*ToInt16{5|20I9} 343>7
+343r7 value{9|23R9}
+344V13*ToInt16{5|20I9} 345>7
+345r7 value{12|20R9}
+346V13*ToInt16{5|20I9} 347>7
+347i7 value{5|33I9}
+348V13*ToInt16{5|20I9} 349>7
+349p7 value{21|13P9}
+350V13*ToInt16{5|20I9} 351>7
+351f7 value{long_float}
+352V13*ToInt16{5|20I9} 353>7 745b23
+353f7 value{float}
+354V13*ToInt32{integer} 355>7
+355b7 value{boolean}
+356V13*ToInt32{integer} 357>7 358>7
+357p7 value{21|13P9}
+358p7 provider{19|14P9}
+359V13*ToInt32{integer} 360>7
+360p7 value{21|13P9}
+361V13*ToInt32{integer} 362>7
+362e7 value{wide_character}
+363V13*ToInt32{integer} 364>7
+364i7 value{5|20I9}
+365V13*ToInt32{integer} 366>7
+366e7 value{5|24E9}
+367V13*ToInt32{integer} 368>7
+368r7 value{36|18R9}
+369V13*ToInt32{integer} 370>7
+370r7 value{12|20R9}
+371V13*ToInt32{integer} 372>7
+372f7 value{long_float}
+373V13*ToInt32{integer} 374>7
+374p7 value{37|27P9}
+375V13*ToInt32{integer} 376>7
+376r7 value{9|23R9}
+377V13*ToInt32{integer} 378>7 379>7
+378p7 value{37|27P9}
+379p7 provider{19|14P9}
+380V13*ToInt32{integer} 381>7
+381f7 value{float}
+382V13*ToInt32{integer} 383>7
+383i7 value{5|29I9}
+384V13*ToInt32{integer} 385>7
+385i7 value{5|25I9}
+386V13*ToInt32{integer} 387>7
+387i7 value{integer}
+388V13*ToInt32{integer} 389>7
+389i7 value{5|33I9}
+390V13*ToInt32{integer} 391>7
+391i7 value{long_long_integer}
+392V13*ToInt32{integer} 393>7 394>7 746b23
+393p7 value{37|27P9}
+394i7 fromBase{integer}
+395V13*ToInt64{long_long_integer} 396>7
+396e7 value{5|24E9}
+397V13*ToInt64{long_long_integer} 398>7
+398i7 value{5|20I9}
+399V13*ToInt64{long_long_integer} 400>7
+400i7 value{integer}
+401V13*ToInt64{long_long_integer} 402>7
+402i7 value{5|25I9}
+403V13*ToInt64{long_long_integer} 404>7 405>7
+404p7 value{21|13P9}
+405p7 provider{19|14P9}
+406V13*ToInt64{long_long_integer} 407>7
+407p7 value{21|13P9}
+408V13*ToInt64{long_long_integer} 409>7
+409b7 value{boolean}
+410V13*ToInt64{long_long_integer} 411>7
+411r7 value{36|18R9}
+412V13*ToInt64{long_long_integer} 413>7
+413e7 value{wide_character}
+414V13*ToInt64{long_long_integer} 415>7
+415p7 value{37|27P9}
+416V13*ToInt64{long_long_integer} 417>7
+417r7 value{12|20R9}
+418V13*ToInt64{long_long_integer} 419>7
+419r7 value{9|23R9}
+420V13*ToInt64{long_long_integer} 421>7 422>7
+421p7 value{37|27P9}
+422p7 provider{19|14P9}
+423V13*ToInt64{long_long_integer} 424>7
+424f7 value{long_float}
+425V13*ToInt64{long_long_integer} 426>7
+426i7 value{5|33I9}
+427V13*ToInt64{long_long_integer} 428>7
+428i7 value{5|29I9}
+429V13*ToInt64{long_long_integer} 430>7
+430f7 value{float}
+431V13*ToInt64{long_long_integer} 432>7
+432i7 value{long_long_integer}
+433V13*ToInt64{long_long_integer} 434>7 435>7 747b23
+434p7 value{37|27P9}
+435i7 fromBase{integer}
+436V13*ToSByte{36|18R9} 437>7
+437i7 value{5|29I9}
+438V13*ToSByte{36|18R9} 439>7
+439i7 value{integer}
+440V13*ToSByte{36|18R9} 441>7
+441i7 value{5|25I9}
+442V13*ToSByte{36|18R9} 443>7
+443i7 value{long_long_integer}
+444V13*ToSByte{36|18R9} 445>7
+445f7 value{long_float}
+446V13*ToSByte{36|18R9} 447>7
+447f7 value{float}
+448V13*ToSByte{36|18R9} 449>7
+449i7 value{5|33I9}
+450V13*ToSByte{36|18R9} 451>7 452>7
+451p7 value{37|27P9}
+452i7 fromBase{integer}
+453V13*ToSByte{36|18R9} 454>7
+454i7 value{5|20I9}
+455V13*ToSByte{36|18R9} 456>7
+456e7 value{5|24E9}
+457V13*ToSByte{36|18R9} 458>7
+458e7 value{wide_character}
+459V13*ToSByte{36|18R9} 460>7
+460b7 value{boolean}
+461V13*ToSByte{36|18R9} 462>7
+462r7 value{36|18R9}
+463V13*ToSByte{36|18R9} 464>7
+464p7 value{21|13P9}
+465V13*ToSByte{36|18R9} 466>7 467>7
+466p7 value{21|13P9}
+467p7 provider{19|14P9}
+468V13*ToSByte{36|18R9} 469>7
+469r7 value{12|20R9}
+470V13*ToSByte{36|18R9} 471>7
+471r7 value{9|23R9}
+472V13*ToSByte{36|18R9} 473>7 474>7
+473p7 value{37|27P9}
+474p7 provider{19|14P9}
+475V13*ToSByte{36|18R9} 476>7 748b23
+476p7 value{37|27P9}
+477V13*ToSingle{float} 478>7
+478f7 value{long_float}
+479V13*ToSingle{float} 480>7
+480f7 value{float}
+481V13*ToSingle{float} 482>7
+482p7 value{37|27P9}
+483V13*ToSingle{float} 484>7
+484r7 value{12|20R9}
+485V13*ToSingle{float} 486>7
+486i7 value{5|33I9}
+487V13*ToSingle{float} 488>7
+488i7 value{integer}
+489V13*ToSingle{float} 490>7
+490i7 value{5|29I9}
+491V13*ToSingle{float} 492>7
+492i7 value{long_long_integer}
+493V13*ToSingle{float} 494>7
+494i7 value{5|25I9}
+495V13*ToSingle{float} 496>7
+496e7 value{wide_character}
+497V13*ToSingle{float} 498>7
+498i7 value{5|20I9}
+499V13*ToSingle{float} 500>7
+500r7 value{36|18R9}
+501V13*ToSingle{float} 502>7
+502e7 value{5|24E9}
+503V13*ToSingle{float} 504>7 505>7
+504p7 value{21|13P9}
+505p7 provider{19|14P9}
+506V13*ToSingle{float} 507>7
+507b7 value{boolean}
+508V13*ToSingle{float} 509>7
+509r7 value{9|23R9}
+510V13*ToSingle{float} 511>7
+511p7 value{21|13P9}
+512V13*ToSingle{float} 513>7 514>7 749b23
+513p7 value{37|27P9}
+514p7 provider{19|14P9}
+515V13*ToString{37|27P9} 516>7
+516f7 value{float}
+517V13*ToString{37|27P9} 518>7 519>7
+518i7 value{5|29I9}
+519p7 provider{19|14P9}
+520V13*ToString{37|27P9} 521>7
+521i7 value{5|29I9}
+522V13*ToString{37|27P9} 523>7 524>7
+523i7 value{integer}
+524p7 provider{19|14P9}
+525V13*ToString{37|27P9} 526>7
+526i7 value{long_long_integer}
+527V13*ToString{37|27P9} 528>7 529>7
+528i7 value{5|33I9}
+529p7 provider{19|14P9}
+530V13*ToString{37|27P9} 531>7
+531i7 value{5|33I9}
+532V13*ToString{37|27P9} 533>7 534>7
+533i7 value{long_long_integer}
+534p7 provider{19|14P9}
+535V13*ToString{37|27P9} 536>7 537>7
+536i7 value{5|20I9}
+537p7 provider{19|14P9}
+538V13*ToString{37|27P9} 539>7
+539i7 value{5|20I9}
+540V13*ToString{37|27P9} 541>7 542>7
+541e7 value{5|24E9}
+542p7 provider{19|14P9}
+543V13*ToString{37|27P9} 544>7
+544i7 value{5|25I9}
+545V13*ToString{37|27P9} 546>7 547>7
+546p7 value{21|13P9}
+547p7 provider{19|14P9}
+548V13*ToString{37|27P9} 549>7
+549i7 value{integer}
+550V13*ToString{37|27P9} 551>7 552>7
+551i7 value{5|25I9}
+552p7 provider{19|14P9}
+553V13*ToString{37|27P9} 554>7
+554e7 value{wide_character}
+555V13*ToString{37|27P9} 556>7 557>7
+556b7 value{boolean}
+557p7 provider{19|14P9}
+558V13*ToString{37|27P9} 559>7
+559b7 value{boolean}
+560V13*ToString{37|27P9} 561>7 562>7
+561e7 value{wide_character}
+562p7 provider{19|14P9}
+563V13*ToString{37|27P9} 564>7
+564e7 value{5|24E9}
+565V13*ToString{37|27P9} 566>7 567>7
+566r7 value{36|18R9}
+567p7 provider{19|14P9}
+568V13*ToString{37|27P9} 569>7
+569r7 value{36|18R9}
+570V13*ToString{37|27P9} 571>7
+571p7 value{21|13P9}
+572V13*ToString{37|27P9} 573>7 574>7
+573p7 value{37|27P9}
+574p7 provider{19|14P9}
+575V13*ToString{37|27P9} 576>7
+576p7 value{37|27P9}
+577V13*ToString{37|27P9} 578>7 579>7
+578i7 value{long_long_integer}
+579i7 toBase{integer}
+580V13*ToString{37|27P9} 581>7 582>7
+581e7 value{5|24E9}
+582i7 toBase{integer}
+583V13*ToString{37|27P9} 584>7 585>7
+584i7 value{5|20I9}
+585i7 toBase{integer}
+586V13*ToString{37|27P9} 587>7 588>7
+587i7 value{integer}
+588i7 toBase{integer}
+589V13*ToString{37|27P9} 590>7 591>7
+590f7 value{long_float}
+591p7 provider{19|14P9}
+592V13*ToString{37|27P9} 593>7
+593f7 value{long_float}
+594V13*ToString{37|27P9} 595>7 596>7
+595f7 value{float}
+596p7 provider{19|14P9}
+597V13*ToString{37|27P9} 598>7
+598r7 value{12|20R9}
+599V13*ToString{37|27P9} 600>7 601>7
+600r7 value{9|23R9}
+601p7 provider{19|14P9}
+602V13*ToString{37|27P9} 603>7
+603r7 value{9|23R9}
+604V13*ToString{37|27P9} 605>7 606>7 750b23
+605r7 value{12|20R9}
+606p7 provider{19|14P9}
+607V13*ToUInt16{5|25I9} 608>7
+608i7 value{5|33I9}
+609V13*ToUInt16{5|25I9} 610>7
+610f7 value{float}
+611V13*ToUInt16{5|25I9} 612>7
+612i7 value{long_long_integer}
+613V13*ToUInt16{5|25I9} 614>7
+614i7 value{5|25I9}
+615V13*ToUInt16{5|25I9} 616>7
+616i7 value{5|29I9}
+617V13*ToUInt16{5|25I9} 618>7 619>7
+618p7 value{37|27P9}
+619p7 provider{19|14P9}
+620V13*ToUInt16{5|25I9} 621>7
+621r7 value{9|23R9}
+622V13*ToUInt16{5|25I9} 623>7
+623p7 value{37|27P9}
+624V13*ToUInt16{5|25I9} 625>7
+625f7 value{long_float}
+626V13*ToUInt16{5|25I9} 627>7
+627r7 value{12|20R9}
+628V13*ToUInt16{5|25I9} 629>7 630>7
+629p7 value{21|13P9}
+630p7 provider{19|14P9}
+631V13*ToUInt16{5|25I9} 632>7
+632b7 value{boolean}
+633V13*ToUInt16{5|25I9} 634>7 635>7
+634p7 value{37|27P9}
+635i7 fromBase{integer}
+636V13*ToUInt16{5|25I9} 637>7
+637p7 value{21|13P9}
+638V13*ToUInt16{5|25I9} 639>7
+639e7 value{wide_character}
+640V13*ToUInt16{5|25I9} 641>7
+641i7 value{5|20I9}
+642V13*ToUInt16{5|25I9} 643>7
+643i7 value{integer}
+644V13*ToUInt16{5|25I9} 645>7
+645r7 value{36|18R9}
+646V13*ToUInt16{5|25I9} 647>7 751b23
+647e7 value{5|24E9}
+648V13*ToUInt32{5|29I9} 649>7
+649e7 value{5|24E9}
+650V13*ToUInt32{5|29I9} 651>7
+651r7 value{36|18R9}
+652V13*ToUInt32{5|29I9} 653>7
+653i7 value{5|25I9}
+654V13*ToUInt32{5|29I9} 655>7
+655i7 value{5|20I9}
+656V13*ToUInt32{5|29I9} 657>7
+657e7 value{wide_character}
+658V13*ToUInt32{5|29I9} 659>7
+659p7 value{21|13P9}
+660V13*ToUInt32{5|29I9} 661>7 662>7
+661p7 value{37|27P9}
+662i7 fromBase{integer}
+663V13*ToUInt32{5|29I9} 664>7
+664b7 value{boolean}
+665V13*ToUInt32{5|29I9} 666>7 667>7
+666p7 value{21|13P9}
+667p7 provider{19|14P9}
+668V13*ToUInt32{5|29I9} 669>7
+669r7 value{12|20R9}
+670V13*ToUInt32{5|29I9} 671>7
+671f7 value{long_float}
+672V13*ToUInt32{5|29I9} 673>7
+673p7 value{37|27P9}
+674V13*ToUInt32{5|29I9} 675>7
+675r7 value{9|23R9}
+676V13*ToUInt32{5|29I9} 677>7 678>7
+677p7 value{37|27P9}
+678p7 provider{19|14P9}
+679V13*ToUInt32{5|29I9} 680>7
+680i7 value{5|29I9}
+681V13*ToUInt32{5|29I9} 682>7
+682i7 value{integer}
+683V13*ToUInt32{5|29I9} 684>7
+684i7 value{long_long_integer}
+685V13*ToUInt32{5|29I9} 686>7
+686f7 value{float}
+687V13*ToUInt32{5|29I9} 688>7 752b23
+688i7 value{5|33I9}
+689V13*ToUInt64{5|33I9} 690>7
+690f7 value{float}
+691V13*ToUInt64{5|33I9} 692>7
+692f7 value{long_float}
+693V13*ToUInt64{5|33I9} 694>7
+694i7 value{long_long_integer}
+695V13*ToUInt64{5|33I9} 696>7
+696i7 value{5|33I9}
+697V13*ToUInt64{5|33I9} 698>7
+698r7 value{12|20R9}
+699V13*ToUInt64{5|33I9} 700>7 701>7
+700p7 value{37|27P9}
+701p7 provider{19|14P9}
+702V13*ToUInt64{5|33I9} 703>7
+703r7 value{9|23R9}
+704V13*ToUInt64{5|33I9} 705>7
+705p7 value{37|27P9}
+706V13*ToUInt64{5|33I9} 707>7 708>7
+707p7 value{37|27P9}
+708i7 fromBase{integer}
+709V13*ToUInt64{5|33I9} 710>7
+710i7 value{5|29I9}
+711V13*ToUInt64{5|33I9} 712>7
+712b7 value{boolean}
+713V13*ToUInt64{5|33I9} 714>7
+714e7 value{wide_character}
+715V13*ToUInt64{5|33I9} 716>7
+716p7 value{21|13P9}
+717V13*ToUInt64{5|33I9} 718>7 719>7
+718p7 value{21|13P9}
+719p7 provider{19|14P9}
+720V13*ToUInt64{5|33I9} 721>7
+721r7 value{36|18R9}
+722V13*ToUInt64{5|33I9} 723>7
+723i7 value{5|25I9}
+724V13*ToUInt64{5|33I9} 725>7
+725i7 value{integer}
+726V13*ToUInt64{5|33I9} 727>7
+727e7 value{5|24E9}
+728V13*ToUInt64{5|33I9} 729>7 753b23
+729i7 value{5|20I9}
+X 9 mssyst-datetime.ads
+22K16 DateTime 8|110r22 134r22 175r22 200r55 202r53 204r56 206r47 209r60
+. 211r48 213r22 213r56 215r48 218r60 220r36 222r45 224r55 226r41 228r47 230r58
+. 232r38 234r68 236r48 257r22 300r22 343r22 376r22 419r22 471r22 509r22 600r22
+. 603r22 621r22 675r22 703r22
+23R9 ValueType 8|110r31 134r31 175r31 200r64 202r62 204r65 206r56 209r69
+. 211r57 213r31 213r65 215r57 218r69 220r45 222r54 224r64 226r50 228r56 230r67
+. 232r47 234r77 236r57 257r31 300r31 343r31 376r31 419r31 471r31 509r31 600r31
+. 603r31 621r31 675r31 703r31
+X 12 mssyst-decimal.ads
+19K16 Decimal 8|108r22 136r22 173r22 224r22 238r56 240r47 242r58 244r38 246r45
+. 249r60 251r48 253r55 255r53 257r56 260r60 262r22 262r55 264r47 266r48 268r68
+. 270r48 272r41 274r36 304r22 345r22 370r22 417r22 469r22 484r22 598r22 605r22
+. 627r22 669r22 698r22
+20R9 ValueType 8|108r30 136r30 173r30 224r30 238r64 240r55 242r66 244r46
+. 246r53 249r68 251r56 253r63 255r61 257r64 260r68 262r30 262r63 264r55 266r56
+. 268r76 270r56 272r49 274r44 304r30 345r30 370r30 417r30 469r30 484r30 598r30
+. 605r30 627r30 669r30 698r30
+X 19 mssyst-iformatprovider.ads
+12K16 IFormatProvider 8|34r25 41r25 96r25 119r25 132r25 147r25 171r25 192r25
+. 209r25 218r25 249r25 260r25 287r25 296r25 333r25 336r25 358r25 379r25 405r25
+. 422r25 467r25 474r25 505r25 514r25 519r25 524r25 529r25 534r25 537r25 542r25
+. 547r25 552r25 557r25 562r25 567r25 574r25 591r25 596r25 601r25 606r25 619r25
+. 630r25 667r25 678r25 701r25 719r25
+14P9 Ref(integer) 8|34r41 41r41 96r41 119r41 132r41 147r41 171r41 192r41
+. 209r41 218r41 249r41 260r41 287r41 296r41 333r41 336r41 358r41 379r41 405r41
+. 422r41 467r41 474r41 505r41 514r41 519r41 524r41 529r41 534r41 537r41 542r41
+. 547r41 552r41 557r41 562r41 567r41 574r41 591r41 596r41 601r41 606r41 619r41
+. 630r41 667r41 678r41 701r41 719r41
+X 21 mssyst-object.ads
+11K16*Object 8|7w13 10w13 26r36 29r20 32r22 34r60 36r22 37r59 39r22 41r60
+. 43r22 44r57 52r22 54r22 95r22 98r22 144r22 146r22 166r22 191r22 211r22
+. 217r22 248r22 251r22 286r22 289r22 332r22 349r22 357r22 360r22 404r22 407r22
+. 464r22 466r22 504r22 511r22 546r22 571r22 629r22 637r22 659r22 666r22 716r22
+. 718r22 21|46e18
+12R9*Typ 8|26r43 21|20e14
+13P9*Ref(12R9) 8|29r27 32r29 34r67 36r29 37r66 39r29 41r67 43r29 44r64 52r29
+. 54r29 95r29 98r29 144r29 146r29 166r29 191r29 211r29 217r29 248r29 251r29
+. 286r29 289r29 332r29 349r29 357r29 360r29 404r29 407r29 464r29 466r29 504r29
+. 511r29 546r29 571r29 629r29 637r29 659r29 666r29 716r29 718r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{42|51P9}
+36V13*ToString{37|27P9}
+X 36 mssyst-sbyte.ads
+17K16 SByte 8|104r22 155r22 189r22 202r22 255r22 293r22 314r22 368r22 411r22
+. 437r58 439r38 441r56 443r48 445r41 447r36 449r68 452r41 454r47 456r55 458r45
+. 460r47 462r22 462r53 464r48 467r60 469r55 471r56 474r60 476r48 500r22 566r22
+. 569r22 645r22 651r22 721r22
+18R9 ValueType 8|104r28 155r28 189r28 202r28 255r28 293r28 314r28 368r28
+. 411r28 437r64 439r44 441r62 443r54 445r47 447r42 449r74 452r47 454r53 456r61
+. 458r51 460r53 462r28 462r59 464r54 467r66 469r61 471r62 474r66 476r54 500r28
+. 566r28 569r28 645r28 651r28 721r28
+X 37 mssyst-string.ads
+25K16 String 8|50r18 70r73 75r73 77r61 81r39 116r22 118r22 131r22 138r22
+. 159r22 164r22 170r22 208r22 215r22 259r22 266r22 295r22 298r22 335r22 338r22
+. 340r22 374r22 378r22 393r22 415r22 421r22 434r22 451r22 473r22 476r22 482r22
+. 513r22 516r36 519r60 521r58 524r60 526r48 529r60 531r68 534r60 537r60 539r47
+. 542r60 544r56 547r60 549r38 552r60 554r45 557r60 559r47 562r60 564r55 567r60
+. 569r53 571r48 573r22 574r60 576r22 576r48 579r39 582r39 585r39 588r39 591r60
+. 593r41 596r60 598r55 601r60 603r56 606r60 618r22 623r22 634r22 661r22 673r22
+. 677r22 700r22 705r22 707r22
+27P9 Ref(integer) 8|50r25 70r80 75r80 77r68 81r46 116r29 118r29 131r29 138r29
+. 159r29 164r29 170r29 208r29 215r29 259r29 266r29 295r29 298r29 335r29 338r29
+. 340r29 374r29 378r29 393r29 415r29 421r29 434r29 451r29 473r29 476r29 482r29
+. 513r29 516r43 519r67 521r65 524r67 526r55 529r67 531r75 534r67 537r67 539r54
+. 542r67 544r63 547r67 549r45 552r67 554r52 557r67 559r54 562r67 564r62 567r67
+. 569r60 571r55 573r29 574r67 576r29 576r55 579r46 582r46 585r46 588r46 591r67
+. 593r48 596r67 598r62 601r67 603r63 606r67 618r29 623r29 634r29 661r29 673r29
+. 677r29 700r29 705r29 707r29
+X 42 mssyst-type_k.ads
+49K16 Type_k 8|40r31 44r31
+51P9 Ref(integer) 8|40r38 44r38
+X 43 mssyst-typecode.ads
+14K16*TypeCode 8|11w13 33r25 37r25 52r48 43|89e20
+15E9*ValueType 8|33r34 37r34 52r57 43|33e14
+

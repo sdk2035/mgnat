@@ -1,0 +1,205 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.diagnostics.trace%s  mssyst-diagnostics-trace.ads  a83fe6e7 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.diagnostics%s	mssyst-diagnostics.ads	mssyst-diagnostics.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-diagnostics.ads  20060131165224 ca17f3f6
+D mssyst-diagnostics-correlationmanager.ads  20060131171416 1b020f3a
+D mssyst-diagnostics-trace.ads  20060131171416 d7ac52e1
+D mssyst-diagnostics-tracelistenercollection.ads  20060131171416 7e314ae7
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 12|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 12|7r6 10r6 16r9 23r20 30r17 33r17 34r23 37r17 39r17 40r23
+. 43r43 46r34 59r16 60r14 62r17 64r17 66r16 67r14 69r17 71r16 72r14 75r17
+. 77r15 78r18 80r15 82r17 83r18 86r15 87r18 90r15 93r17 96r17 97r18 99r17
+. 100r18 102r15 103r18 105r17 107r15 110r15 111r18 114r17 115r18 118r15 121r17
+. 148r5 150r20
+X 10 mssyst-diagnostics.ads
+6K16*Diagnostics 6|6k9 10|7e23 12|16r16 43r50 46r41 148r12 150r27
+X 11 mssyst-diagnostics-correlationmanager.ads
+15K28 CorrelationManager 12|43r62
+17P9 Ref(integer) 12|43r81
+X 12 mssyst-diagnostics-trace.ads
+16K28*Trace 10|6k16 12|148l24 148e29 150r39
+17R9*Typ 18r27 23c9 123r27
+18P9*Ref(17R9) 19r34 20r47
+19P9*Ref_addrof(18P9)
+20A9*Ref_Arr(18P9) 21r33
+21P9*Ref_Array(20A9) 22r40
+22P9*Ref_Array_addrof(21P9)
+23R9*Typ<19|18R9> 25e14 19|23p13 29p13 31p13 36p13
+26U14*Assert 27>7
+27b7 condition{boolean}
+28U14*Assert 29>7 30>7
+29b7 condition{boolean}
+30p7 message{35|27P9}
+31U14*Assert 32>7 33>7 34>7 124b23
+32b7 condition{boolean}
+33p7 message{35|27P9}
+34p7 detailMessage{35|27P9}
+35U14*Close 125b23
+36U14*Fail 37>7
+37p7 message{35|27P9}
+38U14*Fail 39>7 40>7 126b23
+39p7 message{35|27P9}
+40p7 detailMessage{35|27P9}
+41U14*Flush 127b23
+42V13*get_AutoFlush{boolean} 128b23
+43V13*get_CorrelationManager{11|17P9} 129b23
+44V13*get_IndentLevel{integer} 130b23
+45V13*get_IndentSize{integer} 131b23
+46V13*get_Listeners{13|20P9} 132b23
+47V13*get_UseGlobalLock{boolean} 133b23
+48U14*Indent 134b23
+49U14*Refresh 135b23
+50U14*set_AutoFlush 51>7 136b23
+51b7 value{boolean}
+52U14*set_IndentLevel 53>7 137b23
+53i7 value{integer}
+54U14*set_IndentSize 55>7 138b23
+55i7 value{integer}
+56U14*set_UseGlobalLock 57>7 139b23
+57b7 value{boolean}
+58U14*TraceError 59>7 60>7
+59p7 format{35|27P9}
+60p7 args{19|16P9}
+61U14*TraceError 62>7 140b23
+62p7 message{35|27P9}
+63U14*TraceInformation 64>7
+64p7 message{35|27P9}
+65U14*TraceInformation 66>7 67>7 141b23
+66p7 format{35|27P9}
+67p7 args{19|16P9}
+68U14*TraceWarning 69>7
+69p7 message{35|27P9}
+70U14*TraceWarning 71>7 72>7 142b23
+71p7 format{35|27P9}
+72p7 args{19|16P9}
+73U14*Unindent 143b23
+74U14*Write 75>7
+75p7 message{35|27P9}
+76U14*Write 77>7 78>7
+77p7 value{19|13P9}
+78p7 category{35|27P9}
+79U14*Write 80>7
+80p7 value{19|13P9}
+81U14*Write 82>7 83>7 144b23
+82p7 message{35|27P9}
+83p7 category{35|27P9}
+84U14*WriteIf 85>7 86>7 87>7
+85b7 condition{boolean}
+86p7 value{19|13P9}
+87p7 category{35|27P9}
+88U14*WriteIf 89>7 90>7
+89b7 condition{boolean}
+90p7 value{19|13P9}
+91U14*WriteIf 92>7 93>7
+92b7 condition{boolean}
+93p7 message{35|27P9}
+94U14*WriteIf 95>7 96>7 97>7 145b23
+95b7 condition{boolean}
+96p7 message{35|27P9}
+97p7 category{35|27P9}
+98U14*WriteLine 99>7 100>7
+99p7 message{35|27P9}
+100p7 category{35|27P9}
+101U14*WriteLine 102>7 103>7
+102p7 value{19|13P9}
+103p7 category{35|27P9}
+104U14*WriteLine 105>7
+105p7 message{35|27P9}
+106U14*WriteLine 107>7 146b23
+107p7 value{19|13P9}
+108U14*WriteLineIf 109>7 110>7 111>7
+109b7 condition{boolean}
+110p7 value{19|13P9}
+111p7 category{35|27P9}
+112U14*WriteLineIf 113>7 114>7 115>7
+113b7 condition{boolean}
+114p7 message{35|27P9}
+115p7 category{35|27P9}
+116U14*WriteLineIf 117>7 118>7
+117b7 condition{boolean}
+118p7 value{19|13P9}
+119U14*WriteLineIf 120>7 121>7 147b23
+120b7 condition{boolean}
+121p7 message{35|27P9}
+X 13 mssyst-diagnostics-tracelistenercollection.ads
+18K28 TraceListenerCollection 12|46r53
+20P9 Ref(integer) 12|46r77
+X 19 mssyst-object.ads
+11K16*Object 12|7w13 10w13 23r27 60r21 67r21 72r21 77r22 80r22 86r22 90r22
+. 102r22 107r22 110r22 118r22 19|46e18
+12R9*Typ 12|23r34 19|20e14
+13P9*Ref(12R9) 12|77r29 80r29 86r29 90r29 102r29 107r29 110r29 118r29
+15A9*Ref_Arr(13P9)
+16P9*Ref_Array(15A9) 12|60r28 67r28 72r28
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{40|51P9}
+36V13*ToString{35|27P9}
+X 35 mssyst-string.ads
+25K16 String 12|30r24 33r24 34r30 37r24 39r24 40r30 59r23 62r24 64r24 66r23
+. 69r24 71r23 75r24 78r25 82r24 83r25 87r25 93r24 96r24 97r25 99r24 100r25
+. 103r25 105r24 111r25 114r24 115r25 121r24
+27P9 Ref(integer) 12|30r31 33r31 34r37 37r31 39r31 40r37 59r30 62r31 64r31
+. 66r30 69r31 71r30 75r31 78r32 82r31 83r32 87r32 93r31 96r31 97r32 99r31
+. 100r32 103r32 105r31 111r32 114r31 115r32 121r31
+X 40 mssyst-type_k.ads
+51P9 Ref(integer)
+

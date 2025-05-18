@@ -1,0 +1,159 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.datagridcolumnstyle.compmodswitches%s  mssyst-windows-forms-datagridcolumnstyle-compmodswitches.ads  0af1192f NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.datagridcolumnstyle%s  mssyst-windows-forms-datagridcolumnstyle.ads  mssyst-windows-forms-datagridcolumnstyle.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-designerserializationvisibility.ads  20060131171412 42f0b201
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-componentmodel-memberdescriptor.ads  20060131171412 ebdb73f4
+D mssyst-componentmodel-propertydescriptor.ads  20060131171412 9db79170
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-diagnostics.ads  20060131165224 ca17f3f6
+D mssyst-diagnostics-switch.ads  20060131171416 f1c9952d
+D mssyst-diagnostics-tracelevel.ads  20060131171416 e36fcac3
+D mssyst-diagnostics-traceswitch.ads  20060131171418 a702e896
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-standardolemarshalobject.ads  20060131171418 9d62cad8
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-accessiblenavigation.ads  20060131171434 abdc108c
+D mssyst-windows-forms-accessibleobject.ads  20060131171436 3fd62ef2
+D mssyst-windows-forms-accessiblerole.ads  20060131171436 c08bcb4f
+D mssyst-windows-forms-accessibleselection.ads  20060131171436 3c622e47
+D mssyst-windows-forms-accessiblestates.ads  20060131171436 8d77cb2d
+D mssyst-windows-forms-anchorstyles.ads  20060131171436 22446596
+D mssyst-windows-forms-boundsspecified.ads  20060131171436 2f9ca777
+D mssyst-windows-forms-control.ads  20060131171436 1c03b650
+D mssyst-windows-forms-datagridcolumnstyle.ads  20060131171438 b942a38e
+D mssyst-windows-forms-datagridcolumnstyle-compmodswitches.ads  20060131171438 0637fd51
+D mssyst-windows-forms-datagridlinestyle.ads  20060131171438 a8e30374
+D mssyst-windows-forms-datagridtablestyle.ads  20060131171438 f2537cef
+D mssyst-windows-forms-dockstyle.ads  20060131171440 a08bf6b6
+D mssyst-windows-forms-dragdropeffects.ads  20060131171440 dfaed805
+D mssyst-windows-forms-getchildatpointskip.ads  20060131171442 84d63876
+D mssyst-windows-forms-horizontalalignment.ads  20060131171442 9afe1d98
+D mssyst-windows-forms-ibindablecomponent.ads  20060131171436 1e1050b2
+D mssyst-windows-forms-idatagridcolumnstyleeditingnotificationservice.ads  20060131171438 a18f8a3b
+D mssyst-windows-forms-idatagrideditingservice.ads  20060131171438 98c8df03
+D mssyst-windows-forms-imagelayout.ads  20060131171442 e0e6ce51
+D mssyst-windows-forms-imemode.ads  20060131171442 58d96089
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D mssyst-windows-forms-keys.ads  20060131171442 e98517be
+D mssyst-windows-forms-message.ads  20060131171444 f6b3d9da
+D mssyst-windows-forms-mousebuttons.ads  20060131171444 1b279075
+D mssyst-windows-forms-preprocesscontrolstate.ads  20060131171446 047a345d
+D mssyst-windows-forms-righttoleft.ads  20060131171446 898cfeaf
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 76|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 76|7r6 10r6 14r9 21r20 26r44 31r5 33r20
+X 20 mssyst-diagnostics.ads
+6K16 Diagnostics 76|26r51
+X 23 mssyst-diagnostics-traceswitch.ads
+16K28 TraceSwitch 76|26r63
+18P9 Ref(integer) 76|26r75
+X 34 mssyst-object.ads
+11K16*Object 46e18 76|7w13 10w13 21r27
+12R9*Typ 20e14 76|21r34
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{61|51P9}
+36V13*ToString{56|27P9}
+X 56 mssyst-string.ads
+27P9 Ref(integer)
+X 61 mssyst-type_k.ads
+51P9 Ref(integer)
+X 65 mssyst-windows.ads
+6K16*Windows 9|6k9 65|7e19 76|14r16 31r12 33r27
+X 66 mssyst-windows-forms.ads
+6K24*Forms 65|6k16 66|7e25 76|14r24 31r20 33r35
+X 75 mssyst-windows-forms-datagridcolumnstyle.ads
+24K30*DataGridColumnStyle 66|6k24 75|167e45 76|14r30 31r26 33r41
+X 76 mssyst-windows-forms-datagridcolumnstyle-compmodswitches.ads
+14K50*CompModSwitches 75|24k30 76|31l46 31e61 33r61
+15R9*Typ 16r27 21c9 28r27
+16P9*Ref(15R9) 17r34 18r47 25r14 25r34
+17P9*Ref_addrof(16P9)
+18A9*Ref_Arr(16P9) 19r33
+19P9*Ref_Array(18A9) 20r40
+20P9*Ref_Array_addrof(19P9)
+21R9*Typ<34|18R9> 34|23p13 29p13 31p13 36p13 76|23e14
+24V13*new_CompModSwitches{16P9} 25>7 29r28
+25p7 This{16P9}
+26V13*get_DGEditColumnEditing{23|18P9} 30b23
+

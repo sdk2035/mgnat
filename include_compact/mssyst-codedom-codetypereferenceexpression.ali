@@ -1,0 +1,121 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.codedom.codetypereferenceexpression%s  mssyst-codedom-codetypereferenceexpression.ads  5d683140 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.codedom%s	mssyst-codedom.ads	mssyst-codedom.ali
+W mssyst.codedom.codeexpression%s  mssyst-codedom-codeexpression.ads  mssyst-codedom-codeexpression.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-codedom.ads	20060131171412 18e56f92
+D mssyst-codedom-codeexpression.ads  20060131171412 f69bcb47
+D mssyst-codedom-codeobject.ads  20060131171412 dcd160d8
+D mssyst-codedom-codetypereference.ads  20060131171412 7cb7ca40
+D mssyst-codedom-codetypereferenceexpression.ads  20060131171412 24edb2df
+D mssyst-codedom-codetypereferenceoptions.ads  20060131171412 a1b475e9
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-idictionary.ads  20060131171358 0d4908a9
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 11|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 11|7r6 10r6 16r9 23r20 30r16 33r16 36r16 38r33 41r15 47r5
+. 49r20
+X 7 mssyst-codedom.ads
+6K16*CodeDom 6|6k9 7|7e19 11|10r13 16r16 23r27 30r23 38r40 41r22 47r12 49r27
+X 8 mssyst-codedom-codeexpression.ads
+15K24*CodeExpression 30e34 11|10w21 23r35
+16R9*Typ 11|23r50
+X 9 mssyst-codedom-codeobject.ads
+26V13*get_UserData{15|15P9}
+X 10 mssyst-codedom-codetypereference.ads
+19K24 CodeTypeReference 11|30r31 38r48 41r30
+21P9 Ref(integer) 11|30r49 38r66 41r48
+X 11 mssyst-codedom-codetypereferenceexpression.ads
+16K24*CodeTypeReferenceExpression 7|6k16 11|47l20 47e47 49r35
+17R9*Typ 18r27 23c9 38r21 40r21 43r27
+18P9*Ref(17R9) 19r34 20r47 27r14 27r34 29r14 30r61 32r14 33r42 35r14 36r42
+19P9*Ref_addrof(18P9)
+20A9*Ref_Arr(18P9) 21r33
+21P9*Ref_Array(20A9) 22r40
+22P9*Ref_Array_addrof(21P9)
+23R9*Typ<8|22R9> 9|26p13 11|25e14 37p13 39p14 21|23p13 29p13 31p13 36p13
+26V13*new_CodeTypeReferenceExpression{18P9} 27>7
+27p7 This{18P9}
+28V13*new_CodeTypeReferenceExpression{18P9} 29>7 30>7
+29p7 This{18P9}
+30p7 type_k{10|21P9}
+31V13*new_CodeTypeReferenceExpression{18P9} 32>7 33>7
+32p7 This{18P9}
+33p7 type_k{37|27P9}
+34V13*new_CodeTypeReferenceExpression{18P9} 35>7 36>7
+35p7 This{18P9}
+36p7 type_k{42|51P9}
+37V13*get_Type{10|21P9} 38^7 45b23
+38p7 This(23R9)
+39U14*set_Type 40^7 41>7 46b23
+40p7 This(23R9)
+41p7 value{10|21P9}
+X 15 mssyst-collections-idictionary.ads
+15P9 Ref(integer)
+X 21 mssyst-object.ads
+11K16*Object 11|7w13 21|46e18
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{42|51P9}
+36V13*ToString{37|27P9}
+X 37 mssyst-string.ads
+25K16 String 11|33r23
+27P9 Ref(integer) 11|33r30
+X 42 mssyst-type_k.ads
+49K16 Type_k 11|36r23
+51P9 Ref(integer) 11|36r30
+

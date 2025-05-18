@@ -1,0 +1,138 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.unsafenativemethods.istream%s  mssyst-drawing-unsafenativemethods-istream.ads  f553e649 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.unsafenativemethods%s  mssyst-drawing-unsafenativemethods.ads  mssyst-drawing-unsafenativemethods.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-unsafenativemethods.ads  20060131171430 cbd42b81
+D mssyst-drawing-unsafenativemethods-istream.ads  20060131171430 a97cea82
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 12|8w6 9r5 27r17 35r13 48r18 57r13
+37A9*int64_arr(long_long_integer) 12|27r28
+52M9*native_int 12|35r24 48r29 57r24
+X 9 mssyst.ads
+6K9*MSSyst 7e11 12|7r6 10r9 19r33 25r14 71r5 73r20
+X 10 mssyst-drawing.ads
+6K16*Drawing 9|6k9 10|7e19 12|10r16 19r40 25r21 71r12 73r27
+X 11 mssyst-drawing-unsafenativemethods.ads
+6K24*UnsafeNativeMethods 10|6k16 11|7e39 12|10r24 19r48 25r29 71r20 73r35
+X 12 mssyst-drawing-unsafenativemethods-istream.ads
+10K44*IStream 11|6k24 12|19r68 25r49 71l40 71e47 73r55
+11R9*Typ 12r27 17c9 19r21 21r21 24r21 29r21 34r21 38r21 40r21 44r21 47r21
+. 51r21 56r21
+12P9*Ref(11R9) 13r34 14r47 19r76 25r57
+13P9*Ref_addrof(12P9)
+14A9*Ref_Arr(12P9) 15r33
+15P9*Ref_Array(14A9) 16r40
+16P9*Ref_Array_addrof(15P9)
+17H9*Typ 18p13 20p14 23p13 28p14 33p13 37p14 39p13 43p14 46p14 50p14 55p13
+18y13*Clone{12P9} 19^7 60b23
+19p7 This(17R9)
+20x14*Commit 21^7 22>7 61b23
+21p7 This(17R9)
+22i7 grfCommitFlags{integer}
+23y13*CopyTo{long_long_integer} 24^7 25>7 26>7 27>7 62b23
+24p7 This(17R9)
+25p7 pstm{12P9}
+26i7 cb{long_long_integer}
+27a7 pcbRead{8|37A9}
+28x14*LockRegion 29^7 30>7 31>7 32>7 63b23
+29p7 This(17R9)
+30i7 libOffset{long_long_integer}
+31i7 cb{long_long_integer}
+32i7 dwLockType{integer}
+33y13*Read{integer} 34^7 35>7 36>7 64b23
+34p7 This(17R9)
+35m7 buf{8|52M9}
+36i7 len{integer}
+37x14*Revert 38^7 65b23
+38p7 This(17R9)
+39y13*Seek{long_long_integer} 40^7 41>7 42>7 66b23
+40p7 This(17R9)
+41i7 dlibMove{long_long_integer}
+42i7 dwOrigin{integer}
+43x14*SetSize 44^7 45>7 67b23
+44p7 This(17R9)
+45i7 libNewSize{long_long_integer}
+46x14*Stat 47^7 48>7 49>7 68b23
+47p7 This(17R9)
+48m7 pStatstg{8|52M9}
+49i7 grfStatFlag{integer}
+50x14*UnlockRegion 51^7 52>7 53>7 54>7 69b23
+51p7 This(17R9)
+52i7 libOffset{long_long_integer}
+53i7 cb{long_long_integer}
+54i7 dwLockType{integer}
+55y13*Write{integer} 56^7 57>7 58>7 70b23
+56p7 This(17R9)
+57m7 buf{8|52M9}
+58i7 len{integer}
+X 18 mssyst-object.ads
+11K16*Object 12|7w13 18|46e18
+

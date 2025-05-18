@@ -1,0 +1,23 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.internal.intsafenativemethods%s  mssyst-drawing-internal-intsafenativemethods.ads  91ee1d8c EE PK
+W mssyst.drawing.internal%s  mssyst-drawing-internal.ads  mssyst-drawing-internal.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-drawing.ads	20060517222328 770dd27a
+D mssyst-drawing-internal.ads  20060517222328 f3c88160
+D mssyst-drawing-internal-intsafenativemethods.ads  20060517222328 62269cec
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 4|6r9 7r5
+X 2 mssyst-drawing.ads
+6K16*Drawing 1|6k9 2|7e19 4|6r16 7r12
+X 3 mssyst-drawing-internal.ads
+6K24*Internal 2|6k16 3|7e28 4|6r24 7r20
+X 4 mssyst-drawing-internal-intsafenativemethods.ads
+6K33*IntSafeNativeMethods 3|6k24 4|7l29 7e49
+

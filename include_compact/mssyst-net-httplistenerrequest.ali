@@ -1,0 +1,239 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.net.httplistenerrequest%s  mssyst-net-httplistenerrequest.ads  0edcfe4e NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-asynccallback.ads  20060131171354 20264380
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-specialized.ads  20060131171418 96cafd88
+D mssyst-collections-specialized-nameobjectcollectionbase.ads  20060131171418 dc04e33f
+D mssyst-collections-specialized-namevaluecollection.ads  20060131171418 bbd95227
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-iasyncresult.ads  20060131171356 e48639e4
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-seekorigin.ads  20060131171404 0f77313e
+D mssyst-io-stream.ads	20060131171402 5b7412c0
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-net.ads	20060131171420 aa03617c
+D mssyst-net-cookiecollection.ads  20060131171420 82428557
+D mssyst-net-endpoint.ads  20060131171420 dc20260f
+D mssyst-net-httplistenerrequest.ads  20060131171420 115bd8c2
+D mssyst-net-ipendpoint.ads  20060131171422 00a0637e
+D mssyst-net-sockets.ads  20060131171422 4d59735d
+D mssyst-net-sockets-addressfamily.ads  20060131171422 923f2d7b
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060131171358 afb77eb6
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-cryptography.ads  20060131165240 6bbb0e6b
+D mssyst-security-cryptography-x509certificates.ads  20060131165242 1b20ddcc
+D mssyst-security-cryptography-x509certificates-x509certificate.ads  20060131171408 bc48d0a3
+D mssyst-security-cryptography-x509certificates-x509certificate2.ads  20060131171418 a91d56fe
+D mssyst-security-cryptography-x509certificates-x509contenttype.ads  20060131171408 20fd5fe7
+D mssyst-security-cryptography-x509certificates-x509keystorageflags.ads  20060131171408 44517baf
+D mssyst-security-cryptography-x509certificates-x509nametype.ads  20060131171418 d123b217
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-encoding.ads  20060131171400 d678db95
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-uri.ads	20060131171420 e4097279
+D mssyst-uricomponents.ads  20060131171420 7ea03585
+D mssyst-uriformat.ads	20060131171420 bf7e8d5a
+D mssyst-urihostnametype.ads  20060131171420 24f50916
+D mssyst-urikind.ads	20060131171420 c1a164ce
+D mssyst-uripartial.ads	20060131171420 4bb7c6be
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-version.ads	20060131171356 6c768437
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 28|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 28|7r6 10r6 25r9 32r20 37r25 38r15 38r41 41r21 41r53 43r33
+. 47r33 51r33 53r33 57r33 59r33 61r33 71r33 73r33 75r33 77r33 79r33 81r33
+. 83r33 85r33 87r33 89r33 91r33 93r33 95r33 127r5 129r20
+X 7 mssyst-asynccallback.ads
+22K16 AsyncCallback 28|37r32
+24P9 Ref(integer) 28|37r46
+X 8 mssyst-collections.ads
+6K16 Collections 28|57r40 75r40
+X 10 mssyst-collections-specialized.ads
+6K28 Specialized 28|57r52 75r52
+X 12 mssyst-collections-specialized-namevaluecollection.ads
+26K40 NameValueCollection 28|57r64 75r64
+28P9 Ref(integer) 28|57r84 75r84
+X 16 mssyst-guid.ads
+15K16 Guid 28|81r40
+16R9 ValueType 28|81r45
+X 17 mssyst-iasyncresult.ads
+12K16 IAsyncResult 28|38r48 41r28
+14P9 Ref(integer) 28|38r61 41r41
+X 20 mssyst-io.ads
+6K16 IO 28|61r40
+X 22 mssyst-io-stream.ads
+18K19 Stream 28|61r43
+20P9 Ref(integer) 28|61r50
+X 25 mssyst-net.ads
+6K16*Net 6|6k9 25|7e15 28|25r16 53r40 71r40 79r40 127r12 129r27
+X 26 mssyst-net-cookiecollection.ads
+18K20 CookieCollection 28|53r44
+20P9 Ref(integer) 28|53r61
+X 28 mssyst-net-httplistenerrequest.ads
+25K20*HttpListenerRequest 25|6k16 28|127l16 127e35 129r31
+26R9*Typ 27r27 32c9 36r21 40r21 43r21 45r21 47r21 49r21 51r21 53r21 55r21
+. 57r21 59r21 61r21 63r21 65r21 67r21 69r21 71r21 73r21 75r21 77r21 79r21
+. 81r21 83r21 85r21 87r21 89r21 91r21 93r21 95r21 97r27
+27P9*Ref(26R9) 28r34 29r47
+28P9*Ref_addrof(27P9)
+29A9*Ref_Arr(27P9) 30r33
+30P9*Ref_Array(29A9) 31r40
+31P9*Ref_Array_addrof(30P9)
+32R9*Typ<32|18R9> 34e14 35p13 39p13 42p13 44p13 46p13 48p13 50p13 52p13 54p13
+. 56p13 58p13 60p13 62p13 64p13 66p13 68p13 70p13 72p13 74p13 76p13 78p13
+. 80p13 82p13 84p13 86p13 88p13 90p13 92p13 94p13 32|23p13 29p13 31p13 36p13
+35V13*BeginGetClientCertificate{17|14P9} 36^7 37>7 38>7 98b23
+36p7 This(32R9)
+37p7 requestCallback{7|24P9}
+38p7 state{32|13P9}
+39V13*EndGetClientCertificate{55|28P9} 40^7 41>7 99b23
+40p7 This(32R9)
+41p7 asyncResult{17|14P9}
+42V13*get_AcceptTypes{59|30P9} 43^7 100b23
+43p7 This(32R9)
+44V13*get_ClientCertificateError{integer} 45^7 101b23
+45p7 This(32R9)
+46V13*get_ContentEncoding{63|22P9} 47^7 102b23
+47p7 This(32R9)
+48V13*get_ContentLength64{long_long_integer} 49^7 103b23
+49p7 This(32R9)
+50V13*get_ContentType{59|27P9} 51^7 104b23
+51p7 This(32R9)
+52V13*get_Cookies{26|20P9} 53^7 105b23
+53p7 This(32R9)
+54V13*get_HasEntityBody{boolean} 55^7 106b23
+55p7 This(32R9)
+56V13*get_Headers{12|28P9} 57^7 107b23
+57p7 This(32R9)
+58V13*get_HttpMethod{59|27P9} 59^7 108b23
+59p7 This(32R9)
+60V13*get_InputStream{22|20P9} 61^7 109b23
+61p7 This(32R9)
+62V13*get_IsAuthenticated{boolean} 63^7 110b23
+63p7 This(32R9)
+64V13*get_IsLocal{boolean} 65^7 111b23
+65p7 This(32R9)
+66V13*get_IsSecureConnection{boolean} 67^7 112b23
+67p7 This(32R9)
+68V13*get_KeepAlive{boolean} 69^7 113b23
+69p7 This(32R9)
+70V13*get_LocalEndPoint{29|19P9} 71^7 114b23
+71p7 This(32R9)
+72V13*get_ProtocolVersion{75|17P9} 73^7 115b23
+73p7 This(32R9)
+74V13*get_QueryString{12|28P9} 75^7 116b23
+75p7 This(32R9)
+76V13*get_RawUrl{59|27P9} 77^7 117b23
+77p7 This(32R9)
+78V13*get_RemoteEndPoint{29|19P9} 79^7 118b23
+79p7 This(32R9)
+80V13*get_RequestTraceIdentifier{16|16R9} 81^7 119b23
+81p7 This(32R9)
+82V13*get_Url{68|24P9} 83^7 120b23
+83p7 This(32R9)
+84V13*get_UrlReferrer{68|24P9} 85^7 121b23
+85p7 This(32R9)
+86V13*get_UserAgent{59|27P9} 87^7 122b23
+87p7 This(32R9)
+88V13*get_UserHostAddress{59|27P9} 89^7 123b23
+89p7 This(32R9)
+90V13*get_UserHostName{59|27P9} 91^7 124b23
+91p7 This(32R9)
+92V13*get_UserLanguages{59|30P9} 93^7 125b23
+93p7 This(32R9)
+94V13*GetClientCertificate{55|28P9} 95^7 126b23
+95p7 This(32R9)
+X 29 mssyst-net-ipendpoint.ads
+17K20 IPEndPoint 28|71r44 79r44
+19P9 Ref(integer) 28|71r55 79r55
+X 32 mssyst-object.ads
+11K16*Object 28|7w13 10w13 32r27 38r22 32|46e18
+12R9*Typ 28|32r34 32|20e14
+13P9*Ref(12R9) 28|38r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{65|51P9}
+36V13*ToString{59|27P9}
+X 51 mssyst-security.ads
+6K16 Security 28|41r60 95r40
+X 52 mssyst-security-cryptography.ads
+6K25 Cryptography 28|41r69 95r49
+X 53 mssyst-security-cryptography-x509certificates.ads
+6K38 X509Certificates 28|41r82 95r62
+X 55 mssyst-security-cryptography-x509certificates-x509certificate2.ads
+26K55 X509Certificate2 28|41r99 95r79
+28P9 Ref(integer) 28|41r116 95r96
+X 59 mssyst-string.ads
+25K16 String 28|43r40 51r40 59r40 77r40 87r40 89r40 91r40 93r40
+27P9 Ref(integer) 28|51r47 59r47 77r47 87r47 89r47 91r47
+30P9 Ref_Array(integer) 28|43r47 93r47
+X 62 mssyst-text.ads
+6K16 Text 28|47r40
+X 63 mssyst-text-encoding.ads
+20K21 Encoding 28|47r45
+22P9 Ref(integer) 28|47r54
+X 65 mssyst-type_k.ads
+51P9 Ref(integer)
+X 68 mssyst-uri.ads
+22K16 Uri 28|83r40 85r40
+24P9 Ref(integer) 28|83r44 85r44
+X 75 mssyst-version.ads
+15K16 Version 28|73r40
+17P9 Ref(integer) 28|73r48
+

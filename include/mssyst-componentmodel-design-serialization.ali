@@ -1,0 +1,23 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.componentmodel.design.serialization%s  mssyst-componentmodel-design-serialization.ads  a3d94547 EE PK
+W mssyst.componentmodel.design%s  mssyst-componentmodel-design.ads  mssyst-componentmodel-design.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-componentmodel.ads  20060517222310 36ea93a4
+D mssyst-componentmodel-design.ads  20060517222314 dcbb2ca1
+D mssyst-componentmodel-design-serialization.ads  20060517222316 7f6269e6
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 4|6r9 7r5
+X 2 mssyst-componentmodel.ads
+6K16*ComponentModel 1|6k9 2|7e26 4|6r16 7r12
+X 3 mssyst-componentmodel-design.ads
+6K31*Design 2|6k16 3|7e33 4|6r31 7r27
+X 4 mssyst-componentmodel-design-serialization.ads
+6K38*Serialization 3|6k31 4|7l34 7e47
+

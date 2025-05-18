@@ -1,0 +1,21 @@
+with Gnat.Directory_Operations;
+with Ada.Command_Line;
+use Ada.Command_Line;
+with Gnat.Os_Lib;
+
+procedure Compile_All is
+   Directory : Gnat.Directory_Operations.Dir_Type;
+   Command : Ada.Command_Line.Command_Name;
+   Name : String;
+   last : natural;
+begin
+   Gnat.Directory_Operations.Open(
+      Dir => Directory,
+      Dir_Name => gnat.Directory_Operations.Dir_Name(command));
+   Gnat.Directory_Operations.Read(
+      Dir => Directory,
+      Str => name,
+      Last => last);
+      
+end Compile_All;
+

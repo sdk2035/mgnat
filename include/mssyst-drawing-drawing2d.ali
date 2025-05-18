@@ -1,0 +1,20 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.drawing2d%s  mssyst-drawing-drawing2d.ads  75bcd54c EE PK
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-drawing.ads	20060517222328 770dd27a
+D mssyst-drawing-drawing2d.ads  20060517222328 02b10736
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 3|6r9 7r5
+X 2 mssyst-drawing.ads
+6K16*Drawing 1|6k9 2|7e19 3|6r16 7r12
+X 3 mssyst-drawing-drawing2d.ads
+6K24*Drawing2D 2|6k16 3|7l20 7e29
+

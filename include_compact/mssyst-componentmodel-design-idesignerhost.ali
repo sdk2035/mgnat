@@ -1,0 +1,225 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.componentmodel.design.idesignerhost%s  mssyst-componentmodel-design-idesignerhost.ads  70c34cfc NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.design%s  mssyst-componentmodel-design.ads  mssyst-componentmodel-design.ali
+W mssyst.componentmodel.design.iservicecontainer%s  mssyst-componentmodel-design-iservicecontainer.ads  mssyst-componentmodel-design-iservicecontainer.ali
+W mssyst.iserviceprovider%s  mssyst-iserviceprovider.ads  mssyst-iserviceprovider.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-design.ads  20060131171414 dcbb2ca1
+D mssyst-componentmodel-design-designertransaction.ads  20060131171416 3c9cdfba
+D mssyst-componentmodel-design-designertransactioncloseeventhandler.ads  20060131171416 bf3a98ef
+D mssyst-componentmodel-design-idesigner.ads  20060131171416 2993e40d
+D mssyst-componentmodel-design-idesignerhost.ads  20060131171416 f553ceb4
+D mssyst-componentmodel-design-iservicecontainer.ads  20060131171416 b88a76fe
+D mssyst-componentmodel-design-servicecreatorcallback.ads  20060131171416 cc3ccfcb
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 15|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 15|7r6 10r6 11r6 20r9 32r15 35r15 38r15 41r15 44r15 47r15
+. 50r15 53r24 53r50 56r24 57r14 57r40 60r21 60r47 62r33 65r19 67r33 73r33
+. 75r33 77r33 80r19 80r64 83r18 83r44 86r15 89r15 92r15 95r15 98r15 101r15
+. 104r15 132r5 134r20
+X 10 mssyst-componentmodel.ads
+6K16*ComponentModel 9|6k9 10|7e26 15|10r13 20r16 41r22 44r22 53r57 57r47
+. 60r54 62r40 65r26 67r40 73r40 80r26 80r71 95r22 98r22 132r12 134r27
+X 11 mssyst-componentmodel-design.ads
+6K31*Design 10|6k16 11|7e33 15|10r28 20r31 41r37 44r37 60r69 62r55 80r86
+. 95r37 98r37 132r27 134r42
+X 12 mssyst-componentmodel-design-designertransaction.ads
+13K38 DesignerTransaction 15|60r76 62r62
+15P9 Ref(integer) 15|60r96 62r82
+X 13 mssyst-componentmodel-design-designertransactioncloseeventhandler.ads
+24K38 DesignerTransactionCloseEventHandler 15|41r44 44r44 95r44 98r44
+26P9 Ref(integer) 15|41r81 44r81 95r81 98r81
+X 14 mssyst-componentmodel-design-idesigner.ads
+12K38 IDesigner 15|80r93
+14P9 Ref(integer) 15|80r103
+X 15 mssyst-componentmodel-design-idesignerhost.ads
+20K38*IDesignerHost 11|6k31 15|132l34 132e47 134r49
+21R9*Typ 22r27 27c9 29r21 31r21 34r21 37r21 40r21 43r21 46r21 49r21 52r21
+. 55r21 59r21 62r21 64r21 67r21 69r21 71r21 73r21 75r21 77r21 79r21 82r21
+. 85r21 88r21 91r21 94r21 97r21 100r21 103r21
+22P9*Ref(21R9) 23r34 24r47
+23P9*Ref_addrof(22P9)
+24A9*Ref_Arr(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27H9*Typ 28p14 30p14 33p14 36p14 39p14 42p14 45p14 48p14 51p13 54p13 58p13
+. 61p13 63p14 66p13 68p13 70p13 72p13 74p13 76p13 78p13 81p13 84p14 87p14
+. 90p14 93p14 96p14 99p14 102p14
+28x14*Activate 29^7 106b23
+29p7 This(27R9)
+30x14*add_Activated 31^7 32>7 107b23
+31p7 This(27R9)
+32p7 value{21|26P9}
+33x14*add_Deactivated 34^7 35>7 108b23
+34p7 This(27R9)
+35p7 value{21|26P9}
+36x14*add_LoadComplete 37^7 38>7 109b23
+37p7 This(27R9)
+38p7 value{21|26P9}
+39x14*add_TransactionClosed 40^7 41>7 110b23
+40p7 This(27R9)
+41p7 value{13|26P9}
+42x14*add_TransactionClosing 43^7 44>7 111b23
+43p7 This(27R9)
+44p7 value{13|26P9}
+45x14*add_TransactionOpened 46^7 47>7 112b23
+46p7 This(27R9)
+47p7 value{21|26P9}
+48x14*add_TransactionOpening 49^7 50>7 113b23
+49p7 This(27R9)
+50p7 value{21|26P9}
+51y13*CreateComponent{18|14P9} 52^7 53>7
+52p7 This(27R9)
+53p7 componentClass{52|51P9}
+54y13*CreateComponent{18|14P9} 55^7 56>7 57>7 114b23
+55p7 This(27R9)
+56p7 componentClass{52|51P9}
+57p7 name{47|27P9}
+58y13*CreateTransaction{12|15P9} 59^7 60>7
+59p7 This(27R9)
+60p7 description{47|27P9}
+61y13*CreateTransaction{12|15P9} 62^7 115b23
+62p7 This(27R9)
+63x14*DestroyComponent 64^7 65>7 116b23
+64p7 This(27R9)
+65p7 component{18|14P9}
+66y13*get_Container{19|15P9} 67^7 117b23
+67p7 This(27R9)
+68y13*get_InTransaction{boolean} 69^7 118b23
+69p7 This(27R9)
+70y13*get_Loading{boolean} 71^7 119b23
+71p7 This(27R9)
+72y13*get_RootComponent{18|14P9} 73^7 120b23
+73p7 This(27R9)
+74y13*get_RootComponentClassName{47|27P9} 75^7 121b23
+75p7 This(27R9)
+76y13*get_TransactionDescription{47|27P9} 77^7 122b23
+77p7 This(27R9)
+78y13*GetDesigner{14|14P9} 79^7 80>7 123b23
+79p7 This(27R9)
+80p7 component{18|14P9}
+81y13*GetType{52|51P9} 82^7 83>7 124b23
+82p7 This(27R9)
+83p7 typeName{47|27P9}
+84x14*remove_Activated 85^7 86>7 125b23
+85p7 This(27R9)
+86p7 value{21|26P9}
+87x14*remove_Deactivated 88^7 89>7 126b23
+88p7 This(27R9)
+89p7 value{21|26P9}
+90x14*remove_LoadComplete 91^7 92>7 127b23
+91p7 This(27R9)
+92p7 value{21|26P9}
+93x14*remove_TransactionClosed 94^7 95>7 128b23
+94p7 This(27R9)
+95p7 value{13|26P9}
+96x14*remove_TransactionClosing 97^7 98>7 129b23
+97p7 This(27R9)
+98p7 value{13|26P9}
+99x14*remove_TransactionOpened 100^7 101>7 130b23
+100p7 This(27R9)
+101p7 value{21|26P9}
+102x14*remove_TransactionOpening 103^7 104>7 131b23
+103p7 This(27R9)
+104p7 value{21|26P9}
+X 16 mssyst-componentmodel-design-iservicecontainer.ads
+14K38*IServiceContainer 15|10w35 16|50e51
+X 18 mssyst-componentmodel-icomponent.ads
+12K31 IComponent 15|53r72 57r62 65r41 73r55 80r41
+14P9 Ref(integer) 15|53r83 57r73 65r52 73r66 80r52
+X 19 mssyst-componentmodel-icontainer.ads
+13K31 IContainer 15|67r55
+15P9 Ref(integer) 15|67r66
+X 21 mssyst-eventhandler.ads
+24K16 EventHandler 15|32r22 35r22 38r22 47r22 50r22 86r22 89r22 92r22 101r22
+. 104r22
+26P9 Ref(integer) 15|32r35 35r35 38r35 47r35 50r35 86r35 89r35 92r35 101r35
+. 104r35
+X 27 mssyst-iserviceprovider.ads
+12K16*IServiceProvider 15|11w13 27|25e28
+X 29 mssyst-object.ads
+11K16*Object 15|7w13 29|46e18
+X 47 mssyst-string.ads
+25K16 String 15|57r21 60r28 75r40 77r40 83r25
+27P9 Ref(integer) 15|57r28 60r35 75r47 77r47 83r32
+X 52 mssyst-type_k.ads
+49K16 Type_k 15|53r31 56r31 83r51
+51P9 Ref(integer) 15|53r38 56r38 83r58
+

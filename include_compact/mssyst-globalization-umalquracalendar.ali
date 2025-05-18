@@ -1,0 +1,244 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.globalization.umalquracalendar%s  mssyst-globalization-umalquracalendar.ads  0f9796b1 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.dayofweek%s	mssyst-dayofweek.ads	mssyst-dayofweek.ali
+W mssyst.globalization%s  mssyst-globalization.ads  mssyst-globalization.ali
+W mssyst.globalization.calendar%s  mssyst-globalization-calendar.ads  mssyst-globalization-calendar.ali
+W mssyst.globalization.calendaralgorithmtype%s  mssyst-globalization-calendaralgorithmtype.ads  mssyst-globalization-calendaralgorithmtype.ali
+W mssyst.globalization.calendarweekrule%s  mssyst-globalization-calendarweekrule.ads  mssyst-globalization-calendarweekrule.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-datetime.ads	20060131171354 8b310f47
+D mssyst-datetimekind.ads  20060131171354 c9caab99
+D mssyst-dayofweek.ads	20060131171356 9441cb97
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-calendar.ads  20060131171358 c9b64678
+D mssyst-globalization-calendaralgorithmtype.ads  20060131171358 54576874
+D mssyst-globalization-calendarweekrule.ads  20060131171358 3360c2d3
+D mssyst-globalization-datetimestyles.ads  20060131171358 230aa7c6
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-globalization-umalquracalendar.ads  20060131171400 c0c7b369
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 19|8w6 9r5 46r33
+34A9*int32_arr(integer)
+35P9*Int32_Array(34A9) 19|46r44
+X 9 mssyst.ads
+6K9*MSSyst 7e11 19|7r6 10r6 11r6 14r6 15r6 17r6 19r9 26r20 27r14 37r14 38r32
+. 41r14 42r31 44r33 48r33 50r33 55r14 58r14 58r48 61r14 73r14 80r14 87r14
+. 115r29 145r5 147r20
+X 10 mssyst-datetime.ads
+22K16 DateTime 19|37r21 38r39 41r21 42r38 48r40 50r40 55r21 58r21 61r21 73r21
+. 80r21 87r21 115r36
+23R9 ValueType 19|37r30 38r48 41r30 42r47 48r49 50r49 55r30 58r30 61r30 73r30
+. 80r30 87r30 115r45
+X 12 mssyst-dayofweek.ads
+15K16*DayOfWeek 68e21 19|15w13 58r55
+16E9*ValueType 23e16 19|58r65
+X 13 mssyst-globalization.ads
+6K16*Globalization 9|6k9 13|7e25 19|10r13 14r13 17r13 19r16 26r27 44r40 145r12
+. 147r27
+X 14 mssyst-globalization-calendar.ads
+18K30*Calendar 236e34 19|10w27 26r41
+19R9*Typ 19|26r50
+32V13*AddDays{10|23R9}
+36V13*AddHours{10|23R9}
+40V13*AddMilliseconds{10|23R9}
+44V13*AddMinutes{10|23R9}
+52V13*AddSeconds{10|23R9}
+56V13*AddWeeks{10|23R9}
+64V13*Clone{24|13P9}
+70V13*get_IsReadOnly{boolean}
+87V13*GetDaysInMonth{integer}
+96V13*GetDaysInYear{integer}
+106V13*GetHour{integer}
+109V13*GetLeapMonth{integer}
+116V13*GetMilliseconds{long_float}
+119V13*GetMinute{integer}
+125V13*GetMonthsInYear{integer}
+132V13*GetSecond{integer}
+135V13*GetWeekOfYear{integer}
+143V13*IsLeapDay{boolean}
+154V13*IsLeapMonth{boolean}
+167V13*IsLeapYear{boolean}
+185V13*ToDateTime{10|23R9}
+X 15 mssyst-globalization-calendaralgorithmtype.ads
+15K30*CalendarAlgorithmType 62e47 19|14w27 44r54
+16E9*ValueType 20e25 19|44r76
+X 16 mssyst-globalization-calendarweekrule.ads
+15K30*CalendarWeekRule 60e42 19|17w27
+X 19 mssyst-globalization-umalquracalendar.ads
+19K30*UmAlQuraCalendar 13|6k16 19|145l26 145e42 147r41
+20R9*Typ 21r27 26c9 36r21 40r21 44r21 46r21 48r21 50r21 52r21 54r21 57r21
+. 60r21 63r21 68r21 72r21 75r21 79r21 82r21 86r21 89r21 95r21 100r21 104r21
+. 107r21 117r21 120r27
+21P9*Ref(20R9) 22r34 23r47 34r14 34r34
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40
+25P9*Ref_Array_addrof(24P9)
+26R9*Typ<14|25R9> 14|32p13 36p13 40p13 44p13 52p13 56p13 64P13 70p13 87p13
+. 96p13 106p13 109p13 116p13 119p13 125p13 132p13 135p13 143p13 154p13 167p13
+. 185p13 19|30e14 35P13 39P13 43P13 45P13 47P13 49P13 51P13 53P13 56P13 59P13
+. 62P13 67P13 71P13 74P13 78P13 81P13 85P13 88P13 94P13 99P13 103P14 106P13
+. 116P13 24|23p13 29p13 31p13 36p13
+31i4*UmAlQuraEra{integer} 32m23
+33V13*new_UmAlQuraCalendar{21P9} 34>7 121r28
+34p7 This{21P9}
+35V13*AddMonths{10|23R9} 36^7 37>7 38>7 122b23
+36p7 This(26R9)
+37r7 time{10|23R9}
+38i7 months{integer}
+39V13*AddYears{10|23R9} 40^7 41>7 42>7 123b23
+40p7 This(26R9)
+41r7 time{10|23R9}
+42i7 years{integer}
+43V13*get_AlgorithmType{15|16E9} 44^7 124b23
+44p7 This(26R9)
+45V13*get_Eras{8|35P9} 46^7 125b23
+46p7 This(26R9)
+47V13*get_MaxSupportedDateTime{10|23R9} 48^7 126b23
+48p7 This(26R9)
+49V13*get_MinSupportedDateTime{10|23R9} 50^7 127b23
+50p7 This(26R9)
+51V13*get_TwoDigitYearMax{integer} 52^7 128b23
+52p7 This(26R9)
+53V13*GetDayOfMonth{integer} 54^7 55>7 129b23
+54p7 This(26R9)
+55r7 time{10|23R9}
+56V13*GetDayOfWeek{12|16E9} 57^7 58>7 130b23
+57p7 This(26R9)
+58r7 time{10|23R9}
+59V13*GetDayOfYear{integer} 60^7 61>7 131b23
+60p7 This(26R9)
+61r7 time{10|23R9}
+62V13*GetDaysInMonth{integer} 63^7 64>7 65>7 66>7 132b23
+63p7 This(26R9)
+64i7 year{integer}
+65i7 month{integer}
+66i7 era{integer}
+67V13*GetDaysInYear{integer} 68^7 69>7 70>7 133b23
+68p7 This(26R9)
+69i7 year{integer}
+70i7 era{integer}
+71V13*GetEra{integer} 72^7 73>7 134b23
+72p7 This(26R9)
+73r7 time{10|23R9}
+74V13*GetLeapMonth{integer} 75^7 76>7 77>7 135b23
+75p7 This(26R9)
+76i7 year{integer}
+77i7 era{integer}
+78V13*GetMonth{integer} 79^7 80>7 136b23
+79p7 This(26R9)
+80r7 time{10|23R9}
+81V13*GetMonthsInYear{integer} 82^7 83>7 84>7 137b23
+82p7 This(26R9)
+83i7 year{integer}
+84i7 era{integer}
+85V13*GetYear{integer} 86^7 87>7 138b23
+86p7 This(26R9)
+87r7 time{10|23R9}
+88V13*IsLeapDay{boolean} 89^7 90>7 91>7 92>7 93>7 139b23
+89p7 This(26R9)
+90i7 year{integer}
+91i7 month{integer}
+92i7 day{integer}
+93i7 era{integer}
+94V13*IsLeapMonth{boolean} 95^7 96>7 97>7 98>7 140b23
+95p7 This(26R9)
+96i7 year{integer}
+97i7 month{integer}
+98i7 era{integer}
+99V13*IsLeapYear{boolean} 100^7 101>7 102>7 141b23
+100p7 This(26R9)
+101i7 year{integer}
+102i7 era{integer}
+103U14*set_TwoDigitYearMax 104^7 105>7 142b23
+104p7 This(26R9)
+105i7 value{integer}
+106V13*ToDateTime{10|23R9} 107^7 108>7 109>7 110>7 111>7 112>7 113>7 114>7
+. 115>7 143b23
+107p7 This(26R9)
+108i7 year{integer}
+109i7 month{integer}
+110i7 day{integer}
+111i7 hour{integer}
+112i7 minute{integer}
+113i7 second{integer}
+114i7 millisecond{integer}
+115i7 era{integer}
+116V13*ToFourDigitYear{integer} 117^7 118>7 144b23
+117p7 This(26R9)
+118i7 year{integer}
+X 21 mssyst-icloneable.ads
+11K16*ICloneable 19|11w13 27r21 21|23e22
+12R9*Typ 19|27r32
+X 24 mssyst-object.ads
+11K16*Object 19|7w13 24|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{45|51P9}
+36V13*ToString{40|27P9}
+X 40 mssyst-string.ads
+27P9 Ref(integer)
+X 45 mssyst-type_k.ads
+51P9 Ref(integer)
+

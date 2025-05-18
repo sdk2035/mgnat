@@ -1,0 +1,256 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.consolekey%s	mssyst-consolekey.ads	ba287824 NE PK
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.typecode%s	mssyst-typecode.ads	mssyst-typecode.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-consolekey.ads	20060131171354 36010937
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 7|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 7|7r6 12r6 15r9 313r16 316r13 320r32 322r32 325r18 325r53
+. 327r32 330r16 331r18 331r53 334r16 334r42 342r5 344r20
+X 7 mssyst-consolekey.ads
+15K16*ConsoleKey 6|6k9 7|342l12 342e22 344r27
+16E9*ValueType 160e16 161r29 162r8 307r54 309r40 312r14 315r14 318r14 320r14
+. 322r14 324r14 327r14 329r14 333r14
+17n7*Backspace{16E9} 163r7
+18n7*Tab{16E9} 164r7
+19n7*Clear{16E9} 165r7
+20n7*Enter{16E9} 166r7
+21n7*Pause{16E9} 167r7
+22n7*Escape{16E9} 168r7
+23n7*Spacebar{16E9} 169r7
+24n7*PageUp{16E9} 170r7
+25n7*PageDown{16E9} 171r7
+26n7*End_k{16E9} 172r7
+27n7*Home{16E9} 173r7
+28n7*LeftArrow{16E9} 174r7
+29n7*UpArrow{16E9} 175r7
+30n7*RightArrow{16E9} 176r7
+31n7*DownArrow{16E9} 177r7
+32n7*Select_k{16E9} 178r7
+33n7*Print{16E9} 179r7
+34n7*Execute{16E9} 180r7
+35n7*PrintScreen{16E9} 181r7
+36n7*Insert{16E9} 182r7
+37n7*Delete{16E9} 183r7
+38n7*Help{16E9} 184r7
+39n7*D0{16E9} 185r7
+40n7*D1{16E9} 186r7
+41n7*D2{16E9} 187r7
+42n7*D3{16E9} 188r7
+43n7*D4{16E9} 189r7
+44n7*D5{16E9} 190r7
+45n7*D6{16E9} 191r7
+46n7*D7{16E9} 192r7
+47n7*D8{16E9} 193r7
+48n7*D9{16E9} 194r7
+49n7*A{16E9} 195r7
+50n7*B{16E9} 196r7
+51n7*C{16E9} 197r7
+52n7*D{16E9} 198r7
+53n7*E{16E9} 199r7
+54n7*F{16E9} 200r7
+55n7*G{16E9} 201r7
+56n7*H{16E9} 202r7
+57n7*I{16E9} 203r7
+58n7*J{16E9} 204r7
+59n7*K{16E9} 205r7
+60n7*L{16E9} 206r7
+61n7*M{16E9} 207r7
+62n7*N{16E9} 208r7
+63n7*O{16E9} 209r7
+64n7*P{16E9} 210r7
+65n7*Q{16E9} 211r7
+66n7*R{16E9} 212r7
+67n7*S{16E9} 213r7
+68n7*T{16E9} 214r7
+69n7*U{16E9} 215r7
+70n7*V{16E9} 216r7
+71n7*W{16E9} 217r7
+72n7*X{16E9} 218r7
+73n7*Y{16E9} 219r7
+74n7*Z{16E9} 220r7
+75n7*LeftWindows{16E9} 221r7
+76n7*RightWindows{16E9} 222r7
+77n7*Applications{16E9} 223r7
+78n7*Sleep{16E9} 224r7
+79n7*NumPad0{16E9} 225r7
+80n7*NumPad1{16E9} 226r7
+81n7*NumPad2{16E9} 227r7
+82n7*NumPad3{16E9} 228r7
+83n7*NumPad4{16E9} 229r7
+84n7*NumPad5{16E9} 230r7
+85n7*NumPad6{16E9} 231r7
+86n7*NumPad7{16E9} 232r7
+87n7*NumPad8{16E9} 233r7
+88n7*NumPad9{16E9} 234r7
+89n7*Multiply{16E9} 235r7
+90n7*Add{16E9} 236r7
+91n7*Separator{16E9} 237r7
+92n7*Subtract{16E9} 238r7
+93n7*Decimal{16E9} 239r7
+94n7*Divide{16E9} 240r7
+95n7*F1{16E9} 241r7
+96n7*F2{16E9} 242r7
+97n7*F3{16E9} 243r7
+98n7*F4{16E9} 244r7
+99n7*F5{16E9} 245r7
+100n7*F6{16E9} 246r7
+101n7*F7{16E9} 247r7
+102n7*F8{16E9} 248r7
+103n7*F9{16E9} 249r7
+104n7*F10{16E9} 250r7
+105n7*F11{16E9} 251r7
+106n7*F12{16E9} 252r7
+107n7*F13{16E9} 253r7
+108n7*F14{16E9} 254r7
+109n7*F15{16E9} 255r7
+110n7*F16{16E9} 256r7
+111n7*F17{16E9} 257r7
+112n7*F18{16E9} 258r7
+113n7*F19{16E9} 259r7
+114n7*F20{16E9} 260r7
+115n7*F21{16E9} 261r7
+116n7*F22{16E9} 262r7
+117n7*F23{16E9} 263r7
+118n7*F24{16E9} 264r7
+119n7*BrowserBack{16E9} 265r7
+120n7*BrowserForward{16E9} 266r7
+121n7*BrowserRefresh{16E9} 267r7
+122n7*BrowserStop{16E9} 268r7
+123n7*BrowserSearch{16E9} 269r7
+124n7*BrowserFavorites{16E9} 270r7
+125n7*BrowserHome{16E9} 271r7
+126n7*VolumeMute{16E9} 272r7
+127n7*VolumeDown{16E9} 273r7
+128n7*VolumeUp{16E9} 274r7
+129n7*MediaNext{16E9} 275r7
+130n7*MediaPrevious{16E9} 276r7
+131n7*MediaStop{16E9} 277r7
+132n7*MediaPlay{16E9} 278r7
+133n7*LaunchMail{16E9} 279r7
+134n7*LaunchMediaSelect{16E9} 280r7
+135n7*LaunchApp1{16E9} 281r7
+136n7*LaunchApp2{16E9} 282r7
+137n7*Oem1{16E9} 283r7
+138n7*OemPlus{16E9} 284r7
+139n7*OemComma{16E9} 285r7
+140n7*OemMinus{16E9} 286r7
+141n7*OemPeriod{16E9} 287r7
+142n7*Oem2{16E9} 288r7
+143n7*Oem3{16E9} 289r7
+144n7*Oem4{16E9} 290r7
+145n7*Oem5{16E9} 291r7
+146n7*Oem6{16E9} 292r7
+147n7*Oem7{16E9} 293r7
+148n7*Oem8{16E9} 294r7
+149n7*Oem102{16E9} 295r7
+150n7*Process{16E9} 296r7
+151n7*Packet{16E9} 297r7
+152n7*Attention{16E9} 298r7
+153n7*CrSel{16E9} 299r7
+154n7*ExSel{16E9} 300r7
+155n7*EraseEndOfFile{16E9} 301r7
+156n7*Play{16E9} 302r7
+157n7*Zoom{16E9} 303r7
+158n7*NoName{16E9} 304r7
+159n7*Pa1{16E9} 305r7
+160n7*OemClear{16E9} 306r7
+307A9*ValueType_Arr(16E9) 308r39
+308P9*ValueType_Array(307A9) 310r46
+309P9*ValueType_addrof(16E9)
+310P9*ValueType_array_addrof(308P9)
+311V13*CompareTo{integer} 312>7 313>7 336b23
+312e7 This{16E9}
+313p7 target{14|13P9}
+314V13*Equals{boolean} 315>7 316>7 337b23
+315e7 This{16E9}
+316p7 obj{14|13P9}
+317V13*GetHashCode{integer} 318>7 338b23
+318e7 This{16E9}
+319V13*GetType{35|51P9} 320>7 339b23
+320e7 This{16E9}
+321V13*GetTypeCode{36|15E9} 322>7 340b23
+322e7 This{16E9}
+323V13*ToString{30|27P9} 324>7 325>7
+324e7 This{16E9}
+325p7 provider{13|14P9}
+326V13*ToString{30|27P9} 327>7
+327e7 This{16E9}
+328V13*ToString{30|27P9} 329>7 330>7 331>7
+329e7 This{16E9}
+330p7 format{30|27P9}
+331p7 provider{13|14P9}
+332V13*ToString{30|27P9} 333>7 334>7 341b23
+333e7 This{16E9}
+334p7 format{30|27P9}
+X 13 mssyst-iformatprovider.ads
+12K16 IFormatProvider 7|325r25 331r25
+14P9 Ref(integer) 7|325r41 331r41
+X 14 mssyst-object.ads
+11K16*Object 7|7w13 313r23 316r20 14|46e18
+12R9*Typ 20e14
+13P9*Ref(12R9) 7|313r30 316r27
+X 30 mssyst-string.ads
+25K16 String 7|325r60 327r39 330r23 331r60 334r23 334r49
+27P9 Ref(integer) 7|325r67 327r46 330r30 331r67 334r30 334r56
+X 35 mssyst-type_k.ads
+49K16 Type_k 7|320r39
+51P9 Ref(integer) 7|320r46
+X 36 mssyst-typecode.ads
+14K16*TypeCode 7|12w13 322r39 36|89e20
+15E9*ValueType 7|322r48 36|33e14
+

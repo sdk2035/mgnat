@@ -1,0 +1,133 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U microsoft.win32.registry%s  microsoft-win32-registry.ads  62ed2b8f NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W microsoft%s		microsoft.ads		microsoft.ali
+W microsoft.win32%s	microsoft-win32.ads	microsoft-win32.ali
+W microsoft.win32.registryvaluekind%s  microsoft-win32-registryvaluekind.ads  microsoft-win32-registryvaluekind.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060131165226 02f2695c
+D microsoft-win32.ads	20060131165226 bf37fdc1
+D microsoft-win32-registry.ads  20060131171400 4f39bd51
+D microsoft-win32-registryhive.ads  20060131171400 528576f3
+D microsoft-win32-registrykey.ads  20060131171400 26195ad0
+D microsoft-win32-registrykeypermissioncheck.ads  20060131171400 4340232d
+D microsoft-win32-registryvaluekind.ads  20060131171400 27672cef
+D microsoft-win32-registryvalueoptions.ads  20060131171400 c83e4e71
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-accesscontrol.ads  20060131165242 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060131171410 dea99828
+D mssyst-security-accesscontrol-registryrights.ads  20060131171410 d9e9ca4b
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 microsoft.ads
+6K9*Microsoft 7e14 7|14r6 15r9 25r18 27r19 29r18 31r12 33r22 35r20 37r14
+. 51r19 56r5 58r20
+X 6 microsoft-win32.ads
+6K19*Win32 5|6k9 6|7e20 7|14r16 15r19 25r28 27r29 29r28 31r22 33r32 35r30
+. 37r24 51r29 56r15 58r30
+X 7 microsoft-win32-registry.ads
+15K25*Registry 6|6k19 7|56l21 56e29 58r36
+16R9*Typ 17r27 22c9 53r27
+17P9*Ref(16R9) 18r34 19r47
+18P9*Ref_addrof(17P9)
+19A9*Ref_Arr(17P9) 20r33
+20P9*Ref_Array(19A9) 21r40
+21P9*Ref_Array_addrof(20P9)
+22H9*Typ<22|18R9> 24e14 22|23p13 29p13 31p13 36p13
+25p4*CurrentUser{9|25P9} 26m23
+27p4*LocalMachine{9|25P9} 28m23
+29p4*ClassesRoot{9|25P9} 30m23
+31p4*Users{9|25P9} 32m23
+33p4*PerformanceData{9|25P9} 34m23
+35p4*CurrentConfig{9|25P9} 36m23
+37p4*DynData{9|25P9} 38m23
+39V13*GetValue{22|13P9} 40>7 41>7 42>7 54b23
+40p7 keyName{42|27P9}
+41p7 valueName{42|27P9}
+42p7 defaultValue{22|13P9}
+43U14*SetValue 44>7 45>7 46>7
+44p7 keyName{42|27P9}
+45p7 valueName{42|27P9}
+46p7 value{22|13P9}
+47U14*SetValue 48>7 49>7 50>7 51>7 55b23
+48p7 keyName{42|27P9}
+49p7 valueName{42|27P9}
+50p7 value{22|13P9}
+51e7 valueKind{11|16E9}
+X 9 microsoft-win32-registrykey.ads
+23K25 RegistryKey 7|25r34 27r35 29r34 31r28 33r38 35r36 37r30
+25P9 Ref(integer) 7|25r46 27r47 29r46 31r40 33r50 35r48 37r42
+X 11 microsoft-win32-registryvaluekind.ads
+15K25*RegistryValueKind 7|14w22 51r35 11|68e38
+16E9*ValueType 7|51r53 11|23e13
+X 13 msil_types.ads
+7K9*Msil_Types 7|8w6 9r5 13|71e15
+X 14 mssyst.ads
+6K9*MSSyst 7|7r6 10r6 22r29 40r17 41r19 42r22 42r48 44r17 45r19 46r15 48r17
+. 49r19 50r15 14|7e11
+X 22 mssyst-object.ads
+11K16*Object 7|7w13 10w13 22r36 42r29 42r55 46r22 50r22 22|46e18
+12R9*Typ 7|22r43 22|20e14
+13P9*Ref(12R9) 7|42r36 42r62 46r29 50r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{47|51P9}
+36V13*ToString{42|27P9}
+X 42 mssyst-string.ads
+25K16 String 7|40r24 41r26 44r24 45r26 48r24 49r26
+27P9 Ref(integer) 7|40r31 41r33 44r31 45r33 48r31 49r33
+X 47 mssyst-type_k.ads
+51P9 Ref(integer)
+

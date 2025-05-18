@@ -1,0 +1,111 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.security.policy.codeconnectaccess%s  mssyst-security-policy-codeconnectaccess.ads  b610e4aa NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.policy%s  mssyst-security-policy.ads  mssyst-security-policy.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-policy.ads  20060131165228 7a609687
+D mssyst-security-policy-codeconnectaccess.ads  20060131171400 79f435dd
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 30|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 30|7r6 10r6 13r9 20r20 27r19 29r16 33r21 36r35 38r35 41r11
+. 45r33 57r5 59r20
+X 12 mssyst-object.ads
+11K16*Object 46e18 30|7w13 10w13 20r27 41r18
+12R9*Typ 20e14 30|20r34
+13P9*Ref(12R9) 30|41r25
+18R9*Typ
+31V13*GetType{36|51P9}
+36V13*ToString{31|27P9}
+X 28 mssyst-security.ads
+6K16*Security 6|6k9 28|7e20 30|13r16 36r42 38r42 57r12 59r27
+X 29 mssyst-security-policy.ads
+6K25*Policy 28|6k16 29|7e27 30|13r25 36r51 38r51 57r21 59r36
+X 30 mssyst-security-policy-codeconnectaccess.ads
+13K32*CodeConnectAccess 29|6k25 30|36r58 38r58 57l28 57e45 59r43
+14R9*Typ 15r27 20c9 40r21 43r21 45r21 47r21 49r27
+15P9*Ref(14R9) 16r34 17r47 32r14 34r35 36r76 38r76
+16P9*Ref_addrof(15P9)
+17A9*Ref_Arr(15P9) 18r33
+18P9*Ref_Array(17A9) 19r40
+19P9*Ref_Array_addrof(18P9)
+20R9*Typ<12|18R9> 12|31p13 36p13 30|22e14 39P13 42p13 44p13 46P13
+23i4*DefaultPort{integer} 24m23
+25i4*OriginPort{integer} 26m23
+27p4*OriginScheme{31|27P9} 28m23
+29p4*AnyScheme{31|27P9} 30m23
+31V13*new_CodeConnectAccess{15P9} 32>7 33>7 34>7 50r28
+32p7 This{15P9}
+33p7 allowScheme{31|27P9}
+34i7 allowPort{integer}
+35V13*CreateAnySchemeAccess{15P9} 36>7 51b23
+36i7 allowPort{integer}
+37V13*CreateOriginSchemeAccess{15P9} 38>7 52b23
+38i7 allowPort{integer}
+39V13*Equals{boolean} 40^7 41>7 53b23
+40p7 This(20R9)
+41p7 o{12|13P9}
+42V13*get_Port{integer} 43^7 54b23
+43p7 This(20R9)
+44V13*get_Scheme{31|27P9} 45^7 55b23
+45p7 This(20R9)
+46V13*GetHashCode{integer} 47^7 56b23
+47p7 This(20R9)
+X 31 mssyst-string.ads
+25K16 String 30|27r26 29r23 33r28 45r40
+27P9 Ref(integer) 30|27r33 29r30 33r35 45r47
+X 36 mssyst-type_k.ads
+51P9 Ref(integer)
+

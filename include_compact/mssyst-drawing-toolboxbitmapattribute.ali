@@ -1,0 +1,161 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.toolboxbitmapattribute%s  mssyst-drawing-toolboxbitmapattribute.ads  ad98e9f0 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.attribute%s	mssyst-attribute.ads	mssyst-attribute.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-attribute.ads	20060131171354 578cce83
+D mssyst-configuration.ads  20060131165240 03b06563
+D mssyst-configuration-assemblies.ads  20060131165240 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060131171408 81fd999d
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-image.ads  20060131171428 3db9ccbe
+D mssyst-drawing-imaging.ads  20060131171430 83f7d7de
+D mssyst-drawing-imaging-pixelformat.ads  20060131171432 0f821f81
+D mssyst-drawing-rotatefliptype.ads  20060131171430 5968574e
+D mssyst-drawing-toolboxbitmapattribute.ads  20060131171430 1ae2d243
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-assembly.ads  20060131171358 cac2cf86
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-imagefilemachine.ads  20060131171358 57db8f30
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-module.ads  20060131171358 384ba6f0
+D mssyst-reflection-parameterattributes.ads  20060131171358 c0936dac
+D mssyst-reflection-parameterinfo.ads  20060131171358 c39e33ed
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-portableexecutablekinds.ads  20060131171358 da84966e
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-uassembly.ads  20060131171358 5462c788
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-umodule.ads  20060131171358 02c2dfd0
+D mssyst-runtime-interopservices-uparameterinfo.ads  20060131171358 4359b720
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-ievidencefactory.ads  20060131171354 3a16bf31
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 17|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 17|7r6 10r6 15r9 22r20 25r14 29r19 32r11 35r11 36r14 39r15
+. 44r16 45r40 48r16 49r17 50r40 53r19 53r45 56r19 57r40 60r16 60r42 62r11
+. 63r19 64r40 72r5 74r20
+X 7 mssyst-attribute.ads
+18K16*Attribute 154e21 17|10w13 22r27
+19R9*Typ 17|22r37
+31V13*get_TypeId{24|13P9}
+111V13*IsDefaultAttribute{boolean}
+141V13*Match{boolean}
+X 11 mssyst-drawing.ads
+6K16*Drawing 6|6k9 11|7e19 17|15r16 25r21 45r47 50r47 53r52 57r47 60r49 64r47
+. 72r12 74r27
+X 13 mssyst-drawing-image.ads
+34K24 Image 17|45r55 50r55 53r60 57r55 60r57 64r55
+36P9 Ref(integer) 17|45r61 50r61 53r66 57r61 60r63 64r61
+X 17 mssyst-drawing-toolboxbitmapattribute.ads
+15K24*ToolboxBitmapAttribute 11|6k16 17|25r29 72l20 72e42 74r35
+16R9*Typ 17r27 22c9 38r21 41r21 43r21 47r21 52r21 55r21 59r21 66r27
+17P9*Ref(16R9) 18r34 19r47 25r52 28r14 29r45 31r14 32r37 34r14 36r40
+18P9*Ref_addrof(17P9)
+19A9*Ref_Arr(17P9) 20r33
+20P9*Ref_Array(19A9) 21r40
+21P9*Ref_Array_addrof(20P9)
+22R9*Typ<7|25R9> 7|31p13 111p13 141p13 17|24e14 37P13 40P13 42p13 46p13 51p13
+. 54p13 58p13 24|31p13 36p13
+25p4*Default{17P9} 26m23
+27V13*new_ToolboxBitmapAttribute{17P9} 28>7 29>7
+28p7 This{17P9}
+29p7 imageFile{53|27P9}
+30V13*new_ToolboxBitmapAttribute{17P9} 31>7 32>7
+31p7 This{17P9}
+32p7 t{58|51P9}
+33V13*new_ToolboxBitmapAttribute{17P9} 34>7 35>7 36>7
+34p7 This{17P9}
+35p7 t{58|51P9}
+36p7 name{53|27P9}
+37V13*Equals{boolean} 38^7 39>7 68b23
+38p7 This(22R9)
+39p7 value{24|13P9}
+40V13*GetHashCode{integer} 41^7 69b23
+41p7 This(22R9)
+42V13*GetImage{13|36P9} 43^7 44>7 45>7
+43p7 This(22R9)
+44p7 type_k{58|51P9}
+45b7 large{boolean}
+46V13*GetImage{13|36P9} 47^7 48>7 49>7 50>7
+47p7 This(22R9)
+48p7 type_k{58|51P9}
+49p7 imgName{53|27P9}
+50b7 large{boolean}
+51V13*GetImage{13|36P9} 52^7 53>7
+52p7 This(22R9)
+53p7 component{24|13P9}
+54V13*GetImage{13|36P9} 55^7 56>7 57>7
+55p7 This(22R9)
+56p7 component{24|13P9}
+57b7 large{boolean}
+58V13*GetImage{13|36P9} 59^7 60>7 70b23
+59p7 This(22R9)
+60p7 type_k{58|51P9}
+61V13*GetImageFromResource{13|36P9} 62>7 63>7 64>7 71b23
+62p7 t{58|51P9}
+63p7 imageName{53|27P9}
+64b7 large{boolean}
+X 24 mssyst-object.ads
+11K16*Object 17|7w13 39r22 53r26 56r26 24|46e18
+13P9*Ref(12R9) 17|39r29 53r33 56r33
+18R9*Typ
+31V13*GetType{58|51P9}
+36V13*ToString{53|27P9}
+X 53 mssyst-string.ads
+25K16 String 17|29r26 36r21 49r24 63r26
+27P9 Ref(integer) 17|29r33 36r28 49r31 63r33
+X 58 mssyst-type_k.ads
+49K16 Type_k 17|32r18 35r18 44r23 48r23 60r23 62r18
+51P9 Ref(integer) 17|32r25 35r25 44r30 48r30 60r30 62r25
+

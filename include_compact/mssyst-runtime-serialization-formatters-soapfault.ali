@@ -1,0 +1,156 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.serialization.formatters.soapfault%s  mssyst-runtime-serialization-formatters-soapfault.ads  c6563146 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.serialization%s  mssyst-runtime-serialization.ads  mssyst-runtime-serialization.ali
+W mssyst.runtime.serialization.formatters%s  mssyst-runtime-serialization-formatters.ads  mssyst-runtime-serialization-formatters.ali
+W mssyst.runtime.serialization.iserializable%s  mssyst-runtime-serialization-iserializable.ads  mssyst-runtime-serialization-iserializable.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-formatters.ads  20060131165238 f2e43a4d
+D mssyst-runtime-serialization-formatters-serverfault.ads  20060131171406 af5a1775
+D mssyst-runtime-serialization-formatters-soapfault.ads  20060131171406 46f1d8be
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-runtime-serialization-serializationinfo.ads  20060131171358 df7a73a0
+D mssyst-runtime-serialization-streamingcontext.ads  20060131171358 58e01b0b
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060131171358 2f27fbc4
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 33|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 33|7r6 10r6 11r6 17r9 24r20 25r14 33r19 34r21 35r20 36r21
+. 38r33 40r33 42r33 44r33 47r14 48r17 51r15 54r15 57r15 60r15 73r5 75r20
+X 15 mssyst-object.ads
+11K16*Object 46e18 33|7w13 10w13 24r27 38r40 51r22
+12R9*Typ 20e14 33|24r34
+13P9*Ref(12R9) 33|38r47 51r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{44|51P9}
+36V13*ToString{39|27P9}
+X 26 mssyst-runtime.ads
+6K16*Runtime 9|6k9 26|7e19 33|11r13 17r16 25r21 36r28 47r21 48r24 73r12 75r27
+X 30 mssyst-runtime-serialization.ads
+6K24*Serialization 26|6k16 30|7e33 33|11r21 17r24 25r29 36r36 47r29 48r32
+. 73r20 75r35
+X 31 mssyst-runtime-serialization-formatters.ads
+6K38*Formatters 30|6k24 31|7e44 33|17r38 36r50 73r34 75r49
+X 32 mssyst-runtime-serialization-formatters-serverfault.ads
+13K49 ServerFault 33|36r61
+15P9 Ref(integer) 33|36r73
+X 33 mssyst-runtime-serialization-formatters-soapfault.ads
+17K49*SoapFault 31|6k38 33|73l45 73e54 75r60
+18R9*Typ 19r27 24c9 38r21 40r21 42r21 44r21 46r21 50r21 53r21 56r21 59r21
+. 62r27
+19P9*Ref(18R9) 20r34 21r47 30r14 30r34 32r14 36r85
+20P9*Ref_addrof(19P9)
+21A9*Ref_Arr(19P9) 22r33
+22P9*Ref_Array(21A9) 23r40
+23P9*Ref_Array_addrof(22P9)
+24R9*Typ<15|18R9> 15|23p13 29p13 31p13 36p13 33|28e14 37p13 39p13 41p13 43p13
+. 45P14 49p14 52p14 55p14 58p14
+29V13*new_SoapFault{19P9} 30>7
+30p7 This{19P9}
+31V13*new_SoapFault{19P9} 32>7 33>7 34>7 35>7 36>7
+32p7 This{19P9}
+33p7 faultCode{39|27P9}
+34p7 faultString{39|27P9}
+35p7 faultActor{39|27P9}
+36p7 serverFault{32|15P9}
+37V13*get_Detail{15|13P9} 38^7 64b23
+38p7 This(24R9)
+39V13*get_FaultActor{39|27P9} 40^7 65b23
+40p7 This(24R9)
+41V13*get_FaultCode{39|27P9} 42^7 66b23
+42p7 This(24R9)
+43V13*get_FaultString{39|27P9} 44^7 67b23
+44p7 This(24R9)
+45U14*GetObjectData 46^7 47>7 48>7 68b23
+46p7 This(24R9)
+47p7 info{35|20P9}
+48r7 context{36|16R9}
+49U14*set_Detail 50^7 51>7 69b23
+50p7 This(24R9)
+51p7 value{15|13P9}
+52U14*set_FaultActor 53^7 54>7 70b23
+53p7 This(24R9)
+54p7 value{39|27P9}
+55U14*set_FaultCode 56^7 57>7 71b23
+56p7 This(24R9)
+57p7 value{39|27P9}
+58U14*set_FaultString 59^7 60>7 72b23
+59p7 This(24R9)
+60p7 value{39|27P9}
+X 34 mssyst-runtime-serialization-iserializable.ads
+12K38*ISerializable 33|11w35 25r43 34|26e47
+13R9*Typ 33|25r57
+X 35 mssyst-runtime-serialization-serializationinfo.ads
+18K38 SerializationInfo 33|47r43
+20P9 Ref(integer) 33|47r61
+X 36 mssyst-runtime-serialization-streamingcontext.ads
+15K38 StreamingContext 33|48r46
+16R9 ValueType 33|48r63
+X 39 mssyst-string.ads
+25K16 String 33|33r26 34r28 35r27 40r40 42r40 44r40 54r22 57r22 60r22
+27P9 Ref(integer) 33|33r33 34r35 35r34 40r47 42r47 44r47 54r29 57r29 60r29
+X 44 mssyst-type_k.ads
+51P9 Ref(integer)
+

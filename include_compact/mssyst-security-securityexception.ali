@@ -1,0 +1,330 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.security.securityexception%s  mssyst-security-securityexception.ads  8a76b7ff NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.interopservices%s  mssyst-runtime-interopservices.ads  mssyst-runtime-interopservices.ali
+W mssyst.runtime.interopservices.uexception%s  mssyst-runtime-interopservices-uexception.ads  mssyst-runtime-interopservices-uexception.ali
+W mssyst.runtime.serialization%s  mssyst-runtime-serialization.ads  mssyst-runtime-serialization.ali
+W mssyst.runtime.serialization.iserializable%s  mssyst-runtime-serialization-iserializable.ads  mssyst-runtime-serialization-iserializable.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.permissions%s  mssyst-security-permissions.ads  mssyst-security-permissions.ali
+W mssyst.security.permissions.securityaction%s  mssyst-security-permissions-securityaction.ads  mssyst-security-permissions-securityaction.ali
+W mssyst.security.securityzone%s  mssyst-security-securityzone.ads  mssyst-security-securityzone.ali
+W mssyst.systemexception%s  mssyst-systemexception.ads  mssyst-systemexception.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-idictionary.ads  20060131171358 0d4908a9
+D mssyst-configuration.ads  20060131165240 03b06563
+D mssyst-configuration-assemblies.ads  20060131165240 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060131171408 81fd999d
+D mssyst-configuration-assemblies-assemblyversioncompatibility.ads  20060131171408 8e494143
+D mssyst-exception_k.ads  20060131171354 34a62294
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-assemblyname.ads  20060131171358 1df266ec
+D mssyst-reflection-assemblynameflags.ads  20060131171358 7f33cae2
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-methodattributes.ads  20060131171358 3d878e1d
+D mssyst-reflection-methodbase.ads  20060131171358 8cf6333b
+D mssyst-reflection-methodimplattributes.ads  20060131171358 4937947b
+D mssyst-reflection-methodinfo.ads  20060131171358 ef578403
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-processorarchitecture.ads  20060131171358 4066b0a3
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-uassemblyname.ads  20060131171358 7d9d3106
+D mssyst-runtime-interopservices-uexception.ads  20060131171354 c22ae0bd
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-umethodbase.ads  20060131171358 b1429f1d
+D mssyst-runtime-interopservices-umethodinfo.ads  20060131171358 2ecfe02d
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060131171358 afb77eb6
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-runtime-serialization-serializationinfo.ads  20060131171358 df7a73a0
+D mssyst-runtime-serialization-streamingcontext.ads  20060131171358 58e01b0b
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060131171358 2f27fbc4
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-ipermission.ads  20060131171404 ac3cc26b
+D mssyst-security-isecurityencodable.ads  20060131171400 401a78fc
+D mssyst-security-istackwalk.ads  20060131171404 91792230
+D mssyst-security-permissions.ads  20060131165236 554c10f6
+D mssyst-security-permissions-permissionstate.ads  20060131171404 15f9e1b7
+D mssyst-security-permissions-securityaction.ads  20060131171404 f2a3119c
+D mssyst-security-permissionset.ads  20060131171404 5ff4b353
+D mssyst-security-policy.ads  20060131165228 7a609687
+D mssyst-security-policy-evidence.ads  20060131171400 64e7a78f
+D mssyst-security-securityexception.ads  20060131171404 d92fc466
+D mssyst-security-securityzone.ads  20060131171404 243fe3b6
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-systemexception.ads  20060131171354 b31bf07d
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 67|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 67|7r6 10r6 11r6 12r6 14r6 23r6 28r9 35r20 36r14 37r14 45r17
+. 48r17 49r16 52r17 53r16 54r15 57r17 58r15 61r17 62r22 63r15 64r17 65r16
+. 66r16 67r18 68r24 69r18 72r17 73r14 74r20 75r16 76r18 77r24 79r33 81r33
+. 83r33 85r33 87r33 89r33 91r33 93r33 95r33 97r33 99r33 101r33 103r33 106r14
+. 107r17 110r15 113r15 116r15 119r15 122r15 125r15 128r15 131r15 134r15 137r15
+. 140r15 143r15 146r15 148r33 180r5 182r20
+X 12 mssyst-collections-idictionary.ads
+15P9 Ref(integer)
+X 17 mssyst-exception_k.ads
+19K16*Exception_k 87e23 67|58r22
+21P9*Ref(20R9) 67|58r34
+41V13*get_Data{12|15P9}
+43V13*get_HelpLink{69|27P9}
+45V13*get_InnerException{21P9}
+47V13*get_Message{69|27P9}
+49V13*get_Source{69|27P9}
+51V13*get_StackTrace{69|27P9}
+53V13*get_TargetSite{36|33P9}
+55V13*GetBaseException{21P9}
+63U14*set_HelpLink
+66U14*set_Source
+X 24 mssyst-object.ads
+11K16*Object 46e18 67|7w13 67r25 73r21 74r27 76r25 81r40 83r40 97r40 113r22
+. 116r22 137r22
+13P9*Ref(12R9) 67|67r32 73r28 74r34 76r32 81r47 83r47 97r47 113r29 116r29
+. 137r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{75|51P9}
+X 25 mssyst-reflection.ads
+6K16 Reflection 67|62r29 65r23 75r23 85r40 91r40 119r22 128r22
+X 26 mssyst-reflection-assemblyname.ads
+26K27 AssemblyName 67|62r40 85r51 119r33
+28P9 Ref(integer) 67|62r53 85r64 119r46
+X 36 mssyst-reflection-methodbase.ads
+33P9 Ref(integer)
+X 38 mssyst-reflection-methodinfo.ads
+32K27 MethodInfo 67|65r34 75r34 91r51 128r33
+34P9 Ref(integer) 67|65r45 75r45 91r62 128r44
+X 42 mssyst-runtime.ads
+6K16*Runtime 7e19 67|11r13 12r13 36r21 37r21 106r21 107r24
+X 43 mssyst-runtime-interopservices.ads
+6K24*InteropServices 7e35 67|12r21 37r29
+X 45 mssyst-runtime-interopservices-uexception.ads
+17K40*uException 73e46 67|12w37 37r45
+18R9*Typ 67|37r56
+X 50 mssyst-runtime-serialization.ads
+6K24*Serialization 7e33 67|11r21 36r29 106r29 107r32
+X 52 mssyst-runtime-serialization-iserializable.ads
+12K38*ISerializable 26e47 67|11w35 36r43
+13R9*Typ 67|36r57
+X 53 mssyst-runtime-serialization-serializationinfo.ads
+18K38 SerializationInfo 67|106r43
+20P9 Ref(integer) 67|106r61
+X 54 mssyst-runtime-serialization-streamingcontext.ads
+15K38 StreamingContext 67|107r46
+16R9 ValueType 67|107r63
+X 57 mssyst-security.ads
+6K16*Security 9|6k9 57|7e20 67|14r13 23r13 28r16 63r22 64r24 66r23 68r31
+. 69r25 77r31 79r40 87r40 103r40 110r22 122r22 146r22 180r12 182r27
+X 58 mssyst-security-ipermission.ads
+11K25 IPermission 67|68r40 77r40 87r49 122r31
+13P9 Ref(integer) 67|68r52 77r52 87r61 122r43
+X 61 mssyst-security-permissions.ads
+6K25*Permissions 7e32 67|14r22 66r32 79r49 110r31
+X 63 mssyst-security-permissions-securityaction.ads
+15K37*SecurityAction 72e47 67|14w34 66r44 79r61 110r43
+16E9*ValueType 25e21 67|66r59 79r76 110r58
+X 64 mssyst-security-permissionset.ads
+22K25 PermissionSet 67|63r31 64r33
+24P9 Ref(integer) 67|63r45 64r47
+X 65 mssyst-security-policy.ads
+6K25 Policy 67|69r34
+X 66 mssyst-security-policy-evidence.ads
+17K32 Evidence 67|69r41
+19P9 Ref(integer) 67|69r50
+X 67 mssyst-security-securityexception.ads
+28K25*SecurityException 57|6k16 67|180l21 180e38 182r36
+29R9*Typ 30r27 35c9 79r21 81r21 83r21 85r21 87r21 89r21 91r21 93r21 95r21
+. 97r21 99r21 101r21 103r21 105r21 109r21 112r21 115r21 118r21 121r21 124r21
+. 127r21 130r21 133r21 136r21 139r21 142r21 145r21 148r21 150r27
+30P9*Ref(29R9) 31r34 32r47 42r14 42r34 44r14 45r43 47r14 49r42 51r14 54r41
+. 56r14 58r46 60r14 69r62 71r14 77r64
+31P9*Ref_addrof(30P9)
+32A9*Ref_Arr(30P9) 33r33
+33P9*Ref_Array(32A9) 34r40
+34P9*Ref_Array_addrof(33P9)
+35R9*Typ<72|27R9> 17|41p13 43P13 45P13 47P13 49P13 51P13 53P13 55P13 63P14
+. 66P14 24|23p13 29p13 31p13 67|40e14 78p13 80p13 82p13 84p13 86p13 88p13
+. 90p13 92p13 94p13 96p13 98p13 100p13 102p13 104P14 108p14 111p14 114p14
+. 117p14 120p14 123p14 126p14 129p14 132p14 135p14 138p14 141p14 144p14 147P13
+41V13*new_SecurityException{30P9} 42>7
+42p7 This{30P9}
+43V13*new_SecurityException{30P9} 44>7 45>7
+44p7 This{30P9}
+45p7 message{69|27P9}
+46V13*new_SecurityException{30P9} 47>7 48>7 49>7
+47p7 This{30P9}
+48p7 message{69|27P9}
+49p7 type_k{75|51P9}
+50V13*new_SecurityException{30P9} 51>7 52>7 53>7 54>7
+51p7 This{30P9}
+52p7 message{69|27P9}
+53p7 type_k{75|51P9}
+54p7 state{69|27P9}
+55V13*new_SecurityException{30P9} 56>7 57>7 58>7
+56p7 This{30P9}
+57p7 message{69|27P9}
+58p7 inner{17|21P9}
+59V13*new_SecurityException{30P9} 60>7 61>7 62>7 63>7 64>7 65>7 66>7 67>7
+. 68>7 69>7
+60p7 This{30P9}
+61p7 message{69|27P9}
+62p7 assemblyName{26|28P9}
+63p7 grant{64|24P9}
+64p7 refused{64|24P9}
+65p7 method{38|34P9}
+66e7 action{63|16E9}
+67p7 demanded{24|13P9}
+68p7 permThatFailed{58|13P9}
+69p7 evidence{66|19P9}
+70V13*new_SecurityException{30P9} 71>7 72>7 73>7 74>7 75>7 76>7 77>7
+71p7 This{30P9}
+72p7 message{69|27P9}
+73p7 deny{24|13P9}
+74p7 permitOnly{24|13P9}
+75p7 method{38|34P9}
+76p7 demanded{24|13P9}
+77p7 permThatFailed{58|13P9}
+78V13*get_Action{63|16E9} 79^7 152b23
+79p7 This(35R9)
+80V13*get_Demanded{24|13P9} 81^7 153b23
+81p7 This(35R9)
+82V13*get_DenySetInstance{24|13P9} 83^7 154b23
+83p7 This(35R9)
+84V13*get_FailedAssemblyInfo{26|28P9} 85^7 155b23
+85p7 This(35R9)
+86V13*get_FirstPermissionThatFailed{58|13P9} 87^7 156b23
+87p7 This(35R9)
+88V13*get_GrantedSet{69|27P9} 89^7 157b23
+89p7 This(35R9)
+90V13*get_Method{38|34P9} 91^7 158b23
+91p7 This(35R9)
+92V13*get_PermissionState{69|27P9} 93^7 159b23
+93p7 This(35R9)
+94V13*get_PermissionType{75|51P9} 95^7 160b23
+95p7 This(35R9)
+96V13*get_PermitOnlySetInstance{24|13P9} 97^7 161b23
+97p7 This(35R9)
+98V13*get_RefusedSet{69|27P9} 99^7 162b23
+99p7 This(35R9)
+100V13*get_Url{69|27P9} 101^7 163b23
+101p7 This(35R9)
+102V13*get_Zone{68|16E9} 103^7 164b23
+103p7 This(35R9)
+104U14*GetObjectData 105^7 106>7 107>7 165b23
+105p7 This(35R9)
+106p7 info{53|20P9}
+107r7 context{54|16R9}
+108U14*set_Action 109^7 110>7 166b23
+109p7 This(35R9)
+110e7 value{63|16E9}
+111U14*set_Demanded 112^7 113>7 167b23
+112p7 This(35R9)
+113p7 value{24|13P9}
+114U14*set_DenySetInstance 115^7 116>7 168b23
+115p7 This(35R9)
+116p7 value{24|13P9}
+117U14*set_FailedAssemblyInfo 118^7 119>7 169b23
+118p7 This(35R9)
+119p7 value{26|28P9}
+120U14*set_FirstPermissionThatFailed 121^7 122>7 170b23
+121p7 This(35R9)
+122p7 value{58|13P9}
+123U14*set_GrantedSet 124^7 125>7 171b23
+124p7 This(35R9)
+125p7 value{69|27P9}
+126U14*set_Method 127^7 128>7 172b23
+127p7 This(35R9)
+128p7 value{38|34P9}
+129U14*set_PermissionState 130^7 131>7 173b23
+130p7 This(35R9)
+131p7 value{69|27P9}
+132U14*set_PermissionType 133^7 134>7 174b23
+133p7 This(35R9)
+134p7 value{75|51P9}
+135U14*set_PermitOnlySetInstance 136^7 137>7 175b23
+136p7 This(35R9)
+137p7 value{24|13P9}
+138U14*set_RefusedSet 139^7 140>7 176b23
+139p7 This(35R9)
+140p7 value{69|27P9}
+141U14*set_Url 142^7 143>7 177b23
+142p7 This(35R9)
+143p7 value{69|27P9}
+144U14*set_Zone 145^7 146>7 178b23
+145p7 This(35R9)
+146e7 value{68|16E9}
+147V13*ToString{69|27P9} 148^7 179b23
+148p7 This(35R9)
+X 68 mssyst-security-securityzone.ads
+15K25*SecurityZone 67|23w22 103r49 146r31 68|66e33
+16E9*ValueType 67|103r62 146r44 68|22e17
+X 69 mssyst-string.ads
+25K16 String 67|45r24 48r24 52r24 54r22 57r24 61r24 72r24 89r40 93r40 99r40
+. 101r40 125r22 131r22 140r22 143r22 148r40
+27P9 Ref(integer) 67|45r31 48r31 52r31 54r29 57r31 61r31 72r31 89r47 93r47
+. 99r47 101r47 125r29 131r29 140r29 143r29 148r47
+X 72 mssyst-systemexception.ads
+20K16*SystemException 67|10w13 35r27 72|45e27
+21R9*Typ 67|35r43
+X 75 mssyst-type_k.ads
+49K16 Type_k 67|49r23 53r23 95r40 134r22
+51P9 Ref(integer) 67|49r30 53r30 95r47 134r29
+

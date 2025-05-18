@@ -1,0 +1,185 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnvnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.serialization.iformatterconverter%s  mssyst-runtime-serialization-iformatterconverter.ads  454144b7 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.serialization%s  mssyst-runtime-serialization.ads  mssyst-runtime-serialization.ali
+W mssyst.typecode%s	mssyst-typecode.ads	mssyst-typecode.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-datetime.ads	20060131171354 8b310f47
+D mssyst-datetimekind.ads  20060131171354 c9caab99
+D mssyst-dayofweek.ads	20060131171356 9441cb97
+D mssyst-decimal.ads	20060131171356 9b70fee6
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-datetimestyles.ads  20060131171358 230aa7c6
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-midpointrounding.ads  20060131171356 5160c7d2
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iformatterconverter.ads  20060131171358 c6e78062
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 38|8w6 9r5 38r41 53r41 71r41 74r41 77r41
+20I9*int16<short_integer> 38|53r52
+24E9*unsigned_int8<character> 38|38r52
+25I9*unsigned_int16<short_integer> 38|71r52
+29I9*unsigned_integer<integer> 38|74r52
+33I9*unsigned_long_long_integer<long_long_integer> 38|77r52
+X 9 mssyst.ads
+6K9*MSSyst 7e11 38|7r6 11r6 17r9 27r15 28r18 28r52 31r15 32r16 32r42 35r15
+. 38r15 41r15 44r15 44r41 47r15 47r41 50r15 53r15 56r15 59r15 62r15 62r41
+. 65r15 68r15 68r41 71r15 74r15 77r15 95r5 97r20
+X 10 mssyst-datetime.ads
+22K16 DateTime 38|44r48
+23R9 ValueType 38|44r57
+X 13 mssyst-decimal.ads
+19K16 Decimal 38|47r48
+20R9 ValueType 38|47r56
+X 22 mssyst-object.ads
+11K16*Object 46e18 38|7w13 27r22 28r59 31r22 32r49 35r22 38r22 41r22 44r22
+. 47r22 50r22 53r22 56r22 59r22 62r22 65r22 68r22 71r22 74r22 77r22
+12R9*Typ 20e14
+13P9*Ref(12R9) 38|27r29 28r66 31r29 32r56 35r29 38r29 41r29 44r29 47r29 50r29
+. 53r29 56r29 59r29 62r29 65r29 68r29 71r29 74r29 77r29
+X 33 mssyst-runtime.ads
+6K16*Runtime 9|6k9 33|7e19 38|17r16 95r12 97r27
+X 37 mssyst-runtime-serialization.ads
+6K24*Serialization 33|6k16 37|7e33 38|17r24 95r20 97r35
+X 38 mssyst-runtime-serialization-iformatterconverter.ads
+17K38*IFormatterConverter 37|6k24 38|95l34 95e53 97r49
+18R9*Typ 19r27 24c9 26r21 30r21 34r21 37r21 40r21 43r21 46r21 49r21 52r21
+. 55r21 58r21 61r21 64r21 67r21 70r21 73r21 76r21
+19P9*Ref(18R9) 20r34 21r47
+20P9*Ref_addrof(19P9)
+21A9*Ref_Arr(19P9) 22r33
+22P9*Ref_Array(21A9) 23r40
+23P9*Ref_Array_addrof(22P9)
+24H9*Typ 25p13 29p13 33p13 36p13 39p13 42p13 45p13 48p13 51p13 54p13 57p13
+. 60p13 63p13 66p13 69p13 72p13 75p13
+25y13*Convert{22|13P9} 26^7 27>7 28>7
+26p7 This(24R9)
+27p7 value{22|13P9}
+28e7 typeCode{46|15E9}
+29y13*Convert{22|13P9} 30^7 31>7 32>7 79b23
+30p7 This(24R9)
+31p7 value{22|13P9}
+32p7 type_k{45|51P9}
+33y13*ToBoolean{boolean} 34^7 35>7 80b23
+34p7 This(24R9)
+35p7 value{22|13P9}
+36y13*ToByte{8|24E9} 37^7 38>7 81b23
+37p7 This(24R9)
+38p7 value{22|13P9}
+39y13*ToChar{wide_character} 40^7 41>7 82b23
+40p7 This(24R9)
+41p7 value{22|13P9}
+42y13*ToDateTime{10|23R9} 43^7 44>7 83b23
+43p7 This(24R9)
+44p7 value{22|13P9}
+45y13*ToDecimal{13|20R9} 46^7 47>7 84b23
+46p7 This(24R9)
+47p7 value{22|13P9}
+48y13*ToDouble{long_float} 49^7 50>7 85b23
+49p7 This(24R9)
+50p7 value{22|13P9}
+51y13*ToInt16{8|20I9} 52^7 53>7 86b23
+52p7 This(24R9)
+53p7 value{22|13P9}
+54y13*ToInt32{integer} 55^7 56>7 87b23
+55p7 This(24R9)
+56p7 value{22|13P9}
+57y13*ToInt64{long_long_integer} 58^7 59>7 88b23
+58p7 This(24R9)
+59p7 value{22|13P9}
+60y13*ToSByte{39|18R9} 61^7 62>7 89b23
+61p7 This(24R9)
+62p7 value{22|13P9}
+63y13*ToSingle{float} 64^7 65>7 90b23
+64p7 This(24R9)
+65p7 value{22|13P9}
+66y13*ToString{40|27P9} 67^7 68>7 91b23
+67p7 This(24R9)
+68p7 value{22|13P9}
+69y13*ToUInt16{8|25I9} 70^7 71>7 92b23
+70p7 This(24R9)
+71p7 value{22|13P9}
+72y13*ToUInt32{8|29I9} 73^7 74>7 93b23
+73p7 This(24R9)
+74p7 value{22|13P9}
+75y13*ToUInt64{8|33I9} 76^7 77>7 94b23
+76p7 This(24R9)
+77p7 value{22|13P9}
+X 39 mssyst-sbyte.ads
+17K16 SByte 38|62r48
+18R9 ValueType 38|62r54
+X 40 mssyst-string.ads
+25K16 String 38|68r48
+27P9 Ref(integer) 38|68r55
+X 45 mssyst-type_k.ads
+49K16 Type_k 38|32r23
+51P9 Ref(integer) 38|32r30
+X 46 mssyst-typecode.ads
+14K16*TypeCode 38|11w13 28r25 46|89e20
+15E9*ValueType 38|28r34 46|33e14
+

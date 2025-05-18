@@ -1,0 +1,26 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.deployment.internal.isolation.storeoperationinstalldeployment%s  mssyst-deployment-internal-isolation-storeoperationinstalldeployment.ads  24106770 EE PK
+W mssyst.deployment.internal.isolation%s  mssyst-deployment-internal-isolation.ads  mssyst-deployment-internal-isolation.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-deployment.ads	20060517214744 0f776df9
+D mssyst-deployment-internal.ads  20060517214744 92609701
+D mssyst-deployment-internal-isolation.ads  20060517214746 eb483156
+D mssyst-deployment-internal-isolation-storeoperationinstalldeployment.ads  20060517214746 cf585626
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 5|6r9 7r5
+X 2 mssyst-deployment.ads
+6K16*Deployment 1|6k9 2|7e22 5|6r16 7r12
+X 3 mssyst-deployment-internal.ads
+6K27*Internal 2|6k16 3|7e31 5|6r27 7r23
+X 4 mssyst-deployment-internal-isolation.ads
+6K36*Isolation 3|6k27 4|7e41 5|6r36 7r32
+X 5 mssyst-deployment-internal-isolation-storeoperationinstalldeployment.ads
+6K46*StoreOperationInstallDeployment 4|6k36 5|7l42 7e73
+

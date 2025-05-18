@@ -1,0 +1,168 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.point%s  mssyst-drawing-point.ads  47f81214 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.valuetype%s	mssyst-valuetype.ads	mssyst-valuetype.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-pointf.ads  20060131171432 a63d5a83
+D mssyst-drawing-size.ads  20060131171430 9e839193
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 8|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 8|7r6 10r6 16r9 17r26 26r12 30r12 31r12 31r50 33r15 33r55
+. 36r13 47r11 53r12 54r12 54r50 56r14 57r15 59r11 59r50 61r11 61r50 63r14
+. 64r15 66r12 67r12 67r50 69r15 69r55 77r12 78r12 78r50 80r32 82r15 82r55
+. 105r5 107r20
+X 7 mssyst-drawing.ads
+6K16*Drawing 6|6k9 7|7e19 8|16r16 26r19 30r19 31r19 31r57 33r22 33r62 47r18
+. 53r19 54r19 54r57 56r21 57r22 59r18 59r57 61r18 61r57 63r21 64r22 66r19
+. 67r19 67r57 69r22 69r62 77r19 78r19 78r57 82r22 82r62 105r12 107r27
+X 8 mssyst-drawing-point.ads
+16K24*Point 7|6k16 8|30r27 31r65 33r70 47r26 53r27 54r65 56r29 57r30 59r26
+. 61r26 63r29 64r30 66r27 67r65 69r70 77r27 78r65 82r70 105l20 105e25 107r35
+17R9*ValueType<40|20R9> 17e63 18r54 20r40 22p13 24r27 25p13 26r50 27p13 28r28
+. 29p13 30r33 31r71 32p13 33r76 34p13 35r14 37p13 38r14 39p13 40r14 41p13
+. 42r14 43p13 44r14 45p14 46r14 47r32 48p14 49r14 52p13 53r33 54r71 55p13
+. 56r35 57r36 58p13 59r32 60p13 61r32 62p13 63r35 64r36 65p13 66r33 67r71
+. 68p13 69r76 70p14 71r14 73p14 74r14 76p13 77r33 78r71 79p13 80r14 81p13
+. 82r76 16|31p13 40|23P13 26P13 28P13
+18A9*ValueType_Arr(17R9) 19r39
+19P9*ValueType_Array(18A9) 21r46
+20P9*ValueType_addrof(17R9)
+21P9*ValueType_array_addrof(19P9)
+22V13*new_Point{17R9} 23>7 24>7
+23i7 x{integer}
+24i7 y{integer}
+25V13*new_Point{17R9} 26>7
+26r7 sz{10|17R9}
+27V13*new_Point{17R9} 28>7
+28i7 dw{integer}
+29V13*Add{17R9} 30>7 31>7 85b23
+30r7 pt{17R9}
+31r7 sz{10|17R9}
+32V13*Ceiling{17R9} 33>7 86b23
+33r7 value{9|17R9}
+34V13*Equals{boolean} 35>7 36>7 87b23
+35r7 This{17R9}
+36p7 obj{16|13P9}
+37V13*get_IsEmpty{boolean} 38>7 88b23
+38r7 This{17R9}
+39V13*get_X{integer} 40>7 89b23
+40r7 This{17R9}
+41V13*get_Y{integer} 42>7 90b23
+42r7 This{17R9}
+43V13*GetHashCode{integer} 44>7 91b23
+44r7 This{17R9}
+45U14*Offset 46>7 47>7
+46r7 This{17R9}
+47r7 p{17R9}
+48U14*Offset 49>7 50>7 51>7 92b23
+49r7 This{17R9}
+50i7 dx{integer}
+51i7 dy{integer}
+52V13*op_Addition{17R9} 53>7 54>7 93b23
+53r7 pt{17R9}
+54r7 sz{10|17R9}
+55V13*op_Equality{boolean} 56>7 57>7 94b23
+56r7 left{17R9}
+57r7 right{17R9}
+58V13*op_Explicit{10|17R9} 59>7 95b23
+59r7 p{17R9}
+60V13*op_Implicit{9|17R9} 61>7 96b23
+61r7 p{17R9}
+62V13*op_Inequality{boolean} 63>7 64>7 97b23
+63r7 left{17R9}
+64r7 right{17R9}
+65V13*op_Subtraction{17R9} 66>7 67>7 98b23
+66r7 pt{17R9}
+67r7 sz{10|17R9}
+68V13*Round{17R9} 69>7 99b23
+69r7 value{9|17R9}
+70U14*set_X 71>7 72>7 100b23
+71r7 This{17R9}
+72i7 value{integer}
+73U14*set_Y 74>7 75>7 101b23
+74r7 This{17R9}
+75i7 value{integer}
+76V13*Subtract{17R9} 77>7 78>7 102b23
+77r7 pt{17R9}
+78r7 sz{10|17R9}
+79V13*ToString{32|27P9} 80>7 103b23
+80r7 This{17R9}
+81V13*Truncate{17R9} 82>7 104b23
+82r7 value{9|17R9}
+X 9 mssyst-drawing-pointf.ads
+16K24 PointF 8|33r30 61r65 69r30 82r30
+17R9 ValueType 8|33r37 61r72 69r37 82r37
+X 10 mssyst-drawing-size.ads
+16K24 Size 8|26r27 31r27 54r27 59r65 67r27 78r27
+17R9 ValueType 8|26r32 31r32 54r32 59r70 67r32 78r32
+X 16 mssyst-object.ads
+11K16*Object 8|7w13 36r20 16|46e18
+13P9*Ref(12R9) 8|36r27
+18R9*Typ
+31V13*GetType{37|51P9}
+X 32 mssyst-string.ads
+25K16 String 8|80r39
+27P9 Ref(integer) 8|80r46
+X 37 mssyst-type_k.ads
+51P9 Ref(integer)
+X 40 mssyst-valuetype.ads
+13K16*ValueType 8|10w13 17r33 40|35e21
+14R9*Typ 8|17r43
+23V13*Equals{boolean}
+26V13*GetHashCode{integer}
+28V13*ToString{32|27P9}
+

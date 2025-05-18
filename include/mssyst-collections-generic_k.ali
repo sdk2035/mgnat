@@ -1,0 +1,20 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.collections.generic_k%s  mssyst-collections-generic_k.ads  a5df8278 EE PK
+W mssyst.collections%s	mssyst-collections.ads	mssyst-collections.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-collections.ads  20060517214744 22f80fd8
+D mssyst-collections-generic_k.ads  20060517214744 87278da0
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 3|6r9 7r5
+X 2 mssyst-collections.ads
+6K16*Collections 1|6k9 2|7e23 3|6r16 7r12
+X 3 mssyst-collections-generic_k.ads
+6K28*Generic_k 2|6k16 3|7l24 7e33
+

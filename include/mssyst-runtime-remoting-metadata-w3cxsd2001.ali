@@ -1,0 +1,26 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.remoting.metadata.w3cxsd2001%s  mssyst-runtime-remoting-metadata-w3cxsd2001.ads  e8748d4c EE PK
+W mssyst.runtime.remoting.metadata%s  mssyst-runtime-remoting-metadata.ads  mssyst-runtime-remoting-metadata.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-runtime.ads	20060517214744 31dcc047
+D mssyst-runtime-remoting.ads  20060517214746 74500271
+D mssyst-runtime-remoting-metadata.ads  20060517214754 5a51a030
+D mssyst-runtime-remoting-metadata-w3cxsd2001.ads  20060517214756 b2252d7c
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 5|6r9 7r5
+X 2 mssyst-runtime.ads
+6K16*Runtime 1|6k9 2|7e19 5|6r16 7r12
+X 3 mssyst-runtime-remoting.ads
+6K24*Remoting 2|6k16 3|7e28 5|6r24 7r20
+X 4 mssyst-runtime-remoting-metadata.ads
+6K33*Metadata 3|6k24 4|7e37 5|6r33 7r29
+X 5 mssyst-runtime-remoting-metadata-w3cxsd2001.ads
+6K42*W3cXsd2001 4|6k33 5|7l38 7e48
+

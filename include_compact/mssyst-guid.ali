@@ -1,0 +1,167 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.guid%s		mssyst-guid.ads		2722cf54 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.valuetype%s	mssyst-valuetype.ads	mssyst-valuetype.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 9|8w6 9r5 22r11 24r11 25r11 26r11 27r11 28r11 29r11
+. 30r11 31r11 32r11 33r11 34r11 39r11 40r11 41r11 44r11 45r11 46r11 47r11
+. 48r11 49r11 50r11 51r11 52r11 53r11 76r32
+20I9*int16<short_integer> 9|39r22 40r22 44r22 45r22
+24E9*unsigned_int8<character> 9|27r22 28r22 29r22 30r22 31r22 32r22 33r22
+. 34r22 46r22 47r22 48r22 49r22 50r22 51r22 52r22 53r22
+25I9*unsigned_int16<short_integer> 9|25r22 26r22
+29I9*unsigned_integer<integer> 9|24r22
+44A9*unsigned_int8_arr(24E9) 9|22r22 41r22
+45P9*Unsigned_Int8_Array(44A9) 9|76r43
+X 6 mssyst.ads
+6K9*MSSyst 7e11 9|7r6 10r6 15r9 16r26 36r11 56r15 59r15 62r11 65r11 68r28
+. 70r11 71r11 73r11 74r11 78r32 81r16 82r18 82r53 85r16 85r42 96r5 98r20
+X 9 mssyst-guid.ads
+15K16*Guid 6|6k9 9|59r22 62r18 68r35 70r18 71r18 73r18 74r18 96l12 96e16
+. 98r27
+16R9*ValueType<37|20R9> 16e63 17r54 19r40 21p13 22r48 23p13 34r44 35p13 36r37
+. 37p13 41r48 42p13 53r44 54p13 55r14 57p13 58r14 59r27 60p13 61r14 62r23
+. 63p13 64r14 66p13 67r14 68p13 68r40 69p13 70r23 71r23 72p13 73r23 74r23
+. 75p13 76r14 77p13 78r14 79p13 80r14 83p13 84r14 13|31p13 37|23P13 26P13
+. 28P13
+17A9*ValueType_Arr(16R9) 18r39
+18P9*ValueType_Array(17A9) 20r46
+19P9*ValueType_addrof(16R9)
+20P9*ValueType_array_addrof(18P9)
+21V13*new_Guid{16R9} 22>7
+22a7 b{5|44A9}
+23V13*new_Guid{16R9} 24>7 25>7 26>7 27>7 28>7 29>7 30>7 31>7 32>7 33>7 34>7
+24i7 a{5|29I9}
+25i7 b{5|25I9}
+26i7 c{5|25I9}
+27e7 d{5|24E9}
+28e7 e{5|24E9}
+29e7 f{5|24E9}
+30e7 g{5|24E9}
+31e7 h{5|24E9}
+32e7 i{5|24E9}
+33e7 j{5|24E9}
+34e7 k{5|24E9}
+35V13*new_Guid{16R9} 36>7
+36p7 g{29|27P9}
+37V13*new_Guid{16R9} 38>7 39>7 40>7 41>7
+38i7 a{integer}
+39i7 b{5|20I9}
+40i7 c{5|20I9}
+41a7 d{5|44A9}
+42V13*new_Guid{16R9} 43>7 44>7 45>7 46>7 47>7 48>7 49>7 50>7 51>7 52>7 53>7
+43i7 a{integer}
+44i7 b{5|20I9}
+45i7 c{5|20I9}
+46e7 d{5|24E9}
+47e7 e{5|24E9}
+48e7 f{5|24E9}
+49e7 g{5|24E9}
+50e7 h{5|24E9}
+51e7 i{5|24E9}
+52e7 j{5|24E9}
+53e7 k{5|24E9}
+54V13*CompareTo{integer} 55>7 56>7
+55r7 This{16R9}
+56p7 value{13|13P9}
+57V13*CompareTo{integer} 58>7 59>7 88b23
+58r7 This{16R9}
+59r7 value{16R9}
+60V13*Equals{boolean} 61>7 62>7
+61r7 This{16R9}
+62r7 g{16R9}
+63V13*Equals{boolean} 64>7 65>7 89b23
+64r7 This{16R9}
+65p7 o{13|13P9}
+66V13*GetHashCode{integer} 67>7 90b23
+67r7 This{16R9}
+68V13*NewGuid{16R9} 91b23
+69V13*op_Equality{boolean} 70>7 71>7 92b23
+70r7 a{16R9}
+71r7 b{16R9}
+72V13*op_Inequality{boolean} 73>7 74>7 93b23
+73r7 a{16R9}
+74r7 b{16R9}
+75V13*ToByteArray{5|45P9} 76>7 94b23
+76r7 This{16R9}
+77V13*ToString{29|27P9} 78>7
+78r7 This{16R9}
+79V13*ToString{29|27P9} 80>7 81>7 82>7
+80r7 This{16R9}
+81p7 format{29|27P9}
+82p7 provider{12|14P9}
+83V13*ToString{29|27P9} 84>7 85>7 95b23
+84r7 This{16R9}
+85p7 format{29|27P9}
+X 12 mssyst-iformatprovider.ads
+12K16 IFormatProvider 9|82r25
+14P9 Ref(integer) 9|82r41
+X 13 mssyst-object.ads
+11K16*Object 9|7w13 56r22 65r18 13|46e18
+13P9*Ref(12R9) 9|56r29 65r25
+18R9*Typ
+31V13*GetType{34|51P9}
+X 29 mssyst-string.ads
+25K16 String 9|36r18 78r39 81r23 82r60 85r23 85r49
+27P9 Ref(integer) 9|36r25 78r46 81r30 82r67 85r30 85r56
+X 34 mssyst-type_k.ads
+51P9 Ref(integer)
+X 37 mssyst-valuetype.ads
+13K16*ValueType 9|10w13 16r33 37|35e21
+14R9*Typ 9|16r43
+23V13*Equals{boolean}
+26V13*GetHashCode{integer}
+28V13*ToString{29|27P9}
+

@@ -1,0 +1,198 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.threading.eventwaithandle%s  mssyst-threading-eventwaithandle.ads  a51c6cde NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.accesscontrol%s  mssyst-security-accesscontrol.ads  mssyst-security-accesscontrol.ali
+W mssyst.security.accesscontrol.eventwaithandlerights%s  mssyst-security-accesscontrol-eventwaithandlerights.ads  mssyst-security-accesscontrol-eventwaithandlerights.ali
+W mssyst.threading%s	mssyst-threading.ads	mssyst-threading.ali
+W mssyst.threading.eventresetmode%s  mssyst-threading-eventresetmode.ads  mssyst-threading-eventresetmode.ali
+W mssyst.threading.waithandle%s  mssyst-threading-waithandle.ads  mssyst-threading-waithandle.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060131165226 02f2695c
+D microsoft-win32.ads	20060131165226 bf37fdc1
+D microsoft-win32-safehandles.ads  20060131165226 c240eeab
+D microsoft-win32-safehandles-safehandlezeroorminusoneisinvalid.ads  20060131171400 cad9e814
+D microsoft-win32-safehandles-safewaithandle.ads  20060131171400 015576dc
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-constrainedexecution.ads  20060131165222 f6aa2aec
+D mssyst-runtime-constrainedexecution-criticalfinalizerobject.ads  20060131171354 4c20b64b
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-safehandle.ads  20060131171356 d9bc34b4
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-accesscontrol.ads  20060131165242 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060131171410 d41b00a6
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060131171410 dea99828
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060131171410 8a7c3246
+D mssyst-security-accesscontrol-auditflags.ads  20060131171410 7b3aaf2b
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060131171410 d4d4024f
+D mssyst-security-accesscontrol-eventwaithandlerights.ads  20060131171410 931fca74
+D mssyst-security-accesscontrol-eventwaithandlesecurity.ads  20060131171410 73cf7ce3
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060131171410 f9355c16
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060131171410 d5b3ab4d
+D mssyst-security-accesscontrol-objectsecurity.ads  20060131171410 5d18e96d
+D mssyst-security-accesscontrol-propagationflags.ads  20060131171410 df68af09
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-threading.ads	20060131165222 964d65eb
+D mssyst-threading-eventresetmode.ads  20060131171356 33cb8efb
+D mssyst-threading-eventwaithandle.ads  20060131171356 f40162a8
+D mssyst-threading-waithandle.ads  20060131171356 f07f0858
+D mssyst-timespan.ads	20060131171356 266cea38
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 9 microsoft-win32-safehandles-safewaithandle.ads
+16P9 Ref(integer)
+X 10 msil_types.ads
+7K9*Msil_Types 71e15 63|8w6 9r5 44r20 50r20
+52M9*native_int
+63M9*bool_addrof 63|44r31 50r31
+X 11 mssyst.ads
+6K9*MSSyst 7e11 63|7r6 10r6 17r6 19r6 20r9 27r20 33r14 37r14 38r14 42r14
+. 43r14 48r14 49r14 51r23 53r33 55r14 56r16 56r86 58r14 58r40 65r23 74r5
+. 76r20
+X 18 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{38|23P9}
+27V13*GetLifetimeService{19|13P9}
+29V13*InitializeLifetimeService{19|13P9}
+X 19 mssyst-object.ads
+11K16*Object 46e18 63|7w13
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{66|51P9}
+36V13*ToString{56|27P9}
+X 38 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 43 mssyst-security.ads
+6K16*Security 7e20 63|17r13 51r30 53r40 56r23 65r30
+X 44 mssyst-security-accesscontrol.ads
+6K25*AccessControl 7e34 63|17r22 51r39 53r49 56r32 65r39
+X 50 mssyst-security-accesscontrol-eventwaithandlerights.ads
+15K39*EventWaitHandleRights 70e56 63|17w36 56r46
+16E9*ValueType 23e19 63|56r68
+X 51 mssyst-security-accesscontrol-eventwaithandlesecurity.ads
+26K39 EventWaitHandleSecurity 63|51r53 53r63 65r53
+28P9 Ref(integer) 63|51r77 53r87 65r77
+X 56 mssyst-string.ads
+25K16 String 63|38r21 43r21 49r21 55r21 58r21
+27P9 Ref(integer) 63|38r28 43r28 49r28 55r28 58r28
+X 61 mssyst-threading.ads
+6K16*Threading 11|6k9 61|7e21 63|10r13 19r13 20r16 27r27 33r21 37r21 42r21
+. 48r21 56r93 58r47 74r12 76r27
+X 62 mssyst-threading-eventresetmode.ads
+15K26*EventResetMode 58e36 63|19w23 33r31 37r31 42r31 48r31
+16E9*ValueType 18e19 63|33r46 37r46 42r46 48r46
+X 63 mssyst-threading-eventwaithandle.ads
+20K26*EventWaitHandle 61|6k16 63|56r103 58r57 74l22 74e37 76r37
+21R9*Typ 22r27 27c9 53r21 60r21 62r21 64r21 67r27
+22P9*Ref(21R9) 23r34 24r47 31r14 33r64 35r14 38r40 40r14 44r51 46r14 51r89
+. 56r119 58r73
+23P9*Ref_addrof(22P9)
+24A9*Ref_Arr(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27R9*Typ<64|25R9> 18|24p13 27p13 29p13 19|23p13 29p13 31p13 36p13 63|29e14
+. 52p13 59p13 61p13 63p14 64|30p14 32p13 34p13 36p14 39p14 75p13 79p13 83p13
+30V13*new_EventWaitHandle{22P9} 31>7 32>7 33>7
+31p7 This{22P9}
+32b7 initialState{boolean}
+33e7 mode{62|16E9}
+34V13*new_EventWaitHandle{22P9} 35>7 36>7 37>7 38>7
+35p7 This{22P9}
+36b7 initialState{boolean}
+37e7 mode{62|16E9}
+38p7 name{56|27P9}
+39V13*new_EventWaitHandle{22P9} 40>7 41>7 42>7 43>7 44>7
+40p7 This{22P9}
+41b7 initialState{boolean}
+42e7 mode{62|16E9}
+43p7 name{56|27P9}
+44m7 createdNew{10|63M9}
+45V13*new_EventWaitHandle{22P9} 46>7 47>7 48>7 49>7 50>7 51>7
+46p7 This{22P9}
+47b7 initialState{boolean}
+48e7 mode{62|16E9}
+49p7 name{56|27P9}
+50m7 createdNew{10|63M9}
+51p7 eventSecurity{51|28P9}
+52V13*GetAccessControl{51|28P9} 53^7 69b23
+53p7 This(27R9)
+54V13*OpenExisting{22P9} 55>7 56>7
+55p7 name{56|27P9}
+56e7 rights{50|16E9}
+57V13*OpenExisting{22P9} 58>7 70b23
+58p7 name{56|27P9}
+59V13*Reset{boolean} 60^7 71b23
+60p7 This(27R9)
+61V13*Set{boolean} 62^7 72b23
+62p7 This(27R9)
+63U14*SetAccessControl 64^7 65>7 73b23
+64p7 This(27R9)
+65p7 eventSecurity{51|28P9}
+X 64 mssyst-threading-waithandle.ads
+18K26*WaitHandle 63|10w23 27r37 64|96e32
+19R9*Typ 63|27r48
+30U14*Close
+32V13*get_Handle{10|52M9}
+34V13*get_SafeWaitHandle{9|16P9}
+36U14*set_Handle
+39U14*set_SafeWaitHandle
+75V13*WaitOne{boolean}
+79V13*WaitOne{boolean}
+83V13*WaitOne{boolean}
+X 66 mssyst-type_k.ads
+51P9 Ref(integer)
+

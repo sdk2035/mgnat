@@ -1,0 +1,490 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.visualstyles.visualstylerenderer%s  mssyst-windows-forms-visualstyles-visualstylerenderer.ads  16be46a6 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.textformatflags%s  mssyst-windows-forms-textformatflags.ads  mssyst-windows-forms-textformatflags.ali
+W mssyst.windows.forms.visualstyles%s  mssyst-windows-forms-visualstyles.ads  mssyst-windows-forms-visualstyles.ali
+W mssyst.windows.forms.visualstyles.booleanproperty%s  mssyst-windows-forms-visualstyles-booleanproperty.ads  mssyst-windows-forms-visualstyles-booleanproperty.ali
+W mssyst.windows.forms.visualstyles.colorproperty%s  mssyst-windows-forms-visualstyles-colorproperty.ads  mssyst-windows-forms-visualstyles-colorproperty.ali
+W mssyst.windows.forms.visualstyles.edgeeffects%s  mssyst-windows-forms-visualstyles-edgeeffects.ads  mssyst-windows-forms-visualstyles-edgeeffects.ali
+W mssyst.windows.forms.visualstyles.edges%s  mssyst-windows-forms-visualstyles-edges.ads  mssyst-windows-forms-visualstyles-edges.ali
+W mssyst.windows.forms.visualstyles.edgestyle%s  mssyst-windows-forms-visualstyles-edgestyle.ads  mssyst-windows-forms-visualstyles-edgestyle.ali
+W mssyst.windows.forms.visualstyles.enumproperty%s  mssyst-windows-forms-visualstyles-enumproperty.ads  mssyst-windows-forms-visualstyles-enumproperty.ali
+W mssyst.windows.forms.visualstyles.filenameproperty%s  mssyst-windows-forms-visualstyles-filenameproperty.ads  mssyst-windows-forms-visualstyles-filenameproperty.ali
+W mssyst.windows.forms.visualstyles.fontproperty%s  mssyst-windows-forms-visualstyles-fontproperty.ads  mssyst-windows-forms-visualstyles-fontproperty.ali
+W mssyst.windows.forms.visualstyles.hittestcode%s  mssyst-windows-forms-visualstyles-hittestcode.ads  mssyst-windows-forms-visualstyles-hittestcode.ali
+W mssyst.windows.forms.visualstyles.hittestoptions%s  mssyst-windows-forms-visualstyles-hittestoptions.ads  mssyst-windows-forms-visualstyles-hittestoptions.ali
+W mssyst.windows.forms.visualstyles.integerproperty%s  mssyst-windows-forms-visualstyles-integerproperty.ads  mssyst-windows-forms-visualstyles-integerproperty.ali
+W mssyst.windows.forms.visualstyles.marginproperty%s  mssyst-windows-forms-visualstyles-marginproperty.ads  mssyst-windows-forms-visualstyles-marginproperty.ali
+W mssyst.windows.forms.visualstyles.pointproperty%s  mssyst-windows-forms-visualstyles-pointproperty.ads  mssyst-windows-forms-visualstyles-pointproperty.ali
+W mssyst.windows.forms.visualstyles.stringproperty%s  mssyst-windows-forms-visualstyles-stringproperty.ads  mssyst-windows-forms-visualstyles-stringproperty.ali
+W mssyst.windows.forms.visualstyles.themesizetype%s  mssyst-windows-forms-visualstyles-themesizetype.ads  mssyst-windows-forms-visualstyles-themesizetype.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-color.ads  20060131171430 efe0dbd6
+D mssyst-drawing-copypixeloperation.ads  20060131171430 bcae6884
+D mssyst-drawing-drawing2d.ads  20060131171430 02b10736
+D mssyst-drawing-drawing2d-combinemode.ads  20060131171430 467ba574
+D mssyst-drawing-drawing2d-compositingmode.ads  20060131171430 3ce094d4
+D mssyst-drawing-drawing2d-compositingquality.ads  20060131171430 777a28ce
+D mssyst-drawing-drawing2d-coordinatespace.ads  20060131171430 4eae09c0
+D mssyst-drawing-drawing2d-fillmode.ads  20060131171430 fd618471
+D mssyst-drawing-drawing2d-flushintention.ads  20060131171430 c85a32e0
+D mssyst-drawing-drawing2d-interpolationmode.ads  20060131171430 923a6e49
+D mssyst-drawing-drawing2d-matrixorder.ads  20060131171430 32337ee5
+D mssyst-drawing-drawing2d-pixeloffsetmode.ads  20060131171432 290cbe8f
+D mssyst-drawing-drawing2d-smoothingmode.ads  20060131171432 35dda90b
+D mssyst-drawing-font.ads  20060131171430 86695792
+D mssyst-drawing-fontstyle.ads  20060131171430 a1bbe068
+D mssyst-drawing-graphics.ads  20060131171430 a787a9b1
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-idevicecontext.ads  20060131171428 3b407974
+D mssyst-drawing-image.ads  20060131171428 3db9ccbe
+D mssyst-drawing-imaging.ads  20060131171430 83f7d7de
+D mssyst-drawing-imaging-pixelformat.ads  20060131171432 0f821f81
+D mssyst-drawing-knowncolor.ads  20060131171430 28ff3226
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-pointf.ads  20060131171432 a63d5a83
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-rectanglef.ads  20060131171432 7fcf14fa
+D mssyst-drawing-region.ads  20060131171430 efada588
+D mssyst-drawing-rotatefliptype.ads  20060131171430 5968574e
+D mssyst-drawing-size.ads  20060131171430 9e839193
+D mssyst-drawing-text.ads  20060131171430 47e8b126
+D mssyst-drawing-text-textrenderinghint.ads  20060131171432 e6fd5e60
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-accessiblerole.ads  20060131171436 c08bcb4f
+D mssyst-windows-forms-anchorstyles.ads  20060131171436 22446596
+D mssyst-windows-forms-boundsspecified.ads  20060131171436 2f9ca777
+D mssyst-windows-forms-colordepth.ads  20060131171438 40aad487
+D mssyst-windows-forms-control.ads  20060131171436 1c03b650
+D mssyst-windows-forms-dockstyle.ads  20060131171440 a08bf6b6
+D mssyst-windows-forms-dragdropeffects.ads  20060131171440 dfaed805
+D mssyst-windows-forms-getchildatpointskip.ads  20060131171442 84d63876
+D mssyst-windows-forms-ibindablecomponent.ads  20060131171436 1e1050b2
+D mssyst-windows-forms-imagelayout.ads  20060131171442 e0e6ce51
+D mssyst-windows-forms-imagelist.ads  20060131171438 8bf58de1
+D mssyst-windows-forms-imemode.ads  20060131171442 58d96089
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D mssyst-windows-forms-keys.ads  20060131171442 e98517be
+D mssyst-windows-forms-message.ads  20060131171444 f6b3d9da
+D mssyst-windows-forms-mousebuttons.ads  20060131171444 1b279075
+D mssyst-windows-forms-padding.ads  20060131171444 9cc23351
+D mssyst-windows-forms-preprocesscontrolstate.ads  20060131171446 047a345d
+D mssyst-windows-forms-righttoleft.ads  20060131171446 898cfeaf
+D mssyst-windows-forms-textformatflags.ads  20060131171450 2ab4374e
+D mssyst-windows-forms-visualstyles.ads  20060131171340 9f58745f
+D mssyst-windows-forms-visualstyles-booleanproperty.ads  20060131171450 048f3f12
+D mssyst-windows-forms-visualstyles-colorproperty.ads  20060131171450 9f6516d8
+D mssyst-windows-forms-visualstyles-edgeeffects.ads  20060131171450 14bcdca3
+D mssyst-windows-forms-visualstyles-edges.ads  20060131171450 d8be137b
+D mssyst-windows-forms-visualstyles-edgestyle.ads  20060131171450 302a14c1
+D mssyst-windows-forms-visualstyles-enumproperty.ads  20060131171450 0c58bb88
+D mssyst-windows-forms-visualstyles-filenameproperty.ads  20060131171450 b18448b7
+D mssyst-windows-forms-visualstyles-fontproperty.ads  20060131171450 f67c7526
+D mssyst-windows-forms-visualstyles-hittestcode.ads  20060131171450 290bb168
+D mssyst-windows-forms-visualstyles-hittestoptions.ads  20060131171450 3b978563
+D mssyst-windows-forms-visualstyles-integerproperty.ads  20060131171450 a797ef3c
+D mssyst-windows-forms-visualstyles-marginproperty.ads  20060131171450 9bd5798b
+D mssyst-windows-forms-visualstyles-pointproperty.ads  20060131171450 e47052ca
+D mssyst-windows-forms-visualstyles-stringproperty.ads  20060131171450 4f3fb667
+D mssyst-windows-forms-visualstyles-textmetrics.ads  20060131171450 a950a4ef
+D mssyst-windows-forms-visualstyles-textmetricscharacterset.ads  20060131171450 ea323b6c
+D mssyst-windows-forms-visualstyles-textmetricspitchandfamilyvalues.ads  20060131171450 939f4795
+D mssyst-windows-forms-visualstyles-themesizetype.ads  20060131171450 47a71ece
+D mssyst-windows-forms-visualstyles-visualstyleelement.ads  20060131171450 46743ae5
+D mssyst-windows-forms-visualstyles-visualstylerenderer.ads  20060131171450 f8826e52
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 119|8w6 9r5 114r33 190r14
+52M9*native_int 119|114r44 190r25
+X 6 mssyst.ads
+6K9*MSSyst 7e11 119|7r6 10r6 13r6 14r6 15r6 21r6 23r6 25r6 26r6 27r6 29r6
+. 30r6 32r6 34r6 36r6 37r6 40r6 41r6 43r9 50r20 55r17 58r19 63r12 64r16 67r12
+. 68r16 69r23 72r12 73r16 74r15 75r15 76r17 76r81 79r11 80r16 81r15 84r11
+. 85r16 86r19 90r12 91r16 92r22 95r12 96r16 97r20 101r12 102r16 103r20 105r15
+. 108r12 109r16 110r20 112r33 124r12 125r16 125r59 128r12 129r23 129r66 132r12
+. 133r16 133r59 136r14 139r14 139r80 142r14 145r14 145r83 148r12 149r14 149r79
+. 152r14 155r12 156r14 156r81 159r12 160r16 161r16 161r82 164r12 165r16 165r82
+. 168r14 168r80 171r14 171r81 174r12 175r16 176r20 177r15 177r70 180r12 181r20
+. 182r15 182r70 185r12 185r54 188r12 189r29 191r12 192r17 192r84 195r12 196r29
+. 197r12 198r17 198r84 201r11 202r29 203r16 204r12 205r17 205r84 209r17 212r19
+. 217r17 251r5 253r20
+X 11 mssyst-drawing.ads
+6K16 Drawing 119|63r19 64r23 67r19 68r23 69r30 72r19 73r23 76r88 79r18 80r23
+. 81r22 84r18 85r23 90r19 91r23 95r19 96r23 101r19 102r23 108r19 109r23 124r19
+. 125r23 125r66 128r19 129r30 129r73 132r19 133r23 133r66 139r87 148r19 149r86
+. 155r19 159r19 160r23 161r89 164r19 165r89 168r87 174r19 175r23 177r77 180r19
+. 182r77 185r19 188r19 189r36 191r19 195r19 196r36 197r19 201r18 202r36 203r23
+. 204r19
+X 12 mssyst-drawing-color.ads
+15K24 Color 119|139r95
+16R9 ValueType 119|139r101
+X 25 mssyst-drawing-font.ads
+21K24 Font 119|149r94
+23P9 Ref(integer) 119|149r99
+X 27 mssyst-drawing-graphics.ads
+56K24 Graphics 119|79r26 84r26 201r26
+58P9 Ref(integer) 119|79r35 84r35 201r35
+X 29 mssyst-drawing-idevicecontext.ads
+10K24 IDeviceContext 119|63r27 67r27 72r27 90r27 95r27 101r27 108r27 124r27
+. 128r27 132r27 148r27 155r27 159r27 164r27 174r27 180r27 185r27 188r27 195r27
+12P9 Ref(integer) 119|63r42 67r42 72r42 90r42 95r42 101r42 108r42 124r42
+. 128r42 132r42 148r42 155r42 159r42 164r42 174r42 180r42 185r42 188r42 195r42
+X 30 mssyst-drawing-image.ads
+34K24 Image 119|81r30
+36P9 Ref(integer) 119|81r36
+X 34 mssyst-drawing-point.ads
+16K24 Point 119|168r95 191r27 197r27 204r27
+17R9 ValueType 119|168r101 191r33 197r33 204r33
+X 36 mssyst-drawing-rectangle.ads
+17K24 Rectangle 119|64r31 68r31 69r38 73r31 76r96 80r31 85r31 91r31 96r31
+. 102r31 109r31 125r31 125r74 129r38 129r81 133r31 160r31 175r31 177r85 182r85
+. 189r44 196r44 202r44
+18R9 ValueType 119|64r41 68r41 69r48 73r41 76r106 80r41 85r41 91r41 96r41
+. 102r41 109r41 125r41 125r84 129r48 129r91 133r41 160r41 175r41 177r95 182r95
+. 189r54 196r54 202r54
+X 38 mssyst-drawing-region.ads
+24K24 Region 119|133r74 203r31
+26P9 Ref(integer) 119|133r81 203r38
+X 40 mssyst-drawing-size.ads
+16K24 Size 119|161r97 165r97
+17R9 ValueType 119|161r102 165r102
+X 50 mssyst-object.ads
+11K16*Object 46e18 119|7w13 10w13 50r27
+12R9*Typ 20e14 119|50r34
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{73|51P9}
+36V13*ToString{68|27P9}
+X 68 mssyst-string.ads
+25K16 String 119|58r26 97r27 103r27 110r27 112r40 145r90 171r88 176r27 181r27
+. 212r26
+27P9 Ref(integer) 119|58r33 97r34 103r34 110r34 112r47 145r97 171r95 176r34
+. 181r34 212r33
+X 73 mssyst-type_k.ads
+51P9 Ref(integer)
+X 77 mssyst-windows.ads
+6K16*Windows 6|6k9 77|7e19 119|13r13 14r13 15r13 21r13 23r13 25r13 26r13
+. 27r13 29r13 30r13 32r13 34r13 36r13 37r13 40r13 41r13 43r16 55r24 74r22
+. 75r22 76r24 86r26 92r29 105r22 136r21 139r21 142r21 145r21 149r21 152r21
+. 156r21 156r88 161r23 165r23 168r21 171r21 177r22 182r22 185r61 192r24 192r91
+. 198r24 198r91 205r24 205r91 209r24 217r24 251r12 253r27
+X 78 mssyst-windows-forms.ads
+6K24*Forms 77|6k16 78|7e25 119|13r21 14r21 15r21 21r21 23r21 25r21 26r21
+. 27r21 29r21 30r21 32r21 34r21 36r21 37r21 40r21 41r21 43r24 55r32 74r30
+. 75r30 76r32 86r34 92r37 105r30 136r29 139r29 142r29 145r29 149r29 152r29
+. 156r29 156r96 161r31 165r31 168r29 171r29 177r30 182r30 185r69 192r32 192r99
+. 198r32 198r99 205r32 205r99 209r32 217r32 251r20 253r35
+X 83 mssyst-windows-forms-control.ads
+75K30 Control 119|92r43
+77P9 Ref(integer) 119|92r51
+X 89 mssyst-windows-forms-imagelist.ads
+26K30 ImageList 119|86r40
+28P9 Ref(integer) 119|86r50
+X 95 mssyst-windows-forms-padding.ads
+15K30 Padding 119|156r102
+16R9 ValueType 119|156r110
+X 98 mssyst-windows-forms-textformatflags.ads
+15K30*TextFormatFlags 109e41 119|21w27 105r36 177r36 182r36
+16E9*ValueType 41e27 119|105r52 177r52 182r52
+X 99 mssyst-windows-forms-visualstyles.ads
+6K30*VisualStyles 78|6k24 99|7e38 119|13r27 14r27 15r27 23r27 25r27 26r27
+. 27r27 29r27 30r27 32r27 34r27 36r27 37r27 40r27 41r27 43r30 55r38 74r36
+. 75r36 76r38 136r35 139r35 142r35 145r35 149r35 152r35 156r35 161r37 165r37
+. 168r35 171r35 185r75 192r38 192r105 198r38 198r105 205r38 205r105 209r38
+. 217r38 251r26 253r41
+X 100 mssyst-windows-forms-visualstyles-booleanproperty.ads
+15K43*BooleanProperty 80e54 119|23w40 136r48
+16E9*ValueType 29e20 119|136r64
+X 101 mssyst-windows-forms-visualstyles-colorproperty.ads
+15K43*ColorProperty 100e52 119|25w40 139r48
+16E9*ValueType 39e23 119|139r62
+X 102 mssyst-windows-forms-visualstyles-edgeeffects.ads
+15K43*EdgeEffects 66e50 119|15w40 76r51
+16E9*ValueType 21e12 119|76r63
+X 103 mssyst-windows-forms-visualstyles-edges.ads
+15K43*Edges 66e44 119|13w40 74r49
+16E9*ValueType 21e16 119|74r55
+X 104 mssyst-windows-forms-visualstyles-edgestyle.ads
+15K43*EdgeStyle 62e48 119|14w40 75r49
+16E9*ValueType 20e14 119|75r59
+X 105 mssyst-windows-forms-visualstyles-enumproperty.ads
+15K43*EnumProperty 84e51 119|26w40 142r48
+16E9*ValueType 31e27 119|142r61
+X 106 mssyst-windows-forms-visualstyles-filenameproperty.ads
+15K43*FilenameProperty 70e55 119|27w40 145r48
+16E9*ValueType 24e22 119|145r65
+X 107 mssyst-windows-forms-visualstyles-fontproperty.ads
+15K43*FontProperty 56e51 119|29w40 149r48
+16E9*ValueType 17e17 119|149r61
+X 108 mssyst-windows-forms-visualstyles-hittestcode.ads
+15K43*HitTestCode 74e50 119|40w40 192r118 198r118 205r118
+16E9*ValueType 26e19 119|192r130 198r130 205r130
+X 109 mssyst-windows-forms-visualstyles-hittestoptions.ads
+15K43*HitTestOptions 76e53 119|41w40 192r51 198r51 205r51
+16E9*ValueType 26e27 119|192r66 198r66 205r66
+X 110 mssyst-windows-forms-visualstyles-integerproperty.ads
+15K43*IntegerProperty 102e54 119|30w40 152r48
+16E9*ValueType 40e15 119|152r64
+X 111 mssyst-windows-forms-visualstyles-marginproperty.ads
+15K43*MarginProperty 60e53 119|32w40 156r48
+16E9*ValueType 19e22 119|156r63
+X 112 mssyst-windows-forms-visualstyles-pointproperty.ads
+15K43*PointProperty 70e52 119|36w40 168r48
+16E9*ValueType 24e16 119|168r62
+X 113 mssyst-windows-forms-visualstyles-stringproperty.ads
+15K43*StringProperty 56e53 119|37w40 171r48
+16E9*ValueType 17e12 119|171r63
+X 114 mssyst-windows-forms-visualstyles-textmetrics.ads
+16K43 TextMetrics 119|185r88
+17R9 ValueType 119|185r100
+X 117 mssyst-windows-forms-visualstyles-themesizetype.ads
+15K43*ThemeSizeType 60e52 119|34w40 161r50 165r50
+16E9*ValueType 19e12 119|161r64 165r64
+X 118 mssyst-windows-forms-visualstyles-visualstyleelement.ads
+13K43 VisualStyleElement 119|55r51 209r51 217r51
+15P9 Ref(integer) 119|55r70 209r70 217r70
+X 119 mssyst-windows-forms-visualstyles-visualstylerenderer.ads
+43K43*VisualStyleRenderer 99|6k30 119|251l39 251e58 253r54
+44R9*Typ 45r27 50c9 62r21 66r21 71r21 78r21 83r21 89r21 94r21 100r21 107r21
+. 112r21 114r21 117r21 119r21 121r21 123r21 127r21 131r21 135r21 138r21 141r21
+. 144r21 147r21 151r21 154r21 158r21 163r21 167r21 170r21 173r21 179r21 184r21
+. 187r21 194r21 200r21 207r21 211r21 216r21 219r27
+45P9*Ref(44R9) 46r34 47r47 54r14 55r82 57r14 60r31
+46P9*Ref_addrof(45P9)
+47A9*Ref_Arr(45P9) 48r33
+48P9*Ref_Array(47A9) 49r40
+49P9*Ref_Array_addrof(48P9)
+50R9*Typ<50|18R9> 50|23p13 29p13 31p13 36p13 119|52e14 61p14 65p14 70p13
+. 77p14 82p14 88p14 93p14 99p14 106p14 111p13 113p13 116p13 118p13 120p13
+. 122p13 126p13 130p13 134p13 137p13 140p13 143p13 146p13 150p13 153p13 157p13
+. 162p13 166p13 169p13 172p13 178p13 183p13 186p13 193p13 199p13 206p13 210p14
+. 215p14
+53V13*new_VisualStyleRenderer{45P9} 54>7 55>7
+54p7 This{45P9}
+55p7 element{118|15P9}
+56V13*new_VisualStyleRenderer{45P9} 57>7 58>7 59>7 60>7
+57p7 This{45P9}
+58p7 className{68|27P9}
+59i7 part{integer}
+60i7 state{integer}
+61U14*DrawBackground 62^7 63>7 64>7
+62p7 This(50R9)
+63p7 dc{29|12P9}
+64r7 bounds{36|18R9}
+65U14*DrawBackground 66^7 67>7 68>7 69>7 221b23
+66p7 This(50R9)
+67p7 dc{29|12P9}
+68r7 bounds{36|18R9}
+69r7 clipRectangle{36|18R9}
+70V13*DrawEdge{36|18R9} 71^7 72>7 73>7 74>7 75>7 76>7 222b23
+71p7 This(50R9)
+72p7 dc{29|12P9}
+73r7 bounds{36|18R9}
+74e7 edges{103|16E9}
+75e7 style{104|16E9}
+76e7 effects{102|16E9}
+77U14*DrawImage 78^7 79>7 80>7 81>7
+78p7 This(50R9)
+79p7 g{27|58P9}
+80r7 bounds{36|18R9}
+81p7 image{30|36P9}
+82U14*DrawImage 83^7 84>7 85>7 86>7 87>7 223b23
+83p7 This(50R9)
+84p7 g{27|58P9}
+85r7 bounds{36|18R9}
+86p7 imageList{89|28P9}
+87i7 imageIndex{integer}
+88U14*DrawParentBackground 89^7 90>7 91>7 92>7 224b23
+89p7 This(50R9)
+90p7 dc{29|12P9}
+91r7 bounds{36|18R9}
+92p7 childControl{83|77P9}
+93U14*DrawText 94^7 95>7 96>7 97>7 98>7
+94p7 This(50R9)
+95p7 dc{29|12P9}
+96r7 bounds{36|18R9}
+97p7 textToDraw{68|27P9}
+98b7 drawDisabled{boolean}
+99U14*DrawText 100^7 101>7 102>7 103>7 104>7 105>7
+100p7 This(50R9)
+101p7 dc{29|12P9}
+102r7 bounds{36|18R9}
+103p7 textToDraw{68|27P9}
+104b7 drawDisabled{boolean}
+105e7 flags{98|16E9}
+106U14*DrawText 107^7 108>7 109>7 110>7 225b23
+107p7 This(50R9)
+108p7 dc{29|12P9}
+109r7 bounds{36|18R9}
+110p7 textToDraw{68|27P9}
+111V13*get_Class{68|27P9} 112^7 226b23
+112p7 This(50R9)
+113V13*get_Handle{5|52M9} 114^7 227b23
+114p7 This(50R9)
+115V13*get_IsSupported{boolean} 228b23
+116V13*get_LastHResult{integer} 117^7 229b23
+117p7 This(50R9)
+118V13*get_Part{integer} 119^7 230b23
+119p7 This(50R9)
+120V13*get_State{integer} 121^7 231b23
+121p7 This(50R9)
+122V13*GetBackgroundContentRectangle{36|18R9} 123^7 124>7 125>7 232b23
+123p7 This(50R9)
+124p7 dc{29|12P9}
+125r7 bounds{36|18R9}
+126V13*GetBackgroundExtent{36|18R9} 127^7 128>7 129>7 233b23
+127p7 This(50R9)
+128p7 dc{29|12P9}
+129r7 contentBounds{36|18R9}
+130V13*GetBackgroundRegion{38|26P9} 131^7 132>7 133>7 234b23
+131p7 This(50R9)
+132p7 dc{29|12P9}
+133r7 bounds{36|18R9}
+134V13*GetBoolean{boolean} 135^7 136>7 235b23
+135p7 This(50R9)
+136e7 prop{100|16E9}
+137V13*GetColor{12|16R9} 138^7 139>7 236b23
+138p7 This(50R9)
+139e7 prop{101|16E9}
+140V13*GetEnumValue{integer} 141^7 142>7 237b23
+141p7 This(50R9)
+142e7 prop{105|16E9}
+143V13*GetFilename{68|27P9} 144^7 145>7 238b23
+144p7 This(50R9)
+145e7 prop{106|16E9}
+146V13*GetFont{25|23P9} 147^7 148>7 149>7 239b23
+147p7 This(50R9)
+148p7 dc{29|12P9}
+149e7 prop{107|16E9}
+150V13*GetInteger{integer} 151^7 152>7 240b23
+151p7 This(50R9)
+152e7 prop{110|16E9}
+153V13*GetMargins{95|16R9} 154^7 155>7 156>7 241b23
+154p7 This(50R9)
+155p7 dc{29|12P9}
+156e7 prop{111|16E9}
+157V13*GetPartSize{40|17R9} 158^7 159>7 160>7 161>7
+158p7 This(50R9)
+159p7 dc{29|12P9}
+160r7 bounds{36|18R9}
+161e7 type_k{117|16E9}
+162V13*GetPartSize{40|17R9} 163^7 164>7 165>7 242b23
+163p7 This(50R9)
+164p7 dc{29|12P9}
+165e7 type_k{117|16E9}
+166V13*GetPoint{34|17R9} 167^7 168>7 243b23
+167p7 This(50R9)
+168e7 prop{112|16E9}
+169V13*GetString{68|27P9} 170^7 171>7 244b23
+170p7 This(50R9)
+171e7 prop{113|16E9}
+172V13*GetTextExtent{36|18R9} 173^7 174>7 175>7 176>7 177>7
+173p7 This(50R9)
+174p7 dc{29|12P9}
+175r7 bounds{36|18R9}
+176p7 textToDraw{68|27P9}
+177e7 flags{98|16E9}
+178V13*GetTextExtent{36|18R9} 179^7 180>7 181>7 182>7 245b23
+179p7 This(50R9)
+180p7 dc{29|12P9}
+181p7 textToDraw{68|27P9}
+182e7 flags{98|16E9}
+183V13*GetTextMetrics{114|17R9} 184^7 185>7 246b23
+184p7 This(50R9)
+185p7 dc{29|12P9}
+186V13*HitTestBackground{108|16E9} 187^7 188>7 189>7 190>7 191>7 192>7
+187p7 This(50R9)
+188p7 dc{29|12P9}
+189r7 backgroundRectangle{36|18R9}
+190m7 hRgn{5|52M9}
+191r7 pt{34|17R9}
+192e7 options{109|16E9}
+193V13*HitTestBackground{108|16E9} 194^7 195>7 196>7 197>7 198>7
+194p7 This(50R9)
+195p7 dc{29|12P9}
+196r7 backgroundRectangle{36|18R9}
+197r7 pt{34|17R9}
+198e7 options{109|16E9}
+199V13*HitTestBackground{108|16E9} 200^7 201>7 202>7 203>7 204>7 205>7 247b23
+200p7 This(50R9)
+201p7 g{27|58P9}
+202r7 backgroundRectangle{36|18R9}
+203p7 region{38|26P9}
+204r7 pt{34|17R9}
+205e7 options{109|16E9}
+206V13*IsBackgroundPartiallyTransparent{boolean} 207^7 248b23
+207p7 This(50R9)
+208V13*IsElementDefined{boolean} 209>7 249b23
+209p7 element{118|15P9}
+210U14*SetParameters 211^7 212>7 213>7 214>7
+211p7 This(50R9)
+212p7 className{68|27P9}
+213i7 part{integer}
+214i7 state{integer}
+215U14*SetParameters 216^7 217>7 250b23
+216p7 This(50R9)
+217p7 element{118|15P9}
+

@@ -1,0 +1,168 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.componentmodel.customtypedescriptor%s  mssyst-componentmodel-customtypedescriptor.ads  ea850b78 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.icustomtypedescriptor%s  mssyst-componentmodel-icustomtypedescriptor.ads  mssyst-componentmodel-icustomtypedescriptor.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-attribute.ads	20060131171354 578cce83
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-idictionary.ads  20060131171358 0d4908a9
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-attributecollection.ads  20060131171412 a1cc5ba6
+D mssyst-componentmodel-customtypedescriptor.ads  20060131171412 c41742ac
+D mssyst-componentmodel-designerserializationvisibility.ads  20060131171412 42f0b201
+D mssyst-componentmodel-eventdescriptor.ads  20060131171412 49679b11
+D mssyst-componentmodel-eventdescriptorcollection.ads  20060131171412 06ce14d4
+D mssyst-componentmodel-icustomtypedescriptor.ads  20060131171412 adfc9d80
+D mssyst-componentmodel-memberdescriptor.ads  20060131171412 ebdb73f4
+D mssyst-componentmodel-propertydescriptor.ads  20060131171412 9db79170
+D mssyst-componentmodel-propertydescriptorcollection.ads  20060131171414 a46c49a6
+D mssyst-componentmodel-typeconverter.ads  20060131171412 0d522a74
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 17|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 17|7r6 10r6 11r6 21r9 28r29 29r14 34r33 36r33 38r33 40r33
+. 42r33 44r33 47r24 47r50 50r20 50r55 52r33 54r33 57r20 57r55 60r12 60r65
+. 73r5 75r20
+X 10 mssyst-attribute.ads
+18K16 Attribute 17|50r27 57r27
+23P9 Ref_Array(integer) 17|50r37 57r37
+X 15 mssyst-componentmodel.ads
+6K16*ComponentModel 9|6k9 15|7e26 17|11r13 21r16 29r21 34r40 40r40 42r40
+. 44r40 50r62 52r40 54r40 57r62 60r19 73r12 75r27
+X 16 mssyst-componentmodel-attributecollection.ads
+18K31 AttributeCollection 17|34r55
+20P9 Ref(integer) 17|34r75
+X 17 mssyst-componentmodel-customtypedescriptor.ads
+21K31*CustomTypeDescriptor 15|6k16 17|73l27 73e47 75r42
+22R9*Typ 23r27 28c9 34r21 36r21 38r21 40r21 42r21 44r21 46r21 49r21 52r21
+. 54r21 56r21 59r21 62r27
+23P9*Ref(22R9) 24r34 25r47
+24P9*Ref_addrof(23P9)
+25A9*Ref_Arr(23P9) 26r33
+26P9*Ref_Array(25A9) 27r40
+27P9*Ref_Array_addrof(26P9)
+28H9*Typ<31|18R9> 32e14 33P13 35P13 37P13 39P13 41P13 43P13 45P13 48P13 51P13
+. 53P13 55P13 58P13 31|23p13 29p13 31p13 36p13
+33V13*GetAttributes{16|20P9} 34^7 63b23
+34p7 This(28R9)
+35V13*GetClassName{47|27P9} 36^7 64b23
+36p7 This(28R9)
+37V13*GetComponentName{47|27P9} 38^7 65b23
+38p7 This(28R9)
+39V13*GetConverter{25|22P9} 40^7 66b23
+40p7 This(28R9)
+41V13*GetDefaultEvent{19|18P9} 42^7 67b23
+42p7 This(28R9)
+43V13*GetDefaultProperty{23|22P9} 44^7 68b23
+44p7 This(28R9)
+45V13*GetEditor{31|13P9} 46^7 47>7 69b23
+46p7 This(28R9)
+47p7 editorBaseType{52|51P9}
+48V13*GetEvents{20|22P9} 49^7 50>7
+49p7 This(28R9)
+50p7 attributes{10|23P9}
+51V13*GetEvents{20|22P9} 52^7 70b23
+52p7 This(28R9)
+53V13*GetProperties{24|24P9} 54^7
+54p7 This(28R9)
+55V13*GetProperties{24|24P9} 56^7 57>7 71b23
+56p7 This(28R9)
+57p7 attributes{10|23P9}
+58V13*GetPropertyOwner{31|13P9} 59^7 60>7 72b23
+59p7 This(28R9)
+60p7 pd{23|22P9}
+X 19 mssyst-componentmodel-eventdescriptor.ads
+16K31 EventDescriptor 17|42r55
+18P9 Ref(integer) 17|42r71
+X 20 mssyst-componentmodel-eventdescriptorcollection.ads
+20K31 EventDescriptorCollection 17|50r77 52r55
+22P9 Ref(integer) 17|50r103 52r81
+X 21 mssyst-componentmodel-icustomtypedescriptor.ads
+20K31*ICustomTypeDescriptor 17|11w28 29r36 21|67e48
+21R9*Typ 17|29r58
+X 23 mssyst-componentmodel-propertydescriptor.ads
+20K31 PropertyDescriptor 17|44r55 60r34
+22P9 Ref(integer) 17|44r74 60r53
+X 24 mssyst-componentmodel-propertydescriptorcollection.ads
+22K31 PropertyDescriptorCollection 17|54r55 57r77
+24P9 Ref(integer) 17|54r84 57r106
+X 25 mssyst-componentmodel-typeconverter.ads
+20K31 TypeConverter 17|40r55
+22P9 Ref(integer) 17|40r69
+X 31 mssyst-object.ads
+11K16*Object 17|7w13 10w13 28r36 47r57 60r72 31|46e18
+12R9*Typ 17|28r43 31|20e14
+13P9*Ref(12R9) 17|47r64 60r79
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{52|51P9}
+36V13*ToString{47|27P9}
+X 47 mssyst-string.ads
+25K16 String 17|36r40 38r40
+27P9 Ref(integer) 17|36r47 38r47
+X 52 mssyst-type_k.ads
+49K16 Type_k 17|47r31
+51P9 Ref(integer) 17|47r38
+

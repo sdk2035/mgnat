@@ -1,0 +1,113 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.safenativemethods.logfont%s  mssyst-drawing-safenativemethods-logfont.ads  55cb25e5 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.safenativemethods%s  mssyst-drawing-safenativemethods.ads  mssyst-drawing-safenativemethods.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-safenativemethods.ads  20060131171430 51180271
+D mssyst-drawing-safenativemethods-logfont.ads  20060131171430 b1576064
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 9|8w6 9r5 31r18 33r21 35r21 37r19 39r24 41r25 43r19
+. 45r26
+24E9*unsigned_int8<character> 9|31r29 33r32 35r32 37r30 39r35 41r36 43r30
+. 45r37
+X 6 mssyst.ads
+6K9*MSSyst 7e11 9|7r6 10r6 13r9 20r20 47r20 54r12 56r33 61r5 63r20
+X 7 mssyst-drawing.ads
+6K16*Drawing 6|6k9 7|7e19 9|13r16 54r19 61r12 63r27
+X 8 mssyst-drawing-safenativemethods.ads
+6K24*SafeNativeMethods 7|6k16 8|7e37 9|13r24 54r27 61r20 63r35
+X 9 mssyst-drawing-safenativemethods-logfont.ads
+13K42*LOGFONT 8|6k24 9|54r45 61l38 61e45 63r53
+14R9*Typ 15r27 20c9 56r21 58r27
+15P9*Ref(14R9) 16r34 17r47 51r14 51r34 53r14 54r53 54r65
+16P9*Ref_addrof(15P9)
+17A9*Ref_Arr(15P9) 18r33
+18P9*Ref_Array(17A9) 19r40
+19P9*Ref_Array_addrof(18P9)
+20R9*Typ<15|18R9> 49e14 55P13 15|23p13 29p13 31p13
+21i7*lfHeight{integer}
+23i7*lfWidth{integer}
+25i7*lfEscapement{integer}
+27i7*lfOrientation{integer}
+29i7*lfWeight{integer}
+31e7*lfItalic{5|24E9}
+33e7*lfUnderline{5|24E9}
+35e7*lfStrikeOut{5|24E9}
+37e7*lfCharSet{5|24E9}
+39e7*lfOutPrecision{5|24E9}
+41e7*lfClipPrecision{5|24E9}
+43e7*lfQuality{5|24E9}
+45e7*lfPitchAndFamily{5|24E9}
+47p7*lfFaceName{31|27P9}
+50V13*new_LOGFONT{15P9} 51>7
+51p7 This{15P9}
+52V13*new_LOGFONT{15P9} 53>7 54>7
+53p7 This{15P9}
+54p7 lf{15P9}
+55V13*ToString{31|27P9} 56^7 60b23
+56p7 This(20R9)
+X 15 mssyst-object.ads
+11K16*Object 9|7w13 10w13 20r27 15|46e18
+12R9*Typ 9|20r34 15|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{36|51P9}
+X 31 mssyst-string.ads
+25K16 String 9|47r27 56r40
+27P9 Ref(integer) 9|47r34 56r47
+X 36 mssyst-type_k.ads
+51P9 Ref(integer)
+

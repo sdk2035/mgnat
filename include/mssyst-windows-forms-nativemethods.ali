@@ -1,0 +1,23 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.nativemethods%s  mssyst-windows-forms-nativemethods.ads  b1ca6a8b EE PK
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-windows.ads	20060517222336 8e5e07ed
+D mssyst-windows-forms.ads  20060517222336 c6ce9829
+D mssyst-windows-forms-nativemethods.ads  20060517222352 7704f2a2
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 4|6r9 7r5
+X 2 mssyst-windows.ads
+6K16*Windows 1|6k9 2|7e19 4|6r16 7r12
+X 3 mssyst-windows-forms.ads
+6K24*Forms 2|6k16 3|7e25 4|6r24 7r20
+X 4 mssyst-windows-forms-nativemethods.ads
+6K30*NativeMethods 3|6k24 4|7l26 7e39
+

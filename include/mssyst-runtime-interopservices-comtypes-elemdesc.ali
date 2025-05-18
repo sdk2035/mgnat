@@ -1,0 +1,91 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.interopservices.comtypes.elemdesc%s  mssyst-runtime-interopservices-comtypes-elemdesc.ads  ff43f82d NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.interopservices%s  mssyst-runtime-interopservices.ads  mssyst-runtime-interopservices.ali
+W mssyst.runtime.interopservices.comtypes%s  mssyst-runtime-interopservices-comtypes.ads  mssyst-runtime-interopservices-comtypes.ali
+W mssyst.valuetype%s	mssyst-valuetype.ads	mssyst-valuetype.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20060131210454 82dcb036
+D mssyst-globalization.ads  20060131210500 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131210500 813feefd
+D mssyst-guid.ads	20060131210456 4190e3f4
+D mssyst-icomparable.ads  20060131210454 fe65d5a7
+D mssyst-object.ads	20060131210454 1548af27
+D mssyst-reflection.ads	20060131210456 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131210458 dfe7029b
+D mssyst-reflection-callingconventions.ads  20060131210458 79b20079
+D mssyst-reflection-genericparameterattributes.ads  20060131210458 730d2d64
+D mssyst-reflection-icustomattributeprovider.ads  20060131210456 67b80966
+D mssyst-reflection-memberinfo.ads  20060131210456 a5e0019d
+D mssyst-reflection-membertypes.ads  20060131210458 9c07ecc7
+D mssyst-reflection-parametermodifier.ads  20060131210458 b98dd642
+D mssyst-reflection-typeattributes.ads  20060131210458 963ab5ea
+D mssyst-runtime.ads	20060131210454 31dcc047
+D mssyst-runtime-interopservices.ads  20060131210454 59769bf0
+D mssyst-runtime-interopservices-comtypes.ads  20060131210502 c90b3930
+D mssyst-runtime-interopservices-comtypes-elemdesc.ads  20060131210504 f443e504
+D mssyst-runtime-interopservices-comtypes-elemdesc-descunion.ads  20060131210504 03c5182e
+D mssyst-runtime-interopservices-comtypes-typedesc.ads  20060131210504 c2ced6ea
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131210456 78bbfe31
+D mssyst-runtime-interopservices-utype.ads  20060131210456 391a3606
+D mssyst-sbyte.ads	20060131210456 7bdf4deb
+D mssyst-string.ads	20060131210454 49d505be
+D mssyst-stringcomparison.ads  20060131210454 128a4573
+D mssyst-stringsplitoptions.ads  20060131210454 f1a80568
+D mssyst-text.ads	20060131210454 a7ed250d
+D mssyst-text-normalizationform.ads  20060131210500 6ef7f9a8
+D mssyst-type_k.ads	20060131210456 230ab885
+D mssyst-typecode.ads	20060131210456 563afa2e
+D mssyst-uint32.ads	20060131210456 4a946f55
+D mssyst-valuetype.ads	20060131210454 53fc3f85
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 72e15 24|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 24|7r6 10r6 16r9 17r26 23r5 25r20
+X 11 mssyst-object.ads
+11K16*Object 46e18 24|7w13
+18R9*Typ
+31V13*GetType{35|50P9}
+X 21 mssyst-runtime.ads
+6K16*Runtime 6|6k9 21|7e19 24|16r16 23r12 25r27
+X 22 mssyst-runtime-interopservices.ads
+6K24*InteropServices 21|6k16 22|7e35 24|16r24 23r20 25r35
+X 23 mssyst-runtime-interopservices-comtypes.ads
+6K40*ComTypes 22|6k24 23|7e44 24|16r40 23r36 25r51
+X 24 mssyst-runtime-interopservices-comtypes-elemdesc.ads
+16K49*ELEMDESC 23|6k40 24|23l45 23e53 25r60
+17R9*ValueType<38|20R9> 11|31p13 24|17e63 18r54 20r40 38|23P13 26P13 28P13
+18A9*ValueType_Arr(17R9) 19r39
+19P9*ValueType_Array(18A9) 21r46
+20P9*ValueType_addrof(17R9)
+21P9*ValueType_array_addrof(19P9)
+X 30 mssyst-string.ads
+26P9 Ref(integer)
+X 35 mssyst-type_k.ads
+50P9 Ref(integer)
+X 38 mssyst-valuetype.ads
+13K16*ValueType 24|10w13 17r33 38|35e21
+14R9*Typ 24|17r43
+23V13*Equals{boolean}
+26V13*GetHashCode{integer}
+28V13*ToString{30|26P9}
+

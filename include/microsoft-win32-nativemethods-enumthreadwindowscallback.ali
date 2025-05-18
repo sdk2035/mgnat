@@ -1,0 +1,132 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U microsoft.win32.nativemethods.enumthreadwindowscallback%s  microsoft-win32-nativemethods-enumthreadwindowscallback.ads  190a89a6 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W microsoft%s		microsoft.ads		microsoft.ali
+W microsoft.win32%s	microsoft-win32.ads	microsoft-win32.ali
+W microsoft.win32.nativemethods%s  microsoft-win32-nativemethods.ads  microsoft-win32-nativemethods.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.multicastdelegate%s  mssyst-multicastdelegate.ads  mssyst-multicastdelegate.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20050914013254 02f2695c
+D microsoft-win32.ads	20050914013254 bf37fdc1
+D microsoft-win32-nativemethods.ads  20050914013306 1e366b2e
+D microsoft-win32-nativemethods-enumthreadwindowscallback.ads  20050914133448 ce5ed6d5
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-asynccallback.ads  20050914133428 c58a17df
+D mssyst-delegate.ads	20050914133428 0015dc38
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-iasyncresult.ads  20050914133428 efccf1fb
+D mssyst-multicastdelegate.ads  20050914133428 2bb11668
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-methodattributes.ads  20050914133430 2bc15515
+D mssyst-reflection-methodbase.ads  20050914133430 17c6411e
+D mssyst-reflection-methodimplattributes.ads  20050914133430 6eb74cbd
+D mssyst-reflection-methodinfo.ads  20050914133430 361d810c
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-runtime.ads	20050914013248 31dcc047
+D mssyst-runtime-serialization.ads  20050914013248 8d5305f0
+D mssyst-runtime-serialization-serializationinfo.ads  20050914133430 4365e24e
+D mssyst-runtime-serialization-streamingcontext.ads  20050914133430 981d04b6
+D mssyst-runtime-serialization-streamingcontextstates.ads  20050914133430 64ea1530
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 microsoft.ads
+6K9*Microsoft 7e14 8|21r9 54r5 56r20
+X 6 microsoft-win32.ads
+6K19*Win32 5|6k9 6|7e20 8|21r19 54r15 56r30
+X 7 microsoft-win32-nativemethods.ads
+6K25*NativeMethods 6|6k19 7|7e34 8|21r25 54r21 56r36
+X 8 microsoft-win32-nativemethods-enumthreadwindowscallback.ads
+21K39*EnumThreadWindowsCallback 7|6k25 8|54l35 54e60 56r50
+22R9*Typ 23r27 28c9 36r21 42r21 45r21 49r27
+23P9*Ref(22R9) 24r34 25r47 32r14 34r46
+24P9*Ref_addrof(23P9)
+25A9*Ref_Arr(23P9) 26r33
+26P9*Ref_Array(25A9) 27r40
+27P9*Ref_Array_addrof(26P9)
+28R9*Typ<16|26R9> 30e14 35p13 41p13 44p13 12|28p13 51p13 57p13 59p13 16|29P13
+. 32P13 34P13 36P14 17|31p13 36p13
+31V13*new_EnumThreadWindowsCallback{23P9} 32>7 33>7 34>7 50r28
+32p7 This{23P9}
+33p7 object{17|13P9}
+34m7 method{9|52M9}
+35V13*BeginInvoke{15|14P9} 36^7 37>7 38>7 39>7 40>7 51b23
+36p7 This(28R9)
+37m7 hWnd{9|52M9}
+38m7 lParam{9|52M9}
+39p7 callback{11|22P9}
+40p7 object{17|13P9}
+41V13*EndInvoke{boolean} 42^7 43>7 52b23
+42p7 This(28R9)
+43p7 result{15|14P9}
+44V13*Invoke{boolean} 45^7 46>7 47>7 53b23
+45p7 This(28R9)
+46m7 hWnd{9|52M9}
+47m7 lParam{9|52M9}
+X 9 msil_types.ads
+7K9*Msil_Types 8|8w6 9r5 34r16 37r14 38r16 46r14 47r16 9|72e15
+52M9*native_int 8|34r27 37r25 38r27 46r25 47r27
+X 10 mssyst.ads
+6K9*MSSyst 8|7r6 10r6 28r20 33r16 39r18 40r16 40r42 43r16 10|7e11
+X 11 mssyst-asynccallback.ads
+20K16 AsyncCallback 8|39r25
+22P9 Ref(integer) 8|39r39
+X 12 mssyst-delegate.ads
+20P9*Ref(19R9)
+22A9*Ref_Arr(20P9)
+23P9*Ref_Array(22A9)
+28V13*Clone{17|13P9}
+51V13*DynamicInvoke{17|13P9}
+57V13*get_Method{26|27P9}
+59V13*get_Target{17|13P9}
+X 15 mssyst-iasyncresult.ads
+12K16 IAsyncResult 8|40r49 43r23
+14P9 Ref(integer) 8|40r62 43r36
+X 16 mssyst-multicastdelegate.ads
+19K16*MulticastDelegate 8|10w13 28r27 16|54e29
+20R9*Typ 8|28r45
+29V13*Equals{boolean}
+32V13*GetHashCode{integer}
+34V13*GetInvocationList{12|23P9}
+36U14*GetObjectData
+X 17 mssyst-object.ads
+11K16*Object 8|7w13 33r23 40r23 17|46e18
+13P9*Ref(12R9) 8|33r30 40r30
+18R9*Typ
+31V13*GetType{36|44P9}
+36V13*ToString{35|22P9}
+X 26 mssyst-reflection-methodinfo.ads
+27P9 Ref(integer)
+X 35 mssyst-string.ads
+22P9 Ref(integer)
+X 36 mssyst-type_k.ads
+44P9 Ref(integer)
+

@@ -1,0 +1,252 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.graphics.enumeratemetafileproc%s  mssyst-drawing-graphics-enumeratemetafileproc.ads  401a8aae NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.graphics%s  mssyst-drawing-graphics.ads  mssyst-drawing-graphics.ali
+W mssyst.drawing.imaging%s  mssyst-drawing-imaging.ads  mssyst-drawing-imaging.ali
+W mssyst.drawing.imaging.emfplusrecordtype%s  mssyst-drawing-imaging-emfplusrecordtype.ads  mssyst-drawing-imaging-emfplusrecordtype.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.multicastdelegate%s  mssyst-multicastdelegate.ads  mssyst-multicastdelegate.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.serialization%s  mssyst-runtime-serialization.ads  mssyst-runtime-serialization.ali
+W mssyst.runtime.serialization.iserializable%s  mssyst-runtime-serialization-iserializable.ads  mssyst-runtime-serialization-iserializable.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-asynccallback.ads  20060131171354 20264380
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-brush.ads  20060131171428 cf91b157
+D mssyst-drawing-characterrange.ads  20060131171432 d86a1dc9
+D mssyst-drawing-color.ads  20060131171430 efe0dbd6
+D mssyst-drawing-copypixeloperation.ads  20060131171430 bcae6884
+D mssyst-drawing-drawing2d.ads  20060131171430 02b10736
+D mssyst-drawing-drawing2d-combinemode.ads  20060131171430 467ba574
+D mssyst-drawing-drawing2d-compositingmode.ads  20060131171430 3ce094d4
+D mssyst-drawing-drawing2d-compositingquality.ads  20060131171430 777a28ce
+D mssyst-drawing-drawing2d-coordinatespace.ads  20060131171430 4eae09c0
+D mssyst-drawing-drawing2d-dashcap.ads  20060131171430 9ca08845
+D mssyst-drawing-drawing2d-dashstyle.ads  20060131171430 64feb1e7
+D mssyst-drawing-drawing2d-fillmode.ads  20060131171430 fd618471
+D mssyst-drawing-drawing2d-flushintention.ads  20060131171430 c85a32e0
+D mssyst-drawing-drawing2d-graphicscontainer.ads  20060131171430 28c6cf59
+D mssyst-drawing-drawing2d-graphicspath.ads  20060131171430 16dbf5d7
+D mssyst-drawing-drawing2d-graphicsstate.ads  20060131171430 e557adcc
+D mssyst-drawing-drawing2d-interpolationmode.ads  20060131171430 923a6e49
+D mssyst-drawing-drawing2d-linecap.ads  20060131171430 0dc60f04
+D mssyst-drawing-drawing2d-linejoin.ads  20060131171430 d6cfbcf1
+D mssyst-drawing-drawing2d-matrix.ads  20060131171430 b2e63513
+D mssyst-drawing-drawing2d-matrixorder.ads  20060131171430 32337ee5
+D mssyst-drawing-drawing2d-penalignment.ads  20060131171432 847d698f
+D mssyst-drawing-drawing2d-pentype.ads  20060131171432 4fcce98c
+D mssyst-drawing-drawing2d-pixeloffsetmode.ads  20060131171432 290cbe8f
+D mssyst-drawing-drawing2d-smoothingmode.ads  20060131171432 35dda90b
+D mssyst-drawing-drawing2d-warpmode.ads  20060131171432 1e61b940
+D mssyst-drawing-drawing2d-wrapmode.ads  20060131171432 386ff5bc
+D mssyst-drawing-font.ads  20060131171430 86695792
+D mssyst-drawing-fontstyle.ads  20060131171430 a1bbe068
+D mssyst-drawing-graphics.ads  20060131171430 a787a9b1
+D mssyst-drawing-graphics-drawimageabort.ads  20060131171430 e26cf40a
+D mssyst-drawing-graphics-enumeratemetafileproc.ads  20060131171430 fc929d56
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-icon.ads  20060131171430 7e5353c4
+D mssyst-drawing-idevicecontext.ads  20060131171428 3b407974
+D mssyst-drawing-image.ads  20060131171428 3db9ccbe
+D mssyst-drawing-imaging.ads  20060131171430 83f7d7de
+D mssyst-drawing-imaging-coloradjusttype.ads  20060131171430 e43f298a
+D mssyst-drawing-imaging-colorchannelflag.ads  20060131171430 bd2aa2f5
+D mssyst-drawing-imaging-colormatrixflag.ads  20060131171430 999da3f8
+D mssyst-drawing-imaging-emfplusrecordtype.ads  20060131171430 1cedbe7f
+D mssyst-drawing-imaging-emftype.ads  20060131171430 4d4315b3
+D mssyst-drawing-imaging-imageattributes.ads  20060131171430 374c88e8
+D mssyst-drawing-imaging-metafile.ads  20060131171430 c43b6ca3
+D mssyst-drawing-imaging-metafileframeunit.ads  20060131171430 df0b0f04
+D mssyst-drawing-imaging-pixelformat.ads  20060131171432 0f821f81
+D mssyst-drawing-imaging-playrecordcallback.ads  20060131171432 9138771e
+D mssyst-drawing-knowncolor.ads  20060131171430 28ff3226
+D mssyst-drawing-pen.ads  20060131171430 100173dc
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-pointf.ads  20060131171432 a63d5a83
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-rectanglef.ads  20060131171432 7fcf14fa
+D mssyst-drawing-region.ads  20060131171430 efada588
+D mssyst-drawing-rotatefliptype.ads  20060131171430 5968574e
+D mssyst-drawing-size.ads  20060131171430 9e839193
+D mssyst-drawing-sizef.ads  20060131171432 32b1bdc4
+D mssyst-drawing-stringalignment.ads  20060131171432 211d31e2
+D mssyst-drawing-stringdigitsubstitute.ads  20060131171432 47567d09
+D mssyst-drawing-stringformat.ads  20060131171432 876e4f88
+D mssyst-drawing-stringformatflags.ads  20060131171432 c8a9661a
+D mssyst-drawing-stringtrimming.ads  20060131171432 4669219b
+D mssyst-drawing-text.ads  20060131171430 47e8b126
+D mssyst-drawing-text-hotkeyprefix.ads  20060131171430 8eb8b883
+D mssyst-drawing-text-textrenderinghint.ads  20060131171432 e6fd5e60
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-iasyncresult.ads  20060131171356 e48639e4
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-methodattributes.ads  20060131171358 3d878e1d
+D mssyst-reflection-methodbase.ads  20060131171358 8cf6333b
+D mssyst-reflection-methodimplattributes.ads  20060131171358 4937947b
+D mssyst-reflection-methodinfo.ads  20060131171358 ef578403
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-umethodbase.ads  20060131171358 b1429f1d
+D mssyst-runtime-interopservices-umethodinfo.ads  20060131171358 2ecfe02d
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-runtime-serialization-serializationinfo.ads  20060131171358 df7a73a0
+D mssyst-runtime-serialization-streamingcontext.ads  20060131171358 58e01b0b
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060131171358 2f27fbc4
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 44|8w6 9r5 41r16 47r14 59r14
+52M9*native_int 44|41r27 47r25 59r25
+X 9 mssyst.ads
+6K9*MSSyst 7e11 44|7r6 10r6 11r6 12r6 14r6 25r9 32r20 33r14 34r14 40r16 44r20
+. 48r22 49r18 50r16 50r42 53r16 56r20 60r22 67r5 69r20
+X 10 mssyst-asynccallback.ads
+22K16 AsyncCallback 44|49r25
+24P9 Ref(integer) 44|49r39
+X 11 mssyst-delegate.ads
+22P9*Ref(21R9)
+24A9*Ref_Arr(22P9)
+25P9*Ref_Array(24A9)
+33V13*Clone{87|13P9}
+86V13*DynamicInvoke{87|13P9}
+92V13*get_Method{99|34P9}
+94V13*get_Target{87|13P9}
+X 12 mssyst-drawing.ads
+6K16*Drawing 9|6k9 12|7e19 44|14r13 25r16 44r27 48r29 56r27 60r29 67r12 69r27
+X 42 mssyst-drawing-graphics.ads
+56K24*Graphics 12|6k16 42|1424e28 44|25r24 67r20 69r35
+X 44 mssyst-drawing-graphics-enumeratemetafileproc.ads
+25K33*EnumerateMetafileProc 42|56k24 44|67l29 67e50 69r44
+26R9*Typ 27r27 32c9 43r21 52r21 55r21 62r27
+27P9*Ref(26R9) 28r34 29r47 39r14 41r46
+28P9*Ref_addrof(27P9)
+29A9*Ref_Arr(27P9) 30r33
+30P9*Ref_Array(29A9) 31r40
+31P9*Ref_Array_addrof(30P9)
+32R9*Typ<86|28R9> 11|33P13 86p13 92p13 94p13 44|37e14 42p13 51p13 54p13 86|34P13
+. 37P13 39P13 41P14 87|31p13 36p13
+38V13*new_EnumerateMetafileProc{27P9} 39>7 40>7 41>7 63r28
+39p7 This{27P9}
+40p7 object{87|13P9}
+41m7 method{8|52M9}
+42V13*BeginInvoke{81|14P9} 43^7 44>7 45>7 46>7 47>7 48>7 49>7 50>7 64b23
+43p7 This(32R9)
+44e7 recordType{53|16E9}
+45i7 flags{integer}
+46i7 dataSize{integer}
+47m7 data{8|52M9}
+48p7 callbackData{59|26P9}
+49p7 callback{10|24P9}
+50p7 object{87|13P9}
+51V13*EndInvoke{boolean} 52^7 53>7 65b23
+52p7 This(32R9)
+53p7 result{81|14P9}
+54V13*Invoke{boolean} 55^7 56>7 57>7 58>7 59>7 60>7 66b23
+55p7 This(32R9)
+56e7 recordType{53|16E9}
+57i7 flags{integer}
+58i7 dataSize{integer}
+59m7 data{8|52M9}
+60p7 callbackData{59|26P9}
+X 49 mssyst-drawing-imaging.ads
+6K24*Imaging 44|14r21 44r35 48r37 56r35 60r37 49|7e27
+X 53 mssyst-drawing-imaging-emfplusrecordtype.ads
+15K32*EmfPlusRecordType 44|14w29 44r43 56r43 53|556e45
+16E9*ValueType 44|44r61 56r61 53|265e21
+X 59 mssyst-drawing-imaging-playrecordcallback.ads
+24K32 PlayRecordCallback 44|48r45 60r45
+26P9 Ref(integer) 44|48r64 60r64
+X 81 mssyst-iasyncresult.ads
+12K16 IAsyncResult 44|50r49 53r23
+14P9 Ref(integer) 44|50r62 53r36
+X 82 mssyst-icloneable.ads
+11K16*ICloneable 44|11w13 33r21 82|23e22
+12R9*Typ 44|33r32
+X 86 mssyst-multicastdelegate.ads
+21K16*MulticastDelegate 44|10w13 32r27 86|59e29
+22R9*Typ 44|32r45
+34V13*Equals{boolean}
+37V13*GetHashCode{integer}
+39V13*GetInvocationList{11|25P9}
+41U14*GetObjectData
+X 87 mssyst-object.ads
+11K16*Object 44|7w13 40r23 50r23 87|46e18
+13P9*Ref(12R9) 44|40r30 50r30
+18R9*Typ
+31V13*GetType{122|51P9}
+36V13*ToString{117|27P9}
+X 99 mssyst-reflection-methodinfo.ads
+34P9 Ref(integer)
+X 102 mssyst-runtime.ads
+6K16*Runtime 44|12r13 34r21 102|7e19
+X 110 mssyst-runtime-serialization.ads
+6K24*Serialization 44|12r21 34r29 110|7e33
+X 112 mssyst-runtime-serialization-iserializable.ads
+12K38*ISerializable 44|12w35 34r43 112|26e47
+13R9*Typ 44|34r57
+X 117 mssyst-string.ads
+27P9 Ref(integer)
+X 122 mssyst-type_k.ads
+51P9 Ref(integer)
+

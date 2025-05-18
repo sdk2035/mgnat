@@ -1,0 +1,155 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.reflection.memberinfo%s  mssyst-reflection-memberinfo.ads  19b0bbcb NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.reflection%s	mssyst-reflection.ads	mssyst-reflection.ali
+W mssyst.reflection.icustomattributeprovider%s  mssyst-reflection-icustomattributeprovider.ads  mssyst-reflection-icustomattributeprovider.ali
+W mssyst.reflection.membertypes%s  mssyst-reflection-membertypes.ads  mssyst-reflection-membertypes.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.interopservices%s  mssyst-runtime-interopservices.ads  mssyst-runtime-interopservices.ali
+W mssyst.runtime.interopservices.umemberinfo%s  mssyst-runtime-interopservices-umemberinfo.ads  mssyst-runtime-interopservices-umemberinfo.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-imagefilemachine.ads  20060131171358 57db8f30
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-module.ads  20060131171358 384ba6f0
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-portableexecutablekinds.ads  20060131171358 da84966e
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-umodule.ads  20060131171358 02c2dfd0
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 24|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 24|7r6 10r6 11r6 12r6 14r6 18r9 25r29 26r14 27r14 32r33 34r33
+. 38r33 40r33 42r33 45r42 48r23 49r42 52r23 64r5 66r20
+X 16 mssyst-object.ads
+11K16*Object 46e18 24|7w13 10w13 25r36 45r49 49r49
+12R9*Typ 20e14 24|25r43
+13P9*Ref(12R9)
+15A9*Ref_Arr(13P9)
+16P9*Ref_Array(15A9) 24|45r56 49r56
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{43|51P9}
+36V13*ToString{38|27P9}
+X 17 mssyst-reflection.ads
+6K16*Reflection 9|6k9 17|7e22 24|11r13 14r13 18r16 26r21 34r40 38r40 64r12
+. 66r27
+X 21 mssyst-reflection-icustomattributeprovider.ads
+12K27*ICustomAttributeProvider 34e47 24|11w24 26r32
+13R9*Typ 24|26r57
+X 24 mssyst-reflection-memberinfo.ads
+18K27*MemberInfo 17|6k16 24|64l23 64e33 66r38
+19R9*Typ 20r27 25c9 32r21 34r21 36r21 38r21 40r21 42r21 44r21 47r21 51r21
+. 55r27
+20P9*Ref(19R9) 21r34 22r47
+21P9*Ref_addrof(20P9)
+22A9*Ref_Arr(20P9) 23r33
+23P9*Ref_Array(22A9) 24r40
+24P9*Ref_Array_addrof(23P9)
+25H9*Typ<16|18R9> 16|23p13 29p13 31p13 36p13 24|30e14 31P13 33P13 35p13 37p13
+. 39P13 41P13 43P13 46P13 50P13 32|44p14 53p14 58p14 61p14
+31V13*get_DeclaringType{43|51P9} 32^7 56b23
+32p7 This(25R9)
+33V13*get_MemberType{25|16E9} 34^7 57b23
+34p7 This(25R9)
+35V13*get_MetadataToken{integer} 36^7 58b23
+36p7 This(25R9)
+37V13*get_Module{26|39P9} 38^7 59b23
+38p7 This(25R9)
+39V13*get_Name{38|27P9} 40^7 60b23
+40p7 This(25R9)
+41V13*get_ReflectedType{43|51P9} 42^7 61b23
+42p7 This(25R9)
+43V13*GetCustomAttributes{16|16P9} 44^7 45>7
+44p7 This(25R9)
+45b7 inherit{boolean}
+46V13*GetCustomAttributes{16|16P9} 47^7 48>7 49>7 62b23
+47p7 This(25R9)
+48p7 attributeType{43|51P9}
+49b7 inherit{boolean}
+50V13*IsDefined{boolean} 51^7 52>7 53>7 63b23
+51p7 This(25R9)
+52p7 attributeType{43|51P9}
+53b7 inherit{boolean}
+X 25 mssyst-reflection-membertypes.ads
+15K27*MemberTypes 24|14w24 34r51 25|74e34
+16E9*ValueType 24|34r63 25|25e13
+X 26 mssyst-reflection-module.ads
+37K27 Module 24|38r51
+39P9 Ref(integer) 24|38r58
+X 30 mssyst-runtime.ads
+6K16*Runtime 24|12r13 27r21 30|7e19
+X 31 mssyst-runtime-interopservices.ads
+6K24*InteropServices 24|12r21 27r29 31|7e35
+X 32 mssyst-runtime-interopservices-umemberinfo.ads
+16K40*uMemberInfo 24|12w37 27r45 32|92e47
+17R9*Typ 24|27r57
+44x14*GetIDsOfNames
+53x14*GetTypeInfo
+58x14*GetTypeInfoCount
+61x14*Invoke
+X 38 mssyst-string.ads
+25K16 String 24|40r40
+27P9 Ref(integer) 24|40r47
+X 43 mssyst-type_k.ads
+49K16 Type_k 24|32r40 42r40 48r30 52r30
+51P9 Ref(integer) 24|32r47 42r47 48r37 52r37
+

@@ -1,0 +1,309 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.globalization.datetimeformatinfo%s  mssyst-globalization-datetimeformatinfo.ads  71ddbc6f NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.dayofweek%s	mssyst-dayofweek.ads	mssyst-dayofweek.ali
+W mssyst.globalization%s  mssyst-globalization.ads  mssyst-globalization.ali
+W mssyst.globalization.calendarweekrule%s  mssyst-globalization-calendarweekrule.ads  mssyst-globalization-calendarweekrule.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.iformatprovider%s  mssyst-iformatprovider.ads  mssyst-iformatprovider.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-dayofweek.ads	20060131171356 9441cb97
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-calendar.ads  20060131171358 c9b64678
+D mssyst-globalization-calendaralgorithmtype.ads  20060131171358 54576874
+D mssyst-globalization-calendarweekrule.ads  20060131171358 3360c2d3
+D mssyst-globalization-datetimeformatinfo.ads  20060131171358 c2f5b033
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 15|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 15|7r6 10r6 11r6 12r6 16r6 17r6 19r9 26r20 27r14 28r14 35r33
+. 37r33 39r33 41r33 43r33 45r33 47r33 48r36 50r33 52r33 54r33 56r33 57r38
+. 61r33 63r33 65r33 67r33 69r33 71r33 73r33 75r33 77r33 79r33 81r33 83r33
+. 85r33 87r33 89r33 92r19 92r54 95r29 98r31 100r33 103r39 106r19 106r54 109r17
+. 112r29 115r20 115r46 117r18 117r53 120r31 123r19 123r54 125r14 125r66 128r15
+. 131r15 134r15 137r15 140r15 143r15 146r15 149r15 152r15 155r15 158r15 161r15
+. 164r15 167r15 170r15 173r15 176r15 179r15 182r15 185r15 188r15 191r18 259r5
+. 261r20
+X 10 mssyst-dayofweek.ads
+15K16*DayOfWeek 68e21 15|17w13 54r40 92r26 106r26 123r26 152r22
+16E9*ValueType 23e16 15|54r50 92r36 106r36 123r36 152r32
+X 11 mssyst-globalization.ads
+6K16*Globalization 9|6k9 11|7e25 15|16r13 19r16 45r40 47r40 48r43 57r45 117r60
+. 125r21 125r73 140r22 143r22 259r12 261r27
+X 12 mssyst-globalization-calendar.ads
+18K30 Calendar 15|45r54 140r36
+20P9 Ref(integer) 15|45r63 140r45
+X 14 mssyst-globalization-calendarweekrule.ads
+15K30*CalendarWeekRule 60e42 15|16w27 47r54 143r36
+16E9*ValueType 19e24 15|47r71 143r53
+X 15 mssyst-globalization-datetimeformatinfo.ads
+19K30*DateTimeFormatInfo 11|6k16 15|48r57 57r59 117r74 125r35 125r87 259l26
+. 259e44 261r41
+20R9*Typ 21r27 26c9 35r21 37r21 39r21 41r21 43r21 45r21 47r21 50r21 52r21
+. 54r21 56r21 59r21 61r21 63r21 65r21 67r21 69r21 71r21 73r21 75r21 77r21
+. 79r21 81r21 83r21 85r21 87r21 89r21 91r21 94r21 97r21 100r21 102r21 105r21
+. 108r21 111r21 114r21 119r21 122r21 127r21 130r21 133r21 136r21 139r21 142r21
+. 145r21 148r21 151r21 154r21 157r21 160r21 163r21 166r21 169r21 172r21 175r21
+. 178r21 181r21 184r21 187r21 190r21 194r27
+21P9*Ref(20R9) 22r34 23r47 33r14 33r34 48r76 57r78 117r93 125r54 125r106
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40
+25P9*Ref_Array_addrof(24P9)
+26R9*Typ<21|18R9> 31e14 34P13 36p13 38p13 40p13 42p13 44p13 46p13 49p13 51p13
+. 53p13 55p13 58p13 60p13 62p13 64p13 66p13 68p13 70p13 72p13 74p13 76p13
+. 78p13 80p13 82p13 84p13 86p13 88p13 90p13 93p13 96p13 99p13 101p13 104p13
+. 107p13 110p13 113P13 118p13 121p13 126p14 129p14 132p14 135p14 138p14 141p14
+. 144p14 147p14 150p14 153p14 156p14 159p14 162p14 165p14 168p14 171p14 174p14
+. 177p14 180p14 183p14 186p14 189p14 21|23p13 29p13 31p13 36p13
+32V13*new_DateTimeFormatInfo{21P9} 33>7 195r28
+33p7 This{21P9}
+34V13*Clone{21|13P9} 35^7 196b23
+35p7 This(26R9)
+36V13*get_AbbreviatedDayNames{37|30P9} 37^7 197b23
+37p7 This(26R9)
+38V13*get_AbbreviatedMonthGenitiveNames{37|30P9} 39^7 198b23
+39p7 This(26R9)
+40V13*get_AbbreviatedMonthNames{37|30P9} 41^7 199b23
+41p7 This(26R9)
+42V13*get_AMDesignator{37|27P9} 43^7 200b23
+43p7 This(26R9)
+44V13*get_Calendar{12|20P9} 45^7 201b23
+45p7 This(26R9)
+46V13*get_CalendarWeekRule{14|16E9} 47^7 202b23
+47p7 This(26R9)
+48V13*get_CurrentInfo{21P9} 203b23
+49V13*get_DateSeparator{37|27P9} 50^7 204b23
+50p7 This(26R9)
+51V13*get_DayNames{37|30P9} 52^7 205b23
+52p7 This(26R9)
+53V13*get_FirstDayOfWeek{10|16E9} 54^7 206b23
+54p7 This(26R9)
+55V13*get_FullDateTimePattern{37|27P9} 56^7 207b23
+56p7 This(26R9)
+57V13*get_InvariantInfo{21P9} 208b23
+58V13*get_IsReadOnly{boolean} 59^7 209b23
+59p7 This(26R9)
+60V13*get_LongDatePattern{37|27P9} 61^7 210b23
+61p7 This(26R9)
+62V13*get_LongTimePattern{37|27P9} 63^7 211b23
+63p7 This(26R9)
+64V13*get_MonthDayPattern{37|27P9} 65^7 212b23
+65p7 This(26R9)
+66V13*get_MonthGenitiveNames{37|30P9} 67^7 213b23
+67p7 This(26R9)
+68V13*get_MonthNames{37|30P9} 69^7 214b23
+69p7 This(26R9)
+70V13*get_NativeCalendarName{37|27P9} 71^7 215b23
+71p7 This(26R9)
+72V13*get_PMDesignator{37|27P9} 73^7 216b23
+73p7 This(26R9)
+74V13*get_RFC1123Pattern{37|27P9} 75^7 217b23
+75p7 This(26R9)
+76V13*get_ShortDatePattern{37|27P9} 77^7 218b23
+77p7 This(26R9)
+78V13*get_ShortestDayNames{37|30P9} 79^7 219b23
+79p7 This(26R9)
+80V13*get_ShortTimePattern{37|27P9} 81^7 220b23
+81p7 This(26R9)
+82V13*get_SortableDateTimePattern{37|27P9} 83^7 221b23
+83p7 This(26R9)
+84V13*get_TimeSeparator{37|27P9} 85^7 222b23
+85p7 This(26R9)
+86V13*get_UniversalSortableDateTimePattern{37|27P9} 87^7 223b23
+87p7 This(26R9)
+88V13*get_YearMonthPattern{37|27P9} 89^7 224b23
+89p7 This(26R9)
+90V13*GetAbbreviatedDayName{37|27P9} 91^7 92>7 225b23
+91p7 This(26R9)
+92e7 dayofweek{10|16E9}
+93V13*GetAbbreviatedEraName{37|27P9} 94^7 95>7 226b23
+94p7 This(26R9)
+95i7 era{integer}
+96V13*GetAbbreviatedMonthName{37|27P9} 97^7 98>7 227b23
+97p7 This(26R9)
+98i7 month{integer}
+99V13*GetAllDateTimePatterns{37|30P9} 100^7
+100p7 This(26R9)
+101V13*GetAllDateTimePatterns{37|30P9} 102^7 103>7 228b23
+102p7 This(26R9)
+103e7 format{wide_character}
+104V13*GetDayName{37|27P9} 105^7 106>7 229b23
+105p7 This(26R9)
+106e7 dayofweek{10|16E9}
+107V13*GetEra{integer} 108^7 109>7 230b23
+108p7 This(26R9)
+109p7 eraName{37|27P9}
+110V13*GetEraName{37|27P9} 111^7 112>7 231b23
+111p7 This(26R9)
+112i7 era{integer}
+113V13*GetFormat{21|13P9} 114^7 115>7 232b23
+114p7 This(26R9)
+115p7 formatType{42|51P9}
+116V13*GetInstance{21P9} 117>7 233b23
+117p7 provider{20|14P9}
+118V13*GetMonthName{37|27P9} 119^7 120>7 234b23
+119p7 This(26R9)
+120i7 month{integer}
+121V13*GetShortestDayName{37|27P9} 122^7 123>7 235b23
+122p7 This(26R9)
+123e7 dayOfWeek{10|16E9}
+124V13*ReadOnly{21P9} 125>7 236b23
+125p7 dtfi{21P9}
+126U14*set_AbbreviatedDayNames 127^7 128>7 237b23
+127p7 This(26R9)
+128p7 value{37|30P9}
+129U14*set_AbbreviatedMonthGenitiveNames 130^7 131>7 238b23
+130p7 This(26R9)
+131p7 value{37|30P9}
+132U14*set_AbbreviatedMonthNames 133^7 134>7 239b23
+133p7 This(26R9)
+134p7 value{37|30P9}
+135U14*set_AMDesignator 136^7 137>7 240b23
+136p7 This(26R9)
+137p7 value{37|27P9}
+138U14*set_Calendar 139^7 140>7 241b23
+139p7 This(26R9)
+140p7 value{12|20P9}
+141U14*set_CalendarWeekRule 142^7 143>7 242b23
+142p7 This(26R9)
+143e7 value{14|16E9}
+144U14*set_DateSeparator 145^7 146>7 243b23
+145p7 This(26R9)
+146p7 value{37|27P9}
+147U14*set_DayNames 148^7 149>7 244b23
+148p7 This(26R9)
+149p7 value{37|30P9}
+150U14*set_FirstDayOfWeek 151^7 152>7 245b23
+151p7 This(26R9)
+152e7 value{10|16E9}
+153U14*set_FullDateTimePattern 154^7 155>7 246b23
+154p7 This(26R9)
+155p7 value{37|27P9}
+156U14*set_LongDatePattern 157^7 158>7 247b23
+157p7 This(26R9)
+158p7 value{37|27P9}
+159U14*set_LongTimePattern 160^7 161>7 248b23
+160p7 This(26R9)
+161p7 value{37|27P9}
+162U14*set_MonthDayPattern 163^7 164>7 249b23
+163p7 This(26R9)
+164p7 value{37|27P9}
+165U14*set_MonthGenitiveNames 166^7 167>7 250b23
+166p7 This(26R9)
+167p7 value{37|30P9}
+168U14*set_MonthNames 169^7 170>7 251b23
+169p7 This(26R9)
+170p7 value{37|30P9}
+171U14*set_PMDesignator 172^7 173>7 252b23
+172p7 This(26R9)
+173p7 value{37|27P9}
+174U14*set_ShortDatePattern 175^7 176>7 253b23
+175p7 This(26R9)
+176p7 value{37|27P9}
+177U14*set_ShortestDayNames 178^7 179>7 254b23
+178p7 This(26R9)
+179p7 value{37|30P9}
+180U14*set_ShortTimePattern 181^7 182>7 255b23
+181p7 This(26R9)
+182p7 value{37|27P9}
+183U14*set_TimeSeparator 184^7 185>7 256b23
+184p7 This(26R9)
+185p7 value{37|27P9}
+186U14*set_YearMonthPattern 187^7 188>7 257b23
+187p7 This(26R9)
+188p7 value{37|27P9}
+189U14*SetAllDateTimePatterns 190^7 191>7 192>7 258b23
+190p7 This(26R9)
+191p7 patterns{37|30P9}
+192e7 format{wide_character}
+X 18 mssyst-icloneable.ads
+11K16*ICloneable 15|11w13 27r21 18|23e22
+12R9*Typ 15|27r32
+X 20 mssyst-iformatprovider.ads
+12K16*IFormatProvider 15|12w13 28r21 117r25 20|25e27
+13R9*Typ 15|28r37
+14P9*Ref(13R9) 15|117r41
+X 21 mssyst-object.ads
+11K16*Object 15|7w13 10w13 26r27 35r40 115r53 21|46e18
+12R9*Typ 15|26r34 21|20e14
+13P9*Ref(12R9) 15|35r47 115r60
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{42|51P9}
+36V13*ToString{37|27P9}
+X 37 mssyst-string.ads
+25K16 String 15|37r40 39r40 41r40 43r40 50r40 52r40 56r40 61r40 63r40 65r40
+. 67r40 69r40 71r40 73r40 75r40 77r40 79r40 81r40 83r40 85r40 87r40 89r40
+. 92r61 95r36 98r38 100r40 103r46 106r61 109r24 112r36 120r38 123r61 128r22
+. 131r22 134r22 137r22 146r22 149r22 155r22 158r22 161r22 164r22 167r22 170r22
+. 173r22 176r22 179r22 182r22 185r22 188r22 191r25
+27P9 Ref(integer) 15|43r47 50r47 56r47 61r47 63r47 65r47 71r47 73r47 75r47
+. 77r47 81r47 83r47 85r47 87r47 89r47 92r68 95r43 98r45 106r68 109r31 112r43
+. 120r45 123r68 137r29 146r29 155r29 158r29 161r29 164r29 173r29 176r29 182r29
+. 185r29 188r29
+30P9 Ref_Array(integer) 15|37r47 39r47 41r47 52r47 67r47 69r47 79r47 100r47
+. 103r53 128r29 131r29 134r29 149r29 167r29 170r29 179r29 191r32
+X 42 mssyst-type_k.ads
+49K16 Type_k 15|115r27
+51P9 Ref(integer) 15|115r34
+

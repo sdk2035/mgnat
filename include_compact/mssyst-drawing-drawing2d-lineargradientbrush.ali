@@ -1,0 +1,321 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.drawing2d.lineargradientbrush%s  mssyst-drawing-drawing2d-lineargradientbrush.ads  8f18e509 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.brush%s  mssyst-drawing-brush.ads  mssyst-drawing-brush.ali
+W mssyst.drawing.color%s  mssyst-drawing-color.ads  mssyst-drawing-color.ali
+W mssyst.drawing.drawing2d%s  mssyst-drawing-drawing2d.ads  mssyst-drawing-drawing2d.ali
+W mssyst.drawing.drawing2d.lineargradientmode%s  mssyst-drawing-drawing2d-lineargradientmode.ads  mssyst-drawing-drawing2d-lineargradientmode.ali
+W mssyst.drawing.drawing2d.matrixorder%s  mssyst-drawing-drawing2d-matrixorder.ads  mssyst-drawing-drawing2d-matrixorder.ali
+W mssyst.drawing.drawing2d.wrapmode%s  mssyst-drawing-drawing2d-wrapmode.ads  mssyst-drawing-drawing2d-wrapmode.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-brush.ads  20060131171428 cf91b157
+D mssyst-drawing-color.ads  20060131171430 efe0dbd6
+D mssyst-drawing-drawing2d.ads  20060131171430 02b10736
+D mssyst-drawing-drawing2d-blend.ads  20060131171430 22efd38c
+D mssyst-drawing-drawing2d-colorblend.ads  20060131171430 8526e77b
+D mssyst-drawing-drawing2d-lineargradientbrush.ads  20060131171430 8b2fd21a
+D mssyst-drawing-drawing2d-lineargradientmode.ads  20060131171430 cad30702
+D mssyst-drawing-drawing2d-matrix.ads  20060131171430 b2e63513
+D mssyst-drawing-drawing2d-matrixorder.ads  20060131171430 32337ee5
+D mssyst-drawing-drawing2d-wrapmode.ads  20060131171432 386ff5bc
+D mssyst-drawing-knowncolor.ads  20060131171430 28ff3226
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-pointf.ads  20060131171432 a63d5a83
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-rectanglef.ads  20060131171432 7fcf14fa
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 16|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 16|7r6 10r6 11r6 17r6 20r6 21r6 24r6 27r9 34r20 35r14 41r14
+. 42r16 43r16 44r28 47r16 48r16 49r16 50r16 53r16 54r16 55r16 56r16 59r14
+. 60r16 61r16 62r28 65r14 66r16 67r16 71r14 72r16 73r16 78r14 79r16 80r16
+. 84r14 85r16 86r16 90r33 92r33 96r33 98r33 100r33 102r33 104r33 107r16 108r15
+. 111r16 117r15 129r15 132r15 138r15 141r15 144r15 147r15 170r15 195r5 197r20
+X 10 mssyst-drawing.ads
+6K16*Drawing 9|6k9 10|7e19 16|10r13 17r13 20r13 21r13 24r13 27r16 34r27 41r21
+. 42r23 43r23 44r35 47r23 48r23 49r23 50r23 53r23 54r23 55r23 56r23 59r21
+. 60r23 61r23 62r35 65r21 66r23 67r23 71r21 72r23 73r23 78r21 79r23 80r23
+. 84r21 85r23 86r23 92r40 96r40 98r40 100r40 102r40 104r40 107r23 108r22
+. 111r23 117r22 129r22 132r22 138r22 141r22 144r22 147r22 170r22 195r12 197r27
+X 11 mssyst-drawing-brush.ads
+16K24*Brush 36e25 16|10w21 34r35
+17R9*Typ 16|34r41
+30U14*Dispose
+X 12 mssyst-drawing-color.ads
+15K24*Color 385e25 16|17w21 42r31 43r31 49r31 50r31 55r31 56r31 60r31 61r31
+. 66r31 67r31 72r31 73r31 79r31 80r31 85r31 86r31 98r48 141r30
+16R9*ValueType<62|20R9> 16e63 16|42r37 43r37 49r37 50r37 55r37 56r37 60r37
+. 61r37 66r37 67r37 72r37 73r37 79r37 80r37 85r37 86r37
+17A9*ValueType_Arr(16R9)
+18P9*ValueType_Array(17A9) 16|98r54 141r36
+X 13 mssyst-drawing-drawing2d.ads
+6K24*Drawing2D 10|6k16 13|7e29 16|20r21 21r21 24r21 27r24 44r43 62r43 92r48
+. 96r48 102r48 104r48 107r31 108r30 111r31 117r30 129r30 132r30 138r30 144r30
+. 147r30 170r30 195r20 197r35
+X 14 mssyst-drawing-drawing2d-blend.ads
+13K34 Blend 16|92r58 132r40
+15P9 Ref(integer) 16|92r64 132r46
+X 15 mssyst-drawing-drawing2d-colorblend.ads
+14K34 ColorBlend 16|96r58 138r40
+16P9 Ref(integer) 16|96r69 138r51
+X 16 mssyst-drawing-drawing2d-lineargradientbrush.ads
+27K34*LinearGradientBrush 13|6k24 16|195l30 195e49 197r45
+28R9*Typ 29r27 34c9 90r21 92r21 94r21 96r21 98r21 100r21 102r21 104r21 106r21
+. 110r21 113r21 115r21 119r21 122r21 126r21 131r21 134r21 137r21 140r21 143r21
+. 146r21 149r21 152r21 156r21 160r21 163r21 167r21 172r27
+29P9*Ref(28R9) 30r34 31r47 40r14 44r90 46r14 50r55 52r14 56r55 58r14 62r90
+. 64r14 68r29 70r14 75r51 77r14 81r29 83r14 88r51
+30P9*Ref_addrof(29P9)
+31A9*Ref_Arr(29P9) 32r33
+32P9*Ref_Array(31A9) 33r40
+33P9*Ref_Array_addrof(32P9)
+34R9*Typ<11|23R9> 11|30p14 16|38e14 89P13 91p13 93p13 95p13 97p13 99p13 101p13
+. 103p13 105p14 109p14 112p14 114p14 118p14 121p14 125p14 130p14 133p14 136p14
+. 139p14 142p14 145p14 148p14 151p14 155p14 159p14 162p14 166p14 32|24p13
+. 27p13 29p13 33|23p13 29p13 31p13 36p13
+39V13*new_LinearGradientBrush{29P9} 40>7 41>7 42>7 43>7 44>7
+40p7 This{29P9}
+41r7 rect{24|18R9}
+42r7 color1{12|16R9}
+43r7 color2{12|16R9}
+44e7 linearGradientMode{17|16E9}
+45V13*new_LinearGradientBrush{29P9} 46>7 47>7 48>7 49>7 50>7
+46p7 This{29P9}
+47r7 point1{23|17R9}
+48r7 point2{23|17R9}
+49r7 color1{12|16R9}
+50r7 color2{12|16R9}
+51V13*new_LinearGradientBrush{29P9} 52>7 53>7 54>7 55>7 56>7
+52p7 This{29P9}
+53r7 point1{22|17R9}
+54r7 point2{22|17R9}
+55r7 color1{12|16R9}
+56r7 color2{12|16R9}
+57V13*new_LinearGradientBrush{29P9} 58>7 59>7 60>7 61>7 62>7
+58p7 This{29P9}
+59r7 rect{25|18R9}
+60r7 color1{12|16R9}
+61r7 color2{12|16R9}
+62e7 linearGradientMode{17|16E9}
+63V13*new_LinearGradientBrush{29P9} 64>7 65>7 66>7 67>7 68>7
+64p7 This{29P9}
+65r7 rect{25|18R9}
+66r7 color1{12|16R9}
+67r7 color2{12|16R9}
+68f7 angle{float}
+69V13*new_LinearGradientBrush{29P9} 70>7 71>7 72>7 73>7 74>7 75>7
+70p7 This{29P9}
+71r7 rect{25|18R9}
+72r7 color1{12|16R9}
+73r7 color2{12|16R9}
+74f7 angle{float}
+75b7 isAngleScaleable{boolean}
+76V13*new_LinearGradientBrush{29P9} 77>7 78>7 79>7 80>7 81>7
+77p7 This{29P9}
+78r7 rect{24|18R9}
+79r7 color1{12|16R9}
+80r7 color2{12|16R9}
+81f7 angle{float}
+82V13*new_LinearGradientBrush{29P9} 83>7 84>7 85>7 86>7 87>7 88>7
+83p7 This{29P9}
+84r7 rect{24|18R9}
+85r7 color1{12|16R9}
+86r7 color2{12|16R9}
+87f7 angle{float}
+88b7 isAngleScaleable{boolean}
+89V13*Clone{33|13P9} 90^7 174b23
+90p7 This(34R9)
+91V13*get_Blend{14|15P9} 92^7 175b23
+92p7 This(34R9)
+93V13*get_GammaCorrection{boolean} 94^7 176b23
+94p7 This(34R9)
+95V13*get_InterpolationColors{15|16P9} 96^7 177b23
+96p7 This(34R9)
+97V13*get_LinearColors{12|18P9} 98^7 178b23
+98p7 This(34R9)
+99V13*get_Rectangle{25|18R9} 100^7 179b23
+100p7 This(34R9)
+101V13*get_Transform{18|23P9} 102^7 180b23
+102p7 This(34R9)
+103V13*get_WrapMode{20|16E9} 104^7 181b23
+104p7 This(34R9)
+105U14*MultiplyTransform 106^7 107>7 108>7
+106p7 This(34R9)
+107p7 matrix{18|23P9}
+108e7 order{19|16E9}
+109U14*MultiplyTransform 110^7 111>7 182b23
+110p7 This(34R9)
+111p7 matrix{18|23P9}
+112U14*ResetTransform 113^7 183b23
+113p7 This(34R9)
+114U14*RotateTransform 115^7 116>7 117>7
+115p7 This(34R9)
+116f7 angle{float}
+117e7 order{19|16E9}
+118U14*RotateTransform 119^7 120>7 184b23
+119p7 This(34R9)
+120f7 angle{float}
+121U14*ScaleTransform 122^7 123>7 124>7
+122p7 This(34R9)
+123f7 sx{float}
+124f7 sy{float}
+125U14*ScaleTransform 126^7 127>7 128>7 129>7 185b23
+126p7 This(34R9)
+127f7 sx{float}
+128f7 sy{float}
+129e7 order{19|16E9}
+130U14*set_Blend 131^7 132>7 186b23
+131p7 This(34R9)
+132p7 value{14|15P9}
+133U14*set_GammaCorrection 134^7 135>7 187b23
+134p7 This(34R9)
+135b7 value{boolean}
+136U14*set_InterpolationColors 137^7 138>7 188b23
+137p7 This(34R9)
+138p7 value{15|16P9}
+139U14*set_LinearColors 140^7 141>7 189b23
+140p7 This(34R9)
+141p7 value{12|18P9}
+142U14*set_Transform 143^7 144>7 190b23
+143p7 This(34R9)
+144p7 value{18|23P9}
+145U14*set_WrapMode 146^7 147>7 191b23
+146p7 This(34R9)
+147e7 value{20|16E9}
+148U14*SetBlendTriangularShape 149^7 150>7
+149p7 This(34R9)
+150f7 focus{float}
+151U14*SetBlendTriangularShape 152^7 153>7 154>7 192b23
+152p7 This(34R9)
+153f7 focus{float}
+154f7 scale{float}
+155U14*SetSigmaBellShape 156^7 157>7 158>7
+156p7 This(34R9)
+157f7 focus{float}
+158f7 scale{float}
+159U14*SetSigmaBellShape 160^7 161>7 193b23
+160p7 This(34R9)
+161f7 focus{float}
+162U14*TranslateTransform 163^7 164>7 165>7
+163p7 This(34R9)
+164f7 dx{float}
+165f7 dy{float}
+166U14*TranslateTransform 167^7 168>7 169>7 170>7 194b23
+167p7 This(34R9)
+168f7 dx{float}
+169f7 dy{float}
+170e7 order{19|16E9}
+X 17 mssyst-drawing-drawing2d-lineargradientmode.ads
+15K34*LinearGradientMode 16|24w31 44r53 62r53 17|62e48
+16E9*ValueType 16|44r72 62r72 17|20e24
+X 18 mssyst-drawing-drawing2d-matrix.ads
+21K34 Matrix 16|102r58 107r41 111r41 144r40
+23P9 Ref(integer) 16|102r65 107r48 111r48 144r47
+X 19 mssyst-drawing-drawing2d-matrixorder.ads
+15K34*MatrixOrder 16|21w31 108r40 117r40 129r40 170r40 19|58e41
+16E9*ValueType 16|108r52 117r52 129r52 170r52 19|18e14
+X 20 mssyst-drawing-drawing2d-wrapmode.ads
+15K34*WrapMode 16|20w31 104r58 147r40 20|64e38
+16E9*ValueType 16|104r67 147r49 20|21e13
+X 22 mssyst-drawing-point.ads
+16K24 Point 16|53r31 54r31
+17R9 ValueType 16|53r37 54r37
+X 23 mssyst-drawing-pointf.ads
+16K24 PointF 16|47r31 48r31
+17R9 ValueType 16|47r38 48r38
+X 24 mssyst-drawing-rectangle.ads
+17K24 Rectangle 16|41r29 78r29 84r29
+18R9 ValueType 16|41r39 78r39 84r39
+X 25 mssyst-drawing-rectanglef.ads
+17K24 RectangleF 16|59r29 65r29 71r29 100r48
+18R9 ValueType 16|59r40 65r40 71r40 100r59
+X 29 mssyst-icloneable.ads
+11K16*ICloneable 16|11w13 35r21 29|23e22
+12R9*Typ 16|35r32
+X 32 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{49|23P9}
+27V13*GetLifetimeService{33|13P9}
+29V13*InitializeLifetimeService{33|13P9}
+X 33 mssyst-object.ads
+11K16*Object 16|7w13 90r40 33|46e18
+13P9*Ref(12R9) 16|90r47
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{59|51P9}
+36V13*ToString{54|27P9}
+X 49 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 54 mssyst-string.ads
+27P9 Ref(integer)
+X 59 mssyst-type_k.ads
+51P9 Ref(integer)
+

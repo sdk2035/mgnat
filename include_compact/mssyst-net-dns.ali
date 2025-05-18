@@ -1,0 +1,159 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.net.dns%s	mssyst-net-dns.ads	5f3e9bab NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-asynccallback.ads  20060131171354 20264380
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-iasyncresult.ads  20060131171356 e48639e4
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-net.ads	20060131171420 aa03617c
+D mssyst-net-dns.ads	20060131171420 40b9bd27
+D mssyst-net-ipaddress.ads  20060131171422 fb70dafd
+D mssyst-net-iphostentry.ads  20060131171422 63ce7b98
+D mssyst-net-sockets.ads  20060131171422 4d59735d
+D mssyst-net-sockets-addressfamily.ads  20060131171422 923f2d7b
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 17|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 17|7r6 10r6 18r9 25r29 29r27 30r25 31r15 31r41 33r18 34r25
+. 35r21 35r47 37r27 38r25 39r21 39r47 41r17 42r25 43r21 43r47 45r18 46r25
+. 47r21 47r47 49r21 49r53 51r21 51r53 53r21 53r53 55r21 55r53 57r27 57r53
+. 59r17 59r50 61r17 61r43 63r18 63r44 65r17 65r50 67r27 67r53 68r32 70r18
+. 70r44 87r5 89r20
+X 7 mssyst-asynccallback.ads
+22K16 AsyncCallback 17|30r32 34r32 38r32 42r32 46r32
+24P9 Ref(integer) 17|30r46 34r46 38r46 42r46 46r46
+X 12 mssyst-iasyncresult.ads
+12K16 IAsyncResult 17|31r48 35r54 39r54 43r54 47r54 49r28 51r28 53r28 55r28
+14P9 Ref(integer) 17|31r61 35r67 39r67 43r67 47r67 49r41 51r41 53r41 55r41
+X 16 mssyst-net.ads
+6K16*Net 6|6k9 16|7e15 17|18r16 41r24 49r60 51r60 53r60 55r60 57r60 59r24
+. 59r57 61r50 63r51 65r24 65r57 67r60 70r51 87r12 89r27
+X 17 mssyst-net-dns.ads
+18K20*Dns 16|6k16 17|87l16 87e19 89r31
+19R9*Typ 20r27 25c9 72r27
+20P9*Ref(19R9) 21r34 22r47
+21P9*Ref_addrof(20P9)
+22A9*Ref_Arr(20P9) 23r33
+23P9*Ref_Array(22A9) 24r40
+24P9*Ref_Array_addrof(23P9)
+25H9*Typ<22|18R9> 27e14 22|23p13 29p13 31p13 36p13
+28V13*BeginGetHostAddresses{12|14P9} 29>7 30>7 31>7 73b23
+29p7 hostNameOrAddress{40|27P9}
+30p7 requestCallback{7|24P9}
+31p7 state{22|13P9}
+32V13*BeginGetHostByName{12|14P9} 33>7 34>7 35>7 74b23
+33p7 hostName{40|27P9}
+34p7 requestCallback{7|24P9}
+35p7 stateObject{22|13P9}
+36V13*BeginGetHostEntry{12|14P9} 37>7 38>7 39>7
+37p7 hostNameOrAddress{40|27P9}
+38p7 requestCallback{7|24P9}
+39p7 stateObject{22|13P9}
+40V13*BeginGetHostEntry{12|14P9} 41>7 42>7 43>7 75b23
+41p7 address{18|17P9}
+42p7 requestCallback{7|24P9}
+43p7 stateObject{22|13P9}
+44V13*BeginResolve{12|14P9} 45>7 46>7 47>7 76b23
+45p7 hostName{40|27P9}
+46p7 requestCallback{7|24P9}
+47p7 stateObject{22|13P9}
+48V13*EndGetHostAddresses{18|20P9} 49>7 77b23
+49p7 asyncResult{12|14P9}
+50V13*EndGetHostByName{19|17P9} 51>7 78b23
+51p7 asyncResult{12|14P9}
+52V13*EndGetHostEntry{19|17P9} 53>7 79b23
+53p7 asyncResult{12|14P9}
+54V13*EndResolve{19|17P9} 55>7 80b23
+55p7 asyncResult{12|14P9}
+56V13*GetHostAddresses{18|20P9} 57>7 81b23
+57p7 hostNameOrAddress{40|27P9}
+58V13*GetHostByAddress{19|17P9} 59>7
+59p7 address{18|17P9}
+60V13*GetHostByAddress{19|17P9} 61>7 82b23
+61p7 address{40|27P9}
+62V13*GetHostByName{19|17P9} 63>7 83b23
+63p7 hostName{40|27P9}
+64V13*GetHostEntry{19|17P9} 65>7
+65p7 address{18|17P9}
+66V13*GetHostEntry{19|17P9} 67>7 84b23
+67p7 hostNameOrAddress{40|27P9}
+68V13*GetHostName{40|27P9} 85b23
+69V13*Resolve{19|17P9} 70>7 86b23
+70p7 hostName{40|27P9}
+X 18 mssyst-net-ipaddress.ads
+15K20 IPAddress 17|41r28 49r64 57r64 59r28 65r28
+17P9 Ref(integer) 17|41r38 59r38 65r38
+20P9 Ref_Array(integer) 17|49r74 57r74
+X 19 mssyst-net-iphostentry.ads
+15K20 IPHostEntry 17|51r64 53r64 55r64 59r61 61r54 63r55 65r61 67r64 70r55
+17P9 Ref(integer) 17|51r76 53r76 55r76 59r73 61r66 63r67 65r73 67r76 70r67
+X 22 mssyst-object.ads
+11K16*Object 17|7w13 10w13 25r36 31r22 35r28 39r28 43r28 47r28 22|46e18
+12R9*Typ 17|25r43 22|20e14
+13P9*Ref(12R9) 17|31r29 35r35 39r35 43r35 47r35
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{45|51P9}
+36V13*ToString{40|27P9}
+X 40 mssyst-string.ads
+25K16 String 17|29r34 33r25 37r34 45r25 57r34 61r24 63r25 67r34 68r39 70r25
+27P9 Ref(integer) 17|29r41 33r32 37r41 45r32 57r41 61r31 63r32 67r41 68r46
+. 70r32
+X 45 mssyst-type_k.ads
+51P9 Ref(integer)
+

@@ -1,0 +1,23 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.net.cache.uwininetcache%s  mssyst-net-cache-uwininetcache.ads  19969495 EE PK
+W mssyst.net.cache%s	mssyst-net-cache.ads	mssyst-net-cache.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-net.ads	20060517222318 aa03617c
+D mssyst-net-cache.ads	20060517222322 79cb10a2
+D mssyst-net-cache-uwininetcache.ads  20060517222322 605d8437
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 4|6r9 7r5
+X 2 mssyst-net.ads
+6K16*Net 1|6k9 2|7e15 4|6r16 7r12
+X 3 mssyst-net-cache.ads
+6K20*Cache 2|6k16 3|7e21 4|6r20 7r16
+X 4 mssyst-net-cache-uwininetcache.ads
+6K26*uWinInetCache 3|6k20 4|7l22 7e35
+

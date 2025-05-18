@@ -1,0 +1,542 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U mssyst.net.security.sslstream%s  mssyst-net-security-sslstream.ads  4d24f91c NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.idisposable%s	mssyst-idisposable.ads	mssyst-idisposable.ali
+W mssyst.io%s		mssyst-io.ads		mssyst-io.ali
+W mssyst.io.stream%s	mssyst-io-stream.ads	mssyst-io-stream.ali
+W mssyst.marshalbyrefobject%s  mssyst-marshalbyrefobject.ads  mssyst-marshalbyrefobject.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.net.security%s	mssyst-net-security.ads	mssyst-net-security.ali
+W mssyst.net.security.authenticatedstream%s  mssyst-net-security-authenticatedstream.ads  mssyst-net-security-authenticatedstream.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060517214748 02f2695c
+D microsoft-win32.ads	20060517214748 bf37fdc1
+D microsoft-win32-safehandles.ads  20060517214748 c240eeab
+D microsoft-win32-safehandles-safefilehandle.ads  20060518130024 34c2417a
+D microsoft-win32-safehandles-safehandlezeroorminusoneisinvalid.ads  20060518130024 66041aba
+D microsoft-win32-safehandles-safewaithandle.ads  20060518130024 ae8855ed
+D msil_types.ads	20060219005222 3027c2c3
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-array_k.ads	20060518130004 44c548ce
+D mssyst-asynccallback.ads  20060518130006 80e54e38
+D mssyst-attribute.ads	20060518130006 394ce8b0
+D mssyst-charenumerator.ads  20060518130008 d83886d0
+D mssyst-collections.ads  20060517214744 22f80fd8
+D mssyst-collections-collectionbase.ads  20060518130016 f1b9e4ee
+D mssyst-collections-dictionaryentry.ads  20060518130016 222dd9e6
+D mssyst-collections-icollection.ads  20060518130004 3a339eb6
+D mssyst-collections-icomparer.ads  20060518130006 71266c2a
+D mssyst-collections-idictionary.ads  20060518130016 d5a87938
+D mssyst-collections-idictionaryenumerator.ads  20060518130016 174d5352
+D mssyst-collections-ienumerable.ads  20060518130004 8a6639a6
+D mssyst-collections-ienumerator.ads  20060518130004 bc4e7b44
+D mssyst-collections-ilist.ads  20060518130004 d5fdb5e8
+D mssyst-collections-readonlycollectionbase.ads  20060518130016 2b7b6f73
+D mssyst-configuration.ads  20060517214756 03b06563
+D mssyst-configuration-assemblies.ads  20060517214756 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060518130040 813ea3b2
+D mssyst-configuration-assemblies-assemblyversioncompatibility.ads  20060518130040 80640b26
+D mssyst-datetime.ads	20060518130006 e8dd3274
+D mssyst-datetimekind.ads  20060518130006 db5b4b1d
+D mssyst-dayofweek.ads	20060518130008 4570cbc5
+D mssyst-decimal.ads	20060518130008 5671c372
+D mssyst-delegate.ads	20060518130006 5344fd33
+D mssyst-eventargs.ads	20060518130006 f2d88790
+D mssyst-globalization.ads  20060517214748 13e8d46f
+D mssyst-globalization-calendar.ads  20060518130020 6b493ab4
+D mssyst-globalization-calendaralgorithmtype.ads  20060518130020 3e24c29f
+D mssyst-globalization-calendarweekrule.ads  20060518130020 fd7e4fa4
+D mssyst-globalization-compareinfo.ads  20060518130020 1578aa69
+D mssyst-globalization-compareoptions.ads  20060518130020 aa1d08c4
+D mssyst-globalization-cultureinfo.ads  20060518130020 eff0653d
+D mssyst-globalization-culturetypes.ads  20060518130020 0714709f
+D mssyst-globalization-datetimeformatinfo.ads  20060518130020 12cc668e
+D mssyst-globalization-datetimestyles.ads  20060518130020 493eba39
+D mssyst-globalization-digitshapes.ads  20060518130020 159048c6
+D mssyst-globalization-numberformatinfo.ads  20060518130020 3e2c26cf
+D mssyst-globalization-numberstyles.ads  20060518130020 e67a6e84
+D mssyst-globalization-sortkey.ads  20060518130020 fbdd0312
+D mssyst-globalization-textinfo.ads  20060518130020 87fe0838
+D mssyst-guid.ads	20060518130008 81a28a48
+D mssyst-iasyncresult.ads  20060518130008 f67d3866
+D mssyst-icloneable.ads	20060518130004 e17b533e
+D mssyst-icomparable.ads  20060518130004 bf9ec2a5
+D mssyst-iconvertible.ads  20060518130004 5fd73d03
+D mssyst-idisposable.ads  20060518130004 43dfd267
+D mssyst-iformatprovider.ads  20060518130008 0282a90a
+D mssyst-io.ads		20060517214752 31f12609
+D mssyst-io-fileaccess.ads  20060518130030 86b9fb32
+D mssyst-io-filemode.ads  20060518130030 cd9a2184
+D mssyst-io-fileoptions.ads  20060518130030 dcc00896
+D mssyst-io-fileshare.ads  20060518130030 9c1d8f8e
+D mssyst-io-filestream.ads  20060518130030 e99dd9b5
+D mssyst-io-seekorigin.ads  20060518130030 84ee3c99
+D mssyst-io-stream.ads	20060518130030 8edee4de
+D mssyst-marshalbyrefobject.ads  20060518130006 1fa39a8f
+D mssyst-midpointrounding.ads  20060518130008 67720843
+D mssyst-modulehandle.ads  20060518130010 ea2bb724
+D mssyst-multicastdelegate.ads  20060518130006 378f1b43
+D mssyst-net.ads	20060517222318 aa03617c
+D mssyst-net-security.ads  20060517222322 188c2c6b
+D mssyst-net-security-authenticatedstream.ads  20060518130056 0441a615
+D mssyst-net-security-localcertificateselectioncallback.ads  20060518130056 cae1fe5c
+D mssyst-net-security-remotecertificatevalidationcallback.ads  20060518130056 ad17393b
+D mssyst-net-security-sslpolicyerrors.ads  20060518130056 06bd861a
+D mssyst-net-security-sslstream.ads  20060518130056 a542406d
+D mssyst-object.ads	20060518130004 47535304
+D mssyst-reflection.ads	20060517214746 25abbfbc
+D mssyst-reflection-assembly.ads  20060518130016 123eb80d
+D mssyst-reflection-assemblyname.ads  20060518130018 15212dcc
+D mssyst-reflection-assemblynameflags.ads  20060518130018 086c5b0c
+D mssyst-reflection-binder.ads  20060518130008 8f817e78
+D mssyst-reflection-bindingflags.ads  20060518130018 44cb2c03
+D mssyst-reflection-callingconventions.ads  20060518130018 6e41b7d5
+D mssyst-reflection-constructorinfo.ads  20060518130018 4a784f3e
+D mssyst-reflection-eventattributes.ads  20060518130018 601969cf
+D mssyst-reflection-eventinfo.ads  20060518130018 d074f51e
+D mssyst-reflection-fieldattributes.ads  20060518130018 7952d5f0
+D mssyst-reflection-fieldinfo.ads  20060518130018 467b8c48
+D mssyst-reflection-genericparameterattributes.ads  20060518130018 bf8892e6
+D mssyst-reflection-icustomattributeprovider.ads  20060518130010 f243134e
+D mssyst-reflection-imagefilemachine.ads  20060518130018 e85430a4
+D mssyst-reflection-interfacemapping.ads  20060518130018 8db7a5bb
+D mssyst-reflection-ireflect.ads  20060518130010 881bf639
+D mssyst-reflection-manifestresourceinfo.ads  20060518130018 ad6bbbfa
+D mssyst-reflection-memberfilter.ads  20060518130018 50297139
+D mssyst-reflection-memberinfo.ads  20060518130010 0224f482
+D mssyst-reflection-membertypes.ads  20060518130018 781a8ce9
+D mssyst-reflection-methodattributes.ads  20060518130018 7f00d77d
+D mssyst-reflection-methodbase.ads  20060518130018 d9f75bde
+D mssyst-reflection-methodbody.ads  20060518130018 57c34b79
+D mssyst-reflection-methodimplattributes.ads  20060518130018 9b393827
+D mssyst-reflection-methodinfo.ads  20060518130018 9554c467
+D mssyst-reflection-module.ads  20060518130018 f7c1ae4f
+D mssyst-reflection-moduleresolveeventhandler.ads  20060518130016 55175e4b
+D mssyst-reflection-parameterattributes.ads  20060518130018 9852456a
+D mssyst-reflection-parameterinfo.ads  20060518130018 9faca9a0
+D mssyst-reflection-parametermodifier.ads  20060518130018 bf1ace9a
+D mssyst-reflection-portableexecutablekinds.ads  20060518130018 7dc22cdb
+D mssyst-reflection-processorarchitecture.ads  20060518130018 ed5839f4
+D mssyst-reflection-propertyattributes.ads  20060518130018 b25fd6ac
+D mssyst-reflection-propertyinfo.ads  20060518130018 83708877
+D mssyst-reflection-resourcelocation.ads  20060518130018 f7e12499
+D mssyst-reflection-strongnamekeypair.ads  20060518130018 80794f06
+D mssyst-reflection-typeattributes.ads  20060518130018 4ce15869
+D mssyst-reflection-typefilter.ads  20060518130018 1bb8611f
+D mssyst-resolveeventargs.ads  20060518130006 a313837d
+D mssyst-runtime.ads	20060517214744 31dcc047
+D mssyst-runtime-constrainedexecution.ads  20060517214746 f6aa2aec
+D mssyst-runtime-constrainedexecution-criticalfinalizerobject.ads  20060518130008 d30c8885
+D mssyst-runtime-interopservices.ads  20060517214744 59769bf0
+D mssyst-runtime-interopservices-charset.ads  20060518130026 91df90fa
+D mssyst-runtime-interopservices-layoutkind.ads  20060518130026 c12116e8
+D mssyst-runtime-interopservices-safehandle.ads  20060518130010 973569bf
+D mssyst-runtime-interopservices-structlayoutattribute.ads  20060518130026 78989125
+D mssyst-runtime-interopservices-uassembly.ads  20060518130016 f96b0f31
+D mssyst-runtime-interopservices-uassemblyname.ads  20060518130018 de1b10ef
+D mssyst-runtime-interopservices-uattribute.ads  20060518130006 caafc494
+D mssyst-runtime-interopservices-uconstructorinfo.ads  20060518130018 c34639c6
+D mssyst-runtime-interopservices-ueventinfo.ads  20060518130018 04844734
+D mssyst-runtime-interopservices-ufieldinfo.ads  20060518130018 cdb9c056
+D mssyst-runtime-interopservices-umemberinfo.ads  20060518130010 e5d5c7c0
+D mssyst-runtime-interopservices-umethodbase.ads  20060518130018 1ff9475f
+D mssyst-runtime-interopservices-umethodinfo.ads  20060518130018 fc46035a
+D mssyst-runtime-interopservices-umodule.ads  20060518130018 85209d28
+D mssyst-runtime-interopservices-uparameterinfo.ads  20060518130018 b106ef1a
+D mssyst-runtime-interopservices-upropertyinfo.ads  20060518130018 f015b8d5
+D mssyst-runtime-interopservices-utype.ads  20060518130010 edc8eebe
+D mssyst-runtime-remoting.ads  20060517214746 74500271
+D mssyst-runtime-remoting-ichannelinfo.ads  20060518130036 42c0549f
+D mssyst-runtime-remoting-ienvoyinfo.ads  20060518130036 0d613007
+D mssyst-runtime-remoting-iremotingtypeinfo.ads  20060518130036 9c09dda1
+D mssyst-runtime-remoting-messaging.ads  20060517214754 4bfbab1c
+D mssyst-runtime-remoting-messaging-imessage.ads  20060518130034 bf177a61
+D mssyst-runtime-remoting-messaging-imessagectrl.ads  20060518130034 e22b39ed
+D mssyst-runtime-remoting-messaging-imessagesink.ads  20060518130034 9c27ef9e
+D mssyst-runtime-remoting-objref.ads  20060518130036 cc63dccf
+D mssyst-runtime-serialization.ads  20060517214744 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060518130016 a25d9d2b
+D mssyst-runtime-serialization-iformatterconverter.ads  20060518130018 02d31acb
+D mssyst-runtime-serialization-iobjectreference.ads  20060518130008 c3279c62
+D mssyst-runtime-serialization-iserializable.ads  20060518130006 bc8947c1
+D mssyst-runtime-serialization-serializationentry.ads  20060518130020 a6dd57a6
+D mssyst-runtime-serialization-serializationinfo.ads  20060518130020 fe6300a3
+D mssyst-runtime-serialization-serializationinfoenumerator.ads  20060518130020 b2a6a08c
+D mssyst-runtime-serialization-streamingcontext.ads  20060518130020 b7580dc0
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060518130020 ab32dd44
+D mssyst-runtimefieldhandle.ads  20060518130010 1a535b0a
+D mssyst-runtimemethodhandle.ads  20060518130010 b5a8fc11
+D mssyst-runtimetypehandle.ads  20060518130010 2dc72f74
+D mssyst-sbyte.ads	20060518130010 0b40b4c3
+D mssyst-security.ads	20060517214744 a4c8227c
+D mssyst-security-accesscontrol.ads  20060517214756 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060518130042 da644f3b
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060518130042 983129b3
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060518130042 aaa7f08e
+D mssyst-security-accesscontrol-accessrule.ads  20060518130042 357b7164
+D mssyst-security-accesscontrol-auditflags.ads  20060518130042 6697b648
+D mssyst-security-accesscontrol-auditrule.ads  20060518130042 548a6e76
+D mssyst-security-accesscontrol-authorizationrule.ads  20060518130042 d4d98288
+D mssyst-security-accesscontrol-authorizationrulecollection.ads  20060518130042 bd787679
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060518130042 87d97b1c
+D mssyst-security-accesscontrol-filesecurity.ads  20060518130042 d4ef23f2
+D mssyst-security-accesscontrol-filesystemaccessrule.ads  20060518130042 3996455e
+D mssyst-security-accesscontrol-filesystemauditrule.ads  20060518130042 364a20bb
+D mssyst-security-accesscontrol-filesystemrights.ads  20060518130042 99ab4846
+D mssyst-security-accesscontrol-filesystemsecurity.ads  20060518130042 6b12c956
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060518130042 cb8e28ec
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060518130042 68e32c77
+D mssyst-security-accesscontrol-objectsecurity.ads  20060518130042 d97d6fc7
+D mssyst-security-accesscontrol-propagationflags.ads  20060518130042 7d0c8f98
+D mssyst-security-authentication.ads  20060517222322 4c6377b1
+D mssyst-security-authentication-cipheralgorithmtype.ads  20060518130056 832411eb
+D mssyst-security-authentication-exchangealgorithmtype.ads  20060518130056 e9e5e504
+D mssyst-security-authentication-hashalgorithmtype.ads  20060518130056 02945c22
+D mssyst-security-authentication-sslprotocols.ads  20060518130056 a0d58430
+D mssyst-security-cryptography.ads  20060517214756 6bbb0e6b
+D mssyst-security-cryptography-asnencodeddata.ads  20060518130054 b29e7c9c
+D mssyst-security-cryptography-asymmetricalgorithm.ads  20060518130040 af485974
+D mssyst-security-cryptography-keysizes.ads  20060518130040 b750cd3f
+D mssyst-security-cryptography-oid.ads  20060518130054 af7cfe6c
+D mssyst-security-cryptography-oidcollection.ads  20060518130054 7f1dc499
+D mssyst-security-cryptography-oidenumerator.ads  20060518130054 adde9908
+D mssyst-security-cryptography-x509certificates.ads  20060517214756 1b20ddcc
+D mssyst-security-cryptography-x509certificates-publickey.ads  20060518130054 2000c0ae
+D mssyst-security-cryptography-x509certificates-x500distinguishedname.ads  20060518130054 0ae0b273
+D mssyst-security-cryptography-x509certificates-x500distinguishednameflags.ads  20060518130054 beb3333b
+D mssyst-security-cryptography-x509certificates-x509certificate.ads  20060518130042 438b9ef5
+D mssyst-security-cryptography-x509certificates-x509certificate2.ads  20060518130054 8f2f7829
+D mssyst-security-cryptography-x509certificates-x509certificate2collection.ads  20060518130054 29af9542
+D mssyst-security-cryptography-x509certificates-x509certificate2enumerator.ads  20060518130054 6b7fa1b2
+D mssyst-security-cryptography-x509certificates-x509certificatecollection.ads  20060518130054 66d77737
+D mssyst-security-cryptography-x509certificates-x509certificatecollection-x509certificateenumerator.ads  20060518130054 0be20d70
+D mssyst-security-cryptography-x509certificates-x509chain.ads  20060518130054 292baf0c
+D mssyst-security-cryptography-x509certificates-x509chainelement.ads  20060518130054 79093c5d
+D mssyst-security-cryptography-x509certificates-x509chainelementcollection.ads  20060518130054 aad8692a
+D mssyst-security-cryptography-x509certificates-x509chainelementenumerator.ads  20060518130054 0eeda4fb
+D mssyst-security-cryptography-x509certificates-x509chainpolicy.ads  20060518130054 72400733
+D mssyst-security-cryptography-x509certificates-x509chainstatus.ads  20060518130054 c164a48f
+D mssyst-security-cryptography-x509certificates-x509chainstatusflags.ads  20060518130054 17b6169f
+D mssyst-security-cryptography-x509certificates-x509contenttype.ads  20060518130042 6cfaa0cf
+D mssyst-security-cryptography-x509certificates-x509extension.ads  20060518130054 09ce71e5
+D mssyst-security-cryptography-x509certificates-x509extensioncollection.ads  20060518130054 3fa42368
+D mssyst-security-cryptography-x509certificates-x509extensionenumerator.ads  20060518130054 8c916bb1
+D mssyst-security-cryptography-x509certificates-x509findtype.ads  20060518130054 00a95083
+D mssyst-security-cryptography-x509certificates-x509keystorageflags.ads  20060518130042 db32c0bb
+D mssyst-security-cryptography-x509certificates-x509nametype.ads  20060518130054 f4cc7c80
+D mssyst-security-cryptography-x509certificates-x509revocationflag.ads  20060518130054 dd55b18e
+D mssyst-security-cryptography-x509certificates-x509revocationmode.ads  20060518130054 9a147506
+D mssyst-security-cryptography-x509certificates-x509verificationflags.ads  20060518130054 06c8374d
+D mssyst-security-ievidencefactory.ads  20060518130006 43c6d461
+D mssyst-security-policy.ads  20060517214748 7a609687
+D mssyst-security-policy-evidence.ads  20060518130024 1eabe8be
+D mssyst-security-principal.ads  20060517214748 7adc43fd
+D mssyst-security-principal-identityreference.ads  20060518130042 0b9e5f80
+D mssyst-security-securestring.ads  20060518130034 a9a06371
+D mssyst-string.ads	20060518130004 b98d995f
+D mssyst-stringcomparison.ads  20060518130006 86ec68cf
+D mssyst-stringsplitoptions.ads  20060518130006 f2d0599e
+D mssyst-text.ads	20060517214744 a7ed250d
+D mssyst-text-decoder.ads  20060518130022 3b11b35a
+D mssyst-text-decoderfallback.ads  20060518130022 75e2f645
+D mssyst-text-decoderfallbackbuffer.ads  20060518130022 cf5e5e9e
+D mssyst-text-encoder.ads  20060518130022 58ffabf7
+D mssyst-text-encoderfallback.ads  20060518130022 77489063
+D mssyst-text-encoderfallbackbuffer.ads  20060518130022 50c8196a
+D mssyst-text-encoding.ads  20060518130022 9fed9190
+D mssyst-text-encodinginfo.ads  20060518130022 ce8a22c1
+D mssyst-text-normalizationform.ads  20060518130022 2ca43f9a
+D mssyst-threading.ads	20060517214746 964d65eb
+D mssyst-threading-waithandle.ads  20060518130010 cebe4958
+D mssyst-timespan.ads	20060518130010 642ef661
+D mssyst-type_k.ads	20060518130010 5ccf03f1
+D mssyst-typecode.ads	20060518130010 f5c22e86
+D mssyst-typedreference.ads  20060518130010 9b3bbb41
+D mssyst-valuetype.ads	20060518130004 4fb553b0
+D mssyst-version.ads	20060518130010 523fbb99
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 14 msil_types.ads
+5K9*Msil_Types 66e15 81|7w6 8r5 102r16 109r16 176r16 197r16 200r16
+22E9*unsigned_int8<character>
+42A9*unsigned_int8_arr(22E9) 81|102r27 109r27 176r27 197r27 200r27
+X 15 mssyst.ads
+6K9*MSSyst 7e11 81|6r6 11r6 13r6 14r6 15r6 27r9 28r20 29r14 40r28 43r28 47r28
+. 49r50 52r28 54r50 55r49 58r27 59r35 60r29 64r27 67r34 70r34 72r29 76r27
+. 77r30 78r27 78r66 81r27 82r35 83r29 85r30 86r27 86r66 89r34 91r29 93r30
+. 94r27 94r66 97r34 98r30 99r27 99r66 105r30 106r27 106r66 112r30 113r27
+. 113r66 116r28 119r28 122r28 125r28 139r33 143r33 157r33 163r40 169r40 171r33
+. 182r16 247r5 248r20
+X 17 mssyst-asynccallback.ads
+19K16 AsyncCallback 81|77r37 85r37 93r37 98r37 105r37 112r37
+X 57 mssyst-iasyncresult.ads
+10K16 IAsyncResult 81|78r73 86r73 94r73 99r73 106r73 113r73 116r35 119r35
+. 122r35 125r35
+X 61 mssyst-idisposable.ads
+9K16*IDisposable 20e23 81|11w13 29r21
+10H9*Typ 81|29r33
+X 63 mssyst-io.ads
+6K16*IO 7e14 81|13r13 40r35 43r35 47r35 52r35 182r23
+X 69 mssyst-io-seekorigin.ads
+13K19 SeekOrigin 81|182r26
+X 70 mssyst-io-stream.ads
+17K19*Stream 132e21 81|13w16 40r38 43r38 47r38 52r38
+18H9*Typ<71|13R9> 22e14 81|40r45 43r45 47r45 52r45
+44U14*Close
+46U14*Dispose<61|16p14>
+77V13*ReadByte{integer}
+102U14*WriteByte
+X 71 mssyst-marshalbyrefobject.ads
+12K16*MarshalByRefObject 33e30 81|14w13
+21V13*CreateObjRef
+24V13*GetLifetimeService(82|11R9)
+26V13*InitializeLifetimeService(82|11R9)
+X 75 mssyst-net.ads
+6K16*Net 15|6k9 75|7e15 81|15r13 27r16 28r27 49r57 54r57 55r56 247r12 248r27
+X 76 mssyst-net-security.ads
+6K20*Security 75|6k16 76|7e24 81|15r17 27r20 28r31 49r61 54r61 55r60 247r16
+. 248r31
+X 77 mssyst-net-security-authenticatedstream.ads
+18K29*AuthenticatedStream 49e44 81|15w26 28r40
+19H9*Typ<70|18R9> 23e14 81|28r60
+39V13*get_LeaveInnerStreamOpen{boolean}
+X 78 mssyst-net-security-localcertificateselectioncallback.ads
+22K29 LocalCertificateSelectionCallback 81|55r69
+X 79 mssyst-net-security-remotecertificatevalidationcallback.ads
+23K29 RemoteCertificateValidationCallback 81|49r70 54r70
+X 81 mssyst-net-security-sslstream.ads
+27K29*SslStream 76|6k20 81|247l25 247e34 248r40
+28R9*Typ<77|19R9> 70|44p14 46P14 77p13 102p14 71|21p13 24p13 26p13 77|39p13
+. 81|32e14 33r27 56p14 57r21 62p14 63r21 65p14 66r21 68p14 69r21 74p13 75r21
+. 79p13 80r21 87p13 88r21 95p13 96r21 100P13 101r21 107P13 108r21 114p14
+. 115r21 117p14 118r21 120P13 121r21 123P14 124r21 126P14 127r21 128P13 129r21
+. 130P13 131r21 132P13 133r21 134P13 135r21 136p13 137r21 138p13 139r21 140p13
+. 141r21 142p13 143r21 144p13 145r21 146P13 147r21 148P13 149r21 150P13 151r21
+. 152P13 153r21 154P13 155r21 156p13 157r21 158p13 159r21 160P13 161r21 162p13
+. 163r21 164P13 165r21 166P13 167r21 168p13 169r21 170p13 171r21 172P13 173r21
+. 174P13 175r21 179P13 180r21 183P14 184r21 186P14 187r21 189P14 190r21 192P14
+. 193r21 195p14 196r21 198P14 199r21 204r27 82|21p13 27p13 29p13 34p13
+33P9*Ref(28R9) 34r34 35r47 39r14 40r63 42r14 44r55 46r14 49r124 51r14 55r121
+34P9*Ref_addrof(33P9)
+35A9*Ref_Arr(33P9) 36r33
+36P9*Ref_Array(35A9) 37r40
+37P9*Ref_Array_addrof(36P9)
+38V13*new_SslStream{33P9} 39>7 40^7
+39p7 This{33P9}
+40p7 innerStream(70|18R9)
+41V13*new_SslStream{33P9} 42>7 43^7 44>7
+42p7 This{33P9}
+43p7 innerStream(70|18R9)
+44b7 leaveInnerStreamOpen{boolean}
+45V13*new_SslStream{33P9} 46>7 47^7 48>7 49^7
+46p7 This{33P9}
+47p7 innerStream(70|18R9)
+48b7 leaveInnerStreamOpen{boolean}
+49p7 userCertificateValidationCallback
+50V13*new_SslStream{33P9} 51>7 52^7 53>7 54^7 55^7
+51p7 This{33P9}
+52p7 innerStream(70|18R9)
+53b7 leaveInnerStreamOpen{boolean}
+54p7 userCertificateValidationCallback
+55p7 userCertificateSelectionCallback
+56U14*AuthenticateAsClient 57^7 58^7 59^7 60>7 61>7
+57p7 This(28R9)
+58p7 targetHost
+59p7 clientCertificates
+60+7 enabledSslProtocols
+61b7 checkCertificateRevocation{boolean}
+62U14*AuthenticateAsClient 63^7 64^7 206b23
+63p7 This(28R9)
+64p7 targetHost
+65U14*AuthenticateAsServer 66^7 67^7
+66p7 This(28R9)
+67p7 serverCertificate
+68U14*AuthenticateAsServer 69^7 70^7 71>7 72>7 73>7 207b23
+69p7 This(28R9)
+70p7 serverCertificate
+71b7 clientCertificateRequired{boolean}
+72+7 enabledSslProtocols
+73b7 checkCertificateRevocation{boolean}
+74V13*BeginAuthenticateAsClient 75^7 76^7 77^7 78^7
+75p7 This(28R9)
+76p7 targetHost
+77p7 asyncCallback
+78p7 asyncState(82|11R9)
+79V13*BeginAuthenticateAsClient 80^7 81^7 82^7 83>7 84>7 85^7 86^7 208b23
+80p7 This(28R9)
+81p7 targetHost
+82p7 clientCertificates
+83+7 enabledSslProtocols
+84b7 checkCertificateRevocation{boolean}
+85p7 asyncCallback
+86p7 asyncState(82|11R9)
+87V13*BeginAuthenticateAsServer 88^7 89^7 90>7 91>7 92>7 93^7 94^7
+88p7 This(28R9)
+89p7 serverCertificate
+90b7 clientCertificateRequired{boolean}
+91+7 enabledSslProtocols
+92b7 checkCertificateRevocation{boolean}
+93p7 asyncCallback
+94p7 asyncState(82|11R9)
+95V13*BeginAuthenticateAsServer 96^7 97^7 98^7 99^7 209b23
+96p7 This(28R9)
+97p7 serverCertificate
+98p7 asyncCallback
+99p7 asyncState(82|11R9)
+100V13*BeginRead<77|19p9> 101^7 102>7 103>7 104>7 105^7 106^7 210b23
+101p7 This(28R9)
+102a7 buffer{14|42A9}
+103i7 offset{integer}
+104i7 count{integer}
+105p7 asyncCallback
+106p7 asyncState(82|11R9)
+107V13*BeginWrite<77|19p9> 108^7 109>7 110>7 111>7 112^7 113^7 211b23
+108p7 This(28R9)
+109a7 buffer{14|42A9}
+110i7 offset{integer}
+111i7 count{integer}
+112p7 asyncCallback
+113p7 asyncState(82|11R9)
+114U14*EndAuthenticateAsClient 115^7 116^7 212b23
+115p7 This(28R9)
+116p7 asyncResult
+117U14*EndAuthenticateAsServer 118^7 119^7 213b23
+118p7 This(28R9)
+119p7 asyncResult
+120V13*EndRead{integer}<77|19p9> 121^7 122^7 214b23
+121p7 This(28R9)
+122p7 asyncResult
+123U14*EndWrite<77|19p9> 124^7 125^7 215b23
+124p7 This(28R9)
+125p7 asyncResult
+126U14*Flush<77|19p9> 127^7 216b23
+127p7 This(28R9)
+128V13*get_CanRead{boolean}<77|19p9> 129^7 217b23
+129p7 This(28R9)
+130V13*get_CanSeek{boolean}<77|19p9> 131^7 218b23
+131p7 This(28R9)
+132V13*get_CanTimeout{boolean}<77|19p9> 133^7 219b23
+133p7 This(28R9)
+134V13*get_CanWrite{boolean}<77|19p9> 135^7 220b23
+135p7 This(28R9)
+136V13*get_CheckCertRevocationStatus{boolean} 137^7 221b23
+137p7 This(28R9)
+138V13*get_CipherAlgorithm 139^7 222b23
+139p7 This(28R9)
+140V13*get_CipherStrength{integer} 141^7 223b23
+141p7 This(28R9)
+142V13*get_HashAlgorithm 143^7 224b23
+143p7 This(28R9)
+144V13*get_HashStrength{integer} 145^7 225b23
+145p7 This(28R9)
+146V13*get_IsAuthenticated{boolean}<77|29p13> 147^7 226b23
+147p7 This(28R9)
+148V13*get_IsEncrypted{boolean}<77|31p13> 149^7 227b23
+149p7 This(28R9)
+150V13*get_IsMutuallyAuthenticated{boolean}<77|33p13> 151^7 228b23
+151p7 This(28R9)
+152V13*get_IsServer{boolean}<77|35p13> 153^7 229b23
+153p7 This(28R9)
+154V13*get_IsSigned{boolean}<77|37p13> 155^7 230b23
+155p7 This(28R9)
+156V13*get_KeyExchangeAlgorithm 157^7 231b23
+157p7 This(28R9)
+158V13*get_KeyExchangeStrength{integer} 159^7 232b23
+159p7 This(28R9)
+160V13*get_Length{long_long_integer}<77|19p9> 161^7 233b23
+161p7 This(28R9)
+162V13*get_LocalCertificate 163^7 234b23
+163p7 This(28R9)
+164V13*get_Position{long_long_integer}<77|19p9> 165^7 235b23
+165p7 This(28R9)
+166V13*get_ReadTimeout{integer}<77|19p9> 167^7 236b23
+167p7 This(28R9)
+168V13*get_RemoteCertificate 169^7 237b23
+169p7 This(28R9)
+170V13*get_SslProtocol 171^7 238b23
+171p7 This(28R9)
+172V13*get_WriteTimeout{integer}<77|19p9> 173^7 239b23
+173p7 This(28R9)
+174V13*Read{integer}<77|19p9> 175^7 176>7 177>7 178>7 240b23
+175p7 This(28R9)
+176a7 buffer{14|42A9}
+177i7 offset{integer}
+178i7 count{integer}
+179V13*Seek{long_long_integer}<77|19p9> 180^7 181>7 182>7 241b23
+180p7 This(28R9)
+181i7 offset{long_long_integer}
+182+7 origin
+183U14*set_Position<77|19p9> 184^7 185>7 242b23
+184p7 This(28R9)
+185i7 value{long_long_integer}
+186U14*set_ReadTimeout<77|19p9> 187^7 188>7 243b23
+187p7 This(28R9)
+188i7 value{integer}
+189U14*set_WriteTimeout<77|19p9> 190^7 191>7 244b23
+190p7 This(28R9)
+191i7 value{integer}
+192U14*SetLength<77|19p9> 193^7 194>7 245b23
+193p7 This(28R9)
+194i7 value{long_long_integer}
+195U14*Write 196^7 197>7
+196p7 This(28R9)
+197a7 buffer{14|42A9}
+198U14*Write<77|19p9> 199^7 200>7 201>7 202>7 246b23
+199p7 This(28R9)
+200a7 buffer{14|42A9}
+201i7 offset{integer}
+202i7 count{integer}
+X 82 mssyst-object.ads
+10K16*Object 81|6w13 78r34 86r34 94r34 99r34 106r34 113r34 82|44e18
+11R9*Typ 81|78r41 86r41 94r41 99r41 106r41 113r41 82|13e14
+21V13*Equals{boolean}
+27V13*GetHashCode{integer}
+29V13*GetType
+34V13*ToString
+X 167 mssyst-security.ads
+6K16 Security 81|59r42 60r36 67r41 70r41 72r36 82r42 83r36 89r41 91r36 97r41
+. 139r40 143r40 157r40 163r47 169r47 171r40
+X 187 mssyst-security-authentication.ads
+6K25 Authentication 81|60r45 72r45 83r45 91r45 139r49 143r49 157r49 171r49
+X 188 mssyst-security-authentication-cipheralgorithmtype.ads
+13K40 CipherAlgorithmType 81|139r64
+X 189 mssyst-security-authentication-exchangealgorithmtype.ads
+13K40 ExchangeAlgorithmType 81|157r64
+X 190 mssyst-security-authentication-hashalgorithmtype.ads
+13K40 HashAlgorithmType 81|143r64
+X 191 mssyst-security-authentication-sslprotocols.ads
+13K40 SslProtocols 81|60r60 72r60 83r60 91r60 171r64
+X 192 mssyst-security-cryptography.ads
+6K25 Cryptography 81|59r51 67r50 70r50 82r51 89r50 97r50 163r56 169r56
+X 199 mssyst-security-cryptography-x509certificates.ads
+6K38 X509Certificates 81|59r64 67r63 70r63 82r64 89r63 97r63 163r69 169r69
+X 203 mssyst-security-cryptography-x509certificates-x509certificate.ads
+18K55 X509Certificate 81|67r80 70r80 89r80 97r80 163r86 169r86
+X 207 mssyst-security-cryptography-x509certificates-x509certificatecollection.ads
+18K55 X509CertificateCollection 81|59r81 82r81
+X 232 mssyst-string.ads
+23K16 String 81|58r34 64r34 76r34 81r34
+

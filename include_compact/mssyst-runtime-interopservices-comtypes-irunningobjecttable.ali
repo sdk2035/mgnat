@@ -1,0 +1,142 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.interopservices.comtypes.irunningobjecttable%s  mssyst-runtime-interopservices-comtypes-irunningobjecttable.ads  4b48b53d NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.interopservices%s  mssyst-runtime-interopservices.ads  mssyst-runtime-interopservices.ali
+W mssyst.runtime.interopservices.comtypes%s  mssyst-runtime-interopservices-comtypes.ads  mssyst-runtime-interopservices-comtypes.ali
+W mssyst.runtime.interopservices.comtypes.filetime%s  mssyst-runtime-interopservices-comtypes-filetime.ads  mssyst-runtime-interopservices-comtypes-filetime.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-comtypes.ads  20060131165234 c90b3930
+D mssyst-runtime-interopservices-comtypes-filetime.ads  20060131171402 22b52ccd
+D mssyst-runtime-interopservices-comtypes-ienummoniker.ads  20060131171402 ec01250c
+D mssyst-runtime-interopservices-comtypes-imoniker.ads  20060131171402 9b4d1363
+D mssyst-runtime-interopservices-comtypes-irunningobjecttable.ads  20060131171402 370d878a
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 32|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 32|7r6 13r6 15r9 25r23 28r23 29r21 32r23 33r19 36r23 40r19
+. 44r20 45r23 57r5 59r20
+X 15 mssyst-object.ads
+11K16*Object 46e18 32|7w13 29r28 44r27
+13P9*Ref(12R9) 32|44r34
+14P9*Ref_addrof(13P9) 32|29r35
+18R9*Typ
+X 26 mssyst-runtime.ads
+6K16*Runtime 9|6k9 26|7e19 32|13r13 15r16 25r30 28r30 32r30 33r26 36r30 40r26
+. 45r30 57r12 59r27
+X 27 mssyst-runtime-interopservices.ads
+6K24*InteropServices 26|6k16 27|7e35 32|13r21 15r24 25r38 28r38 32r38 33r34
+. 36r38 40r34 45r38 57r20 59r35
+X 28 mssyst-runtime-interopservices-comtypes.ads
+6K40*ComTypes 27|6k24 28|7e44 32|13r37 15r40 25r54 28r54 32r54 33r50 36r54
+. 40r50 45r54 57r36 59r51
+X 29 mssyst-runtime-interopservices-comtypes-filetime.ads
+14K49*FILETIME 21e53 32|13w46 33r59 40r59
+18P9*ValueType_addrof(15R9) 32|33r68 40r68
+X 30 mssyst-runtime-interopservices-comtypes-ienummoniker.ads
+12K49 IEnumMoniker 32|25r63
+15P9 Ref_addrof(integer) 32|25r76
+X 31 mssyst-runtime-interopservices-comtypes-imoniker.ads
+19K49 IMoniker 32|28r63 32r63 36r63 45r63
+21P9 Ref(integer) 32|28r72 32r72 36r72 45r72
+X 32 mssyst-runtime-interopservices-comtypes-irunningobjecttable.ads
+15K49*IRunningObjectTable 28|6k40 32|57l45 57e64 59r60
+16R9*Typ 17r27 22c9 24r21 27r21 31r21 35r21 38r21 42r21 47r21
+17P9*Ref(16R9) 18r34 19r47
+18P9*Ref_addrof(17P9)
+19A9*Ref_Arr(17P9) 20r33
+20P9*Ref_Array(19A9) 21r40
+21P9*Ref_Array_addrof(20P9)
+22H9*Typ 23p14 26p13 30p13 34p13 37p14 41p13 46p14
+23x14*EnumRunning 24^7 25>7 50b23
+24p7 This(22R9)
+25p7 ppenumMoniker{30|15P9}
+26y13*GetObject{integer} 27^7 28>7 29>7 51b23
+27p7 This(22R9)
+28p7 pmkObjectName{31|21P9}
+29p7 ppunkObject{15|14P9}
+30y13*GetTimeOfLastChange{integer} 31^7 32>7 33>7 52b23
+31p7 This(22R9)
+32p7 pmkObjectName{31|21P9}
+33p7 pfiletime{29|18P9}
+34y13*IsRunning{integer} 35^7 36>7 53b23
+35p7 This(22R9)
+36p7 pmkObjectName{31|21P9}
+37x14*NoteChangeTime 38^7 39>7 40>7 54b23
+38p7 This(22R9)
+39i7 dwRegister{integer}
+40p7 pfiletime{29|18P9}
+41y13*Register{integer} 42^7 43>7 44>7 45>7 55b23
+42p7 This(22R9)
+43i7 grfFlags{integer}
+44p7 punkObject{15|13P9}
+45p7 pmkObjectName{31|21P9}
+46x14*Revoke 47^7 48>7 56b23
+47p7 This(22R9)
+48i7 dwRegister{integer}
+

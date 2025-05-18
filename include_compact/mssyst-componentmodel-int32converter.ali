@@ -1,0 +1,150 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.componentmodel.int32converter%s  mssyst-componentmodel-int32converter.ads  666747f0 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.basenumberconverter%s  mssyst-componentmodel-basenumberconverter.ads  mssyst-componentmodel-basenumberconverter.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-attribute.ads	20060131171354 578cce83
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-idictionary.ads  20060131171358 0d4908a9
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-basenumberconverter.ads  20060131171412 67c1e74f
+D mssyst-componentmodel-int32converter.ads  20060131171414 a0b71451
+D mssyst-componentmodel-itypedescriptorcontext.ads  20060131171414 d0c826f6
+D mssyst-componentmodel-propertydescriptorcollection.ads  20060131171414 a46c49a6
+D mssyst-componentmodel-typeconverter.ads  20060131171412 0d522a74
+D mssyst-componentmodel-typeconverter-standardvaluescollection.ads  20060131171412 f3fb6581
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-cultureinfo.ads  20060131171358 6ed5a64b
+D mssyst-globalization-culturetypes.ads  20060131171358 9d4d7f13
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 14|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 14|7r6 10r6 21r9 28r20 36r5 38r20
+X 9 mssyst-collections-icollection.ads
+14P9 Ref(integer)
+X 12 mssyst-componentmodel.ads
+6K16*ComponentModel 6|6k9 12|7e26 14|10r13 21r16 28r27 36r12 38r27
+X 13 mssyst-componentmodel-basenumberconverter.ads
+21K31*BaseNumberConverter 56e46 14|10w28 28r42
+22R9*Typ 14|28r62
+31V13*CanConvertFrom{boolean}
+35V13*CanConvertTo{boolean}
+39V13*ConvertFrom{28|13P9}
+44V13*ConvertTo{28|13P9}
+X 14 mssyst-componentmodel-int32converter.ads
+21K31*Int32Converter 12|6k16 14|36l27 36e41 38r42
+22R9*Typ 23r27 28c9 34r27
+23P9*Ref(22R9) 24r34 25r47 32r14 32r34
+24P9*Ref_addrof(23P9)
+25A9*Ref_Arr(23P9) 26r33
+26P9*Ref_Array(25A9) 27r40
+27P9*Ref_Array_addrof(26P9)
+28R9*Typ<13|28R9> 13|31P13 35P13 39P13 44P13 14|30e14 17|36p13 43p13 51p13
+. 54p13 58p13 61p13 66p13 70p13 79p13 83p13 87p13 90p13 95p13 99p13 102p13
+. 106p13 109p13 112p13 114p13 119p13 123p13 126p13 128p13 131p13 134p13 136p13
+. 138p13 141p13 143p13 146p13 149p13 28|23p13 29p13 31p13 36p13
+31V13*new_Int32Converter{23P9} 32>7 35r28
+32p7 This{23P9}
+X 16 mssyst-componentmodel-propertydescriptorcollection.ads
+24P9 Ref(integer)
+X 17 mssyst-componentmodel-typeconverter.ads
+36V13*CanConvertFrom{boolean}
+43V13*CanConvertTo{boolean}
+51V13*ConvertFrom{28|13P9}
+54V13*ConvertFromInvariantString{28|13P9}
+58V13*ConvertFromInvariantString{28|13P9}
+61V13*ConvertFromString{28|13P9}
+66V13*ConvertFromString{28|13P9}
+70V13*ConvertFromString{28|13P9}
+79V13*ConvertTo{28|13P9}
+83V13*ConvertToInvariantString{44|27P9}
+87V13*ConvertToInvariantString{44|27P9}
+90V13*ConvertToString{44|27P9}
+95V13*ConvertToString{44|27P9}
+99V13*ConvertToString{44|27P9}
+102V13*CreateInstance{28|13P9}
+106V13*CreateInstance{28|13P9}
+109V13*GetCreateInstanceSupported{boolean}
+112V13*GetCreateInstanceSupported{boolean}
+114V13*GetProperties{16|24P9}
+119V13*GetProperties{16|24P9}
+123V13*GetProperties{16|24P9}
+126V13*GetPropertiesSupported{boolean}
+128V13*GetPropertiesSupported{boolean}
+131V13*GetStandardValues{18|18P9}
+134V13*GetStandardValues{9|14P9}
+136V13*GetStandardValuesExclusive{boolean}
+138V13*GetStandardValuesExclusive{boolean}
+141V13*GetStandardValuesSupported{boolean}
+143V13*GetStandardValuesSupported{boolean}
+146V13*IsValid{boolean}
+149V13*IsValid{boolean}
+X 18 mssyst-componentmodel-typeconverter-standardvaluescollection.ads
+18P9 Ref(integer)
+X 28 mssyst-object.ads
+11K16*Object 14|7w13 28|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{49|51P9}
+36V13*ToString{44|27P9}
+X 44 mssyst-string.ads
+27P9 Ref(integer)
+X 49 mssyst-type_k.ads
+51P9 Ref(integer)
+

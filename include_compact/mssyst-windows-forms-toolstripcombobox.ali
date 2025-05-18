@@ -1,0 +1,718 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.toolstripcombobox%s  mssyst-windows-forms-toolstripcombobox.ads  3282eed9 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.contentalignment%s  mssyst-drawing-contentalignment.ads  mssyst-drawing-contentalignment.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.accessiblerole%s  mssyst-windows-forms-accessiblerole.ads  mssyst-windows-forms-accessiblerole.ali
+W mssyst.windows.forms.anchorstyles%s  mssyst-windows-forms-anchorstyles.ads  mssyst-windows-forms-anchorstyles.ali
+W mssyst.windows.forms.autocompletemode%s  mssyst-windows-forms-autocompletemode.ads  mssyst-windows-forms-autocompletemode.ali
+W mssyst.windows.forms.autocompletesource%s  mssyst-windows-forms-autocompletesource.ads  mssyst-windows-forms-autocompletesource.ali
+W mssyst.windows.forms.comboboxstyle%s  mssyst-windows-forms-comboboxstyle.ads  mssyst-windows-forms-comboboxstyle.ali
+W mssyst.windows.forms.dockstyle%s  mssyst-windows-forms-dockstyle.ads  mssyst-windows-forms-dockstyle.ali
+W mssyst.windows.forms.dragdropeffects%s  mssyst-windows-forms-dragdropeffects.ads  mssyst-windows-forms-dragdropeffects.ali
+W mssyst.windows.forms.flatstyle%s  mssyst-windows-forms-flatstyle.ads  mssyst-windows-forms-flatstyle.ali
+W mssyst.windows.forms.imagelayout%s  mssyst-windows-forms-imagelayout.ads  mssyst-windows-forms-imagelayout.ali
+W mssyst.windows.forms.mergeaction%s  mssyst-windows-forms-mergeaction.ads  mssyst-windows-forms-mergeaction.ali
+W mssyst.windows.forms.righttoleft%s  mssyst-windows-forms-righttoleft.ads  mssyst-windows-forms-righttoleft.ali
+W mssyst.windows.forms.textimagerelation%s  mssyst-windows-forms-textimagerelation.ads  mssyst-windows-forms-textimagerelation.ali
+W mssyst.windows.forms.toolstripcontrolhost%s  mssyst-windows-forms-toolstripcontrolhost.ads  mssyst-windows-forms-toolstripcontrolhost.ali
+W mssyst.windows.forms.toolstripitemalignment%s  mssyst-windows-forms-toolstripitemalignment.ads  mssyst-windows-forms-toolstripitemalignment.ali
+W mssyst.windows.forms.toolstripitemdisplaystyle%s  mssyst-windows-forms-toolstripitemdisplaystyle.ads  mssyst-windows-forms-toolstripitemdisplaystyle.ali
+W mssyst.windows.forms.toolstripitemimagescaling%s  mssyst-windows-forms-toolstripitemimagescaling.ads  mssyst-windows-forms-toolstripitemimagescaling.ali
+W mssyst.windows.forms.toolstripitemoverflow%s  mssyst-windows-forms-toolstripitemoverflow.ads  mssyst-windows-forms-toolstripitemoverflow.ali
+W mssyst.windows.forms.toolstripitemplacement%s  mssyst-windows-forms-toolstripitemplacement.ads  mssyst-windows-forms-toolstripitemplacement.ali
+W mssyst.windows.forms.toolstriptextdirection%s  mssyst-windows-forms-toolstriptextdirection.ads  mssyst-windows-forms-toolstriptextdirection.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-canceleventhandler.ads  20060131171412 8fa1dafd
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-color.ads  20060131171430 efe0dbd6
+D mssyst-drawing-contentalignment.ads  20060131171430 648ba58e
+D mssyst-drawing-font.ads  20060131171430 86695792
+D mssyst-drawing-fontstyle.ads  20060131171430 a1bbe068
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-image.ads  20060131171428 3db9ccbe
+D mssyst-drawing-imaging.ads  20060131171430 83f7d7de
+D mssyst-drawing-imaging-pixelformat.ads  20060131171432 0f821f81
+D mssyst-drawing-knowncolor.ads  20060131171430 28ff3226
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-rotatefliptype.ads  20060131171430 5968574e
+D mssyst-drawing-size.ads  20060131171430 9e839193
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-standardolemarshalobject.ads  20060131171418 9d62cad8
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-accessiblenavigation.ads  20060131171434 abdc108c
+D mssyst-windows-forms-accessibleobject.ads  20060131171436 3fd62ef2
+D mssyst-windows-forms-accessiblerole.ads  20060131171436 c08bcb4f
+D mssyst-windows-forms-accessibleselection.ads  20060131171436 3c622e47
+D mssyst-windows-forms-accessiblestates.ads  20060131171436 8d77cb2d
+D mssyst-windows-forms-anchorstyles.ads  20060131171436 22446596
+D mssyst-windows-forms-arrowdirection.ads  20060131171436 7a0a27d2
+D mssyst-windows-forms-autocompletemode.ads  20060131171436 d845b75d
+D mssyst-windows-forms-autocompletesource.ads  20060131171436 8978dbd9
+D mssyst-windows-forms-autocompletestringcollection.ads  20060131171436 2b4e3b41
+D mssyst-windows-forms-boundsspecified.ads  20060131171436 2f9ca777
+D mssyst-windows-forms-combobox.ads  20060131171438 b6416cab
+D mssyst-windows-forms-combobox-objectcollection.ads  20060131171438 3e8db21d
+D mssyst-windows-forms-comboboxstyle.ads  20060131171438 9af405ba
+D mssyst-windows-forms-control.ads  20060131171436 1c03b650
+D mssyst-windows-forms-dockstyle.ads  20060131171440 a08bf6b6
+D mssyst-windows-forms-dragdropeffects.ads  20060131171440 dfaed805
+D mssyst-windows-forms-drageventhandler.ads  20060131171440 0106d86e
+D mssyst-windows-forms-drawmode.ads  20060131171442 d60f3226
+D mssyst-windows-forms-flatstyle.ads  20060131171442 74c01316
+D mssyst-windows-forms-getchildatpointskip.ads  20060131171442 84d63876
+D mssyst-windows-forms-givefeedbackeventhandler.ads  20060131171442 6fcdd6d3
+D mssyst-windows-forms-ibindablecomponent.ads  20060131171436 1e1050b2
+D mssyst-windows-forms-imagelayout.ads  20060131171442 e0e6ce51
+D mssyst-windows-forms-imemode.ads  20060131171442 58d96089
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D mssyst-windows-forms-keyeventhandler.ads  20060131171442 f19eacee
+D mssyst-windows-forms-keypresseventhandler.ads  20060131171442 8bb6f9a2
+D mssyst-windows-forms-keys.ads  20060131171442 e98517be
+D mssyst-windows-forms-listcontrol.ads  20060131171438 b1b889d4
+D mssyst-windows-forms-mergeaction.ads  20060131171444 0c83e06a
+D mssyst-windows-forms-message.ads  20060131171444 f6b3d9da
+D mssyst-windows-forms-mousebuttons.ads  20060131171444 1b279075
+D mssyst-windows-forms-mouseeventhandler.ads  20060131171444 521e92ff
+D mssyst-windows-forms-orientation.ads  20060131171444 f6d26c92
+D mssyst-windows-forms-padding.ads  20060131171444 9cc23351
+D mssyst-windows-forms-painteventhandler.ads  20060131171444 8ec9267d
+D mssyst-windows-forms-preprocesscontrolstate.ads  20060131171446 047a345d
+D mssyst-windows-forms-queryaccessibilityhelpeventhandler.ads  20060131171446 0bd2b7f3
+D mssyst-windows-forms-querycontinuedrageventhandler.ads  20060131171446 8e500f22
+D mssyst-windows-forms-righttoleft.ads  20060131171446 898cfeaf
+D mssyst-windows-forms-scrollablecontrol.ads  20060131171436 2a5f36a7
+D mssyst-windows-forms-textimagerelation.ads  20060131171446 00d8472a
+D mssyst-windows-forms-toolstrip.ads  20060131171436 cf98054c
+D mssyst-windows-forms-toolstripcombobox.ads  20060131171446 58d35585
+D mssyst-windows-forms-toolstripcontrolhost.ads  20060131171446 25d6e14a
+D mssyst-windows-forms-toolstripdropdowndirection.ads  20060131171446 ef1c98b6
+D mssyst-windows-forms-toolstripgripdisplaystyle.ads  20060131171446 dfc1a9b6
+D mssyst-windows-forms-toolstripgripstyle.ads  20060131171446 e2e57ce2
+D mssyst-windows-forms-toolstripitem.ads  20060131171436 aa7a7c77
+D mssyst-windows-forms-toolstripitemalignment.ads  20060131171446 097d2277
+D mssyst-windows-forms-toolstripitemdisplaystyle.ads  20060131171446 28f7e9ad
+D mssyst-windows-forms-toolstripitemimagescaling.ads  20060131171446 b6d733c9
+D mssyst-windows-forms-toolstripitemoverflow.ads  20060131171446 1e67956b
+D mssyst-windows-forms-toolstripitemplacement.ads  20060131171446 b9617c94
+D mssyst-windows-forms-toolstriplayoutstyle.ads  20060131171446 ea413ecd
+D mssyst-windows-forms-toolstriprendermode.ads  20060131171448 c1599e1e
+D mssyst-windows-forms-toolstriptextdirection.ads  20060131171448 26b992df
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 121|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 121|7r6 10r6 11r6 24r6 28r6 29r6 30r6 32r6 33r6 36r6 41r6
+. 42r6 43r6 44r6 45r6 47r6 50r6 51r6 54r6 55r6 58r6 59r6 60r9 67r20 68r14
+. 76r14 79r11 82r15 85r15 88r15 91r15 94r15 97r15 104r11 107r11 111r11 115r11
+. 117r33 119r33 121r33 123r33 125r33 127r33 131r33 137r33 141r33 149r33 151r33
+. 163r26 163r64 166r15 169r15 172r15 175r15 178r15 181r15 190r15 193r15 196r15
+. 199r15 202r15 208r15 217r15 232r15 235r15 246r33 311r5 313r20
+X 13 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 121|11r13 68r21
+X 15 mssyst-componentmodel-component.ads
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{17|15P9}
+42U14*remove_Disposed
+X 16 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 121|11w28 68r36
+13R9*Typ 121|68r47
+X 17 mssyst-componentmodel-icontainer.ads
+15P9 Ref(integer)
+X 18 mssyst-componentmodel-isite.ads
+16P9 Ref(integer)
+X 21 mssyst-drawing.ads
+6K16*Drawing 7e19 121|41r13 123r40 163r33 163r71 199r22
+X 22 mssyst-drawing-color.ads
+16R9 ValueType
+X 23 mssyst-drawing-contentalignment.ads
+15K24*ContentAlignment 72e36 121|41w21
+X 24 mssyst-drawing-font.ads
+23P9 Ref(integer)
+X 27 mssyst-drawing-image.ads
+34K24 Image 121|123r48 199r30
+36P9 Ref(integer) 121|123r54 199r36
+X 31 mssyst-drawing-rectangle.ads
+18R9 ValueType
+X 33 mssyst-drawing-size.ads
+16K24 Size 121|163r41 163r79
+17R9 ValueType 121|163r46 163r84
+X 34 mssyst-eventhandler.ads
+24K16 EventHandler 121|82r22 85r22 88r22 91r22 94r22 97r22 166r22 169r22
+. 172r22 175r22 178r22 181r22
+26P9 Ref(integer) 121|82r35 85r35 88r35 91r35 94r35 97r35 166r35 169r35 172r35
+. 175r35 178r35 181r35
+X 42 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{61|23P9}
+27V13*GetLifetimeService{44|13P9}
+29V13*InitializeLifetimeService{44|13P9}
+X 44 mssyst-object.ads
+11K16*Object 46e18 121|7w13 149r40 232r22
+13P9*Ref(12R9) 121|149r47 232r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{71|51P9}
+X 61 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 66 mssyst-string.ads
+25K16 String 121|76r21 104r18 107r18 111r18 115r18 151r40 235r22 246r40
+27P9 Ref(integer) 121|76r28 104r25 107r25 111r25 115r25 151r47 235r29 246r47
+X 71 mssyst-type_k.ads
+51P9 Ref(integer)
+X 75 mssyst-windows.ads
+6K16*Windows 9|6k9 75|7e19 121|10r13 24r13 28r13 29r13 30r13 32r13 33r13
+. 36r13 42r13 43r13 44r13 45r13 47r13 50r13 51r13 54r13 55r13 58r13 59r13
+. 60r16 67r27 79r18 117r40 119r40 121r40 125r40 127r40 131r40 137r40 141r40
+. 190r22 193r22 196r22 202r22 208r22 217r22 311r12 313r27
+X 76 mssyst-windows-forms.ads
+6K24*Forms 75|6k16 76|7e25 121|10r21 24r21 28r21 29r21 30r21 32r21 33r21
+. 36r21 42r21 43r21 44r21 45r21 47r21 50r21 51r21 54r21 55r21 58r21 59r21
+. 60r24 67r35 79r26 117r48 119r48 121r48 125r48 127r48 131r48 137r48 141r48
+. 190r30 193r30 196r30 202r30 208r30 217r30 311r20 313r35
+X 78 mssyst-windows-forms-accessibleobject.ads
+24P9 Ref(integer)
+X 79 mssyst-windows-forms-accessiblerole.ads
+15K30*AccessibleRole 186e40 121|28w27
+X 82 mssyst-windows-forms-anchorstyles.ads
+15K30*AnchorStyles 66e38 121|30w27
+X 84 mssyst-windows-forms-autocompletemode.ads
+15K30*AutoCompleteMode 62e42 121|32w27 119r54 193r36
+16E9*ValueType 20e21 121|119r71 193r53
+X 85 mssyst-windows-forms-autocompletesource.ads
+15K30*AutoCompleteSource 72e44 121|33w27 121r54 196r36
+16E9*ValueType 25e17 121|121r73 196r55
+X 86 mssyst-windows-forms-autocompletestringcollection.ads
+18K30 AutoCompleteStringCollection 121|117r54 190r36
+20P9 Ref(integer) 121|117r83 190r65
+X 88 mssyst-windows-forms-combobox.ads
+85K30 ComboBox 121|127r54 141r54
+87P9 Ref(integer) 121|127r63
+X 89 mssyst-windows-forms-combobox-objectcollection.ads
+18K39 ObjectCollection 121|141r63
+20P9 Ref(integer) 121|141r80
+X 90 mssyst-windows-forms-comboboxstyle.ads
+15K30*ComboBoxStyle 60e39 121|44w27 131r54 208r36
+16E9*ValueType 19e20 121|131r68 208r50
+X 91 mssyst-windows-forms-control.ads
+75K30 Control 121|79r32
+77P9 Ref(integer) 121|79r40
+X 92 mssyst-windows-forms-dockstyle.ads
+15K30*DockStyle 66e35 121|43w27
+X 93 mssyst-windows-forms-dragdropeffects.ads
+15K30*DragDropEffects 68e41 121|24w27
+X 96 mssyst-windows-forms-flatstyle.ads
+15K30*FlatStyle 62e35 121|45w27 137r54 217r36
+16E9*ValueType 20e14 121|137r64 217r46
+X 100 mssyst-windows-forms-imagelayout.ads
+15K30*ImageLayout 64e37 121|36w27 125r54 202r36
+16E9*ValueType 21e12 121|125r66 202r48
+X 107 mssyst-windows-forms-mergeaction.ads
+15K30*MergeAction 64e37 121|50w27
+X 112 mssyst-windows-forms-padding.ads
+16R9 ValueType
+X 117 mssyst-windows-forms-righttoleft.ads
+15K30*RightToLeft 60e37 121|55w27
+X 119 mssyst-windows-forms-textimagerelation.ads
+15K30*TextImageRelation 64e43 121|59w27
+X 120 mssyst-windows-forms-toolstrip.ads
+97P9 Ref(integer)
+X 121 mssyst-windows-forms-toolstripcombobox.ads
+60K30*ToolStripComboBox 76|6k24 121|311l26 311e43 313r41
+61R9*Typ 62r27 67c9 81r21 84r21 87r21 90r21 93r21 96r21 99r21 101r21 103r21
+. 106r21 110r21 114r21 117r21 119r21 121r21 123r21 125r21 127r21 129r21 131r21
+. 133r21 135r21 137r21 139r21 141r21 143r21 145r21 147r21 149r21 151r21 153r21
+. 155r21 157r21 159r21 162r21 165r21 168r21 171r21 174r21 177r21 180r21 183r21
+. 187r21 189r21 192r21 195r21 198r21 201r21 204r21 207r21 210r21 213r21 216r21
+. 219r21 222r21 225r21 228r21 231r21 234r21 237r21 240r21 243r21 246r21 248r27
+62P9*Ref(61R9) 63r34 64r47 73r14 73r34 75r14 76r40 78r14 79r52
+63P9*Ref_addrof(62P9)
+64A9*Ref_Arr(62P9) 65r33
+65P9*Ref_Array(64A9) 66r40
+66P9*Ref_Array_addrof(65P9)
+67R9*Typ<122|59R9> 15|33P14 36p14 38p13 42P14 42|24p13 27p13 29p13 44|23p13
+. 29p13 31p13 121|71e14 80P14 83p14 86p14 89p14 92p14 95p14 98p14 100p14
+. 102p13 105p13 109p13 113p13 116p13 118p13 120p13 122P13 124P13 126p13 128p13
+. 130p13 132p13 134p13 136p13 138p13 140p13 142p13 144p13 146p13 148p13 150p13
+. 152p13 154p13 156p13 158p13 161P13 164P14 167p14 170p14 173p14 176p14 179p14
+. 182p14 186p14 188p14 191p14 194p14 197P14 200P14 203p14 206p14 209p14 212p14
+. 215p14 218p14 221p14 224p14 227p14 230p14 233p14 236p14 239p14 242p14 245P13
+. 122|71P14 74p14 77p14 80p14 83p14 86p14 89p14 92p14 95p14 98p14 101p14
+. 103P13 109P13 111p13 113p13 115p13 117P13 119P13 121P13 123p13 125P13 127P13
+. 129P13 131P13 133P13 135P13 137P13 139P13 141P13 143P13 145P13 147P13 149P13
+. 151P13 153P13 158P14 161p14 164p14 167p14 170p14 173p14 176p14 179p14 182p14
+. 185p14 188P14 190P14 192P14 201p14 204p14 207P14 210P14 213P14 216P14 219P14
+. 222P14 225P14 228P14 231P14 234P14 237P14 240P14 243P14 246P14 249P14 252P14
+. 255P14 126|60p14 63p14 66p14 75p14 78p14 81p14 84p14 87p14 90p14 93p14
+. 96p14 99p14 102p14 105p14 108p14 111p14 114p14 117p14 120p14 123p14 126p14
+. 129p14 132p14 135p14 138p13 142p13 144p13 146p13 148p13 150p13 152p13 154p13
+. 156p13 158p13 160p13 162p13 170p13 174p13 178p13 188p13 194p13 196p13 202p13
+. 204p13 206p13 208p13 210p13 212p13 214p13 216p13 218p13 220p13 222p13 224p13
+. 226p13 236p13 246p13 248p13 250p13 252p13 257p14 260p14 262p14 264p14 267p14
+. 270p14 279p14 282p14 285p14 288p14 291p14 294p14 297p14 300p14 303p14 306p14
+. 309p14 312p14 315p14 318p14 321p14 324p14 327p14 330p14 333p14 336p14 339p14
+. 344p14 346p14 350p14 352p14 354p14 356p14 358p14 360p14 362p14 365p14 368p14
+. 371p14 374p14 377p14 380p14 383p14 386p14 389p14 404p14 419p14 428p14 431p14
+. 440p14 443p14 446p14 449p14 452p14 455p14 458p14 470p14 485p14 488p14 491p14
+72V13*new_ToolStripComboBox{62P9} 73>7
+73p7 This{62P9}
+74V13*new_ToolStripComboBox{62P9} 75>7 76>7
+75p7 This{62P9}
+76p7 name{66|27P9}
+77V13*new_ToolStripComboBox{62P9} 78>7 79>7
+78p7 This{62P9}
+79p7 c{91|77P9}
+80U14*add_DoubleClick 81^7 82>7 250b23
+81p7 This(67R9)
+82p7 value{34|26P9}
+83U14*add_DropDown 84^7 85>7 251b23
+84p7 This(67R9)
+85p7 value{34|26P9}
+86U14*add_DropDownClosed 87^7 88>7 252b23
+87p7 This(67R9)
+88p7 value{34|26P9}
+89U14*add_DropDownStyleChanged 90^7 91>7 253b23
+90p7 This(67R9)
+91p7 value{34|26P9}
+92U14*add_SelectedIndexChanged 93^7 94>7 254b23
+93p7 This(67R9)
+94p7 value{34|26P9}
+95U14*add_TextUpdate 96^7 97>7 255b23
+96p7 This(67R9)
+97p7 value{34|26P9}
+98U14*BeginUpdate 99^7 256b23
+99p7 This(67R9)
+100U14*EndUpdate 101^7 257b23
+101p7 This(67R9)
+102V13*FindString{integer} 103^7 104>7
+103p7 This(67R9)
+104p7 s{66|27P9}
+105V13*FindString{integer} 106^7 107>7 108>7 258b23
+106p7 This(67R9)
+107p7 s{66|27P9}
+108i7 startIndex{integer}
+109V13*FindStringExact{integer} 110^7 111>7 112>7
+110p7 This(67R9)
+111p7 s{66|27P9}
+112i7 startIndex{integer}
+113V13*FindStringExact{integer} 114^7 115>7 259b23
+114p7 This(67R9)
+115p7 s{66|27P9}
+116V13*get_AutoCompleteCustomSource{86|20P9} 117^7 260b23
+117p7 This(67R9)
+118V13*get_AutoCompleteMode{84|16E9} 119^7 261b23
+119p7 This(67R9)
+120V13*get_AutoCompleteSource{85|16E9} 121^7 262b23
+121p7 This(67R9)
+122V13*get_BackgroundImage{27|36P9} 123^7 263b23
+123p7 This(67R9)
+124V13*get_BackgroundImageLayout{100|16E9} 125^7 264b23
+125p7 This(67R9)
+126V13*get_ComboBox{88|87P9} 127^7 265b23
+127p7 This(67R9)
+128V13*get_DropDownHeight{integer} 129^7 266b23
+129p7 This(67R9)
+130V13*get_DropDownStyle{90|16E9} 131^7 267b23
+131p7 This(67R9)
+132V13*get_DropDownWidth{integer} 133^7 268b23
+133p7 This(67R9)
+134V13*get_DroppedDown{boolean} 135^7 269b23
+135p7 This(67R9)
+136V13*get_FlatStyle{96|16E9} 137^7 270b23
+137p7 This(67R9)
+138V13*get_IntegralHeight{boolean} 139^7 271b23
+139p7 This(67R9)
+140V13*get_Items{89|20P9} 141^7 272b23
+141p7 This(67R9)
+142V13*get_MaxDropDownItems{integer} 143^7 273b23
+143p7 This(67R9)
+144V13*get_MaxLength{integer} 145^7 274b23
+145p7 This(67R9)
+146V13*get_SelectedIndex{integer} 147^7 275b23
+147p7 This(67R9)
+148V13*get_SelectedItem{44|13P9} 149^7 276b23
+149p7 This(67R9)
+150V13*get_SelectedText{66|27P9} 151^7 277b23
+151p7 This(67R9)
+152V13*get_SelectionLength{integer} 153^7 278b23
+153p7 This(67R9)
+154V13*get_SelectionStart{integer} 155^7 279b23
+155p7 This(67R9)
+156V13*get_Sorted{boolean} 157^7 280b23
+157p7 This(67R9)
+158V13*GetItemHeight{integer} 159^7 160>7 281b23
+159p7 This(67R9)
+160i7 index{integer}
+161V13*GetPreferredSize{33|17R9} 162^7 163>7 282b23
+162p7 This(67R9)
+163r7 constrainingSize{33|17R9}
+164U14*remove_DoubleClick 165^7 166>7 283b23
+165p7 This(67R9)
+166p7 value{34|26P9}
+167U14*remove_DropDown 168^7 169>7 284b23
+168p7 This(67R9)
+169p7 value{34|26P9}
+170U14*remove_DropDownClosed 171^7 172>7 285b23
+171p7 This(67R9)
+172p7 value{34|26P9}
+173U14*remove_DropDownStyleChanged 174^7 175>7 286b23
+174p7 This(67R9)
+175p7 value{34|26P9}
+176U14*remove_SelectedIndexChanged 177^7 178>7 287b23
+177p7 This(67R9)
+178p7 value{34|26P9}
+179U14*remove_TextUpdate 180^7 181>7 288b23
+180p7 This(67R9)
+181p7 value{34|26P9}
+182U14*Select_k 183^7 184>7 185>7 289b23
+183p7 This(67R9)
+184i7 start{integer}
+185i7 length{integer}
+186U14*SelectAll 187^7 290b23
+187p7 This(67R9)
+188U14*set_AutoCompleteCustomSource 189^7 190>7 291b23
+189p7 This(67R9)
+190p7 value{86|20P9}
+191U14*set_AutoCompleteMode 192^7 193>7 292b23
+192p7 This(67R9)
+193e7 value{84|16E9}
+194U14*set_AutoCompleteSource 195^7 196>7 293b23
+195p7 This(67R9)
+196e7 value{85|16E9}
+197U14*set_BackgroundImage 198^7 199>7 294b23
+198p7 This(67R9)
+199p7 value{27|36P9}
+200U14*set_BackgroundImageLayout 201^7 202>7 295b23
+201p7 This(67R9)
+202e7 value{100|16E9}
+203U14*set_DropDownHeight 204^7 205>7 296b23
+204p7 This(67R9)
+205i7 value{integer}
+206U14*set_DropDownStyle 207^7 208>7 297b23
+207p7 This(67R9)
+208e7 value{90|16E9}
+209U14*set_DropDownWidth 210^7 211>7 298b23
+210p7 This(67R9)
+211i7 value{integer}
+212U14*set_DroppedDown 213^7 214>7 299b23
+213p7 This(67R9)
+214b7 value{boolean}
+215U14*set_FlatStyle 216^7 217>7 300b23
+216p7 This(67R9)
+217e7 value{96|16E9}
+218U14*set_IntegralHeight 219^7 220>7 301b23
+219p7 This(67R9)
+220b7 value{boolean}
+221U14*set_MaxDropDownItems 222^7 223>7 302b23
+222p7 This(67R9)
+223i7 value{integer}
+224U14*set_MaxLength 225^7 226>7 303b23
+225p7 This(67R9)
+226i7 value{integer}
+227U14*set_SelectedIndex 228^7 229>7 304b23
+228p7 This(67R9)
+229i7 value{integer}
+230U14*set_SelectedItem 231^7 232>7 305b23
+231p7 This(67R9)
+232p7 value{44|13P9}
+233U14*set_SelectedText 234^7 235>7 306b23
+234p7 This(67R9)
+235p7 value{66|27P9}
+236U14*set_SelectionLength 237^7 238>7 307b23
+237p7 This(67R9)
+238i7 value{integer}
+239U14*set_SelectionStart 240^7 241>7 308b23
+240p7 This(67R9)
+241i7 value{integer}
+242U14*set_Sorted 243^7 244>7 309b23
+243p7 This(67R9)
+244b7 value{boolean}
+245V13*ToString{66|27P9} 246^7 310b23
+246p7 This(67R9)
+X 122 mssyst-windows-forms-toolstripcontrolhost.ads
+52K30*ToolStripControlHost 121|10w27 67r41 122|333e46
+53R9*Typ 121|67r62
+71U14*add_DisplayStyleChanged
+74U14*add_Enter
+77U14*add_GotFocus
+80U14*add_KeyDown
+83U14*add_KeyPress
+86U14*add_KeyUp
+89U14*add_Leave
+92U14*add_LostFocus
+95U14*add_Validated
+98U14*add_Validating
+101U14*Focus
+103V13*get_BackColor{22|16R9}
+109V13*get_CanSelect{boolean}
+111V13*get_CausesValidation{boolean}
+113V13*get_Control{91|77P9}
+115V13*get_ControlAlign{23|16E9}
+117V13*get_DisplayStyle{128|16E9}
+119V13*get_DoubleClickEnabled{boolean}
+121V13*get_Enabled{boolean}
+123V13*get_Focused{boolean}
+125V13*get_Font{24|23P9}
+127V13*get_ForeColor{22|16R9}
+129V13*get_Image{27|36P9}
+131V13*get_ImageAlign{23|16E9}
+133V13*get_ImageScaling{129|16E9}
+135V13*get_ImageTransparentColor{22|16R9}
+137V13*get_RightToLeft{117|16E9}
+139V13*get_RightToLeftAutoMirrorImage{boolean}
+141V13*get_Selected{boolean}
+143V13*get_Site{18|16P9}
+145V13*get_Size{33|17R9}
+147V13*get_Text{66|27P9}
+149V13*get_TextAlign{23|16E9}
+151V13*get_TextDirection{134|16E9}
+153V13*get_TextImageRelation{119|16E9}
+158U14*remove_DisplayStyleChanged
+161U14*remove_Enter
+164U14*remove_GotFocus
+167U14*remove_KeyDown
+170U14*remove_KeyPress
+173U14*remove_KeyUp
+176U14*remove_Leave
+179U14*remove_LostFocus
+182U14*remove_Validated
+185U14*remove_Validating
+188U14*ResetBackColor
+190U14*ResetForeColor
+192U14*set_BackColor
+201U14*set_CausesValidation
+204U14*set_ControlAlign
+207U14*set_DisplayStyle
+210U14*set_DoubleClickEnabled
+213U14*set_Enabled
+216U14*set_Font
+219U14*set_ForeColor
+222U14*set_Image
+225U14*set_ImageAlign
+228U14*set_ImageScaling
+231U14*set_ImageTransparentColor
+234U14*set_RightToLeft
+237U14*set_RightToLeftAutoMirrorImage
+240U14*set_Site
+243U14*set_Size
+246U14*set_Text
+249U14*set_TextAlign
+252U14*set_TextDirection
+255U14*set_TextImageRelation
+X 126 mssyst-windows-forms-toolstripitem.ads
+50P9*Ref(49R9)
+60U14*add_AvailableChanged
+63U14*add_BackColorChanged
+66U14*add_Click
+75U14*add_DragDrop
+78U14*add_DragEnter
+81U14*add_DragLeave
+84U14*add_DragOver
+87U14*add_EnabledChanged
+90U14*add_ForeColorChanged
+93U14*add_GiveFeedback
+96U14*add_LocationChanged
+99U14*add_MouseDown
+102U14*add_MouseEnter
+105U14*add_MouseHover
+108U14*add_MouseLeave
+111U14*add_MouseMove
+114U14*add_MouseUp
+117U14*add_OwnerChanged
+120U14*add_Paint
+123U14*add_QueryAccessibilityHelp
+126U14*add_QueryContinueDrag
+129U14*add_RightToLeftChanged
+132U14*add_TextChanged
+135U14*add_VisibleChanged
+138V13*DoDragDrop{93|16E9}
+142V13*get_AccessibilityObject{78|24P9}
+144V13*get_AccessibleDefaultActionDescription{66|27P9}
+146V13*get_AccessibleDescription{66|27P9}
+148V13*get_AccessibleName{66|27P9}
+150V13*get_AccessibleRole{79|16E9}
+152V13*get_Alignment{127|16E9}
+154V13*get_AllowDrop{boolean}
+156V13*get_Anchor{82|16E9}
+158V13*get_AutoSize{boolean}
+160V13*get_AutoToolTip{boolean}
+162V13*get_Available{boolean}
+170V13*get_Bounds{31|18R9}
+174V13*get_ContentRectangle{31|18R9}
+178V13*get_Dock{92|16E9}
+188V13*get_Height{integer}
+194V13*get_ImageIndex{integer}
+196V13*get_ImageKey{66|27P9}
+202V13*get_IsDisposed{boolean}
+204V13*get_IsOnDropDown{boolean}
+206V13*get_IsOnOverflow{boolean}
+208V13*get_Margin{112|16R9}
+210V13*get_MergeAction{107|16E9}
+212V13*get_MergeIndex{integer}
+214V13*get_Name{66|27P9}
+216V13*get_Overflow{130|16E9}
+218V13*get_Owner{120|97P9}
+220V13*get_OwnerItem{50P9}
+222V13*get_Padding{112|16R9}
+224V13*get_Placement{131|16E9}
+226V13*get_Pressed{boolean}
+236V13*get_Tag{44|13P9}
+246V13*get_ToolTipText{66|27P9}
+248V13*get_Visible{boolean}
+250V13*get_Width{integer}
+252V13*GetCurrentParent{120|97P9}
+257U14*Invalidate
+260U14*Invalidate
+262U14*PerformClick
+264U14*remove_AvailableChanged
+267U14*remove_BackColorChanged
+270U14*remove_Click
+279U14*remove_DragDrop
+282U14*remove_DragEnter
+285U14*remove_DragLeave
+288U14*remove_DragOver
+291U14*remove_EnabledChanged
+294U14*remove_ForeColorChanged
+297U14*remove_GiveFeedback
+300U14*remove_LocationChanged
+303U14*remove_MouseDown
+306U14*remove_MouseEnter
+309U14*remove_MouseHover
+312U14*remove_MouseLeave
+315U14*remove_MouseMove
+318U14*remove_MouseUp
+321U14*remove_OwnerChanged
+324U14*remove_Paint
+327U14*remove_QueryAccessibilityHelp
+330U14*remove_QueryContinueDrag
+333U14*remove_RightToLeftChanged
+336U14*remove_TextChanged
+339U14*remove_VisibleChanged
+344U14*ResetDisplayStyle
+346U14*ResetFont
+350U14*ResetImage
+352U14*ResetMargin
+354U14*ResetPadding
+356U14*ResetRightToLeft
+358U14*ResetTextDirection
+360U14*Select_k
+362U14*set_AccessibleDefaultActionDescription
+365U14*set_AccessibleDescription
+368U14*set_AccessibleName
+371U14*set_AccessibleRole
+374U14*set_Alignment
+377U14*set_AllowDrop
+380U14*set_Anchor
+383U14*set_AutoSize
+386U14*set_AutoToolTip
+389U14*set_Available
+404U14*set_Dock
+419U14*set_Height
+428U14*set_ImageIndex
+431U14*set_ImageKey
+440U14*set_Margin
+443U14*set_MergeAction
+446U14*set_MergeIndex
+449U14*set_Name
+452U14*set_Overflow
+455U14*set_Owner
+458U14*set_Padding
+470U14*set_Tag
+485U14*set_ToolTipText
+488U14*set_Visible
+491U14*set_Width
+X 127 mssyst-windows-forms-toolstripitemalignment.ads
+15K30*ToolStripItemAlignment 121|29w27 127|58e48
+X 128 mssyst-windows-forms-toolstripitemdisplaystyle.ads
+15K30*ToolStripItemDisplayStyle 121|42w27 128|62e51
+X 129 mssyst-windows-forms-toolstripitemimagescaling.ads
+15K30*ToolStripItemImageScaling 121|47w27 129|58e51
+X 130 mssyst-windows-forms-toolstripitemoverflow.ads
+15K30*ToolStripItemOverflow 121|51w27 130|60e47
+X 131 mssyst-windows-forms-toolstripitemplacement.ads
+15K30*ToolStripItemPlacement 121|54w27 131|60e48
+X 134 mssyst-windows-forms-toolstriptextdirection.ads
+15K30*ToolStripTextDirection 121|58w27 134|62e48
+

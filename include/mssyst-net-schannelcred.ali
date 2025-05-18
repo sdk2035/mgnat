@@ -1,0 +1,21 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U mssyst.net.schannelcred%s  mssyst-net-schannelcred.ads  fc086f7a EE PK
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-net.ads	20050914013308 aa03617c
+D mssyst-net-schannelcred.ads  20050914013308 560b0e06
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 3|6r9 7r5
+X 2 mssyst-net.ads
+6K16*Net 1|6k9 2|7e15 3|6r16 7r12
+X 3 mssyst-net-schannelcred.ads
+6K20*SChannelCred 2|6k16 3|7l16 7e28
+

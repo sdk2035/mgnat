@@ -1,0 +1,516 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.datagridtablestyle%s  mssyst-windows-forms-datagridtablestyle.ads  0b87f797 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.component%s  mssyst-componentmodel-component.ads  mssyst-componentmodel-component.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.datagridlinestyle%s  mssyst-windows-forms-datagridlinestyle.ads  mssyst-windows-forms-datagridlinestyle.ali
+W mssyst.windows.forms.idatagrideditingservice%s  mssyst-windows-forms-idatagrideditingservice.ads  mssyst-windows-forms-idatagrideditingservice.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-componentmodel-isupportinitialize.ads  20060131171414 998e727f
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-color.ads  20060131171430 efe0dbd6
+D mssyst-drawing-font.ads  20060131171430 86695792
+D mssyst-drawing-fontstyle.ads  20060131171430 a1bbe068
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-knowncolor.ads  20060131171430 28ff3226
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-accessiblerole.ads  20060131171436 c08bcb4f
+D mssyst-windows-forms-anchorstyles.ads  20060131171436 22446596
+D mssyst-windows-forms-basecollection.ads  20060131171436 b2ab18c0
+D mssyst-windows-forms-bindingmanagerbase.ads  20060131171436 9cfdaa41
+D mssyst-windows-forms-borderstyle.ads  20060131171436 fb8d17ef
+D mssyst-windows-forms-boundsspecified.ads  20060131171436 2f9ca777
+D mssyst-windows-forms-control.ads  20060131171436 1c03b650
+D mssyst-windows-forms-currencymanager.ads  20060131171438 227fcb56
+D mssyst-windows-forms-datagrid.ads  20060131171438 6e6c438b
+D mssyst-windows-forms-datagridcolumnstyle.ads  20060131171438 b942a38e
+D mssyst-windows-forms-datagridlinestyle.ads  20060131171438 a8e30374
+D mssyst-windows-forms-datagridparentrowslabelstyle.ads  20060131171438 54b71875
+D mssyst-windows-forms-datagridtablestyle.ads  20060131171438 f2537cef
+D mssyst-windows-forms-dockstyle.ads  20060131171440 a08bf6b6
+D mssyst-windows-forms-dragdropeffects.ads  20060131171440 dfaed805
+D mssyst-windows-forms-getchildatpointskip.ads  20060131171442 84d63876
+D mssyst-windows-forms-gridcolumnstylescollection.ads  20060131171438 f15e4d80
+D mssyst-windows-forms-horizontalalignment.ads  20060131171442 9afe1d98
+D mssyst-windows-forms-ibindablecomponent.ads  20060131171436 1e1050b2
+D mssyst-windows-forms-idatagridcolumnstyleeditingnotificationservice.ads  20060131171438 a18f8a3b
+D mssyst-windows-forms-idatagrideditingservice.ads  20060131171438 98c8df03
+D mssyst-windows-forms-imagelayout.ads  20060131171442 e0e6ce51
+D mssyst-windows-forms-imemode.ads  20060131171442 58d96089
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D mssyst-windows-forms-keys.ads  20060131171442 e98517be
+D mssyst-windows-forms-message.ads  20060131171444 f6b3d9da
+D mssyst-windows-forms-mousebuttons.ads  20060131171444 1b279075
+D mssyst-windows-forms-preprocesscontrolstate.ads  20060131171446 047a345d
+D mssyst-windows-forms-righttoleft.ads  20060131171446 898cfeaf
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 81|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 81|7r6 10r6 11r6 12r6 22r6 27r9 34r20 35r14 36r14 40r24 49r21
+. 52r15 55r15 58r15 61r15 64r15 67r15 70r15 73r15 76r15 79r15 82r15 85r15
+. 88r15 91r15 94r15 97r15 100r15 103r15 106r15 109r15 112r20 116r20 122r33
+. 124r33 128r33 130r33 132r33 134r33 136r33 138r33 140r33 142r33 144r33 146r33
+. 148r33 160r33 162r33 165r15 168r15 171r15 174r15 177r15 180r15 183r15 186r15
+. 189r15 192r15 195r15 198r15 201r15 204r15 207r15 210r15 213r15 216r15 219r15
+. 222r15 250r15 253r15 259r15 262r15 265r15 268r15 271r15 274r15 277r15 280r15
+. 283r15 286r15 304r15 307r15 407r5 409r20
+X 13 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 81|10r13 11r13 34r27 35r21
+X 14 mssyst-componentmodel-component.ads
+19K31*Component 60e36 81|10w28 34r42
+20R9*Typ 81|34r52
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{16|15P9}
+40V13*get_Site{17|16P9}
+42U14*remove_Disposed
+45U14*set_Site
+48V13*ToString{58|27P9}
+X 15 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 81|11w28 35r36
+13R9*Typ 81|35r47
+X 16 mssyst-componentmodel-icontainer.ads
+15P9 Ref(integer)
+X 17 mssyst-componentmodel-isite.ads
+16P9 Ref(integer)
+X 21 mssyst-drawing.ads
+6K16 Drawing 81|122r40 124r40 130r40 134r40 138r40 140r40 142r40 144r40 146r40
+. 160r40 162r40 250r22 253r22 262r22 265r22 271r22 274r22 277r22 280r22 283r22
+. 304r22 307r22
+X 22 mssyst-drawing-color.ads
+15K24 Color 81|122r48 124r48 130r48 134r48 138r48 142r48 144r48 146r48 160r48
+. 162r48 250r30 253r30 262r30 265r30 271r30 277r30 280r30 283r30 304r30 307r30
+16R9 ValueType 81|122r54 124r54 130r54 134r54 138r54 142r54 144r54 146r54
+. 160r54 162r54 250r36 253r36 262r36 265r36 271r36 277r36 280r36 283r36 304r36
+. 307r36
+X 23 mssyst-drawing-font.ads
+21K24 Font 81|140r48 274r30
+23P9 Ref(integer) 81|140r53 274r35
+X 27 mssyst-eventhandler.ads
+24K16 EventHandler 81|52r22 55r22 58r22 61r22 64r22 67r22 70r22 73r22 76r22
+. 79r22 82r22 85r22 88r22 91r22 94r22 97r22 100r22 103r22 106r22 109r22 165r22
+. 168r22 171r22 174r22 177r22 180r22 183r22 186r22 189r22 192r22 195r22 198r22
+. 201r22 204r22 207r22 210r22 213r22 216r22 219r22 222r22
+26P9 Ref(integer) 81|52r35 55r35 58r35 61r35 64r35 67r35 70r35 73r35 76r35
+. 79r35 82r35 85r35 88r35 91r35 94r35 97r35 100r35 103r35 106r35 109r35 165r35
+. 168r35 171r35 174r35 177r35 180r35 183r35 186r35 189r35 192r35 195r35 198r35
+. 201r35 204r35 207r35 210r35 213r35 216r35 219r35 222r35
+X 35 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{53|23P9}
+27V13*GetLifetimeService{37|13P9}
+29V13*InitializeLifetimeService{37|13P9}
+X 37 mssyst-object.ads
+11K16*Object 46e18 81|7w13
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{63|51P9}
+X 53 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 58 mssyst-string.ads
+25K16 String 81|148r40 286r22
+27P9 Ref(integer) 81|148r47 286r29
+X 63 mssyst-type_k.ads
+51P9 Ref(integer)
+X 67 mssyst-windows.ads
+6K16*Windows 9|6k9 67|7e19 81|12r13 22r13 27r16 36r21 40r31 49r28 112r27
+. 116r27 128r40 132r40 136r40 259r22 268r22 407r12 409r27
+X 68 mssyst-windows-forms.ads
+6K24*Forms 67|6k16 68|7e25 81|12r21 22r21 27r24 36r29 40r39 49r36 112r35
+. 116r35 128r48 132r48 136r48 259r30 268r30 407r20 409r35
+X 76 mssyst-windows-forms-currencymanager.ads
+22K30 CurrencyManager 81|49r42
+24P9 Ref(integer) 81|49r58
+X 77 mssyst-windows-forms-datagrid.ads
+83K30 DataGrid 81|128r54 259r36
+85P9 Ref(integer) 81|128r63 259r45
+X 78 mssyst-windows-forms-datagridcolumnstyle.ads
+24K30 DataGridColumnStyle 81|112r41 116r41
+26P9 Ref(integer) 81|112r61 116r61
+X 79 mssyst-windows-forms-datagridlinestyle.ads
+15K30*DataGridLineStyle 58e43 81|22w27 136r54 268r36
+16E9*ValueType 18e13 81|136r72 268r54
+X 81 mssyst-windows-forms-datagridtablestyle.ads
+27K30*DataGridTableStyle 68|6k24 81|40r45 407l26 407e44 409r41
+28R9*Typ 29r27 34c9 51r21 54r21 57r21 60r21 63r21 66r21 69r21 72r21 75r21
+. 78r21 81r21 84r21 87r21 90r21 93r21 96r21 99r21 102r21 105r21 108r21 111r21
+. 115r21 120r21 122r21 124r21 126r21 128r21 130r21 132r21 134r21 136r21 138r21
+. 140r21 142r21 144r21 146r21 148r21 150r21 152r21 154r21 156r21 158r21 160r21
+. 162r21 164r21 167r21 170r21 173r21 176r21 179r21 182r21 185r21 188r21 191r21
+. 194r21 197r21 200r21 203r21 206r21 209r21 212r21 215r21 218r21 221r21 224r21
+. 226r21 228r21 230r21 232r21 234r21 236r21 238r21 240r21 242r21 244r21 246r21
+. 249r21 252r21 255r21 258r21 261r21 264r21 267r21 270r21 273r21 276r21 279r21
+. 282r21 285r21 288r21 291r21 294r21 297r21 300r21 303r21 306r21 309r27
+29P9*Ref(28R9) 30r34 31r47 40r64 43r14 44r54 46r14 46r34 48r14 49r70
+30P9*Ref_addrof(29P9)
+31A9*Ref_Arr(29P9) 32r33
+32P9*Ref_Array(31A9) 33r40
+33P9*Ref_Array_addrof(32P9)
+34R9*Typ<14|26R9> 14|33P14 36p14 38p13 40P13 42P14 45P14 48P13 35|24p13 27p13
+. 29p13 37|23p13 29p13 31p13 81|39e14 50p14 53p14 56p14 59p14 62p14 65p14
+. 68p14 71p14 74p14 77p14 80p14 83p14 86p14 89p14 92p14 95p14 98p14 101p14
+. 104p14 107p14 110P13 114P13 119p13 121p13 123p13 125p13 127p13 129p13 131p13
+. 133p13 135p13 137p13 139p13 141p13 143p13 145p13 147p13 149p13 151p13 153p13
+. 155p13 157p13 159p13 161p13 163p14 166p14 169p14 172p14 175p14 178p14 181p14
+. 184p14 187p14 190p14 193p14 196p14 199p14 202p14 205p14 208p14 211p14 214p14
+. 217p14 220p14 223p14 225p14 227p14 229p14 231p14 233p14 235p14 237p14 239p14
+. 241p14 243p14 245p14 248p14 251p14 254p14 257p14 260p14 263p14 266p14 269p14
+. 272p14 275p14 278p14 281p14 284p14 287p14 290p14 293p14 296p14 299p14 302p14
+. 305p14
+40p4*DefaultTableStyle{29P9} 41m23
+42V13*new_DataGridTableStyle{29P9} 43>7 44>7
+43p7 This{29P9}
+44b7 isDefaultTableStyle{boolean}
+45V13*new_DataGridTableStyle{29P9} 46>7
+46p7 This{29P9}
+47V13*new_DataGridTableStyle{29P9} 48>7 49>7
+48p7 This{29P9}
+49p7 listManager{76|24P9}
+50U14*add_AllowSortingChanged 51^7 52>7 311b23
+51p7 This(34R9)
+52p7 value{27|26P9}
+53U14*add_AlternatingBackColorChanged 54^7 55>7 312b23
+54p7 This(34R9)
+55p7 value{27|26P9}
+56U14*add_BackColorChanged 57^7 58>7 313b23
+57p7 This(34R9)
+58p7 value{27|26P9}
+59U14*add_ColumnHeadersVisibleChanged 60^7 61>7 314b23
+60p7 This(34R9)
+61p7 value{27|26P9}
+62U14*add_ForeColorChanged 63^7 64>7 315b23
+63p7 This(34R9)
+64p7 value{27|26P9}
+65U14*add_GridLineColorChanged 66^7 67>7 316b23
+66p7 This(34R9)
+67p7 value{27|26P9}
+68U14*add_GridLineStyleChanged 69^7 70>7 317b23
+69p7 This(34R9)
+70p7 value{27|26P9}
+71U14*add_HeaderBackColorChanged 72^7 73>7 318b23
+72p7 This(34R9)
+73p7 value{27|26P9}
+74U14*add_HeaderFontChanged 75^7 76>7 319b23
+75p7 This(34R9)
+76p7 value{27|26P9}
+77U14*add_HeaderForeColorChanged 78^7 79>7 320b23
+78p7 This(34R9)
+79p7 value{27|26P9}
+80U14*add_LinkColorChanged 81^7 82>7 321b23
+81p7 This(34R9)
+82p7 value{27|26P9}
+83U14*add_LinkHoverColorChanged 84^7 85>7 322b23
+84p7 This(34R9)
+85p7 value{27|26P9}
+86U14*add_MappingNameChanged 87^7 88>7 323b23
+87p7 This(34R9)
+88p7 value{27|26P9}
+89U14*add_PreferredColumnWidthChanged 90^7 91>7 324b23
+90p7 This(34R9)
+91p7 value{27|26P9}
+92U14*add_PreferredRowHeightChanged 93^7 94>7 325b23
+93p7 This(34R9)
+94p7 value{27|26P9}
+95U14*add_ReadOnlyChanged 96^7 97>7 326b23
+96p7 This(34R9)
+97p7 value{27|26P9}
+98U14*add_RowHeadersVisibleChanged 99^7 100>7 327b23
+99p7 This(34R9)
+100p7 value{27|26P9}
+101U14*add_RowHeaderWidthChanged 102^7 103>7 328b23
+102p7 This(34R9)
+103p7 value{27|26P9}
+104U14*add_SelectionBackColorChanged 105^7 106>7 329b23
+105p7 This(34R9)
+106p7 value{27|26P9}
+107U14*add_SelectionForeColorChanged 108^7 109>7 330b23
+108p7 This(34R9)
+109p7 value{27|26P9}
+110V13*BeginEdit{boolean} 111^7 112>7 113>7 331b23
+111p7 This(34R9)
+112p7 gridColumn{78|26P9}
+113i7 rowNumber{integer}
+114V13*EndEdit{boolean} 115^7 116>7 117>7 118>7 332b23
+115p7 This(34R9)
+116p7 gridColumn{78|26P9}
+117i7 rowNumber{integer}
+118b7 shouldAbort{boolean}
+119V13*get_AllowSorting{boolean} 120^7 333b23
+120p7 This(34R9)
+121V13*get_AlternatingBackColor{22|16R9} 122^7 334b23
+122p7 This(34R9)
+123V13*get_BackColor{22|16R9} 124^7 335b23
+124p7 This(34R9)
+125V13*get_ColumnHeadersVisible{boolean} 126^7 336b23
+126p7 This(34R9)
+127V13*get_DataGrid{77|85P9} 128^7 337b23
+128p7 This(34R9)
+129V13*get_ForeColor{22|16R9} 130^7 338b23
+130p7 This(34R9)
+131V13*get_GridColumnStyles{85|25P9} 132^7 339b23
+132p7 This(34R9)
+133V13*get_GridLineColor{22|16R9} 134^7 340b23
+134p7 This(34R9)
+135V13*get_GridLineStyle{79|16E9} 136^7 341b23
+136p7 This(34R9)
+137V13*get_HeaderBackColor{22|16R9} 138^7 342b23
+138p7 This(34R9)
+139V13*get_HeaderFont{23|23P9} 140^7 343b23
+140p7 This(34R9)
+141V13*get_HeaderForeColor{22|16R9} 142^7 344b23
+142p7 This(34R9)
+143V13*get_LinkColor{22|16R9} 144^7 345b23
+144p7 This(34R9)
+145V13*get_LinkHoverColor{22|16R9} 146^7 346b23
+146p7 This(34R9)
+147V13*get_MappingName{58|27P9} 148^7 347b23
+148p7 This(34R9)
+149V13*get_PreferredColumnWidth{integer} 150^7 348b23
+150p7 This(34R9)
+151V13*get_PreferredRowHeight{integer} 152^7 349b23
+152p7 This(34R9)
+153V13*get_ReadOnly{boolean} 154^7 350b23
+154p7 This(34R9)
+155V13*get_RowHeadersVisible{boolean} 156^7 351b23
+156p7 This(34R9)
+157V13*get_RowHeaderWidth{integer} 158^7 352b23
+158p7 This(34R9)
+159V13*get_SelectionBackColor{22|16R9} 160^7 353b23
+160p7 This(34R9)
+161V13*get_SelectionForeColor{22|16R9} 162^7 354b23
+162p7 This(34R9)
+163U14*remove_AllowSortingChanged 164^7 165>7 355b23
+164p7 This(34R9)
+165p7 value{27|26P9}
+166U14*remove_AlternatingBackColorChanged 167^7 168>7 356b23
+167p7 This(34R9)
+168p7 value{27|26P9}
+169U14*remove_BackColorChanged 170^7 171>7 357b23
+170p7 This(34R9)
+171p7 value{27|26P9}
+172U14*remove_ColumnHeadersVisibleChanged 173^7 174>7 358b23
+173p7 This(34R9)
+174p7 value{27|26P9}
+175U14*remove_ForeColorChanged 176^7 177>7 359b23
+176p7 This(34R9)
+177p7 value{27|26P9}
+178U14*remove_GridLineColorChanged 179^7 180>7 360b23
+179p7 This(34R9)
+180p7 value{27|26P9}
+181U14*remove_GridLineStyleChanged 182^7 183>7 361b23
+182p7 This(34R9)
+183p7 value{27|26P9}
+184U14*remove_HeaderBackColorChanged 185^7 186>7 362b23
+185p7 This(34R9)
+186p7 value{27|26P9}
+187U14*remove_HeaderFontChanged 188^7 189>7 363b23
+188p7 This(34R9)
+189p7 value{27|26P9}
+190U14*remove_HeaderForeColorChanged 191^7 192>7 364b23
+191p7 This(34R9)
+192p7 value{27|26P9}
+193U14*remove_LinkColorChanged 194^7 195>7 365b23
+194p7 This(34R9)
+195p7 value{27|26P9}
+196U14*remove_LinkHoverColorChanged 197^7 198>7 366b23
+197p7 This(34R9)
+198p7 value{27|26P9}
+199U14*remove_MappingNameChanged 200^7 201>7 367b23
+200p7 This(34R9)
+201p7 value{27|26P9}
+202U14*remove_PreferredColumnWidthChanged 203^7 204>7 368b23
+203p7 This(34R9)
+204p7 value{27|26P9}
+205U14*remove_PreferredRowHeightChanged 206^7 207>7 369b23
+206p7 This(34R9)
+207p7 value{27|26P9}
+208U14*remove_ReadOnlyChanged 209^7 210>7 370b23
+209p7 This(34R9)
+210p7 value{27|26P9}
+211U14*remove_RowHeadersVisibleChanged 212^7 213>7 371b23
+212p7 This(34R9)
+213p7 value{27|26P9}
+214U14*remove_RowHeaderWidthChanged 215^7 216>7 372b23
+215p7 This(34R9)
+216p7 value{27|26P9}
+217U14*remove_SelectionBackColorChanged 218^7 219>7 373b23
+218p7 This(34R9)
+219p7 value{27|26P9}
+220U14*remove_SelectionForeColorChanged 221^7 222>7 374b23
+221p7 This(34R9)
+222p7 value{27|26P9}
+223U14*ResetAlternatingBackColor 224^7 375b23
+224p7 This(34R9)
+225U14*ResetBackColor 226^7 376b23
+226p7 This(34R9)
+227U14*ResetForeColor 228^7 377b23
+228p7 This(34R9)
+229U14*ResetGridLineColor 230^7 378b23
+230p7 This(34R9)
+231U14*ResetHeaderBackColor 232^7 379b23
+232p7 This(34R9)
+233U14*ResetHeaderFont 234^7 380b23
+234p7 This(34R9)
+235U14*ResetHeaderForeColor 236^7 381b23
+236p7 This(34R9)
+237U14*ResetLinkColor 238^7 382b23
+238p7 This(34R9)
+239U14*ResetLinkHoverColor 240^7 383b23
+240p7 This(34R9)
+241U14*ResetSelectionBackColor 242^7 384b23
+242p7 This(34R9)
+243U14*ResetSelectionForeColor 244^7 385b23
+244p7 This(34R9)
+245U14*set_AllowSorting 246^7 247>7 386b23
+246p7 This(34R9)
+247b7 value{boolean}
+248U14*set_AlternatingBackColor 249^7 250>7 387b23
+249p7 This(34R9)
+250r7 value{22|16R9}
+251U14*set_BackColor 252^7 253>7 388b23
+252p7 This(34R9)
+253r7 value{22|16R9}
+254U14*set_ColumnHeadersVisible 255^7 256>7 389b23
+255p7 This(34R9)
+256b7 value{boolean}
+257U14*set_DataGrid 258^7 259>7 390b23
+258p7 This(34R9)
+259p7 value{77|85P9}
+260U14*set_ForeColor 261^7 262>7 391b23
+261p7 This(34R9)
+262r7 value{22|16R9}
+263U14*set_GridLineColor 264^7 265>7 392b23
+264p7 This(34R9)
+265r7 value{22|16R9}
+266U14*set_GridLineStyle 267^7 268>7 393b23
+267p7 This(34R9)
+268e7 value{79|16E9}
+269U14*set_HeaderBackColor 270^7 271>7 394b23
+270p7 This(34R9)
+271r7 value{22|16R9}
+272U14*set_HeaderFont 273^7 274>7 395b23
+273p7 This(34R9)
+274p7 value{23|23P9}
+275U14*set_HeaderForeColor 276^7 277>7 396b23
+276p7 This(34R9)
+277r7 value{22|16R9}
+278U14*set_LinkColor 279^7 280>7 397b23
+279p7 This(34R9)
+280r7 value{22|16R9}
+281U14*set_LinkHoverColor 282^7 283>7 398b23
+282p7 This(34R9)
+283r7 value{22|16R9}
+284U14*set_MappingName 285^7 286>7 399b23
+285p7 This(34R9)
+286p7 value{58|27P9}
+287U14*set_PreferredColumnWidth 288^7 289>7 400b23
+288p7 This(34R9)
+289i7 value{integer}
+290U14*set_PreferredRowHeight 291^7 292>7 401b23
+291p7 This(34R9)
+292i7 value{integer}
+293U14*set_ReadOnly 294^7 295>7 402b23
+294p7 This(34R9)
+295b7 value{boolean}
+296U14*set_RowHeadersVisible 297^7 298>7 403b23
+297p7 This(34R9)
+298b7 value{boolean}
+299U14*set_RowHeaderWidth 300^7 301>7 404b23
+300p7 This(34R9)
+301i7 value{integer}
+302U14*set_SelectionBackColor 303^7 304>7 405b23
+303p7 This(34R9)
+304r7 value{22|16R9}
+305U14*set_SelectionForeColor 306^7 307>7 406b23
+306p7 This(34R9)
+307r7 value{22|16R9}
+X 85 mssyst-windows-forms-gridcolumnstylescollection.ads
+23K30 GridColumnStylesCollection 81|132r54
+25P9 Ref(integer) 81|132r81
+X 89 mssyst-windows-forms-idatagrideditingservice.ads
+11K30*IDataGridEditingService 81|12w27 36r35 89|31e49
+12R9*Typ 81|36r59
+

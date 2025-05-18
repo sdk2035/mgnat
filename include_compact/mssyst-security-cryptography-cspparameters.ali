@@ -1,0 +1,177 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.security.cryptography.cspparameters%s  mssyst-security-cryptography-cspparameters.ads  55703414 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.cryptography%s  mssyst-security-cryptography.ads  mssyst-security-cryptography.ali
+W mssyst.security.cryptography.cspproviderflags%s  mssyst-security-cryptography-cspproviderflags.ads  mssyst-security-cryptography-cspproviderflags.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-constrainedexecution.ads  20060131165222 f6aa2aec
+D mssyst-runtime-constrainedexecution-criticalfinalizerobject.ads  20060131171354 4c20b64b
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-accesscontrol.ads  20060131165242 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060131171410 d41b00a6
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060131171410 dea99828
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060131171410 8a7c3246
+D mssyst-security-accesscontrol-auditflags.ads  20060131171410 7b3aaf2b
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060131171410 d4d4024f
+D mssyst-security-accesscontrol-cryptokeysecurity.ads  20060131171410 93619af6
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060131171410 f9355c16
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060131171410 d5b3ab4d
+D mssyst-security-accesscontrol-objectsecurity.ads  20060131171410 5d18e96d
+D mssyst-security-accesscontrol-propagationflags.ads  20060131171410 df68af09
+D mssyst-security-cryptography.ads  20060131165240 6bbb0e6b
+D mssyst-security-cryptography-cspparameters.ads  20060131171408 f6697852
+D mssyst-security-cryptography-cspproviderflags.ads  20060131171408 7d2605dd
+D mssyst-security-securestring.ads  20060131171404 74438637
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 44|8w6 9r5 60r28 68r33 80r15
+52M9*native_int 44|60r39 68r44 80r26
+X 6 mssyst.ads
+6K9*MSSyst 7e11 44|7r6 10r6 13r6 16r9 23r20 26r22 28r26 41r27 45r27 46r28
+. 50r22 51r26 52r27 53r21 57r22 58r26 59r27 62r33 64r33 66r33 71r15 74r15
+. 77r15 92r5 94r20
+X 13 mssyst-object.ads
+11K16*Object 46e18 44|7w13 10w13 23r27
+12R9*Typ 20e14 44|23r34
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{52|51P9}
+36V13*ToString{47|27P9}
+X 31 mssyst-security.ads
+6K16*Security 6|6k9 31|7e20 44|13r13 16r16 52r34 53r28 59r34 62r40 64r40
+. 66r40 71r22 74r22 77r22 92r12 94r27
+X 32 mssyst-security-accesscontrol.ads
+6K25 AccessControl 44|52r43 59r43 62r49 71r31
+X 38 mssyst-security-accesscontrol-cryptokeysecurity.ads
+27K39 CryptoKeySecurity 44|52r57 59r57 62r63 71r45
+29P9 Ref(integer) 44|52r75 59r75 62r81 71r63
+X 43 mssyst-security-cryptography.ads
+6K25*Cryptography 31|6k16 43|7e33 44|13r22 16r25 64r49 74r31 92r21 94r36
+X 44 mssyst-security-cryptography-cspparameters.ads
+16K38*CspParameters 43|6k25 44|92l34 92e47 94r49
+17R9*Typ 18r27 23c9 62r21 64r21 66r21 68r21 70r21 73r21 76r21 79r21 82r27
+18P9*Ref(17R9) 19r34 20r47 34r14 34r34 36r14 37r34 39r14 41r53 43r14 46r54
+. 48r14 53r62 55r14 60r58
+19P9*Ref_addrof(18P9)
+20A9*Ref_Arr(18P9) 21r33
+21P9*Ref_Array(20A9) 22r40
+22P9*Ref_Array_addrof(21P9)
+23R9*Typ<13|18R9> 13|23p13 29p13 31p13 36p13 44|32e14 61p13 63p13 65p13 67p13
+. 69p14 72p14 75p14 78p14
+24i7*ProviderType{integer}
+26p7*ProviderName{47|27P9}
+28p7*KeyContainerName{47|27P9}
+30i7*KeyNumber{integer}
+33V13*new_CspParameters{18P9} 34>7
+34p7 This{18P9}
+35V13*new_CspParameters{18P9} 36>7 37>7
+36p7 This{18P9}
+37i7 dwTypeIn{integer}
+38V13*new_CspParameters{18P9} 39>7 40>7 41>7
+39p7 This{18P9}
+40i7 dwTypeIn{integer}
+41p7 strProviderNameIn{47|27P9}
+42V13*new_CspParameters{18P9} 43>7 44>7 45>7 46>7
+43p7 This{18P9}
+44i7 dwTypeIn{integer}
+45p7 strProviderNameIn{47|27P9}
+46p7 strContainerNameIn{47|27P9}
+47V13*new_CspParameters{18P9} 48>7 49>7 50>7 51>7 52>7 53>7
+48p7 This{18P9}
+49i7 providerType{integer}
+50p7 providerName{47|27P9}
+51p7 keyContainerName{47|27P9}
+52p7 cryptoKeySecurity{38|29P9}
+53p7 keyPassword{46|16P9}
+54V13*new_CspParameters{18P9} 55>7 56>7 57>7 58>7 59>7 60>7
+55p7 This{18P9}
+56i7 providerType{integer}
+57p7 providerName{47|27P9}
+58p7 keyContainerName{47|27P9}
+59p7 cryptoKeySecurity{38|29P9}
+60m7 parentWindowHandle{5|52M9}
+61V13*get_CryptoKeySecurity{38|29P9} 62^7 84b23
+62p7 This(23R9)
+63V13*get_Flags{45|16E9} 64^7 85b23
+64p7 This(23R9)
+65V13*get_KeyPassword{46|16P9} 66^7 86b23
+66p7 This(23R9)
+67V13*get_ParentWindowHandle{5|52M9} 68^7 87b23
+68p7 This(23R9)
+69U14*set_CryptoKeySecurity 70^7 71>7 88b23
+70p7 This(23R9)
+71p7 value{38|29P9}
+72U14*set_Flags 73^7 74>7 89b23
+73p7 This(23R9)
+74e7 value{45|16E9}
+75U14*set_KeyPassword 76^7 77>7 90b23
+76p7 This(23R9)
+77p7 value{46|16P9}
+78U14*set_ParentWindowHandle 79^7 80>7 91b23
+79p7 This(23R9)
+80m7 value{5|52M9}
+X 45 mssyst-security-cryptography-cspproviderflags.ads
+15K38*CspProviderFlags 44|13w35 64r62 74r44 45|72e50
+16E9*ValueType 44|64r79 74r61 45|24e16
+X 46 mssyst-security-securestring.ads
+14K25 SecureString 44|53r37 66r49 77r31
+16P9 Ref(integer) 44|53r50 66r62 77r44
+X 47 mssyst-string.ads
+25K16 String 44|26r29 28r33 41r34 45r34 46r35 50r29 51r33 57r29 58r33
+27P9 Ref(integer) 44|26r36 28r40 41r41 45r41 46r42 50r36 51r40 57r36 58r40
+X 52 mssyst-type_k.ads
+51P9 Ref(integer)
+

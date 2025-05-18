@@ -1,0 +1,289 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.binding%s  mssyst-windows-forms-binding.ads  b75ec323 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.controlupdatemode%s  mssyst-windows-forms-controlupdatemode.ads  mssyst-windows-forms-controlupdatemode.ali
+W mssyst.windows.forms.datasourceupdatemode%s  mssyst-windows-forms-datasourceupdatemode.ads  mssyst-windows-forms-datasourceupdatemode.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-accessiblerole.ads  20060131171436 c08bcb4f
+D mssyst-windows-forms-anchorstyles.ads  20060131171436 22446596
+D mssyst-windows-forms-binding.ads  20060131171436 08144ab9
+D mssyst-windows-forms-bindingcompleteeventhandler.ads  20060131171436 27e18f51
+D mssyst-windows-forms-bindingmanagerbase.ads  20060131171436 9cfdaa41
+D mssyst-windows-forms-bindingmemberinfo.ads  20060131171436 3de41a4a
+D mssyst-windows-forms-boundsspecified.ads  20060131171436 2f9ca777
+D mssyst-windows-forms-control.ads  20060131171436 1c03b650
+D mssyst-windows-forms-controlupdatemode.ads  20060131171438 89cd1608
+D mssyst-windows-forms-converteventhandler.ads  20060131171438 63a49bb1
+D mssyst-windows-forms-datasourceupdatemode.ads  20060131171440 45cd404b
+D mssyst-windows-forms-dockstyle.ads  20060131171440 a08bf6b6
+D mssyst-windows-forms-dragdropeffects.ads  20060131171440 dfaed805
+D mssyst-windows-forms-getchildatpointskip.ads  20060131171442 84d63876
+D mssyst-windows-forms-ibindablecomponent.ads  20060131171436 1e1050b2
+D mssyst-windows-forms-imagelayout.ads  20060131171442 e0e6ce51
+D mssyst-windows-forms-imemode.ads  20060131171442 58d96089
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D mssyst-windows-forms-keys.ads  20060131171442 e98517be
+D mssyst-windows-forms-message.ads  20060131171444 f6b3d9da
+D mssyst-windows-forms-mousebuttons.ads  20060131171444 1b279075
+D mssyst-windows-forms-preprocesscontrolstate.ads  20060131171446 047a345d
+D mssyst-windows-forms-righttoleft.ads  20060131171446 898cfeaf
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 51|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 51|7r6 10r6 17r6 18r6 22r9 29r20 34r22 35r20 36r20 39r22
+. 40r20 41r20 45r22 46r20 47r20 49r30 52r22 53r20 54r20 56r30 57r19 60r22
+. 61r20 62r20 64r30 65r19 66r22 69r22 70r20 71r20 73r30 74r19 75r22 76r20
+. 79r15 82r15 85r15 87r33 89r33 91r33 93r33 95r33 97r33 99r33 101r33 103r33
+. 105r33 111r33 113r33 118r15 121r15 124r15 127r15 130r15 133r15 136r15 139r15
+. 145r15 180r5 182r20
+X 17 mssyst-iformatprovider.ads
+12K16 IFormatProvider 51|76r27 103r40 136r22
+14P9 Ref(integer) 51|76r43 103r56 136r38
+X 20 mssyst-object.ads
+11K16*Object 46e18 51|7w13 10w13 29r27 35r27 40r27 46r27 53r27 57r26 61r27
+. 65r26 70r27 74r26 97r40 99r40 111r40 130r22 145r22
+12R9*Typ 20e14 51|29r34
+13P9*Ref(12R9) 51|35r34 40r34 46r34 53r34 57r33 61r34 65r33 70r34 74r33 97r47
+. 99r47 111r47 130r29 145r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{43|51P9}
+36V13*ToString{38|27P9}
+X 38 mssyst-string.ads
+25K16 String 51|34r29 36r27 39r29 41r27 45r29 47r27 52r29 54r27 60r29 62r27
+. 66r29 69r29 71r27 75r29 105r40 113r40 139r22
+27P9 Ref(integer) 51|34r36 36r34 39r36 41r34 45r36 47r34 52r36 54r34 60r36
+. 62r34 66r36 69r36 71r34 75r36 105r47 113r47 139r29
+X 43 mssyst-type_k.ads
+51P9 Ref(integer)
+X 47 mssyst-windows.ads
+6K16*Windows 6|6k9 47|7e19 51|17r13 18r13 22r16 49r37 56r37 64r37 73r37 79r22
+. 82r22 85r22 87r40 89r40 91r40 93r40 95r40 101r40 118r22 121r22 124r22 127r22
+. 133r22 180r12 182r27
+X 48 mssyst-windows-forms.ads
+6K24*Forms 47|6k16 48|7e25 51|17r21 18r21 22r24 49r45 56r45 64r45 73r45 79r30
+. 82r30 85r30 87r48 89r48 91r48 93r48 95r48 101r48 118r30 121r30 124r30 127r30
+. 133r30 180r20 182r35
+X 51 mssyst-windows-forms-binding.ads
+22K30*Binding 48|6k24 51|180l26 180e33 182r41
+23R9*Typ 24r27 29c9 78r21 81r21 84r21 87r21 89r21 91r21 93r21 95r21 97r21
+. 99r21 101r21 103r21 105r21 107r21 109r21 111r21 113r21 115r21 117r21 120r21
+. 123r21 126r21 129r21 132r21 135r21 138r21 141r21 144r21 147r21 149r27
+24P9*Ref(23R9) 25r34 26r47 33r14 36r46 38r14 42r52 44r14 49r90 51r14 57r45
+. 59r14 66r48 68r14 76r55
+25P9*Ref_addrof(24P9)
+26A9*Ref_Arr(24P9) 27r33
+27P9*Ref_Array(26A9) 28r40
+28P9*Ref_Array_addrof(27P9)
+29R9*Typ<20|18R9> 20|23p13 29p13 31p13 36p13 51|31e14 77p14 80p14 83p14 86p13
+. 88p13 90p13 92p13 94p13 96p13 98p13 100p13 102p13 104p13 106p13 108p13
+. 110p13 112p13 114p14 116p14 119p14 122p14 125p14 128p14 131p14 134p14 137p14
+. 140p14 143p14 146p14
+32V13*new_Binding{24P9} 33>7 34>7 35>7 36>7
+33p7 This{24P9}
+34p7 propertyName{38|27P9}
+35p7 dataSource{20|13P9}
+36p7 dataMember{38|27P9}
+37V13*new_Binding{24P9} 38>7 39>7 40>7 41>7 42>7
+38p7 This{24P9}
+39p7 propertyName{38|27P9}
+40p7 dataSource{20|13P9}
+41p7 dataMember{38|27P9}
+42b7 formattingEnabled{boolean}
+43V13*new_Binding{24P9} 44>7 45>7 46>7 47>7 48>7 49>7
+44p7 This{24P9}
+45p7 propertyName{38|27P9}
+46p7 dataSource{20|13P9}
+47p7 dataMember{38|27P9}
+48b7 formattingEnabled{boolean}
+49e7 dataSourceUpdateMode{59|16E9}
+50V13*new_Binding{24P9} 51>7 52>7 53>7 54>7 55>7 56>7 57>7
+51p7 This{24P9}
+52p7 propertyName{38|27P9}
+53p7 dataSource{20|13P9}
+54p7 dataMember{38|27P9}
+55b7 formattingEnabled{boolean}
+56e7 dataSourceUpdateMode{59|16E9}
+57p7 nullValue{20|13P9}
+58V13*new_Binding{24P9} 59>7 60>7 61>7 62>7 63>7 64>7 65>7 66>7
+59p7 This{24P9}
+60p7 propertyName{38|27P9}
+61p7 dataSource{20|13P9}
+62p7 dataMember{38|27P9}
+63b7 formattingEnabled{boolean}
+64e7 dataSourceUpdateMode{59|16E9}
+65p7 nullValue{20|13P9}
+66p7 formatString{38|27P9}
+67V13*new_Binding{24P9} 68>7 69>7 70>7 71>7 72>7 73>7 74>7 75>7 76>7
+68p7 This{24P9}
+69p7 propertyName{38|27P9}
+70p7 dataSource{20|13P9}
+71p7 dataMember{38|27P9}
+72b7 formattingEnabled{boolean}
+73e7 dataSourceUpdateMode{59|16E9}
+74p7 nullValue{20|13P9}
+75p7 formatString{38|27P9}
+76p7 formatInfo{17|14P9}
+77U14*add_BindingComplete 78^7 79>7 151b23
+78p7 This(29R9)
+79p7 value{52|26P9}
+80U14*add_Format 81^7 82>7 152b23
+81p7 This(29R9)
+82p7 value{58|26P9}
+83U14*add_Parse 84^7 85>7 153b23
+84p7 This(29R9)
+85p7 value{58|26P9}
+86V13*get_BindableComponent{63|15P9} 87^7 154b23
+87p7 This(29R9)
+88V13*get_BindingManagerBase{53|20P9} 89^7 155b23
+89p7 This(29R9)
+90V13*get_BindingMemberInfo{54|15R9} 91^7 156b23
+91p7 This(29R9)
+92V13*get_Control{56|77P9} 93^7 157b23
+93p7 This(29R9)
+94V13*get_ControlUpdateMode{57|16E9} 95^7 158b23
+95p7 This(29R9)
+96V13*get_DataSource{20|13P9} 97^7 159b23
+97p7 This(29R9)
+98V13*get_DataSourceNullValue{20|13P9} 99^7 160b23
+99p7 This(29R9)
+100V13*get_DataSourceUpdateMode{59|16E9} 101^7 161b23
+101p7 This(29R9)
+102V13*get_FormatInfo{17|14P9} 103^7 162b23
+103p7 This(29R9)
+104V13*get_FormatString{38|27P9} 105^7 163b23
+105p7 This(29R9)
+106V13*get_FormattingEnabled{boolean} 107^7 164b23
+107p7 This(29R9)
+108V13*get_IsBinding{boolean} 109^7 165b23
+109p7 This(29R9)
+110V13*get_NullValue{20|13P9} 111^7 166b23
+111p7 This(29R9)
+112V13*get_PropertyName{38|27P9} 113^7 167b23
+113p7 This(29R9)
+114U14*ReadValue 115^7 168b23
+115p7 This(29R9)
+116U14*remove_BindingComplete 117^7 118>7 169b23
+117p7 This(29R9)
+118p7 value{52|26P9}
+119U14*remove_Format 120^7 121>7 170b23
+120p7 This(29R9)
+121p7 value{58|26P9}
+122U14*remove_Parse 123^7 124>7 171b23
+123p7 This(29R9)
+124p7 value{58|26P9}
+125U14*set_ControlUpdateMode 126^7 127>7 172b23
+126p7 This(29R9)
+127e7 value{57|16E9}
+128U14*set_DataSourceNullValue 129^7 130>7 173b23
+129p7 This(29R9)
+130p7 value{20|13P9}
+131U14*set_DataSourceUpdateMode 132^7 133>7 174b23
+132p7 This(29R9)
+133e7 value{59|16E9}
+134U14*set_FormatInfo 135^7 136>7 175b23
+135p7 This(29R9)
+136p7 value{17|14P9}
+137U14*set_FormatString 138^7 139>7 176b23
+138p7 This(29R9)
+139p7 value{38|27P9}
+140U14*set_FormattingEnabled 141^7 142>7 177b23
+141p7 This(29R9)
+142b7 value{boolean}
+143U14*set_NullValue 144^7 145>7 178b23
+144p7 This(29R9)
+145p7 value{20|13P9}
+146U14*WriteValue 147^7 179b23
+147p7 This(29R9)
+X 52 mssyst-windows-forms-bindingcompleteeventhandler.ads
+24K30 BindingCompleteEventHandler 51|79r36 118r36
+26P9 Ref(integer) 51|79r64 118r64
+X 53 mssyst-windows-forms-bindingmanagerbase.ads
+18K30 BindingManagerBase 51|89r54
+20P9 Ref(integer) 51|89r73
+X 54 mssyst-windows-forms-bindingmemberinfo.ads
+14K30 BindingMemberInfo 51|91r54
+15R9 ValueType 51|91r72
+X 56 mssyst-windows-forms-control.ads
+75K30 Control 51|93r54
+77P9 Ref(integer) 51|93r62
+X 57 mssyst-windows-forms-controlupdatemode.ads
+15K30*ControlUpdateMode 51|17w27 95r54 127r36 57|58e43
+16E9*ValueType 51|95r72 127r54 57|18e13
+X 58 mssyst-windows-forms-converteventhandler.ads
+24K30 ConvertEventHandler 51|82r36 85r36 121r36 124r36
+26P9 Ref(integer) 51|82r56 85r56 121r56 124r56
+X 59 mssyst-windows-forms-datasourceupdatemode.ads
+15K30*DataSourceUpdateMode 51|18w27 49r51 56r51 64r51 73r51 101r54 133r36
+. 59|60e46
+16E9*ValueType 51|49r72 56r72 64r72 73r72 101r75 133r57 59|19e13
+X 63 mssyst-windows-forms-ibindablecomponent.ads
+13K30 IBindableComponent 51|87r54
+15P9 Ref(integer) 51|87r73
+

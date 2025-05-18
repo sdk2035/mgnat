@@ -1,0 +1,184 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.security.cryptography.symmetricalgorithm%s  mssyst-security-cryptography-symmetricalgorithm.ads  27b39626 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.cryptography%s  mssyst-security-cryptography.ads  mssyst-security-cryptography.ali
+W mssyst.security.cryptography.ciphermode%s  mssyst-security-cryptography-ciphermode.ads  mssyst-security-cryptography-ciphermode.ali
+W mssyst.security.cryptography.paddingmode%s  mssyst-security-cryptography-paddingmode.ads  mssyst-security-cryptography-paddingmode.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-cryptography.ads  20060131165240 6bbb0e6b
+D mssyst-security-cryptography-ciphermode.ads  20060131171408 152f3f91
+D mssyst-security-cryptography-icryptotransform.ads  20060131171408 8d751d5f
+D mssyst-security-cryptography-keysizes.ads  20060131171408 1f29f750
+D mssyst-security-cryptography-paddingmode.ads  20060131171408 94c921f6
+D mssyst-security-cryptography-symmetricalgorithm.ads  20060131171408 786ac1da
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 35|8w6 9r5 34r16 35r15 40r16 41r15 53r33 55r33 74r15
+. 77r15
+24E9*unsigned_int8<character>
+44A9*unsigned_int8_arr(24E9) 35|34r27 35r26 40r27 41r26 74r26 77r26
+45P9*Unsigned_Int8_Array(44A9) 35|53r44 55r44
+X 6 mssyst.ads
+6K9*MSSyst 7e11 35|7r6 10r6 14r6 15r6 17r9 24r29 29r27 31r17 31r43 35r52
+. 37r33 41r52 43r33 59r33 61r33 63r33 65r33 83r15 86r15 115r5 117r20
+X 13 mssyst-object.ads
+11K16*Object 46e18 35|7w13 10w13 24r36
+12R9*Typ 20e14 35|24r43
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{41|51P9}
+36V13*ToString{36|27P9}
+X 29 mssyst-security.ads
+6K16*Security 6|6k9 29|7e20 35|14r13 15r13 17r16 29r34 31r50 35r59 37r40
+. 41r59 43r40 59r40 61r40 63r40 65r40 83r22 86r22 115r12 117r27
+X 30 mssyst-security-cryptography.ads
+6K25*Cryptography 29|6k16 30|7e33 35|14r22 15r22 17r25 29r43 31r59 35r68
+. 37r49 41r68 43r49 59r49 61r49 63r49 65r49 83r31 86r31 115r21 117r36
+X 31 mssyst-security-cryptography-ciphermode.ads
+15K38*CipherMode 64e44 35|14w35 63r62 83r44
+16E9*ValueType 21e11 35|63r73 83r55
+X 32 mssyst-security-cryptography-icryptotransform.ads
+10K38 ICryptoTransform 35|35r81 37r62 41r81 43r62
+12P9 Ref(integer) 35|35r98 37r79 41r98 43r79
+X 33 mssyst-security-cryptography-keysizes.ads
+13K38 KeySizes 35|59r62 61r62
+18P9 Ref_Array(integer) 35|59r71 61r71
+X 34 mssyst-security-cryptography-paddingmode.ads
+15K38*PaddingMode 64e45 35|15w35 65r62 86r44
+16E9*ValueType 21e16 35|65r74 86r56
+X 35 mssyst-security-cryptography-symmetricalgorithm.ads
+17K38*SymmetricAlgorithm 30|6k25 35|29r56 31r72 115l34 115e52 117r49
+18R9*Typ 19r27 24c9 28r21 33r21 37r21 39r21 43r21 45r21 47r21 49r21 51r21
+. 53r21 55r21 57r21 59r21 61r21 63r21 65r21 67r21 70r21 73r21 76r21 79r21
+. 82r21 85r21 88r21 91r27
+19P9*Ref(18R9) 20r34 21r47 29r75 31r91
+20P9*Ref_addrof(19P9)
+21A9*Ref_Arr(19P9) 22r33
+22P9*Ref_Array(21A9) 23r40
+23P9*Ref_Array_addrof(22P9)
+24H9*Typ<13|18R9> 13|23p13 29p13 31p13 36p13 35|26e14 27p14 32p13 36p13 38p13
+. 42p13 44p14 46p14 48p13 50p13 52p13 54p13 56p13 58p13 60p13 62p13 64p13
+. 66p14 69p14 72p14 75p14 78p14 81p14 84p14 87p13
+27U14*Clear 28^7 92b23
+28p7 This(24R9)
+29V13*Create{19P9}
+30V13*Create{19P9} 31>7 93b23
+31p7 algName{36|27P9}
+32V13*CreateDecryptor{32|12P9} 33^7 34>7 35>7
+33p7 This(24R9)
+34a7 rgbKey{5|44A9}
+35a7 rgbIV{5|44A9}
+36V13*CreateDecryptor{32|12P9} 37^7 94b23
+37p7 This(24R9)
+38V13*CreateEncryptor{32|12P9} 39^7 40>7 41>7
+39p7 This(24R9)
+40a7 rgbKey{5|44A9}
+41a7 rgbIV{5|44A9}
+42V13*CreateEncryptor{32|12P9} 43^7 95b23
+43p7 This(24R9)
+44U14*GenerateIV 45^7 96b23
+45p7 This(24R9)
+46U14*GenerateKey 47^7 97b23
+47p7 This(24R9)
+48V13*get_BlockSize{integer} 49^7 98b23
+49p7 This(24R9)
+50V13*get_FeedbackSize{integer} 51^7 99b23
+51p7 This(24R9)
+52V13*get_IV{5|45P9} 53^7 100b23
+53p7 This(24R9)
+54V13*get_Key{5|45P9} 55^7 101b23
+55p7 This(24R9)
+56V13*get_KeySize{integer} 57^7 102b23
+57p7 This(24R9)
+58V13*get_LegalBlockSizes{33|18P9} 59^7 103b23
+59p7 This(24R9)
+60V13*get_LegalKeySizes{33|18P9} 61^7 104b23
+61p7 This(24R9)
+62V13*get_Mode{31|16E9} 63^7 105b23
+63p7 This(24R9)
+64V13*get_Padding{34|16E9} 65^7 106b23
+65p7 This(24R9)
+66U14*set_BlockSize 67^7 68>7 107b23
+67p7 This(24R9)
+68i7 value{integer}
+69U14*set_FeedbackSize 70^7 71>7 108b23
+70p7 This(24R9)
+71i7 value{integer}
+72U14*set_IV 73^7 74>7 109b23
+73p7 This(24R9)
+74a7 value{5|44A9}
+75U14*set_Key 76^7 77>7 110b23
+76p7 This(24R9)
+77a7 value{5|44A9}
+78U14*set_KeySize 79^7 80>7 111b23
+79p7 This(24R9)
+80i7 value{integer}
+81U14*set_Mode 82^7 83>7 112b23
+82p7 This(24R9)
+83e7 value{31|16E9}
+84U14*set_Padding 85^7 86>7 113b23
+85p7 This(24R9)
+86e7 value{34|16E9}
+87V13*ValidKeySize{boolean} 88^7 89>7 114b23
+88p7 This(24R9)
+89i7 bitLength{integer}
+X 36 mssyst-string.ads
+25K16 String 35|31r24
+27P9 Ref(integer) 35|31r31
+X 41 mssyst-type_k.ads
+51P9 Ref(integer)
+

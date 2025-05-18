@@ -1,0 +1,110 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.net.networkinformation.networkchange%s  mssyst-net-networkinformation-networkchange.ads  f889c612 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.net.networkinformation%s  mssyst-net-networkinformation.ads  mssyst-net-networkinformation.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-net.ads	20060131171420 aa03617c
+D mssyst-net-networkinformation.ads  20060131171422 79773e25
+D mssyst-net-networkinformation-networkaddresschangedeventhandler.ads  20060131171424 44d612ca
+D mssyst-net-networkinformation-networkavailabilitychangedeventhandler.ads  20060131171424 88620e3b
+D mssyst-net-networkinformation-networkchange.ads  20060131171424 347abfc7
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 18|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 18|7r6 10r6 15r9 22r20 26r15 28r15 30r15 32r15 39r5 41r20
+X 14 mssyst-net.ads
+6K16*Net 6|6k9 14|7e15 18|15r16 26r22 28r22 30r22 32r22 39r12 41r27
+X 15 mssyst-net-networkinformation.ads
+6K20*NetworkInformation 14|6k16 15|7e34 18|15r20 26r26 28r26 30r26 32r26
+. 39r16 41r31
+X 16 mssyst-net-networkinformation-networkaddresschangedeventhandler.ads
+24K39 NetworkAddressChangedEventHandler 18|26r45 30r45
+26P9 Ref(integer) 18|26r79 30r79
+X 17 mssyst-net-networkinformation-networkavailabilitychangedeventhandler.ads
+24K39 NetworkAvailabilityChangedEventHandler 18|28r45 32r45
+26P9 Ref(integer) 18|28r84 32r84
+X 18 mssyst-net-networkinformation-networkchange.ads
+15K39*NetworkChange 15|6k20 18|39l35 39e48 41r50
+16R9*Typ 17r27 22c9 34r27
+17P9*Ref(16R9) 18r34 19r47
+18P9*Ref_addrof(17P9)
+19A9*Ref_Arr(17P9) 20r33
+20P9*Ref_Array(19A9) 21r40
+21P9*Ref_Array_addrof(20P9)
+22R9*Typ<19|18R9> 24e14 19|23p13 29p13 31p13 36p13
+25U14*add_NetworkAddressChanged 26>7 35b23
+26p7 value{16|26P9}
+27U14*add_NetworkAvailabilityChanged 28>7 36b23
+28p7 value{17|26P9}
+29U14*remove_NetworkAddressChanged 30>7 37b23
+30p7 value{16|26P9}
+31U14*remove_NetworkAvailabilityChanged 32>7 38b23
+32p7 value{17|26P9}
+X 19 mssyst-object.ads
+11K16*Object 18|7w13 10w13 22r27 19|46e18
+12R9*Typ 18|22r34 19|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{42|51P9}
+36V13*ToString{37|27P9}
+X 37 mssyst-string.ads
+27P9 Ref(integer)
+X 42 mssyst-type_k.ads
+51P9 Ref(integer)
+

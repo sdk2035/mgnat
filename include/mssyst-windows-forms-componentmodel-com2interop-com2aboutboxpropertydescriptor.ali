@@ -1,0 +1,29 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.componentmodel.com2interop.com2aboutboxpropertydescriptor%s  mssyst-windows-forms-componentmodel-com2interop-com2aboutboxpropertydescriptor.ads  46328c21 EE PK
+W mssyst.windows.forms.componentmodel.com2interop%s  mssyst-windows-forms-componentmodel-com2interop.ads  mssyst-windows-forms-componentmodel-com2interop.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-windows.ads	20060517222336 8e5e07ed
+D mssyst-windows-forms.ads  20060517222336 c6ce9829
+D mssyst-windows-forms-componentmodel.ads  20060517222354 4e39ebc2
+D mssyst-windows-forms-componentmodel-com2interop.ads  20060517222354 5846b386
+D mssyst-windows-forms-componentmodel-com2interop-com2aboutboxpropertydescriptor.ads  20060517222402 1e743fa7
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 6|6r9 7r5
+X 2 mssyst-windows.ads
+6K16*Windows 1|6k9 2|7e19 6|6r16 7r12
+X 3 mssyst-windows-forms.ads
+6K24*Forms 2|6k16 3|7e25 6|6r24 7r20
+X 4 mssyst-windows-forms-componentmodel.ads
+6K30*ComponentModel 3|6k24 4|7e40 6|6r30 7r26
+X 5 mssyst-windows-forms-componentmodel-com2interop.ads
+6K45*Com2Interop 4|6k30 5|7e52 6|6r45 7r41
+X 6 mssyst-windows-forms-componentmodel-com2interop-com2aboutboxpropertydescriptor.ads
+6K57*Com2AboutBoxPropertyDescriptor 5|6k45 6|7l53 7e83
+

@@ -1,0 +1,201 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.data.idatarecord%s  mssyst-data-idatarecord.ads  e8045cb5 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.data%s		mssyst-data.ads		mssyst-data.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-data.ads	20060131171910 7139211c
+D mssyst-data-idatareader.ads  20040901193212 c15cc21b
+D mssyst-data-idatarecord.ads  20040901193212 0ec65ae3
+D mssyst-datetime.ads	20060131171354 8b310f47
+D mssyst-datetimekind.ads  20060131171354 c9caab99
+D mssyst-dayofweek.ads	20060131171356 9441cb97
+D mssyst-decimal.ads	20060131171356 9b70fee6
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-datetimestyles.ads  20060131171358 230aa7c6
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-midpointrounding.ads  20060131171356 5160c7d2
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 9|8w6 9r5 41r27 46r16 56r16 85r27
+20I9*int16<short_integer> 9|85r38
+24E9*unsigned_int8<character> 9|41r38
+41P9*char_array(string) 9|56r27
+44A9*unsigned_int8_arr(24E9)
+45P9*Unsigned_Int8_Array(44A9) 9|46r27
+X 6 mssyst.ads
+6K9*MSSyst 7e11 9|7r6 18r9 25r28 26r23 32r14 32r40 35r27 61r27 64r27 67r27
+. 70r27 76r27 82r27 94r27 97r14 100r27 103r27 106r16 135r5 137r20
+X 7 mssyst-data.ads
+6K16*Data 6|6k9 7|7e16 9|18r16 61r34 135r12 137r27
+X 8 mssyst-data-idatareader.ads
+13K21 IDataReader 9|61r39
+15P9 Ref(integer) 9|61r51
+X 9 mssyst-data-idatarecord.ads
+18K21*IDataRecord 7|6k16 9|135l17 135e28 137r32
+19R9*Typ 20r27 25c9 27r26 29r21 31r21 34r21 37r21 40r21 43r21 50r21 53r21
+. 60r21 63r21 66r21 69r21 72r21 75r21 78r21 81r21 84r21 87r21 90r21 93r21
+. 96r21 99r21 102r21 105r21 108r21
+20P9*Ref(19R9) 21r34 22r44
+21P9*Ref_addrof(20P9)
+22A9*Arr1(20P9) 23r33
+23P9*Ref_Array(22A9) 24r40
+24P9*Ref_Array_addrof(23P9)
+25H9*Typ<21|18R9> 25d14 26e57 28p13 30p13 33p13 36p13 39p13 42p13 49p13 52p13
+. 59p13 62p13 65p13 68p13 71p13 74p13 77p13 80p13 83p13 86p13 89p13 92p13
+. 95p13 98p13 101p13 104p13 107p13 21|23p13 29p13 31p13 36p13
+28V13*get_FieldCount{integer} 29^7 111b23
+29p7 This(25R9)
+30V13*get_Item{21|13P9} 31^7 32>7
+31p7 This(25R9)
+32p7 name{37|27P9}
+33V13*get_Item{21|13P9} 34^7 35>7 112b23
+34p7 This(25R9)
+35i7 i{integer}
+36V13*GetBoolean{boolean} 37^7 38>7 113b23
+37p7 This(25R9)
+38i7 i{integer}
+39V13*GetByte{5|24E9} 40^7 41>7 114b23
+40p7 This(25R9)
+41i7 i{integer}
+42V13*GetBytes{long_long_integer} 43^7 44>7 45>7 46>7 47>7 48>7 115b23
+43p7 This(25R9)
+44i7 i{integer}
+45i7 fieldOffset{long_long_integer}
+46p7 buffer{5|45P9}
+47i7 bufferoffset{integer}
+48i7 length{integer}
+49V13*GetChar{wide_character} 50^7 51>7 116b23
+50p7 This(25R9)
+51i7 i{integer}
+52V13*GetChars{long_long_integer} 53^7 54>7 55>7 56>7 57>7 58>7 117b23
+53p7 This(25R9)
+54i7 i{integer}
+55i7 fieldoffset{long_long_integer}
+56p7 buffer{5|41P9}
+57i7 bufferoffset{integer}
+58i7 length{integer}
+59V13*GetData{8|15P9} 60^7 61>7 118b23
+60p7 This(25R9)
+61i7 i{integer}
+62V13*GetDataTypeName{37|27P9} 63^7 64>7 119b23
+63p7 This(25R9)
+64i7 i{integer}
+65V13*GetDateTime{10|23R9} 66^7 67>7 120b23
+66p7 This(25R9)
+67i7 i{integer}
+68V13*GetDecimal{13|20R9} 69^7 70>7 121b23
+69p7 This(25R9)
+70i7 i{integer}
+71V13*GetDouble{long_float} 72^7 73>7 122b23
+72p7 This(25R9)
+73i7 i{integer}
+74V13*GetFieldType{42|51P9} 75^7 76>7 123b23
+75p7 This(25R9)
+76i7 i{integer}
+77V13*GetFloat{float} 78^7 79>7 124b23
+78p7 This(25R9)
+79i7 i{integer}
+80V13*GetGuid{17|16R9} 81^7 82>7 125b23
+81p7 This(25R9)
+82i7 i{integer}
+83V13*GetInt16{5|20I9} 84^7 85>7 126b23
+84p7 This(25R9)
+85i7 i{integer}
+86V13*GetInt32{integer} 87^7 88>7 127b23
+87p7 This(25R9)
+88i7 i{integer}
+89V13*GetInt64{long_long_integer} 90^7 91>7 128b23
+90p7 This(25R9)
+91i7 i{integer}
+92V13*GetName{37|27P9} 93^7 94>7 129b23
+93p7 This(25R9)
+94i7 i{integer}
+95V13*GetOrdinal{integer} 96^7 97>7 130b23
+96p7 This(25R9)
+97p7 name{37|27P9}
+98V13*GetString{37|27P9} 99^7 100>7 131b23
+99p7 This(25R9)
+100i7 i{integer}
+101V13*GetValue{21|13P9} 102^7 103>7 132b23
+102p7 This(25R9)
+103i7 i{integer}
+104V13*GetValues{integer} 105^7 106>7 133b23
+105p7 This(25R9)
+106p7 values{21|16P9}
+107V13*IsDBNull{boolean} 108^7 109>7 134b23
+108p7 This(25R9)
+109i7 i{integer}
+X 10 mssyst-datetime.ads
+22K16 DateTime 9|67r34
+23R9 ValueType 9|67r43
+X 13 mssyst-decimal.ads
+19K16 Decimal 9|70r34
+20R9 ValueType 9|70r42
+X 17 mssyst-guid.ads
+15K16 Guid 9|82r34
+16R9 ValueType 9|82r39
+X 21 mssyst-object.ads
+11K16*Object 9|7w13 25r35 26r30 32r47 35r34 103r34 106r23 21|46e18
+12R9*Typ 9|25r42 26r37 21|20e14
+13P9*Ref(12R9) 9|32r54 35r41 103r41
+15A9*Ref_Arr(13P9)
+16P9*Ref_Array(15A9) 9|106r30
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{42|51P9}
+36V13*ToString{37|27P9}
+X 37 mssyst-string.ads
+25K16 String 9|32r21 64r34 94r34 97r21 100r34
+27P9 Ref(integer) 9|32r28 64r41 94r41 97r28 100r41
+X 42 mssyst-type_k.ads
+49K16 Type_k 9|76r34
+51P9 Ref(integer) 9|76r41
+

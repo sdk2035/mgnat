@@ -1,0 +1,252 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.net.sockets.tcpclient%s  mssyst-net-sockets-tcpclient.ads  fb11de59 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.net.sockets%s	mssyst-net-sockets.ads	mssyst-net-sockets.ali
+W mssyst.net.sockets.addressfamily%s  mssyst-net-sockets-addressfamily.ads  mssyst-net-sockets-addressfamily.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-asynccallback.ads  20060131171354 20264380
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-iasyncresult.ads  20060131171356 e48639e4
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-fileaccess.ads  20060131171402 760b9389
+D mssyst-io-seekorigin.ads  20060131171404 0f77313e
+D mssyst-io-stream.ads	20060131171402 5b7412c0
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-net.ads	20060131171420 aa03617c
+D mssyst-net-endpoint.ads  20060131171420 dc20260f
+D mssyst-net-ipaddress.ads  20060131171422 fb70dafd
+D mssyst-net-ipendpoint.ads  20060131171422 00a0637e
+D mssyst-net-sockets.ads  20060131171422 4d59735d
+D mssyst-net-sockets-addressfamily.ads  20060131171422 923f2d7b
+D mssyst-net-sockets-iocontrolcode.ads  20060131171422 8019f358
+D mssyst-net-sockets-ippacketinformation.ads  20060131171422 cf393baf
+D mssyst-net-sockets-lingeroption.ads  20060131171422 8cbf5631
+D mssyst-net-sockets-networkstream.ads  20060131171422 74c07554
+D mssyst-net-sockets-protocoltype.ads  20060131171422 9f618b33
+D mssyst-net-sockets-selectmode.ads  20060131171422 a7389304
+D mssyst-net-sockets-socket.ads  20060131171422 27050e00
+D mssyst-net-sockets-socketerror.ads  20060131171422 760326e3
+D mssyst-net-sockets-socketflags.ads  20060131171422 e55ce2b4
+D mssyst-net-sockets-socketoptionlevel.ads  20060131171422 feb9b7cc
+D mssyst-net-sockets-socketoptionname.ads  20060131171422 6fef0792
+D mssyst-net-sockets-socketshutdown.ads  20060131171422 5ea70afc
+D mssyst-net-sockets-sockettype.ads  20060131171422 fbe92dee
+D mssyst-net-sockets-tcpclient.ads  20060131171422 91f3c78f
+D mssyst-net-sockets-transmitfileoptions.ads  20060131171422 06a93d0a
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 41|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 41|7r6 10r6 21r6 22r9 29r20 34r17 39r16 42r18 46r17 48r25
+. 49r15 49r41 52r14 54r25 55r15 55r41 58r19 60r25 61r15 61r41 66r17 70r18
+. 73r21 77r18 81r21 85r33 91r33 103r33 106r15 112r15 154r5 156r20
+X 7 mssyst-asynccallback.ads
+22K16 AsyncCallback 41|48r32 54r32 60r32
+24P9 Ref(integer) 41|48r46 54r46 60r46
+X 12 mssyst-iasyncresult.ads
+12K16 IAsyncResult 41|49r48 55r48 61r48 81r28
+14P9 Ref(integer) 41|49r61 55r61 61r61 81r41
+X 22 mssyst-net.ads
+6K16*Net 6|6k9 22|7e15 41|21r13 22r16 34r24 39r23 46r24 58r26 66r24 70r25
+. 73r28 85r40 91r40 103r40 106r22 112r22 154r12 156r27
+X 24 mssyst-net-ipaddress.ads
+15K20 IPAddress 41|46r28 58r30 66r28 73r32
+17P9 Ref(integer) 41|46r38 66r38
+20P9 Ref_Array(integer) 41|58r40 73r42
+X 25 mssyst-net-ipendpoint.ads
+17K20 IPEndPoint 41|34r28 70r29
+19P9 Ref(integer) 41|34r39 70r40
+X 26 mssyst-net-sockets.ads
+6K20*Sockets 22|6k16 26|7e23 41|21r17 22r20 39r27 85r44 91r44 103r44 106r26
+. 112r26 154r16 156r31
+X 27 mssyst-net-sockets-addressfamily.ads
+15K28*AddressFamily 114e37 41|21w25 39r35
+16E9*ValueType 45e11 41|39r49
+X 30 mssyst-net-sockets-lingeroption.ads
+13K28 LingerOption 41|91r52 112r34
+15P9 Ref(integer) 41|91r65 112r47
+X 31 mssyst-net-sockets-networkstream.ads
+20K28 NetworkStream 41|103r52
+22P9 Ref(integer) 41|103r66
+X 34 mssyst-net-sockets-socket.ads
+34K28 Socket 41|85r52 106r34
+36P9 Ref(integer) 41|85r59 106r41
+X 41 mssyst-net-sockets-tcpclient.ads
+22K28*TcpClient 26|6k20 41|154l24 154e33 156r39
+23R9*Typ 24r27 29c9 45r21 51r21 57r21 63r21 65r21 69r21 72r21 76r21 80r21
+. 83r21 85r21 87r21 89r21 91r21 93r21 95r21 97r21 99r21 101r21 103r21 105r21
+. 108r21 111r21 114r21 117r21 120r21 123r21 126r21 129r27
+24P9*Ref(23R9) 25r34 26r47 33r14 34r51 36r14 36r34 38r14 39r67 41r14 43r30
+25P9*Ref_addrof(24P9)
+26A9*Ref_Arr(24P9) 27r33
+27P9*Ref_Array(26A9) 28r40
+28P9*Ref_Array_addrof(27P9)
+29R9*Typ<43|18R9> 31e14 44p13 50p13 56p13 62p14 64p14 68p14 71p14 75p14 79p14
+. 82p13 84p13 86p13 88p13 90p13 92p13 94p13 96p13 98p13 100p13 102p13 104p14
+. 107p14 110p14 113p14 116p14 119p14 122p14 125p14 43|23p13 29p13 31p13 36p13
+32V13*new_TcpClient{24P9} 33>7 34>7
+33p7 This{24P9}
+34p7 localEP{25|19P9}
+35V13*new_TcpClient{24P9} 36>7
+36p7 This{24P9}
+37V13*new_TcpClient{24P9} 38>7 39>7
+38p7 This{24P9}
+39e7 family{27|16E9}
+40V13*new_TcpClient{24P9} 41>7 42>7 43>7
+41p7 This{24P9}
+42p7 hostname{61|27P9}
+43i7 port{integer}
+44V13*BeginConnect{12|14P9} 45^7 46>7 47>7 48>7 49>7
+45p7 This(29R9)
+46p7 address{24|17P9}
+47i7 port{integer}
+48p7 requestCallback{7|24P9}
+49p7 state{43|13P9}
+50V13*BeginConnect{12|14P9} 51^7 52>7 53>7 54>7 55>7
+51p7 This(29R9)
+52p7 host{61|27P9}
+53i7 port{integer}
+54p7 requestCallback{7|24P9}
+55p7 state{43|13P9}
+56V13*BeginConnect{12|14P9} 57^7 58>7 59>7 60>7 61>7 131b23
+57p7 This(29R9)
+58p7 addresses{24|20P9}
+59i7 port{integer}
+60p7 requestCallback{7|24P9}
+61p7 state{43|13P9}
+62U14*Close 63^7 132b23
+63p7 This(29R9)
+64U14*Connect 65^7 66>7 67>7
+65p7 This(29R9)
+66p7 address{24|17P9}
+67i7 port{integer}
+68U14*Connect 69^7 70>7
+69p7 This(29R9)
+70p7 remoteEP{25|19P9}
+71U14*Connect 72^7 73>7 74>7
+72p7 This(29R9)
+73p7 ipAddresses{24|20P9}
+74i7 port{integer}
+75U14*Connect 76^7 77>7 78>7 133b23
+76p7 This(29R9)
+77p7 hostname{61|27P9}
+78i7 port{integer}
+79U14*EndConnect 80^7 81>7 134b23
+80p7 This(29R9)
+81p7 asyncResult{12|14P9}
+82V13*get_Available{integer} 83^7 135b23
+83p7 This(29R9)
+84V13*get_Client{34|36P9} 85^7 136b23
+85p7 This(29R9)
+86V13*get_Connected{boolean} 87^7 137b23
+87p7 This(29R9)
+88V13*get_ExclusiveAddressUse{boolean} 89^7 138b23
+89p7 This(29R9)
+90V13*get_LingerState{30|15P9} 91^7 139b23
+91p7 This(29R9)
+92V13*get_NoDelay{boolean} 93^7 140b23
+93p7 This(29R9)
+94V13*get_ReceiveBufferSize{integer} 95^7 141b23
+95p7 This(29R9)
+96V13*get_ReceiveTimeout{integer} 97^7 142b23
+97p7 This(29R9)
+98V13*get_SendBufferSize{integer} 99^7 143b23
+99p7 This(29R9)
+100V13*get_SendTimeout{integer} 101^7 144b23
+101p7 This(29R9)
+102V13*GetStream{31|22P9} 103^7 145b23
+103p7 This(29R9)
+104U14*set_Client 105^7 106>7 146b23
+105p7 This(29R9)
+106p7 value{34|36P9}
+107U14*set_ExclusiveAddressUse 108^7 109>7 147b23
+108p7 This(29R9)
+109b7 value{boolean}
+110U14*set_LingerState 111^7 112>7 148b23
+111p7 This(29R9)
+112p7 value{30|15P9}
+113U14*set_NoDelay 114^7 115>7 149b23
+114p7 This(29R9)
+115b7 value{boolean}
+116U14*set_ReceiveBufferSize 117^7 118>7 150b23
+117p7 This(29R9)
+118i7 value{integer}
+119U14*set_ReceiveTimeout 120^7 121>7 151b23
+120p7 This(29R9)
+121i7 value{integer}
+122U14*set_SendBufferSize 123^7 124>7 152b23
+123p7 This(29R9)
+124i7 value{integer}
+125U14*set_SendTimeout 126^7 127>7 153b23
+126p7 This(29R9)
+127i7 value{integer}
+X 43 mssyst-object.ads
+11K16*Object 41|7w13 10w13 29r27 49r22 55r22 61r22 43|46e18
+12R9*Typ 41|29r34 43|20e14
+13P9*Ref(12R9) 41|49r29 55r29 61r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{66|51P9}
+36V13*ToString{61|27P9}
+X 61 mssyst-string.ads
+25K16 String 41|42r25 52r21 77r25
+27P9 Ref(integer) 41|42r32 52r28 77r32
+X 66 mssyst-type_k.ads
+51P9 Ref(integer)
+

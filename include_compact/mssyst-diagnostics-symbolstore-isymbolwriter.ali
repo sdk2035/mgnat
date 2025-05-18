@@ -1,0 +1,243 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.diagnostics.symbolstore.isymbolwriter%s  mssyst-diagnostics-symbolstore-isymbolwriter.ads  63dc763e NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.diagnostics%s	mssyst-diagnostics.ads	mssyst-diagnostics.ali
+W mssyst.diagnostics.symbolstore%s  mssyst-diagnostics-symbolstore.ads  mssyst-diagnostics-symbolstore.ali
+W mssyst.diagnostics.symbolstore.symaddresskind%s  mssyst-diagnostics-symbolstore-symaddresskind.ads  mssyst-diagnostics-symbolstore-symaddresskind.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.reflection%s	mssyst-reflection.ads	mssyst-reflection.ali
+W mssyst.reflection.fieldattributes%s  mssyst-reflection-fieldattributes.ads  mssyst-reflection-fieldattributes.ali
+W mssyst.reflection.parameterattributes%s  mssyst-reflection-parameterattributes.ads  mssyst-reflection-parameterattributes.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-diagnostics.ads  20060131165224 ca17f3f6
+D mssyst-diagnostics-symbolstore.ads  20060131165224 73002a8f
+D mssyst-diagnostics-symbolstore-isymboldocumentwriter.ads  20060131171358 d9a407a0
+D mssyst-diagnostics-symbolstore-isymbolwriter.ads  20060131171358 08df130d
+D mssyst-diagnostics-symbolstore-symaddresskind.ads  20060131171358 4fbba18c
+D mssyst-diagnostics-symbolstore-symboltoken.ads  20060131171358 6b6c4e61
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-fieldattributes.ads  20060131171358 00d0a4d6
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parameterattributes.ads  20060131171358 c0936dac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 13|8w6 9r5 45r19 54r19 63r19 82r17 83r15 84r17 85r18
+. 86r20 89r17 118r14 121r26
+24E9*unsigned_int8<character>
+34A9*int32_arr(integer) 13|82r28 83r26 84r28 85r29 86r31
+44A9*unsigned_int8_arr(24E9) 13|45r30 54r30 63r30 118r25
+52M9*native_int 13|89r28 121r37
+X 9 mssyst.ads
+6K9*MSSyst 7e11 13|7r6 14r6 15r6 16r6 17r9 36r13 37r18 38r24 39r22 39r52
+. 42r16 43r14 44r20 46r18 52r14 53r20 55r18 61r14 62r20 64r18 72r14 73r20
+. 75r18 81r18 90r18 94r16 97r14 103r18 106r16 116r16 117r14 124r21 127r18
+. 149r5 151r20
+X 10 mssyst-diagnostics.ads
+6K16*Diagnostics 9|6k9 10|7e23 13|15r13 17r16 39r59 42r23 46r25 55r25 64r25
+. 75r25 81r25 94r23 103r25 106r23 116r23 124r28 149r12 151r27
+X 11 mssyst-diagnostics-symbolstore.ads
+6K28*SymbolStore 10|6k16 11|7e35 13|15r25 17r28 39r71 42r35 46r37 55r37 64r37
+. 75r37 81r37 94r35 103r37 106r35 116r35 124r40 149r24 151r39
+X 12 mssyst-diagnostics-symbolstore-isymboldocumentwriter.ads
+11K40 ISymbolDocumentWriter 13|39r83 81r49 103r49 106r47
+13P9 Ref(integer) 13|39r105 81r71 103r71 106r69
+X 13 mssyst-diagnostics-symbolstore-isymbolwriter.ads
+17K40*ISymbolWriter 11|6k28 13|149l36 149e49 151r51
+18R9*Typ 19r27 24c9 26r21 28r21 30r21 32r21 35r21 41r21 51r21 60r21 71r21
+. 80r21 88r21 93r21 96r21 99r21 102r21 110r21 115r21 120r21 123r21 126r21
+19P9*Ref(18R9) 20r34 21r47
+20P9*Ref_addrof(19P9)
+21A9*Ref_Arr(19P9) 22r33
+22P9*Ref_Array(21A9) 23r40
+23P9*Ref_Array_addrof(22P9)
+24H9*Typ 25p14 27p14 29p14 31p14 34p13 40p14 50p14 59p14 70p14 79p14 87p14
+. 92p14 95p14 98p13 101p14 109p14 114p14 119p14 122p14 125p14
+25x14*Close 26^7 129b23
+26p7 This(24R9)
+27x14*CloseMethod 28^7 130b23
+28p7 This(24R9)
+29x14*CloseNamespace 30^7 131b23
+30p7 This(24R9)
+31x14*CloseScope 32^7 33>7 132b23
+32p7 This(24R9)
+33i7 endOffset{integer}
+34y13*DefineDocument{12|13P9} 35^7 36>7 37>7 38>7 39>7 133b23
+35p7 This(24R9)
+36p7 url{40|27P9}
+37r7 language{18|16R9}
+38r7 languageVendor{18|16R9}
+39r7 documentType{18|16R9}
+40x14*DefineField 41^7 42>7 43>7 44>7 45>7 46>7 47>7 48>7 49>7 134b23
+41p7 This(24R9)
+42r7 parent{15|15R9}
+43p7 name{40|27P9}
+44e7 attributes{26|16E9}
+45a7 signature{8|44A9}
+46e7 addrKind{14|16E9}
+47i7 addr1{integer}
+48i7 addr2{integer}
+49i7 addr3{integer}
+50x14*DefineGlobalVariable 51^7 52>7 53>7 54>7 55>7 56>7 57>7 58>7 135b23
+51p7 This(24R9)
+52p7 name{40|27P9}
+53e7 attributes{26|16E9}
+54a7 signature{8|44A9}
+55e7 addrKind{14|16E9}
+56i7 addr1{integer}
+57i7 addr2{integer}
+58i7 addr3{integer}
+59x14*DefineLocalVariable 60^7 61>7 62>7 63>7 64>7 65>7 66>7 67>7 68>7 69>7
+. 136b23
+60p7 This(24R9)
+61p7 name{40|27P9}
+62e7 attributes{26|16E9}
+63a7 signature{8|44A9}
+64e7 addrKind{14|16E9}
+65i7 addr1{integer}
+66i7 addr2{integer}
+67i7 addr3{integer}
+68i7 startOffset{integer}
+69i7 endOffset{integer}
+70x14*DefineParameter 71^7 72>7 73>7 74>7 75>7 76>7 77>7 78>7 137b23
+71p7 This(24R9)
+72p7 name{40|27P9}
+73e7 attributes{32|16E9}
+74i7 sequence{integer}
+75e7 addrKind{14|16E9}
+76i7 addr1{integer}
+77i7 addr2{integer}
+78i7 addr3{integer}
+79x14*DefineSequencePoints 80^7 81>7 82>7 83>7 84>7 85>7 86>7 138b23
+80p7 This(24R9)
+81p7 document{12|13P9}
+82a7 offsets{8|34A9}
+83a7 lines{8|34A9}
+84a7 columns{8|34A9}
+85a7 endLines{8|34A9}
+86a7 endColumns{8|34A9}
+87x14*Initialize 88^7 89>7 90>7 91>7 139b23
+88p7 This(24R9)
+89m7 emitter{8|52M9}
+90p7 filename{40|27P9}
+91b7 fFullBuild{boolean}
+92x14*OpenMethod 93^7 94>7 140b23
+93p7 This(24R9)
+94r7 method{15|15R9}
+95x14*OpenNamespace 96^7 97>7 141b23
+96p7 This(24R9)
+97p7 name{40|27P9}
+98y13*OpenScope{integer} 99^7 100>7 142b23
+99p7 This(24R9)
+100i7 startOffset{integer}
+101x14*SetMethodSourceRange 102^7 103>7 104>7 105>7 106>7 107>7 108>7 143b23
+102p7 This(24R9)
+103p7 startDoc{12|13P9}
+104i7 startLine{integer}
+105i7 startColumn{integer}
+106p7 endDoc{12|13P9}
+107i7 endLine{integer}
+108i7 endColumn{integer}
+109x14*SetScopeRange 110^7 111>7 112>7 113>7 144b23
+110p7 This(24R9)
+111i7 scopeID{integer}
+112i7 startOffset{integer}
+113i7 endOffset{integer}
+114x14*SetSymAttribute 115^7 116>7 117>7 118>7 145b23
+115p7 This(24R9)
+116r7 parent{15|15R9}
+117p7 name{40|27P9}
+118a7 data{8|44A9}
+119x14*SetUnderlyingWriter 120^7 121>7 146b23
+120p7 This(24R9)
+121m7 underlyingWriter{8|52M9}
+122x14*SetUserEntryPoint 123^7 124>7 147b23
+123p7 This(24R9)
+124r7 entryMethod{15|15R9}
+125x14*UsingNamespace 126^7 127>7 148b23
+126p7 This(24R9)
+127p7 fullName{40|27P9}
+X 14 mssyst-diagnostics-symbolstore-symaddresskind.ads
+15K40*SymAddressKind 13|15w37 46r49 55r49 64r49 75r49 14|74e50
+16E9*ValueType 13|46r64 55r64 64r64 75r64 14|26e27
+X 15 mssyst-diagnostics-symbolstore-symboltoken.ads
+14K40 SymbolToken 13|42r47 94r47 116r47 124r52
+15R9 ValueType 13|42r59 94r59 116r59 124r64
+X 18 mssyst-guid.ads
+15K16 Guid 13|37r25 38r31 39r29
+16R9 ValueType 13|37r30 38r36 39r34
+X 22 mssyst-object.ads
+11K16*Object 13|7w13 22|46e18
+X 23 mssyst-reflection.ads
+6K16*Reflection 13|14r13 16r13 44r27 53r27 62r27 73r27 23|7e22
+X 26 mssyst-reflection-fieldattributes.ads
+15K27*FieldAttributes 13|14w24 44r38 53r38 62r38 26|94e38
+16E9*ValueType 13|44r54 53r54 62r54 26|35e20
+X 32 mssyst-reflection-parameterattributes.ads
+15K27*ParameterAttributes 13|16w24 73r38 32|78e42
+16E9*ValueType 13|73r58 32|27e20
+X 40 mssyst-string.ads
+25K16 String 13|36r20 43r21 52r21 61r21 72r21 90r25 97r21 117r21 127r25
+27P9 Ref(integer) 13|36r27 43r28 52r28 61r28 72r28 90r32 97r28 117r28 127r32
+

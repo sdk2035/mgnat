@@ -1,0 +1,171 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.net.servicepointmanager%s  mssyst-net-servicepointmanager.ads  c3f8fd92 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.net.securityprotocoltype%s  mssyst-net-securityprotocoltype.ads  mssyst-net-securityprotocoltype.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-net.ads	20060131171420 aa03617c
+D mssyst-net-icertificatepolicy.ads  20060131171422 56f2e6f4
+D mssyst-net-iwebproxy.ads  20060131171420 63a34ee8
+D mssyst-net-security.ads  20060131171422 188c2c6b
+D mssyst-net-security-remotecertificatevalidationcallback.ads  20060131171422 dfb8fb41
+D mssyst-net-security-sslpolicyerrors.ads  20060131171422 a048c6f5
+D mssyst-net-securityprotocoltype.ads  20060131171422 33034c61
+D mssyst-net-servicepoint.ads  20060131171422 e3de3195
+D mssyst-net-servicepointmanager.ads  20060131171422 ef7c977f
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-uri.ads	20060131171420 e4097279
+D mssyst-uricomponents.ads  20060131171420 7ea03585
+D mssyst-uriformat.ads	20060131171420 bf7e8d5a
+D mssyst-urihostnametype.ads  20060131171420 24f50916
+D mssyst-urikind.ads	20060131171420 c1a164ce
+D mssyst-uripartial.ads	20060131171420 4bb7c6be
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 23|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 23|7r6 10r6 16r6 19r9 26r20 34r17 34r40 36r19 37r15 37r48
+. 39r17 40r15 40r48 41r42 49r41 50r60 53r15 69r15 71r15 99r5 101r20
+X 15 mssyst-net.ads
+6K16*Net 6|6k9 15|7e15 23|16r13 19r16 34r47 37r22 37r55 40r22 40r55 41r49
+. 49r48 50r67 53r22 69r22 71r22 99r12 101r27
+X 16 mssyst-net-icertificatepolicy.ads
+13K20 ICertificatePolicy 23|41r53 53r26
+15P9 Ref(integer) 23|41r72 53r45
+X 17 mssyst-net-iwebproxy.ads
+12K20 IWebProxy 23|37r26 40r26
+14P9 Ref(integer) 23|37r36 40r36
+X 18 mssyst-net-security.ads
+6K20 Security 23|50r71 71r26
+X 19 mssyst-net-security-remotecertificatevalidationcallback.ads
+26K29 RemoteCertificateValidationCallback 23|50r80 71r35
+28P9 Ref(integer) 23|50r116 71r71
+X 21 mssyst-net-securityprotocoltype.ads
+15K20*SecurityProtocolType 60e36 23|16w17 49r52 69r26
+16E9*ValueType 18e11 23|49r73 69r47
+X 22 mssyst-net-servicepoint.ads
+18K20 ServicePoint 23|34r51 37r59 40r59
+20P9 Ref(integer) 23|34r64 37r72 40r72
+X 23 mssyst-net-servicepointmanager.ads
+19K20*ServicePointManager 15|6k16 23|99l16 99e35 101r31
+20R9*Typ 21r27 26c9 75r27
+21P9*Ref(20R9) 22r34 23r47
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40
+25P9*Ref_Array_addrof(24P9)
+26R9*Typ<24|18R9> 28e14 24|23p13 29p13 31p13 36p13
+29i4*DefaultNonPersistentConnectionLimit{integer} 30m23
+31i4*DefaultPersistentConnectionLimit{integer} 32m23
+33V13*FindServicePoint{22|20P9} 34>7
+34p7 address{50|24P9}
+35V13*FindServicePoint{22|20P9} 36>7 37>7
+36p7 uriString{42|27P9}
+37p7 proxy{17|14P9}
+38V13*FindServicePoint{22|20P9} 39>7 40>7 76b23
+39p7 address{50|24P9}
+40p7 proxy{17|14P9}
+41V13*get_CertificatePolicy{16|15P9} 77b23
+42V13*get_CheckCertificateRevocationList{boolean} 78b23
+43V13*get_DefaultConnectionLimit{integer} 79b23
+44V13*get_DnsRefreshTimeout{integer} 80b23
+45V13*get_EnableDnsRoundRobin{boolean} 81b23
+46V13*get_Expect100Continue{boolean} 82b23
+47V13*get_MaxServicePointIdleTime{integer} 83b23
+48V13*get_MaxServicePoints{integer} 84b23
+49V13*get_SecurityProtocol{21|16E9} 85b23
+50V13*get_ServerCertificateValidationCallback{19|28P9} 86b23
+51V13*get_UseNagleAlgorithm{boolean} 87b23
+52U14*set_CertificatePolicy 53>7 88b23
+53p7 value{16|15P9}
+54U14*set_CheckCertificateRevocationList 55>7 89b23
+55b7 value{boolean}
+56U14*set_DefaultConnectionLimit 57>7 90b23
+57i7 value{integer}
+58U14*set_DnsRefreshTimeout 59>7 91b23
+59i7 value{integer}
+60U14*set_EnableDnsRoundRobin 61>7 92b23
+61b7 value{boolean}
+62U14*set_Expect100Continue 63>7 93b23
+63b7 value{boolean}
+64U14*set_MaxServicePointIdleTime 65>7 94b23
+65i7 value{integer}
+66U14*set_MaxServicePoints 67>7 95b23
+67i7 value{integer}
+68U14*set_SecurityProtocol 69>7 96b23
+69e7 value{21|16E9}
+70U14*set_ServerCertificateValidationCallback 71>7 97b23
+71p7 value{19|28P9}
+72U14*set_UseNagleAlgorithm 73>7 98b23
+73b7 value{boolean}
+X 24 mssyst-object.ads
+11K16*Object 23|7w13 10w13 26r27 24|46e18
+12R9*Typ 23|26r34 24|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{47|51P9}
+36V13*ToString{42|27P9}
+X 42 mssyst-string.ads
+25K16 String 23|36r26
+27P9 Ref(integer) 23|36r33
+X 47 mssyst-type_k.ads
+51P9 Ref(integer)
+X 50 mssyst-uri.ads
+22K16 Uri 23|34r24 39r24
+24P9 Ref(integer) 23|34r28 39r28
+

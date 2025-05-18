@@ -1,0 +1,147 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.net.networkinformation.ipinterfaceproperties%s  mssyst-net-networkinformation-ipinterfaceproperties.ads  9ca4ed3c NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.net.networkinformation%s  mssyst-net-networkinformation.ads  mssyst-net-networkinformation.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-net.ads	20060131171420 aa03617c
+D mssyst-net-networkinformation.ads  20060131171422 79773e25
+D mssyst-net-networkinformation-gatewayipaddressinformationcollection.ads  20060131171424 0593dca1
+D mssyst-net-networkinformation-ipaddresscollection.ads  20060131171424 556a6c80
+D mssyst-net-networkinformation-ipaddressinformationcollection.ads  20060131171424 0887909f
+D mssyst-net-networkinformation-ipinterfaceproperties.ads  20060131171424 505794e9
+D mssyst-net-networkinformation-ipv4interfaceproperties.ads  20060131171424 e9c9657f
+D mssyst-net-networkinformation-ipv6interfaceproperties.ads  20060131171424 7979489e
+D mssyst-net-networkinformation-multicastipaddressinformationcollection.ads  20060131171424 8aa05dc3
+D mssyst-net-networkinformation-unicastipaddressinformationcollection.ads  20060131171424 83dafa83
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 17|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 17|7r6 10r6 20r9 27r29 31r33 33r33 35r33 37r33 39r33 45r33
+. 47r33 49r33 51r33 53r33 68r5 70r20
+X 12 mssyst-net.ads
+6K16*Net 6|6k9 12|7e15 17|20r16 31r40 33r40 35r40 39r40 45r40 47r40 49r40
+. 51r40 53r40 68r12 70r27
+X 13 mssyst-net-networkinformation.ads
+6K20*NetworkInformation 12|6k16 13|7e34 17|20r20 31r44 33r44 35r44 39r44
+. 45r44 47r44 49r44 51r44 53r44 68r16 70r31
+X 14 mssyst-net-networkinformation-gatewayipaddressinformationcollection.ads
+15K39 GatewayIPAddressInformationCollection 17|39r63
+17P9 Ref(integer) 17|39r101
+X 15 mssyst-net-networkinformation-ipaddresscollection.ads
+15K39 IPAddressCollection 17|33r63 35r63 49r63
+17P9 Ref(integer) 17|33r83 35r83 49r83
+X 16 mssyst-net-networkinformation-ipaddressinformationcollection.ads
+15K39 IPAddressInformationCollection 17|31r63
+17P9 Ref(integer) 17|31r94
+X 17 mssyst-net-networkinformation-ipinterfaceproperties.ads
+20K39*IPInterfaceProperties 13|6k20 17|68l35 68e56 70r50
+21R9*Typ 22r27 27c9 31r21 33r21 35r21 37r21 39r21 41r21 43r21 45r21 47r21
+. 49r21 51r21 53r21 55r27
+22P9*Ref(21R9) 23r34 24r47
+23P9*Ref_addrof(22P9)
+24A9*Ref_Arr(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27H9*Typ<22|18R9> 29e14 30p13 32p13 34p13 36p13 38p13 40p13 42p13 44p13 46p13
+. 48p13 50p13 52p13 22|23p13 29p13 31p13 36p13
+30V13*get_AnycastAddresses{16|17P9} 31^7 56b23
+31p7 This(27R9)
+32V13*get_DhcpServerAddresses{15|17P9} 33^7 57b23
+33p7 This(27R9)
+34V13*get_DnsAddresses{15|17P9} 35^7 58b23
+35p7 This(27R9)
+36V13*get_DnsSuffix{38|27P9} 37^7 59b23
+37p7 This(27R9)
+38V13*get_GatewayAddresses{14|17P9} 39^7 60b23
+39p7 This(27R9)
+40V13*get_IsDnsEnabled{boolean} 41^7 61b23
+41p7 This(27R9)
+42V13*get_IsDynamicDnsEnabled{boolean} 43^7 62b23
+43p7 This(27R9)
+44V13*get_MulticastAddresses{20|17P9} 45^7 63b23
+45p7 This(27R9)
+46V13*get_UnicastAddresses{21|17P9} 47^7 64b23
+47p7 This(27R9)
+48V13*get_WinsServersAddresses{15|17P9} 49^7 65b23
+49p7 This(27R9)
+50V13*GetIPv4Properties{18|15P9} 51^7 66b23
+51p7 This(27R9)
+52V13*GetIPv6Properties{19|15P9} 53^7 67b23
+53p7 This(27R9)
+X 18 mssyst-net-networkinformation-ipv4interfaceproperties.ads
+13K39 IPv4InterfaceProperties 17|51r63
+15P9 Ref(integer) 17|51r87
+X 19 mssyst-net-networkinformation-ipv6interfaceproperties.ads
+13K39 IPv6InterfaceProperties 17|53r63
+15P9 Ref(integer) 17|53r87
+X 20 mssyst-net-networkinformation-multicastipaddressinformationcollection.ads
+15K39 MulticastIPAddressInformationCollection 17|45r63
+17P9 Ref(integer) 17|45r103
+X 21 mssyst-net-networkinformation-unicastipaddressinformationcollection.ads
+15K39 UnicastIPAddressInformationCollection 17|47r63
+17P9 Ref(integer) 17|47r101
+X 22 mssyst-object.ads
+11K16*Object 17|7w13 10w13 27r36 22|46e18
+12R9*Typ 17|27r43 22|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{43|51P9}
+36V13*ToString{38|27P9}
+X 38 mssyst-string.ads
+25K16 String 17|37r40
+27P9 Ref(integer) 17|37r47
+X 43 mssyst-type_k.ads
+51P9 Ref(integer)
+

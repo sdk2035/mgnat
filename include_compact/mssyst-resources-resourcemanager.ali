@@ -1,0 +1,187 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.resources.resourcemanager%s  mssyst-resources-resourcemanager.ads  8b3e6002 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.resources%s	mssyst-resources.ads	mssyst-resources.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-configuration.ads  20060131165240 03b06563
+D mssyst-configuration-assemblies.ads  20060131165240 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060131171408 81fd999d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-cultureinfo.ads  20060131171358 6ed5a64b
+D mssyst-globalization-culturetypes.ads  20060131171358 9d4d7f13
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-fileaccess.ads  20060131171402 760b9389
+D mssyst-io-seekorigin.ads  20060131171404 0f77313e
+D mssyst-io-stream.ads	20060131171402 5b7412c0
+D mssyst-io-unmanagedmemorystream.ads  20060131171404 ced06459
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-assembly.ads  20060131171358 cac2cf86
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-resources.ads	20060131165226 5e28da10
+D mssyst-resources-resourcemanager.ads  20060131171400 6092fde2
+D mssyst-resources-resourceset.ads  20060131171400 d40aa215
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-uassembly.ads  20060131171358 5462c788
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-ievidencefactory.ads  20060131171354 3a16bf31
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 37|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 37|7r6 10r6 17r9 24r20 33r18 34r18 37r18 38r18 39r26 42r24
+. 44r18 45r21 46r26 46r52 48r33 52r33 55r14 55r40 58r14 59r17 59r62 62r17
+. 64r45 67r14 68r17 68r62 71r14 71r40 74r14 75r17 75r62 78r14 78r40 97r5
+. 99r20
+X 10 mssyst-globalization.ads
+6K16 Globalization 37|59r24 62r24 68r24 75r24
+X 11 mssyst-globalization-cultureinfo.ads
+23K30 CultureInfo 37|59r38 62r38 68r38 75r38
+25P9 Ref(integer) 37|59r50 62r50 68r50 75r50
+X 18 mssyst-io.ads
+6K16 IO 37|68r69 71r47
+X 22 mssyst-io-unmanagedmemorystream.ads
+19K19 UnmanagedMemoryStream 37|68r72 71r50
+21P9 Ref(integer) 37|68r94 71r72
+X 24 mssyst-object.ads
+11K16*Object 46e18 37|7w13 10w13 24r27 55r47 59r69
+12R9*Typ 20e14 37|24r34
+13P9*Ref(12R9) 37|55r54 59r76
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{54|51P9}
+36V13*ToString{49|27P9}
+X 25 mssyst-reflection.ads
+6K16 Reflection 37|34r25 38r25
+X 26 mssyst-reflection-assembly.ads
+38K27 Assembly 37|34r36 38r36
+40P9 Ref(integer) 37|34r45 38r45
+X 36 mssyst-resources.ads
+6K16*Resources 6|6k9 36|7e21 37|17r16 46r59 64r52 97r12 99r27
+X 37 mssyst-resources-resourcemanager.ads
+17K26*ResourceManager 36|6k16 37|46r69 97l22 97e37 99r37
+18R9*Typ 19r27 24c9 48r21 50r21 52r21 54r21 57r21 61r21 66r21 70r21 73r21
+. 77r21 80r21 82r21 85r27
+19P9*Ref(18R9) 20r34 21r47 32r14 34r57 36r14 39r52 41r14 42r50 46r85
+20P9*Ref_addrof(19P9)
+21A9*Ref_Arr(19P9) 22r33
+22P9*Ref_Array(21A9) 23r40
+23P9*Ref_Array_addrof(22P9)
+24R9*Typ<24|18R9> 24|23p13 29p13 31p13 36p13 37|26e14 47p13 49p13 51p13 53p13
+. 56p13 60p13 65p13 69p13 72p13 76p13 79p14 81p14
+27i4*MagicNumber{integer} 28m23
+29i4*HeaderVersionNumber{integer} 30m23
+31V13*new_ResourceManager{19P9} 32>7 33>7 34>7
+32p7 This{19P9}
+33p7 baseName{49|27P9}
+34p7 assembly{26|40P9}
+35V13*new_ResourceManager{19P9} 36>7 37>7 38>7 39>7
+36p7 This{19P9}
+37p7 baseName{49|27P9}
+38p7 assembly{26|40P9}
+39p7 usingResourceSet{54|51P9}
+40V13*new_ResourceManager{19P9} 41>7 42>7
+41p7 This{19P9}
+42p7 resourceSource{54|51P9}
+43V13*CreateFileBasedResourceManager{19P9} 44>7 45>7 46>7 87b23
+44p7 baseName{49|27P9}
+45p7 resourceDir{49|27P9}
+46p7 usingResourceSet{54|51P9}
+47V13*get_BaseName{49|27P9} 48^7 88b23
+48p7 This(24R9)
+49V13*get_IgnoreCase{boolean} 50^7 89b23
+50p7 This(24R9)
+51V13*get_ResourceSetType{54|51P9} 52^7 90b23
+52p7 This(24R9)
+53V13*GetObject{24|13P9} 54^7 55>7
+54p7 This(24R9)
+55p7 name{49|27P9}
+56V13*GetObject{24|13P9} 57^7 58>7 59>7 91b23
+57p7 This(24R9)
+58p7 name{49|27P9}
+59p7 culture{11|25P9}
+60V13*GetResourceSet{38|18P9} 61^7 62>7 63>7 64>7 92b23
+61p7 This(24R9)
+62p7 culture{11|25P9}
+63b7 createIfNotExists{boolean}
+64b7 tryParents{boolean}
+65V13*GetStream{22|21P9} 66^7 67>7 68>7
+66p7 This(24R9)
+67p7 name{49|27P9}
+68p7 culture{11|25P9}
+69V13*GetStream{22|21P9} 70^7 71>7 93b23
+70p7 This(24R9)
+71p7 name{49|27P9}
+72V13*GetString{49|27P9} 73^7 74>7 75>7
+73p7 This(24R9)
+74p7 name{49|27P9}
+75p7 culture{11|25P9}
+76V13*GetString{49|27P9} 77^7 78>7 94b23
+77p7 This(24R9)
+78p7 name{49|27P9}
+79U14*ReleaseAllResources 80^7 95b23
+80p7 This(24R9)
+81U14*set_IgnoreCase 82^7 83>7 96b23
+82p7 This(24R9)
+83b7 value{boolean}
+X 38 mssyst-resources-resourceset.ads
+16K26 ResourceSet 37|64r62
+18P9 Ref(integer) 37|64r74
+X 49 mssyst-string.ads
+25K16 String 37|33r25 37r25 44r25 45r28 48r40 55r21 58r21 67r21 71r21 74r21
+. 75r69 78r21 78r47
+27P9 Ref(integer) 37|33r32 37r32 44r32 45r35 48r47 55r28 58r28 67r28 71r28
+. 74r28 75r76 78r28 78r54
+X 54 mssyst-type_k.ads
+49K16 Type_k 37|39r33 42r31 46r33 52r40
+51P9 Ref(integer) 37|39r40 42r38 46r40 52r47
+

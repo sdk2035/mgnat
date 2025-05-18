@@ -1,0 +1,151 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.textformatflags%s  mssyst-windows-forms-textformatflags.ads  e28f6e42 NE PK
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.typecode%s	mssyst-typecode.ads	mssyst-typecode.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-textformatflags.ads  20060131171450 2ab4374e
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 40|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 40|7r6 12r6 15r9 80r16 83r13 87r32 89r32 92r18 92r53 94r32
+. 97r16 98r18 98r53 101r16 101r42 109r5 111r20
+X 12 mssyst-iformatprovider.ads
+12K16 IFormatProvider 40|92r25 98r25
+14P9 Ref(integer) 40|92r41 98r41
+X 13 mssyst-object.ads
+11K16*Object 46e18 40|7w13 80r23 83r20
+12R9*Typ 20e14
+13P9*Ref(12R9) 40|80r30 83r27
+X 29 mssyst-string.ads
+25K16 String 40|92r60 94r39 97r23 98r60 101r23 101r49
+27P9 Ref(integer) 40|92r67 94r46 97r30 98r67 101r30 101r56
+X 34 mssyst-type_k.ads
+49K16 Type_k 40|87r39
+51P9 Ref(integer) 40|87r46
+X 35 mssyst-typecode.ads
+14K16*TypeCode 89e20 40|12w13 89r39
+15E9*ValueType 33e14 40|89r48
+X 38 mssyst-windows.ads
+6K16*Windows 6|6k9 38|7e19 40|15r16 109r12 111r27
+X 39 mssyst-windows-forms.ads
+6K24*Forms 38|6k16 39|7e25 40|15r24 109r20 111r35
+X 40 mssyst-windows-forms-textformatflags.ads
+15K30*TextFormatFlags 39|6k24 40|109l26 109e41 111r41
+16E9*ValueType 41e27 42r29 43r8 69r54 71r40 73r24 73r42 75r19 76r36 77r20
+. 79r14 82r14 85r14 87r14 89r14 91r14 94r14 96r14 100r14
+17n7*Default{16E9} 44r7 75r32 76r49 77r33
+18n7*HorizontalCenter{16E9} 45r7
+19n7*Right{16E9} 46r7
+20n7*VerticalCenter{16E9} 47r7
+21n7*Bottom{16E9} 48r7
+22n7*WordBreak{16E9} 49r7
+23n7*SingleLine{16E9} 50r7
+24n7*ExpandTabs{16E9} 51r7
+25n7*NoClipping{16E9} 52r7
+26n7*ExternalLeading{16E9} 53r7
+27n7*NoPrefix{16E9} 54r7
+28n7*Internal{16E9} 55r7
+29n7*TextBoxControl{16E9} 56r7
+30n7*PathEllipsis{16E9} 57r7
+31n7*EndEllipsis{16E9} 58r7
+32n7*ModifyString{16E9} 59r7
+33n7*RightToLeft{16E9} 60r7
+34n7*WordEllipsis{16E9} 61r7
+35n7*NoFullWidthCharacterBreak{16E9} 62r7
+36n7*HidePrefix{16E9} 63r7
+37n7*PrefixOnly{16E9} 64r7
+38n7*PreserveGraphicsClipping{16E9} 65r7
+39n7*PreserveGraphicsTranslateTransform{16E9} 66r7
+40n7*NoPadding{16E9} 67r7
+41n7*LeftAndRightPadding{16E9} 68r7
+69A9*ValueType_Arr(16E9) 70r39
+70P9*ValueType_Array(69A9) 72r46
+71P9*ValueType_addrof(16E9)
+72P9*ValueType_array_addrof(70P9)
+73V13*"+"{16E9} 73>18 73>20 74b25
+73e18 L{16E9}
+73e20 R{16E9}
+75e4*Top{16E9}
+76e4*GlyphOverhangPadding{16E9}
+77e4*Left{16E9}
+78V13*CompareTo{integer} 79>7 80>7 103b23
+79e7 This{16E9}
+80p7 target{13|13P9}
+81V13*Equals{boolean} 82>7 83>7 104b23
+82e7 This{16E9}
+83p7 obj{13|13P9}
+84V13*GetHashCode{integer} 85>7 105b23
+85e7 This{16E9}
+86V13*GetType{34|51P9} 87>7 106b23
+87e7 This{16E9}
+88V13*GetTypeCode{35|15E9} 89>7 107b23
+89e7 This{16E9}
+90V13*ToString{29|27P9} 91>7 92>7
+91e7 This{16E9}
+92p7 provider{12|14P9}
+93V13*ToString{29|27P9} 94>7
+94e7 This{16E9}
+95V13*ToString{29|27P9} 96>7 97>7 98>7
+96e7 This{16E9}
+97p7 format{29|27P9}
+98p7 provider{12|14P9}
+99V13*ToString{29|27P9} 100>7 101>7 108b23
+100e7 This{16E9}
+101p7 format{29|27P9}
+

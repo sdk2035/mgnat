@@ -1,0 +1,742 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.net.sockets.socket%s  mssyst-net-sockets-socket.ads  9b70a907 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.net.sockets%s	mssyst-net-sockets.ads	mssyst-net-sockets.ali
+W mssyst.net.sockets.addressfamily%s  mssyst-net-sockets-addressfamily.ads  mssyst-net-sockets-addressfamily.ali
+W mssyst.net.sockets.iocontrolcode%s  mssyst-net-sockets-iocontrolcode.ads  mssyst-net-sockets-iocontrolcode.ali
+W mssyst.net.sockets.ippacketinformation%s  mssyst-net-sockets-ippacketinformation.ads  mssyst-net-sockets-ippacketinformation.ali
+W mssyst.net.sockets.protocoltype%s  mssyst-net-sockets-protocoltype.ads  mssyst-net-sockets-protocoltype.ali
+W mssyst.net.sockets.selectmode%s  mssyst-net-sockets-selectmode.ads  mssyst-net-sockets-selectmode.ali
+W mssyst.net.sockets.socketerror%s  mssyst-net-sockets-socketerror.ads  mssyst-net-sockets-socketerror.ali
+W mssyst.net.sockets.socketflags%s  mssyst-net-sockets-socketflags.ads  mssyst-net-sockets-socketflags.ali
+W mssyst.net.sockets.socketoptionlevel%s  mssyst-net-sockets-socketoptionlevel.ads  mssyst-net-sockets-socketoptionlevel.ali
+W mssyst.net.sockets.socketoptionname%s  mssyst-net-sockets-socketoptionname.ads  mssyst-net-sockets-socketoptionname.ali
+W mssyst.net.sockets.socketshutdown%s  mssyst-net-sockets-socketshutdown.ads  mssyst-net-sockets-socketshutdown.ali
+W mssyst.net.sockets.sockettype%s  mssyst-net-sockets-sockettype.ads  mssyst-net-sockets-sockettype.ali
+W mssyst.net.sockets.transmitfileoptions%s  mssyst-net-sockets-transmitfileoptions.ads  mssyst-net-sockets-transmitfileoptions.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-asynccallback.ads  20060131171354 20264380
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-iasyncresult.ads  20060131171356 e48639e4
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-net.ads	20060131171420 aa03617c
+D mssyst-net-endpoint.ads  20060131171420 dc20260f
+D mssyst-net-ipaddress.ads  20060131171422 fb70dafd
+D mssyst-net-sockets.ads  20060131171422 4d59735d
+D mssyst-net-sockets-addressfamily.ads  20060131171422 923f2d7b
+D mssyst-net-sockets-iocontrolcode.ads  20060131171422 8019f358
+D mssyst-net-sockets-ippacketinformation.ads  20060131171422 cf393baf
+D mssyst-net-sockets-lingeroption.ads  20060131171422 8cbf5631
+D mssyst-net-sockets-protocoltype.ads  20060131171422 9f618b33
+D mssyst-net-sockets-selectmode.ads  20060131171422 a7389304
+D mssyst-net-sockets-socket.ads  20060131171422 27050e00
+D mssyst-net-sockets-socketerror.ads  20060131171422 760326e3
+D mssyst-net-sockets-socketflags.ads  20060131171422 e55ce2b4
+D mssyst-net-sockets-socketinformation.ads  20060131171422 a400055e
+D mssyst-net-sockets-socketinformationoptions.ads  20060131171422 3105b2c4
+D mssyst-net-sockets-socketoptionlevel.ads  20060131171422 feb9b7cc
+D mssyst-net-sockets-socketoptionname.ads  20060131171422 6fef0792
+D mssyst-net-sockets-socketshutdown.ads  20060131171422 5ea70afc
+D mssyst-net-sockets-sockettype.ads  20060131171422 fbe92dee
+D mssyst-net-sockets-transmitfileoptions.ads  20060131171422 06a93d0a
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 30|8w6 9r5 99r16 108r16 116r16 125r16 134r16 143r16
+. 157r19 158r20 164r16 205r16 206r26 210r16 263r33 292r33 299r38 304r21 312r23
+. 313r24 317r23 318r24 328r16 335r16 339r16 344r16 350r16 353r16 358r16 362r16
+. 368r16 375r16 388r16 395r16 401r16 404r16 409r16 414r19 415r20 422r16 427r16
+. 431r16 437r16 477r15 495r21
+20I9*int16<short_integer> 30|292r44 477r26
+24E9*unsigned_int8<character>
+44A9*unsigned_int8_arr(24E9) 30|99r27 108r27 116r27 125r27 134r27 143r27
+. 157r30 158r31 164r27 304r32 312r34 313r35 317r34 318r35 328r27 335r27 339r27
+. 344r27 350r27 353r27 358r27 362r27 368r27 375r27 388r27 395r27 401r27 404r27
+. 409r27 414r30 415r31 422r27 427r27 431r27 437r27 495r32
+45P9*Unsigned_Int8_Array(44A9) 30|299r49
+47P9*unsigned_int8_array_addrof(45P9) 30|205r27 210r27
+52M9*native_int 30|263r44
+59M9*int32_addrof 30|206r37
+X 6 mssyst.ads
+6K9*MSSyst 7e11 30|7r6 10r6 17r6 18r6 20r6 22r6 23r6 25r6 26r6 27r6 28r6
+. 30r6 31r6 33r6 34r9 41r20 46r23 47r20 48r22 51r27 53r33 57r18 58r15 58r41
+. 61r18 62r15 62r41 65r22 67r18 68r15 68r41 71r19 73r25 74r15 74r41 77r18
+. 78r18 79r15 79r41 82r14 84r25 85r15 85r41 88r17 90r25 91r15 91r41 95r18
+. 96r15 96r41 102r21 103r19 104r18 105r15 105r41 111r21 112r18 113r15 113r41
+. 119r21 120r18 121r18 122r15 122r41 128r21 129r18 130r18 131r15 131r41 137r21
+. 138r19 139r18 140r15 140r41 146r21 147r18 148r15 148r41 151r18 152r18 153r15
+. 153r41 156r18 159r15 160r18 161r15 161r41 167r21 168r18 169r18 170r15 170r41
+. 173r17 181r14 185r19 189r18 192r17 199r41 202r21 202r53 207r21 207r53 211r21
+. 211r53 214r21 217r21 220r21 223r21 224r19 227r21 228r18 231r21 232r21 233r18
+. 234r29 237r21 238r19 241r21 244r21 247r21 249r33 267r33 269r33 276r33 282r33
+. 288r33 297r21 298r20 302r21 303r20 307r21 308r20 308r74 311r23 325r14 331r21
+. 332r19 336r21 341r21 347r21 354r21 355r18 359r18 364r21 365r18 371r21 372r18
+. 378r21 379r18 380r29 382r19 383r20 384r20 391r21 392r19 398r21 406r21 410r21
+. 413r18 416r15 419r18 423r21 424r18 428r18 433r21 434r18 440r21 441r18 456r15
+. 483r21 484r20 488r21 489r20 493r21 494r20 498r21 499r20 500r21 503r13 582r5
+. 584r20
+X 7 mssyst-asynccallback.ads
+22K16 AsyncCallback 30|57r25 61r25 67r25 73r32 78r25 84r32 90r32 95r25 104r25
+. 112r25 121r25 130r25 139r25 147r25 152r25 160r25 169r25
+24P9 Ref(integer) 30|57r39 61r39 67r39 73r46 78r39 84r46 90r46 95r39 104r39
+. 112r39 121r39 130r39 139r39 147r39 152r39 160r39 169r39
+X 8 mssyst-collections.ads
+6K16 Collections 30|382r26 383r27 384r27
+X 10 mssyst-collections-ilist.ads
+12K28 IList 30|382r38 383r39 384r39
+14P9 Ref(integer) 30|382r44 383r45 384r45
+X 15 mssyst-iasyncresult.ads
+12K16 IAsyncResult 30|58r48 62r48 68r48 74r48 79r48 85r48 91r48 96r48 105r48
+. 113r48 122r48 131r48 140r48 148r48 153r48 161r48 170r48 202r28 207r28 211r28
+. 214r28 217r28 220r28 223r28 227r28 231r28 237r28 241r28 244r28 247r28
+14P9 Ref(integer) 30|58r61 62r61 68r61 74r61 79r61 85r61 91r61 96r61 105r61
+. 113r61 122r61 131r61 140r61 148r61 153r61 161r61 170r61 202r41 207r41 211r41
+. 214r41 217r41 220r41 223r41 227r41 231r41 237r41 241r41 244r41 247r41
+X 20 mssyst-net.ads
+6K16*Net 6|6k9 20|7e15 30|17r13 18r13 20r13 22r13 23r13 25r13 26r13 27r13
+. 28r13 30r13 31r13 33r13 34r16 46r30 47r27 48r29 51r34 53r40 65r29 71r26
+. 77r25 88r24 102r28 103r26 111r28 119r28 120r25 128r28 129r25 137r28 138r26
+. 146r28 159r22 167r28 168r25 173r24 185r26 189r25 192r24 199r48 202r60 207r60
+. 211r60 224r26 228r25 232r28 233r25 234r36 238r26 249r40 267r40 269r40 276r40
+. 282r40 288r40 297r28 298r27 302r28 303r27 307r28 308r27 311r30 325r21 331r28
+. 332r26 336r28 341r28 347r28 354r28 355r25 359r25 364r28 365r25 371r28 372r25
+. 378r28 379r25 380r36 391r28 392r26 398r28 406r28 410r28 416r22 423r28 424r25
+. 428r25 433r28 434r25 440r28 441r25 456r22 483r28 484r27 488r28 489r27 493r28
+. 494r27 498r28 499r27 503r20 582r12 584r27
+X 21 mssyst-net-endpoint.ads
+15K20 EndPoint 30|77r29 120r29 129r29 168r29 173r28 189r29 228r29 233r29
+. 269r44 282r44 355r29 359r29 365r29 372r29 379r29 424r29 428r29 434r29 441r29
+17P9 Ref(integer) 30|77r38 168r38 173r37 189r38 269r53 282r53 424r38 428r38
+. 434r38 441r38
+18P9 Ref_addrof(integer) 30|120r38 129r38 228r38 233r38 355r38 359r38 365r38
+. 372r38 379r38
+X 22 mssyst-net-ipaddress.ads
+15K20 IPAddress 30|71r30 88r28 185r30 192r28
+17P9 Ref(integer) 30|88r38 192r38
+20P9 Ref_Array(integer) 30|71r40 185r40
+X 23 mssyst-net-sockets.ads
+6K20*Sockets 20|6k16 23|7e23 30|17r17 18r17 20r17 22r17 23r17 25r17 26r17
+. 27r17 28r17 30r17 31r17 33r17 34r20 46r34 47r31 48r33 51r38 53r44 65r33
+. 102r32 103r30 111r32 119r32 128r32 137r32 138r30 146r32 159r26 167r32 199r52
+. 202r64 207r64 211r64 224r30 232r32 234r40 238r30 249r44 267r44 276r44 288r44
+. 297r32 298r31 302r32 303r31 307r32 308r31 311r34 325r25 331r32 332r30 336r32
+. 341r32 347r32 354r32 364r32 371r32 378r32 380r40 391r32 392r30 398r32 406r32
+. 410r32 416r26 423r32 433r32 440r32 456r26 483r32 484r31 488r32 489r31 493r32
+. 494r31 498r32 499r31 503r24 582r16 584r31
+X 24 mssyst-net-sockets-addressfamily.ads
+15K28*AddressFamily 114e37 30|23w25 46r42 249r52
+16E9*ValueType 45e11 30|46r56 249r66
+X 25 mssyst-net-sockets-iocontrolcode.ads
+15K28*IOControlCode 122e37 30|30w25 311r42
+16E9*ValueType 50e28 30|311r56
+X 26 mssyst-net-sockets-ippacketinformation.ads
+15K28*IPPacketInformation 43e43 30|22w25 234r48 380r48
+19P9*ValueType_addrof(16R9) 30|234r68 380r68
+X 27 mssyst-net-sockets-lingeroption.ads
+13K28 LingerOption 30|267r52 456r34
+15P9 Ref(integer) 30|267r65 456r47
+X 28 mssyst-net-sockets-protocoltype.ads
+15K28*ProtocolType 102e36 30|25w25 48r41 276r52
+16E9*ValueType 39e13 30|48r54 276r65
+X 29 mssyst-net-sockets-selectmode.ads
+15K28*SelectMode 60e34 30|31w25 325r33
+16E9*ValueType 19e19 30|325r44
+X 30 mssyst-net-sockets-socket.ads
+34K28*Socket 23|6k20 30|53r52 65r41 202r72 207r72 211r72 582l24 582e30 584r39
+35R9*Typ 36r27 41c9 53r21 55r21 60r21 64r21 70r21 76r21 81r21 87r21 93r21
+. 98r21 107r21 115r21 124r21 133r21 142r21 150r21 155r21 163r21 172r21 175r21
+. 178r21 180r21 184r21 188r21 191r21 195r21 198r21 201r21 204r21 209r21 213r21
+. 216r21 219r21 222r21 226r21 230r21 236r21 240r21 243r21 246r21 249r21 251r21
+. 253r21 255r21 257r21 259r21 261r21 263r21 265r21 267r21 269r21 271r21 273r21
+. 276r21 278r21 280r21 282r21 284r21 286r21 288r21 292r21 294r21 296r21 301r21
+. 306r21 310r21 315r21 320r21 323r21 327r21 334r21 338r21 343r21 349r21 352r21
+. 357r21 361r21 367r21 374r21 387r21 394r21 400r21 403r21 408r21 412r21 418r21
+. 421r21 426r21 430r21 436r21 443r21 446r21 449r21 452r21 455r21 458r21 461r21
+. 464r21 467r21 470r21 473r21 476r21 479r21 482r21 487r21 492r21 497r21 502r21
+. 505r27
+36P9*Ref(35R9) 37r34 38r47 45r14 48r72 50r14 51r82 53r59 65r48 202r79 207r79
+. 211r79
+37P9*Ref_addrof(36P9)
+38A9*Ref_Arr(36P9) 39r33
+39P9*Ref_Array(38A9) 40r40
+40P9*Ref_Array_addrof(39P9)
+41R9*Typ<40|18R9> 43e14 52p13 54p13 59p13 63p13 69p13 75p13 80p13 86p13 92p13
+. 97p13 106p13 114p13 123p13 132p13 141p13 149p13 154p13 162p13 171p14 174p14
+. 177p14 179p14 183p14 187p14 190p14 194p14 197p13 200p13 203p13 208p13 212p14
+. 215p14 218p13 221p13 225p13 229p13 235p13 239p13 242p14 245p13 248p13 250p13
+. 252p13 254p13 256p13 258p13 260p13 262p13 264p13 266p13 268p13 270p13 272p13
+. 275p13 277p13 279p13 281p13 283p13 285p13 287p13 291p13 293p13 295p13 300p14
+. 305p13 309p13 314p13 319p14 322p13 326p13 333p13 337p13 342p13 348p13 351p13
+. 356p13 360p13 366p13 373p13 386p13 393p13 399p13 402p13 407p13 411p14 417p14
+. 420p13 425p13 429p13 435p13 442p14 445p14 448p14 451p14 454p14 457p14 460p14
+. 463p14 466p14 469p14 472p14 475p14 478p14 481p14 486p14 491p14 496p14 501p14
+. 40|23p13 29p13 31p13 36p13
+44V13*new_Socket{36P9} 45>7 46>7 47>7 48>7
+45p7 This{36P9}
+46e7 addressFamily{24|16E9}
+47e7 socketType{38|16E9}
+48e7 protocolType{28|16E9}
+49V13*new_Socket{36P9} 50>7 51>7
+50p7 This{36P9}
+51r7 socketInformation{33|16R9}
+52V13*Accept_k{36P9} 53^7 507b23
+53p7 This(41R9)
+54V13*BeginAccept{15|14P9} 55^7 56>7 57>7 58>7
+55p7 This(41R9)
+56i7 receiveSize{integer}
+57p7 callback{7|24P9}
+58p7 state{40|13P9}
+59V13*BeginAccept{15|14P9} 60^7 61>7 62>7
+60p7 This(41R9)
+61p7 callback{7|24P9}
+62p7 state{40|13P9}
+63V13*BeginAccept{15|14P9} 64^7 65>7 66>7 67>7 68>7 508b23
+64p7 This(41R9)
+65p7 acceptSocket{36P9}
+66i7 receiveSize{integer}
+67p7 callback{7|24P9}
+68p7 state{40|13P9}
+69V13*BeginConnect{15|14P9} 70^7 71>7 72>7 73>7 74>7
+70p7 This(41R9)
+71p7 addresses{22|20P9}
+72i7 port{integer}
+73p7 requestCallback{7|24P9}
+74p7 state{40|13P9}
+75V13*BeginConnect{15|14P9} 76^7 77>7 78>7 79>7
+76p7 This(41R9)
+77p7 remoteEP{21|17P9}
+78p7 callback{7|24P9}
+79p7 state{40|13P9}
+80V13*BeginConnect{15|14P9} 81^7 82>7 83>7 84>7 85>7
+81p7 This(41R9)
+82p7 host{58|27P9}
+83i7 port{integer}
+84p7 requestCallback{7|24P9}
+85p7 state{40|13P9}
+86V13*BeginConnect{15|14P9} 87^7 88>7 89>7 90>7 91>7 509b23
+87p7 This(41R9)
+88p7 address{22|17P9}
+89i7 port{integer}
+90p7 requestCallback{7|24P9}
+91p7 state{40|13P9}
+92V13*BeginDisconnect{15|14P9} 93^7 94>7 95>7 96>7 510b23
+93p7 This(41R9)
+94b7 reuseSocket{boolean}
+95p7 callback{7|24P9}
+96p7 state{40|13P9}
+97V13*BeginReceive{15|14P9} 98^7 99>7 100>7 101>7 102>7 103>7 104>7 105>7
+98p7 This(41R9)
+99a7 buffer{5|44A9}
+100i7 offset{integer}
+101i7 size{integer}
+102e7 socketFlags{32|16E9}
+103p7 errorCode{31|115P9}
+104p7 callback{7|24P9}
+105p7 state{40|13P9}
+106V13*BeginReceive{15|14P9} 107^7 108>7 109>7 110>7 111>7 112>7 113>7 511b23
+107p7 This(41R9)
+108a7 buffer{5|44A9}
+109i7 offset{integer}
+110i7 size{integer}
+111e7 socketFlags{32|16E9}
+112p7 callback{7|24P9}
+113p7 state{40|13P9}
+114V13*BeginReceiveFrom{15|14P9} 115^7 116>7 117>7 118>7 119>7 120>7 121>7
+. 122>7 512b23
+115p7 This(41R9)
+116a7 buffer{5|44A9}
+117i7 offset{integer}
+118i7 size{integer}
+119e7 socketFlags{32|16E9}
+120p7 remoteEP{21|18P9}
+121p7 callback{7|24P9}
+122p7 state{40|13P9}
+123V13*BeginReceiveMessageFrom{15|14P9} 124^7 125>7 126>7 127>7 128>7 129>7
+. 130>7 131>7 513b23
+124p7 This(41R9)
+125a7 buffer{5|44A9}
+126i7 offset{integer}
+127i7 size{integer}
+128e7 socketFlags{32|16E9}
+129p7 remoteEP{21|18P9}
+130p7 callback{7|24P9}
+131p7 state{40|13P9}
+132V13*BeginSend{15|14P9} 133^7 134>7 135>7 136>7 137>7 138>7 139>7 140>7
+133p7 This(41R9)
+134a7 buffer{5|44A9}
+135i7 offset{integer}
+136i7 size{integer}
+137e7 socketFlags{32|16E9}
+138p7 errorCode{31|115P9}
+139p7 callback{7|24P9}
+140p7 state{40|13P9}
+141V13*BeginSend{15|14P9} 142^7 143>7 144>7 145>7 146>7 147>7 148>7 514b23
+142p7 This(41R9)
+143a7 buffer{5|44A9}
+144i7 offset{integer}
+145i7 size{integer}
+146e7 socketFlags{32|16E9}
+147p7 callback{7|24P9}
+148p7 state{40|13P9}
+149V13*BeginSendFile{15|14P9} 150^7 151>7 152>7 153>7
+150p7 This(41R9)
+151p7 fileName{58|27P9}
+152p7 callback{7|24P9}
+153p7 state{40|13P9}
+154V13*BeginSendFile{15|14P9} 155^7 156>7 157>7 158>7 159>7 160>7 161>7 515b23
+155p7 This(41R9)
+156p7 fileName{58|27P9}
+157a7 preBuffer{5|44A9}
+158a7 postBuffer{5|44A9}
+159e7 flags{39|16E9}
+160p7 callback{7|24P9}
+161p7 state{40|13P9}
+162V13*BeginSendTo{15|14P9} 163^7 164>7 165>7 166>7 167>7 168>7 169>7 170>7
+. 516b23
+163p7 This(41R9)
+164a7 buffer{5|44A9}
+165i7 offset{integer}
+166i7 size{integer}
+167e7 socketFlags{32|16E9}
+168p7 remoteEP{21|17P9}
+169p7 callback{7|24P9}
+170p7 state{40|13P9}
+171U14*Bind 172^7 173>7 517b23
+172p7 This(41R9)
+173p7 localEP{21|17P9}
+174U14*Close 175^7 176>7
+175p7 This(41R9)
+176i7 timeout{integer}
+177U14*Close 178^7 518b23
+178p7 This(41R9)
+179U14*Connect 180^7 181>7 182>7
+180p7 This(41R9)
+181p7 host{58|27P9}
+182i7 port{integer}
+183U14*Connect 184^7 185>7 186>7
+184p7 This(41R9)
+185p7 addresses{22|20P9}
+186i7 port{integer}
+187U14*Connect 188^7 189>7
+188p7 This(41R9)
+189p7 remoteEP{21|17P9}
+190U14*Connect 191^7 192>7 193>7 519b23
+191p7 This(41R9)
+192p7 address{22|17P9}
+193i7 port{integer}
+194U14*Disconnect 195^7 196>7 520b23
+195p7 This(41R9)
+196b7 reuseSocket{boolean}
+197V13*DuplicateAndClose{33|16R9} 198^7 199>7 521b23
+198p7 This(41R9)
+199i7 targetProcessId{integer}
+200V13*EndAccept{36P9} 201^7 202>7
+201p7 This(41R9)
+202p7 asyncResult{15|14P9}
+203V13*EndAccept{36P9} 204^7 205>7 206>7 207>7
+204p7 This(41R9)
+205p7 buffer{5|47P9}
+206m7 bytesTransferred{5|59M9}
+207p7 asyncResult{15|14P9}
+208V13*EndAccept{36P9} 209^7 210>7 211>7 522b23
+209p7 This(41R9)
+210p7 buffer{5|47P9}
+211p7 asyncResult{15|14P9}
+212U14*EndConnect 213^7 214>7 523b23
+213p7 This(41R9)
+214p7 asyncResult{15|14P9}
+215U14*EndDisconnect 216^7 217>7 524b23
+216p7 This(41R9)
+217p7 asyncResult{15|14P9}
+218V13*EndReceive{integer} 219^7 220>7
+219p7 This(41R9)
+220p7 asyncResult{15|14P9}
+221V13*EndReceive{integer} 222^7 223>7 224>7 525b23
+222p7 This(41R9)
+223p7 asyncResult{15|14P9}
+224p7 errorCode{31|115P9}
+225V13*EndReceiveFrom{integer} 226^7 227>7 228>7 526b23
+226p7 This(41R9)
+227p7 asyncResult{15|14P9}
+228p7 endPoint{21|18P9}
+229V13*EndReceiveMessageFrom{integer} 230^7 231>7 232>7 233>7 234>7 527b23
+230p7 This(41R9)
+231p7 asyncResult{15|14P9}
+232p7 socketFlags{32|41P9}
+233p7 endPoint{21|18P9}
+234p7 ipPacketInformation{26|19P9}
+235V13*EndSend{integer} 236^7 237>7 238>7
+236p7 This(41R9)
+237p7 asyncResult{15|14P9}
+238p7 errorCode{31|115P9}
+239V13*EndSend{integer} 240^7 241>7 528b23
+240p7 This(41R9)
+241p7 asyncResult{15|14P9}
+242U14*EndSendFile 243^7 244>7 529b23
+243p7 This(41R9)
+244p7 asyncResult{15|14P9}
+245V13*EndSendTo{integer} 246^7 247>7 530b23
+246p7 This(41R9)
+247p7 asyncResult{15|14P9}
+248V13*get_AddressFamily{24|16E9} 249^7 531b23
+249p7 This(41R9)
+250V13*get_Available{integer} 251^7 532b23
+251p7 This(41R9)
+252V13*get_Blocking{boolean} 253^7 533b23
+253p7 This(41R9)
+254V13*get_Connected{boolean} 255^7 534b23
+255p7 This(41R9)
+256V13*get_DontFragment{boolean} 257^7 535b23
+257p7 This(41R9)
+258V13*get_EnableBroadcast{boolean} 259^7 536b23
+259p7 This(41R9)
+260V13*get_ExclusiveAddressUse{boolean} 261^7 537b23
+261p7 This(41R9)
+262V13*get_Handle{5|52M9} 263^7 538b23
+263p7 This(41R9)
+264V13*get_IsBound{boolean} 265^7 539b23
+265p7 This(41R9)
+266V13*get_LingerState{27|15P9} 267^7 540b23
+267p7 This(41R9)
+268V13*get_LocalEndPoint{21|17P9} 269^7 541b23
+269p7 This(41R9)
+270V13*get_MulticastLoopback{boolean} 271^7 542b23
+271p7 This(41R9)
+272V13*get_NoDelay{boolean} 273^7 543b23
+273p7 This(41R9)
+274V13*get_OSSupportsIPv6{boolean} 544b23
+275V13*get_ProtocolType{28|16E9} 276^7 545b23
+276p7 This(41R9)
+277V13*get_ReceiveBufferSize{integer} 278^7 546b23
+278p7 This(41R9)
+279V13*get_ReceiveTimeout{integer} 280^7 547b23
+280p7 This(41R9)
+281V13*get_RemoteEndPoint{21|17P9} 282^7 548b23
+282p7 This(41R9)
+283V13*get_SendBufferSize{integer} 284^7 549b23
+284p7 This(41R9)
+285V13*get_SendTimeout{integer} 286^7 550b23
+286p7 This(41R9)
+287V13*get_SocketType{38|16E9} 288^7 551b23
+288p7 This(41R9)
+289V13*get_SupportsIPv4{boolean} 552b23
+290V13*get_SupportsIPv6{boolean} 553b23
+291V13*get_Ttl{5|20I9} 292^7 554b23
+292p7 This(41R9)
+293V13*get_UseOnlyOverlappedIO{boolean} 294^7 555b23
+294p7 This(41R9)
+295V13*GetSocketOption{5|45P9} 296^7 297>7 298>7 299>7
+296p7 This(41R9)
+297e7 optionLevel{35|16E9}
+298e7 optionName{36|16E9}
+299i7 optionLength{integer}
+300U14*GetSocketOption 301^7 302>7 303>7 304>7
+301p7 This(41R9)
+302e7 optionLevel{35|16E9}
+303e7 optionName{36|16E9}
+304a7 optionValue{5|44A9}
+305V13*GetSocketOption{40|13P9} 306^7 307>7 308>7 556b23
+306p7 This(41R9)
+307e7 optionLevel{35|16E9}
+308e7 optionName{36|16E9}
+309V13*IOControl{integer} 310^7 311>7 312>7 313>7
+310p7 This(41R9)
+311e7 ioControlCode{25|16E9}
+312a7 optionInValue{5|44A9}
+313a7 optionOutValue{5|44A9}
+314V13*IOControl{integer} 315^7 316>7 317>7 318>7 557b23
+315p7 This(41R9)
+316i7 ioControlCode{integer}
+317a7 optionInValue{5|44A9}
+318a7 optionOutValue{5|44A9}
+319U14*Listen 320^7 321>7 558b23
+320p7 This(41R9)
+321i7 backlog{integer}
+322V13*Poll{boolean} 323^7 324>7 325>7 559b23
+323p7 This(41R9)
+324i7 microSeconds{integer}
+325e7 mode{29|16E9}
+326V13*Receive{integer} 327^7 328>7 329>7 330>7 331>7 332>7
+327p7 This(41R9)
+328a7 buffer{5|44A9}
+329i7 offset{integer}
+330i7 size{integer}
+331e7 socketFlags{32|16E9}
+332p7 errorCode{31|115P9}
+333V13*Receive{integer} 334^7 335>7 336>7
+334p7 This(41R9)
+335a7 buffer{5|44A9}
+336e7 socketFlags{32|16E9}
+337V13*Receive{integer} 338^7 339>7 340>7 341>7
+338p7 This(41R9)
+339a7 buffer{5|44A9}
+340i7 size{integer}
+341e7 socketFlags{32|16E9}
+342V13*Receive{integer} 343^7 344>7 345>7 346>7 347>7
+343p7 This(41R9)
+344a7 buffer{5|44A9}
+345i7 offset{integer}
+346i7 size{integer}
+347e7 socketFlags{32|16E9}
+348V13*Receive{integer} 349^7 350>7 560b23
+349p7 This(41R9)
+350a7 buffer{5|44A9}
+351V13*ReceiveFrom{integer} 352^7 353>7 354>7 355>7
+352p7 This(41R9)
+353a7 buffer{5|44A9}
+354e7 socketFlags{32|16E9}
+355p7 remoteEP{21|18P9}
+356V13*ReceiveFrom{integer} 357^7 358>7 359>7
+357p7 This(41R9)
+358a7 buffer{5|44A9}
+359p7 remoteEP{21|18P9}
+360V13*ReceiveFrom{integer} 361^7 362>7 363>7 364>7 365>7
+361p7 This(41R9)
+362a7 buffer{5|44A9}
+363i7 size{integer}
+364e7 socketFlags{32|16E9}
+365p7 remoteEP{21|18P9}
+366V13*ReceiveFrom{integer} 367^7 368>7 369>7 370>7 371>7 372>7 561b23
+367p7 This(41R9)
+368a7 buffer{5|44A9}
+369i7 offset{integer}
+370i7 size{integer}
+371e7 socketFlags{32|16E9}
+372p7 remoteEP{21|18P9}
+373V13*ReceiveMessageFrom{integer} 374^7 375>7 376>7 377>7 378>7 379>7 380>7
+. 562b23
+374p7 This(41R9)
+375a7 buffer{5|44A9}
+376i7 offset{integer}
+377i7 size{integer}
+378p7 socketFlags{32|41P9}
+379p7 remoteEP{21|18P9}
+380p7 ipPacketInformation{26|19P9}
+381U14*Select_k 382>7 383>7 384>7 385>7 563b23
+382p7 checkRead{10|14P9}
+383p7 checkWrite{10|14P9}
+384p7 checkError{10|14P9}
+385i7 microSeconds{integer}
+386V13*Send{integer} 387^7 388>7 389>7 390>7 391>7 392>7
+387p7 This(41R9)
+388a7 buffer{5|44A9}
+389i7 offset{integer}
+390i7 size{integer}
+391e7 socketFlags{32|16E9}
+392p7 errorCode{31|115P9}
+393V13*Send{integer} 394^7 395>7 396>7 397>7 398>7
+394p7 This(41R9)
+395a7 buffer{5|44A9}
+396i7 offset{integer}
+397i7 size{integer}
+398e7 socketFlags{32|16E9}
+399V13*Send{integer} 400^7 401>7
+400p7 This(41R9)
+401a7 buffer{5|44A9}
+402V13*Send{integer} 403^7 404>7 405>7 406>7
+403p7 This(41R9)
+404a7 buffer{5|44A9}
+405i7 size{integer}
+406e7 socketFlags{32|16E9}
+407V13*Send{integer} 408^7 409>7 410>7 564b23
+408p7 This(41R9)
+409a7 buffer{5|44A9}
+410e7 socketFlags{32|16E9}
+411U14*SendFile 412^7 413>7 414>7 415>7 416>7
+412p7 This(41R9)
+413p7 fileName{58|27P9}
+414a7 preBuffer{5|44A9}
+415a7 postBuffer{5|44A9}
+416e7 flags{39|16E9}
+417U14*SendFile 418^7 419>7 565b23
+418p7 This(41R9)
+419p7 fileName{58|27P9}
+420V13*SendTo{integer} 421^7 422>7 423>7 424>7
+421p7 This(41R9)
+422a7 buffer{5|44A9}
+423e7 socketFlags{32|16E9}
+424p7 remoteEP{21|17P9}
+425V13*SendTo{integer} 426^7 427>7 428>7
+426p7 This(41R9)
+427a7 buffer{5|44A9}
+428p7 remoteEP{21|17P9}
+429V13*SendTo{integer} 430^7 431>7 432>7 433>7 434>7
+430p7 This(41R9)
+431a7 buffer{5|44A9}
+432i7 size{integer}
+433e7 socketFlags{32|16E9}
+434p7 remoteEP{21|17P9}
+435V13*SendTo{integer} 436^7 437>7 438>7 439>7 440>7 441>7 566b23
+436p7 This(41R9)
+437a7 buffer{5|44A9}
+438i7 offset{integer}
+439i7 size{integer}
+440e7 socketFlags{32|16E9}
+441p7 remoteEP{21|17P9}
+442U14*set_Blocking 443^7 444>7 567b23
+443p7 This(41R9)
+444b7 value{boolean}
+445U14*set_DontFragment 446^7 447>7 568b23
+446p7 This(41R9)
+447b7 value{boolean}
+448U14*set_EnableBroadcast 449^7 450>7 569b23
+449p7 This(41R9)
+450b7 value{boolean}
+451U14*set_ExclusiveAddressUse 452^7 453>7 570b23
+452p7 This(41R9)
+453b7 value{boolean}
+454U14*set_LingerState 455^7 456>7 571b23
+455p7 This(41R9)
+456p7 value{27|15P9}
+457U14*set_MulticastLoopback 458^7 459>7 572b23
+458p7 This(41R9)
+459b7 value{boolean}
+460U14*set_NoDelay 461^7 462>7 573b23
+461p7 This(41R9)
+462b7 value{boolean}
+463U14*set_ReceiveBufferSize 464^7 465>7 574b23
+464p7 This(41R9)
+465i7 value{integer}
+466U14*set_ReceiveTimeout 467^7 468>7 575b23
+467p7 This(41R9)
+468i7 value{integer}
+469U14*set_SendBufferSize 470^7 471>7 576b23
+470p7 This(41R9)
+471i7 value{integer}
+472U14*set_SendTimeout 473^7 474>7 577b23
+473p7 This(41R9)
+474i7 value{integer}
+475U14*set_Ttl 476^7 477>7 578b23
+476p7 This(41R9)
+477i7 value{5|20I9}
+478U14*set_UseOnlyOverlappedIO 479^7 480>7 579b23
+479p7 This(41R9)
+480b7 value{boolean}
+481U14*SetSocketOption 482^7 483>7 484>7 485>7
+482p7 This(41R9)
+483e7 optionLevel{35|16E9}
+484e7 optionName{36|16E9}
+485b7 optionValue{boolean}
+486U14*SetSocketOption 487^7 488>7 489>7 490>7
+487p7 This(41R9)
+488e7 optionLevel{35|16E9}
+489e7 optionName{36|16E9}
+490i7 optionValue{integer}
+491U14*SetSocketOption 492^7 493>7 494>7 495>7
+492p7 This(41R9)
+493e7 optionLevel{35|16E9}
+494e7 optionName{36|16E9}
+495a7 optionValue{5|44A9}
+496U14*SetSocketOption 497^7 498>7 499>7 500>7 580b23
+497p7 This(41R9)
+498e7 optionLevel{35|16E9}
+499e7 optionName{36|16E9}
+500p7 optionValue{40|13P9}
+501U14*Shutdown 502^7 503>7 581b23
+502p7 This(41R9)
+503e7 how{37|16E9}
+X 31 mssyst-net-sockets-socketerror.ads
+15K28*SocketError 30|18w25 103r38 138r38 224r38 238r38 332r38 392r38 31|148e35
+115P9*ValueType_addrof(16E9) 30|103r50 138r50 224r50 238r50 332r50 392r50
+X 32 mssyst-net-sockets-socketflags.ads
+15K28*SocketFlags 30|17w25 102r40 111r40 119r40 128r40 137r40 146r40 167r40
+. 232r40 331r40 336r40 341r40 347r40 354r40 364r40 371r40 378r40 391r40 398r40
+. 406r40 410r40 423r40 433r40 440r40 32|76e35
+16E9*ValueType 30|102r52 111r52 119r52 128r52 137r52 146r52 167r52 331r52
+. 336r52 341r52 347r52 354r52 364r52 371r52 391r52 398r52 406r52 410r52 423r52
+. 433r52 440r52 32|26e15
+41P9*ValueType_addrof(16E9) 30|232r52 378r52
+X 33 mssyst-net-sockets-socketinformation.ads
+15K28 SocketInformation 30|51r46 199r60
+16R9 ValueType 30|51r64 199r78
+X 35 mssyst-net-sockets-socketoptionlevel.ads
+15K28*SocketOptionLevel 30|27w25 297r40 302r40 307r40 483r40 488r40 493r40
+. 498r40 35|64e41
+16E9*ValueType 30|297r58 302r58 307r58 483r58 488r58 493r58 498r58 35|21e14
+X 36 mssyst-net-sockets-socketoptionname.ads
+15K28*SocketOptionName 30|28w25 298r39 303r39 308r39 484r39 489r39 494r39
+. 499r39 36|133e40
+16E9*ValueType 30|298r56 303r56 308r56 484r56 489r56 494r56 499r56 36|52e22
+X 37 mssyst-net-sockets-socketshutdown.ads
+15K28*SocketShutdown 30|33w25 503r32 37|60e38
+16E9*ValueType 30|503r47 37|19e12
+X 38 mssyst-net-sockets-sockettype.ads
+15K28*SocketType 30|26w25 47r39 288r52 38|66e34
+16E9*ValueType 30|47r50 288r63 38|22e17
+X 39 mssyst-net-sockets-transmitfileoptions.ads
+15K28*TransmitFileOptions 30|20w25 159r34 416r34 39|68e43
+16E9*ValueType 30|159r54 416r54 39|22e20
+X 40 mssyst-object.ads
+11K16*Object 30|7w13 10w13 41r27 58r22 62r22 68r22 74r22 79r22 85r22 91r22
+. 96r22 105r22 113r22 122r22 131r22 140r22 148r22 153r22 161r22 170r22 308r81
+. 500r28 40|46e18
+12R9*Typ 30|41r34 40|20e14
+13P9*Ref(12R9) 30|58r29 62r29 68r29 74r29 79r29 85r29 91r29 96r29 105r29
+. 113r29 122r29 131r29 140r29 148r29 153r29 161r29 170r29 308r88 500r35
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{63|51P9}
+36V13*ToString{58|27P9}
+X 58 mssyst-string.ads
+25K16 String 30|82r21 151r25 156r25 181r21 413r25 419r25
+27P9 Ref(integer) 30|82r28 151r32 156r32 181r28 413r32 419r32
+X 63 mssyst-type_k.ads
+51P9 Ref(integer)
+

@@ -1,0 +1,103 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.interopservices.funcdesc%s  mssyst-runtime-interopservices-funcdesc.ads  c70ce9ae NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.interopservices%s  mssyst-runtime-interopservices.ads  mssyst-runtime-interopservices.ali
+W mssyst.runtime.interopservices.callconv%s  mssyst-runtime-interopservices-callconv.ads  mssyst-runtime-interopservices-callconv.ali
+W mssyst.runtime.interopservices.funckind%s  mssyst-runtime-interopservices-funckind.ads  mssyst-runtime-interopservices-funckind.ali
+W mssyst.runtime.interopservices.invokekind%s  mssyst-runtime-interopservices-invokekind.ads  mssyst-runtime-interopservices-invokekind.ali
+W mssyst.valuetype%s	mssyst-valuetype.ads	mssyst-valuetype.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-callconv.ads  20060131171402 6b05eff1
+D mssyst-runtime-interopservices-elemdesc.ads  20060131171402 8cb96f55
+D mssyst-runtime-interopservices-funcdesc.ads  20060131171402 26b9174f
+D mssyst-runtime-interopservices-funckind.ads  20060131171402 bf96df55
+D mssyst-runtime-interopservices-invokekind.ads  20060131171402 a9430860
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 28|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 28|7r6 10r6 11r6 12r6 13r6 18r9 19r26 25r5 27r20
+X 13 mssyst-object.ads
+11K16*Object 46e18 28|7w13
+18R9*Typ
+31V13*GetType{39|51P9}
+X 24 mssyst-runtime.ads
+6K16*Runtime 6|6k9 24|7e19 28|11r13 12r13 13r13 18r16 25r12 27r27
+X 25 mssyst-runtime-interopservices.ads
+6K24*InteropServices 24|6k16 25|7e35 28|11r21 12r21 13r21 18r24 25r20 27r35
+X 26 mssyst-runtime-interopservices-callconv.ads
+15K40*CALLCONV 73e44 28|13w37
+X 28 mssyst-runtime-interopservices-funcdesc.ads
+18K40*FUNCDESC 25|6k24 28|25l36 25e44 27r51
+19R9*ValueType<42|20R9> 13|31p13 28|19e63 20r54 22r40 42|23P13 26P13 28P13
+20A9*ValueType_Arr(19R9) 21r39
+21P9*ValueType_Array(20A9) 23r46
+22P9*ValueType_addrof(19R9)
+23P9*ValueType_array_addrof(21P9)
+X 29 mssyst-runtime-interopservices-funckind.ads
+15K40*FUNCKIND 28|11w37 29|64e44
+X 30 mssyst-runtime-interopservices-invokekind.ads
+15K40*INVOKEKIND 28|12w37 30|62e46
+X 34 mssyst-string.ads
+27P9 Ref(integer)
+X 39 mssyst-type_k.ads
+51P9 Ref(integer)
+X 42 mssyst-valuetype.ads
+13K16*ValueType 28|10w13 19r33 42|35e21
+14R9*Typ 28|19r43
+23V13*Equals{boolean}
+26V13*GetHashCode{integer}
+28V13*ToString{34|27P9}
+

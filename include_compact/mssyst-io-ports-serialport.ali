@@ -1,0 +1,408 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.io.ports.serialport%s  mssyst-io-ports-serialport.ads  165686df NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.component%s  mssyst-componentmodel-component.ads  mssyst-componentmodel-component.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.io%s		mssyst-io.ads		mssyst-io.ali
+W mssyst.io.ports%s	mssyst-io-ports.ads	mssyst-io-ports.ali
+W mssyst.io.ports.handshake%s  mssyst-io-ports-handshake.ads  mssyst-io-ports-handshake.ali
+W mssyst.io.ports.parity%s  mssyst-io-ports-parity.ads  mssyst-io-ports-parity.ali
+W mssyst.io.ports.stopbits%s  mssyst-io-ports-stopbits.ads  mssyst-io-ports-stopbits.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-ports.ads	20060131171428 c016cdca
+D mssyst-io-ports-handshake.ads  20060131171428 98731832
+D mssyst-io-ports-parity.ads  20060131171428 2b3c0638
+D mssyst-io-ports-serialdatareceivedeventhandler.ads  20060131171428 db18e26a
+D mssyst-io-ports-serialerrorreceivedeventhandler.ads  20060131171428 ad7351a2
+D mssyst-io-ports-serialpinchangedeventhandler.ads  20060131171428 13b8843f
+D mssyst-io-ports-serialport.ads  20060131171428 477fb3a7
+D mssyst-io-ports-stopbits.ads  20060131171428 2d41299e
+D mssyst-io-seekorigin.ads  20060131171404 0f77313e
+D mssyst-io-stream.ads	20060131171402 5b7412c0
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-encoding.ads  20060131171400 d678db95
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 30|8w6 9r5 120r33 142r16 147r16 199r15 226r16 231r16
+9E12*Char{wide_character}
+24E9*unsigned_int8<character> 30|120r44 199r26
+40A9*char_arr(9E12) 30|142r27 231r27
+44A9*unsigned_int8_arr(24E9) 30|147r27 226r27
+X 9 mssyst.ads
+6K9*MSSyst 7e11 30|7r6 10r6 11r6 22r6 24r6 26r6 28r9 35r20 36r14 44r19 49r18
+. 52r18 56r18 58r16 61r18 63r16 67r18 69r16 71r18 74r15 77r15 80r15 88r33
+. 110r33 112r33 116r33 118r33 122r33 132r33 137r33 155r33 157r33 160r15 160r41
+. 163r15 166r15 169r15 187r15 190r15 193r15 196r15 202r15 217r15 236r14 239r14
+. 305r5 307r20
+X 10 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 30|10r13 11r13 35r27 36r21 44r26
+X 11 mssyst-componentmodel-component.ads
+19K31*Component 60e36 30|10w28 35r42
+20R9*Typ 30|35r52
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{13|15P9}
+40V13*get_Site{14|16P9}
+42U14*remove_Disposed
+45U14*set_Site
+48V13*ToString{58|27P9}
+X 12 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 30|11w28 36r36
+13R9*Typ 30|36r47
+X 13 mssyst-componentmodel-icontainer.ads
+13K31 IContainer 30|44r41
+15P9 Ref(integer) 30|44r52
+X 14 mssyst-componentmodel-isite.ads
+16P9 Ref(integer)
+X 23 mssyst-io.ads
+6K16*IO 9|6k9 23|7e14 30|22r13 24r13 26r13 28r16 58r23 63r23 69r23 71r25
+. 74r22 77r22 80r22 88r40 112r40 118r40 132r40 163r22 166r22 169r22 190r22
+. 196r22 217r22 305r12 307r27
+X 24 mssyst-io-ports.ads
+6K19*Ports 23|6k16 24|7e20 30|22r16 24r16 26r16 28r19 58r26 63r26 69r26 71r28
+. 74r25 77r25 80r25 112r43 118r43 132r43 163r25 166r25 169r25 190r25 196r25
+. 217r25 305r15 307r30
+X 25 mssyst-io-ports-handshake.ads
+15K25*Handshake 62e30 30|22w22 112r49 190r31
+16E9*ValueType 20e28 30|112r59 190r41
+X 26 mssyst-io-ports-parity.ads
+15K25*Parity 64e27 30|24w22 58r32 63r32 69r32 118r49 196r31
+16E9*ValueType 21e13 30|58r39 63r39 69r39 118r56 196r38
+X 27 mssyst-io-ports-serialdatareceivedeventhandler.ads
+24K25 SerialDataReceivedEventHandler 30|74r31 163r31
+26P9 Ref(integer) 30|74r62 163r62
+X 28 mssyst-io-ports-serialerrorreceivedeventhandler.ads
+24K25 SerialErrorReceivedEventHandler 30|77r31 166r31
+26P9 Ref(integer) 30|77r63 166r63
+X 29 mssyst-io-ports-serialpinchangedeventhandler.ads
+24K25 SerialPinChangedEventHandler 30|80r31 169r31
+26P9 Ref(integer) 30|80r60 169r60
+X 30 mssyst-io-ports-serialport.ads
+28K25*SerialPort 24|6k19 30|305l21 305e31 307r36
+29R9*Typ 30r27 35c9 73r21 76r21 79r21 82r21 84r21 86r21 88r21 90r21 92r21
+. 94r21 96r21 98r21 100r21 102r21 104r21 106r21 108r21 110r21 112r21 114r21
+. 116r21 118r21 120r21 122r21 124r21 126r21 128r21 130r21 132r21 134r21 136r21
+. 139r21 141r21 146r21 151r21 153r21 155r21 157r21 159r21 162r21 165r21 168r21
+. 171r21 174r21 177r21 180r21 183r21 186r21 189r21 192r21 195r21 198r21 201r21
+. 204r21 207r21 210r21 213r21 216r21 219r21 222r21 225r21 230r21 235r21 238r21
+. 241r27
+30P9*Ref(29R9) 31r34 32r47 43r14 44r64 46r14 46r34 48r14 49r44 51r14 53r34
+. 55r14 58r57 60r14 64r34 66r14 71r61
+31P9*Ref_addrof(30P9)
+32A9*Ref_Arr(30P9) 33r33
+33P9*Ref_Array(32A9) 34r40
+34P9*Ref_Array_addrof(33P9)
+35R9*Typ<11|26R9> 11|33P14 36p14 38p13 40P13 42P14 45P14 48P13 30|39e14 72p14
+. 75p14 78p14 81p14 83p14 85p14 87p13 89p13 91p13 93p13 95p13 97p13 99p13
+. 101p13 103p13 105p13 107p13 109p13 111p13 113p13 115p13 117p13 119p13 121p13
+. 123p13 125p13 127p13 129p13 131p13 133p13 135p13 138p14 140p13 145p13 150p13
+. 152p13 154p13 156p13 158p13 161p14 164p14 167p14 170p14 173p14 176p14 179p14
+. 182p14 185p14 188p14 191p14 194p14 197p14 200p14 203p14 206p14 209p14 212p14
+. 215p14 218p14 221p14 224p14 229p14 234p14 237p14 35|24p13 27p13 29p13 37|23p13
+. 29p13 31p13
+40i4*InfiniteTimeout{integer} 41m23
+42V13*new_SerialPort{30P9} 43>7 44>7
+43p7 This{30P9}
+44p7 container{13|15P9}
+45V13*new_SerialPort{30P9} 46>7
+46p7 This{30P9}
+47V13*new_SerialPort{30P9} 48>7 49>7
+48p7 This{30P9}
+49p7 portName{58|27P9}
+50V13*new_SerialPort{30P9} 51>7 52>7 53>7
+51p7 This{30P9}
+52p7 portName{58|27P9}
+53i7 baudRate{integer}
+54V13*new_SerialPort{30P9} 55>7 56>7 57>7 58>7
+55p7 This{30P9}
+56p7 portName{58|27P9}
+57i7 baudRate{integer}
+58e7 parity{26|16E9}
+59V13*new_SerialPort{30P9} 60>7 61>7 62>7 63>7 64>7
+60p7 This{30P9}
+61p7 portName{58|27P9}
+62i7 baudRate{integer}
+63e7 parity{26|16E9}
+64i7 dataBits{integer}
+65V13*new_SerialPort{30P9} 66>7 67>7 68>7 69>7 70>7 71>7
+66p7 This{30P9}
+67p7 portName{58|27P9}
+68i7 baudRate{integer}
+69e7 parity{26|16E9}
+70i7 dataBits{integer}
+71e7 stopBits{31|16E9}
+72U14*add_DataReceived 73^7 74>7 243b23
+73p7 This(35R9)
+74p7 value{27|26P9}
+75U14*add_ErrorReceived 76^7 77>7 244b23
+76p7 This(35R9)
+77p7 value{28|26P9}
+78U14*add_PinChanged 79^7 80>7 245b23
+79p7 This(35R9)
+80p7 value{29|26P9}
+81U14*Close 82^7 246b23
+82p7 This(35R9)
+83U14*DiscardInBuffer 84^7 247b23
+84p7 This(35R9)
+85U14*DiscardOutBuffer 86^7 248b23
+86p7 This(35R9)
+87V13*get_BaseStream{33|20P9} 88^7 249b23
+88p7 This(35R9)
+89V13*get_BaudRate{integer} 90^7 250b23
+90p7 This(35R9)
+91V13*get_BreakState{boolean} 92^7 251b23
+92p7 This(35R9)
+93V13*get_BytesToRead{integer} 94^7 252b23
+94p7 This(35R9)
+95V13*get_BytesToWrite{integer} 96^7 253b23
+96p7 This(35R9)
+97V13*get_CDHolding{boolean} 98^7 254b23
+98p7 This(35R9)
+99V13*get_CtsHolding{boolean} 100^7 255b23
+100p7 This(35R9)
+101V13*get_DataBits{integer} 102^7 256b23
+102p7 This(35R9)
+103V13*get_DiscardNull{boolean} 104^7 257b23
+104p7 This(35R9)
+105V13*get_DsrHolding{boolean} 106^7 258b23
+106p7 This(35R9)
+107V13*get_DtrEnable{boolean} 108^7 259b23
+108p7 This(35R9)
+109V13*get_Encoding{62|22P9} 110^7 260b23
+110p7 This(35R9)
+111V13*get_Handshake{25|16E9} 112^7 261b23
+112p7 This(35R9)
+113V13*get_IsOpen{boolean} 114^7 262b23
+114p7 This(35R9)
+115V13*get_NewLine{58|27P9} 116^7 263b23
+116p7 This(35R9)
+117V13*get_Parity{26|16E9} 118^7 264b23
+118p7 This(35R9)
+119V13*get_ParityReplace{8|24E9} 120^7 265b23
+120p7 This(35R9)
+121V13*get_PortName{58|27P9} 122^7 266b23
+122p7 This(35R9)
+123V13*get_ReadBufferSize{integer} 124^7 267b23
+124p7 This(35R9)
+125V13*get_ReadTimeout{integer} 126^7 268b23
+126p7 This(35R9)
+127V13*get_ReceivedBytesThreshold{integer} 128^7 269b23
+128p7 This(35R9)
+129V13*get_RtsEnable{boolean} 130^7 270b23
+130p7 This(35R9)
+131V13*get_StopBits{31|16E9} 132^7 271b23
+132p7 This(35R9)
+133V13*get_WriteBufferSize{integer} 134^7 272b23
+134p7 This(35R9)
+135V13*get_WriteTimeout{integer} 136^7 273b23
+136p7 This(35R9)
+137V13*GetPortNames{58|30P9} 274b23
+138U14*Open 139^7 275b23
+139p7 This(35R9)
+140V13*Read{integer} 141^7 142>7 143>7 144>7
+141p7 This(35R9)
+142a7 buffer{8|40A9}
+143i7 offset{integer}
+144i7 count{integer}
+145V13*Read{integer} 146^7 147>7 148>7 149>7 276b23
+146p7 This(35R9)
+147a7 buffer{8|44A9}
+148i7 offset{integer}
+149i7 count{integer}
+150V13*ReadByte{integer} 151^7 277b23
+151p7 This(35R9)
+152V13*ReadChar{integer} 153^7 278b23
+153p7 This(35R9)
+154V13*ReadExisting{58|27P9} 155^7 279b23
+155p7 This(35R9)
+156V13*ReadLine{58|27P9} 157^7 280b23
+157p7 This(35R9)
+158V13*ReadTo{58|27P9} 159^7 160>7 281b23
+159p7 This(35R9)
+160p7 value{58|27P9}
+161U14*remove_DataReceived 162^7 163>7 282b23
+162p7 This(35R9)
+163p7 value{27|26P9}
+164U14*remove_ErrorReceived 165^7 166>7 283b23
+165p7 This(35R9)
+166p7 value{28|26P9}
+167U14*remove_PinChanged 168^7 169>7 284b23
+168p7 This(35R9)
+169p7 value{29|26P9}
+170U14*set_BaudRate 171^7 172>7 285b23
+171p7 This(35R9)
+172i7 value{integer}
+173U14*set_BreakState 174^7 175>7 286b23
+174p7 This(35R9)
+175b7 value{boolean}
+176U14*set_DataBits 177^7 178>7 287b23
+177p7 This(35R9)
+178i7 value{integer}
+179U14*set_DiscardNull 180^7 181>7 288b23
+180p7 This(35R9)
+181b7 value{boolean}
+182U14*set_DtrEnable 183^7 184>7 289b23
+183p7 This(35R9)
+184b7 value{boolean}
+185U14*set_Encoding 186^7 187>7 290b23
+186p7 This(35R9)
+187p7 value{62|22P9}
+188U14*set_Handshake 189^7 190>7 291b23
+189p7 This(35R9)
+190e7 value{25|16E9}
+191U14*set_NewLine 192^7 193>7 292b23
+192p7 This(35R9)
+193p7 value{58|27P9}
+194U14*set_Parity 195^7 196>7 293b23
+195p7 This(35R9)
+196e7 value{26|16E9}
+197U14*set_ParityReplace 198^7 199>7 294b23
+198p7 This(35R9)
+199e7 value{8|24E9}
+200U14*set_PortName 201^7 202>7 295b23
+201p7 This(35R9)
+202p7 value{58|27P9}
+203U14*set_ReadBufferSize 204^7 205>7 296b23
+204p7 This(35R9)
+205i7 value{integer}
+206U14*set_ReadTimeout 207^7 208>7 297b23
+207p7 This(35R9)
+208i7 value{integer}
+209U14*set_ReceivedBytesThreshold 210^7 211>7 298b23
+210p7 This(35R9)
+211i7 value{integer}
+212U14*set_RtsEnable 213^7 214>7 299b23
+213p7 This(35R9)
+214b7 value{boolean}
+215U14*set_StopBits 216^7 217>7 300b23
+216p7 This(35R9)
+217e7 value{31|16E9}
+218U14*set_WriteBufferSize 219^7 220>7 301b23
+219p7 This(35R9)
+220i7 value{integer}
+221U14*set_WriteTimeout 222^7 223>7 302b23
+222p7 This(35R9)
+223i7 value{integer}
+224U14*Write 225^7 226>7 227>7 228>7
+225p7 This(35R9)
+226a7 buffer{8|44A9}
+227i7 offset{integer}
+228i7 count{integer}
+229U14*Write 230^7 231>7 232>7 233>7
+230p7 This(35R9)
+231a7 buffer{8|40A9}
+232i7 offset{integer}
+233i7 count{integer}
+234U14*Write 235^7 236>7 303b23
+235p7 This(35R9)
+236p7 text{58|27P9}
+237U14*WriteLine 238^7 239>7 304b23
+238p7 This(35R9)
+239p7 text{58|27P9}
+X 31 mssyst-io-ports-stopbits.ads
+15K25*StopBits 30|26w22 71r34 132r49 217r31 31|62e29
+16E9*ValueType 30|71r43 132r58 217r40 31|20e20
+X 33 mssyst-io-stream.ads
+18K19 Stream 30|88r43
+20P9 Ref(integer) 30|88r50
+X 35 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{53|23P9}
+27V13*GetLifetimeService{37|13P9}
+29V13*InitializeLifetimeService{37|13P9}
+X 37 mssyst-object.ads
+11K16*Object 30|7w13 37|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{64|51P9}
+X 53 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 58 mssyst-string.ads
+25K16 String 30|49r25 52r25 56r25 61r25 67r25 116r40 122r40 137r40 155r40
+. 157r40 160r22 160r48 193r22 202r22 236r21 239r21
+27P9 Ref(integer) 30|49r32 52r32 56r32 61r32 67r32 116r47 122r47 155r47 157r47
+. 160r29 160r55 193r29 202r29 236r28 239r28
+30P9 Ref_Array(integer) 30|137r47
+X 61 mssyst-text.ads
+6K16 Text 30|110r40 187r22
+X 62 mssyst-text-encoding.ads
+20K21 Encoding 30|110r45 187r27
+22P9 Ref(integer) 30|110r54 187r36
+X 64 mssyst-type_k.ads
+51P9 Ref(integer)
+

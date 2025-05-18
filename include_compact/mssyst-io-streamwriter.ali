@@ -1,0 +1,222 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.io.streamwriter%s  mssyst-io-streamwriter.ads  3fe5a9c2 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.io%s		mssyst-io.ads		mssyst-io.ali
+W mssyst.io.textwriter%s  mssyst-io-textwriter.ads  mssyst-io-textwriter.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-decimal.ads	20060131171356 9b70fee6
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-seekorigin.ads  20060131171404 0f77313e
+D mssyst-io-stream.ads	20060131171402 5b7412c0
+D mssyst-io-streamwriter.ads  20060131171404 3c728c7a
+D mssyst-io-textwriter.ads  20060131171404 a59d24fb
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-midpointrounding.ads  20060131171356 5160c7d2
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-encoding.ads  20060131171400 d678db95
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 17|8w6 9r5 80r16 85r16
+9E12*Char{wide_character}
+40A9*char_arr(9E12) 17|80r27 85r27
+X 6 mssyst.ads
+6K9*MSSyst 7e11 17|7r6 10r6 20r9 27r20 30r13 34r14 36r18 39r16 42r16 43r18
+. 46r16 47r18 51r14 54r14 58r14 60r18 69r33 71r33 77r15 99r5 101r20
+X 13 mssyst-iformatprovider.ads
+14P9 Ref(integer)
+X 14 mssyst-io.ads
+6K16*IO 6|6k9 14|7e14 17|10r13 20r16 27r27 30r20 39r23 42r23 46r23 69r40
+. 99r12 101r27
+X 16 mssyst-io-stream.ads
+18K19 Stream 17|39r26 42r26 46r26 69r43
+20P9 Ref(integer) 17|39r33 42r33 46r33 69r50
+X 17 mssyst-io-streamwriter.ads
+20K19*StreamWriter 14|6k16 17|30r23 99l15 99e27 101r30
+21R9*Typ 22r27 27c9 63r21 65r21 67r21 69r21 71r21 73r21 76r21 79r21 84r21
+. 87r21 90r27
+22P9*Ref(21R9) 23r34 24r47 30r36 33r14 36r51 38r14 39r45 41r14 43r51 45r14
+. 48r36 50r14 51r40 53r14 55r41 57r14 61r36
+23P9*Ref_addrof(22P9)
+24A9*Ref_Arr(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27R9*Typ<18|26R9> 29e14 62P14 64P14 66p13 68p13 70P13 72p14 75P14 78P14 83P14
+. 86P14 18|33p14 39p13 41p13 43p14 48p14 52p14 55p14 60p14 64p14 70p14 81p14
+. 84p14 87p14 90p14 93p14 102p14 105p14 108p14 112p14 115p14 120p14 124p14
+. 130p14 133p14 138p14 141p14 144p14 146p14 149p14 152p14 155p14 158p14 161p14
+. 164p14 167p14 19|24p13 27p13 29p13 21|23p13 29p13 31p13 36p13
+30p4*Null_k{22P9} 31m23
+32V13*new_StreamWriter{22P9} 33>7 34>7 35>7 36>7
+33p7 This{22P9}
+34p7 path{42|27P9}
+35b7 append{boolean}
+36p7 encoding{46|22P9}
+37V13*new_StreamWriter{22P9} 38>7 39>7
+38p7 This{22P9}
+39p7 stream{16|20P9}
+40V13*new_StreamWriter{22P9} 41>7 42>7 43>7
+41p7 This{22P9}
+42p7 stream{16|20P9}
+43p7 encoding{46|22P9}
+44V13*new_StreamWriter{22P9} 45>7 46>7 47>7 48>7
+45p7 This{22P9}
+46p7 stream{16|20P9}
+47p7 encoding{46|22P9}
+48i7 bufferSize{integer}
+49V13*new_StreamWriter{22P9} 50>7 51>7
+50p7 This{22P9}
+51p7 path{42|27P9}
+52V13*new_StreamWriter{22P9} 53>7 54>7 55>7
+53p7 This{22P9}
+54p7 path{42|27P9}
+55b7 append{boolean}
+56V13*new_StreamWriter{22P9} 57>7 58>7 59>7 60>7 61>7
+57p7 This{22P9}
+58p7 path{42|27P9}
+59b7 append{boolean}
+60p7 encoding{46|22P9}
+61i7 bufferSize{integer}
+62U14*Close 63^7 92b23
+63p7 This(27R9)
+64U14*Flush 65^7 93b23
+65p7 This(27R9)
+66V13*get_AutoFlush{boolean} 67^7 94b23
+67p7 This(27R9)
+68V13*get_BaseStream{16|20P9} 69^7 95b23
+69p7 This(27R9)
+70V13*get_Encoding{46|22P9} 71^7 96b23
+71p7 This(27R9)
+72U14*set_AutoFlush 73^7 74>7 97b23
+73p7 This(27R9)
+74b7 value{boolean}
+75U14*Write 76^7 77>7
+76p7 This(27R9)
+77p7 value{42|27P9}
+78U14*Write 79^7 80>7 81>7 82>7
+79p7 This(27R9)
+80a7 buffer{5|40A9}
+81i7 index{integer}
+82i7 count{integer}
+83U14*Write 84^7 85>7
+84p7 This(27R9)
+85a7 buffer{5|40A9}
+86U14*Write 87^7 88>7 98b23
+87p7 This(27R9)
+88e7 value{wide_character}
+X 18 mssyst-io-textwriter.ads
+19K19*TextWriter 17|10w16 27r30 18|182e25
+20R9*Typ 17|27r41
+33U14*Dispose
+39V13*get_FormatProvider{13|14P9}
+41V13*get_NewLine{42|27P9}
+43U14*set_NewLine
+48U14*Write
+52U14*Write
+55U14*Write
+60U14*Write
+64U14*Write
+70U14*Write
+81U14*Write
+84U14*Write
+87U14*Write
+90U14*Write
+93U14*Write
+102U14*Write
+105U14*Write
+108U14*WriteLine
+112U14*WriteLine
+115U14*WriteLine
+120U14*WriteLine
+124U14*WriteLine
+130U14*WriteLine
+133U14*WriteLine
+138U14*WriteLine
+141U14*WriteLine
+144U14*WriteLine
+146U14*WriteLine
+149U14*WriteLine
+152U14*WriteLine
+155U14*WriteLine
+158U14*WriteLine
+161U14*WriteLine
+164U14*WriteLine
+167U14*WriteLine
+X 19 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{37|23P9}
+27V13*GetLifetimeService{21|13P9}
+29V13*InitializeLifetimeService{21|13P9}
+X 21 mssyst-object.ads
+11K16*Object 17|7w13 21|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{48|51P9}
+36V13*ToString{42|27P9}
+X 37 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 42 mssyst-string.ads
+25K16 String 17|34r21 51r21 54r21 58r21 77r22
+27P9 Ref(integer) 17|34r28 51r28 54r28 58r28 77r29
+X 45 mssyst-text.ads
+6K16 Text 17|36r25 43r25 47r25 60r25 71r40
+X 46 mssyst-text-encoding.ads
+20K21 Encoding 17|36r30 43r30 47r30 60r30 71r45
+22P9 Ref(integer) 17|36r39 43r39 47r39 60r39 71r54
+X 48 mssyst-type_k.ads
+51P9 Ref(integer)
+

@@ -1,0 +1,275 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.serialization.serializationinfo%s  mssyst-runtime-serialization-serializationinfo.ads  e7ad31a0 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.serialization%s  mssyst-runtime-serialization.ads  mssyst-runtime-serialization.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-ienumerator.ads  20060131171354 1d07849c
+D mssyst-datetime.ads	20060131171354 8b310f47
+D mssyst-datetimekind.ads  20060131171354 c9caab99
+D mssyst-dayofweek.ads	20060131171356 9441cb97
+D mssyst-decimal.ads	20060131171356 9b70fee6
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-datetimestyles.ads  20060131171358 230aa7c6
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-midpointrounding.ads  20060131171356 5160c7d2
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iformatterconverter.ads  20060131171358 c6e78062
+D mssyst-runtime-serialization-serializationinfo.ads  20060131171358 df7a73a0
+D mssyst-runtime-serialization-serializationinfoenumerator.ads  20060131171358 186d77bd
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 37|8w6 9r5 39r15 43r15 47r15 51r15 71r15 108r40 125r40
+. 143r40 146r40 149r40
+20I9*int16<short_integer> 37|51r26 125r51
+24E9*unsigned_int8<character> 37|47r26 108r51
+25I9*unsigned_int16<short_integer> 37|43r26 143r51
+29I9*unsigned_integer<integer> 37|39r26 146r51
+33I9*unsigned_long_long_integer<long_long_integer> 37|71r26 149r51
+X 6 mssyst.ads
+6K9*MSSyst 7e11 37|7r6 10r6 18r9 25r20 30r16 31r19 34r14 38r14 42r14 46r14
+. 50r14 54r14 58r14 59r15 62r14 63r15 66r14 70r14 74r14 78r14 79r15 82r14
+. 83r15 86r14 87r15 88r16 91r14 95r14 98r33 100r33 105r14 108r14 111r14 114r14
+. 114r40 117r14 117r40 120r14 122r33 125r14 128r14 131r14 134r14 134r40 137r14
+. 140r14 140r40 143r14 146r14 149r14 152r14 153r16 153r42 156r15 159r15 162r16
+. 190r5 192r20
+X 9 mssyst-datetime.ads
+22K16 DateTime 37|63r22 114r47
+23R9 ValueType 37|63r31 114r56
+X 12 mssyst-decimal.ads
+19K16 Decimal 37|59r22 117r47
+20R9 ValueType 37|59r30 117r55
+X 20 mssyst-object.ads
+11K16*Object 46e18 37|7w13 10w13 25r27 83r22 87r22 153r49
+12R9*Typ 20e14 37|25r34
+13P9*Ref(12R9) 37|83r29 87r29 153r56
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{45|51P9}
+36V13*ToString{40|27P9}
+X 31 mssyst-runtime.ads
+6K16*Runtime 6|6k9 31|7e19 37|18r16 31r26 122r40 190r12 192r27
+X 35 mssyst-runtime-serialization.ads
+6K24*Serialization 31|6k16 35|7e33 37|18r24 31r34 122r48 190r20 192r35
+X 36 mssyst-runtime-serialization-iformatterconverter.ads
+17K38 IFormatterConverter 37|31r48
+19P9 Ref(integer) 37|31r68
+X 37 mssyst-runtime-serialization-serializationinfo.ads
+18K38*SerializationInfo 35|6k24 37|190l34 190e51 192r49
+19R9*Typ 20r27 25c9 33r21 37r21 41r21 45r21 49r21 53r21 57r21 61r21 65r21
+. 69r21 73r21 77r21 81r21 85r21 90r21 94r21 98r21 100r21 102r21 104r21 107r21
+. 110r21 113r21 116r21 119r21 122r21 124r21 127r21 130r21 133r21 136r21 139r21
+. 142r21 145r21 148r21 151r21 155r21 158r21 161r21 164r27
+20P9*Ref(19R9) 21r34 22r47 29r14 31r80
+21P9*Ref_addrof(20P9)
+22A9*Ref_Arr(20P9) 23r33
+23P9*Ref_Array(22A9) 24r40
+24P9*Ref_Array_addrof(23P9)
+25R9*Typ<20|18R9> 20|23p13 29p13 31p13 36p13 37|27e14 32p14 36p14 40p14 44p14
+. 48p14 52p14 56p14 60p14 64p14 68p14 72p14 76p14 80p14 84p14 89p14 93p14
+. 97p13 99p13 101p13 103p13 106p13 109p13 112p13 115p13 118p13 121p13 123p13
+. 126p13 129p13 132p13 135p13 138p13 141p13 144p13 147p13 150p13 154p14 157p14
+. 160p14
+28V13*new_SerializationInfo{20P9} 29>7 30>7 31>7 165r28
+29p7 This{20P9}
+30p7 type_k{45|51P9}
+31p7 converter{36|19P9}
+32U14*AddValue 33^7 34>7 35>7
+33p7 This(25R9)
+34p7 name{40|27P9}
+35i7 value{integer}
+36U14*AddValue 37^7 38>7 39>7
+37p7 This(25R9)
+38p7 name{40|27P9}
+39i7 value{5|29I9}
+40U14*AddValue 41^7 42>7 43>7
+41p7 This(25R9)
+42p7 name{40|27P9}
+43i7 value{5|25I9}
+44U14*AddValue 45^7 46>7 47>7
+45p7 This(25R9)
+46p7 name{40|27P9}
+47e7 value{5|24E9}
+48U14*AddValue 49^7 50>7 51>7
+49p7 This(25R9)
+50p7 name{40|27P9}
+51i7 value{5|20I9}
+52U14*AddValue 53^7 54>7 55>7
+53p7 This(25R9)
+54p7 name{40|27P9}
+55i7 value{long_long_integer}
+56U14*AddValue 57^7 58>7 59>7
+57p7 This(25R9)
+58p7 name{40|27P9}
+59r7 value{12|20R9}
+60U14*AddValue 61^7 62>7 63>7
+61p7 This(25R9)
+62p7 name{40|27P9}
+63r7 value{9|23R9}
+64U14*AddValue 65^7 66>7 67>7
+65p7 This(25R9)
+66p7 name{40|27P9}
+67f7 value{long_float}
+68U14*AddValue 69^7 70>7 71>7
+69p7 This(25R9)
+70p7 name{40|27P9}
+71i7 value{5|33I9}
+72U14*AddValue 73^7 74>7 75>7
+73p7 This(25R9)
+74p7 name{40|27P9}
+75f7 value{float}
+76U14*AddValue 77^7 78>7 79>7
+77p7 This(25R9)
+78p7 name{40|27P9}
+79r7 value{39|18R9}
+80U14*AddValue 81^7 82>7 83>7
+81p7 This(25R9)
+82p7 name{40|27P9}
+83p7 value{20|13P9}
+84U14*AddValue 85^7 86>7 87>7 88>7
+85p7 This(25R9)
+86p7 name{40|27P9}
+87p7 value{20|13P9}
+88p7 type_k{45|51P9}
+89U14*AddValue 90^7 91>7 92>7
+90p7 This(25R9)
+91p7 name{40|27P9}
+92e7 value{wide_character}
+93U14*AddValue 94^7 95>7 96>7 166b23
+94p7 This(25R9)
+95p7 name{40|27P9}
+96b7 value{boolean}
+97V13*get_AssemblyName{40|27P9} 98^7 167b23
+98p7 This(25R9)
+99V13*get_FullTypeName{40|27P9} 100^7 168b23
+100p7 This(25R9)
+101V13*get_MemberCount{integer} 102^7 169b23
+102p7 This(25R9)
+103V13*GetBoolean{boolean} 104^7 105>7 170b23
+104p7 This(25R9)
+105p7 name{40|27P9}
+106V13*GetByte{5|24E9} 107^7 108>7 171b23
+107p7 This(25R9)
+108p7 name{40|27P9}
+109V13*GetChar{wide_character} 110^7 111>7 172b23
+110p7 This(25R9)
+111p7 name{40|27P9}
+112V13*GetDateTime{9|23R9} 113^7 114>7 173b23
+113p7 This(25R9)
+114p7 name{40|27P9}
+115V13*GetDecimal{12|20R9} 116^7 117>7 174b23
+116p7 This(25R9)
+117p7 name{40|27P9}
+118V13*GetDouble{long_float} 119^7 120>7 175b23
+119p7 This(25R9)
+120p7 name{40|27P9}
+121V13*GetEnumerator{38|17P9} 122^7 176b23
+122p7 This(25R9)
+123V13*GetInt16{5|20I9} 124^7 125>7 177b23
+124p7 This(25R9)
+125p7 name{40|27P9}
+126V13*GetInt32{integer} 127^7 128>7 178b23
+127p7 This(25R9)
+128p7 name{40|27P9}
+129V13*GetInt64{long_long_integer} 130^7 131>7 179b23
+130p7 This(25R9)
+131p7 name{40|27P9}
+132V13*GetSByte{39|18R9} 133^7 134>7 180b23
+133p7 This(25R9)
+134p7 name{40|27P9}
+135V13*GetSingle{float} 136^7 137>7 181b23
+136p7 This(25R9)
+137p7 name{40|27P9}
+138V13*GetString{40|27P9} 139^7 140>7 182b23
+139p7 This(25R9)
+140p7 name{40|27P9}
+141V13*GetUInt16{5|25I9} 142^7 143>7 183b23
+142p7 This(25R9)
+143p7 name{40|27P9}
+144V13*GetUInt32{5|29I9} 145^7 146>7 184b23
+145p7 This(25R9)
+146p7 name{40|27P9}
+147V13*GetUInt64{5|33I9} 148^7 149>7 185b23
+148p7 This(25R9)
+149p7 name{40|27P9}
+150V13*GetValue{20|13P9} 151^7 152>7 153>7 186b23
+151p7 This(25R9)
+152p7 name{40|27P9}
+153p7 type_k{45|51P9}
+154U14*set_AssemblyName 155^7 156>7 187b23
+155p7 This(25R9)
+156p7 value{40|27P9}
+157U14*set_FullTypeName 158^7 159>7 188b23
+158p7 This(25R9)
+159p7 value{40|27P9}
+160U14*SetType 161^7 162>7 189b23
+161p7 This(25R9)
+162p7 type_k{45|51P9}
+X 38 mssyst-runtime-serialization-serializationinfoenumerator.ads
+15K38 SerializationInfoEnumerator 37|122r62
+17P9 Ref(integer) 37|122r90
+X 39 mssyst-sbyte.ads
+17K16 SByte 37|79r22 134r47
+18R9 ValueType 37|79r28 134r53
+X 40 mssyst-string.ads
+25K16 String 37|34r21 38r21 42r21 46r21 50r21 54r21 58r21 62r21 66r21 70r21
+. 74r21 78r21 82r21 86r21 91r21 95r21 98r40 100r40 105r21 108r21 111r21 114r21
+. 117r21 120r21 125r21 128r21 131r21 134r21 137r21 140r21 140r47 143r21 146r21
+. 149r21 152r21 156r22 159r22
+27P9 Ref(integer) 37|34r28 38r28 42r28 46r28 50r28 54r28 58r28 62r28 66r28
+. 70r28 74r28 78r28 82r28 86r28 91r28 95r28 98r47 100r47 105r28 108r28 111r28
+. 114r28 117r28 120r28 125r28 128r28 131r28 134r28 137r28 140r28 140r54 143r28
+. 146r28 149r28 152r28 156r29 159r29
+X 45 mssyst-type_k.ads
+49K16 Type_k 37|30r23 88r23 153r23 162r23
+51P9 Ref(integer) 37|30r30 88r30 153r30 162r30
+

@@ -1,0 +1,118 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.reflection.assemblynameproxy%s  mssyst-reflection-assemblynameproxy.ads  d95029d0 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.marshalbyrefobject%s  mssyst-marshalbyrefobject.ads  mssyst-marshalbyrefobject.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.reflection%s	mssyst-reflection.ads	mssyst-reflection.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-configuration.ads  20060131165240 03b06563
+D mssyst-configuration-assemblies.ads  20060131165240 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060131171408 81fd999d
+D mssyst-configuration-assemblies-assemblyversioncompatibility.ads  20060131171408 8e494143
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-assemblyname.ads  20060131171358 1df266ec
+D mssyst-reflection-assemblynameflags.ads  20060131171358 7f33cae2
+D mssyst-reflection-assemblynameproxy.ads  20060131171358 abf10bc2
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-processorarchitecture.ads  20060131171358 4066b0a3
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-uassemblyname.ads  20060131171358 7d9d3106
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060131171358 afb77eb6
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 21|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 21|7r6 10r6 16r9 23r20 30r22 30r48 35r5 37r20
+X 16 mssyst-marshalbyrefobject.ads
+14K16*MarshalByRefObject 36e30 21|10w13 23r27
+15R9*Typ 21|23r46
+24V13*CreateObjRef{38|23P9}
+27V13*GetLifetimeService{17|13P9}
+29V13*InitializeLifetimeService{17|13P9}
+X 17 mssyst-object.ads
+11K16*Object 46e18 21|7w13
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{49|51P9}
+36V13*ToString{44|27P9}
+X 18 mssyst-reflection.ads
+6K16*Reflection 6|6k9 18|7e22 21|16r16 30r55 35r12 37r27
+X 19 mssyst-reflection-assemblyname.ads
+26K27 AssemblyName 21|30r66
+28P9 Ref(integer) 21|30r79
+X 21 mssyst-reflection-assemblynameproxy.ads
+16K27*AssemblyNameProxy 18|6k16 21|35l23 35e40 37r38
+17R9*Typ 18r27 23c9 29r21 32r27
+18P9*Ref(17R9) 19r34 20r47 27r14 27r34
+19P9*Ref_addrof(18P9)
+20A9*Ref_Arr(18P9) 21r33
+21P9*Ref_Array(20A9) 22r40
+22P9*Ref_Array_addrof(21P9)
+23R9*Typ<16|21R9> 16|24p13 27p13 29p13 17|23p13 29p13 31p13 36p13 21|25e14
+. 28p13
+26V13*new_AssemblyNameProxy{18P9} 27>7 33r28
+27p7 This{18P9}
+28V13*GetAssemblyName{19|28P9} 29^7 30>7 34b23
+29p7 This(23R9)
+30p7 assemblyFile{44|27P9}
+X 38 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 44 mssyst-string.ads
+25K16 String 21|30r29
+27P9 Ref(integer) 21|30r36
+X 49 mssyst-type_k.ads
+51P9 Ref(integer)
+

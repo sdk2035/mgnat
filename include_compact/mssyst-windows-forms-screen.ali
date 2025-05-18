@@ -1,0 +1,171 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.screen%s  mssyst-windows-forms-screen.ads  24a0e70f NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-accessiblerole.ads  20060131171436 c08bcb4f
+D mssyst-windows-forms-anchorstyles.ads  20060131171436 22446596
+D mssyst-windows-forms-boundsspecified.ads  20060131171436 2f9ca777
+D mssyst-windows-forms-control.ads  20060131171436 1c03b650
+D mssyst-windows-forms-dockstyle.ads  20060131171440 a08bf6b6
+D mssyst-windows-forms-dragdropeffects.ads  20060131171440 dfaed805
+D mssyst-windows-forms-getchildatpointskip.ads  20060131171442 84d63876
+D mssyst-windows-forms-ibindablecomponent.ads  20060131171436 1e1050b2
+D mssyst-windows-forms-imagelayout.ads  20060131171442 e0e6ce51
+D mssyst-windows-forms-imemode.ads  20060131171442 58d96089
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D mssyst-windows-forms-keys.ads  20060131171442 e98517be
+D mssyst-windows-forms-message.ads  20060131171444 f6b3d9da
+D mssyst-windows-forms-mousebuttons.ads  20060131171444 1b279075
+D mssyst-windows-forms-preprocesscontrolstate.ads  20060131171446 047a345d
+D mssyst-windows-forms-righttoleft.ads  20060131171446 898cfeaf
+D mssyst-windows-forms-screen.ads  20060131171446 57ea38d6
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 63|8w6 9r5 33r14
+52M9*native_int 63|33r25
+X 6 mssyst.ads
+6K9*MSSyst 7e11 63|7r6 10r6 17r9 24r20 29r13 31r17 31r58 33r44 35r15 35r54
+. 37r14 37r57 38r35 42r33 44r33 47r38 49r33 51r13 51r54 53r12 53r51 55r14
+. 55r57 59r12 59r51 61r14 61r57 63r13 63r54 65r33 84r5 86r20
+X 11 mssyst-drawing.ads
+6K16 Drawing 63|35r22 37r21 42r40 49r40 51r61 53r19 53r58 55r21 55r64 59r19
+. 59r58 61r21 61r64 63r61
+X 12 mssyst-drawing-point.ads
+16K24 Point 63|35r30 53r27 59r27
+17R9 ValueType 63|35r36 53r33 59r33
+X 13 mssyst-drawing-rectangle.ads
+17K24 Rectangle 63|37r29 42r48 49r48 51r69 53r66 55r29 55r72 59r66 61r29
+. 61r72 63r69
+18R9 ValueType 63|37r39 42r58 49r58 51r79 53r76 55r39 55r82 59r76 61r39 61r82
+. 63r79
+X 20 mssyst-object.ads
+11K16*Object 46e18 63|7w13 10w13 24r27 29r20
+12R9*Typ 20e14 63|24r34
+13P9*Ref(12R9) 63|29r27
+18R9*Typ
+31V13*GetType{41|51P9}
+X 36 mssyst-string.ads
+25K16 String 63|44r40 65r40
+27P9 Ref(integer) 63|44r47 65r47
+X 41 mssyst-type_k.ads
+51P9 Ref(integer)
+X 45 mssyst-windows.ads
+6K16*Windows 6|6k9 45|7e19 63|17r16 31r24 31r65 33r51 35r61 37r64 38r42 47r45
+. 51r20 63r20 84r12 86r27
+X 46 mssyst-windows-forms.ads
+6K24*Forms 45|6k16 46|7e25 63|17r24 31r32 31r73 33r59 35r69 37r72 38r50 47r53
+. 51r28 63r28 84r20 86r35
+X 50 mssyst-windows-forms-control.ads
+75K30 Control 63|31r38 51r34 63r34
+77P9 Ref(integer) 63|31r46 51r42 63r42
+X 63 mssyst-windows-forms-screen.ads
+17K30*Screen 46|6k24 63|31r79 33r65 35r75 37r78 38r56 47r59 84l26 84e32 86r41
+18R9*Typ 19r27 24c9 28r21 40r21 42r21 44r21 46r21 49r21 57r21 65r21 67r27
+19P9*Ref(18R9) 20r34 21r47 31r86 33r72 35r82 37r85 47r66
+20P9*Ref_addrof(19P9)
+21A9*Ref_Arr(19P9) 22r33
+22P9*Ref_Array(21A9) 23r40 38r63
+23P9*Ref_Array_addrof(22P9)
+24R9*Typ<20|18R9> 20|31p13 63|26e14 27P13 39p13 41p13 43p13 45p13 48p13 56P13
+. 64P13
+27V13*Equals{boolean} 28^7 29>7 68b23
+28p7 This(24R9)
+29p7 obj{20|13P9}
+30V13*FromControl{19P9} 31>7 69b23
+31p7 control{50|77P9}
+32V13*FromHandle{19P9} 33>7 70b23
+33m7 hwnd{5|52M9}
+34V13*FromPoint{19P9} 35>7 71b23
+35r7 point{12|17R9}
+36V13*FromRectangle{19P9} 37>7 72b23
+37r7 rect{13|18R9}
+38V13*get_AllScreens{22P9} 73b23
+39V13*get_BitsPerPixel{integer} 40^7 74b23
+40p7 This(24R9)
+41V13*get_Bounds{13|18R9} 42^7 75b23
+42p7 This(24R9)
+43V13*get_DeviceName{36|27P9} 44^7 76b23
+44p7 This(24R9)
+45V13*get_Primary{boolean} 46^7 77b23
+46p7 This(24R9)
+47V13*get_PrimaryScreen{19P9} 78b23
+48V13*get_WorkingArea{13|18R9} 49^7 79b23
+49p7 This(24R9)
+50V13*GetBounds{13|18R9} 51>7
+51p7 ctl{50|77P9}
+52V13*GetBounds{13|18R9} 53>7
+53r7 pt{12|17R9}
+54V13*GetBounds{13|18R9} 55>7 80b23
+55r7 rect{13|18R9}
+56V13*GetHashCode{integer} 57^7 81b23
+57p7 This(24R9)
+58V13*GetWorkingArea{13|18R9} 59>7
+59r7 pt{12|17R9}
+60V13*GetWorkingArea{13|18R9} 61>7
+61r7 rect{13|18R9}
+62V13*GetWorkingArea{13|18R9} 63>7 82b23
+63p7 ctl{50|77P9}
+64V13*ToString{36|27P9} 65^7 83b23
+65p7 This(24R9)
+

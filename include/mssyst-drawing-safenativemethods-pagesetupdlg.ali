@@ -1,0 +1,105 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.safenativemethods.pagesetupdlg%s  mssyst-drawing-safenativemethods-pagesetupdlg.ads  483bbd62 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.safenativemethods%s  mssyst-drawing-safenativemethods.ads  mssyst-drawing-safenativemethods.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-delegate.ads	20050914133428 0015dc38
+D mssyst-drawing.ads	20050914013312 770dd27a
+D mssyst-drawing-safenativemethods.ads  20050914013314 51180271
+D mssyst-drawing-safenativemethods-pagesetupdlg.ads  20050914133454 9d9c0ba8
+D mssyst-drawing-safenativemethods-wndproc.ads  20050914133454 4203345c
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-multicastdelegate.ads  20050914133428 2bb11668
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 72e15 10|8w6 9r5 24r19 26r18 28r19 52r19 54r19 62r28
+52M9*native_int 10|24r30 26r29 28r30 52r30 54r30 62r39
+X 6 mssyst.ads
+6K9*MSSyst 7e11 10|7r6 10r6 14r9 21r20 56r27 58r27 60r33 70r5 72r20
+X 8 mssyst-drawing.ads
+6K16*Drawing 6|6k9 8|7e19 10|14r16 56r34 58r34 70r12 72r27
+X 9 mssyst-drawing-safenativemethods.ads
+6K24*SafeNativeMethods 8|6k16 9|7e37 10|14r24 56r42 58r42 70r20 72r35
+X 10 mssyst-drawing-safenativemethods-pagesetupdlg.ads
+14K42*PAGESETUPDLG 9|6k24 10|70l38 70e50 72r53
+15R9*Typ 16r27 21c9 68r27
+16P9*Ref(15R9) 17r34 18r47 66r14 66r34
+17P9*Ref_addrof(16P9)
+18A9*Ref_Arr(16P9) 19r33
+19P9*Ref_Array(18A9) 20r40
+20P9*Ref_Array_addrof(19P9)
+21R9*Typ<15|18R9> 64e14 15|26p13 29p13 31p13 36p13
+22i7*lStructSize{integer}
+24m7*hwndOwner{5|52M9}
+26m7*hDevMode{5|52M9}
+28m7*hDevNames{5|52M9}
+30i7*Flags{integer}
+32i7*paperSizeX{integer}
+34i7*paperSizeY{integer}
+36i7*minMarginLeft{integer}
+38i7*minMarginTop{integer}
+40i7*minMarginRight{integer}
+42i7*minMarginBottom{integer}
+44i7*marginLeft{integer}
+46i7*marginTop{integer}
+48i7*marginRight{integer}
+50i7*marginBottom{integer}
+52m7*hInstance{5|52M9}
+54m7*lCustData{5|52M9}
+56p7*lpfnPageSetupHook{11|23P9}
+58p7*lpfnPagePaintHook{11|23P9}
+60p7*lpPageSetupTemplateName{24|22P9}
+62m7*hPageSetupTemplate{5|52M9}
+65V13*new_PAGESETUPDLG{16P9} 66>7 69r28
+66p7 This{16P9}
+X 11 mssyst-drawing-safenativemethods-wndproc.ads
+21K42 WndProc 10|56r60 58r60
+23P9 Ref(integer) 10|56r68 58r68
+X 15 mssyst-object.ads
+11K16*Object 10|7w13 10w13 21r27 15|46e18
+12R9*Typ 10|21r34 15|20e14
+18R9*Typ
+26V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{25|44P9}
+36V13*ToString{24|22P9}
+X 24 mssyst-string.ads
+20K16 String 10|60r40
+22P9 Ref(integer) 10|60r47
+X 25 mssyst-type_k.ads
+44P9 Ref(integer)
+

@@ -1,0 +1,296 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.math%s		mssyst-math.ads		46b7fcb2 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.midpointrounding%s  mssyst-midpointrounding.ads  mssyst-midpointrounding.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-decimal.ads	20060131171356 9b70fee6
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-math.ads	20060131171356 208fcca6
+D mssyst-midpointrounding.ads  20060131171356 5160c7d2
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 14|8w6 9r5 37r15 37r40 67r16 71r16 92r14 93r14 93r47
+. 95r14 96r14 96r39 104r14 105r14 105r60 110r14 111r14 111r48 116r14 117r14
+. 117r50 125r14 126r14 126r50 128r14 129r14 129r48 131r14 132r14 132r47 134r14
+. 135r14 135r39 149r14 150r14 150r60 192r15
+20I9*int16<short_integer> 14|37r26 37r51 95r25 96r25 96r50 134r25 135r25
+. 135r50 192r26
+24E9*unsigned_int8<character> 14|92r25 93r25 93r58 131r25 132r25 132r58
+25I9*unsigned_int16<short_integer> 14|110r25 111r25 111r59 128r25 129r25
+. 129r59
+29I9*unsigned_integer<integer> 14|116r25 117r25 117r61 125r25 126r25 126r61
+33I9*unsigned_long_long_integer<long_long_integer> 14|104r25 105r25 105r71
+. 149r25 150r25 150r71
+59M9*int32_addrof 14|71r27
+60M9*int64_addrof 14|67r27
+X 6 mssyst.ads
+6K9*MSSyst 7e11 14|7r6 10r6 14r6 16r9 23r29 31r15 31r46 39r15 39r48 57r11
+. 57r44 75r11 75r44 89r14 90r14 90r47 119r14 120r14 120r45 140r14 141r14
+. 141r47 152r14 153r14 153r45 158r11 160r14 160r56 167r11 168r14 168r56 172r14
+. 175r14 177r11 178r34 180r11 180r44 186r15 190r15 208r11 208r44 237r5 239r20
+X 7 mssyst-decimal.ads
+19K16 Decimal 14|39r22 39r55 57r18 57r51 75r18 75r51 89r21 90r21 90r54 140r21
+. 141r21 141r54 158r18 160r63 167r18 168r63 177r18 178r41 180r18 180r51 186r22
+. 208r18 208r51
+20R9 ValueType 14|39r30 39r63 57r26 57r59 75r26 75r59 89r29 90r29 90r62 140r29
+. 141r29 141r62 158r26 160r71 167r26 168r71 177r26 178r49 180r26 180r59 186r30
+. 208r26 208r59
+X 14 mssyst-math.ads
+16K16*Math 6|6k9 14|237l12 237e16 239r27
+17R9*Typ 18r27 23c9 210r27
+18P9*Ref(17R9) 19r34 20r47
+19P9*Ref_addrof(18P9)
+20A9*Ref_Arr(18P9) 21r33
+21P9*Ref_Array(20A9) 22r40
+22P9*Ref_Array_addrof(21P9)
+23H9*Typ<16|18R9> 25e14 16|23p13 29p13 31p13 36p13
+26f4*PI{long_float} 27m23
+28f4*E{long_float} 29m23
+30V13*Abs_k{31|18R9} 31>7
+31r7 value{31|18R9}
+32V13*Abs_k{long_float} 33>7
+33f7 value{long_float}
+34V13*Abs_k{float} 35>7
+35f7 value{float}
+36V13*Abs_k{5|20I9} 37>7
+37i7 value{5|20I9}
+38V13*Abs_k{7|20R9} 39>7
+39r7 value{7|20R9}
+40V13*Abs_k{long_long_integer} 41>7
+41i7 value{long_long_integer}
+42V13*Abs_k{integer} 43>7 211b23
+43i7 value{integer}
+44V13*Acos{long_float} 45>7 212b23
+45f7 d{long_float}
+46V13*Asin{long_float} 47>7 213b23
+47f7 d{long_float}
+48V13*Atan{long_float} 49>7 214b23
+49f7 d{long_float}
+50V13*Atan2{long_float} 51>7 52>7 215b23
+51f7 y{long_float}
+52f7 x{long_float}
+53V13*BigMul{long_long_integer} 54>7 55>7 216b23
+54i7 a{integer}
+55i7 b{integer}
+56V13*Ceiling{7|20R9} 57>7
+57r7 d{7|20R9}
+58V13*Ceiling{long_float} 59>7 217b23
+59f7 a{long_float}
+60V13*Cos{long_float} 61>7 218b23
+61f7 d{long_float}
+62V13*Cosh{long_float} 63>7 219b23
+63f7 value{long_float}
+64V13*DivRem{long_long_integer} 65>7 66>7 67>7
+65i7 a{long_long_integer}
+66i7 b{long_long_integer}
+67m7 result{5|60M9}
+68V13*DivRem{integer} 69>7 70>7 71>7 220b23
+69i7 a{integer}
+70i7 b{integer}
+71m7 result{5|59M9}
+72V13*Exp{long_float} 73>7 221b23
+73f7 d{long_float}
+74V13*Floor{7|20R9} 75>7
+75r7 d{7|20R9}
+76V13*Floor{long_float} 77>7 222b23
+77f7 d{long_float}
+78V13*IEEERemainder{long_float} 79>7 80>7 223b23
+79f7 x{long_float}
+80f7 y{long_float}
+81V13*Log{long_float} 82>7
+82f7 d{long_float}
+83V13*Log{long_float} 84>7 85>7 224b23
+84f7 a{long_float}
+85f7 newBase{long_float}
+86V13*Log10{long_float} 87>7 225b23
+87f7 d{long_float}
+88V13*Max{7|20R9} 89>7 90>7
+89r7 val1{7|20R9}
+90r7 val2{7|20R9}
+91V13*Max{5|24E9} 92>7 93>7
+92e7 val1{5|24E9}
+93e7 val2{5|24E9}
+94V13*Max{5|20I9} 95>7 96>7
+95i7 val1{5|20I9}
+96i7 val2{5|20I9}
+97V13*Max{long_float} 98>7 99>7
+98f7 val1{long_float}
+99f7 val2{long_float}
+100V13*Max{long_long_integer} 101>7 102>7
+101i7 val1{long_long_integer}
+102i7 val2{long_long_integer}
+103V13*Max{5|33I9} 104>7 105>7
+104i7 val1{5|33I9}
+105i7 val2{5|33I9}
+106V13*Max{float} 107>7 108>7
+107f7 val1{float}
+108f7 val2{float}
+109V13*Max{5|25I9} 110>7 111>7
+110i7 val1{5|25I9}
+111i7 val2{5|25I9}
+112V13*Max{integer} 113>7 114>7
+113i7 val1{integer}
+114i7 val2{integer}
+115V13*Max{5|29I9} 116>7 117>7
+116i7 val1{5|29I9}
+117i7 val2{5|29I9}
+118V13*Max{31|18R9} 119>7 120>7 226b23
+119r7 val1{31|18R9}
+120r7 val2{31|18R9}
+121V13*Min{integer} 122>7 123>7
+122i7 val1{integer}
+123i7 val2{integer}
+124V13*Min{5|29I9} 125>7 126>7
+125i7 val1{5|29I9}
+126i7 val2{5|29I9}
+127V13*Min{5|25I9} 128>7 129>7
+128i7 val1{5|25I9}
+129i7 val2{5|25I9}
+130V13*Min{5|24E9} 131>7 132>7
+131e7 val1{5|24E9}
+132e7 val2{5|24E9}
+133V13*Min{5|20I9} 134>7 135>7
+134i7 val1{5|20I9}
+135i7 val2{5|20I9}
+136V13*Min{long_float} 137>7 138>7
+137f7 val1{long_float}
+138f7 val2{long_float}
+139V13*Min{7|20R9} 140>7 141>7
+140r7 val1{7|20R9}
+141r7 val2{7|20R9}
+142V13*Min{float} 143>7 144>7
+143f7 val1{float}
+144f7 val2{float}
+145V13*Min{long_long_integer} 146>7 147>7
+146i7 val1{long_long_integer}
+147i7 val2{long_long_integer}
+148V13*Min{5|33I9} 149>7 150>7
+149i7 val1{5|33I9}
+150i7 val2{5|33I9}
+151V13*Min{31|18R9} 152>7 153>7 227b23
+152r7 val1{31|18R9}
+153r7 val2{31|18R9}
+154V13*Pow{long_float} 155>7 156>7 228b23
+155f7 x{long_float}
+156f7 y{long_float}
+157V13*Round{7|20R9} 158>7 159>7 160>7
+158r7 d{7|20R9}
+159i7 decimals{integer}
+160e7 mode{15|16E9}
+161V13*Round{long_float} 162>7
+162f7 a{long_float}
+163V13*Round{long_float} 164>7 165>7
+164f7 value{long_float}
+165i7 digits_k{integer}
+166V13*Round{7|20R9} 167>7 168>7
+167r7 d{7|20R9}
+168e7 mode{15|16E9}
+169V13*Round{long_float} 170>7 171>7 172>7
+170f7 value{long_float}
+171i7 digits_k{integer}
+172e7 mode{15|16E9}
+173V13*Round{long_float} 174>7 175>7
+174f7 value{long_float}
+175e7 mode{15|16E9}
+176V13*Round{7|20R9} 177>7 178>7
+177r7 d{7|20R9}
+178i7 decimals{integer}
+179V13*Round{7|20R9} 180>7 229b23
+180r7 d{7|20R9}
+181V13*Sign{integer} 182>7
+182f7 value{float}
+183V13*Sign{integer} 184>7
+184i7 value{long_long_integer}
+185V13*Sign{integer} 186>7
+186r7 value{7|20R9}
+187V13*Sign{integer} 188>7
+188f7 value{long_float}
+189V13*Sign{integer} 190>7
+190r7 value{31|18R9}
+191V13*Sign{integer} 192>7
+192i7 value{5|20I9}
+193V13*Sign{integer} 194>7 230b23
+194i7 value{integer}
+195V13*Sin{long_float} 196>7 231b23
+196f7 a{long_float}
+197V13*Sinh{long_float} 198>7 232b23
+198f7 value{long_float}
+199V13*Sqrt{long_float} 200>7 233b23
+200f7 d{long_float}
+201V13*Tan{long_float} 202>7 234b23
+202f7 a{long_float}
+203V13*Tanh{long_float} 204>7 235b23
+204f7 value{long_float}
+205V13*Truncate{long_float} 206>7
+206f7 d{long_float}
+207V13*Truncate{7|20R9} 208>7 236b23
+208r7 d{7|20R9}
+X 15 mssyst-midpointrounding.ads
+15K16*MidpointRounding 14|14w13 160r21 168r21 172r21 175r21 15|58e28
+16E9*ValueType 14|160r38 168r38 172r38 175r38 15|18e20
+X 16 mssyst-object.ads
+11K16*Object 14|7w13 10w13 23r36 16|46e18
+12R9*Typ 14|23r43 16|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{37|51P9}
+36V13*ToString{32|27P9}
+X 31 mssyst-sbyte.ads
+17K16 SByte 14|31r22 31r53 119r21 120r21 120r52 152r21 153r21 153r52 190r22
+18R9 ValueType 14|31r28 31r59 119r27 120r27 120r58 152r27 153r27 153r58 190r28
+X 32 mssyst-string.ads
+27P9 Ref(integer)
+X 37 mssyst-type_k.ads
+51P9 Ref(integer)
+

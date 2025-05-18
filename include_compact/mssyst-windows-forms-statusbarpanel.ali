@@ -1,0 +1,267 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.statusbarpanel%s  mssyst-windows-forms-statusbarpanel.ads  481b4628 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.component%s  mssyst-componentmodel-component.ads  mssyst-componentmodel-component.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.componentmodel.isupportinitialize%s  mssyst-componentmodel-isupportinitialize.ads  mssyst-componentmodel-isupportinitialize.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.horizontalalignment%s  mssyst-windows-forms-horizontalalignment.ads  mssyst-windows-forms-horizontalalignment.ali
+W mssyst.windows.forms.statusbarpanelautosize%s  mssyst-windows-forms-statusbarpanelautosize.ads  mssyst-windows-forms-statusbarpanelautosize.ali
+W mssyst.windows.forms.statusbarpanelborderstyle%s  mssyst-windows-forms-statusbarpanelborderstyle.ads  mssyst-windows-forms-statusbarpanelborderstyle.ali
+W mssyst.windows.forms.statusbarpanelstyle%s  mssyst-windows-forms-statusbarpanelstyle.ads  mssyst-windows-forms-statusbarpanelstyle.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-componentmodel-isupportinitialize.ads  20060131171414 998e727f
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-icon.ads  20060131171430 7e5353c4
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-accessiblerole.ads  20060131171436 c08bcb4f
+D mssyst-windows-forms-anchorstyles.ads  20060131171436 22446596
+D mssyst-windows-forms-boundsspecified.ads  20060131171436 2f9ca777
+D mssyst-windows-forms-control.ads  20060131171436 1c03b650
+D mssyst-windows-forms-dockstyle.ads  20060131171440 a08bf6b6
+D mssyst-windows-forms-dragdropeffects.ads  20060131171440 dfaed805
+D mssyst-windows-forms-getchildatpointskip.ads  20060131171442 84d63876
+D mssyst-windows-forms-horizontalalignment.ads  20060131171442 9afe1d98
+D mssyst-windows-forms-ibindablecomponent.ads  20060131171436 1e1050b2
+D mssyst-windows-forms-imagelayout.ads  20060131171442 e0e6ce51
+D mssyst-windows-forms-imemode.ads  20060131171442 58d96089
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D mssyst-windows-forms-keys.ads  20060131171442 e98517be
+D mssyst-windows-forms-message.ads  20060131171444 f6b3d9da
+D mssyst-windows-forms-mousebuttons.ads  20060131171444 1b279075
+D mssyst-windows-forms-preprocesscontrolstate.ads  20060131171446 047a345d
+D mssyst-windows-forms-righttoleft.ads  20060131171446 898cfeaf
+D mssyst-windows-forms-statusbar.ads  20060131171446 fc1bb7a2
+D mssyst-windows-forms-statusbarpanel.ads  20060131171446 93b218ca
+D mssyst-windows-forms-statusbarpanelautosize.ads  20060131171446 2162671c
+D mssyst-windows-forms-statusbarpanelborderstyle.ads  20060131171446 ea02b75a
+D mssyst-windows-forms-statusbarpanelstyle.ads  20060131171446 da46b64c
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 80|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 80|7r6 10r6 11r6 12r6 17r6 18r6 19r6 25r6 26r9 33r20 34r14
+. 35r14 46r33 48r33 50r33 52r33 56r33 58r33 60r33 62r33 64r33 66r33 71r15
+. 74r15 77r15 80r15 86r15 89r15 92r15 95r15 98r15 103r33 133r5 135r20
+X 10 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 80|10r13 11r13 12r13 33r27 34r21 35r21
+X 11 mssyst-componentmodel-component.ads
+19K31*Component 60e36 80|10w28 33r42
+20R9*Typ 80|33r52
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{13|15P9}
+40V13*get_Site{14|16P9}
+42U14*remove_Disposed
+45U14*set_Site
+X 12 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 80|11w28 34r36
+13R9*Typ 80|34r47
+X 13 mssyst-componentmodel-icontainer.ads
+15P9 Ref(integer)
+X 14 mssyst-componentmodel-isite.ads
+16P9 Ref(integer)
+X 15 mssyst-componentmodel-isupportinitialize.ads
+10K31*ISupportInitialize 25e45 80|12w28 35r36
+11R9*Typ 80|35r55
+X 18 mssyst-drawing.ads
+6K16 Drawing 80|52r40 80r22
+X 19 mssyst-drawing-icon.ads
+20K24 Icon 80|52r48 80r30
+22P9 Ref(integer) 80|52r53 80r35
+X 28 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{46|23P9}
+27V13*GetLifetimeService{30|13P9}
+29V13*InitializeLifetimeService{30|13P9}
+X 30 mssyst-object.ads
+11K16*Object 46e18 80|7w13 62r40 92r22
+13P9*Ref(12R9) 80|62r47 92r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{56|51P9}
+X 46 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 51 mssyst-string.ads
+25K16 String 80|56r40 64r40 66r40 86r22 95r22 98r22 103r40
+27P9 Ref(integer) 80|56r47 64r47 66r47 86r29 95r29 98r29 103r47
+X 56 mssyst-type_k.ads
+51P9 Ref(integer)
+X 60 mssyst-windows.ads
+6K16*Windows 9|6k9 60|7e19 80|17r13 18r13 19r13 25r13 26r16 46r40 48r40 50r40
+. 58r40 60r40 71r22 74r22 77r22 89r22 133r12 135r27
+X 61 mssyst-windows-forms.ads
+6K24*Forms 60|6k16 61|7e25 80|17r21 18r21 19r21 25r21 26r24 46r48 48r48 50r48
+. 58r48 60r48 71r30 74r30 77r30 89r30 133r20 135r35
+X 69 mssyst-windows-forms-horizontalalignment.ads
+15K30*HorizontalAlignment 60e45 80|17w27 46r54 71r36
+16E9*ValueType 19e14 80|46r74 71r56
+X 79 mssyst-windows-forms-statusbar.ads
+76K30 StatusBar 80|58r54
+78P9 Ref(integer) 80|58r64
+X 80 mssyst-windows-forms-statusbarpanel.ads
+26K30*StatusBarPanel 61|6k24 80|133l26 133e40 135r41
+27R9*Typ 28r27 33c9 42r21 44r21 46r21 48r21 50r21 52r21 54r21 56r21 58r21
+. 60r21 62r21 64r21 66r21 68r21 70r21 73r21 76r21 79r21 82r21 85r21 88r21
+. 91r21 94r21 97r21 100r21 103r21 105r27
+28P9*Ref(27R9) 29r34 30r47 40r14 40r34
+29P9*Ref_addrof(28P9)
+30A9*Ref_Arr(28P9) 31r33
+31P9*Ref_Array(30A9) 32r40
+32P9*Ref_Array_addrof(31P9)
+33R9*Typ<11|26R9> 11|33P14 36p14 38p13 40P13 42P14 45P14 28|24p13 27p13 29p13
+. 30|23p13 29p13 31p13 80|38e14 41P14 43P14 45p13 47p13 49p13 51p13 53p13
+. 55p13 57p13 59p13 61p13 63p13 65p13 67p13 69p14 72p14 75p14 78p14 81p14
+. 84p14 87p14 90p14 93p14 96p14 99p14 102P13
+39V13*new_StatusBarPanel{28P9} 40>7 106r28
+40p7 This{28P9}
+41U14*BeginInit 42^7 107b23
+42p7 This(33R9)
+43U14*EndInit 44^7 108b23
+44p7 This(33R9)
+45V13*get_Alignment{69|16E9} 46^7 109b23
+46p7 This(33R9)
+47V13*get_AutoSize{81|16E9} 48^7 110b23
+48p7 This(33R9)
+49V13*get_BorderStyle{82|16E9} 50^7 111b23
+50p7 This(33R9)
+51V13*get_Icon{19|22P9} 52^7 112b23
+52p7 This(33R9)
+53V13*get_MinWidth{integer} 54^7 113b23
+54p7 This(33R9)
+55V13*get_Name{51|27P9} 56^7 114b23
+56p7 This(33R9)
+57V13*get_Parent{79|78P9} 58^7 115b23
+58p7 This(33R9)
+59V13*get_Style{83|16E9} 60^7 116b23
+60p7 This(33R9)
+61V13*get_Tag{30|13P9} 62^7 117b23
+62p7 This(33R9)
+63V13*get_Text{51|27P9} 64^7 118b23
+64p7 This(33R9)
+65V13*get_ToolTipText{51|27P9} 66^7 119b23
+66p7 This(33R9)
+67V13*get_Width{integer} 68^7 120b23
+68p7 This(33R9)
+69U14*set_Alignment 70^7 71>7 121b23
+70p7 This(33R9)
+71e7 value{69|16E9}
+72U14*set_AutoSize 73^7 74>7 122b23
+73p7 This(33R9)
+74e7 value{81|16E9}
+75U14*set_BorderStyle 76^7 77>7 123b23
+76p7 This(33R9)
+77e7 value{82|16E9}
+78U14*set_Icon 79^7 80>7 124b23
+79p7 This(33R9)
+80p7 value{19|22P9}
+81U14*set_MinWidth 82^7 83>7 125b23
+82p7 This(33R9)
+83i7 value{integer}
+84U14*set_Name 85^7 86>7 126b23
+85p7 This(33R9)
+86p7 value{51|27P9}
+87U14*set_Style 88^7 89>7 127b23
+88p7 This(33R9)
+89e7 value{83|16E9}
+90U14*set_Tag 91^7 92>7 128b23
+91p7 This(33R9)
+92p7 value{30|13P9}
+93U14*set_Text 94^7 95>7 129b23
+94p7 This(33R9)
+95p7 value{51|27P9}
+96U14*set_ToolTipText 97^7 98>7 130b23
+97p7 This(33R9)
+98p7 value{51|27P9}
+99U14*set_Width 100^7 101>7 131b23
+100p7 This(33R9)
+101i7 value{integer}
+102V13*ToString{51|27P9} 103^7 132b23
+103p7 This(33R9)
+X 81 mssyst-windows-forms-statusbarpanelautosize.ads
+15K30*StatusBarPanelAutoSize 80|18w27 48r54 74r36 81|60e48
+16E9*ValueType 80|48r77 74r59 81|19e16
+X 82 mssyst-windows-forms-statusbarpanelborderstyle.ads
+15K30*StatusBarPanelBorderStyle 80|19w27 50r54 77r36 82|60e51
+16E9*ValueType 80|50r80 77r62 82|19e14
+X 83 mssyst-windows-forms-statusbarpanelstyle.ads
+15K30*StatusBarPanelStyle 80|25w27 60r54 89r36 83|58e45
+16E9*ValueType 80|60r74 89r56 83|18e17
+

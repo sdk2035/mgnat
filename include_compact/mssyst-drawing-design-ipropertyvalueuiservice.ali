@@ -1,0 +1,143 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.design.ipropertyvalueuiservice%s  mssyst-drawing-design-ipropertyvalueuiservice.ads  9f0a68fc NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.design%s  mssyst-drawing-design.ads  mssyst-drawing-design.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-designerserializationvisibility.ads  20060131171412 42f0b201
+D mssyst-componentmodel-itypedescriptorcontext.ads  20060131171414 d0c826f6
+D mssyst-componentmodel-memberdescriptor.ads  20060131171412 ebdb73f4
+D mssyst-componentmodel-propertydescriptor.ads  20060131171412 9db79170
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-design.ads  20060131171432 4c490217
+D mssyst-drawing-design-ipropertyvalueuiservice.ads  20060131171432 44b84da1
+D mssyst-drawing-design-propertyvalueuihandler.ads  20060131171432 9ad95601
+D mssyst-drawing-design-propertyvalueuiitem.ads  20060131171432 9f0efb5a
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 18|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 18|7r6 15r9 25r15 28r20 31r17 32r18 32r71 37r15 40r20 48r5
+. 50r20
+X 10 mssyst-componentmodel.ads
+6K16 ComponentModel 18|31r24 32r25
+X 12 mssyst-componentmodel-itypedescriptorcontext.ads
+14K31 ITypeDescriptorContext 18|31r39
+16P9 Ref(integer) 18|31r62
+X 14 mssyst-componentmodel-propertydescriptor.ads
+20K31 PropertyDescriptor 18|32r40
+22P9 Ref(integer) 18|32r59
+X 16 mssyst-drawing.ads
+6K16*Drawing 9|6k9 16|7e19 18|15r16 28r27 32r78 40r27 48r12 50r27
+X 17 mssyst-drawing-design.ads
+6K24*Design 16|6k16 17|7e26 18|15r24 28r35 32r86 40r35 48r20 50r35
+X 18 mssyst-drawing-design-ipropertyvalueuiservice.ads
+15K31*IPropertyValueUIService 17|6k24 18|48l27 48e50 50r42
+16R9*Typ 17r27 22c9 24r21 27r21 30r21 34r21 36r21 39r21
+17P9*Ref(16R9) 18r34 19r47
+18P9*Ref_addrof(17P9)
+19A9*Ref_Arr(17P9) 20r33
+20P9*Ref_Array(19A9) 21r40
+21P9*Ref_Array_addrof(20P9)
+22H9*Typ 23p14 26p14 29p13 33p14 35p14 38p14
+23x14*add_PropertyUIValueItemsChanged 24^7 25>7 42b23
+24p7 This(22R9)
+25p7 value{21|26P9}
+26x14*AddPropertyValueUIHandler 27^7 28>7 43b23
+27p7 This(22R9)
+28p7 newHandler{19|28P9}
+29y13*GetPropertyUIValueItems{20|20P9} 30^7 31>7 32>7 44b23
+30p7 This(22R9)
+31p7 context{12|16P9}
+32p7 propDesc{14|22P9}
+33x14*NotifyPropertyValueUIItemsChanged 34^7 45b23
+34p7 This(22R9)
+35x14*remove_PropertyUIValueItemsChanged 36^7 37>7 46b23
+36p7 This(22R9)
+37p7 value{21|26P9}
+38x14*RemovePropertyValueUIHandler 39^7 40>7 47b23
+39p7 This(22R9)
+40p7 newHandler{19|28P9}
+X 19 mssyst-drawing-design-propertyvalueuihandler.ads
+26K31 PropertyValueUIHandler 18|28r42 40r42
+28P9 Ref(integer) 18|28r65 40r65
+X 20 mssyst-drawing-design-propertyvalueuiitem.ads
+15K31 PropertyValueUIItem 18|32r93
+20P9 Ref_Array(integer) 18|32r113
+X 21 mssyst-eventhandler.ads
+24K16 EventHandler 18|25r22 37r22
+26P9 Ref(integer) 18|25r35 37r35
+X 29 mssyst-object.ads
+11K16*Object 18|7w13 29|46e18
+

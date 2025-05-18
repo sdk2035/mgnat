@@ -1,0 +1,18 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U microsoft.visualbasic%s  microsoft-visualbasic.ads  5892459c EE PK
+W microsoft%s		microsoft.ads		microsoft.ali
+
+D microsoft.ads		20060131165226 02f2695c
+D microsoft-visualbasic.ads  20060131171418 5a602cc0
+D system.ads		20050820125040 15131902
+X 1 microsoft.ads
+6K9*Microsoft 7e14 2|6r9 7r5
+X 2 microsoft-visualbasic.ads
+6K19*VisualBasic 1|6k9 2|7l15 7e26
+

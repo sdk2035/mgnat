@@ -1,0 +1,248 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.datagridviewband%s  mssyst-windows-forms-datagridviewband.ads  4474f5b7 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.datagridviewelement%s  mssyst-windows-forms-datagridviewelement.ads  mssyst-windows-forms-datagridviewelement.ali
+W mssyst.windows.forms.datagridviewelementstates%s  mssyst-windows-forms-datagridviewelementstates.ads  mssyst-windows-forms-datagridviewelementstates.ali
+W mssyst.windows.forms.datagridviewtristate%s  mssyst-windows-forms-datagridviewtristate.ads  mssyst-windows-forms-datagridviewtristate.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-isupportinitialize.ads  20060131171414 998e727f
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-componentmodel-listsortdirection.ads  20060131171414 ba0fb7c8
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-accessiblerole.ads  20060131171436 c08bcb4f
+D mssyst-windows-forms-anchorstyles.ads  20060131171436 22446596
+D mssyst-windows-forms-arrowdirection.ads  20060131171436 7a0a27d2
+D mssyst-windows-forms-borderstyle.ads  20060131171436 fb8d17ef
+D mssyst-windows-forms-boundsspecified.ads  20060131171436 2f9ca777
+D mssyst-windows-forms-contextmenustrip.ads  20060131171438 e7c950d4
+D mssyst-windows-forms-control.ads  20060131171436 1c03b650
+D mssyst-windows-forms-datagridview.ads  20060131171438 703d61c2
+D mssyst-windows-forms-datagridviewautosizecolumnmode.ads  20060131171438 b3793585
+D mssyst-windows-forms-datagridviewautosizecolumnsmode.ads  20060131171438 1ab603c0
+D mssyst-windows-forms-datagridviewautosizerowmode.ads  20060131171438 c08643ad
+D mssyst-windows-forms-datagridviewautosizerowsmode.ads  20060131171438 115d53e2
+D mssyst-windows-forms-datagridviewband.ads  20060131171438 b1633385
+D mssyst-windows-forms-datagridviewcellborderstyle.ads  20060131171438 9f318b05
+D mssyst-windows-forms-datagridviewcellstyle.ads  20060131171438 c920246c
+D mssyst-windows-forms-datagridviewclipboardcopymode.ads  20060131171438 19a52db5
+D mssyst-windows-forms-datagridviewcolumnheadersheightsizemode.ads  20060131171438 9f36ee03
+D mssyst-windows-forms-datagridviewcontentalignment.ads  20060131171438 45858a33
+D mssyst-windows-forms-datagridviewdataerrorcontexts.ads  20060131171440 e4013588
+D mssyst-windows-forms-datagridvieweditmode.ads  20060131171440 71a52a3b
+D mssyst-windows-forms-datagridviewelement.ads  20060131171438 bea618a6
+D mssyst-windows-forms-datagridviewelementstates.ads  20060131171440 25ad9657
+D mssyst-windows-forms-datagridviewheaderborderstyle.ads  20060131171440 9addadeb
+D mssyst-windows-forms-datagridviewrowheaderswidthsizemode.ads  20060131171438 6349275c
+D mssyst-windows-forms-datagridviewselectionmode.ads  20060131171440 e0e689bb
+D mssyst-windows-forms-datagridviewtristate.ads  20060131171440 4eaa0615
+D mssyst-windows-forms-dockstyle.ads  20060131171440 a08bf6b6
+D mssyst-windows-forms-dragdropeffects.ads  20060131171440 dfaed805
+D mssyst-windows-forms-getchildatpointskip.ads  20060131171442 84d63876
+D mssyst-windows-forms-ibindablecomponent.ads  20060131171436 1e1050b2
+D mssyst-windows-forms-imagelayout.ads  20060131171442 e0e6ce51
+D mssyst-windows-forms-imemode.ads  20060131171442 58d96089
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D mssyst-windows-forms-keys.ads  20060131171442 e98517be
+D mssyst-windows-forms-message.ads  20060131171444 f6b3d9da
+D mssyst-windows-forms-mousebuttons.ads  20060131171444 1b279075
+D mssyst-windows-forms-orientation.ads  20060131171444 f6d26c92
+D mssyst-windows-forms-preprocesscontrolstate.ads  20060131171446 047a345d
+D mssyst-windows-forms-righttoleft.ads  20060131171446 898cfeaf
+D mssyst-windows-forms-scrollablecontrol.ads  20060131171436 2a5f36a7
+D mssyst-windows-forms-scrollbars.ads  20060131171446 8c2d7362
+D mssyst-windows-forms-sortorder.ads  20060131171446 1823cbb0
+D mssyst-windows-forms-toolstrip.ads  20060131171436 cf98054c
+D mssyst-windows-forms-toolstripdropdown.ads  20060131171438 7cfb2ab8
+D mssyst-windows-forms-toolstripdropdownclosereason.ads  20060131171446 989749e0
+D mssyst-windows-forms-toolstripdropdowndirection.ads  20060131171446 ef1c98b6
+D mssyst-windows-forms-toolstripdropdownmenu.ads  20060131171438 78799ba2
+D mssyst-windows-forms-toolstripgripdisplaystyle.ads  20060131171446 dfc1a9b6
+D mssyst-windows-forms-toolstripgripstyle.ads  20060131171446 e2e57ce2
+D mssyst-windows-forms-toolstriplayoutstyle.ads  20060131171446 ea413ecd
+D mssyst-windows-forms-toolstriprendermode.ads  20060131171448 c1599e1e
+D mssyst-windows-forms-toolstriptextdirection.ads  20060131171448 26b992df
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 62|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 62|7r6 10r6 11r6 17r6 18r6 20r9 27r20 28r14 33r33 37r33 39r33
+. 41r33 51r33 55r33 59r33 64r15 67r15 70r15 79r15 85r15 90r33 118r5 120r20
+X 19 mssyst-icloneable.ads
+11K16*ICloneable 23e22 62|11w13 28r21
+12R9*Typ 62|28r32
+X 23 mssyst-object.ads
+11K16*Object 46e18 62|7w13 33r40 59r40 85r22
+13P9*Ref(12R9) 62|33r47 59r47 85r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{44|51P9}
+X 39 mssyst-string.ads
+25K16 String 62|90r40
+27P9 Ref(integer) 62|90r47
+X 44 mssyst-type_k.ads
+49K16 Type_k 62|41r40 70r22
+51P9 Ref(integer) 62|41r47 70r29
+X 48 mssyst-windows.ads
+6K16*Windows 9|6k9 48|7e19 62|10r13 17r13 18r13 20r16 27r27 37r40 39r40 51r40
+. 55r40 64r22 67r22 79r22 118r12 120r27
+X 49 mssyst-windows-forms.ads
+6K24*Forms 48|6k16 49|7e25 62|10r21 17r21 18r21 20r24 27r35 37r48 39r48 51r48
+. 55r48 64r30 67r30 79r30 118r20 120r35
+X 55 mssyst-windows-forms-contextmenustrip.ads
+96K30 ContextMenuStrip 62|37r54 64r36
+98P9 Ref(integer) 62|37r71 64r53
+X 57 mssyst-windows-forms-datagridview.ads
+145P9 Ref(integer)
+X 62 mssyst-windows-forms-datagridviewband.ads
+20K30*DataGridViewBand 49|6k24 62|118l26 118e42 120r41
+21R9*Typ 22r27 27c9 33r21 35r21 37r21 39r21 41r21 43r21 45r21 47r21 49r21
+. 51r21 53r21 55r21 57r21 59r21 61r21 63r21 66r21 69r21 72r21 75r21 78r21
+. 81r21 84r21 87r21 90r21 92r27
+22P9*Ref(21R9) 23r34 24r47
+23P9*Ref_addrof(22P9)
+24A9*Ref_Arr(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27R9*Typ<70|22R9> 23|23p13 29p13 31p13 62|31e14 32P13 34p14 36p13 38p13 40p13
+. 42p13 44p13 46p13 48p13 50p13 52p13 54p13 56p13 58p13 60p13 62p14 65p14
+. 68p14 71p14 74p14 77p14 80p14 83p14 86p14 89P13 70|27p13 29p13
+32V13*Clone{23|13P9} 33^7 93b23
+33p7 This(27R9)
+34U14*Dispose 35^7 94b23
+35p7 This(27R9)
+36V13*get_ContextMenuStrip{55|98P9} 37^7 95b23
+37p7 This(27R9)
+38V13*get_DefaultCellStyle{64|22P9} 39^7 96b23
+39p7 This(27R9)
+40V13*get_DefaultHeaderCellType{44|51P9} 41^7 97b23
+41p7 This(27R9)
+42V13*get_Displayed{boolean} 43^7 98b23
+43p7 This(27R9)
+44V13*get_Frozen{boolean} 45^7 99b23
+45p7 This(27R9)
+46V13*get_HasDefaultCellStyle{boolean} 47^7 100b23
+47p7 This(27R9)
+48V13*get_Index{integer} 49^7 101b23
+49p7 This(27R9)
+50V13*get_InheritedStyle{64|22P9} 51^7 102b23
+51p7 This(27R9)
+52V13*get_ReadOnly{boolean} 53^7 103b23
+53p7 This(27R9)
+54V13*get_Resizable{75|16E9} 55^7 104b23
+55p7 This(27R9)
+56V13*get_Selected{boolean} 57^7 105b23
+57p7 This(27R9)
+58V13*get_Tag{23|13P9} 59^7 106b23
+59p7 This(27R9)
+60V13*get_Visible{boolean} 61^7 107b23
+61p7 This(27R9)
+62U14*set_ContextMenuStrip 63^7 64>7 108b23
+63p7 This(27R9)
+64p7 value{55|98P9}
+65U14*set_DefaultCellStyle 66^7 67>7 109b23
+66p7 This(27R9)
+67p7 value{64|22P9}
+68U14*set_DefaultHeaderCellType 69^7 70>7 110b23
+69p7 This(27R9)
+70p7 value{44|51P9}
+71U14*set_Frozen 72^7 73>7 111b23
+72p7 This(27R9)
+73b7 value{boolean}
+74U14*set_ReadOnly 75^7 76>7 112b23
+75p7 This(27R9)
+76b7 value{boolean}
+77U14*set_Resizable 78^7 79>7 113b23
+78p7 This(27R9)
+79e7 value{75|16E9}
+80U14*set_Selected 81^7 82>7 114b23
+81p7 This(27R9)
+82b7 value{boolean}
+83U14*set_Tag 84^7 85>7 115b23
+84p7 This(27R9)
+85p7 value{23|13P9}
+86U14*set_Visible 87^7 88>7 116b23
+87p7 This(27R9)
+88b7 value{boolean}
+89V13*ToString{39|27P9} 90^7 117b23
+90p7 This(27R9)
+X 64 mssyst-windows-forms-datagridviewcellstyle.ads
+20K30 DataGridViewCellStyle 62|39r54 51r54 67r36
+22P9 Ref(integer) 62|39r76 51r76 67r58
+X 70 mssyst-windows-forms-datagridviewelement.ads
+15K30*DataGridViewElement 62|10w27 27r41 70|36e45
+16R9*Typ 62|27r61
+27V13*get_DataGridView{57|145P9}
+29V13*get_State{71|16E9}
+X 71 mssyst-windows-forms-datagridviewelementstates.ads
+15K30*DataGridViewElementStates 62|18w27 71|72e51
+X 75 mssyst-windows-forms-datagridviewtristate.ads
+15K30*DataGridViewTriState 62|17w27 55r54 79r36 75|60e46
+16E9*ValueType 62|55r75 79r57 75|19e13
+

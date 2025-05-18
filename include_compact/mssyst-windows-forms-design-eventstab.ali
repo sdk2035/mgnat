@@ -1,0 +1,186 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.design.eventstab%s  mssyst-windows-forms-design-eventstab.ads  eaa15d68 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.iextenderprovider%s  mssyst-componentmodel-iextenderprovider.ads  mssyst-componentmodel-iextenderprovider.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.design%s  mssyst-windows-forms-design.ads  mssyst-windows-forms-design.ali
+W mssyst.windows.forms.design.propertytab%s  mssyst-windows-forms-design-propertytab.ads  mssyst-windows-forms-design-propertytab.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-attribute.ads	20060131171354 578cce83
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-idictionary.ads  20060131171358 0d4908a9
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-designerserializationvisibility.ads  20060131171412 42f0b201
+D mssyst-componentmodel-iextenderprovider.ads  20060131171412 9d31c484
+D mssyst-componentmodel-itypedescriptorcontext.ads  20060131171414 d0c826f6
+D mssyst-componentmodel-memberdescriptor.ads  20060131171412 ebdb73f4
+D mssyst-componentmodel-propertydescriptor.ads  20060131171412 9db79170
+D mssyst-componentmodel-propertydescriptorcollection.ads  20060131171414 a46c49a6
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-bitmap.ads  20060131171428 6a48fdc0
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-image.ads  20060131171428 3db9ccbe
+D mssyst-drawing-imaging.ads  20060131171430 83f7d7de
+D mssyst-drawing-imaging-imagelockmode.ads  20060131171430 48a8fce8
+D mssyst-drawing-imaging-pixelformat.ads  20060131171432 0f821f81
+D mssyst-drawing-rotatefliptype.ads  20060131171430 5968574e
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-design.ads  20060131171300 1ab6f2b0
+D mssyst-windows-forms-design-eventstab.ads  20060131171450 d44b39b5
+D mssyst-windows-forms-design-propertytab.ads  20060131171450 2e9675a3
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 67|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 67|7r6 10r6 11r6 22r9 29r20 30r14 36r12 39r18 41r33 43r33
+. 46r13 46r39 49r17 50r19 51r20 51r55 54r19 55r20 55r55 64r5 66r20
+X 10 mssyst-attribute.ads
+18K16 Attribute 67|51r27 55r27
+23P9 Ref_Array(integer) 67|51r37 55r37
+X 15 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 67|11r13 30r21 46r46 49r24 51r62 55r62
+X 17 mssyst-componentmodel-iextenderprovider.ads
+11K31*IExtenderProvider 24e44 67|11w28 30r36
+12R9*Typ 67|30r54
+X 18 mssyst-componentmodel-itypedescriptorcontext.ads
+14K31 ITypeDescriptorContext 67|49r39
+16P9 Ref(integer) 67|49r62
+X 20 mssyst-componentmodel-propertydescriptor.ads
+20K31 PropertyDescriptor 67|46r61
+22P9 Ref(integer) 67|46r80
+X 21 mssyst-componentmodel-propertydescriptorcollection.ads
+22K31 PropertyDescriptorCollection 67|51r77 55r77
+24P9 Ref(integer) 67|51r106 55r106
+X 23 mssyst-drawing-bitmap.ads
+40P9 Ref(integer)
+X 35 mssyst-iserviceprovider.ads
+12K16 IServiceProvider 67|36r19
+14P9 Ref(integer) 67|36r36
+X 37 mssyst-object.ads
+11K16*Object 46e18 67|7w13 39r25 46r20 50r26 54r26
+13P9*Ref(12R9) 67|39r32 46r27 50r33 54r33
+15A9*Ref_Arr(13P9)
+16P9*Ref_Array(15A9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{60|51P9}
+36V13*ToString{55|27P9}
+X 55 mssyst-string.ads
+25K16 String 67|41r40 43r40
+27P9 Ref(integer) 67|41r47 43r47
+X 60 mssyst-type_k.ads
+51P9 Ref(integer)
+X 64 mssyst-windows.ads
+6K16*Windows 9|6k9 64|7e19 67|10r13 22r16 29r27 64r12 66r27
+X 65 mssyst-windows-forms.ads
+6K24*Forms 64|6k16 65|7e25 67|10r21 22r24 29r35 64r20 66r35
+X 66 mssyst-windows-forms-design.ads
+6K30*Design 65|6k24 66|7e32 67|10r27 22r30 29r41 64r26 66r41
+X 67 mssyst-windows-forms-design-eventstab.ads
+22K37*EventsTab 66|6k30 67|64l33 64e42 66r48
+23R9*Typ 24r27 29c9 38r21 41r21 43r21 45r21 48r21 53r21 57r27
+24P9*Ref(23R9) 25r34 26r47 35r14 36r48
+25P9*Ref_addrof(24P9)
+26A9*Ref_Arr(24P9) 27r33
+27P9*Ref_Array(26A9) 28r40
+28P9*Ref_Array_addrof(27P9)
+29R9*Typ<68|27R9> 37|23p13 29p13 31p13 36p13 67|33e14 37P13 40P13 42P13 44P13
+. 47P13 52P13 68|35p14 37p13 39p13 53p13 60p14
+34V13*new_EventsTab{24P9} 35>7 36>7 58r28
+35p7 This{24P9}
+36p7 sp{35|14P9}
+37V13*CanExtend{boolean} 38^7 39>7 59b23
+38p7 This(29R9)
+39p7 extendee{37|13P9}
+40V13*get_HelpKeyword{55|27P9} 41^7 60b23
+41p7 This(29R9)
+42V13*get_TabName{55|27P9} 43^7 61b23
+43p7 This(29R9)
+44V13*GetDefaultProperty{20|22P9} 45^7 46>7 62b23
+45p7 This(29R9)
+46p7 obj{37|13P9}
+47V13*GetProperties{21|24P9} 48^7 49>7 50>7 51>7
+48p7 This(29R9)
+49p7 context{18|16P9}
+50p7 component{37|13P9}
+51p7 attributes{10|23P9}
+52V13*GetProperties{21|24P9} 53^7 54>7 55>7 63b23
+53p7 This(29R9)
+54p7 component{37|13P9}
+55p7 attributes{10|23P9}
+X 68 mssyst-windows-forms-design-propertytab.ads
+20K37*PropertyTab 67|10w34 29r48 68|74e44
+21R9*Typ 67|29r60
+35U14*Dispose
+37V13*get_Bitmap{23|40P9}
+39V13*get_Components{37|16P9}
+53V13*GetProperties{21|24P9}
+60U14*set_Components
+

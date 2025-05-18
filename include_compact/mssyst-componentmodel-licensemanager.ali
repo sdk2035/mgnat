@@ -1,0 +1,138 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.componentmodel.licensemanager%s  mssyst-componentmodel-licensemanager.ads  2cb8b89c NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.licenseusagemode%s  mssyst-componentmodel-licenseusagemode.ads  mssyst-componentmodel-licenseusagemode.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-license.ads  20060131171414 2c14db44
+D mssyst-componentmodel-licensecontext.ads  20060131171414 22483da2
+D mssyst-componentmodel-licensemanager.ads  20060131171414 a341aac9
+D mssyst-componentmodel-licenseusagemode.ads  20060131171414 0c97c601
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 10|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 10|7r6 10r6 14r6 18r9 25r20 29r16 30r25 30r74 32r16 33r25
+. 34r14 34r46 35r39 36r34 38r16 40r16 42r16 43r18 44r17 46r21 48r15 50r21
+. 52r16 54r16 55r18 55r44 67r5 69r20
+X 7 mssyst-componentmodel.ads
+6K16*ComponentModel 6|6k9 7|7e26 10|14r13 18r16 30r32 33r32 35r46 36r41 44r24
+. 48r22 55r51 67r12 69r27
+X 8 mssyst-componentmodel-license.ads
+13K31 License 10|44r39 55r66
+15P9 Ref(integer) 10|55r74
+16P9 Ref_addrof(integer) 10|44r47
+X 9 mssyst-componentmodel-licensecontext.ads
+16K31 LicenseContext 10|30r47 33r47 35r61 48r37
+18P9 Ref(integer) 10|30r62 33r62 35r76 48r52
+X 10 mssyst-componentmodel-licensemanager.ads
+18K31*LicenseManager 7|6k16 10|67l27 67e41 69r42
+19R9*Typ 20r27 25c9 57r27
+20P9*Ref(19R9) 21r34 22r47
+21P9*Ref_addrof(20P9)
+22A9*Ref_Arr(20P9) 23r33
+23P9*Ref_Array(22A9) 24r40
+24P9*Ref_Array_addrof(23P9)
+25R9*Typ<19|18R9> 27e14 19|23p13 29p13 31p13 36p13
+28V13*CreateWithContext{19|13P9} 29>7 30>7
+29p7 type_k{40|51P9}
+30p7 creationContext{9|18P9}
+31V13*CreateWithContext{19|13P9} 32>7 33>7 34>7 58b23
+32p7 type_k{40|51P9}
+33p7 creationContext{9|18P9}
+34p7 args{19|16P9}
+35V13*get_CurrentContext{9|18P9} 59b23
+36V13*get_UsageMode{11|16E9} 60b23
+37V13*IsLicensed{boolean} 38>7 61b23
+38p7 type_k{40|51P9}
+39V13*IsValid{boolean} 40>7
+40p7 type_k{40|51P9}
+41V13*IsValid{boolean} 42>7 43>7 44>7 62b23
+42p7 type_k{40|51P9}
+43p7 instance{19|13P9}
+44p7 license{8|16P9}
+45U14*LockContext 46>7 63b23
+46p7 contextUser{19|13P9}
+47U14*set_CurrentContext 48>7 64b23
+48p7 value{9|18P9}
+49U14*UnlockContext 50>7 65b23
+50p7 contextUser{19|13P9}
+51U14*Validate 52>7
+52p7 type_k{40|51P9}
+53V13*Validate{8|15P9} 54>7 55>7 66b23
+54p7 type_k{40|51P9}
+55p7 instance{19|13P9}
+X 11 mssyst-componentmodel-licenseusagemode.ads
+15K31*LicenseUsageMode 10|14w28 36r56 11|58e43
+16E9*ValueType 10|36r73 11|18e18
+X 19 mssyst-object.ads
+11K16*Object 10|7w13 10w13 25r27 30r81 34r21 34r53 43r25 46r28 50r28 55r25
+. 19|46e18
+12R9*Typ 10|25r34 19|20e14
+13P9*Ref(12R9) 10|30r88 34r60 43r32 46r35 50r35 55r32
+15A9*Ref_Arr(13P9)
+16P9*Ref_Array(15A9) 10|34r28
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{40|51P9}
+36V13*ToString{35|27P9}
+X 35 mssyst-string.ads
+27P9 Ref(integer)
+X 40 mssyst-type_k.ads
+49K16 Type_k 10|29r23 32r23 38r23 40r23 42r23 52r23 54r23
+51P9 Ref(integer) 10|29r30 32r30 38r30 40r30 42r30 52r30 54r30
+

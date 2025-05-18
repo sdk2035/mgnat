@@ -1,0 +1,651 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.string%s	mssyst-string.ads	2e4f62dd NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.icomparable%s	mssyst-icomparable.ads	mssyst-icomparable.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.sbyte%s	mssyst-sbyte.ads	mssyst-sbyte.ali
+W mssyst.stringcomparison%s  mssyst-stringcomparison.ads  mssyst-stringcomparison.ali
+W mssyst.stringsplitoptions%s  mssyst-stringsplitoptions.ads  mssyst-stringsplitoptions.ali
+W mssyst.text%s		mssyst-text.ads		mssyst-text.ali
+W mssyst.text.normalizationform%s  mssyst-text-normalizationform.ads  mssyst-text-normalizationform.ali
+W mssyst.typecode%s	mssyst-typecode.ads	mssyst-typecode.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-charenumerator.ads  20060131171354 0d11e8bc
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-ienumerator.ads  20060131171354 1d07849c
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-cultureinfo.ads  20060131171358 6ed5a64b
+D mssyst-globalization-culturetypes.ads  20060131171358 9d4d7f13
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-encoding.ads  20060131171400 d678db95
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 37|8w6 9r5 42r15 45r15 50r15 53r15 58r15 64r15 69r15
+. 173r21 276r15 279r15 283r15 350r15 355r15 359r15 402r19 406r19 410r19 418r19
+. 447r32 449r33 471r19 476r19 479r19
+9E12*Char{wide_character}
+40A9*char_arr(9E12) 37|64r26 69r26 173r32 276r26 279r26 283r26 350r26 355r26
+. 359r26 402r30 406r30 410r30 418r30 471r30 476r30 479r30
+41P9*char_array(string) 37|447r43 449r44
+57M9*int8_addrof 37|50r26 53r26 58r26
+64M9*char_addrof 37|42r26 45r26
+X 9 mssyst.ads
+6K9*MSSyst 7e11 37|7r6 10r6 11r6 12r6 14r6 20r6 21r6 22r6 23r6 25r9 32r20
+. 33r14 34r14 38r12 61r13 75r33 77r14 78r14 80r14 81r14 84r14 86r14 91r14
+. 92r14 94r17 96r14 97r14 98r24 100r14 102r14 106r14 108r14 111r24 113r14
+. 115r14 119r17 121r14 122r14 124r14 126r14 131r14 134r15 136r14 136r40 138r14
+. 139r14 139r40 141r14 142r14 143r14 143r40 145r14 146r14 147r14 148r14 148r40
+. 150r16 150r48 152r14 153r14 153r40 155r14 156r14 157r14 157r40 159r14 160r14
+. 161r14 162r14 162r40 164r14 164r46 167r15 169r13 169r39 178r15 180r17 183r15
+. 184r24 187r15 190r15 193r13 196r15 197r24 199r11 200r11 201r24 203r11 204r11
+. 206r16 207r14 208r14 208r40 210r16 211r14 211r40 213r16 214r14 215r14 216r14
+. 216r40 218r18 219r16 220r14 220r46 222r16 223r14 223r46 230r33 234r33 237r15
+. 240r24 243r15 245r24 248r15 249r24 255r15 259r15 264r15 289r15 289r41 291r13
+. 291r39 293r13 293r39 296r27 300r15 302r19 303r15 305r31 307r19 308r15 308r47
+. 311r15 316r15 320r15 321r24 324r15 327r24 330r15 332r24 335r15 361r33 364r27
+. 364r75 366r11 367r11 369r11 370r11 374r44 377r36 380r36 384r44 388r31 391r36
+. 394r18 395r18 395r44 399r40 403r17 403r61 407r31 410r47 413r19 415r17 415r61
+. 420r17 420r61 423r19 424r17 424r61 427r15 428r24 431r15 433r17 436r15 439r36
+. 443r32 452r17 452r62 454r33 456r33 459r18 459r53 461r33 463r33 466r17 466r62
+. 468r33 471r47 473r33 476r47 479r47 480r45 481r21 531r5 533r20
+X 10 mssyst-charenumerator.ads
+15K16 CharEnumerator 37|230r40
+17P9 Ref(integer) 37|230r55
+X 13 mssyst-globalization.ads
+6K16*Globalization 7e25 37|94r24 119r24 180r24 433r24 452r24 466r24
+X 14 mssyst-globalization-cultureinfo.ads
+23K30 CultureInfo 37|94r38 119r38 180r38 433r38 452r38 466r38
+25P9 Ref(integer) 37|94r50 119r50 180r50 433r50 452r50 466r50
+X 18 mssyst-icloneable.ads
+11K16*ICloneable 23e22 37|12w13 34r21
+12R9*Typ 37|34r32
+X 19 mssyst-icomparable.ads
+11K16*IComparable 24e23 37|11w13 33r21
+12R9*Typ 37|33r33
+X 20 mssyst-iformatprovider.ads
+12K16 IFormatProvider 37|218r25 459r25
+14P9 Ref(integer) 37|218r41 459r41
+X 21 mssyst-object.ads
+11K16*Object 46e18 37|7w13 10w13 32r27 75r40 134r22 136r21 138r21 139r21
+. 155r21 156r21 157r21 159r21 160r21 161r21 162r21 164r21 193r20 207r21 208r21
+. 211r21 214r21 215r21 216r21 220r21 223r21
+12R9*Typ 20e14 37|32r34
+13P9*Ref(12R9) 37|75r47 134r29 136r28 138r28 139r28 155r28 156r28 157r28
+. 159r28 160r28 161r28 162r28 193r27 207r28 208r28 211r28 214r28 215r28 216r28
+15A9*Ref_Arr(13P9)
+16P9*Ref_Array(15A9) 37|164r28 220r28 223r28
+18R9*Typ
+31V13*GetType{43|51P9}
+X 36 mssyst-sbyte.ads
+17K16*SByte 79e17 37|23w13
+X 37 mssyst-string.ads
+25K16*String 9|6k9 37|38r19 77r21 78r21 80r21 81r21 84r21 86r21 91r21 92r21
+. 96r21 97r21 100r21 102r21 106r21 108r21 113r21 115r21 121r21 122r21 124r21
+. 126r21 131r21 136r47 139r47 141r21 142r21 143r21 143r47 145r21 146r21 147r21
+. 148r21 148r47 150r23 150r55 152r21 153r21 153r47 157r47 162r47 164r53 167r22
+. 169r20 169r46 178r22 183r22 187r22 190r22 196r22 199r18 200r18 203r18 204r18
+. 206r23 208r47 210r23 211r47 213r23 216r47 219r23 220r53 222r23 223r53 237r22
+. 243r22 248r22 255r22 259r22 264r22 289r22 289r48 291r20 291r46 293r20 293r46
+. 300r22 302r26 303r22 305r38 307r26 308r22 308r54 311r22 316r22 320r22 324r22
+. 330r22 335r22 361r40 364r82 366r18 367r18 369r18 370r18 374r51 377r43 380r43
+. 384r51 388r38 391r43 394r25 395r25 395r51 399r47 403r68 407r38 410r54 413r26
+. 415r68 420r68 423r26 424r68 427r22 431r22 436r22 439r43 443r39 452r69 454r40
+. 456r40 459r60 461r40 463r40 466r69 468r40 471r54 473r40 476r54 479r54 480r52
+. 481r28 531l12 531e18 533r27
+26R9*Typ 27r27 32c9 75r21 130r21 133r21 166r21 171r21 177r21 182r21 186r21
+. 189r21 192r21 195r21 225r21 228r21 230r21 232r21 234r21 236r21 242r21 247r21
+. 251r21 254r21 258r21 263r21 266r21 270r21 275r21 278r21 282r21 287r21 295r21
+. 298r21 310r21 315r21 319r21 323r21 329r21 334r21 337r21 340r21 345r21 349r21
+. 354r21 358r21 361r21 363r21 372r21 376r21 379r21 382r21 386r21 390r21 393r21
+. 397r21 401r21 405r21 409r21 412r21 417r21 422r21 426r21 430r21 435r21 438r21
+. 441r21 445r21 449r21 451r21 454r21 456r21 458r21 461r21 463r21 465r21 468r21
+. 470r21 473r21 475r21 478r21 484r27
+27P9*Ref(26R9) 28r34 29r47 38r26 41r14 42r46 44r14 47r32 49r14 50r46 52r14
+. 55r32 57r14 61r46 63r14 66r32 68r14 69r43 71r14 73r31 77r28 78r28 80r28
+. 81r28 84r28 86r28 91r28 92r28 96r28 97r28 100r28 102r28 106r28 108r28 113r28
+. 115r28 121r28 122r28 124r28 126r28 131r28 136r54 139r54 141r28 142r28 143r28
+. 143r54 145r28 146r28 147r28 148r28 148r54 150r62 152r28 153r28 153r54 157r54
+. 162r54 164r60 167r29 169r27 169r53 178r29 183r29 187r29 190r29 196r29 199r25
+. 200r25 203r25 204r25 206r30 208r54 210r30 211r54 213r30 216r54 219r30 220r60
+. 222r30 223r60 237r29 243r29 248r29 255r29 259r29 264r29 289r29 289r55 291r27
+. 291r53 293r27 293r53 300r29 302r33 305r45 307r33 308r61 311r29 316r29 320r29
+. 324r29 330r29 335r29 361r47 364r89 366r25 367r25 369r25 370r25 374r58 377r50
+. 380r50 384r58 388r45 391r50 394r32 395r32 395r58 399r54 427r29 431r29 436r29
+. 439r50 443r46 452r76 454r47 456r47 459r67 461r47 463r47 466r76 468r47 471r61
+. 473r47 476r61 479r61 480r59 481r35
+28P9*Ref_addrof(27P9)
+29A9*Ref_Arr(27P9) 30r33
+30P9*Ref_Array(29A9) 31r40 150r30 303r29 308r29 403r75 407r45 410r61 413r33
+. 415r75 420r75 423r33 424r75
+31P9*Ref_Array_addrof(30P9)
+32R9*Typ<21|18R9> 21|31p13 37|37e14 74P13 129p13 132P13 165p13 170p14 176p13
+. 181p13 185p13 188p13 191P13 194p13 224p13 227p13 229p13 231P13 233p13 235p13
+. 241p13 246p13 250p13 253p13 257p13 262p13 265p13 269p13 274p13 277p13 281p13
+. 286p13 294p13 297p13 309p13 314p13 318p13 322p13 328p13 333p13 336p13 339p13
+. 344p13 348p13 353p13 357p13 360p13 362p13 371p13 375p13 378p13 381p13 385p13
+. 389p13 392p13 396p13 400p13 404p13 408p13 411p13 416p13 421p13 425p13 429p13
+. 434p13 437p13 440p13 444p13 448p13 450p13 453p13 455p13 457p13 460P13 462p13
+. 464p13 467p13 469p13 472p13 474p13 477p13
+38p4*Empty{27P9} 39m23
+40V13*new_String{27P9} 41>7 42>7
+41p7 This{27P9}
+42m7 value{8|64M9}
+43V13*new_String{27P9} 44>7 45>7 46>7 47>7
+44p7 This{27P9}
+45m7 value{8|64M9}
+46i7 startIndex{integer}
+47i7 length{integer}
+48V13*new_String{27P9} 49>7 50>7
+49p7 This{27P9}
+50m7 value{8|57M9}
+51V13*new_String{27P9} 52>7 53>7 54>7 55>7
+52p7 This{27P9}
+53m7 value{8|57M9}
+54i7 startIndex{integer}
+55i7 length{integer}
+56V13*new_String{27P9} 57>7 58>7 59>7 60>7 61>7
+57p7 This{27P9}
+58m7 value{8|57M9}
+59i7 startIndex{integer}
+60i7 length{integer}
+61p7 enc{41|22P9}
+62V13*new_String{27P9} 63>7 64>7 65>7 66>7
+63p7 This{27P9}
+64a7 value{8|40A9}
+65i7 startIndex{integer}
+66i7 length{integer}
+67V13*new_String{27P9} 68>7 69>7
+68p7 This{27P9}
+69a7 value{8|40A9}
+70V13*new_String{27P9} 71>7 72>7 73>7
+71p7 This{27P9}
+72e7 c{wide_character}
+73i7 count{integer}
+74V13*Clone{21|13P9} 75^7 486b23
+75p7 This(32R9)
+76V13*Compare{integer} 77>7 78>7
+77p7 strA{27P9}
+78p7 strB{27P9}
+79V13*Compare{integer} 80>7 81>7 82>7
+80p7 strA{27P9}
+81p7 strB{27P9}
+82b7 ignoreCase{boolean}
+83V13*Compare{integer} 84>7 85>7 86>7 87>7 88>7 89>7
+84p7 strA{27P9}
+85i7 indexA{integer}
+86p7 strB{27P9}
+87i7 indexB{integer}
+88i7 length{integer}
+89b7 ignoreCase{boolean}
+90V13*Compare{integer} 91>7 92>7 93>7 94>7
+91p7 strA{27P9}
+92p7 strB{27P9}
+93b7 ignoreCase{boolean}
+94p7 culture{14|25P9}
+95V13*Compare{integer} 96>7 97>7 98>7
+96p7 strA{27P9}
+97p7 strB{27P9}
+98e7 comparisonType{38|16E9}
+99V13*Compare{integer} 100>7 101>7 102>7 103>7 104>7
+100p7 strA{27P9}
+101i7 indexA{integer}
+102p7 strB{27P9}
+103i7 indexB{integer}
+104i7 length{integer}
+105V13*Compare{integer} 106>7 107>7 108>7 109>7 110>7 111>7
+106p7 strA{27P9}
+107i7 indexA{integer}
+108p7 strB{27P9}
+109i7 indexB{integer}
+110i7 length{integer}
+111e7 comparisonType{38|16E9}
+112V13*Compare{integer} 113>7 114>7 115>7 116>7 117>7 118>7 119>7 487b23
+113p7 strA{27P9}
+114i7 indexA{integer}
+115p7 strB{27P9}
+116i7 indexB{integer}
+117i7 length{integer}
+118b7 ignoreCase{boolean}
+119p7 culture{14|25P9}
+120V13*CompareOrdinal{integer} 121>7 122>7
+121p7 strA{27P9}
+122p7 strB{27P9}
+123V13*CompareOrdinal{integer} 124>7 125>7 126>7 127>7 128>7 488b23
+124p7 strA{27P9}
+125i7 indexA{integer}
+126p7 strB{27P9}
+127i7 indexB{integer}
+128i7 length{integer}
+129V13*CompareTo{integer} 130^7 131>7
+130p7 This(32R9)
+131p7 strB{27P9}
+132V13*CompareTo{integer} 133^7 134>7 489b23
+133p7 This(32R9)
+134p7 value{21|13P9}
+135V13*Concat{27P9} 136>7
+136p7 arg0{21|13P9}
+137V13*Concat{27P9} 138>7 139>7
+138p7 arg0{21|13P9}
+139p7 arg1{21|13P9}
+140V13*Concat{27P9} 141>7 142>7 143>7
+141p7 str0{27P9}
+142p7 str1{27P9}
+143p7 str2{27P9}
+144V13*Concat{27P9} 145>7 146>7 147>7 148>7
+145p7 str0{27P9}
+146p7 str1{27P9}
+147p7 str2{27P9}
+148p7 str3{27P9}
+149V13*Concat{27P9} 150>7
+150p7 values{30P9}
+151V13*Concat{27P9} 152>7 153>7
+152p7 str0{27P9}
+153p7 str1{27P9}
+154V13*Concat{27P9} 155>7 156>7 157>7
+155p7 arg0{21|13P9}
+156p7 arg1{21|13P9}
+157p7 arg2{21|13P9}
+158V13*Concat{27P9} 159>7 160>7 161>7 162>7
+159p7 arg0{21|13P9}
+160p7 arg1{21|13P9}
+161p7 arg2{21|13P9}
+162p7 arg3{21|13P9}
+163V13*Concat{27P9} 164>7 490b23
+164p7 args{21|16P9}
+165V13*Contains{boolean} 166^7 167>7 491b23
+166p7 This(32R9)
+167p7 value{27P9}
+168V13*Copy{27P9} 169>7 492b23
+169p7 str{27P9}
+170U14*CopyTo 171^7 172>7 173>7 174>7 175>7 493b23
+171p7 This(32R9)
+172i7 sourceIndex{integer}
+173a7 destination{8|40A9}
+174i7 destinationIndex{integer}
+175i7 count{integer}
+176V13*EndsWith{boolean} 177^7 178>7 179>7 180>7
+177p7 This(32R9)
+178p7 value{27P9}
+179b7 ignoreCase{boolean}
+180p7 culture{14|25P9}
+181V13*EndsWith{boolean} 182^7 183>7 184>7
+182p7 This(32R9)
+183p7 value{27P9}
+184e7 comparisonType{38|16E9}
+185V13*EndsWith{boolean} 186^7 187>7 494b23
+186p7 This(32R9)
+187p7 value{27P9}
+188V13*Equals{boolean} 189^7 190>7
+189p7 This(32R9)
+190p7 value{27P9}
+191V13*Equals{boolean} 192^7 193>7
+192p7 This(32R9)
+193p7 obj{21|13P9}
+194V13*Equals{boolean} 195^7 196>7 197>7
+195p7 This(32R9)
+196p7 value{27P9}
+197e7 comparisonType{38|16E9}
+198V13*Equals{boolean} 199>7 200>7 201>7
+199p7 a{27P9}
+200p7 b{27P9}
+201e7 comparisonType{38|16E9}
+202V13*Equals{boolean} 203>7 204>7 495b23
+203p7 a{27P9}
+204p7 b{27P9}
+205V13*Format{27P9} 206>7 207>7 208>7
+206p7 format{27P9}
+207p7 arg0{21|13P9}
+208p7 arg1{21|13P9}
+209V13*Format{27P9} 210>7 211>7
+210p7 format{27P9}
+211p7 arg0{21|13P9}
+212V13*Format{27P9} 213>7 214>7 215>7 216>7
+213p7 format{27P9}
+214p7 arg0{21|13P9}
+215p7 arg1{21|13P9}
+216p7 arg2{21|13P9}
+217V13*Format{27P9} 218>7 219>7 220>7
+218p7 provider{20|14P9}
+219p7 format{27P9}
+220p7 args{21|16P9}
+221V13*Format{27P9} 222>7 223>7 496b23
+222p7 format{27P9}
+223p7 args{21|16P9}
+224V13*get_Chars{wide_character} 225^7 226>7 497b23
+225p7 This(32R9)
+226i7 index{integer}
+227V13*get_Length{integer} 228^7 498b23
+228p7 This(32R9)
+229V13*GetEnumerator{10|17P9} 230^7 499b23
+230p7 This(32R9)
+231V13*GetHashCode{integer} 232^7 500b23
+232p7 This(32R9)
+233V13*GetTypeCode{44|15E9} 234^7 501b23
+234p7 This(32R9)
+235V13*IndexOf{integer} 236^7 237>7 238>7 239>7 240>7
+236p7 This(32R9)
+237p7 value{27P9}
+238i7 startIndex{integer}
+239i7 count{integer}
+240e7 comparisonType{38|16E9}
+241V13*IndexOf{integer} 242^7 243>7 244>7 245>7
+242p7 This(32R9)
+243p7 value{27P9}
+244i7 startIndex{integer}
+245e7 comparisonType{38|16E9}
+246V13*IndexOf{integer} 247^7 248>7 249>7
+247p7 This(32R9)
+248p7 value{27P9}
+249e7 comparisonType{38|16E9}
+250V13*IndexOf{integer} 251^7 252>7
+251p7 This(32R9)
+252e7 value{wide_character}
+253V13*IndexOf{integer} 254^7 255>7 256>7
+254p7 This(32R9)
+255p7 value{27P9}
+256i7 startIndex{integer}
+257V13*IndexOf{integer} 258^7 259>7 260>7 261>7
+258p7 This(32R9)
+259p7 value{27P9}
+260i7 startIndex{integer}
+261i7 count{integer}
+262V13*IndexOf{integer} 263^7 264>7
+263p7 This(32R9)
+264p7 value{27P9}
+265V13*IndexOf{integer} 266^7 267>7 268>7
+266p7 This(32R9)
+267e7 value{wide_character}
+268i7 startIndex{integer}
+269V13*IndexOf{integer} 270^7 271>7 272>7 273>7 502b23
+270p7 This(32R9)
+271e7 value{wide_character}
+272i7 startIndex{integer}
+273i7 count{integer}
+274V13*IndexOfAny{integer} 275^7 276>7
+275p7 This(32R9)
+276a7 anyOf{8|40A9}
+277V13*IndexOfAny{integer} 278^7 279>7 280>7
+278p7 This(32R9)
+279a7 anyOf{8|40A9}
+280i7 startIndex{integer}
+281V13*IndexOfAny{integer} 282^7 283>7 284>7 285>7 503b23
+282p7 This(32R9)
+283a7 anyOf{8|40A9}
+284i7 startIndex{integer}
+285i7 count{integer}
+286V13*Insert{27P9} 287^7 288>7 289>7 504b23
+287p7 This(32R9)
+288i7 startIndex{integer}
+289p7 value{27P9}
+290V13*Intern{27P9} 291>7 505b23
+291p7 str{27P9}
+292V13*IsInterned{27P9} 293>7 506b23
+293p7 str{27P9}
+294V13*IsNormalized{boolean} 295^7 296>7
+295p7 This(32R9)
+296e7 normalizationForm{42|16E9}
+297V13*IsNormalized{boolean} 298^7 507b23
+298p7 This(32R9)
+299V13*IsNullOrEmpty{boolean} 300>7 508b23
+300p7 value{27P9}
+301V13*Join{27P9} 302>7 303>7 304>7 305>7
+302p7 separator{27P9}
+303p7 value{30P9}
+304i7 startIndex{integer}
+305i7 count{integer}
+306V13*Join{27P9} 307>7 308>7 509b23
+307p7 separator{27P9}
+308p7 value{30P9}
+309V13*LastIndexOf{integer} 310^7 311>7 312>7 313>7
+310p7 This(32R9)
+311p7 value{27P9}
+312i7 startIndex{integer}
+313i7 count{integer}
+314V13*LastIndexOf{integer} 315^7 316>7 317>7
+315p7 This(32R9)
+316p7 value{27P9}
+317i7 startIndex{integer}
+318V13*LastIndexOf{integer} 319^7 320>7 321>7
+319p7 This(32R9)
+320p7 value{27P9}
+321e7 comparisonType{38|16E9}
+322V13*LastIndexOf{integer} 323^7 324>7 325>7 326>7 327>7
+323p7 This(32R9)
+324p7 value{27P9}
+325i7 startIndex{integer}
+326i7 count{integer}
+327e7 comparisonType{38|16E9}
+328V13*LastIndexOf{integer} 329^7 330>7 331>7 332>7
+329p7 This(32R9)
+330p7 value{27P9}
+331i7 startIndex{integer}
+332e7 comparisonType{38|16E9}
+333V13*LastIndexOf{integer} 334^7 335>7
+334p7 This(32R9)
+335p7 value{27P9}
+336V13*LastIndexOf{integer} 337^7 338>7
+337p7 This(32R9)
+338e7 value{wide_character}
+339V13*LastIndexOf{integer} 340^7 341>7 342>7 343>7
+340p7 This(32R9)
+341e7 value{wide_character}
+342i7 startIndex{integer}
+343i7 count{integer}
+344V13*LastIndexOf{integer} 345^7 346>7 347>7 510b23
+345p7 This(32R9)
+346e7 value{wide_character}
+347i7 startIndex{integer}
+348V13*LastIndexOfAny{integer} 349^7 350>7 351>7 352>7
+349p7 This(32R9)
+350a7 anyOf{8|40A9}
+351i7 startIndex{integer}
+352i7 count{integer}
+353V13*LastIndexOfAny{integer} 354^7 355>7 356>7
+354p7 This(32R9)
+355a7 anyOf{8|40A9}
+356i7 startIndex{integer}
+357V13*LastIndexOfAny{integer} 358^7 359>7 511b23
+358p7 This(32R9)
+359a7 anyOf{8|40A9}
+360V13*Normalize{27P9} 361^7
+361p7 This(32R9)
+362V13*Normalize{27P9} 363^7 364>7 512b23
+363p7 This(32R9)
+364e7 normalizationForm{42|16E9}
+365V13*op_Equality{boolean} 366>7 367>7 513b23
+366p7 a{27P9}
+367p7 b{27P9}
+368V13*op_Inequality{boolean} 369>7 370>7 514b23
+369p7 a{27P9}
+370p7 b{27P9}
+371V13*PadLeft{27P9} 372^7 373>7 374>7
+372p7 This(32R9)
+373i7 totalWidth{integer}
+374e7 paddingChar{wide_character}
+375V13*PadLeft{27P9} 376^7 377>7 515b23
+376p7 This(32R9)
+377i7 totalWidth{integer}
+378V13*PadRight{27P9} 379^7 380>7
+379p7 This(32R9)
+380i7 totalWidth{integer}
+381V13*PadRight{27P9} 382^7 383>7 384>7 516b23
+382p7 This(32R9)
+383i7 totalWidth{integer}
+384e7 paddingChar{wide_character}
+385V13*Remove{27P9} 386^7 387>7 388>7
+386p7 This(32R9)
+387i7 startIndex{integer}
+388i7 count{integer}
+389V13*Remove{27P9} 390^7 391>7 517b23
+390p7 This(32R9)
+391i7 startIndex{integer}
+392V13*Replace{27P9} 393^7 394>7 395>7
+393p7 This(32R9)
+394p7 oldValue{27P9}
+395p7 newValue{27P9}
+396V13*Replace{27P9} 397^7 398>7 399>7 518b23
+397p7 This(32R9)
+398e7 oldChar{wide_character}
+399e7 newChar{wide_character}
+400V13*Split{30P9} 401^7 402>7 403>7
+401p7 This(32R9)
+402a7 separator{8|40A9}
+403e7 options{39|16E9}
+404V13*Split{30P9} 405^7 406>7 407>7
+405p7 This(32R9)
+406a7 separator{8|40A9}
+407i7 count{integer}
+408V13*Split{30P9} 409^7 410>7
+409p7 This(32R9)
+410a7 separator{8|40A9}
+411V13*Split{30P9} 412^7 413>7 414>7 415>7
+412p7 This(32R9)
+413p7 separator{30P9}
+414i7 count{integer}
+415e7 options{39|16E9}
+416V13*Split{30P9} 417^7 418>7 419>7 420>7
+417p7 This(32R9)
+418a7 separator{8|40A9}
+419i7 count{integer}
+420e7 options{39|16E9}
+421V13*Split{30P9} 422^7 423>7 424>7 519b23
+422p7 This(32R9)
+423p7 separator{30P9}
+424e7 options{39|16E9}
+425V13*StartsWith{boolean} 426^7 427>7 428>7
+426p7 This(32R9)
+427p7 value{27P9}
+428e7 comparisonType{38|16E9}
+429V13*StartsWith{boolean} 430^7 431>7 432>7 433>7
+430p7 This(32R9)
+431p7 value{27P9}
+432b7 ignoreCase{boolean}
+433p7 culture{14|25P9}
+434V13*StartsWith{boolean} 435^7 436>7 520b23
+435p7 This(32R9)
+436p7 value{27P9}
+437V13*Substring{27P9} 438^7 439>7
+438p7 This(32R9)
+439i7 startIndex{integer}
+440V13*Substring{27P9} 441^7 442>7 443>7 521b23
+441p7 This(32R9)
+442i7 startIndex{integer}
+443i7 length{integer}
+444V13*ToCharArray{8|41P9} 445^7 446>7 447>7
+445p7 This(32R9)
+446i7 startIndex{integer}
+447i7 length{integer}
+448V13*ToCharArray{8|41P9} 449^7 522b23
+449p7 This(32R9)
+450V13*ToLower{27P9} 451^7 452>7
+451p7 This(32R9)
+452p7 culture{14|25P9}
+453V13*ToLower{27P9} 454^7 523b23
+454p7 This(32R9)
+455V13*ToLowerInvariant{27P9} 456^7 524b23
+456p7 This(32R9)
+457V13*ToString{27P9} 458^7 459>7
+458p7 This(32R9)
+459p7 provider{20|14P9}
+460V13*ToString{27P9} 461^7 525b23
+461p7 This(32R9)
+462V13*ToUpper{27P9} 463^7
+463p7 This(32R9)
+464V13*ToUpper{27P9} 465^7 466>7 526b23
+465p7 This(32R9)
+466p7 culture{14|25P9}
+467V13*ToUpperInvariant{27P9} 468^7 527b23
+468p7 This(32R9)
+469V13*Trim{27P9} 470^7 471>7
+470p7 This(32R9)
+471a7 trimChars{8|40A9}
+472V13*Trim{27P9} 473^7 528b23
+473p7 This(32R9)
+474V13*TrimEnd{27P9} 475^7 476>7 529b23
+475p7 This(32R9)
+476a7 trimChars{8|40A9}
+477V13*TrimStart{27P9} 478^7 479>7 530b23
+478p7 This(32R9)
+479a7 trimChars{8|40A9}
+480V13*"+"{27P9} 480>17
+480s17 R{string}
+481V13*"+"{string} 481>17
+481p17 R{27P9}
+X 38 mssyst-stringcomparison.ads
+15K16*StringComparison 37|14w13 98r31 111r31 184r31 197r31 201r31 240r31
+. 245r31 249r31 321r31 327r31 332r31 428r31 38|66e28
+16E9*ValueType 37|98r48 111r48 184r48 197r48 201r48 240r48 245r48 249r48
+. 321r48 327r48 332r48 428r48 38|22e25
+X 39 mssyst-stringsplitoptions.ads
+15K16*StringSplitOptions 37|22w13 403r24 415r24 420r24 424r24 39|60e30
+16E9*ValueType 37|403r43 415r43 420r43 424r43 39|18e26
+X 40 mssyst-text.ads
+6K16*Text 37|21r13 61r20 296r34 364r34 40|7e16
+X 41 mssyst-text-encoding.ads
+20K21 Encoding 37|61r25
+22P9 Ref(integer) 37|61r34
+X 42 mssyst-text-normalizationform.ads
+15K21*NormalizationForm 37|21w18 296r39 364r39 42|62e34
+16E9*ValueType 37|296r57 364r57 42|20e14
+X 43 mssyst-type_k.ads
+51P9 Ref(integer)
+X 44 mssyst-typecode.ads
+14K16*TypeCode 37|20w13 234r40 44|89e20
+15E9*ValueType 37|234r49 44|33e14
+

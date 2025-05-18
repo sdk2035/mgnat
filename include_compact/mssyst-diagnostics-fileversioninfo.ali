@@ -1,0 +1,151 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.diagnostics.fileversioninfo%s  mssyst-diagnostics-fileversioninfo.ads  27d21787 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.diagnostics%s	mssyst-diagnostics.ads	mssyst-diagnostics.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-diagnostics.ads  20060131165224 ca17f3f6
+D mssyst-diagnostics-fileversioninfo.ads  20060131171426 5841a381
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 8|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 8|7r6 10r6 13r9 20r20 24r33 26r33 30r33 36r33 40r33 42r33
+. 54r33 56r33 58r33 60r33 62r33 70r33 74r33 76r33 78r18 78r44 80r33 112r5
+. 114r20
+X 7 mssyst-diagnostics.ads
+6K16*Diagnostics 6|6k9 7|7e23 8|13r16 78r51 112r12 114r27
+X 8 mssyst-diagnostics-fileversioninfo.ads
+13K28*FileVersionInfo 7|6k16 8|78r63 112l24 112e39 114r39
+14R9*Typ 15r27 20c9 24r21 26r21 28r21 30r21 32r21 34r21 36r21 38r21 40r21
+. 42r21 44r21 46r21 48r21 50r21 52r21 54r21 56r21 58r21 60r21 62r21 64r21
+. 66r21 68r21 70r21 72r21 74r21 76r21 80r21 82r27
+15P9*Ref(14R9) 16r34 17r47 78r79
+16P9*Ref_addrof(15P9)
+17A9*Ref_Arr(15P9) 18r33
+18P9*Ref_Array(17A9) 19r40
+19P9*Ref_Array_addrof(18P9)
+20R9*Typ<14|18R9> 22e14 23p13 25p13 27p13 29p13 31p13 33p13 35p13 37p13 39p13
+. 41p13 43p13 45p13 47p13 49p13 51p13 53p13 55p13 57p13 59p13 61p13 63p13
+. 65p13 67p13 69p13 71p13 73p13 75p13 79P13 14|23p13 29p13 31p13
+23V13*get_Comments{30|27P9} 24^7 83b23
+24p7 This(20R9)
+25V13*get_CompanyName{30|27P9} 26^7 84b23
+26p7 This(20R9)
+27V13*get_FileBuildPart{integer} 28^7 85b23
+28p7 This(20R9)
+29V13*get_FileDescription{30|27P9} 30^7 86b23
+30p7 This(20R9)
+31V13*get_FileMajorPart{integer} 32^7 87b23
+32p7 This(20R9)
+33V13*get_FileMinorPart{integer} 34^7 88b23
+34p7 This(20R9)
+35V13*get_FileName{30|27P9} 36^7 89b23
+36p7 This(20R9)
+37V13*get_FilePrivatePart{integer} 38^7 90b23
+38p7 This(20R9)
+39V13*get_FileVersion{30|27P9} 40^7 91b23
+40p7 This(20R9)
+41V13*get_InternalName{30|27P9} 42^7 92b23
+42p7 This(20R9)
+43V13*get_IsDebug{boolean} 44^7 93b23
+44p7 This(20R9)
+45V13*get_IsPatched{boolean} 46^7 94b23
+46p7 This(20R9)
+47V13*get_IsPreRelease{boolean} 48^7 95b23
+48p7 This(20R9)
+49V13*get_IsPrivateBuild{boolean} 50^7 96b23
+50p7 This(20R9)
+51V13*get_IsSpecialBuild{boolean} 52^7 97b23
+52p7 This(20R9)
+53V13*get_Language{30|27P9} 54^7 98b23
+54p7 This(20R9)
+55V13*get_LegalCopyright{30|27P9} 56^7 99b23
+56p7 This(20R9)
+57V13*get_LegalTrademarks{30|27P9} 58^7 100b23
+58p7 This(20R9)
+59V13*get_OriginalFilename{30|27P9} 60^7 101b23
+60p7 This(20R9)
+61V13*get_PrivateBuild{30|27P9} 62^7 102b23
+62p7 This(20R9)
+63V13*get_ProductBuildPart{integer} 64^7 103b23
+64p7 This(20R9)
+65V13*get_ProductMajorPart{integer} 66^7 104b23
+66p7 This(20R9)
+67V13*get_ProductMinorPart{integer} 68^7 105b23
+68p7 This(20R9)
+69V13*get_ProductName{30|27P9} 70^7 106b23
+70p7 This(20R9)
+71V13*get_ProductPrivatePart{integer} 72^7 107b23
+72p7 This(20R9)
+73V13*get_ProductVersion{30|27P9} 74^7 108b23
+74p7 This(20R9)
+75V13*get_SpecialBuild{30|27P9} 76^7 109b23
+76p7 This(20R9)
+77V13*GetVersionInfo{15P9} 78>7 110b23
+78p7 fileName{30|27P9}
+79V13*ToString{30|27P9} 80^7 111b23
+80p7 This(20R9)
+X 14 mssyst-object.ads
+11K16*Object 8|7w13 10w13 20r27 14|46e18
+12R9*Typ 8|20r34 14|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{35|51P9}
+X 30 mssyst-string.ads
+25K16 String 8|24r40 26r40 30r40 36r40 40r40 42r40 54r40 56r40 58r40 60r40
+. 62r40 70r40 74r40 76r40 78r25 80r40
+27P9 Ref(integer) 8|24r47 26r47 30r47 36r47 40r47 42r47 54r47 56r47 58r47
+. 60r47 62r47 70r47 74r47 76r47 78r32 80r47
+X 35 mssyst-type_k.ads
+51P9 Ref(integer)
+

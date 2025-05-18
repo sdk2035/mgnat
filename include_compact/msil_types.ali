@@ -1,0 +1,101 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnn
+
+U msil_types%s		msil_types.ads		a0975ef2 EE PK
+W system%s		system.ads		system.ali
+
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+X 1 msil_types.ads
+7K9*Msil_Types 71l5 71e15
+8I12*int32{integer} 48r21 66r25
+9E12*Char{wide_character} 40r48
+10F12*float32{float}
+11A9*float32_arr(float) 12r37
+12P9*float32_array(11A9) 13r43
+13P9*float32_array_array(12P9)
+14F12*float64{long_float}
+15A9*float64_arr(long_float) 16r37
+16P9*float64_array(15A9) 17r43
+17P9*float64_array_array(16P9)
+18B12*bool{boolean} 42r48
+19I9*int8<integer>
+20I9*int16<short_integer> 21r49
+21A9*int16_arr(20I9) 22r35
+22P9*Int16_Array(21A9) 23r41
+23P9*Int16_Array_Array(22P9)
+24E9*unsigned_int8<character> 44r57
+25I9*unsigned_int16<short_integer> 26r58
+26A9*unsigned_int16_arr(25I9) 27r44
+27P9*unsigned_Int16_Array(26A9) 28r50
+28P9*unsigned_Int16_Array_Array(27P9)
+29I9*unsigned_integer<integer> 30r60
+30A9*unsigned_integer_arr(29I9) 31r46
+31P9*unsigned_Integer_Array(30A9) 32r52
+32P9*unsigned_Integer_Array_Array(31P9)
+33I9*unsigned_long_long_integer<long_long_integer>
+34A9*int32_arr(integer) 35r35
+35P9*Int32_Array(34A9) 36r41
+36P9*Int32_Array_Array(35P9)
+37A9*int64_arr(long_long_integer) 38r35
+38P9*Int64_Array(37A9) 39r41
+39P9*Int64_Array_Array(38P9)
+40A9*char_arr(9E12)
+41P9*char_array(string)
+42A9*bool_arr(18E12) 43r34
+43P9*Bool_Array(42A9)
+44A9*unsigned_int8_arr(24E9) 45r43
+45P9*Unsigned_Int8_Array(44A9) 46r49 47r50
+46P9*Unsigned_Int8_Array_Array(45P9)
+47P9*unsigned_int8_array_addrof(45P9)
+48I9*void<integer> 49r35 69r52
+49P9*void_addrof(48I9)
+52M9*native_int
+53M9*unsigned_int8_addrof
+54M9*unsigned_int16_addrof
+55M9*unsigned_integer_addrof
+56M9*unsigned_long_long_integer_addrof
+57M9*int8_addrof
+58M9*int16_addrof
+59M9*int32_addrof
+60M9*int64_addrof
+61M9*float32_addrof
+62M9*float64_addrof
+63M9*bool_addrof
+64M9*char_addrof
+66I9*Typedref<integer>
+67P9*String_Addrof(9|27P9)
+68P9*Object_Addrof(7|13P9)
+69A9*Object_Array(48I9)
+70P12*String_Array{9|30P9}
+X 2 mssyst.ads
+6K9 MSSyst 1|67r37 68r37 70r28
+X 7 mssyst-object.ads
+11K16 Object 1|68r44
+13P9 Ref(integer) 1|68r51
+X 9 mssyst-string.ads
+25K16 String 1|67r44 70r35
+27P9 Ref(integer) 1|67r51
+30P9 Ref_Array(integer) 1|70r42
+X 17 system.ads
+44K9*System 1|6w6 17|165e11
+

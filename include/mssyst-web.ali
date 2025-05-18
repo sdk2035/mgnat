@@ -1,0 +1,17 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.web%s		mssyst-web.ads		aac1cd1e EE PK
+W mssyst%s		mssyst.ads		mssyst.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-web.ads	20060517222326 281d7d28
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 2|6r9 7r5
+X 2 mssyst-web.ads
+6K16*Web 1|6k9 2|7l12 7e15
+

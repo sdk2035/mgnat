@@ -1,0 +1,198 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.timers.timer%s	mssyst-timers-timer.ads	362cd996 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.component%s  mssyst-componentmodel-component.ads  mssyst-componentmodel-component.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.componentmodel.isupportinitialize%s  mssyst-componentmodel-isupportinitialize.ads  mssyst-componentmodel-isupportinitialize.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.timers%s	mssyst-timers.ads	mssyst-timers.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-componentmodel-isupportinitialize.ads  20060131171414 998e727f
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-timers.ads	20060131171426 7fe71d4f
+D mssyst-timers-elapsedeventhandler.ads  20060131171426 07b2f636
+D mssyst-timers-timer.ads  20060131171426 df747980
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 55|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 55|7r6 10r6 11r6 12r6 22r9 29r20 30r14 31r14 42r15 56r33
+. 58r33 61r15 73r15 76r15 101r5 103r20
+X 10 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 55|10r13 11r13 12r13 29r27 30r21 31r21 56r40 58r40
+. 73r22 76r22
+X 11 mssyst-componentmodel-component.ads
+19K31*Component 60e36 55|10w28 29r42
+20R9*Typ 55|29r52
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{13|15P9}
+42U14*remove_Disposed
+48V13*ToString{48|27P9}
+X 12 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 55|11w28 30r36
+13R9*Typ 55|30r47
+X 13 mssyst-componentmodel-icontainer.ads
+15P9 Ref(integer)
+X 14 mssyst-componentmodel-isite.ads
+14K31 ISite 55|56r55 73r37
+16P9 Ref(integer) 55|56r61 73r43
+X 15 mssyst-componentmodel-isupportinitialize.ads
+10K31*ISupportInitialize 25e45 55|12w28 31r36
+11R9*Typ 55|31r55
+X 16 mssyst-componentmodel-isynchronizeinvoke.ads
+14K31 ISynchronizeInvoke 55|58r55 76r37
+16P9 Ref(integer) 55|58r74 76r56
+X 25 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{43|23P9}
+27V13*GetLifetimeService{27|13P9}
+29V13*InitializeLifetimeService{27|13P9}
+X 27 mssyst-object.ads
+11K16*Object 46e18 55|7w13
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{56|51P9}
+X 43 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 48 mssyst-string.ads
+27P9 Ref(integer)
+X 53 mssyst-timers.ads
+6K16*Timers 9|6k9 53|7e18 55|22r16 42r22 61r22 101r12 103r27
+X 54 mssyst-timers-elapsedeventhandler.ads
+24K23 ElapsedEventHandler 55|42r29 61r29
+26P9 Ref(integer) 55|42r49 61r49
+X 55 mssyst-timers-timer.ads
+22K23*Timer 53|6k16 55|101l19 101e24 103r34
+23R9*Typ 24r27 29c9 41r21 44r21 46r21 48r21 50r21 52r21 54r21 56r21 58r21
+. 60r21 63r21 66r21 69r21 72r21 75r21 78r21 80r21 82r27
+24P9*Ref(23R9) 25r34 26r47 36r14 36r34 38r14 39r37
+25P9*Ref_addrof(24P9)
+26A9*Ref_Arr(24P9) 27r33
+27P9*Ref_Array(26A9) 28r40
+28P9*Ref_Array_addrof(27P9)
+29R9*Typ<11|26R9> 11|33P14 36p14 38p13 42P14 48P13 25|24p13 27p13 29p13 27|23p13
+. 29p13 31p13 55|34e14 40p14 43P14 45p14 47P14 49p13 51p13 53p13 55P13 57p13
+. 59p14 62p14 65p14 68p14 71P14 74p14 77p14 79p14
+35V13*new_Timer{24P9} 36>7
+36p7 This{24P9}
+37V13*new_Timer{24P9} 38>7 39>7
+38p7 This{24P9}
+39f7 interval{long_float}
+40U14*add_Elapsed 41^7 42>7 84b23
+41p7 This(29R9)
+42p7 value{54|26P9}
+43U14*BeginInit 44^7 85b23
+44p7 This(29R9)
+45U14*Close 46^7 86b23
+46p7 This(29R9)
+47U14*EndInit 48^7 87b23
+48p7 This(29R9)
+49V13*get_AutoReset{boolean} 50^7 88b23
+50p7 This(29R9)
+51V13*get_Enabled{boolean} 52^7 89b23
+52p7 This(29R9)
+53V13*get_Interval{long_float} 54^7 90b23
+54p7 This(29R9)
+55V13*get_Site{14|16P9} 56^7 91b23
+56p7 This(29R9)
+57V13*get_SynchronizingObject{16|16P9} 58^7 92b23
+58p7 This(29R9)
+59U14*remove_Elapsed 60^7 61>7 93b23
+60p7 This(29R9)
+61p7 value{54|26P9}
+62U14*set_AutoReset 63^7 64>7 94b23
+63p7 This(29R9)
+64b7 value{boolean}
+65U14*set_Enabled 66^7 67>7 95b23
+66p7 This(29R9)
+67b7 value{boolean}
+68U14*set_Interval 69^7 70>7 96b23
+69p7 This(29R9)
+70f7 value{long_float}
+71U14*set_Site 72^7 73>7 97b23
+72p7 This(29R9)
+73p7 value{14|16P9}
+74U14*set_SynchronizingObject 75^7 76>7 98b23
+75p7 This(29R9)
+76p7 value{16|16P9}
+77U14*Start 78^7 99b23
+78p7 This(29R9)
+79U14*Stop 80^7 100b23
+80p7 This(29R9)
+X 56 mssyst-type_k.ads
+51P9 Ref(integer)
+

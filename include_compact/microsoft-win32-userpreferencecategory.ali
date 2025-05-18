@@ -1,0 +1,134 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U microsoft.win32.userpreferencecategory%s  microsoft-win32-userpreferencecategory.ads  6da6c4b6 NE PK
+W microsoft%s		microsoft.ads		microsoft.ali
+W microsoft.win32%s	microsoft-win32.ads	microsoft-win32.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.typecode%s	mssyst-typecode.ads	mssyst-typecode.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060131165226 02f2695c
+D microsoft-win32.ads	20060131165226 bf37fdc1
+D microsoft-win32-userpreferencecategory.ads  20060131171418 dc64f852
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 microsoft.ads
+6K9*Microsoft 7e14 7|15r9 82r5 84r20
+X 6 microsoft-win32.ads
+6K19*Win32 5|6k9 6|7e20 7|15r19 82r15 84r30
+X 7 microsoft-win32-userpreferencecategory.ads
+15K25*UserPreferenceCategory 6|6k19 7|82l21 82e43 84r36
+16E9*ValueType 30e19 31r29 32r8 47r54 49r40 52r14 55r14 58r14 60r14 62r14
+. 64r14 67r14 69r14 73r14
+17n7*Accessibility{16E9} 33r7
+18n7*Color{16E9} 34r7
+19n7*Desktop{16E9} 35r7
+20n7*General{16E9} 36r7
+21n7*Icon{16E9} 37r7
+22n7*Keyboard{16E9} 38r7
+23n7*Menu{16E9} 39r7
+24n7*Mouse{16E9} 40r7
+25n7*Policy{16E9} 41r7
+26n7*Power{16E9} 42r7
+27n7*Screensaver{16E9} 43r7
+28n7*Window{16E9} 44r7
+29n7*Locale{16E9} 45r7
+30n7*VisualStyle{16E9} 46r7
+47A9*ValueType_Arr(16E9) 48r39
+48P9*ValueType_Array(47A9) 50r46
+49P9*ValueType_addrof(16E9)
+50P9*ValueType_array_addrof(48P9)
+51V13*CompareTo{integer} 52>7 53>7 76b23
+52e7 This{16E9}
+53p7 target{16|13P9}
+54V13*Equals{boolean} 55>7 56>7 77b23
+55e7 This{16E9}
+56p7 obj{16|13P9}
+57V13*GetHashCode{integer} 58>7 78b23
+58e7 This{16E9}
+59V13*GetType{37|51P9} 60>7 79b23
+60e7 This{16E9}
+61V13*GetTypeCode{38|15E9} 62>7 80b23
+62e7 This{16E9}
+63V13*ToString{32|27P9} 64>7 65>7
+64e7 This{16E9}
+65p7 provider{15|14P9}
+66V13*ToString{32|27P9} 67>7
+67e7 This{16E9}
+68V13*ToString{32|27P9} 69>7 70>7 71>7
+69e7 This{16E9}
+70p7 format{32|27P9}
+71p7 provider{15|14P9}
+72V13*ToString{32|27P9} 73>7 74>7 81b23
+73e7 This{16E9}
+74p7 format{32|27P9}
+X 8 msil_types.ads
+7K9*Msil_Types 7|8w6 9r5 8|71e15
+X 9 mssyst.ads
+6K9*MSSyst 7|7r6 12r6 53r16 56r13 60r32 62r32 65r18 65r53 67r32 70r16 71r18
+. 71r53 74r16 74r42 9|7e11
+X 15 mssyst-iformatprovider.ads
+12K16 IFormatProvider 7|65r25 71r25
+14P9 Ref(integer) 7|65r41 71r41
+X 16 mssyst-object.ads
+11K16*Object 7|7w13 53r23 56r20 16|46e18
+12R9*Typ 20e14
+13P9*Ref(12R9) 7|53r30 56r27
+X 32 mssyst-string.ads
+25K16 String 7|65r60 67r39 70r23 71r60 74r23 74r49
+27P9 Ref(integer) 7|65r67 67r46 70r30 71r67 74r30 74r56
+X 37 mssyst-type_k.ads
+49K16 Type_k 7|60r39
+51P9 Ref(integer) 7|60r46
+X 38 mssyst-typecode.ads
+14K16*TypeCode 7|12w13 62r39 38|89e20
+15E9*ValueType 7|62r48 38|33e14
+

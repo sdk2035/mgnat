@@ -1,0 +1,358 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.tooltip%s  mssyst-windows-forms-tooltip.ads  a4b6fee1 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.component%s  mssyst-componentmodel-component.ads  mssyst-componentmodel-component.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.componentmodel.iextenderprovider%s  mssyst-componentmodel-iextenderprovider.ads  mssyst-componentmodel-iextenderprovider.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.tooltipicon%s  mssyst-windows-forms-tooltipicon.ads  mssyst-windows-forms-tooltipicon.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-iextenderprovider.ads  20060131171412 9d31c484
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-color.ads  20060131171430 efe0dbd6
+D mssyst-drawing-knowncolor.ads  20060131171430 28ff3226
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-accessiblerole.ads  20060131171436 c08bcb4f
+D mssyst-windows-forms-anchorstyles.ads  20060131171436 22446596
+D mssyst-windows-forms-boundsspecified.ads  20060131171436 2f9ca777
+D mssyst-windows-forms-control.ads  20060131171436 1c03b650
+D mssyst-windows-forms-dockstyle.ads  20060131171440 a08bf6b6
+D mssyst-windows-forms-dragdropeffects.ads  20060131171440 dfaed805
+D mssyst-windows-forms-drawtooltipeventhandler.ads  20060131171442 467b50eb
+D mssyst-windows-forms-getchildatpointskip.ads  20060131171442 84d63876
+D mssyst-windows-forms-ibindablecomponent.ads  20060131171436 1e1050b2
+D mssyst-windows-forms-imagelayout.ads  20060131171442 e0e6ce51
+D mssyst-windows-forms-imemode.ads  20060131171442 58d96089
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D mssyst-windows-forms-keys.ads  20060131171442 e98517be
+D mssyst-windows-forms-message.ads  20060131171444 f6b3d9da
+D mssyst-windows-forms-mousebuttons.ads  20060131171444 1b279075
+D mssyst-windows-forms-popupeventhandler.ads  20060131171446 10789da5
+D mssyst-windows-forms-preprocesscontrolstate.ads  20060131171446 047a345d
+D mssyst-windows-forms-righttoleft.ads  20060131171446 898cfeaf
+D mssyst-windows-forms-tooltip.ads  20060131171448 b466387c
+D mssyst-windows-forms-tooltipicon.ads  20060131171448 441e5516
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 82|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 82|7r6 10r6 11r6 12r6 22r6 27r9 34r20 35r14 36r14 44r14 47r15
+. 50r15 53r16 61r33 63r33 77r33 79r33 81r33 88r17 88r58 91r13 94r15 97r15
+. 111r15 114r15 135r15 138r15 141r15 150r17 151r17 154r14 155r16 159r14 160r16
+. 163r14 164r16 169r14 170r16 176r14 177r16 178r15 181r14 182r16 183r15 186r33
+. 233r5 235r20
+X 10 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 82|10r13 11r13 12r13 34r27 35r21 36r21 44r21
+X 11 mssyst-componentmodel-component.ads
+19K31*Component 60e36 82|10w28 34r42
+20R9*Typ 82|34r52
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{13|15P9}
+40V13*get_Site{15|16P9}
+42U14*remove_Disposed
+45U14*set_Site
+X 12 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 82|11w28 35r36
+13R9*Typ 82|35r47
+X 13 mssyst-componentmodel-icontainer.ads
+13K31 IContainer 82|44r36
+15P9 Ref(integer) 82|44r47
+X 14 mssyst-componentmodel-iextenderprovider.ads
+11K31*IExtenderProvider 24e44 82|12w28 36r36
+12R9*Typ 82|36r54
+X 15 mssyst-componentmodel-isite.ads
+16P9 Ref(integer)
+X 18 mssyst-drawing.ads
+6K16 Drawing 82|61r40 63r40 111r22 114r22 178r22 183r22
+X 19 mssyst-drawing-color.ads
+15K24 Color 82|61r48 63r48 111r30 114r30
+16R9 ValueType 82|61r54 63r54 111r36 114r36
+X 21 mssyst-drawing-point.ads
+16K24 Point 82|178r30 183r30
+17R9 ValueType 82|178r36 183r36
+X 30 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{48|23P9}
+27V13*GetLifetimeService{32|13P9}
+29V13*InitializeLifetimeService{32|13P9}
+X 32 mssyst-object.ads
+11K16*Object 46e18 82|7w13 53r23 77r40 135r22
+13P9*Ref(12R9) 82|53r30 77r47 135r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{58|51P9}
+X 48 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 53 mssyst-string.ads
+25K16 String 82|81r40 88r65 141r22 151r24 154r21 159r21 163r21 169r21 176r21
+. 181r21 186r40
+27P9 Ref(integer) 82|81r47 88r72 141r29 151r31 154r28 159r28 163r28 169r28
+. 176r28 181r28 186r47
+X 58 mssyst-type_k.ads
+51P9 Ref(integer)
+X 62 mssyst-windows.ads
+6K16*Windows 9|6k9 62|7e19 82|22r13 27r16 47r22 50r22 79r40 88r24 91r20 94r22
+. 97r22 138r22 150r24 155r23 160r23 164r23 170r23 177r23 182r23 233r12 235r27
+X 63 mssyst-windows-forms.ads
+6K24*Forms 62|6k16 63|7e25 82|22r21 27r24 47r30 50r30 79r48 88r32 91r28 94r30
+. 97r30 138r30 150r32 155r31 160r31 164r31 170r31 177r31 182r31 233r20 235r35
+X 67 mssyst-windows-forms-control.ads
+75K30 Control 82|88r38 150r38
+77P9 Ref(integer) 82|88r46 150r46
+X 70 mssyst-windows-forms-drawtooltipeventhandler.ads
+24K30 DrawToolTipEventHandler 82|47r36 94r36
+26P9 Ref(integer) 82|47r60 94r60
+X 75 mssyst-windows-forms-iwin32window.ads
+10K30 IWin32Window 82|91r34 155r37 160r37 164r37 170r37 177r37 182r37
+12P9 Ref(integer) 82|91r47 155r50 160r50 164r50 170r50 177r50 182r50
+X 79 mssyst-windows-forms-popupeventhandler.ads
+24K30 PopupEventHandler 82|50r36 97r36
+26P9 Ref(integer) 82|50r54 97r54
+X 82 mssyst-windows-forms-tooltip.ads
+27K30*ToolTip 63|6k24 82|233l26 233e33 235r41
+28R9*Typ 29r27 34c9 46r21 49r21 52r21 55r21 57r21 59r21 61r21 63r21 65r21
+. 67r21 69r21 71r21 73r21 75r21 77r21 79r21 81r21 83r21 85r21 87r21 90r21
+. 93r21 96r21 99r21 101r21 104r21 107r21 110r21 113r21 116r21 119r21 122r21
+. 125r21 128r21 131r21 134r21 137r21 140r21 143r21 146r21 149r21 153r21 158r21
+. 162r21 168r21 175r21 180r21 186r21 188r27
+29P9*Ref(28R9) 30r34 31r47 41r14 41r34 43r14 44r59
+30P9*Ref_addrof(29P9)
+31A9*Ref_Arr(29P9) 32r33
+32P9*Ref_Array(31A9) 33r40
+33P9*Ref_Array_addrof(32P9)
+34R9*Typ<11|26R9> 11|33P14 36p14 38p13 40P13 42P14 45P14 30|24p13 27p13 29p13
+. 32|23p13 29p13 31p13 82|39e14 45p14 48p14 51P13 54p13 56p13 58p13 60p13
+. 62p13 64p13 66p13 68p13 70p13 72p13 74p13 76p13 78p13 80p13 82p13 84p13
+. 86p13 89p14 92p14 95p14 98p14 100p14 103p14 106p14 109p14 112p14 115p14
+. 118p14 121p14 124p14 127p14 130p14 133p14 136p14 139p14 142p14 145p14 148p14
+. 152p14 157p14 161p14 167p14 174p14 179p14 185P13
+40V13*new_ToolTip{29P9} 41>7
+41p7 This{29P9}
+42V13*new_ToolTip{29P9} 43>7 44>7
+43p7 This{29P9}
+44p7 cont{13|15P9}
+45U14*add_Draw 46^7 47>7 190b23
+46p7 This(34R9)
+47p7 value{70|26P9}
+48U14*add_Popup 49^7 50>7 191b23
+49p7 This(34R9)
+50p7 value{79|26P9}
+51V13*CanExtend{boolean} 52^7 53>7 192b23
+52p7 This(34R9)
+53p7 target{32|13P9}
+54V13*get_Active{boolean} 55^7 193b23
+55p7 This(34R9)
+56V13*get_AutomaticDelay{integer} 57^7 194b23
+57p7 This(34R9)
+58V13*get_AutoPopDelay{integer} 59^7 195b23
+59p7 This(34R9)
+60V13*get_BackColor{19|16R9} 61^7 196b23
+61p7 This(34R9)
+62V13*get_ForeColor{19|16R9} 63^7 197b23
+63p7 This(34R9)
+64V13*get_InitialDelay{integer} 65^7 198b23
+65p7 This(34R9)
+66V13*get_IsBalloon{boolean} 67^7 199b23
+67p7 This(34R9)
+68V13*get_OwnerDraw{boolean} 69^7 200b23
+69p7 This(34R9)
+70V13*get_ReshowDelay{integer} 71^7 201b23
+71p7 This(34R9)
+72V13*get_ShowAlways{boolean} 73^7 202b23
+73p7 This(34R9)
+74V13*get_StripAmpersands{boolean} 75^7 203b23
+75p7 This(34R9)
+76V13*get_Tag{32|13P9} 77^7 204b23
+77p7 This(34R9)
+78V13*get_ToolTipIcon{83|16E9} 79^7 205b23
+79p7 This(34R9)
+80V13*get_ToolTipTitle{53|27P9} 81^7 206b23
+81p7 This(34R9)
+82V13*get_UseAnimation{boolean} 83^7 207b23
+83p7 This(34R9)
+84V13*get_UseFading{boolean} 85^7 208b23
+85p7 This(34R9)
+86V13*GetToolTip{53|27P9} 87^7 88>7 209b23
+87p7 This(34R9)
+88p7 control{67|77P9}
+89U14*Hide 90^7 91>7 210b23
+90p7 This(34R9)
+91p7 win{75|12P9}
+92U14*remove_Draw 93^7 94>7 211b23
+93p7 This(34R9)
+94p7 value{70|26P9}
+95U14*remove_Popup 96^7 97>7 212b23
+96p7 This(34R9)
+97p7 value{79|26P9}
+98U14*RemoveAll 99^7 213b23
+99p7 This(34R9)
+100U14*set_Active 101^7 102>7 214b23
+101p7 This(34R9)
+102b7 value{boolean}
+103U14*set_AutomaticDelay 104^7 105>7 215b23
+104p7 This(34R9)
+105i7 value{integer}
+106U14*set_AutoPopDelay 107^7 108>7 216b23
+107p7 This(34R9)
+108i7 value{integer}
+109U14*set_BackColor 110^7 111>7 217b23
+110p7 This(34R9)
+111r7 value{19|16R9}
+112U14*set_ForeColor 113^7 114>7 218b23
+113p7 This(34R9)
+114r7 value{19|16R9}
+115U14*set_InitialDelay 116^7 117>7 219b23
+116p7 This(34R9)
+117i7 value{integer}
+118U14*set_IsBalloon 119^7 120>7 220b23
+119p7 This(34R9)
+120b7 value{boolean}
+121U14*set_OwnerDraw 122^7 123>7 221b23
+122p7 This(34R9)
+123b7 value{boolean}
+124U14*set_ReshowDelay 125^7 126>7 222b23
+125p7 This(34R9)
+126i7 value{integer}
+127U14*set_ShowAlways 128^7 129>7 223b23
+128p7 This(34R9)
+129b7 value{boolean}
+130U14*set_StripAmpersands 131^7 132>7 224b23
+131p7 This(34R9)
+132b7 value{boolean}
+133U14*set_Tag 134^7 135>7 225b23
+134p7 This(34R9)
+135p7 value{32|13P9}
+136U14*set_ToolTipIcon 137^7 138>7 226b23
+137p7 This(34R9)
+138e7 value{83|16E9}
+139U14*set_ToolTipTitle 140^7 141>7 227b23
+140p7 This(34R9)
+141p7 value{53|27P9}
+142U14*set_UseAnimation 143^7 144>7 228b23
+143p7 This(34R9)
+144b7 value{boolean}
+145U14*set_UseFading 146^7 147>7 229b23
+146p7 This(34R9)
+147b7 value{boolean}
+148U14*SetToolTip 149^7 150>7 151>7 230b23
+149p7 This(34R9)
+150p7 control{67|77P9}
+151p7 caption{53|27P9}
+152U14*Show 153^7 154>7 155>7 156>7
+153p7 This(34R9)
+154p7 text{53|27P9}
+155p7 window{75|12P9}
+156i7 duration_k{integer}
+157U14*Show 158^7 159>7 160>7
+158p7 This(34R9)
+159p7 text{53|27P9}
+160p7 window{75|12P9}
+161U14*Show 162^7 163>7 164>7 165>7 166>7
+162p7 This(34R9)
+163p7 text{53|27P9}
+164p7 window{75|12P9}
+165i7 x{integer}
+166i7 y{integer}
+167U14*Show 168^7 169>7 170>7 171>7 172>7 173>7
+168p7 This(34R9)
+169p7 text{53|27P9}
+170p7 window{75|12P9}
+171i7 x{integer}
+172i7 y{integer}
+173i7 duration_k{integer}
+174U14*Show 175^7 176>7 177>7 178>7
+175p7 This(34R9)
+176p7 text{53|27P9}
+177p7 window{75|12P9}
+178r7 point{21|17R9}
+179U14*Show 180^7 181>7 182>7 183>7 184>7 231b23
+180p7 This(34R9)
+181p7 text{53|27P9}
+182p7 window{75|12P9}
+183r7 point{21|17R9}
+184i7 duration_k{integer}
+185V13*ToString{53|27P9} 186^7 232b23
+186p7 This(34R9)
+X 83 mssyst-windows-forms-tooltipicon.ads
+15K30*ToolTipIcon 82|22w27 79r54 138r36 83|62e37
+16E9*ValueType 82|79r66 138r48 83|20e13
+

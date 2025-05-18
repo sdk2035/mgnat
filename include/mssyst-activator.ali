@@ -1,0 +1,213 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.activator%s	mssyst-activator.ads	99a4386e NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.configuration%s  mssyst-configuration.ads  mssyst-configuration.ali
+W mssyst.configuration.assemblies%s  mssyst-configuration-assemblies.ads  mssyst-configuration-assemblies.ali
+W mssyst.configuration.assemblies.assemblyhashalgorithm%s  mssyst-configuration-assemblies-assemblyhashalgorithm.ads  mssyst-configuration-assemblies-assemblyhashalgorithm.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.reflection%s	mssyst-reflection.ads	mssyst-reflection.ali
+W mssyst.reflection.bindingflags%s  mssyst-reflection-bindingflags.ads  mssyst-reflection-bindingflags.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-activator.ads	20050914133428 0542416d
+D mssyst-configuration.ads  20050914013300 03b06563
+D mssyst-configuration-assemblies.ads  20050914013300 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20050914133442 a6f5e485
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-cultureinfo.ads  20050914133430 52043da0
+D mssyst-globalization-culturetypes.ads  20050914133430 f4281640
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-iformatprovider.ads  20050914133428 c126b837
+D mssyst-marshalbyrefobject.ads  20050914133428 bff7d8e0
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-binder.ads  20050914133428 34981f12
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-runtime.ads	20050914013248 31dcc047
+D mssyst-runtime-remoting.ads  20050914013252 74500271
+D mssyst-runtime-remoting-objecthandle.ads  20050914133440 e958781f
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-security.ads	20050914013248 a4c8227c
+D mssyst-security-policy.ads  20050914013254 7a609687
+D mssyst-security-policy-evidence.ads  20050914133432 e5ba8dd3
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 72e15 7|8w6 9r5 36r19
+24E9*unsigned_int8<character>
+44A9*unsigned_int8_arr(24E9) 7|36r30
+X 6 mssyst.ads
+6K9*MSSyst 7e11 7|7r6 10r6 13r6 16r6 20r9 27r20 31r22 32r18 32r44 34r22 35r18
+. 37r23 37r95 39r22 40r18 40r44 42r16 42r42 44r22 45r18 46r30 46r62 48r22
+. 49r18 51r21 52r16 53r14 54r17 55r30 56r22 56r66 58r16 59r44 61r16 62r21
+. 63r16 64r14 65r17 66r30 66r62 68r16 69r21 70r16 71r14 72r17 72r62 74r16
+. 75r14 76r30 76r62 78r16 79r14 79r46 81r22 82r18 84r21 85r16 86r14 87r17
+. 88r30 89r22 89r66 91r22 92r18 93r30 93r62 95r22 96r18 96r44 98r16 99r13
+. 100r15 100r41 102r16 103r13 103r39 110r5 112r20
+X 7 mssyst-activator.ads
+20K16*Activator 6|6k9 7|110l12 110e21 112r27
+21R9*Typ 22r27 27c9 105r27
+22P9*Ref(21R9) 23r34 24r47
+23P9*Ref_addrof(22P9)
+24A9*Ref_Arr(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27R9*Typ<17|18R9> 29e14 17|26p13 29p13 31p13 36p13
+30V13*CreateComInstanceFrom{28|17P9} 31>7 32>7
+31p7 assemblyName{33|22P9}
+32p7 typeName{33|22P9}
+33V13*CreateComInstanceFrom{28|17P9} 34>7 35>7 36>7 37>7 106b23
+34p7 assemblyName{33|22P9}
+35p7 typeName{33|22P9}
+36a7 hashValue{5|44A9}
+37e7 hashAlgorithm{10|16E9}
+38V13*CreateInstance{28|17P9} 39>7 40>7
+39p7 assemblyName{33|22P9}
+40p7 typeName{33|22P9}
+41V13*CreateInstance{17|13P9} 42>7
+42p7 type_k{34|44P9}
+43V13*CreateInstance{28|17P9} 44>7 45>7 46>7
+44p7 assemblyName{33|22P9}
+45p7 typeName{33|22P9}
+46p7 activationAttributes{17|16P9}
+47V13*CreateInstance{28|17P9} 48>7 49>7 50>7 51>7 52>7 53>7 54>7 55>7 56>7
+48p7 assemblyName{33|22P9}
+49p7 typeName{33|22P9}
+50b7 ignoreCase{boolean}
+51e7 bindingAttr{20|16E9}
+52p7 binder{19|28P9}
+53p7 args{17|16P9}
+54p7 culture{12|23P9}
+55p7 activationAttributes{17|16P9}
+56p7 securityInfo{32|18P9}
+57V13*CreateInstance{17|13P9} 58>7 59>7
+58p7 type_k{34|44P9}
+59b7 nonPublic{boolean}
+60V13*CreateInstance{17|13P9} 61>7 62>7 63>7 64>7 65>7 66>7
+61p7 type_k{34|44P9}
+62e7 bindingAttr{20|16E9}
+63p7 binder{19|28P9}
+64p7 args{17|16P9}
+65p7 culture{12|23P9}
+66p7 activationAttributes{17|16P9}
+67V13*CreateInstance{17|13P9} 68>7 69>7 70>7 71>7 72>7
+68p7 type_k{34|44P9}
+69e7 bindingAttr{20|16E9}
+70p7 binder{19|28P9}
+71p7 args{17|16P9}
+72p7 culture{12|23P9}
+73V13*CreateInstance{17|13P9} 74>7 75>7 76>7
+74p7 type_k{34|44P9}
+75p7 args{17|16P9}
+76p7 activationAttributes{17|16P9}
+77V13*CreateInstance{17|13P9} 78>7 79>7 107b23
+78p7 type_k{34|44P9}
+79p7 args{17|16P9}
+80V13*CreateInstanceFrom{28|17P9} 81>7 82>7 83>7 84>7 85>7 86>7 87>7 88>7
+. 89>7
+81p7 assemblyFile{33|22P9}
+82p7 typeName{33|22P9}
+83b7 ignoreCase{boolean}
+84e7 bindingAttr{20|16E9}
+85p7 binder{19|28P9}
+86p7 args{17|16P9}
+87p7 culture{12|23P9}
+88p7 activationAttributes{17|16P9}
+89p7 securityInfo{32|18P9}
+90V13*CreateInstanceFrom{28|17P9} 91>7 92>7 93>7
+91p7 assemblyFile{33|22P9}
+92p7 typeName{33|22P9}
+93p7 activationAttributes{17|16P9}
+94V13*CreateInstanceFrom{28|17P9} 95>7 96>7 108b23
+95p7 assemblyFile{33|22P9}
+96p7 typeName{33|22P9}
+97V13*GetObject{17|13P9} 98>7 99>7 100>7
+98p7 type_k{34|44P9}
+99p7 url{33|22P9}
+100p7 state{17|13P9}
+101V13*GetObject{17|13P9} 102>7 103>7 109b23
+102p7 type_k{34|44P9}
+103p7 url{33|22P9}
+X 8 mssyst-configuration.ads
+6K16*Configuration 7|13r13 37r30 8|7e25
+X 9 mssyst-configuration-assemblies.ads
+6K30*Assemblies 7|13r27 37r44 9|7e36
+X 10 mssyst-configuration-assemblies-assemblyhashalgorithm.ads
+15K41*AssemblyHashAlgorithm 7|13w38 37r55 10|60e58
+16E9*ValueType 7|37r77 10|19e12
+X 11 mssyst-globalization.ads
+6K16 Globalization 7|54r24 65r24 72r24 87r24
+X 12 mssyst-globalization-cultureinfo.ads
+21K30 CultureInfo 7|54r38 65r38 72r38 87r38
+23P9 Ref(integer) 7|54r50 65r50 72r50 87r50
+X 17 mssyst-object.ads
+11K16*Object 7|7w13 10w13 27r27 42r49 46r37 53r21 55r37 59r51 64r21 66r37
+. 66r69 71r21 72r69 75r21 76r37 76r69 79r21 79r53 86r21 88r37 93r37 100r22
+. 100r48 103r46 17|46e18
+12R9*Typ 7|27r34 17|20e14
+13P9*Ref(12R9) 7|42r56 59r58 66r76 72r76 76r76 79r60 100r29 100r55 103r53
+15A9*Ref_Arr(13P9)
+16P9*Ref_Array(15A9) 7|46r44 53r28 55r44 64r28 66r44 71r28 75r28 76r44 79r28
+. 86r28 88r44 93r44
+18R9*Typ
+26V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{34|44P9}
+36V13*ToString{33|22P9}
+X 18 mssyst-reflection.ads
+6K16*Reflection 7|16r13 51r28 52r23 62r28 63r23 69r28 70r23 84r28 85r23 18|7e22
+X 19 mssyst-reflection-binder.ads
+26K27 Binder 7|52r34 63r34 70r34 85r34
+28P9 Ref(integer) 7|52r41 63r41 70r41 85r41
+X 20 mssyst-reflection-bindingflags.ads
+15K27*BindingFlags 7|16w24 51r39 62r39 69r39 84r39 20|96e35
+16E9*ValueType 7|51r52 62r52 69r52 84r52 20|36e20
+X 26 mssyst-runtime.ads
+6K16 Runtime 7|32r51 37r102 40r51 46r69 56r73 89r73 93r69 96r51
+X 27 mssyst-runtime-remoting.ads
+6K24 Remoting 7|32r59 37r110 40r59 46r77 56r81 89r81 93r77 96r59
+X 28 mssyst-runtime-remoting-objecthandle.ads
+15K33 ObjectHandle 7|32r68 37r119 40r68 46r86 56r90 89r90 93r86 96r68
+17P9 Ref(integer) 7|32r81 37r132 40r81 46r99 56r103 89r103 93r99 96r81
+X 30 mssyst-security.ads
+6K16 Security 7|56r29 89r29
+X 31 mssyst-security-policy.ads
+6K25 Policy 7|56r38 89r38
+X 32 mssyst-security-policy-evidence.ads
+16K32 Evidence 7|56r45 89r45
+18P9 Ref(integer) 7|56r54 89r54
+X 33 mssyst-string.ads
+20K16 String 7|31r29 32r25 34r29 35r25 39r29 40r25 44r29 45r25 48r29 49r25
+. 81r29 82r25 91r29 92r25 95r29 96r25 99r20 103r20
+22P9 Ref(integer) 7|31r36 32r32 34r36 35r32 39r36 40r32 44r36 45r32 48r36
+. 49r32 81r36 82r32 91r36 92r32 95r36 96r32 99r27 103r27
+X 34 mssyst-type_k.ads
+42K16 Type_k 7|42r23 58r23 61r23 68r23 74r23 78r23 98r23 102r23
+44P9 Ref(integer) 7|42r30 58r30 61r30 68r30 74r30 78r30 98r30 102r30
+

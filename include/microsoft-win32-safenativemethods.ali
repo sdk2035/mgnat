@@ -1,0 +1,21 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U microsoft.win32.safenativemethods%s  microsoft-win32-safenativemethods.ads  06e1681b EE PK
+W microsoft%s		microsoft.ads		microsoft.ali
+W microsoft.win32%s	microsoft-win32.ads	microsoft-win32.ali
+
+D microsoft.ads		20050914013254 02f2695c
+D microsoft-win32.ads	20050914013254 bf37fdc1
+D microsoft-win32-safenativemethods.ads  20050914013308 b9d695da
+D system.ads		20050820125040 15131902
+X 1 microsoft.ads
+6K9*Microsoft 7e14 3|6r9 7r5
+X 2 microsoft-win32.ads
+6K19*Win32 1|6k9 2|7e20 3|6r19 7r15
+X 3 microsoft-win32-safenativemethods.ads
+6K25*SafeNativeMethods 2|6k19 3|7l21 7e38
+

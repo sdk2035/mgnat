@@ -1,0 +1,312 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.collections.arraylist%s  mssyst-collections-arraylist.ads  30a24185 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.collections%s	mssyst-collections.ads	mssyst-collections.ali
+W mssyst.collections.icollection%s  mssyst-collections-icollection.ads  mssyst-collections-icollection.ali
+W mssyst.collections.ilist%s  mssyst-collections-ilist.ads  mssyst-collections-ilist.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-array_k.ads	20060131171354 937a0605
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-arraylist.ads  20060131171358 2518eb2e
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-icomparer.ads  20060131171354 0f31882d
+D mssyst-collections-ienumerator.ads  20060131171354 1d07849c
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 12|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 12|7r6 10r6 11r6 12r6 13r6 20r9 27r20 28r14 29r14 30r14 41r11
+. 43r14 43r51 46r15 49r11 52r15 53r18 56r15 61r15 62r18 66r33 69r14 72r17
+. 75r17 80r17 84r14 84r51 86r14 86r55 99r31 101r33 103r33 107r31 111r31 114r15
+. 119r15 123r15 127r15 131r11 134r15 139r15 142r15 145r14 145r51 147r14 147r55
+. 150r13 159r15 160r31 173r15 177r11 184r18 187r18 189r14 189r51 191r14 191r55
+. 194r16 194r42 196r33 237r5 239r20
+X 10 mssyst-array_k.ads
+18K16 Array_k 12|72r24 75r24 80r24 194r49
+20P9 Ref(integer) 12|72r32 75r32 80r32 194r57
+X 11 mssyst-collections.ads
+6K16*Collections 9|6k9 11|7e23 12|11r13 12r13 20r16 28r21 29r21 41r18 43r21
+. 43r58 49r18 53r25 62r25 84r21 84r58 86r21 86r62 103r40 107r38 111r38 131r18
+. 145r21 145r58 147r21 147r62 160r38 177r18 184r25 187r25 189r21 189r58 191r21
+. 191r62 237r12 239r27
+X 12 mssyst-collections-arraylist.ads
+20K28*ArrayList 11|6k16 12|43r70 86r33 86r74 111r50 147r33 147r74 160r50
+. 191r33 191r74 237l24 237e33 239r39
+21R9*Typ 22r27 27c9 45r21 48r21 51r21 55r21 58r21 64r21 66r21 68r21 71r21
+. 74r21 78r21 88r21 90r21 92r21 94r21 96r21 98r21 101r21 103r21 105r21 109r21
+. 113r21 118r21 122r21 125r21 129r21 133r21 138r21 141r21 149r21 152r21 155r21
+. 162r21 164r21 168r21 171r21 175r21 179r21 181r21 186r21 193r21 196r21 198r21
+. 200r27
+22P9*Ref(21R9) 23r34 24r47 35r14 35r34 37r14 38r34 40r14 41r54 43r80 86r43
+. 86r84 111r60 147r43 147r84 160r60 191r43 191r84
+23P9*Ref_addrof(22P9)
+24A9*Ref_Arr(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27R9*Typ<22|18R9> 33e14 44P13 47p14 50p13 54p13 57p13 63P14 65P13 67P13 70p14
+. 73P14 77p14 87p13 89P13 91P13 93P13 95P13 97P13 100P13 102p13 104p13 108p13
+. 112p13 117p13 121P13 124P14 128p14 132p13 137p13 140p13 148P14 151P14 154p14
+. 161p14 163p14 167p14 170P14 174p14 178p14 180p14 185p14 192p13 195p13 197p14
+. 22|23p13 29p13 31p13 36p13
+34V13*new_ArrayList{22P9} 35>7
+35p7 This{22P9}
+36V13*new_ArrayList{22P9} 37>7 38>7
+37p7 This{22P9}
+38i7 capacity{integer}
+39V13*new_ArrayList{22P9} 40>7 41>7
+40p7 This{22P9}
+41p7 c{13|14P9}
+42V13*Adapter{22P9} 43>7 202b23
+43p7 list{16|14P9}
+44V13*Add{integer} 45^7 46>7 203b23
+45p7 This(27R9)
+46p7 value{22|13P9}
+47U14*AddRange 48^7 49>7 204b23
+48p7 This(27R9)
+49p7 c{13|14P9}
+50V13*BinarySearch{integer} 51^7 52>7 53>7
+51p7 This(27R9)
+52p7 value{22|13P9}
+53p7 comparer{14|13P9}
+54V13*BinarySearch{integer} 55^7 56>7
+55p7 This(27R9)
+56p7 value{22|13P9}
+57V13*BinarySearch{integer} 58^7 59>7 60>7 61>7 62>7 205b23
+58p7 This(27R9)
+59i7 index{integer}
+60i7 count{integer}
+61p7 value{22|13P9}
+62p7 comparer{14|13P9}
+63U14*Clear 64^7 206b23
+64p7 This(27R9)
+65V13*Clone{22|13P9} 66^7 207b23
+66p7 This(27R9)
+67V13*Contains{boolean} 68^7 69>7 208b23
+68p7 This(27R9)
+69p7 item{22|13P9}
+70U14*CopyTo 71^7 72>7
+71p7 This(27R9)
+72p7 array_k{10|20P9}
+73U14*CopyTo 74^7 75>7 76>7
+74p7 This(27R9)
+75p7 array_k{10|20P9}
+76i7 arrayIndex{integer}
+77U14*CopyTo 78^7 79>7 80>7 81>7 82>7 209b23
+78p7 This(27R9)
+79i7 index{integer}
+80p7 array_k{10|20P9}
+81i7 arrayIndex{integer}
+82i7 count{integer}
+83V13*FixedSize{16|14P9} 84>7
+84p7 list{16|14P9}
+85V13*FixedSize{22P9} 86>7 210b23
+86p7 list{22P9}
+87V13*get_Capacity{integer} 88^7 211b23
+88p7 This(27R9)
+89V13*get_Count{integer} 90^7 212b23
+90p7 This(27R9)
+91V13*get_IsFixedSize{boolean} 92^7 213b23
+92p7 This(27R9)
+93V13*get_IsReadOnly{boolean} 94^7 214b23
+94p7 This(27R9)
+95V13*get_IsSynchronized{boolean} 96^7 215b23
+96p7 This(27R9)
+97V13*get_Item{22|13P9} 98^7 99>7 216b23
+98p7 This(27R9)
+99i7 index{integer}
+100V13*get_SyncRoot{22|13P9} 101^7 217b23
+101p7 This(27R9)
+102V13*GetEnumerator{15|13P9} 103^7
+103p7 This(27R9)
+104V13*GetEnumerator{15|13P9} 105^7 106>7 107>7 218b23
+105p7 This(27R9)
+106i7 index{integer}
+107i7 count{integer}
+108V13*GetRange{22P9} 109^7 110>7 111>7 219b23
+109p7 This(27R9)
+110i7 index{integer}
+111i7 count{integer}
+112V13*IndexOf{integer} 113^7 114>7 115>7 116>7
+113p7 This(27R9)
+114p7 value{22|13P9}
+115i7 startIndex{integer}
+116i7 count{integer}
+117V13*IndexOf{integer} 118^7 119>7 120>7
+118p7 This(27R9)
+119p7 value{22|13P9}
+120i7 startIndex{integer}
+121V13*IndexOf{integer} 122^7 123>7 220b23
+122p7 This(27R9)
+123p7 value{22|13P9}
+124U14*Insert 125^7 126>7 127>7 221b23
+125p7 This(27R9)
+126i7 index{integer}
+127p7 value{22|13P9}
+128U14*InsertRange 129^7 130>7 131>7 222b23
+129p7 This(27R9)
+130i7 index{integer}
+131p7 c{13|14P9}
+132V13*LastIndexOf{integer} 133^7 134>7 135>7 136>7
+133p7 This(27R9)
+134p7 value{22|13P9}
+135i7 startIndex{integer}
+136i7 count{integer}
+137V13*LastIndexOf{integer} 138^7 139>7
+138p7 This(27R9)
+139p7 value{22|13P9}
+140V13*LastIndexOf{integer} 141^7 142>7 143>7 223b23
+141p7 This(27R9)
+142p7 value{22|13P9}
+143i7 startIndex{integer}
+144V13*ReadOnly{16|14P9} 145>7
+145p7 list{16|14P9}
+146V13*ReadOnly{22P9} 147>7 224b23
+147p7 list{22P9}
+148U14*Remove 149^7 150>7 225b23
+149p7 This(27R9)
+150p7 obj{22|13P9}
+151U14*RemoveAt 152^7 153>7 226b23
+152p7 This(27R9)
+153i7 index{integer}
+154U14*RemoveRange 155^7 156>7 157>7 227b23
+155p7 This(27R9)
+156i7 index{integer}
+157i7 count{integer}
+158V13*Repeat{22P9} 159>7 160>7 228b23
+159p7 value{22|13P9}
+160i7 count{integer}
+161U14*Reverse_k 162^7
+162p7 This(27R9)
+163U14*Reverse_k 164^7 165>7 166>7 229b23
+164p7 This(27R9)
+165i7 index{integer}
+166i7 count{integer}
+167U14*set_Capacity 168^7 169>7 230b23
+168p7 This(27R9)
+169i7 value{integer}
+170U14*set_Item 171^7 172>7 173>7 231b23
+171p7 This(27R9)
+172i7 index{integer}
+173p7 value{22|13P9}
+174U14*SetRange 175^7 176>7 177>7 232b23
+175p7 This(27R9)
+176i7 index{integer}
+177p7 c{13|14P9}
+178U14*Sort 179^7
+179p7 This(27R9)
+180U14*Sort 181^7 182>7 183>7 184>7
+181p7 This(27R9)
+182i7 index{integer}
+183i7 count{integer}
+184p7 comparer{14|13P9}
+185U14*Sort 186^7 187>7 233b23
+186p7 This(27R9)
+187p7 comparer{14|13P9}
+188V13*Synchronized_k{16|14P9} 189>7
+189p7 list{16|14P9}
+190V13*Synchronized_k{22P9} 191>7 234b23
+191p7 list{22P9}
+192V13*ToArray{10|20P9} 193^7 194>7
+193p7 This(27R9)
+194p7 type_k{43|51P9}
+195V13*ToArray{22|16P9} 196^7 235b23
+196p7 This(27R9)
+197U14*TrimToSize 198^7 236b23
+198p7 This(27R9)
+X 13 mssyst-collections-icollection.ads
+12K28*ICollection 12|12w25 29r33 41r30 49r30 131r30 177r30 13|35e35
+13R9*Typ 12|29r45
+14P9*Ref(13R9) 12|41r42 49r42 131r42 177r42
+X 14 mssyst-collections-icomparer.ads
+11K28 IComparer 12|53r37 62r37 184r37 187r37
+13P9 Ref(integer) 12|53r47 62r47 184r47 187r47
+X 15 mssyst-collections-ienumerator.ads
+11K28 IEnumerator 12|103r52 107r50
+13P9 Ref(integer) 12|103r64 107r62
+X 16 mssyst-collections-ilist.ads
+12K28*IList 12|11w25 28r33 43r33 84r33 84r70 145r33 145r70 189r33 189r70
+. 16|64e29
+13R9*Typ 12|28r39
+14P9*Ref(13R9) 12|43r39 84r39 84r76 145r39 145r76 189r39 189r76
+X 20 mssyst-icloneable.ads
+11K16*ICloneable 12|13w13 30r21 20|23e22
+12R9*Typ 12|30r32
+X 22 mssyst-object.ads
+11K16*Object 12|7w13 10w13 27r27 46r22 52r22 56r22 61r22 66r40 69r21 99r38
+. 101r40 114r22 119r22 123r22 127r22 134r22 139r22 142r22 150r20 159r22 173r22
+. 196r40 22|46e18
+12R9*Typ 12|27r34 22|20e14
+13P9*Ref(12R9) 12|46r29 52r29 56r29 61r29 66r47 69r28 99r45 101r47 114r29
+. 119r29 123r29 127r29 134r29 139r29 142r29 150r27 159r29 173r29
+15A9*Ref_Arr(13P9)
+16P9*Ref_Array(15A9) 12|196r47
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{43|51P9}
+36V13*ToString{38|27P9}
+X 38 mssyst-string.ads
+27P9 Ref(integer)
+X 43 mssyst-type_k.ads
+49K16 Type_k 12|194r23
+51P9 Ref(integer) 12|194r30
+

@@ -1,0 +1,271 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U microsoft.win32.registrykey%s  microsoft-win32-registrykey.ads  37f85f9c NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W microsoft%s		microsoft.ads		microsoft.ali
+W microsoft.win32%s	microsoft-win32.ads	microsoft-win32.ali
+W microsoft.win32.registryhive%s  microsoft-win32-registryhive.ads  microsoft-win32-registryhive.ali
+W microsoft.win32.registrykeypermissioncheck%s  microsoft-win32-registrykeypermissioncheck.ads  microsoft-win32-registrykeypermissioncheck.ali
+W microsoft.win32.registryvaluekind%s  microsoft-win32-registryvaluekind.ads  microsoft-win32-registryvaluekind.ali
+W microsoft.win32.registryvalueoptions%s  microsoft-win32-registryvalueoptions.ads  microsoft-win32-registryvalueoptions.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.marshalbyrefobject%s  mssyst-marshalbyrefobject.ads  mssyst-marshalbyrefobject.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.accesscontrol%s  mssyst-security-accesscontrol.ads  mssyst-security-accesscontrol.ali
+W mssyst.security.accesscontrol.accesscontrolsections%s  mssyst-security-accesscontrol-accesscontrolsections.ads  mssyst-security-accesscontrol-accesscontrolsections.ali
+W mssyst.security.accesscontrol.registryrights%s  mssyst-security-accesscontrol-registryrights.ads  mssyst-security-accesscontrol-registryrights.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060131165226 02f2695c
+D microsoft-win32.ads	20060131165226 bf37fdc1
+D microsoft-win32-registryhive.ads  20060131171400 528576f3
+D microsoft-win32-registrykey.ads  20060131171400 26195ad0
+D microsoft-win32-registrykeypermissioncheck.ads  20060131171400 4340232d
+D microsoft-win32-registryvaluekind.ads  20060131171400 27672cef
+D microsoft-win32-registryvalueoptions.ads  20060131171400 c83e4e71
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-accesscontrol.ads  20060131165242 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060131171410 d41b00a6
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060131171410 dea99828
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060131171410 8a7c3246
+D mssyst-security-accesscontrol-auditflags.ads  20060131171410 7b3aaf2b
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060131171410 d4d4024f
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060131171410 f9355c16
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060131171410 d5b3ab4d
+D mssyst-security-accesscontrol-objectsecurity.ads  20060131171410 5d18e96d
+D mssyst-security-accesscontrol-propagationflags.ads  20060131171410 df68af09
+D mssyst-security-accesscontrol-registryrights.ads  20060131171410 d9e9ca4b
+D mssyst-security-accesscontrol-registrysecurity.ads  20060131171410 f18a5b55
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 microsoft.ads
+6K9*Microsoft 7e14 8|14r6 19r6 20r6 21r6 23r9 37r42 41r25 41r86 45r25 46r85
+. 90r17 93r40 97r14 98r47 101r40 105r25 106r79 110r43 114r25 114r86 126r19
+. 150r5 152r20
+X 6 microsoft-win32.ads
+6K19*Win32 5|6k9 6|7e20 8|14r16 19r16 20r16 21r16 23r19 37r52 41r35 41r96
+. 45r35 46r95 90r27 93r50 97r24 98r57 101r50 105r35 106r89 110r53 114r35
+. 114r96 126r29 150r15 152r30
+X 7 microsoft-win32-registryhive.ads
+15K25*RegistryHive 68e33 8|21w22 97r30
+16E9*ValueType 23e19 8|97r43
+X 8 microsoft-win32-registrykey.ads
+23K25*RegistryKey 6|6k19 8|37r58 41r102 46r101 98r63 101r56 106r95 110r59
+. 114r102 150l21 150e32 152r36
+24R9*Typ 25r27 30c9 34r21 36r21 39r21 43r21 48r21 51r21 55r21 58r21 61r21
+. 65r21 67r21 69r21 71r21 73r21 75r21 78r21 80r21 83r21 87r21 92r21 95r21
+. 100r21 103r21 108r21 112r21 116r21 119r21 123r21 128r21 130r27
+25P9*Ref(24R9) 26r34 27r47 37r70 41r114 46r113 98r75 101r68 106r107 110r71
+. 114r114
+26P9*Ref_addrof(25P9)
+27A9*Ref_Arr(25P9) 28r33
+28P9*Ref_Array(27A9) 29r40
+29P9*Ref_Array_addrof(28P9)
+30R9*Typ<20|21R9> 32e14 33p14 35p13 38p13 42p13 47p14 50p14 54p14 57p14 60p14
+. 64p14 66p13 68p13 70p13 72p13 74p13 77p13 79p13 82p13 86p13 91p13 94p13
+. 99p13 102p13 107p13 111p13 115p14 118p14 122p14 127P13 20|24p13 27p13 29p13
+. 21|23p13 29p13 31p13
+33U14*Close 34^7 131b23
+34p7 This(30R9)
+35V13*CreateSubKey{25P9} 36^7 37>7
+36p7 This(30R9)
+37p7 subkey{55|27P9}
+38V13*CreateSubKey{25P9} 39^7 40>7 41>7
+39p7 This(30R9)
+40p7 subkey{55|27P9}
+41e7 permissionCheck{9|16E9}
+42V13*CreateSubKey{25P9} 43^7 44>7 45>7 46>7 132b23
+43p7 This(30R9)
+44p7 subkey{55|27P9}
+45e7 permissionCheck{9|16E9}
+46p7 registrySecurity{54|28P9}
+47U14*DeleteSubKey 48^7 49>7
+48p7 This(30R9)
+49p7 subkey{55|27P9}
+50U14*DeleteSubKey 51^7 52>7 53>7 133b23
+51p7 This(30R9)
+52p7 subkey{55|27P9}
+53b7 throwOnMissingSubKey{boolean}
+54U14*DeleteSubKeyTree 55^7 56>7 134b23
+55p7 This(30R9)
+56p7 subkey{55|27P9}
+57U14*DeleteValue 58^7 59>7
+58p7 This(30R9)
+59p7 name{55|27P9}
+60U14*DeleteValue 61^7 62>7 63>7 135b23
+61p7 This(30R9)
+62p7 name{55|27P9}
+63b7 throwOnMissingValue{boolean}
+64U14*Flush 65^7 136b23
+65p7 This(30R9)
+66V13*get_Name{55|27P9} 67^7 137b23
+67p7 This(30R9)
+68V13*get_SubKeyCount{integer} 69^7 138b23
+69p7 This(30R9)
+70V13*get_ValueCount{integer} 71^7 139b23
+71p7 This(30R9)
+72V13*GetAccessControl{54|28P9} 73^7
+73p7 This(30R9)
+74V13*GetAccessControl{54|28P9} 75^7 76>7 140b23
+75p7 This(30R9)
+76e7 includeSections{45|16E9}
+77V13*GetSubKeyNames{55|30P9} 78^7 141b23
+78p7 This(30R9)
+79V13*GetValue{21|13P9} 80^7 81>7
+80p7 This(30R9)
+81p7 name{55|27P9}
+82V13*GetValue{21|13P9} 83^7 84>7 85>7
+83p7 This(30R9)
+84p7 name{55|27P9}
+85p7 defaultValue{21|13P9}
+86V13*GetValue{21|13P9} 87^7 88>7 89>7 90>7 142b23
+87p7 This(30R9)
+88p7 name{55|27P9}
+89p7 defaultValue{21|13P9}
+90e7 options{11|16E9}
+91V13*GetValueKind{10|16E9} 92^7 93>7 143b23
+92p7 This(30R9)
+93p7 name{55|27P9}
+94V13*GetValueNames{55|30P9} 95^7 144b23
+95p7 This(30R9)
+96V13*OpenRemoteBaseKey{25P9} 97>7 98>7 145b23
+97e7 hKey{7|16E9}
+98p7 machineName{55|27P9}
+99V13*OpenSubKey{25P9} 100^7 101>7
+100p7 This(30R9)
+101p7 name{55|27P9}
+102V13*OpenSubKey{25P9} 103^7 104>7 105>7 106>7
+103p7 This(30R9)
+104p7 name{55|27P9}
+105e7 permissionCheck{9|16E9}
+106e7 rights{53|16E9}
+107V13*OpenSubKey{25P9} 108^7 109>7 110>7
+108p7 This(30R9)
+109p7 name{55|27P9}
+110b7 writable{boolean}
+111V13*OpenSubKey{25P9} 112^7 113>7 114>7 146b23
+112p7 This(30R9)
+113p7 name{55|27P9}
+114e7 permissionCheck{9|16E9}
+115U14*SetAccessControl 116^7 117>7 147b23
+116p7 This(30R9)
+117p7 registrySecurity{54|28P9}
+118U14*SetValue 119^7 120>7 121>7
+119p7 This(30R9)
+120p7 name{55|27P9}
+121p7 value{21|13P9}
+122U14*SetValue 123^7 124>7 125>7 126>7 148b23
+123p7 This(30R9)
+124p7 name{55|27P9}
+125p7 value{21|13P9}
+126e7 valueKind{10|16E9}
+127V13*ToString{55|27P9} 128^7 149b23
+128p7 This(30R9)
+X 9 microsoft-win32-registrykeypermissioncheck.ads
+15K25*RegistryKeyPermissionCheck 8|14w22 41r41 45r41 105r41 114r41 9|60e47
+16E9*ValueType 8|41r68 45r68 105r68 114r68 9|19e24
+X 10 microsoft-win32-registryvaluekind.ads
+15K25*RegistryValueKind 8|20w22 93r56 126r35 10|68e38
+16E9*ValueType 8|93r74 126r53 10|23e13
+X 11 microsoft-win32-registryvalueoptions.ads
+15K25*RegistryValueOptions 8|19w22 90r33 11|60e41
+16E9*ValueType 8|90r54 11|18e35
+X 12 msil_types.ads
+7K9*Msil_Types 8|8w6 9r5 12|71e15
+X 13 mssyst.ads
+6K9*MSSyst 8|7r6 10r6 17r6 22r6 30r20 37r16 40r16 44r16 46r26 49r16 52r16
+. 56r16 59r14 62r14 67r33 73r33 76r25 76r95 78r33 81r14 81r40 84r14 85r22
+. 85r48 88r14 89r22 90r72 93r14 95r33 98r21 101r14 104r14 106r16 109r14 113r14
+. 117r26 120r14 121r15 124r14 125r15 128r33 13|7e11
+X 20 mssyst-marshalbyrefobject.ads
+14K16*MarshalByRefObject 8|10w13 30r27 20|36e30
+15R9*Typ 8|30r46
+24V13*CreateObjRef{37|23P9}
+27V13*GetLifetimeService{21|13P9}
+29V13*InitializeLifetimeService{21|13P9}
+X 21 mssyst-object.ads
+11K16*Object 8|7w13 81r47 85r29 85r55 89r29 90r79 121r22 125r22 21|46e18
+13P9*Ref(12R9) 8|81r54 85r36 85r62 89r36 90r86 121r29 125r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{60|51P9}
+X 37 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 42 mssyst-security.ads
+6K16*Security 8|17r13 22r13 46r33 73r40 76r32 76r102 106r23 117r33 42|7e20
+X 43 mssyst-security-accesscontrol.ads
+6K25*AccessControl 8|17r22 22r22 46r42 73r49 76r41 76r111 106r32 117r42 43|7e34
+X 45 mssyst-security-accesscontrol-accesscontrolsections.ads
+15K39*AccessControlSections 8|17w36 76r55 45|68e56
+16E9*ValueType 8|76r77 45|22e13
+X 53 mssyst-security-accesscontrol-registryrights.ads
+15K39*RegistryRights 8|22w36 106r46 53|83e49
+16E9*ValueType 8|106r61 53|29e19
+X 54 mssyst-security-accesscontrol-registrysecurity.ads
+26K39 RegistrySecurity 8|46r56 73r63 76r125 117r56
+28P9 Ref(integer) 8|46r73 73r80 76r142 117r73
+X 55 mssyst-string.ads
+25K16 String 8|37r23 40r23 44r23 49r23 52r23 56r23 59r21 62r21 67r40 78r40
+. 81r21 84r21 88r21 93r21 95r40 98r28 101r21 104r21 109r21 113r21 120r21
+. 124r21 128r40
+27P9 Ref(integer) 8|37r30 40r30 44r30 49r30 52r30 56r30 59r28 62r28 67r47
+. 81r28 84r28 88r28 93r28 98r35 101r28 104r28 109r28 113r28 120r28 124r28
+. 128r47
+30P9 Ref_Array(integer) 8|78r47 95r47
+X 60 mssyst-type_k.ads
+51P9 Ref(integer)
+

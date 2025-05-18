@@ -1,0 +1,193 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.drawing2d.customlinecap%s  mssyst-drawing-drawing2d-customlinecap.ads  0d749fc9 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.drawing2d%s  mssyst-drawing-drawing2d.ads  mssyst-drawing-drawing2d.ali
+W mssyst.drawing.drawing2d.linecap%s  mssyst-drawing-drawing2d-linecap.ads  mssyst-drawing-drawing2d-linecap.ali
+W mssyst.drawing.drawing2d.linejoin%s  mssyst-drawing-drawing2d-linejoin.ads  mssyst-drawing-drawing2d-linejoin.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.marshalbyrefobject%s  mssyst-marshalbyrefobject.ads  mssyst-marshalbyrefobject.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-drawing2d.ads  20060131171430 02b10736
+D mssyst-drawing-drawing2d-customlinecap.ads  20060131171430 f2454711
+D mssyst-drawing-drawing2d-fillmode.ads  20060131171430 fd618471
+D mssyst-drawing-drawing2d-graphicspath.ads  20060131171430 16dbf5d7
+D mssyst-drawing-drawing2d-linecap.ads  20060131171430 0dc60f04
+D mssyst-drawing-drawing2d-linejoin.ads  20060131171430 d6cfbcf1
+D mssyst-drawing-drawing2d-warpmode.ads  20060131171432 1e61b940
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-pointf.ads  20060131171432 a63d5a83
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-rectanglef.ads  20060131171432 7fcf14fa
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 12|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 12|7r6 10r6 11r6 15r6 16r6 19r9 26r20 27r14 33r18 34r20 37r18
+. 38r20 39r17 42r18 43r20 44r17 47r33 51r33 55r33 60r18 61r16 64r15 70r15
+. 76r18 77r16 93r5 95r20
+X 10 mssyst-drawing.ads
+6K16*Drawing 9|6k9 10|7e19 12|15r13 16r13 19r16 33r25 34r27 37r25 38r27 39r24
+. 42r25 43r27 44r24 51r40 55r40 60r25 61r23 64r22 70r22 76r25 77r23 93r12
+. 95r27
+X 11 mssyst-drawing-drawing2d.ads
+6K24*Drawing2D 10|6k16 11|7e29 12|15r21 16r21 19r24 33r33 34r35 37r33 38r35
+. 39r32 42r33 43r35 44r32 51r48 55r48 60r33 61r31 64r30 70r30 76r33 77r31
+. 93r20 95r35
+X 12 mssyst-drawing-drawing2d-customlinecap.ads
+19K34*CustomLineCap 11|6k24 12|93l30 93e43 95r45
+20R9*Typ 21r27 26c9 47r21 49r21 51r21 53r21 55r21 57r21 59r21 63r21 66r21
+. 69r21 72r21 75r21 79r27
+21P9*Ref(20R9) 22r34 23r47 32r14 34r70 36r14 39r68 41r14 45r33
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40
+25P9*Ref_Array_addrof(24P9)
+26R9*Typ<28|21R9> 30e14 46P13 48p14 50p13 52p13 54p13 56p13 58p14 62p14 65p14
+. 68p14 71p14 74p14 28|24p13 27p13 29p13 29|23p13 29p13 31p13 36p13
+31V13*new_CustomLineCap{21P9} 32>7 33>7 34>7
+32p7 This{21P9}
+33p7 fillPath{14|34P9}
+34p7 strokePath{14|34P9}
+35V13*new_CustomLineCap{21P9} 36>7 37>7 38>7 39>7
+36p7 This{21P9}
+37p7 fillPath{14|34P9}
+38p7 strokePath{14|34P9}
+39e7 baseCap{15|16E9}
+40V13*new_CustomLineCap{21P9} 41>7 42>7 43>7 44>7 45>7
+41p7 This{21P9}
+42p7 fillPath{14|34P9}
+43p7 strokePath{14|34P9}
+44e7 baseCap{15|16E9}
+45f7 baseInset{float}
+46V13*Clone{29|13P9} 47^7 81b23
+47p7 This(26R9)
+48U14*Dispose 49^7 82b23
+49p7 This(26R9)
+50V13*get_BaseCap{15|16E9} 51^7 83b23
+51p7 This(26R9)
+52V13*get_BaseInset{float} 53^7 84b23
+53p7 This(26R9)
+54V13*get_StrokeJoin{16|16E9} 55^7 85b23
+55p7 This(26R9)
+56V13*get_WidthScale{float} 57^7 86b23
+57p7 This(26R9)
+58U14*GetStrokeCaps 59^7 60>7 61>7 87b23
+59p7 This(26R9)
+60p7 startCap{15|43P9}
+61p7 endCap{15|43P9}
+62U14*set_BaseCap 63^7 64>7 88b23
+63p7 This(26R9)
+64e7 value{15|16E9}
+65U14*set_BaseInset 66^7 67>7 89b23
+66p7 This(26R9)
+67f7 value{float}
+68U14*set_StrokeJoin 69^7 70>7 90b23
+69p7 This(26R9)
+70e7 value{16|16E9}
+71U14*set_WidthScale 72^7 73>7 91b23
+72p7 This(26R9)
+73f7 value{float}
+74U14*SetStrokeCaps 75^7 76>7 77>7 92b23
+75p7 This(26R9)
+76e7 startCap{15|16E9}
+77e7 endCap{15|16E9}
+X 14 mssyst-drawing-drawing2d-graphicspath.ads
+32K34 GraphicsPath 12|33r43 34r45 37r43 38r45 42r43 43r45
+34P9 Ref(integer) 12|33r56 34r58 37r56 38r58 42r56 43r58
+X 15 mssyst-drawing-drawing2d-linecap.ads
+15K34*LineCap 12|15w31 39r42 44r42 51r58 60r43 61r41 64r40 76r43 77r41 15|76e37
+16E9*ValueType 12|39r50 44r50 51r66 64r48 76r51 77r49 15|27e14
+43P9*ValueType_addrof(16E9) 12|60r51 61r49
+X 16 mssyst-drawing-drawing2d-linejoin.ads
+15K34*LineJoin 12|16w31 55r58 70r40 16|62e38
+16E9*ValueType 12|55r67 70r49 16|20e20
+X 25 mssyst-icloneable.ads
+11K16*ICloneable 12|11w13 27r21 25|23e22
+12R9*Typ 12|27r32
+X 28 mssyst-marshalbyrefobject.ads
+14K16*MarshalByRefObject 12|10w13 26r27 28|36e30
+15R9*Typ 12|26r46
+24V13*CreateObjRef{45|23P9}
+27V13*GetLifetimeService{29|13P9}
+29V13*InitializeLifetimeService{29|13P9}
+X 29 mssyst-object.ads
+11K16*Object 12|7w13 47r40 29|46e18
+13P9*Ref(12R9) 12|47r47
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{55|51P9}
+36V13*ToString{50|27P9}
+X 45 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 50 mssyst-string.ads
+27P9 Ref(integer)
+X 55 mssyst-type_k.ads
+51P9 Ref(integer)
+

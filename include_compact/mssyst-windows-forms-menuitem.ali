@@ -1,0 +1,363 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.menuitem%s  mssyst-windows-forms-menuitem.ads  89ea50de NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.menu%s  mssyst-windows-forms-menu.ads  mssyst-windows-forms-menu.ali
+W mssyst.windows.forms.menumerge%s  mssyst-windows-forms-menumerge.ads  mssyst-windows-forms-menumerge.ali
+W mssyst.windows.forms.shortcut%s  mssyst-windows-forms-shortcut.ads  mssyst-windows-forms-shortcut.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-contextmenu.ads  20060131171438 d203c0fb
+D mssyst-windows-forms-drawitemeventhandler.ads  20060131171440 32c973de
+D mssyst-windows-forms-leftrightalignment.ads  20060131171442 e7f866fb
+D mssyst-windows-forms-mainmenu.ads  20060131171444 56fc1249
+D mssyst-windows-forms-measureitemeventhandler.ads  20060131171444 cb46433e
+D mssyst-windows-forms-menu.ads  20060131171438 407bc3fe
+D mssyst-windows-forms-menu-menuitemcollection.ads  20060131171438 327c9eeb
+D mssyst-windows-forms-menuitem.ads  20060131171444 21e30e21
+D mssyst-windows-forms-menumerge.ads  20060131171444 e10ffef2
+D mssyst-windows-forms-righttoleft.ads  20060131171446 898cfeaf
+D mssyst-windows-forms-shortcut.ads  20060131171446 734172a4
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 68|8w6 9r5
+52M9*native_int
+X 9 mssyst.ads
+6K9*MSSyst 7e11 68|7r6 10r6 11r6 20r6 22r6 27r9 34r20 35r14 43r14 46r14 47r17
+. 50r14 51r17 52r18 55r14 56r15 59r19 61r18 62r14 63r17 64r17 65r18 66r15
+. 69r15 72r15 75r15 78r15 81r15 83r33 103r33 109r33 113r33 117r33 121r33
+. 124r17 131r15 134r15 137r15 140r15 143r15 170r15 179r15 185r15 190r33 242r5
+. 244r20
+X 13 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 68|11r13 35r21
+X 14 mssyst-componentmodel-component.ads
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{16|15P9}
+40V13*get_Site{17|16P9}
+42U14*remove_Disposed
+45U14*set_Site
+X 15 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 68|11w28 35r36
+13R9*Typ 68|35r47
+X 16 mssyst-componentmodel-icontainer.ads
+15P9 Ref(integer)
+X 17 mssyst-componentmodel-isite.ads
+16P9 Ref(integer)
+X 19 mssyst-eventhandler.ads
+24K16 EventHandler 68|47r24 51r24 63r24 64r24 65r25 69r22 78r22 81r22 131r22
+. 140r22 143r22
+26P9 Ref(integer) 68|47r37 51r37 63r37 64r37 65r38 69r35 78r35 81r35 131r35
+. 140r35 143r35
+X 27 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{45|23P9}
+27V13*GetLifetimeService{29|13P9}
+29V13*InitializeLifetimeService{29|13P9}
+X 29 mssyst-object.ads
+11K16*Object 46e18 68|7w13
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{55|51P9}
+X 45 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 50 mssyst-string.ads
+25K16 String 68|43r21 46r21 50r21 55r21 62r21 117r40 185r22 190r40
+27P9 Ref(integer) 68|43r28 46r28 50r28 55r28 62r28 117r47 185r29 190r47
+X 55 mssyst-type_k.ads
+51P9 Ref(integer)
+X 59 mssyst-windows.ads
+6K16*Windows 9|6k9 59|7e19 68|10r13 20r13 22r13 27r16 34r27 52r25 56r22 59r26
+. 61r25 66r22 72r22 75r22 83r40 103r40 109r40 113r40 121r40 124r24 134r22
+. 137r22 170r22 179r22 242r12 244r27
+X 60 mssyst-windows-forms.ads
+6K24*Forms 59|6k16 60|7e25 68|10r21 20r21 22r21 27r24 34r35 52r33 56r30 59r34
+. 61r33 66r30 72r30 75r30 83r48 103r48 109r48 113r48 121r48 124r32 134r30
+. 137r30 170r30 179r30 242r20 244r35
+X 61 mssyst-windows-forms-contextmenu.ads
+29P9 Ref(integer)
+X 62 mssyst-windows-forms-drawitemeventhandler.ads
+24K30 DrawItemEventHandler 68|72r36 134r36
+26P9 Ref(integer) 68|72r57 134r57
+X 64 mssyst-windows-forms-mainmenu.ads
+27P9 Ref(integer)
+X 65 mssyst-windows-forms-measureitemeventhandler.ads
+24K30 MeasureItemEventHandler 68|75r36 137r36
+26P9 Ref(integer) 68|75r60 137r60
+X 66 mssyst-windows-forms-menu.ads
+23K30*Menu 85e30 68|10w27 34r41 109r54
+24R9*Typ 68|34r46
+25P9*Ref(24R9) 68|109r59
+39V13*FindMenuItem{68|29P9}
+43V13*get_Handle{8|52M9}
+47V13*get_MdiListItem{68|29P9}
+49V13*get_MenuItems{67|23P9}
+51V13*get_Name{50|27P9}
+53V13*get_Tag{29|13P9}
+55V13*GetContextMenu{61|29P9}
+57V13*GetMainMenu{64|27P9}
+59U14*MergeMenu
+62U14*set_Name
+65U14*set_Tag
+X 67 mssyst-windows-forms-menu-menuitemcollection.ads
+23P9 Ref(integer)
+X 68 mssyst-windows-forms-menuitem.ads
+27K30*MenuItem 60|6k24 68|56r36 66r36 83r54 121r54 124r38 242l26 242e34 244r41
+28R9*Typ 29r27 34c9 68r21 71r21 74r21 77r21 80r21 83r21 85r21 87r21 89r21
+. 91r21 93r21 95r21 97r21 99r21 101r21 103r21 105r21 107r21 109r21 111r21
+. 113r21 115r21 117r21 119r21 121r21 123r21 126r21 128r21 130r21 133r21 136r21
+. 139r21 142r21 145r21 148r21 151r21 154r21 157r21 160r21 163r21 166r21 169r21
+. 172r21 175r21 178r21 181r21 184r21 187r21 190r21 192r27
+29P9*Ref(28R9) 30r34 31r47 40r14 40r34 42r14 43r40 45r14 47r49 49r14 52r66
+. 54r14 56r63 58r14 66r63 83r63 121r63 124r47
+30P9*Ref_addrof(29P9)
+31A9*Ref_Arr(29P9) 32r33
+32P9*Ref_Array(31A9) 33r40 56r45 66r45
+33P9*Ref_Array_addrof(32P9)
+34R9*Typ<66|30R9> 14|33P14 36p14 38p13 40P13 42P14 45P14 27|24p13 27p13 29p13
+. 29|23p13 29p13 31p13 66|39p13 43p13 47p13 49p13 51p13 53p13 55p13 57p13
+. 59p14 62p14 65p14 68|38e14 67p14 70p14 73p14 76p14 79p14 82p13 84p13 86p13
+. 88p13 90p13 92p13 94p13 96P13 98p13 100p13 102p13 104p13 106p13 108p13
+. 110p13 112p13 114p13 116p13 118p13 120p13 122p14 125p14 127p14 129p14 132p14
+. 135p14 138p14 141p14 144p14 147p14 150p14 153p14 156p14 159p14 162p14 165p14
+. 168p14 171p14 174p14 177p14 180p14 183p14 186p14 189P13
+39V13*new_MenuItem{29P9} 40>7
+40p7 This{29P9}
+41V13*new_MenuItem{29P9} 42>7 43>7
+42p7 This{29P9}
+43p7 text{50|27P9}
+44V13*new_MenuItem{29P9} 45>7 46>7 47>7
+45p7 This{29P9}
+46p7 text{50|27P9}
+47p7 onClick{19|26P9}
+48V13*new_MenuItem{29P9} 49>7 50>7 51>7 52>7
+49p7 This{29P9}
+50p7 text{50|27P9}
+51p7 onClick{19|26P9}
+52e7 shortcut{71|16E9}
+53V13*new_MenuItem{29P9} 54>7 55>7 56>7
+54p7 This{29P9}
+55p7 text{50|27P9}
+56p7 items{32P9}
+57V13*new_MenuItem{29P9} 58>7 59>7 60>7 61>7 62>7 63>7 64>7 65>7 66>7
+58p7 This{29P9}
+59e7 mergeType{69|16E9}
+60i7 mergeOrder{integer}
+61e7 shortcut{71|16E9}
+62p7 text{50|27P9}
+63p7 onClick{19|26P9}
+64p7 onPopup{19|26P9}
+65p7 onSelect{19|26P9}
+66p7 items{32P9}
+67U14*add_Click 68^7 69>7 194b23
+68p7 This(34R9)
+69p7 value{19|26P9}
+70U14*add_DrawItem 71^7 72>7 195b23
+71p7 This(34R9)
+72p7 value{62|26P9}
+73U14*add_MeasureItem 74^7 75>7 196b23
+74p7 This(34R9)
+75p7 value{65|26P9}
+76U14*add_Popup 77^7 78>7 197b23
+77p7 This(34R9)
+78p7 value{19|26P9}
+79U14*add_Select 80^7 81>7 198b23
+80p7 This(34R9)
+81p7 value{19|26P9}
+82V13*CloneMenu{29P9} 83^7 199b23
+83p7 This(34R9)
+84V13*get_BarBreak{boolean} 85^7 200b23
+85p7 This(34R9)
+86V13*get_Break{boolean} 87^7 201b23
+87p7 This(34R9)
+88V13*get_Checked{boolean} 89^7 202b23
+89p7 This(34R9)
+90V13*get_DefaultItem{boolean} 91^7 203b23
+91p7 This(34R9)
+92V13*get_Enabled{boolean} 93^7 204b23
+93p7 This(34R9)
+94V13*get_Index{integer} 95^7 205b23
+95p7 This(34R9)
+96V13*get_IsParent{boolean} 97^7 206b23
+97p7 This(34R9)
+98V13*get_MdiList{boolean} 99^7 207b23
+99p7 This(34R9)
+100V13*get_MergeOrder{integer} 101^7 208b23
+101p7 This(34R9)
+102V13*get_MergeType{69|16E9} 103^7 209b23
+103p7 This(34R9)
+104V13*get_Mnemonic{wide_character} 105^7 210b23
+105p7 This(34R9)
+106V13*get_OwnerDraw{boolean} 107^7 211b23
+107p7 This(34R9)
+108V13*get_Parent{66|25P9} 109^7 212b23
+109p7 This(34R9)
+110V13*get_RadioCheck{boolean} 111^7 213b23
+111p7 This(34R9)
+112V13*get_Shortcut{71|16E9} 113^7 214b23
+113p7 This(34R9)
+114V13*get_ShowShortcut{boolean} 115^7 215b23
+115p7 This(34R9)
+116V13*get_Text{50|27P9} 117^7 216b23
+117p7 This(34R9)
+118V13*get_Visible{boolean} 119^7 217b23
+119p7 This(34R9)
+120V13*MergeMenu{29P9} 121^7
+121p7 This(34R9)
+122U14*MergeMenu 123^7 124>7 218b23
+123p7 This(34R9)
+124p7 itemSrc{29P9}
+125U14*PerformClick 126^7 219b23
+126p7 This(34R9)
+127U14*PerformSelect 128^7 220b23
+128p7 This(34R9)
+129U14*remove_Click 130^7 131>7 221b23
+130p7 This(34R9)
+131p7 value{19|26P9}
+132U14*remove_DrawItem 133^7 134>7 222b23
+133p7 This(34R9)
+134p7 value{62|26P9}
+135U14*remove_MeasureItem 136^7 137>7 223b23
+136p7 This(34R9)
+137p7 value{65|26P9}
+138U14*remove_Popup 139^7 140>7 224b23
+139p7 This(34R9)
+140p7 value{19|26P9}
+141U14*remove_Select 142^7 143>7 225b23
+142p7 This(34R9)
+143p7 value{19|26P9}
+144U14*set_BarBreak 145^7 146>7 226b23
+145p7 This(34R9)
+146b7 value{boolean}
+147U14*set_Break 148^7 149>7 227b23
+148p7 This(34R9)
+149b7 value{boolean}
+150U14*set_Checked 151^7 152>7 228b23
+151p7 This(34R9)
+152b7 value{boolean}
+153U14*set_DefaultItem 154^7 155>7 229b23
+154p7 This(34R9)
+155b7 value{boolean}
+156U14*set_Enabled 157^7 158>7 230b23
+157p7 This(34R9)
+158b7 value{boolean}
+159U14*set_Index 160^7 161>7 231b23
+160p7 This(34R9)
+161i7 value{integer}
+162U14*set_MdiList 163^7 164>7 232b23
+163p7 This(34R9)
+164b7 value{boolean}
+165U14*set_MergeOrder 166^7 167>7 233b23
+166p7 This(34R9)
+167i7 value{integer}
+168U14*set_MergeType 169^7 170>7 234b23
+169p7 This(34R9)
+170e7 value{69|16E9}
+171U14*set_OwnerDraw 172^7 173>7 235b23
+172p7 This(34R9)
+173b7 value{boolean}
+174U14*set_RadioCheck 175^7 176>7 236b23
+175p7 This(34R9)
+176b7 value{boolean}
+177U14*set_Shortcut 178^7 179>7 237b23
+178p7 This(34R9)
+179e7 value{71|16E9}
+180U14*set_ShowShortcut 181^7 182>7 238b23
+181p7 This(34R9)
+182b7 value{boolean}
+183U14*set_Text 184^7 185>7 239b23
+184p7 This(34R9)
+185p7 value{50|27P9}
+186U14*set_Visible 187^7 188>7 240b23
+187p7 This(34R9)
+188b7 value{boolean}
+189V13*ToString{50|27P9} 190^7 241b23
+190p7 This(34R9)
+X 69 mssyst-windows-forms-menumerge.ads
+15K30*MenuMerge 68|20w27 59r40 103r54 170r36 69|62e35
+16E9*ValueType 68|59r50 103r64 170r46 69|20e14
+X 71 mssyst-windows-forms-shortcut.ads
+15K30*Shortcut 68|22w27 52r39 61r39 113r54 179r36 71|362e34
+16E9*ValueType 68|52r48 61r48 113r63 179r45 71|170e14
+

@@ -1,0 +1,189 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.design.propertytab%s  mssyst-windows-forms-design-propertytab.ads  1c950467 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.iextenderprovider%s  mssyst-componentmodel-iextenderprovider.ads  mssyst-componentmodel-iextenderprovider.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.design%s  mssyst-windows-forms-design.ads  mssyst-windows-forms-design.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-attribute.ads	20060131171354 578cce83
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-idictionary.ads  20060131171358 0d4908a9
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-designerserializationvisibility.ads  20060131171412 42f0b201
+D mssyst-componentmodel-iextenderprovider.ads  20060131171412 9d31c484
+D mssyst-componentmodel-itypedescriptorcontext.ads  20060131171414 d0c826f6
+D mssyst-componentmodel-memberdescriptor.ads  20060131171412 ebdb73f4
+D mssyst-componentmodel-propertydescriptor.ads  20060131171412 9db79170
+D mssyst-componentmodel-propertydescriptorcollection.ads  20060131171414 a46c49a6
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-bitmap.ads  20060131171428 6a48fdc0
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-image.ads  20060131171428 3db9ccbe
+D mssyst-drawing-imaging.ads  20060131171430 83f7d7de
+D mssyst-drawing-imaging-imagelockmode.ads  20060131171430 48a8fce8
+D mssyst-drawing-imaging-pixelformat.ads  20060131171432 0f821f81
+D mssyst-drawing-rotatefliptype.ads  20060131171430 5968574e
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-design.ads  20060131171300 1ab6f2b0
+D mssyst-windows-forms-design-propertytab.ads  20060131171450 2e9675a3
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 67|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 67|7r6 10r6 11r6 20r9 27r29 28r14 34r18 38r33 40r33 42r33
+. 44r33 47r19 47r45 50r17 51r19 52r20 52r55 55r19 55r45 58r19 59r20 59r55
+. 62r15 74r5 76r20
+X 10 mssyst-attribute.ads
+18K16 Attribute 67|52r27 59r27
+23P9 Ref_Array(integer) 67|52r37 59r37
+X 15 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 67|11r13 28r21 47r52 50r24 52r62 55r52 59r62
+X 17 mssyst-componentmodel-iextenderprovider.ads
+11K31*IExtenderProvider 24e44 67|11w28 28r36
+12R9*Typ 67|28r54
+X 18 mssyst-componentmodel-itypedescriptorcontext.ads
+14K31 ITypeDescriptorContext 67|50r39
+16P9 Ref(integer) 67|50r62
+X 20 mssyst-componentmodel-propertydescriptor.ads
+20K31 PropertyDescriptor 67|47r67
+22P9 Ref(integer) 67|47r86
+X 21 mssyst-componentmodel-propertydescriptorcollection.ads
+22K31 PropertyDescriptorCollection 67|52r77 55r67 59r77
+24P9 Ref(integer) 67|52r106 55r96 59r106
+X 22 mssyst-drawing.ads
+6K16 Drawing 67|38r40
+X 23 mssyst-drawing-bitmap.ads
+38K24 Bitmap 67|38r48
+40P9 Ref(integer) 67|38r55
+X 37 mssyst-object.ads
+11K16*Object 46e18 67|7w13 10w13 27r36 34r25 40r40 47r26 51r26 55r26 58r26
+. 62r22
+12R9*Typ 20e14 67|27r43
+13P9*Ref(12R9) 67|34r32 47r33 51r33 55r33 58r33
+15A9*Ref_Arr(13P9)
+16P9*Ref_Array(15A9) 67|40r47 62r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{60|51P9}
+36V13*ToString{55|27P9}
+X 55 mssyst-string.ads
+25K16 String 67|42r40 44r40
+27P9 Ref(integer) 67|42r47 44r47
+X 60 mssyst-type_k.ads
+51P9 Ref(integer)
+X 64 mssyst-windows.ads
+6K16*Windows 9|6k9 64|7e19 67|20r16 74r12 76r27
+X 65 mssyst-windows-forms.ads
+6K24*Forms 64|6k16 65|7e25 67|20r24 74r20 76r35
+X 66 mssyst-windows-forms-design.ads
+6K30*Design 65|6k24 66|7e32 67|20r30 74r26 76r41
+X 67 mssyst-windows-forms-design-propertytab.ads
+20K37*PropertyTab 66|6k30 67|74l33 74e44 76r48
+21R9*Typ 22r27 27c9 33r21 36r21 38r21 40r21 42r21 44r21 46r21 49r21 54r21
+. 57r21 61r21 64r27
+22P9*Ref(21R9) 23r34 24r47
+23P9*Ref_addrof(22P9)
+24A9*Ref_Arr(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27H9*Typ<37|18R9> 37|23p13 29p13 31p13 36p13 67|31e14 32P13 35p14 37p13 39p13
+. 41p13 43p13 45p13 48p13 53p13 56p13 60p14
+32V13*CanExtend{boolean} 33^7 34>7 65b23
+33p7 This(27R9)
+34p7 extendee{37|13P9}
+35U14*Dispose 36^7 66b23
+36p7 This(27R9)
+37V13*get_Bitmap{23|40P9} 38^7 67b23
+38p7 This(27R9)
+39V13*get_Components{37|16P9} 40^7 68b23
+40p7 This(27R9)
+41V13*get_HelpKeyword{55|27P9} 42^7 69b23
+42p7 This(27R9)
+43V13*get_TabName{55|27P9} 44^7 70b23
+44p7 This(27R9)
+45V13*GetDefaultProperty{20|22P9} 46^7 47>7 71b23
+46p7 This(27R9)
+47p7 component{37|13P9}
+48V13*GetProperties{21|24P9} 49^7 50>7 51>7 52>7
+49p7 This(27R9)
+50p7 context{18|16P9}
+51p7 component{37|13P9}
+52p7 attributes{10|23P9}
+53V13*GetProperties{21|24P9} 54^7 55>7
+54p7 This(27R9)
+55p7 component{37|13P9}
+56V13*GetProperties{21|24P9} 57^7 58>7 59>7 72b23
+57p7 This(27R9)
+58p7 component{37|13P9}
+59p7 attributes{10|23P9}
+60U14*set_Components 61^7 62>7 73b23
+61p7 This(27R9)
+62p7 value{37|16P9}
+

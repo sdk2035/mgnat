@@ -1,0 +1,202 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.security.permissions.hostprotectionattribute%s  mssyst-security-permissions-hostprotectionattribute.ads  f15ce8c2 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.permissions%s  mssyst-security-permissions.ads  mssyst-security-permissions.ali
+W mssyst.security.permissions.codeaccesssecurityattribute%s  mssyst-security-permissions-codeaccesssecurityattribute.ads  mssyst-security-permissions-codeaccesssecurityattribute.ali
+W mssyst.security.permissions.hostprotectionresource%s  mssyst-security-permissions-hostprotectionresource.ads  mssyst-security-permissions-hostprotectionresource.ali
+W mssyst.security.permissions.securityaction%s  mssyst-security-permissions-securityaction.ads  mssyst-security-permissions-securityaction.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-attribute.ads	20060131171354 578cce83
+D mssyst-configuration.ads  20060131165240 03b06563
+D mssyst-configuration-assemblies.ads  20060131165240 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060131171408 81fd999d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-assembly.ads  20060131171358 cac2cf86
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-imagefilemachine.ads  20060131171358 57db8f30
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-module.ads  20060131171358 384ba6f0
+D mssyst-reflection-parameterattributes.ads  20060131171358 c0936dac
+D mssyst-reflection-parameterinfo.ads  20060131171358 c39e33ed
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-portableexecutablekinds.ads  20060131171358 da84966e
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-uassembly.ads  20060131171358 5462c788
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-umodule.ads  20060131171358 02c2dfd0
+D mssyst-runtime-interopservices-uparameterinfo.ads  20060131171358 4359b720
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-ievidencefactory.ads  20060131171354 3a16bf31
+D mssyst-security-ipermission.ads  20060131171404 ac3cc26b
+D mssyst-security-isecurityencodable.ads  20060131171400 401a78fc
+D mssyst-security-permissions.ads  20060131165236 554c10f6
+D mssyst-security-permissions-codeaccesssecurityattribute.ads  20060131171404 dc2c3430
+D mssyst-security-permissions-hostprotectionattribute.ads  20060131171404 13f63be6
+D mssyst-security-permissions-hostprotectionresource.ads  20060131171404 0e92c134
+D mssyst-security-permissions-securityaction.ads  20060131171404 f2a3119c
+D mssyst-security-permissions-securityattribute.ads  20060131171404 ec5bfa17
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 50|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 50|7r6 10r6 13r6 14r6 17r9 24r20 31r16 33r33 41r33 65r15
+. 108r5 110r20
+X 7 mssyst-attribute.ads
+28V13*Equals{boolean}
+31V13*get_TypeId{17|13P9}
+109V13*GetHashCode{integer}
+111V13*IsDefaultAttribute{boolean}
+141V13*Match{boolean}
+X 17 mssyst-object.ads
+11K16*Object 46e18 50|7w13
+13P9*Ref(12R9)
+18R9*Typ
+31V13*GetType{59|51P9}
+36V13*ToString{54|27P9}
+X 44 mssyst-security.ads
+6K16*Security 6|6k9 44|7e20 50|10r13 13r13 14r13 17r16 24r27 31r23 33r40
+. 41r40 65r22 108r12 110r27
+X 46 mssyst-security-ipermission.ads
+11K25 IPermission 50|33r49
+13P9 Ref(integer) 50|33r61
+X 48 mssyst-security-permissions.ads
+6K25*Permissions 44|6k16 48|7e32 50|10r22 13r22 14r22 17r25 24r36 31r32 41r49
+. 65r31 108r21 110r36
+X 49 mssyst-security-permissions-codeaccesssecurityattribute.ads
+16K37*CodeAccessSecurityAttribute 28e60 50|10w34 24r48
+17R9*Typ 50|24r76
+X 50 mssyst-security-permissions-hostprotectionattribute.ads
+17K37*HostProtectionAttribute 48|6k25 50|108l33 108e56 110r48
+18R9*Typ 19r27 24c9 33r21 35r21 37r21 39r21 41r21 43r21 45r21 47r21 49r21
+. 51r21 53r21 55r21 58r21 61r21 64r21 67r21 70r21 73r21 76r21 79r21 82r21
+. 85r27
+19P9*Ref(18R9) 20r34 21r47 28r14 28r34 30r14 31r77
+20P9*Ref_addrof(19P9)
+21A9*Ref_Arr(19P9) 22r33
+22P9*Ref_Array(21A9) 23r40
+23P9*Ref_Array_addrof(22P9)
+24R9*Typ<49|23R9> 7|28P13 31p13 109P13 111p13 141p13 17|31p13 36p13 50|26e14
+. 32P13 34p13 36p13 38p13 40p13 42p13 44p13 46p13 48p13 50p13 52p13 54p14
+. 57p14 60p14 63p14 66p14 69p14 72p14 75p14 78p14 81p14 53|28p13 30p13 32p14
+. 35p14
+27V13*new_HostProtectionAttribute{19P9} 28>7
+28p7 This{19P9}
+29V13*new_HostProtectionAttribute{19P9} 30>7 31>7
+30p7 This{19P9}
+31e7 action{52|16E9}
+32V13*CreatePermission{46|13P9} 33^7 87b23
+33p7 This(24R9)
+34V13*get_ExternalProcessMgmt{boolean} 35^7 88b23
+35p7 This(24R9)
+36V13*get_ExternalThreading{boolean} 37^7 89b23
+37p7 This(24R9)
+38V13*get_MayLeakOnAbort{boolean} 39^7 90b23
+39p7 This(24R9)
+40V13*get_Resources{51|16E9} 41^7 91b23
+41p7 This(24R9)
+42V13*get_SecurityInfrastructure{boolean} 43^7 92b23
+43p7 This(24R9)
+44V13*get_SelfAffectingProcessMgmt{boolean} 45^7 93b23
+45p7 This(24R9)
+46V13*get_SelfAffectingThreading{boolean} 47^7 94b23
+47p7 This(24R9)
+48V13*get_SharedState{boolean} 49^7 95b23
+49p7 This(24R9)
+50V13*get_Synchronization{boolean} 51^7 96b23
+51p7 This(24R9)
+52V13*get_UI{boolean} 53^7 97b23
+53p7 This(24R9)
+54U14*set_ExternalProcessMgmt 55^7 56>7 98b23
+55p7 This(24R9)
+56b7 value{boolean}
+57U14*set_ExternalThreading 58^7 59>7 99b23
+58p7 This(24R9)
+59b7 value{boolean}
+60U14*set_MayLeakOnAbort 61^7 62>7 100b23
+61p7 This(24R9)
+62b7 value{boolean}
+63U14*set_Resources 64^7 65>7 101b23
+64p7 This(24R9)
+65e7 value{51|16E9}
+66U14*set_SecurityInfrastructure 67^7 68>7 102b23
+67p7 This(24R9)
+68b7 value{boolean}
+69U14*set_SelfAffectingProcessMgmt 70^7 71>7 103b23
+70p7 This(24R9)
+71b7 value{boolean}
+72U14*set_SelfAffectingThreading 73^7 74>7 104b23
+73p7 This(24R9)
+74b7 value{boolean}
+75U14*set_SharedState 76^7 77>7 105b23
+76p7 This(24R9)
+77b7 value{boolean}
+78U14*set_Synchronization 79^7 80>7 106b23
+79p7 This(24R9)
+80b7 value{boolean}
+81U14*set_UI 82^7 83>7 107b23
+82p7 This(24R9)
+83b7 value{boolean}
+X 51 mssyst-security-permissions-hostprotectionresource.ads
+15K37*HostProtectionResource 50|14w34 41r61 65r43 51|78e55
+16E9*ValueType 50|41r84 65r66 51|27e13
+X 52 mssyst-security-permissions-securityaction.ads
+15K37*SecurityAction 50|13w34 31r44 52|72e47
+16E9*ValueType 50|31r59 52|25e21
+X 53 mssyst-security-permissions-securityattribute.ads
+28V13*get_Action{52|16E9}
+30V13*get_Unrestricted{boolean}
+32U14*set_Action
+35U14*set_Unrestricted
+X 54 mssyst-string.ads
+27P9 Ref(integer)
+X 59 mssyst-type_k.ads
+51P9 Ref(integer)
+

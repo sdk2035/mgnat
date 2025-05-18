@@ -1,0 +1,133 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.net.irdaendpoint%s  mssyst-net-irdaendpoint.ads  ef3eeb84 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.net.endpoint%s	mssyst-net-endpoint.ads	mssyst-net-endpoint.ali
+W mssyst.net.sockets%s	mssyst-net-sockets.ads	mssyst-net-sockets.ali
+W mssyst.net.sockets.addressfamily%s  mssyst-net-sockets-addressfamily.ads  mssyst-net-sockets-addressfamily.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-net.ads	20060131171420 aa03617c
+D mssyst-net-endpoint.ads  20060131171420 dc20260f
+D mssyst-net-irdaendpoint.ads  20060131171454 9cd9a6c6
+D mssyst-net-socketaddress.ads  20060131171422 ac675951
+D mssyst-net-sockets.ads  20060131171422 4d59735d
+D mssyst-net-sockets-addressfamily.ads  20060131171422 923f2d7b
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 15|8w6 9r5 28r22 36r33 43r15
+24E9*unsigned_int8<character>
+44A9*unsigned_int8_arr(24E9) 15|28r33 43r26
+45P9*Unsigned_Int8_Array(44A9) 15|36r44
+X 6 mssyst.ads
+6K9*MSSyst 7e11 15|7r6 10r6 13r6 16r9 23r20 29r21 32r18 32r55 34r33 38r33
+. 40r33 46r15 57r5 59r20
+X 13 mssyst-net.ads
+6K16*Net 6|6k9 13|7e15 15|10r13 13r13 16r16 23r27 32r25 32r62 34r40 40r40
+. 57r12 59r27
+X 14 mssyst-net-endpoint.ads
+15K20*EndPoint 37e24 15|10w17 23r31 32r66
+16R9*Typ 15|23r40
+17P9*Ref(16R9) 15|32r75
+X 15 mssyst-net-irdaendpoint.ads
+16K20*IrDAEndPoint 13|6k16 15|57l16 57e28 59r31
+17R9*Typ 18r27 23c9 31r21 34r21 36r21 38r21 40r21 42r21 45r21 48r27
+18P9*Ref(17R9) 19r34 20r47 27r14 29r47
+19P9*Ref_addrof(18P9)
+20A9*Ref_Arr(18P9) 21r33
+21P9*Ref_Array(20A9) 22r40
+22P9*Ref_Array_addrof(21P9)
+23R9*Typ<14|22R9> 25e14 30P13 33P13 35p13 37p13 39P13 41p14 44p14 19|23p13
+. 29p13 31p13 36p13
+26V13*new_IrDAEndPoint{18P9} 27>7 28>7 29>7 49r28
+27p7 This{18P9}
+28a7 irdaDeviceID{5|44A9}
+29p7 serviceName{35|27P9}
+30V13*Create{14|17P9} 31^7 32>7 50b23
+31p7 This(23R9)
+32p7 sockaddr{16|16P9}
+33V13*get_AddressFamily{18|16E9} 34^7 51b23
+34p7 This(23R9)
+35V13*get_DeviceID{5|45P9} 36^7 52b23
+36p7 This(23R9)
+37V13*get_ServiceName{35|27P9} 38^7 53b23
+38p7 This(23R9)
+39V13*Serialize{16|16P9} 40^7 54b23
+40p7 This(23R9)
+41U14*set_DeviceID 42^7 43>7 55b23
+42p7 This(23R9)
+43a7 value{5|44A9}
+44U14*set_ServiceName 45^7 46>7 56b23
+45p7 This(23R9)
+46p7 value{35|27P9}
+X 16 mssyst-net-socketaddress.ads
+14K20 SocketAddress 15|32r29 40r44
+16P9 Ref(integer) 15|32r43 40r58
+X 17 mssyst-net-sockets.ads
+6K20*Sockets 15|13r17 34r44 17|7e23
+X 18 mssyst-net-sockets-addressfamily.ads
+15K28*AddressFamily 15|13w25 34r52 18|114e37
+16E9*ValueType 15|34r66 18|45e11
+X 19 mssyst-object.ads
+11K16*Object 15|7w13 19|46e18
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{40|51P9}
+36V13*ToString{35|27P9}
+X 35 mssyst-string.ads
+25K16 String 15|29r28 38r40 46r22
+27P9 Ref(integer) 15|29r35 38r47 46r29
+X 40 mssyst-type_k.ads
+51P9 Ref(integer)
+

@@ -1,0 +1,174 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.codedom.codetypereference%s  mssyst-codedom-codetypereference.ads  8ecc97a9 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.codedom%s	mssyst-codedom.ads	mssyst-codedom.ali
+W mssyst.codedom.codeobject%s  mssyst-codedom-codeobject.ads  mssyst-codedom-codeobject.ali
+W mssyst.codedom.codetypereferenceoptions%s  mssyst-codedom-codetypereferenceoptions.ads  mssyst-codedom-codetypereferenceoptions.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-codedom.ads	20060131171412 18e56f92
+D mssyst-codedom-codeobject.ads  20060131171412 dcd160d8
+D mssyst-codedom-codetypeparameter.ads  20060131171412 dc4ac202
+D mssyst-codedom-codetypereference.ads  20060131171412 7cb7ca40
+D mssyst-codedom-codetypereferencecollection.ads  20060131171412 730c9f44
+D mssyst-codedom-codetypereferenceoptions.ads  20060131171412 a1b475e9
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-collectionbase.ads  20060131171358 4173d9aa
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-idictionary.ads  20060131171358 0d4908a9
+D mssyst-collections-ilist.ads  20060131171354 fe3fb072
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 10|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 10|7r6 10r6 13r6 19r9 26r20 33r16 36r16 37r33 40r18 41r33
+. 44r18 47r18 48r23 51r23 54r18 58r19 61r33 65r33 67r33 69r33 72r15 78r15
+. 81r15 94r5 96r20
+X 7 mssyst-codedom.ads
+6K16*CodeDom 6|6k9 7|7e19 10|10r13 13r13 19r16 26r27 37r40 41r40 48r30 51r30
+. 58r26 61r40 67r40 69r40 72r22 81r22 94r12 96r27
+X 8 mssyst-codedom-codeobject.ads
+14K24*CodeObject 32e30 10|10w21 26r35
+15R9*Typ 10|26r46
+26V13*get_UserData{16|15P9}
+X 9 mssyst-codedom-codetypeparameter.ads
+17K24 CodeTypeParameter 10|51r38
+19P9 Ref(integer) 10|51r56
+X 10 mssyst-codedom-codetypereference.ads
+19K24*CodeTypeReference 7|6k16 10|48r38 58r34 61r48 72r30 94l20 94e37 96r35
+20R9*Typ 21r27 26c9 61r21 63r21 65r21 67r21 69r21 71r21 74r21 77r21 80r21
+. 83r27
+21P9*Ref(20R9) 22r34 23r47 30r14 30r34 32r14 33r42 35r14 37r91 39r14 41r91
+. 43r14 44r44 46r14 48r74 50r14 51r68 53r14 55r30 57r14 58r52 59r30 61r66
+. 72r48
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40 48r56
+25P9*Ref_Array_addrof(24P9)
+26R9*Typ<8|21R9> 8|26p13 10|28e14 60p13 62p13 64p13 66p13 68p13 70p14 73p14
+. 76p14 79p14 24|23p13 29p13 31p13 36p13
+29V13*new_CodeTypeReference{21P9} 30>7
+30p7 This{21P9}
+31V13*new_CodeTypeReference{21P9} 32>7 33>7
+32p7 This{21P9}
+33p7 type_k{45|51P9}
+34V13*new_CodeTypeReference{21P9} 35>7 36>7 37>7
+35p7 This{21P9}
+36p7 type_k{45|51P9}
+37e7 codeTypeReferenceOption{12|16E9}
+38V13*new_CodeTypeReference{21P9} 39>7 40>7 41>7
+39p7 This{21P9}
+40p7 typeName{40|27P9}
+41e7 codeTypeReferenceOption{12|16E9}
+42V13*new_CodeTypeReference{21P9} 43>7 44>7
+43p7 This{21P9}
+44p7 typeName{40|27P9}
+45V13*new_CodeTypeReference{21P9} 46>7 47>7 48>7
+46p7 This{21P9}
+47p7 typeName{40|27P9}
+48p7 typeArguments{24P9}
+49V13*new_CodeTypeReference{21P9} 50>7 51>7
+50p7 This{21P9}
+51p7 typeParameter{9|19P9}
+52V13*new_CodeTypeReference{21P9} 53>7 54>7 55>7
+53p7 This{21P9}
+54p7 baseType{40|27P9}
+55i7 rank{integer}
+56V13*new_CodeTypeReference{21P9} 57>7 58>7 59>7
+57p7 This{21P9}
+58p7 arrayType{21P9}
+59i7 rank{integer}
+60V13*get_ArrayElementType{21P9} 61^7 85b23
+61p7 This(26R9)
+62V13*get_ArrayRank{integer} 63^7 86b23
+63p7 This(26R9)
+64V13*get_BaseType{40|27P9} 65^7 87b23
+65p7 This(26R9)
+66V13*get_Options{12|16E9} 67^7 88b23
+67p7 This(26R9)
+68V13*get_TypeArguments{11|21P9} 69^7 89b23
+69p7 This(26R9)
+70U14*set_ArrayElementType 71^7 72>7 90b23
+71p7 This(26R9)
+72p7 value{21P9}
+73U14*set_ArrayRank 74^7 75>7 91b23
+74p7 This(26R9)
+75i7 value{integer}
+76U14*set_BaseType 77^7 78>7 92b23
+77p7 This(26R9)
+78p7 value{40|27P9}
+79U14*set_Options 80^7 81>7 93b23
+80p7 This(26R9)
+81e7 value{12|16E9}
+X 11 mssyst-codedom-codetypereferencecollection.ads
+19K24 CodeTypeReferenceCollection 10|69r48
+21P9 Ref(integer) 10|69r76
+X 12 mssyst-codedom-codetypereferenceoptions.ads
+15K24*CodeTypeReferenceOptions 10|13w21 37r48 41r48 67r48 81r30 12|60e44
+16E9*ValueType 10|37r73 41r73 67r73 81r55 12|18e28
+X 16 mssyst-collections-idictionary.ads
+15P9 Ref(integer)
+X 24 mssyst-object.ads
+11K16*Object 10|7w13 24|46e18
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{45|51P9}
+36V13*ToString{40|27P9}
+X 40 mssyst-string.ads
+25K16 String 10|40r25 44r25 47r25 54r25 65r40 78r22
+27P9 Ref(integer) 10|40r32 44r32 47r32 54r32 65r47 78r29
+X 45 mssyst-type_k.ads
+49K16 Type_k 10|33r23 36r23
+51P9 Ref(integer) 10|33r30 36r30
+

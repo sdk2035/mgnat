@@ -1,0 +1,217 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.savefiledialog%s  mssyst-windows-forms-savefiledialog.ads  7d9e0840 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.dialogresult%s  mssyst-windows-forms-dialogresult.ads  mssyst-windows-forms-dialogresult.ali
+W mssyst.windows.forms.filedialog%s  mssyst-windows-forms-filedialog.ads  mssyst-windows-forms-filedialog.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-canceleventhandler.ads  20060131171412 8fa1dafd
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-seekorigin.ads  20060131171404 0f77313e
+D mssyst-io-stream.ads	20060131171402 5b7412c0
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-commondialog.ads  20060131171438 dfb27ea0
+D mssyst-windows-forms-dialogresult.ads  20060131171440 e555f490
+D mssyst-windows-forms-filedialog.ads  20060131171442 6983f0bf
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D mssyst-windows-forms-savefiledialog.ads  20060131171446 8b741d38
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 66|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 66|7r6 10r6 11r6 22r6 24r9 31r20 32r14 43r33 61r5 63r20
+X 10 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 66|11r13 32r21
+X 12 mssyst-componentmodel-component.ads
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{14|15P9}
+40V13*get_Site{15|16P9}
+42U14*remove_Disposed
+45U14*set_Site
+X 13 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 66|11w28 32r36
+13R9*Typ 66|32r47
+X 14 mssyst-componentmodel-icontainer.ads
+15P9 Ref(integer)
+X 15 mssyst-componentmodel-isite.ads
+16P9 Ref(integer)
+X 24 mssyst-io.ads
+6K16 IO 66|43r40
+X 26 mssyst-io-stream.ads
+18K19 Stream 66|43r43
+20P9 Ref(integer) 66|43r50
+X 28 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{46|23P9}
+27V13*GetLifetimeService{30|13P9}
+29V13*InitializeLifetimeService{30|13P9}
+X 30 mssyst-object.ads
+11K16*Object 46e18 66|7w13
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{56|51P9}
+X 46 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 51 mssyst-string.ads
+27P9 Ref(integer)
+30P9 Ref_Array(integer)
+X 56 mssyst-type_k.ads
+51P9 Ref(integer)
+X 60 mssyst-windows.ads
+6K16*Windows 9|6k9 60|7e19 66|10r13 22r13 24r16 31r27 61r12 63r27
+X 61 mssyst-windows-forms.ads
+6K24*Forms 60|6k16 61|7e25 66|10r21 22r21 24r24 31r35 61r20 63r35
+X 62 mssyst-windows-forms-commondialog.ads
+35U14*add_HelpRequest
+38V13*get_Tag{30|13P9}
+40U14*remove_HelpRequest
+45U14*set_Tag
+48V13*ShowDialog{63|16E9}
+51V13*ShowDialog{63|16E9}
+X 63 mssyst-windows-forms-dialogresult.ads
+15K30*DialogResult 70e38 66|22w27
+X 64 mssyst-windows-forms-filedialog.ads
+23K30*FileDialog 152e36 66|10w27 31r41
+24R9*Typ 66|31r52
+35U14*add_FileOk
+38V13*get_AddExtension{boolean}
+40V13*get_CheckFileExists{boolean}
+42V13*get_CheckPathExists{boolean}
+44V13*get_DefaultExt{51|27P9}
+46V13*get_DereferenceLinks{boolean}
+48V13*get_FileName{51|27P9}
+50V13*get_FileNames{51|30P9}
+52V13*get_Filter{51|27P9}
+54V13*get_FilterIndex{integer}
+56V13*get_InitialDirectory{51|27P9}
+58V13*get_RestoreDirectory{boolean}
+60V13*get_ShowHelp{boolean}
+62V13*get_SupportMultiDottedExtensions{boolean}
+64V13*get_Title{51|27P9}
+66V13*get_ValidateNames{boolean}
+68U14*remove_FileOk
+73U14*set_AddExtension
+76U14*set_CheckFileExists
+79U14*set_CheckPathExists
+82U14*set_DefaultExt
+85U14*set_DereferenceLinks
+88U14*set_FileName
+91U14*set_Filter
+94U14*set_FilterIndex
+97U14*set_InitialDirectory
+100U14*set_RestoreDirectory
+103U14*set_ShowHelp
+106U14*set_SupportMultiDottedExtensions
+109U14*set_Title
+112U14*set_ValidateNames
+115V13*ToString{51|27P9}
+X 66 mssyst-windows-forms-savefiledialog.ads
+24K30*SaveFileDialog 61|6k24 66|61l26 61e40 63r41
+25R9*Typ 26r27 31c9 39r21 41r21 43r21 45r21 47r21 50r21 53r27
+26P9*Ref(25R9) 27r34 28r47 37r14 37r34
+27P9*Ref_addrof(26P9)
+28A9*Ref_Arr(26P9) 29r33
+29P9*Ref_Array(28A9) 30r40
+30P9*Ref_Array_addrof(29P9)
+31R9*Typ<64|30R9> 12|33P14 36p14 38p13 40P13 42P14 45P14 28|24p13 27p13 29p13
+. 30|23p13 29p13 31p13 62|35p14 38p13 40p14 45p14 48p13 51p13 64|35p14 38p13
+. 40p13 42p13 44p13 46p13 48p13 50p13 52p13 54p13 56p13 58p13 60p13 62p13
+. 64p13 66p13 68p14 73p14 76p14 79p14 82p14 85p14 88p14 91p14 94p14 97p14
+. 100p14 103p14 106p14 109p14 112p14 115P13 66|35e14 38p13 40p13 42p13 44P14
+. 46p14 49p14
+36V13*new_SaveFileDialog{26P9} 37>7 54r28
+37p7 This{26P9}
+38V13*get_CreatePrompt{boolean} 39^7 55b23
+39p7 This(31R9)
+40V13*get_OverwritePrompt{boolean} 41^7 56b23
+41p7 This(31R9)
+42V13*OpenFile{26|20P9} 43^7 57b23
+43p7 This(31R9)
+44U14*Reset 45^7 58b23
+45p7 This(31R9)
+46U14*set_CreatePrompt 47^7 48>7 59b23
+47p7 This(31R9)
+48b7 value{boolean}
+49U14*set_OverwritePrompt 50^7 51>7 60b23
+50p7 This(31R9)
+51b7 value{boolean}
+

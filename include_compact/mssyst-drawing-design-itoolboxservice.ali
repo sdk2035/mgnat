@@ -1,0 +1,255 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.design.itoolboxservice%s  mssyst-drawing-design-itoolboxservice.ads  1edaa7e4 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.design%s  mssyst-drawing-design.ads  mssyst-drawing-design.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-readonlycollectionbase.ads  20060131171358 091a326d
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-design.ads  20060131171414 dcbb2ca1
+D mssyst-componentmodel-design-idesignerhost.ads  20060131171416 f553ceb4
+D mssyst-componentmodel-design-iservicecontainer.ads  20060131171416 b88a76fe
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-design.ads  20060131171432 4c490217
+D mssyst-drawing-design-categorynamecollection.ads  20060131171432 0caed88d
+D mssyst-drawing-design-itoolboxservice.ads  20060131171432 c56882b9
+D mssyst-drawing-design-toolboxitem.ads  20060131171432 101892a6
+D mssyst-drawing-design-toolboxitemcollection.ads  20060131171432 d913b10f
+D mssyst-drawing-design-toolboxitemcreatorcallback.ads  20060131171432 6fe43362
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 21|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 21|7r6 18r9 28r17 29r16 30r14 33r17 34r16 37r21 38r18 39r14
+. 42r21 43r14 46r21 49r21 50r18 53r26 53r52 56r26 57r14 57r69 59r33 61r33
+. 64r14 64r69 66r33 69r18 69r44 72r18 73r14 73r69 76r14 76r69 78r33 81r26
+. 82r26 85r26 86r14 89r26 90r14 93r26 98r16 99r14 102r16 105r21 106r18 109r21
+. 114r21 114r67 117r15 122r21 142r5 144r20
+X 10 mssyst-collections.ads
+6K16 Collections 21|82r33
+X 11 mssyst-collections-icollection.ads
+12K28 ICollection 21|82r45
+14P9 Ref(integer) 21|82r57
+X 13 mssyst-componentmodel.ads
+6K16 ComponentModel 21|30r21 39r21 43r21 57r21 64r21 73r21 76r21 86r21 90r21
+. 99r21
+X 14 mssyst-componentmodel-design.ads
+6K31 Design 21|30r36 39r36 43r36 57r36 64r36 73r36 76r36 86r36 90r36 99r36
+X 15 mssyst-componentmodel-design-idesignerhost.ads
+20K38 IDesignerHost 21|30r43 39r43 43r43 57r43 64r43 73r43 76r43 86r43 90r43
+. 99r43
+22P9 Ref(integer) 21|30r57 39r57 43r57 57r57 64r57 73r57 76r57 86r57 90r57
+. 99r57
+X 18 mssyst-drawing.ads
+6K16*Drawing 9|6k9 18|7e19 21|18r16 28r24 33r24 37r28 42r28 46r28 49r28 53r59
+. 57r76 59r40 64r76 66r40 69r51 73r76 76r76 78r40 105r28 109r28 114r28 122r28
+. 142r12 144r27
+X 19 mssyst-drawing-design.ads
+6K24*Design 18|6k16 19|7e26 21|18r24 28r32 33r32 37r36 42r36 46r36 49r36
+. 53r67 57r84 59r48 64r84 66r48 69r59 73r84 76r84 78r48 105r36 109r36 114r36
+. 122r36 142r20 144r35
+X 20 mssyst-drawing-design-categorynamecollection.ads
+17K31 CategoryNameCollection 21|59r55
+19P9 Ref(integer) 21|59r78
+X 21 mssyst-drawing-design-itoolboxservice.ads
+18K31*IToolboxService 19|6k24 21|142l27 142e42 144r42
+19R9*Typ 20r27 25c9 27r21 32r21 36r21 41r21 45r21 48r21 52r21 55r21 59r21
+. 61r21 63r21 66r21 68r21 71r21 75r21 78r21 80r21 84r21 88r21 92r21 95r21
+. 97r21 101r21 104r21 108r21 111r21 113r21 116r21 119r21 121r21
+20P9*Ref(19R9) 21r34 22r47
+21P9*Ref_addrof(20P9)
+22A9*Ref_Arr(20P9) 23r33
+23P9*Ref_Array(22A9) 24r40
+24P9*Ref_Array_addrof(23P9)
+25H9*Typ 26p14 31p14 35p14 40p14 44p14 47p14 51p13 54p13 58p13 60p13 62p13
+. 65p13 67p13 70p13 74p13 77p13 79p13 83p13 87p13 91p13 94p14 96p14 100p14
+. 103p14 107p14 110p14 112p13 115p14 118p13 120p14
+26x14*AddCreator 27^7 28>7 29>7 30>7
+27p7 This(25R9)
+28p7 creator{24|26P9}
+29p7 format{50|27P9}
+30p7 host{15|22P9}
+31x14*AddCreator 32^7 33>7 34>7 124b23
+32p7 This(25R9)
+33p7 creator{24|26P9}
+34p7 format{50|27P9}
+35x14*AddLinkedToolboxItem 36^7 37>7 38>7 39>7
+36p7 This(25R9)
+37p7 toolboxItem{22|25P9}
+38p7 category{50|27P9}
+39p7 host{15|22P9}
+40x14*AddLinkedToolboxItem 41^7 42>7 43>7 125b23
+41p7 This(25R9)
+42p7 toolboxItem{22|25P9}
+43p7 host{15|22P9}
+44x14*AddToolboxItem 45^7 46>7
+45p7 This(25R9)
+46p7 toolboxItem{22|25P9}
+47x14*AddToolboxItem 48^7 49>7 50>7 126b23
+48p7 This(25R9)
+49p7 toolboxItem{22|25P9}
+50p7 category{50|27P9}
+51y13*DeserializeToolboxItem{22|25P9} 52^7 53>7
+52p7 This(25R9)
+53p7 serializedObject{32|13P9}
+54y13*DeserializeToolboxItem{22|25P9} 55^7 56>7 57>7 127b23
+55p7 This(25R9)
+56p7 serializedObject{32|13P9}
+57p7 host{15|22P9}
+58y13*get_CategoryNames{20|19P9} 59^7 128b23
+59p7 This(25R9)
+60y13*get_SelectedCategory{50|27P9} 61^7 129b23
+61p7 This(25R9)
+62y13*GetSelectedToolboxItem{22|25P9} 63^7 64>7
+63p7 This(25R9)
+64p7 host{15|22P9}
+65y13*GetSelectedToolboxItem{22|25P9} 66^7 130b23
+66p7 This(25R9)
+67y13*GetToolboxItems{23|20P9} 68^7 69>7
+68p7 This(25R9)
+69p7 category{50|27P9}
+70y13*GetToolboxItems{23|20P9} 71^7 72>7 73>7
+71p7 This(25R9)
+72p7 category{50|27P9}
+73p7 host{15|22P9}
+74y13*GetToolboxItems{23|20P9} 75^7 76>7
+75p7 This(25R9)
+76p7 host{15|22P9}
+77y13*GetToolboxItems{23|20P9} 78^7 131b23
+78p7 This(25R9)
+79y13*IsSupported{boolean} 80^7 81>7 82>7
+80p7 This(25R9)
+81p7 serializedObject{32|13P9}
+82p7 filterAttributes{11|14P9}
+83y13*IsSupported{boolean} 84^7 85>7 86>7 132b23
+84p7 This(25R9)
+85p7 serializedObject{32|13P9}
+86p7 host{15|22P9}
+87y13*IsToolboxItem{boolean} 88^7 89>7 90>7
+88p7 This(25R9)
+89p7 serializedObject{32|13P9}
+90p7 host{15|22P9}
+91y13*IsToolboxItem{boolean} 92^7 93>7 133b23
+92p7 This(25R9)
+93p7 serializedObject{32|13P9}
+94x14*Refresh 95^7 134b23
+95p7 This(25R9)
+96x14*RemoveCreator 97^7 98>7 99>7
+97p7 This(25R9)
+98p7 format{50|27P9}
+99p7 host{15|22P9}
+100x14*RemoveCreator 101^7 102>7 135b23
+101p7 This(25R9)
+102p7 format{50|27P9}
+103x14*RemoveToolboxItem 104^7 105>7 106>7
+104p7 This(25R9)
+105p7 toolboxItem{22|25P9}
+106p7 category{50|27P9}
+107x14*RemoveToolboxItem 108^7 109>7 136b23
+108p7 This(25R9)
+109p7 toolboxItem{22|25P9}
+110x14*SelectedToolboxItemUsed 111^7 137b23
+111p7 This(25R9)
+112y13*SerializeToolboxItem{32|13P9} 113^7 114>7 138b23
+113p7 This(25R9)
+114p7 toolboxItem{22|25P9}
+115x14*set_SelectedCategory 116^7 117>7 139b23
+116p7 This(25R9)
+117p7 value{50|27P9}
+118y13*SetCursor{boolean} 119^7 140b23
+119p7 This(25R9)
+120x14*SetSelectedToolboxItem 121^7 122>7 141b23
+121p7 This(25R9)
+122p7 toolboxItem{22|25P9}
+X 22 mssyst-drawing-design-toolboxitem.ads
+23K31 ToolboxItem 21|37r43 42r43 46r43 49r43 53r74 57r91 64r91 66r55 105r43
+. 109r43 114r43 122r43
+25P9 Ref(integer) 21|37r55 42r55 46r55 49r55 53r86 57r103 64r103 66r67 105r55
+. 109r55 114r55 122r55
+X 23 mssyst-drawing-design-toolboxitemcollection.ads
+18K31 ToolboxItemCollection 21|69r66 73r91 76r91 78r55
+20P9 Ref(integer) 21|69r88 73r113 76r113 78r77
+X 24 mssyst-drawing-design-toolboxitemcreatorcallback.ads
+24K31 ToolboxItemCreatorCallback 21|28r39 33r39
+26P9 Ref(integer) 21|28r66 33r66
+X 32 mssyst-object.ads
+11K16*Object 21|7w13 53r33 56r33 81r33 85r33 89r33 93r33 114r74 32|46e18
+12R9*Typ 20e14
+13P9*Ref(12R9) 21|53r40 56r40 81r40 85r40 89r40 93r40 114r81
+X 50 mssyst-string.ads
+25K16 String 21|29r23 34r23 38r25 50r25 61r40 69r25 72r25 98r23 102r23 106r25
+. 117r22
+27P9 Ref(integer) 21|29r30 34r30 38r32 50r32 61r47 69r32 72r32 98r30 102r30
+. 106r32 117r29
+

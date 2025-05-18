@@ -1,0 +1,148 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.net.authenticationmanager%s  mssyst-net-authenticationmanager.ads  9bb829ed NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.net%s		mssyst-net.ads		mssyst-net.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-ienumerator.ads  20060131171354 1d07849c
+D mssyst-collections-specialized.ads  20060131171418 96cafd88
+D mssyst-collections-specialized-stringdictionary.ads  20060131171418 78884958
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-net.ads	20060131171420 aa03617c
+D mssyst-net-authenticationmanager.ads  20060131171420 843f0f61
+D mssyst-net-authorization.ads  20060131171420 5589afd2
+D mssyst-net-iauthenticationmodule.ads  20060131171422 1588b7c7
+D mssyst-net-icredentialpolicy.ads  20060131171420 029ddd81
+D mssyst-net-icredentials.ads  20060131171420 a48ba125
+D mssyst-net-security.ads  20060131171422 188c2c6b
+D mssyst-net-security-authenticationlevel.ads  20060131171422 c9f1e882
+D mssyst-net-webrequest.ads  20060131171420 e9f09e1e
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-principal.ads  20060131165230 7adc43fd
+D mssyst-security-principal-tokenimpersonationlevel.ads  20060131171400 bc17af6d
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 18|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 18|7r6 10r6 20r9 27r20 31r19 32r17 33r21 33r57 34r41 35r51
+. 36r42 38r17 39r21 39r57 41r30 43r15 45r30 47r30 58r5 60r20
+X 7 mssyst-collections.ads
+6K16 Collections 18|35r58 36r49
+X 8 mssyst-collections-ienumerator.ads
+11K28 IEnumerator 18|36r61
+13P9 Ref(integer) 18|36r73
+X 9 mssyst-collections-specialized.ads
+6K28 Specialized 18|35r70
+X 10 mssyst-collections-specialized-stringdictionary.ads
+16K40 StringDictionary 18|35r82
+18P9 Ref(integer) 18|35r99
+X 17 mssyst-net.ads
+6K16*Net 6|6k9 17|7e15 18|20r16 32r24 33r28 33r64 34r48 38r24 39r28 39r64
+. 41r37 43r22 45r37 58r12 60r27
+X 18 mssyst-net-authenticationmanager.ads
+20K20*AuthenticationManager 17|6k16 18|58l16 58e37 60r31
+21R9*Typ 22r27 27c9 49r27
+22P9*Ref(21R9) 23r34 24r47
+23P9*Ref_addrof(22P9)
+24A9*Ref_Arr(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27R9*Typ<26|18R9> 29e14 26|23p13 29p13 31p13 36p13
+30V13*Authenticate{19|16P9} 31>7 32>7 33>7 50b23
+31p7 challenge{47|27P9}
+32p7 request{25|30P9}
+33p7 credentials{22|15P9}
+34V13*get_CredentialPolicy{21|16P9} 51b23
+35V13*get_CustomTargetNameDictionary{10|18P9} 52b23
+36V13*get_RegisteredModules{8|13P9} 53b23
+37V13*PreAuthenticate{19|16P9} 38>7 39>7 54b23
+38p7 request{25|30P9}
+39p7 credentials{22|15P9}
+40U14*Register 41>7 55b23
+41p7 authenticationModule{20|16P9}
+42U14*set_CredentialPolicy 43>7 56b23
+43p7 value{21|16P9}
+44U14*Unregister 45>7
+45p7 authenticationModule{20|16P9}
+46U14*Unregister 47>7 57b23
+47p7 authenticationScheme{47|27P9}
+X 19 mssyst-net-authorization.ads
+14K20 Authorization 18|33r68 39r68
+16P9 Ref(integer) 18|33r82 39r82
+X 20 mssyst-net-iauthenticationmodule.ads
+14K20 IAuthenticationModule 18|41r41 45r41
+16P9 Ref(integer) 18|41r63 45r63
+X 21 mssyst-net-icredentialpolicy.ads
+14K20 ICredentialPolicy 18|34r52 43r26
+16P9 Ref(integer) 18|34r70 43r44
+X 22 mssyst-net-icredentials.ads
+13K20 ICredentials 18|33r32 39r32
+15P9 Ref(integer) 18|33r45 39r45
+X 25 mssyst-net-webrequest.ads
+28K20 WebRequest 18|32r28 38r28
+30P9 Ref(integer) 18|32r39 38r39
+X 26 mssyst-object.ads
+11K16*Object 18|7w13 10w13 27r27 26|46e18
+12R9*Typ 18|27r34 26|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{52|51P9}
+36V13*ToString{47|27P9}
+X 47 mssyst-string.ads
+25K16 String 18|31r26 47r37
+27P9 Ref(integer) 18|31r33 47r44
+X 52 mssyst-type_k.ads
+51P9 Ref(integer)
+

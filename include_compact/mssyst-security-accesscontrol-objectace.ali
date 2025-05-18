@@ -1,0 +1,204 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.security.accesscontrol.objectace%s  mssyst-security-accesscontrol-objectace.ads  4dacd61a NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.accesscontrol%s  mssyst-security-accesscontrol.ads  mssyst-security-accesscontrol.ali
+W mssyst.security.accesscontrol.aceflags%s  mssyst-security-accesscontrol-aceflags.ads  mssyst-security-accesscontrol-aceflags.ali
+W mssyst.security.accesscontrol.acequalifier%s  mssyst-security-accesscontrol-acequalifier.ads  mssyst-security-accesscontrol-acequalifier.ali
+W mssyst.security.accesscontrol.acetype%s  mssyst-security-accesscontrol-acetype.ads  mssyst-security-accesscontrol-acetype.ali
+W mssyst.security.accesscontrol.auditflags%s  mssyst-security-accesscontrol-auditflags.ads  mssyst-security-accesscontrol-auditflags.ali
+W mssyst.security.accesscontrol.inheritanceflags%s  mssyst-security-accesscontrol-inheritanceflags.ads  mssyst-security-accesscontrol-inheritanceflags.ali
+W mssyst.security.accesscontrol.objectaceflags%s  mssyst-security-accesscontrol-objectaceflags.ads  mssyst-security-accesscontrol-objectaceflags.ali
+W mssyst.security.accesscontrol.propagationflags%s  mssyst-security-accesscontrol-propagationflags.ads  mssyst-security-accesscontrol-propagationflags.ali
+W mssyst.security.accesscontrol.qualifiedace%s  mssyst-security-accesscontrol-qualifiedace.ads  mssyst-security-accesscontrol-qualifiedace.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-accesscontrol.ads  20060131165242 ec4dfff3
+D mssyst-security-accesscontrol-aceflags.ads  20060131171408 88de89cd
+D mssyst-security-accesscontrol-acequalifier.ads  20060131171408 fa288fc0
+D mssyst-security-accesscontrol-acetype.ads  20060131171408 84c180d0
+D mssyst-security-accesscontrol-auditflags.ads  20060131171410 7b3aaf2b
+D mssyst-security-accesscontrol-genericace.ads  20060131171408 d4153534
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060131171410 f9355c16
+D mssyst-security-accesscontrol-knownace.ads  20060131171408 5ed1d29b
+D mssyst-security-accesscontrol-objectace.ads  20060131171408 3a03fd06
+D mssyst-security-accesscontrol-objectaceflags.ads  20060131171408 40270724
+D mssyst-security-accesscontrol-propagationflags.ads  20060131171410 df68af09
+D mssyst-security-accesscontrol-qualifiedace.ads  20060131171408 e76e2e68
+D mssyst-security-principal.ads  20060131165230 7adc43fd
+D mssyst-security-principal-identityreference.ads  20060131171410 34689de8
+D mssyst-security-principal-securityidentifier.ads  20060131171410 8b8942b1
+D mssyst-security-principal-wellknownsidtype.ads  20060131171410 dbd105a0
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 38|8w6 9r5 44r16 55r20
+24E9*unsigned_int8<character>
+44A9*unsigned_int8_arr(24E9) 38|44r27 55r31
+45P9*Unsigned_Int8_Array(44A9)
+X 6 mssyst.ads
+6K9*MSSyst 7e11 38|7r6 10r6 13r6 14r6 15r6 16r6 17r6 19r6 20r6 24r9 31r20
+. 36r18 37r19 39r13 40r15 41r16 42r23 48r33 50r33 52r33 61r15 64r15 67r15
+. 80r5 82r20
+X 9 mssyst-guid.ads
+15K16 Guid 38|41r23 42r30 48r40 52r40 61r22 67r22
+16R9 ValueType 38|41r28 42r35 48r45 52r45 61r27 67r27
+X 13 mssyst-object.ads
+11K16*Object 46e18 38|7w13
+18R9*Typ
+31V13*GetType{51|51P9}
+36V13*ToString{46|27P9}
+X 29 mssyst-security.ads
+6K16*Security 6|6k9 29|7e20 38|10r13 13r13 14r13 15r13 16r13 17r13 19r13
+. 20r13 24r16 31r27 36r25 37r26 39r20 40r22 50r40 64r22 80r12 82r27
+X 30 mssyst-security-accesscontrol.ads
+6K25*AccessControl 29|6k16 30|7e34 38|10r22 13r22 14r22 15r22 16r22 17r22
+. 19r22 20r22 24r25 31r36 36r34 37r35 40r31 50r49 64r31 80r21 82r36
+X 31 mssyst-security-accesscontrol-aceflags.ads
+15K39*AceFlags 76e43 38|13w36 36r48
+16E9*ValueType 26e18 38|36r57
+X 32 mssyst-security-accesscontrol-acequalifier.ads
+15K39*AceQualifier 62e47 38|14w36 37r49
+16E9*ValueType 20e19 38|37r62
+X 33 mssyst-security-accesscontrol-acetype.ads
+15K39*AceType 89e42 38|15w36
+X 34 mssyst-security-accesscontrol-auditflags.ads
+15K39*AuditFlags 62e45 38|16w36
+X 35 mssyst-security-accesscontrol-genericace.ads
+20P9*Ref(19R9)
+28V13*Copy{20P9}
+33V13*Equals{boolean}
+36V13*get_AceFlags{31|16E9}
+38V13*get_AceType{33|16E9}
+40V13*get_AuditFlags{34|16E9}
+44V13*get_InheritanceFlags{36|16E9}
+46V13*get_IsInherited{boolean}
+48V13*get_PropagationFlags{40|16E9}
+54V13*GetHashCode{integer}
+62U14*set_AceFlags
+X 36 mssyst-security-accesscontrol-inheritanceflags.ads
+15K39*InheritanceFlags 62e51 38|17w36
+X 37 mssyst-security-accesscontrol-knownace.ads
+30V13*get_AccessMask{integer}
+32V13*get_SecurityIdentifier{44|17P9}
+34U14*set_AccessMask
+37U14*set_SecurityIdentifier
+X 38 mssyst-security-accesscontrol-objectace.ads
+24K39*ObjectAce 30|6k25 38|80l35 80e44 82r50
+25R9*Typ 26r27 31c9 46r21 48r21 50r21 52r21 54r21 60r21 63r21 66r21 69r27
+26P9*Ref(25R9) 27r34 28r47 35r14 44r53
+27P9*Ref_addrof(26P9)
+28A9*Ref_Arr(26P9) 29r33
+29P9*Ref_Array(28A9) 30r40
+30P9*Ref_Array_addrof(29P9)
+31R9*Typ<41|29R9> 13|31p13 36p13 35|28p13 33P13 36p13 38p13 40p13 44p13 46p13
+. 48p13 54P13 62p14 37|30p13 32p13 34p14 37p14 38|33e14 45P13 47p13 49p13
+. 51p13 53P14 59p14 62p14 65p14 41|32p13 34p13 36p13 38p13 40p14
+34V13*new_ObjectAce{26P9} 35>7 36>7 37>7 38>7 39>7 40>7 41>7 42>7 43>7 44>7
+. 70r28
+35p7 This{26P9}
+36e7 aceFlags{31|16E9}
+37e7 qualifier{32|16E9}
+38i7 accessMask{integer}
+39p7 sid{44|17P9}
+40e7 flags{39|16E9}
+41r7 type_k{9|16R9}
+42r7 inheritedType{9|16R9}
+43b7 isCallback{boolean}
+44a7 opaque{5|44A9}
+45V13*get_BinaryLength{integer} 46^7 71b23
+46p7 This(31R9)
+47V13*get_InheritedObjectAceType{9|16R9} 48^7 72b23
+48p7 This(31R9)
+49V13*get_ObjectAceFlags{39|16E9} 50^7 73b23
+50p7 This(31R9)
+51V13*get_ObjectAceType{9|16R9} 52^7 74b23
+52p7 This(31R9)
+53U14*GetBinaryForm 54^7 55>7 56>7 75b23
+54p7 This(31R9)
+55a7 binaryForm{5|44A9}
+56i7 offset{integer}
+57V13*MaxOpaqueLength{integer} 58>7 76b23
+58b7 isCallback{boolean}
+59U14*set_InheritedObjectAceType 60^7 61>7 77b23
+60p7 This(31R9)
+61r7 value{9|16R9}
+62U14*set_ObjectAceFlags 63^7 64>7 78b23
+63p7 This(31R9)
+64e7 value{39|16E9}
+65U14*set_ObjectAceType 66^7 67>7 79b23
+66p7 This(31R9)
+67r7 value{9|16R9}
+X 39 mssyst-security-accesscontrol-objectaceflags.ads
+15K39*ObjectAceFlags 38|19w36 40r45 50r63 64r45 39|62e49
+16E9*ValueType 38|40r60 50r78 64r60 39|19e37
+X 40 mssyst-security-accesscontrol-propagationflags.ads
+15K39*PropagationFlags 38|20w36 40|62e51
+X 41 mssyst-security-accesscontrol-qualifiedace.ads
+22K39*QualifiedAce 38|10w36 31r50 41|50e47
+23R9*Typ 38|31r63
+32V13*get_AceQualifier{32|16E9}
+34V13*get_IsCallback{boolean}
+36V13*get_OpaqueLength{integer}
+38V13*GetOpaque{5|45P9}
+40U14*SetOpaque
+X 42 mssyst-security-principal.ads
+6K25 Principal 38|39r29
+X 44 mssyst-security-principal-securityidentifier.ads
+15K35 SecurityIdentifier 38|39r39
+17P9 Ref(integer) 38|39r58
+X 46 mssyst-string.ads
+27P9 Ref(integer)
+X 51 mssyst-type_k.ads
+51P9 Ref(integer)
+

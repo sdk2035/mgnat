@@ -1,0 +1,480 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.interopservices.comtypes.itypeinfo2%s  mssyst-runtime-interopservices-comtypes-itypeinfo2.ads  08688656 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.guid%s		mssyst-guid.ads		mssyst-guid.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.interopservices%s  mssyst-runtime-interopservices.ads  mssyst-runtime-interopservices.ali
+W mssyst.runtime.interopservices.comtypes%s  mssyst-runtime-interopservices-comtypes.ads  mssyst-runtime-interopservices-comtypes.ali
+W mssyst.runtime.interopservices.comtypes.dispparams%s  mssyst-runtime-interopservices-comtypes-dispparams.ads  mssyst-runtime-interopservices-comtypes-dispparams.ali
+W mssyst.runtime.interopservices.comtypes.impltypeflags%s  mssyst-runtime-interopservices-comtypes-impltypeflags.ads  mssyst-runtime-interopservices-comtypes-impltypeflags.ali
+W mssyst.runtime.interopservices.comtypes.itypeinfo%s  mssyst-runtime-interopservices-comtypes-itypeinfo.ads  mssyst-runtime-interopservices-comtypes-itypeinfo.ali
+W mssyst.runtime.interopservices.comtypes.typekind%s  mssyst-runtime-interopservices-comtypes-typekind.ads  mssyst-runtime-interopservices-comtypes-typekind.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060517214748 02f2695c
+D microsoft-win32.ads	20060517214748 bf37fdc1
+D microsoft-win32-safehandles.ads  20060517214748 c240eeab
+D microsoft-win32-safehandles-safefilehandle.ads  20060518130024 34c2417a
+D microsoft-win32-safehandles-safehandlezeroorminusoneisinvalid.ads  20060518130024 66041aba
+D microsoft-win32-safehandles-safewaithandle.ads  20060518130024 ae8855ed
+D msil_types.ads	20060219005222 3027c2c3
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-array_k.ads	20060518130004 44c548ce
+D mssyst-asynccallback.ads  20060518130006 80e54e38
+D mssyst-attribute.ads	20060518130006 394ce8b0
+D mssyst-charenumerator.ads  20060518130008 d83886d0
+D mssyst-collections.ads  20060517214744 22f80fd8
+D mssyst-collections-dictionaryentry.ads  20060518130016 222dd9e6
+D mssyst-collections-icollection.ads  20060518130004 3a339eb6
+D mssyst-collections-icomparer.ads  20060518130006 71266c2a
+D mssyst-collections-idictionary.ads  20060518130016 d5a87938
+D mssyst-collections-idictionaryenumerator.ads  20060518130016 174d5352
+D mssyst-collections-ienumerable.ads  20060518130004 8a6639a6
+D mssyst-collections-ienumerator.ads  20060518130004 bc4e7b44
+D mssyst-collections-ilist.ads  20060518130004 d5fdb5e8
+D mssyst-collections-readonlycollectionbase.ads  20060518130016 2b7b6f73
+D mssyst-configuration.ads  20060517214756 03b06563
+D mssyst-configuration-assemblies.ads  20060517214756 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060518130040 813ea3b2
+D mssyst-configuration-assemblies-assemblyversioncompatibility.ads  20060518130040 80640b26
+D mssyst-datetime.ads	20060518130006 e8dd3274
+D mssyst-datetimekind.ads  20060518130006 db5b4b1d
+D mssyst-dayofweek.ads	20060518130008 4570cbc5
+D mssyst-decimal.ads	20060518130008 5671c372
+D mssyst-delegate.ads	20060518130006 5344fd33
+D mssyst-eventargs.ads	20060518130006 f2d88790
+D mssyst-globalization.ads  20060517214748 13e8d46f
+D mssyst-globalization-calendar.ads  20060518130020 6b493ab4
+D mssyst-globalization-calendaralgorithmtype.ads  20060518130020 3e24c29f
+D mssyst-globalization-calendarweekrule.ads  20060518130020 fd7e4fa4
+D mssyst-globalization-compareinfo.ads  20060518130020 1578aa69
+D mssyst-globalization-compareoptions.ads  20060518130020 aa1d08c4
+D mssyst-globalization-cultureinfo.ads  20060518130020 eff0653d
+D mssyst-globalization-culturetypes.ads  20060518130020 0714709f
+D mssyst-globalization-datetimeformatinfo.ads  20060518130020 12cc668e
+D mssyst-globalization-datetimestyles.ads  20060518130020 493eba39
+D mssyst-globalization-digitshapes.ads  20060518130020 159048c6
+D mssyst-globalization-numberformatinfo.ads  20060518130020 3e2c26cf
+D mssyst-globalization-numberstyles.ads  20060518130020 e67a6e84
+D mssyst-globalization-sortkey.ads  20060518130020 fbdd0312
+D mssyst-globalization-textinfo.ads  20060518130020 87fe0838
+D mssyst-guid.ads	20060518130008 81a28a48
+D mssyst-iasyncresult.ads  20060518130008 f67d3866
+D mssyst-icloneable.ads	20060518130004 e17b533e
+D mssyst-icomparable.ads  20060518130004 bf9ec2a5
+D mssyst-iconvertible.ads  20060518130004 5fd73d03
+D mssyst-idisposable.ads  20060518130004 43dfd267
+D mssyst-iformatprovider.ads  20060518130008 0282a90a
+D mssyst-io.ads		20060517214752 31f12609
+D mssyst-io-fileaccess.ads  20060518130030 86b9fb32
+D mssyst-io-filemode.ads  20060518130030 cd9a2184
+D mssyst-io-fileoptions.ads  20060518130030 dcc00896
+D mssyst-io-fileshare.ads  20060518130030 9c1d8f8e
+D mssyst-io-filestream.ads  20060518130030 e99dd9b5
+D mssyst-io-seekorigin.ads  20060518130030 84ee3c99
+D mssyst-io-stream.ads	20060518130030 8edee4de
+D mssyst-marshalbyrefobject.ads  20060518130006 1fa39a8f
+D mssyst-midpointrounding.ads  20060518130008 67720843
+D mssyst-modulehandle.ads  20060518130010 ea2bb724
+D mssyst-multicastdelegate.ads  20060518130006 378f1b43
+D mssyst-object.ads	20060518130004 47535304
+D mssyst-reflection.ads	20060517214746 25abbfbc
+D mssyst-reflection-assembly.ads  20060518130016 123eb80d
+D mssyst-reflection-assemblyname.ads  20060518130018 15212dcc
+D mssyst-reflection-assemblynameflags.ads  20060518130018 086c5b0c
+D mssyst-reflection-binder.ads  20060518130008 8f817e78
+D mssyst-reflection-bindingflags.ads  20060518130018 44cb2c03
+D mssyst-reflection-callingconventions.ads  20060518130018 6e41b7d5
+D mssyst-reflection-constructorinfo.ads  20060518130018 4a784f3e
+D mssyst-reflection-eventattributes.ads  20060518130018 601969cf
+D mssyst-reflection-eventinfo.ads  20060518130018 d074f51e
+D mssyst-reflection-fieldattributes.ads  20060518130018 7952d5f0
+D mssyst-reflection-fieldinfo.ads  20060518130018 467b8c48
+D mssyst-reflection-genericparameterattributes.ads  20060518130018 bf8892e6
+D mssyst-reflection-icustomattributeprovider.ads  20060518130010 f243134e
+D mssyst-reflection-imagefilemachine.ads  20060518130018 e85430a4
+D mssyst-reflection-interfacemapping.ads  20060518130018 8db7a5bb
+D mssyst-reflection-ireflect.ads  20060518130010 881bf639
+D mssyst-reflection-manifestresourceinfo.ads  20060518130018 ad6bbbfa
+D mssyst-reflection-memberfilter.ads  20060518130018 50297139
+D mssyst-reflection-memberinfo.ads  20060518130010 0224f482
+D mssyst-reflection-membertypes.ads  20060518130018 781a8ce9
+D mssyst-reflection-methodattributes.ads  20060518130018 7f00d77d
+D mssyst-reflection-methodbase.ads  20060518130018 d9f75bde
+D mssyst-reflection-methodbody.ads  20060518130018 57c34b79
+D mssyst-reflection-methodimplattributes.ads  20060518130018 9b393827
+D mssyst-reflection-methodinfo.ads  20060518130018 9554c467
+D mssyst-reflection-module.ads  20060518130018 f7c1ae4f
+D mssyst-reflection-moduleresolveeventhandler.ads  20060518130016 55175e4b
+D mssyst-reflection-parameterattributes.ads  20060518130018 9852456a
+D mssyst-reflection-parameterinfo.ads  20060518130018 9faca9a0
+D mssyst-reflection-parametermodifier.ads  20060518130018 bf1ace9a
+D mssyst-reflection-portableexecutablekinds.ads  20060518130018 7dc22cdb
+D mssyst-reflection-processorarchitecture.ads  20060518130018 ed5839f4
+D mssyst-reflection-propertyattributes.ads  20060518130018 b25fd6ac
+D mssyst-reflection-propertyinfo.ads  20060518130018 83708877
+D mssyst-reflection-resourcelocation.ads  20060518130018 f7e12499
+D mssyst-reflection-strongnamekeypair.ads  20060518130018 80794f06
+D mssyst-reflection-typeattributes.ads  20060518130018 4ce15869
+D mssyst-reflection-typefilter.ads  20060518130018 1bb8611f
+D mssyst-resolveeventargs.ads  20060518130006 a313837d
+D mssyst-runtime.ads	20060517214744 31dcc047
+D mssyst-runtime-constrainedexecution.ads  20060517214746 f6aa2aec
+D mssyst-runtime-constrainedexecution-criticalfinalizerobject.ads  20060518130008 d30c8885
+D mssyst-runtime-interopservices.ads  20060517214744 59769bf0
+D mssyst-runtime-interopservices-charset.ads  20060518130026 91df90fa
+D mssyst-runtime-interopservices-comtypes.ads  20060517214752 c90b3930
+D mssyst-runtime-interopservices-comtypes-bindptr.ads  20060518130028 4a970972
+D mssyst-runtime-interopservices-comtypes-desckind.ads  20060518130028 7171518a
+D mssyst-runtime-interopservices-comtypes-dispparams.ads  20060518130028 209065a8
+D mssyst-runtime-interopservices-comtypes-impltypeflags.ads  20060518130028 338cd8dd
+D mssyst-runtime-interopservices-comtypes-invokekind.ads  20060518130028 42575f07
+D mssyst-runtime-interopservices-comtypes-itypecomp.ads  20060518130028 5e56bd72
+D mssyst-runtime-interopservices-comtypes-itypeinfo.ads  20060518130028 93f92225
+D mssyst-runtime-interopservices-comtypes-itypeinfo2.ads  20060518130030 f386c2dc
+D mssyst-runtime-interopservices-comtypes-itypelib.ads  20060518130030 c5098dea
+D mssyst-runtime-interopservices-comtypes-typekind.ads  20060518130028 24530fa5
+D mssyst-runtime-interopservices-layoutkind.ads  20060518130026 c12116e8
+D mssyst-runtime-interopservices-safehandle.ads  20060518130010 973569bf
+D mssyst-runtime-interopservices-structlayoutattribute.ads  20060518130026 78989125
+D mssyst-runtime-interopservices-uassembly.ads  20060518130016 f96b0f31
+D mssyst-runtime-interopservices-uassemblyname.ads  20060518130018 de1b10ef
+D mssyst-runtime-interopservices-uattribute.ads  20060518130006 caafc494
+D mssyst-runtime-interopservices-uconstructorinfo.ads  20060518130018 c34639c6
+D mssyst-runtime-interopservices-ueventinfo.ads  20060518130018 04844734
+D mssyst-runtime-interopservices-ufieldinfo.ads  20060518130018 cdb9c056
+D mssyst-runtime-interopservices-umemberinfo.ads  20060518130010 e5d5c7c0
+D mssyst-runtime-interopservices-umethodbase.ads  20060518130018 1ff9475f
+D mssyst-runtime-interopservices-umethodinfo.ads  20060518130018 fc46035a
+D mssyst-runtime-interopservices-umodule.ads  20060518130018 85209d28
+D mssyst-runtime-interopservices-uparameterinfo.ads  20060518130018 b106ef1a
+D mssyst-runtime-interopservices-upropertyinfo.ads  20060518130018 f015b8d5
+D mssyst-runtime-interopservices-utype.ads  20060518130010 edc8eebe
+D mssyst-runtime-remoting.ads  20060517214746 74500271
+D mssyst-runtime-remoting-ichannelinfo.ads  20060518130036 42c0549f
+D mssyst-runtime-remoting-ienvoyinfo.ads  20060518130036 0d613007
+D mssyst-runtime-remoting-iremotingtypeinfo.ads  20060518130036 9c09dda1
+D mssyst-runtime-remoting-messaging.ads  20060517214754 4bfbab1c
+D mssyst-runtime-remoting-messaging-imessage.ads  20060518130034 bf177a61
+D mssyst-runtime-remoting-messaging-imessagectrl.ads  20060518130034 e22b39ed
+D mssyst-runtime-remoting-messaging-imessagesink.ads  20060518130034 9c27ef9e
+D mssyst-runtime-remoting-objref.ads  20060518130036 cc63dccf
+D mssyst-runtime-serialization.ads  20060517214744 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060518130016 a25d9d2b
+D mssyst-runtime-serialization-iformatterconverter.ads  20060518130018 02d31acb
+D mssyst-runtime-serialization-iobjectreference.ads  20060518130008 c3279c62
+D mssyst-runtime-serialization-iserializable.ads  20060518130006 bc8947c1
+D mssyst-runtime-serialization-serializationentry.ads  20060518130020 a6dd57a6
+D mssyst-runtime-serialization-serializationinfo.ads  20060518130020 fe6300a3
+D mssyst-runtime-serialization-serializationinfoenumerator.ads  20060518130020 b2a6a08c
+D mssyst-runtime-serialization-streamingcontext.ads  20060518130020 b7580dc0
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060518130020 ab32dd44
+D mssyst-runtimefieldhandle.ads  20060518130010 1a535b0a
+D mssyst-runtimemethodhandle.ads  20060518130010 b5a8fc11
+D mssyst-runtimetypehandle.ads  20060518130010 2dc72f74
+D mssyst-sbyte.ads	20060518130010 0b40b4c3
+D mssyst-security.ads	20060517214744 a4c8227c
+D mssyst-security-accesscontrol.ads  20060517214756 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060518130042 da644f3b
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060518130042 983129b3
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060518130042 aaa7f08e
+D mssyst-security-accesscontrol-accessrule.ads  20060518130042 357b7164
+D mssyst-security-accesscontrol-auditflags.ads  20060518130042 6697b648
+D mssyst-security-accesscontrol-auditrule.ads  20060518130042 548a6e76
+D mssyst-security-accesscontrol-authorizationrule.ads  20060518130042 d4d98288
+D mssyst-security-accesscontrol-authorizationrulecollection.ads  20060518130042 bd787679
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060518130042 87d97b1c
+D mssyst-security-accesscontrol-filesecurity.ads  20060518130042 d4ef23f2
+D mssyst-security-accesscontrol-filesystemaccessrule.ads  20060518130042 3996455e
+D mssyst-security-accesscontrol-filesystemauditrule.ads  20060518130042 364a20bb
+D mssyst-security-accesscontrol-filesystemrights.ads  20060518130042 99ab4846
+D mssyst-security-accesscontrol-filesystemsecurity.ads  20060518130042 6b12c956
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060518130042 cb8e28ec
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060518130042 68e32c77
+D mssyst-security-accesscontrol-objectsecurity.ads  20060518130042 d97d6fc7
+D mssyst-security-accesscontrol-propagationflags.ads  20060518130042 7d0c8f98
+D mssyst-security-cryptography.ads  20060517214756 6bbb0e6b
+D mssyst-security-cryptography-x509certificates.ads  20060517214756 1b20ddcc
+D mssyst-security-cryptography-x509certificates-x509certificate.ads  20060518130042 438b9ef5
+D mssyst-security-cryptography-x509certificates-x509contenttype.ads  20060518130042 6cfaa0cf
+D mssyst-security-cryptography-x509certificates-x509keystorageflags.ads  20060518130042 db32c0bb
+D mssyst-security-ievidencefactory.ads  20060518130006 43c6d461
+D mssyst-security-policy.ads  20060517214748 7a609687
+D mssyst-security-policy-evidence.ads  20060518130024 1eabe8be
+D mssyst-security-principal.ads  20060517214748 7adc43fd
+D mssyst-security-principal-identityreference.ads  20060518130042 0b9e5f80
+D mssyst-security-securestring.ads  20060518130034 a9a06371
+D mssyst-string.ads	20060518130004 b98d995f
+D mssyst-stringcomparison.ads  20060518130006 86ec68cf
+D mssyst-stringsplitoptions.ads  20060518130006 f2d0599e
+D mssyst-text.ads	20060517214744 a7ed250d
+D mssyst-text-decoder.ads  20060518130022 3b11b35a
+D mssyst-text-decoderfallback.ads  20060518130022 75e2f645
+D mssyst-text-decoderfallbackbuffer.ads  20060518130022 cf5e5e9e
+D mssyst-text-encoder.ads  20060518130022 58ffabf7
+D mssyst-text-encoderfallback.ads  20060518130022 77489063
+D mssyst-text-encoderfallbackbuffer.ads  20060518130022 50c8196a
+D mssyst-text-encoding.ads  20060518130022 9fed9190
+D mssyst-text-encodinginfo.ads  20060518130022 ce8a22c1
+D mssyst-text-normalizationform.ads  20060518130022 2ca43f9a
+D mssyst-threading.ads	20060517214746 964d65eb
+D mssyst-threading-waithandle.ads  20060518130010 cebe4958
+D mssyst-timespan.ads	20060518130010 642ef661
+D mssyst-type_k.ads	20060518130010 5ccf03f1
+D mssyst-typecode.ads	20060518130010 f5c22e86
+D mssyst-typedreference.ads  20060518130010 9b3bbb41
+D mssyst-valuetype.ads	20060518130004 4fb553b0
+D mssyst-version.ads	20060518130010 523fbb99
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 14 msil_types.ads
+5K9*Msil_Types 66e15 128|7w6 8r5 29r13 37r19 41r19 45r19 50r19 54r19 58r16
+. 67r22 68r19 69r19 75r23 81r30 91r20 96r20 101r16 120r17 134r14 137r20 143r20
+. 155r19 159r19 164r16 166r20 167r20 168r18 171r19 174r19 177r18
+18I9*int16<short_integer> 128|164r27
+32A9*int32_arr(integer) 128|101r27
+50M9*native_int 128|37r30 41r30 45r30 50r30 54r30 67r33 68r30 69r30 166r31
+. 167r31 171r30 174r30 177r29
+57M9*int32_addrof 128|58r27 75r34 81r41 96r31 120r28 134r25 143r31 159r30
+. 168r29
+64P9*native_int_addrof(50M9) 128|29r24 91r31 137r31 155r30
+X 15 mssyst.ads
+6K9*MSSyst 7e11 128|6r6 9r6 10r6 11r6 14r6 16r6 18r9 28r17 32r26 33r21 34r23
+. 57r22 61r21 62r24 66r17 73r24 74r29 76r28 80r32 82r35 86r21 87r24 95r17
+. 99r26 105r21 106r24 110r31 114r26 118r28 125r21 126r24 130r21 140r24 146r26
+. 150r21 151r24 162r27 165r28 213r5 214r20
+X 55 mssyst-guid.ads
+13K16*Guid 94e16 128|9w13 33r28 61r28 86r28 105r28 125r28 150r28
+14R9*ValueType<220|12R9> 14e63 128|33r33 61r33 86r33 105r33 125r33 150r33
+X 74 mssyst-object.ads
+10K16*Object 44e18 128|6w13 32r33 34r30 62r31 87r31 106r31 126r31 151r31
+. 162r34
+11R9*Typ 13e14 128|32r40 162r41
+14P9*Ref(11R9) 128|34r37 62r38 87r38 106r38 126r38 151r38
+X 115 mssyst-runtime.ads
+6K16*Runtime 15|6k9 115|7e19 128|10r13 11r13 14r13 16r13 18r16 28r24 57r29
+. 66r24 95r24 110r38 130r28 140r31 146r33 165r35 213r12 214r27
+X 118 mssyst-runtime-interopservices.ads
+6K24*InteropServices 115|6k16 118|7e35 128|10r21 11r21 14r21 16r21 18r24
+. 28r32 57r37 66r32 95r32 110r46 130r36 140r39 146r41 165r43 213r20 214r35
+X 120 mssyst-runtime-interopservices-comtypes.ads
+6K40*ComTypes 118|6k24 120|7e44 128|10r37 11r37 14r37 16r37 18r40 28r48 57r53
+. 66r48 95r48 110r62 130r52 140r55 146r57 165r59 213r36 214r51
+X 123 mssyst-runtime-interopservices-comtypes-dispparams.ads
+12K49*DISPPARAMS 19e55 128|10w46 165r68
+13R9*ValueType<220|12R9> 13e63 128|165r79
+X 124 mssyst-runtime-interopservices-comtypes-impltypeflags.ads
+13K49*IMPLTYPEFLAGS 62e58 128|11w46 110r71
+14E9*ValueType 18e35 128|110r85
+X 125 mssyst-runtime-interopservices-comtypes-invokekind.ads
+13K49 INVOKEKIND 128|28r57 66r57 95r57
+X 126 mssyst-runtime-interopservices-comtypes-itypecomp.ads
+13K49 ITypeComp 128|140r64
+X 127 mssyst-runtime-interopservices-comtypes-itypeinfo.ads
+16K49*ITypeInfo 130e54 128|14w46 130r61
+17H9*Typ
+18P9*Ref(17R9) 128|130r71
+X 128 mssyst-runtime-interopservices-comtypes-itypeinfo2.ads
+18K49*ITypeInfo2 120|6k40 128|213l45 213e55 214r60
+19H9*Typ 20r27 25p14 26r21 30p14 31r21 35p14 36r21 38p14 39r21 42p14 43r21
+. 46p14 47r21 51p14 52r21 55p14 56r21 59p14 60r21 63p14 64r21 70p14 71r21
+. 77p14 78r21 83p14 84r21 88p14 89r21 92p14 93r21 97p14 98r21 102p14 103r21
+. 107p14 108r21 111p14 112r21 115p14 116r21 121p14 122r21 127p14 128r21 131p14
+. 132r21 135p14 136r21 138p14 139r21 141p14 142r21 144p14 145r21 147p14 148r21
+. 152p14 153r21 156p14 157r21 160p14 161r21 169p14 170r21 172p14 173r21 175p14
+. 176r21
+20P9*Ref(19R9) 21r34 22r47
+21P9*Ref_addrof(20P9)
+22A9*Ref_Arr(20P9) 23r33
+23P9*Ref_Array(22A9) 24r40
+24P9*Ref_Array_addrof(23P9)
+25x14*AddressOfMember 26^7 27>7 28>7 29>7 179b23
+26p7 This(19R9)
+27i7 memid{integer}
+28+7 invKind
+29p7 ppv{14|64P9}
+30x14*CreateInstance 31^7 32^7 33^7 34^7 180b23
+31p7 This(19R9)
+32p7 pUnkOuter(74|11R9)
+33p7 riid(55|14R9)
+34p7 ppvObj(74|14P9)
+35x14*GetAllCustData 36^7 37>7 181b23
+36p7 This(19R9)
+37m7 pCustData{14|50M9}
+38x14*GetAllFuncCustData 39^7 40>7 41>7 182b23
+39p7 This(19R9)
+40i7 index{integer}
+41m7 pCustData{14|50M9}
+42x14*GetAllImplTypeCustData 43^7 44>7 45>7 183b23
+43p7 This(19R9)
+44i7 index{integer}
+45m7 pCustData{14|50M9}
+46x14*GetAllParamCustData 47^7 48>7 49>7 50>7 184b23
+47p7 This(19R9)
+48i7 indexFunc{integer}
+49i7 indexParam{integer}
+50m7 pCustData{14|50M9}
+51x14*GetAllVarCustData 52^7 53>7 54>7 185b23
+52p7 This(19R9)
+53i7 index{integer}
+54m7 pCustData{14|50M9}
+55x14*GetContainingTypeLib 56^7 57^7 58>7 186b23
+56p7 This(19R9)
+57p7 ppTLB
+58m7 pIndex{14|57M9}
+59x14*GetCustData 60^7 61^7 62^7 187b23
+60p7 This(19R9)
+61p7 guid(55|14R9)
+62p7 pVarVal(74|14P9)
+63x14*GetDllEntry 64^7 65>7 66>7 67>7 68>7 69>7 188b23
+64p7 This(19R9)
+65i7 memid{integer}
+66+7 invKind
+67m7 pBstrDllName{14|50M9}
+68m7 pBstrName{14|50M9}
+69m7 pwOrdinal{14|50M9}
+70x14*GetDocumentation 71^7 72>7 73^7 74^7 75>7 76^7 189b23
+71p7 This(19R9)
+72i7 index{integer}
+73p7 strName
+74p7 strDocString
+75m7 dwHelpContext{14|57M9}
+76p7 strHelpFile
+77x14*GetDocumentation2 78^7 79>7 80^7 81>7 82^7 190b23
+78p7 This(19R9)
+79i7 memid{integer}
+80p7 pbstrHelpString
+81m7 pdwHelpStringContext{14|57M9}
+82p7 pbstrHelpStringDll
+83x14*GetFuncCustData 84^7 85>7 86^7 87^7 191b23
+84p7 This(19R9)
+85i7 index{integer}
+86p7 guid(55|14R9)
+87p7 pVarVal(74|14P9)
+88x14*GetFuncDesc 89^7 90>7 91>7 192b23
+89p7 This(19R9)
+90i7 index{integer}
+91p7 ppFuncDesc{14|64P9}
+92x14*GetFuncIndexOfMemId 93^7 94>7 95>7 96>7 193b23
+93p7 This(19R9)
+94i7 memid{integer}
+95+7 invKind
+96m7 pFuncIndex{14|57M9}
+97x14*GetIDsOfNames 98^7 99^7 100>7 101>7 194b23
+98p7 This(19R9)
+99p7 rgszNames
+100i7 cNames{integer}
+101a7 pMemId{14|32A9}
+102x14*GetImplTypeCustData 103^7 104>7 105^7 106^7 195b23
+103p7 This(19R9)
+104i7 index{integer}
+105p7 guid(55|14R9)
+106p7 pVarVal(74|14P9)
+107x14*GetImplTypeFlags 108^7 109>7 110^7 196b23
+108p7 This(19R9)
+109i7 index{integer}
+110p7 pImplTypeFlags(124|14E9)
+111x14*GetMops 112^7 113>7 114^7 197b23
+112p7 This(19R9)
+113i7 memid{integer}
+114p7 pBstrMops
+115x14*GetNames 116^7 117>7 118^7 119>7 120>7 198b23
+116p7 This(19R9)
+117i7 memid{integer}
+118p7 rgBstrNames
+119i7 cMaxNames{integer}
+120m7 pcNames{14|57M9}
+121x14*GetParamCustData 122^7 123>7 124>7 125^7 126^7 199b23
+122p7 This(19R9)
+123i7 indexFunc{integer}
+124i7 indexParam{integer}
+125p7 guid(55|14R9)
+126p7 pVarVal(74|14P9)
+127x14*GetRefTypeInfo 128^7 129>7 130^7 200b23
+128p7 This(19R9)
+129i7 hRef{integer}
+130p7 ppTI(127|18P9)
+131x14*GetRefTypeOfImplType 132^7 133>7 134>7 201b23
+132p7 This(19R9)
+133i7 index{integer}
+134m7 href{14|57M9}
+135x14*GetTypeAttr 136^7 137>7 202b23
+136p7 This(19R9)
+137p7 ppTypeAttr{14|64P9}
+138x14*GetTypeComp 139^7 140^7 203b23
+139p7 This(19R9)
+140p7 ppTComp
+141x14*GetTypeFlags 142^7 143>7 204b23
+142p7 This(19R9)
+143m7 pTypeFlags{14|57M9}
+144x14*GetTypeKind 145^7 146^7 205b23
+145p7 This(19R9)
+146p7 pTypeKind(130|14E9)
+147x14*GetVarCustData 148^7 149>7 150^7 151^7 206b23
+148p7 This(19R9)
+149i7 index{integer}
+150p7 guid(55|14R9)
+151p7 pVarVal(74|14P9)
+152x14*GetVarDesc 153^7 154>7 155>7 207b23
+153p7 This(19R9)
+154i7 index{integer}
+155p7 ppVarDesc{14|64P9}
+156x14*GetVarIndexOfMemId 157^7 158>7 159>7 208b23
+157p7 This(19R9)
+158i7 memid{integer}
+159m7 pVarIndex{14|57M9}
+160x14*Invoke 161^7 162^7 163>7 164>7 165^7 166>7 167>7 168>7 209b23
+161p7 This(19R9)
+162p7 pvInstance(74|11R9)
+163i7 memid{integer}
+164i7 wFlags{14|18I9}
+165p7 pDispParams(123|13R9)
+166m7 pVarResult{14|50M9}
+167m7 pExcepInfo{14|50M9}
+168m7 puArgErr{14|57M9}
+169x14*ReleaseFuncDesc 170^7 171>7 210b23
+170p7 This(19R9)
+171m7 pFuncDesc{14|50M9}
+172x14*ReleaseTypeAttr 173^7 174>7 211b23
+173p7 This(19R9)
+174m7 pTypeAttr{14|50M9}
+175x14*ReleaseVarDesc 176^7 177>7 212b23
+176p7 This(19R9)
+177m7 pVarDesc{14|50M9}
+X 129 mssyst-runtime-interopservices-comtypes-itypelib.ads
+14K49 ITypeLib 128|57r62
+X 130 mssyst-runtime-interopservices-comtypes-typekind.ads
+13K49*TYPEKIND 128|16w46 146r66 130|70e53
+14E9*ValueType 128|146r75 130|23e17
+X 201 mssyst-string.ads
+23K16 String 128|73r31 74r36 76r35 80r39 82r42 99r33 114r33 118r35
+

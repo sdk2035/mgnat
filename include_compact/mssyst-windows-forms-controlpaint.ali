@@ -1,0 +1,526 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.controlpaint%s  mssyst-windows-forms-controlpaint.ads  02a372a5 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.border3dside%s  mssyst-windows-forms-border3dside.ads  mssyst-windows-forms-border3dside.ali
+W mssyst.windows.forms.border3dstyle%s  mssyst-windows-forms-border3dstyle.ads  mssyst-windows-forms-border3dstyle.ali
+W mssyst.windows.forms.buttonborderstyle%s  mssyst-windows-forms-buttonborderstyle.ads  mssyst-windows-forms-buttonborderstyle.ali
+W mssyst.windows.forms.buttonstate%s  mssyst-windows-forms-buttonstate.ads  mssyst-windows-forms-buttonstate.ali
+W mssyst.windows.forms.captionbutton%s  mssyst-windows-forms-captionbutton.ads  mssyst-windows-forms-captionbutton.ali
+W mssyst.windows.forms.framestyle%s  mssyst-windows-forms-framestyle.ads  mssyst-windows-forms-framestyle.ali
+W mssyst.windows.forms.menuglyph%s  mssyst-windows-forms-menuglyph.ads  mssyst-windows-forms-menuglyph.ali
+W mssyst.windows.forms.scrollbutton%s  mssyst-windows-forms-scrollbutton.ads  mssyst-windows-forms-scrollbutton.ali
+W mssyst.windows.forms.textformatflags%s  mssyst-windows-forms-textformatflags.ads  mssyst-windows-forms-textformatflags.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-bitmap.ads  20060131171428 6a48fdc0
+D mssyst-drawing-characterrange.ads  20060131171432 d86a1dc9
+D mssyst-drawing-color.ads  20060131171430 efe0dbd6
+D mssyst-drawing-copypixeloperation.ads  20060131171430 bcae6884
+D mssyst-drawing-drawing2d.ads  20060131171430 02b10736
+D mssyst-drawing-drawing2d-combinemode.ads  20060131171430 467ba574
+D mssyst-drawing-drawing2d-compositingmode.ads  20060131171430 3ce094d4
+D mssyst-drawing-drawing2d-compositingquality.ads  20060131171430 777a28ce
+D mssyst-drawing-drawing2d-coordinatespace.ads  20060131171430 4eae09c0
+D mssyst-drawing-drawing2d-fillmode.ads  20060131171430 fd618471
+D mssyst-drawing-drawing2d-flushintention.ads  20060131171430 c85a32e0
+D mssyst-drawing-drawing2d-interpolationmode.ads  20060131171430 923a6e49
+D mssyst-drawing-drawing2d-matrixorder.ads  20060131171430 32337ee5
+D mssyst-drawing-drawing2d-pixeloffsetmode.ads  20060131171432 290cbe8f
+D mssyst-drawing-drawing2d-smoothingmode.ads  20060131171432 35dda90b
+D mssyst-drawing-font.ads  20060131171430 86695792
+D mssyst-drawing-fontstyle.ads  20060131171430 a1bbe068
+D mssyst-drawing-graphics.ads  20060131171430 a787a9b1
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-idevicecontext.ads  20060131171428 3b407974
+D mssyst-drawing-image.ads  20060131171428 3db9ccbe
+D mssyst-drawing-imaging.ads  20060131171430 83f7d7de
+D mssyst-drawing-imaging-imagelockmode.ads  20060131171430 48a8fce8
+D mssyst-drawing-imaging-pixelformat.ads  20060131171432 0f821f81
+D mssyst-drawing-knowncolor.ads  20060131171430 28ff3226
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-pointf.ads  20060131171432 a63d5a83
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-rectanglef.ads  20060131171432 7fcf14fa
+D mssyst-drawing-rotatefliptype.ads  20060131171430 5968574e
+D mssyst-drawing-size.ads  20060131171430 9e839193
+D mssyst-drawing-stringalignment.ads  20060131171432 211d31e2
+D mssyst-drawing-stringdigitsubstitute.ads  20060131171432 47567d09
+D mssyst-drawing-stringformat.ads  20060131171432 876e4f88
+D mssyst-drawing-stringformatflags.ads  20060131171432 c8a9661a
+D mssyst-drawing-stringtrimming.ads  20060131171432 4669219b
+D mssyst-drawing-text.ads  20060131171430 47e8b126
+D mssyst-drawing-text-hotkeyprefix.ads  20060131171430 8eb8b883
+D mssyst-drawing-text-textrenderinghint.ads  20060131171432 e6fd5e60
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-border3dside.ads  20060131171436 8c75c206
+D mssyst-windows-forms-border3dstyle.ads  20060131171436 f318467d
+D mssyst-windows-forms-buttonborderstyle.ads  20060131171436 1ac23e13
+D mssyst-windows-forms-buttonstate.ads  20060131171436 00d57aa0
+D mssyst-windows-forms-captionbutton.ads  20060131171436 f87f70d4
+D mssyst-windows-forms-controlpaint.ads  20060131171438 56715d40
+D mssyst-windows-forms-framestyle.ads  20060131171442 c261c642
+D mssyst-windows-forms-menuglyph.ads  20060131171444 f2281452
+D mssyst-windows-forms-scrollbutton.ads  20060131171446 a060a57e
+D mssyst-windows-forms-textformatflags.ads  20060131171450 2ab4374e
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 88|8w6 9r5 45r59 48r24 48r54 50r50
+52M9*native_int 88|45r70 48r35 48r65 50r61
+X 6 mssyst.ads
+6K9*MSSyst 7e11 88|7r6 10r6 15r6 16r6 17r6 18r6 19r6 22r6 23r6 25r6 29r6
+. 33r9 40r20 44r16 45r20 47r16 50r16 52r19 52r58 54r19 55r38 57r19 57r58
+. 59r18 60r16 61r19 63r19 64r18 66r18 67r20 69r20 70r21 72r21 74r18 75r16
+. 76r15 77r15 79r18 85r18 90r15 92r18 97r15 98r15 100r18 101r19 102r15 103r15
+. 105r18 106r19 108r18 109r19 110r15 112r18 117r15 119r18 120r19 121r15 123r18
+. 128r16 129r15 131r18 132r19 133r16 134r15 136r18 141r15 143r18 144r19 145r15
+. 147r18 152r15 154r18 155r19 156r15 158r18 159r16 161r18 162r19 163r19 164r19
+. 166r18 167r19 169r18 170r19 174r18 175r14 176r27 177r19 179r18 180r15 183r20
+. 185r18 186r19 189r18 194r15 196r18 201r15 202r19 203r19 205r18 206r19 207r15
+. 208r19 209r19 211r18 212r19 213r15 215r18 220r15 222r18 223r19 224r15 226r18
+. 231r15 233r18 234r19 235r15 237r19 238r19 239r15 241r15 242r15 243r19 245r18
+. 250r16 251r15 253r18 254r19 255r16 256r15 258r18 260r21 261r20 262r19 264r18
+. 265r19 271r18 272r19 273r16 275r12 276r11 277r14 278r15 279r25 280r16 282r18
+. 283r11 284r14 285r15 286r25 287r16 289r18 290r16 292r19 293r19 294r44 296r19
+. 296r58 298r19 299r40 301r19 301r58 335r5 337r20
+X 7 mssyst-drawing.ads
+6K16 Drawing 88|44r23 45r27 47r23 50r23 52r26 52r65 54r26 55r45 57r26 57r65
+. 59r25 60r23 61r26 64r25 67r27 70r28 74r25 75r23 76r22 79r25 85r25 92r25
+. 100r25 101r26 105r25 106r26 108r25 109r26 112r25 119r25 120r26 123r25 131r25
+. 132r26 136r25 143r25 144r26 147r25 154r25 155r26 158r25 159r23 161r25 162r26
+. 163r26 164r26 166r25 167r26 169r25 170r26 174r25 175r21 176r34 177r26 179r25
+. 180r22 183r27 185r25 186r26 189r25 196r25 202r26 203r26 205r25 206r26 208r26
+. 209r26 211r25 212r26 215r25 222r25 223r26 226r25 233r25 234r26 237r26 238r26
+. 241r22 242r22 243r26 245r25 253r25 254r26 258r25 260r28 261r27 262r26 264r25
+. 265r26 271r25 272r26 273r23 275r19 277r21 278r22 279r32 282r25 284r21 285r22
+. 286r32 287r23 289r25 290r23 292r26 293r26 294r51 296r26 296r65 298r26 299r47
+. 301r26 301r65
+X 8 mssyst-drawing-bitmap.ads
+38K24 Bitmap 88|44r31 47r31 50r31
+40P9 Ref(integer) 88|44r38 47r38 50r38
+X 10 mssyst-drawing-color.ads
+15K24 Color 88|45r35 52r34 52r73 54r34 55r53 57r34 57r73 61r34 64r33 67r35
+. 70r36 76r30 163r34 164r34 177r34 183r35 202r34 203r34 208r34 209r34 238r34
+. 243r34 262r34 265r34 272r34 278r30 285r30 293r34 294r59 296r34 296r73 298r34
+. 299r55 301r34 301r73
+16R9 ValueType 88|45r41 52r40 52r79 54r40 55r59 57r40 57r79 61r40 64r39 67r41
+. 70r42 76r36 163r40 164r40 177r40 183r41 202r40 203r40 208r40 209r40 238r40
+. 243r40 262r40 265r40 272r40 278r36 285r36 293r40 294r65 296r40 296r79 298r40
+. 299r61 301r40 301r79
+X 23 mssyst-drawing-font.ads
+21K24 Font 88|277r29 284r29
+23P9 Ref(integer) 88|277r34 284r34
+X 25 mssyst-drawing-graphics.ads
+56K24 Graphics 88|59r33 74r33 79r33 85r33 92r33 100r33 105r33 108r33 112r33
+. 119r33 123r33 131r33 136r33 143r33 147r33 154r33 158r33 161r33 166r33 169r33
+. 174r33 179r33 185r33 189r33 196r33 205r33 211r33 215r33 222r33 226r33 233r33
+. 245r33 253r33 258r33 264r33 271r33 282r33 289r33
+58P9 Ref(integer) 88|59r42 74r42 79r42 85r42 92r42 100r42 105r42 108r42 112r42
+. 119r42 123r42 131r42 136r42 143r42 147r42 154r42 158r42 161r42 166r42 169r42
+. 174r42 179r42 185r42 189r42 196r42 205r42 211r42 215r42 222r42 226r42 233r42
+. 245r42 253r42 258r42 264r42 271r42 282r42 289r42
+X 27 mssyst-drawing-idevicecontext.ads
+10K24 IDeviceContext 88|275r27
+12P9 Ref(integer) 88|275r42
+X 28 mssyst-drawing-image.ads
+34K24 Image 88|180r30
+36P9 Ref(integer) 88|180r36
+X 33 mssyst-drawing-point.ads
+16K24 Point 88|241r30 242r30
+17R9 ValueType 88|241r36 242r36
+X 35 mssyst-drawing-rectangle.ads
+17K24 Rectangle 88|60r31 75r31 101r34 106r34 109r34 120r34 132r34 144r34
+. 155r34 159r31 162r34 167r34 170r34 175r29 186r34 206r34 212r34 223r34 234r34
+. 237r34 254r34 260r36 261r35 273r31 279r40 290r31 292r34
+18R9 ValueType 88|60r41 75r41 101r44 106r44 109r44 120r44 132r44 144r44 155r44
+. 159r41 162r44 167r44 170r44 175r39 186r44 206r44 212r44 223r44 234r44 237r44
+. 254r44 260r46 261r45 273r41 279r50 290r41 292r44
+X 36 mssyst-drawing-rectanglef.ads
+17K24 RectangleF 88|286r40
+18R9 ValueType 88|286r51
+X 38 mssyst-drawing-size.ads
+16K24 Size 88|176r42
+17R9 ValueType 88|176r47
+X 41 mssyst-drawing-stringformat.ads
+22K24 StringFormat 88|287r31
+24P9 Ref(integer) 88|287r44
+X 54 mssyst-object.ads
+11K16*Object 46e18 88|7w13 10w13 40r27
+12R9*Typ 20e14 88|40r34
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{77|51P9}
+36V13*ToString{72|27P9}
+X 72 mssyst-string.ads
+25K16 String 88|276r18 283r18
+27P9 Ref(integer) 88|276r25 283r25
+X 77 mssyst-type_k.ads
+51P9 Ref(integer)
+X 81 mssyst-windows.ads
+6K16*Windows 6|6k9 81|7e19 88|15r13 16r13 17r13 18r13 19r13 22r13 23r13 25r13
+. 29r13 33r16 63r26 66r25 69r27 72r28 77r22 90r22 97r22 98r22 102r22 103r22
+. 110r22 117r22 121r22 128r23 129r22 133r23 134r22 141r22 145r22 152r22 156r22
+. 194r22 201r22 207r22 213r22 220r22 224r22 231r22 235r22 239r22 250r23 251r22
+. 255r23 256r22 280r23 335r12 337r27
+X 82 mssyst-windows-forms.ads
+6K24*Forms 81|6k16 82|7e25 88|15r21 16r21 17r21 18r21 19r21 22r21 23r21 25r21
+. 29r21 33r24 63r34 66r33 69r35 72r36 77r30 90r30 97r30 98r30 102r30 103r30
+. 110r30 117r30 121r30 128r31 129r30 133r31 134r30 141r30 145r30 152r30 156r30
+. 194r30 201r30 207r30 213r30 220r30 224r30 231r30 235r30 239r30 250r31 251r30
+. 255r31 256r30 280r31 335r20 337r35
+X 83 mssyst-windows-forms-border3dside.ads
+15K30*Border3DSide 68e38 88|17w27 98r36 103r36
+16E9*ValueType 22e13 88|98r49 103r49
+X 84 mssyst-windows-forms-border3dstyle.ads
+15K30*Border3DStyle 74e39 88|16w27 90r36 97r36 102r36 110r36
+16E9*ValueType 26e12 88|90r50 97r50 102r50 110r50
+X 85 mssyst-windows-forms-buttonborderstyle.ads
+15K30*ButtonBorderStyle 66e43 88|15w27 63r40 66r39 69r41 72r42 77r36
+16E9*ValueType 22e14 88|63r58 66r57 69r59 72r60 77r54
+X 86 mssyst-windows-forms-buttonstate.ads
+15K30*ButtonState 68e37 88|18w27 117r36 121r36 129r36 134r36 141r36 145r36
+. 152r36 156r36 220r36 224r36 231r36 235r36 251r36 256r36
+16E9*ValueType 22e13 88|117r48 121r48 129r48 134r48 141r48 145r48 152r48
+. 156r48 220r48 224r48 231r48 235r48 251r48 256r48
+X 87 mssyst-windows-forms-captionbutton.ads
+15K30*CaptionButton 64e39 88|19w27 128r37 133r37
+16E9*ValueType 21e12 88|128r51 133r51
+X 88 mssyst-windows-forms-controlpaint.ads
+33K30*ControlPaint 82|6k24 88|335l26 335e38 337r41
+34R9*Typ 35r27 40c9 303r27
+35P9*Ref(34R9) 36r34 37r47
+36P9*Ref_addrof(35P9)
+37A9*Ref_Arr(35P9) 38r33
+38P9*Ref_Array(37A9) 39r40
+39P9*Ref_Array_addrof(38P9)
+40R9*Typ<54|18R9> 54|23p13 29p13 31p13 36p13 88|42e14
+43V13*CreateHBitmap16Bit{5|52M9} 44>7 45>7 304b23
+44p7 bitmap{8|40P9}
+45r7 background{10|16R9}
+46V13*CreateHBitmapColorMask{5|52M9} 47>7 48>7 305b23
+47p7 bitmap{8|40P9}
+48m7 monochromeMask{5|52M9}
+49V13*CreateHBitmapTransparencyMask{5|52M9} 50>7 306b23
+50p7 bitmap{8|40P9}
+51V13*Dark{10|16R9} 52>7
+52r7 baseColor{10|16R9}
+53V13*Dark{10|16R9} 54>7 55>7 307b23
+54r7 baseColor{10|16R9}
+55f7 percOfDarkDark{float}
+56V13*DarkDark{10|16R9} 57>7 308b23
+57r7 baseColor{10|16R9}
+58U14*DrawBorder 59>7 60>7 61>7 62>7 63>7 64>7 65>7 66>7 67>7 68>7 69>7 70>7
+. 71>7 72>7
+59p7 graphics{25|58P9}
+60r7 bounds{35|18R9}
+61r7 leftColor{10|16R9}
+62i7 leftWidth{integer}
+63e7 leftStyle{85|16E9}
+64r7 topColor{10|16R9}
+65i7 topWidth{integer}
+66e7 topStyle{85|16E9}
+67r7 rightColor{10|16R9}
+68i7 rightWidth{integer}
+69e7 rightStyle{85|16E9}
+70r7 bottomColor{10|16R9}
+71i7 bottomWidth{integer}
+72e7 bottomStyle{85|16E9}
+73U14*DrawBorder 74>7 75>7 76>7 77>7 309b23
+74p7 graphics{25|58P9}
+75r7 bounds{35|18R9}
+76r7 color{10|16R9}
+77e7 style{85|16E9}
+78U14*DrawBorder3D 79>7 80>7 81>7 82>7 83>7
+79p7 graphics{25|58P9}
+80i7 x{integer}
+81i7 y{integer}
+82i7 width{integer}
+83i7 height{integer}
+84U14*DrawBorder3D 85>7 86>7 87>7 88>7 89>7 90>7
+85p7 graphics{25|58P9}
+86i7 x{integer}
+87i7 y{integer}
+88i7 width{integer}
+89i7 height{integer}
+90e7 style{84|16E9}
+91U14*DrawBorder3D 92>7 93>7 94>7 95>7 96>7 97>7 98>7
+92p7 graphics{25|58P9}
+93i7 x{integer}
+94i7 y{integer}
+95i7 width{integer}
+96i7 height{integer}
+97e7 style{84|16E9}
+98e7 sides{83|16E9}
+99U14*DrawBorder3D 100>7 101>7 102>7 103>7
+100p7 graphics{25|58P9}
+101r7 rectangle{35|18R9}
+102e7 style{84|16E9}
+103e7 sides{83|16E9}
+104U14*DrawBorder3D 105>7 106>7
+105p7 graphics{25|58P9}
+106r7 rectangle{35|18R9}
+107U14*DrawBorder3D 108>7 109>7 110>7 310b23
+108p7 graphics{25|58P9}
+109r7 rectangle{35|18R9}
+110e7 style{84|16E9}
+111U14*DrawButton 112>7 113>7 114>7 115>7 116>7 117>7
+112p7 graphics{25|58P9}
+113i7 x{integer}
+114i7 y{integer}
+115i7 width{integer}
+116i7 height{integer}
+117e7 state{86|16E9}
+118U14*DrawButton 119>7 120>7 121>7 311b23
+119p7 graphics{25|58P9}
+120r7 rectangle{35|18R9}
+121e7 state{86|16E9}
+122U14*DrawCaptionButton 123>7 124>7 125>7 126>7 127>7 128>7 129>7
+123p7 graphics{25|58P9}
+124i7 x{integer}
+125i7 y{integer}
+126i7 width{integer}
+127i7 height{integer}
+128e7 button{87|16E9}
+129e7 state{86|16E9}
+130U14*DrawCaptionButton 131>7 132>7 133>7 134>7 312b23
+131p7 graphics{25|58P9}
+132r7 rectangle{35|18R9}
+133e7 button{87|16E9}
+134e7 state{86|16E9}
+135U14*DrawCheckBox 136>7 137>7 138>7 139>7 140>7 141>7
+136p7 graphics{25|58P9}
+137i7 x{integer}
+138i7 y{integer}
+139i7 width{integer}
+140i7 height{integer}
+141e7 state{86|16E9}
+142U14*DrawCheckBox 143>7 144>7 145>7 313b23
+143p7 graphics{25|58P9}
+144r7 rectangle{35|18R9}
+145e7 state{86|16E9}
+146U14*DrawComboButton 147>7 148>7 149>7 150>7 151>7 152>7
+147p7 graphics{25|58P9}
+148i7 x{integer}
+149i7 y{integer}
+150i7 width{integer}
+151i7 height{integer}
+152e7 state{86|16E9}
+153U14*DrawComboButton 154>7 155>7 156>7 314b23
+154p7 graphics{25|58P9}
+155r7 rectangle{35|18R9}
+156e7 state{86|16E9}
+157U14*DrawContainerGrabHandle 158>7 159>7 315b23
+158p7 graphics{25|58P9}
+159r7 bounds{35|18R9}
+160U14*DrawFocusRectangle 161>7 162>7 163>7 164>7
+161p7 graphics{25|58P9}
+162r7 rectangle{35|18R9}
+163r7 foreColor{10|16R9}
+164r7 backColor{10|16R9}
+165U14*DrawFocusRectangle 166>7 167>7 316b23
+166p7 graphics{25|58P9}
+167r7 rectangle{35|18R9}
+168U14*DrawGrabHandle 169>7 170>7 171>7 172>7 317b23
+169p7 graphics{25|58P9}
+170r7 rectangle{35|18R9}
+171b7 primary{boolean}
+172b7 enabled{boolean}
+173U14*DrawGrid 174>7 175>7 176>7 177>7 318b23
+174p7 graphics{25|58P9}
+175r7 area{35|18R9}
+176r7 pixelsBetweenDots{38|17R9}
+177r7 backColor{10|16R9}
+178U14*DrawImageDisabled 179>7 180>7 181>7 182>7 183>7 319b23
+179p7 graphics{25|58P9}
+180p7 image{28|36P9}
+181i7 x{integer}
+182i7 y{integer}
+183r7 background{10|16R9}
+184U14*DrawLockedFrame 185>7 186>7 187>7 320b23
+185p7 graphics{25|58P9}
+186r7 rectangle{35|18R9}
+187b7 primary{boolean}
+188U14*DrawMenuGlyph 189>7 190>7 191>7 192>7 193>7 194>7
+189p7 graphics{25|58P9}
+190i7 x{integer}
+191i7 y{integer}
+192i7 width{integer}
+193i7 height{integer}
+194e7 glyph{90|16E9}
+195U14*DrawMenuGlyph 196>7 197>7 198>7 199>7 200>7 201>7 202>7 203>7
+196p7 graphics{25|58P9}
+197i7 x{integer}
+198i7 y{integer}
+199i7 width{integer}
+200i7 height{integer}
+201e7 glyph{90|16E9}
+202r7 foreColor{10|16R9}
+203r7 backColor{10|16R9}
+204U14*DrawMenuGlyph 205>7 206>7 207>7 208>7 209>7
+205p7 graphics{25|58P9}
+206r7 rectangle{35|18R9}
+207e7 glyph{90|16E9}
+208r7 foreColor{10|16R9}
+209r7 backColor{10|16R9}
+210U14*DrawMenuGlyph 211>7 212>7 213>7 321b23
+211p7 graphics{25|58P9}
+212r7 rectangle{35|18R9}
+213e7 glyph{90|16E9}
+214U14*DrawMixedCheckBox 215>7 216>7 217>7 218>7 219>7 220>7
+215p7 graphics{25|58P9}
+216i7 x{integer}
+217i7 y{integer}
+218i7 width{integer}
+219i7 height{integer}
+220e7 state{86|16E9}
+221U14*DrawMixedCheckBox 222>7 223>7 224>7 322b23
+222p7 graphics{25|58P9}
+223r7 rectangle{35|18R9}
+224e7 state{86|16E9}
+225U14*DrawRadioButton 226>7 227>7 228>7 229>7 230>7 231>7
+226p7 graphics{25|58P9}
+227i7 x{integer}
+228i7 y{integer}
+229i7 width{integer}
+230i7 height{integer}
+231e7 state{86|16E9}
+232U14*DrawRadioButton 233>7 234>7 235>7 323b23
+233p7 graphics{25|58P9}
+234r7 rectangle{35|18R9}
+235e7 state{86|16E9}
+236U14*DrawReversibleFrame 237>7 238>7 239>7 324b23
+237r7 rectangle{35|18R9}
+238r7 backColor{10|16R9}
+239e7 style{89|16E9}
+240U14*DrawReversibleLine 241>7 242>7 243>7 325b23
+241r7 start{33|17R9}
+242r7 end_k{33|17R9}
+243r7 backColor{10|16R9}
+244U14*DrawScrollButton 245>7 246>7 247>7 248>7 249>7 250>7 251>7
+245p7 graphics{25|58P9}
+246i7 x{integer}
+247i7 y{integer}
+248i7 width{integer}
+249i7 height{integer}
+250e7 button{91|16E9}
+251e7 state{86|16E9}
+252U14*DrawScrollButton 253>7 254>7 255>7 256>7 326b23
+253p7 graphics{25|58P9}
+254r7 rectangle{35|18R9}
+255e7 button{91|16E9}
+256e7 state{86|16E9}
+257U14*DrawSelectionFrame 258>7 259>7 260>7 261>7 262>7 327b23
+258p7 graphics{25|58P9}
+259b7 active{boolean}
+260r7 outsideRect{35|18R9}
+261r7 insideRect{35|18R9}
+262r7 backColor{10|16R9}
+263U14*DrawSizeGrip 264>7 265>7 266>7 267>7 268>7 269>7
+264p7 graphics{25|58P9}
+265r7 backColor{10|16R9}
+266i7 x{integer}
+267i7 y{integer}
+268i7 width{integer}
+269i7 height{integer}
+270U14*DrawSizeGrip 271>7 272>7 273>7 328b23
+271p7 graphics{25|58P9}
+272r7 backColor{10|16R9}
+273r7 bounds{35|18R9}
+274U14*DrawStringDisabled 275>7 276>7 277>7 278>7 279>7 280>7
+275p7 dc{27|12P9}
+276p7 s{72|27P9}
+277p7 font{23|23P9}
+278r7 color{10|16R9}
+279r7 layoutRectangle{35|18R9}
+280e7 format{92|16E9}
+281U14*DrawStringDisabled 282>7 283>7 284>7 285>7 286>7 287>7 329b23
+282p7 graphics{25|58P9}
+283p7 s{72|27P9}
+284p7 font{23|23P9}
+285r7 color{10|16R9}
+286r7 layoutRectangle{36|18R9}
+287p7 format{41|24P9}
+288U14*DrawVisualStyleBorder 289>7 290>7 330b23
+289p7 graphics{25|58P9}
+290r7 bounds{35|18R9}
+291U14*FillReversibleRectangle 292>7 293>7 331b23
+292r7 rectangle{35|18R9}
+293r7 backColor{10|16R9}
+294V13*get_ContrastControlDark{10|16R9} 332b23
+295V13*Light{10|16R9} 296>7
+296r7 baseColor{10|16R9}
+297V13*Light{10|16R9} 298>7 299>7 333b23
+298r7 baseColor{10|16R9}
+299f7 percOfLightLight{float}
+300V13*LightLight{10|16R9} 301>7 334b23
+301r7 baseColor{10|16R9}
+X 89 mssyst-windows-forms-framestyle.ads
+15K30*FrameStyle 88|23w27 239r36 89|58e36
+16E9*ValueType 88|239r47 89|18e13
+X 90 mssyst-windows-forms-menuglyph.ads
+15K30*MenuGlyph 88|22w27 194r36 201r36 207r36 213r36 90|62e35
+16E9*ValueType 88|194r46 201r46 207r46 213r46 90|19e11
+X 91 mssyst-windows-forms-scrollbutton.ads
+15K30*ScrollButton 88|25w27 250r37 255r37 91|64e38
+16E9*ValueType 88|250r50 255r50 91|20e11
+X 92 mssyst-windows-forms-textformatflags.ads
+15K30*TextFormatFlags 88|29w27 280r37 92|109e41
+16E9*ValueType 88|280r53 92|41e27
+

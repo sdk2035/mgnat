@@ -1,0 +1,590 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U mssyst.reflection.emit.opcodes%s  mssyst-reflection-emit-opcodes.ads  c0e6007d NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.reflection%s	mssyst-reflection.ads	mssyst-reflection.ali
+W mssyst.reflection.emit%s  mssyst-reflection-emit.ads  mssyst-reflection-emit.ali
+W mssyst.reflection.emit.opcode%s  mssyst-reflection-emit-opcode.ads  mssyst-reflection-emit-opcode.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060517214748 02f2695c
+D microsoft-win32.ads	20060517214748 bf37fdc1
+D microsoft-win32-safehandles.ads  20060517214748 c240eeab
+D microsoft-win32-safehandles-safefilehandle.ads  20060518130024 34c2417a
+D microsoft-win32-safehandles-safehandlezeroorminusoneisinvalid.ads  20060518130024 66041aba
+D microsoft-win32-safehandles-safewaithandle.ads  20060518130024 ae8855ed
+D msil_types.ads	20060219005222 3027c2c3
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-array_k.ads	20060518130004 44c548ce
+D mssyst-asynccallback.ads  20060518130006 80e54e38
+D mssyst-attribute.ads	20060518130006 394ce8b0
+D mssyst-charenumerator.ads  20060518130008 d83886d0
+D mssyst-collections.ads  20060517214744 22f80fd8
+D mssyst-collections-dictionaryentry.ads  20060518130016 222dd9e6
+D mssyst-collections-icollection.ads  20060518130004 3a339eb6
+D mssyst-collections-icomparer.ads  20060518130006 71266c2a
+D mssyst-collections-idictionary.ads  20060518130016 d5a87938
+D mssyst-collections-idictionaryenumerator.ads  20060518130016 174d5352
+D mssyst-collections-ienumerable.ads  20060518130004 8a6639a6
+D mssyst-collections-ienumerator.ads  20060518130004 bc4e7b44
+D mssyst-collections-ilist.ads  20060518130004 d5fdb5e8
+D mssyst-collections-readonlycollectionbase.ads  20060518130016 2b7b6f73
+D mssyst-configuration.ads  20060517214756 03b06563
+D mssyst-configuration-assemblies.ads  20060517214756 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060518130040 813ea3b2
+D mssyst-configuration-assemblies-assemblyversioncompatibility.ads  20060518130040 80640b26
+D mssyst-datetime.ads	20060518130006 e8dd3274
+D mssyst-datetimekind.ads  20060518130006 db5b4b1d
+D mssyst-dayofweek.ads	20060518130008 4570cbc5
+D mssyst-decimal.ads	20060518130008 5671c372
+D mssyst-delegate.ads	20060518130006 5344fd33
+D mssyst-eventargs.ads	20060518130006 f2d88790
+D mssyst-globalization.ads  20060517214748 13e8d46f
+D mssyst-globalization-calendar.ads  20060518130020 6b493ab4
+D mssyst-globalization-calendaralgorithmtype.ads  20060518130020 3e24c29f
+D mssyst-globalization-calendarweekrule.ads  20060518130020 fd7e4fa4
+D mssyst-globalization-compareinfo.ads  20060518130020 1578aa69
+D mssyst-globalization-compareoptions.ads  20060518130020 aa1d08c4
+D mssyst-globalization-cultureinfo.ads  20060518130020 eff0653d
+D mssyst-globalization-culturetypes.ads  20060518130020 0714709f
+D mssyst-globalization-datetimeformatinfo.ads  20060518130020 12cc668e
+D mssyst-globalization-datetimestyles.ads  20060518130020 493eba39
+D mssyst-globalization-digitshapes.ads  20060518130020 159048c6
+D mssyst-globalization-numberformatinfo.ads  20060518130020 3e2c26cf
+D mssyst-globalization-numberstyles.ads  20060518130020 e67a6e84
+D mssyst-globalization-sortkey.ads  20060518130020 fbdd0312
+D mssyst-globalization-textinfo.ads  20060518130020 87fe0838
+D mssyst-guid.ads	20060518130008 81a28a48
+D mssyst-iasyncresult.ads  20060518130008 f67d3866
+D mssyst-icloneable.ads	20060518130004 e17b533e
+D mssyst-icomparable.ads  20060518130004 bf9ec2a5
+D mssyst-iconvertible.ads  20060518130004 5fd73d03
+D mssyst-idisposable.ads  20060518130004 43dfd267
+D mssyst-iformatprovider.ads  20060518130008 0282a90a
+D mssyst-io.ads		20060517214752 31f12609
+D mssyst-io-fileaccess.ads  20060518130030 86b9fb32
+D mssyst-io-filemode.ads  20060518130030 cd9a2184
+D mssyst-io-fileoptions.ads  20060518130030 dcc00896
+D mssyst-io-fileshare.ads  20060518130030 9c1d8f8e
+D mssyst-io-filestream.ads  20060518130030 e99dd9b5
+D mssyst-io-seekorigin.ads  20060518130030 84ee3c99
+D mssyst-io-stream.ads	20060518130030 8edee4de
+D mssyst-marshalbyrefobject.ads  20060518130006 1fa39a8f
+D mssyst-midpointrounding.ads  20060518130008 67720843
+D mssyst-modulehandle.ads  20060518130010 ea2bb724
+D mssyst-multicastdelegate.ads  20060518130006 378f1b43
+D mssyst-object.ads	20060518130004 47535304
+D mssyst-reflection.ads	20060517214746 25abbfbc
+D mssyst-reflection-assembly.ads  20060518130016 123eb80d
+D mssyst-reflection-assemblyname.ads  20060518130018 15212dcc
+D mssyst-reflection-assemblynameflags.ads  20060518130018 086c5b0c
+D mssyst-reflection-binder.ads  20060518130008 8f817e78
+D mssyst-reflection-bindingflags.ads  20060518130018 44cb2c03
+D mssyst-reflection-callingconventions.ads  20060518130018 6e41b7d5
+D mssyst-reflection-constructorinfo.ads  20060518130018 4a784f3e
+D mssyst-reflection-emit.ads  20060517214756 4afd7e34
+D mssyst-reflection-emit-flowcontrol.ads  20060518130040 ff69310a
+D mssyst-reflection-emit-opcode.ads  20060518130040 44329a45
+D mssyst-reflection-emit-opcodes.ads  20060518130040 5c1fef65
+D mssyst-reflection-emit-opcodetype.ads  20060518130040 267092a0
+D mssyst-reflection-emit-operandtype.ads  20060518130040 ca28d2b6
+D mssyst-reflection-emit-stackbehaviour.ads  20060518130040 67619f36
+D mssyst-reflection-eventattributes.ads  20060518130018 601969cf
+D mssyst-reflection-eventinfo.ads  20060518130018 d074f51e
+D mssyst-reflection-fieldattributes.ads  20060518130018 7952d5f0
+D mssyst-reflection-fieldinfo.ads  20060518130018 467b8c48
+D mssyst-reflection-genericparameterattributes.ads  20060518130018 bf8892e6
+D mssyst-reflection-icustomattributeprovider.ads  20060518130010 f243134e
+D mssyst-reflection-imagefilemachine.ads  20060518130018 e85430a4
+D mssyst-reflection-interfacemapping.ads  20060518130018 8db7a5bb
+D mssyst-reflection-ireflect.ads  20060518130010 881bf639
+D mssyst-reflection-manifestresourceinfo.ads  20060518130018 ad6bbbfa
+D mssyst-reflection-memberfilter.ads  20060518130018 50297139
+D mssyst-reflection-memberinfo.ads  20060518130010 0224f482
+D mssyst-reflection-membertypes.ads  20060518130018 781a8ce9
+D mssyst-reflection-methodattributes.ads  20060518130018 7f00d77d
+D mssyst-reflection-methodbase.ads  20060518130018 d9f75bde
+D mssyst-reflection-methodbody.ads  20060518130018 57c34b79
+D mssyst-reflection-methodimplattributes.ads  20060518130018 9b393827
+D mssyst-reflection-methodinfo.ads  20060518130018 9554c467
+D mssyst-reflection-module.ads  20060518130018 f7c1ae4f
+D mssyst-reflection-moduleresolveeventhandler.ads  20060518130016 55175e4b
+D mssyst-reflection-parameterattributes.ads  20060518130018 9852456a
+D mssyst-reflection-parameterinfo.ads  20060518130018 9faca9a0
+D mssyst-reflection-parametermodifier.ads  20060518130018 bf1ace9a
+D mssyst-reflection-portableexecutablekinds.ads  20060518130018 7dc22cdb
+D mssyst-reflection-processorarchitecture.ads  20060518130018 ed5839f4
+D mssyst-reflection-propertyattributes.ads  20060518130018 b25fd6ac
+D mssyst-reflection-propertyinfo.ads  20060518130018 83708877
+D mssyst-reflection-resourcelocation.ads  20060518130018 f7e12499
+D mssyst-reflection-strongnamekeypair.ads  20060518130018 80794f06
+D mssyst-reflection-typeattributes.ads  20060518130018 4ce15869
+D mssyst-reflection-typefilter.ads  20060518130018 1bb8611f
+D mssyst-resolveeventargs.ads  20060518130006 a313837d
+D mssyst-runtime.ads	20060517214744 31dcc047
+D mssyst-runtime-constrainedexecution.ads  20060517214746 f6aa2aec
+D mssyst-runtime-constrainedexecution-criticalfinalizerobject.ads  20060518130008 d30c8885
+D mssyst-runtime-interopservices.ads  20060517214744 59769bf0
+D mssyst-runtime-interopservices-charset.ads  20060518130026 91df90fa
+D mssyst-runtime-interopservices-layoutkind.ads  20060518130026 c12116e8
+D mssyst-runtime-interopservices-safehandle.ads  20060518130010 973569bf
+D mssyst-runtime-interopservices-structlayoutattribute.ads  20060518130026 78989125
+D mssyst-runtime-interopservices-uassembly.ads  20060518130016 f96b0f31
+D mssyst-runtime-interopservices-uassemblyname.ads  20060518130018 de1b10ef
+D mssyst-runtime-interopservices-uattribute.ads  20060518130006 caafc494
+D mssyst-runtime-interopservices-uconstructorinfo.ads  20060518130018 c34639c6
+D mssyst-runtime-interopservices-ueventinfo.ads  20060518130018 04844734
+D mssyst-runtime-interopservices-ufieldinfo.ads  20060518130018 cdb9c056
+D mssyst-runtime-interopservices-umemberinfo.ads  20060518130010 e5d5c7c0
+D mssyst-runtime-interopservices-umethodbase.ads  20060518130018 1ff9475f
+D mssyst-runtime-interopservices-umethodinfo.ads  20060518130018 fc46035a
+D mssyst-runtime-interopservices-umodule.ads  20060518130018 85209d28
+D mssyst-runtime-interopservices-uparameterinfo.ads  20060518130018 b106ef1a
+D mssyst-runtime-interopservices-upropertyinfo.ads  20060518130018 f015b8d5
+D mssyst-runtime-interopservices-utype.ads  20060518130010 edc8eebe
+D mssyst-runtime-remoting.ads  20060517214746 74500271
+D mssyst-runtime-remoting-ichannelinfo.ads  20060518130036 42c0549f
+D mssyst-runtime-remoting-ienvoyinfo.ads  20060518130036 0d613007
+D mssyst-runtime-remoting-iremotingtypeinfo.ads  20060518130036 9c09dda1
+D mssyst-runtime-remoting-messaging.ads  20060517214754 4bfbab1c
+D mssyst-runtime-remoting-messaging-imessage.ads  20060518130034 bf177a61
+D mssyst-runtime-remoting-messaging-imessagectrl.ads  20060518130034 e22b39ed
+D mssyst-runtime-remoting-messaging-imessagesink.ads  20060518130034 9c27ef9e
+D mssyst-runtime-remoting-objref.ads  20060518130036 cc63dccf
+D mssyst-runtime-serialization.ads  20060517214744 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060518130016 a25d9d2b
+D mssyst-runtime-serialization-iformatterconverter.ads  20060518130018 02d31acb
+D mssyst-runtime-serialization-iobjectreference.ads  20060518130008 c3279c62
+D mssyst-runtime-serialization-iserializable.ads  20060518130006 bc8947c1
+D mssyst-runtime-serialization-serializationentry.ads  20060518130020 a6dd57a6
+D mssyst-runtime-serialization-serializationinfo.ads  20060518130020 fe6300a3
+D mssyst-runtime-serialization-serializationinfoenumerator.ads  20060518130020 b2a6a08c
+D mssyst-runtime-serialization-streamingcontext.ads  20060518130020 b7580dc0
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060518130020 ab32dd44
+D mssyst-runtimefieldhandle.ads  20060518130010 1a535b0a
+D mssyst-runtimemethodhandle.ads  20060518130010 b5a8fc11
+D mssyst-runtimetypehandle.ads  20060518130010 2dc72f74
+D mssyst-sbyte.ads	20060518130010 0b40b4c3
+D mssyst-security.ads	20060517214744 a4c8227c
+D mssyst-security-accesscontrol.ads  20060517214756 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060518130042 da644f3b
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060518130042 983129b3
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060518130042 aaa7f08e
+D mssyst-security-accesscontrol-accessrule.ads  20060518130042 357b7164
+D mssyst-security-accesscontrol-auditflags.ads  20060518130042 6697b648
+D mssyst-security-accesscontrol-auditrule.ads  20060518130042 548a6e76
+D mssyst-security-accesscontrol-authorizationrule.ads  20060518130042 d4d98288
+D mssyst-security-accesscontrol-authorizationrulecollection.ads  20060518130042 bd787679
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060518130042 87d97b1c
+D mssyst-security-accesscontrol-filesecurity.ads  20060518130042 d4ef23f2
+D mssyst-security-accesscontrol-filesystemaccessrule.ads  20060518130042 3996455e
+D mssyst-security-accesscontrol-filesystemauditrule.ads  20060518130042 364a20bb
+D mssyst-security-accesscontrol-filesystemrights.ads  20060518130042 99ab4846
+D mssyst-security-accesscontrol-filesystemsecurity.ads  20060518130042 6b12c956
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060518130042 cb8e28ec
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060518130042 68e32c77
+D mssyst-security-accesscontrol-objectsecurity.ads  20060518130042 d97d6fc7
+D mssyst-security-accesscontrol-propagationflags.ads  20060518130042 7d0c8f98
+D mssyst-security-cryptography.ads  20060517214756 6bbb0e6b
+D mssyst-security-cryptography-x509certificates.ads  20060517214756 1b20ddcc
+D mssyst-security-cryptography-x509certificates-x509certificate.ads  20060518130042 438b9ef5
+D mssyst-security-cryptography-x509certificates-x509contenttype.ads  20060518130042 6cfaa0cf
+D mssyst-security-cryptography-x509certificates-x509keystorageflags.ads  20060518130042 db32c0bb
+D mssyst-security-ievidencefactory.ads  20060518130006 43c6d461
+D mssyst-security-policy.ads  20060517214748 7a609687
+D mssyst-security-policy-evidence.ads  20060518130024 1eabe8be
+D mssyst-security-principal.ads  20060517214748 7adc43fd
+D mssyst-security-principal-identityreference.ads  20060518130042 0b9e5f80
+D mssyst-security-securestring.ads  20060518130034 a9a06371
+D mssyst-string.ads	20060518130004 b98d995f
+D mssyst-stringcomparison.ads  20060518130006 86ec68cf
+D mssyst-stringsplitoptions.ads  20060518130006 f2d0599e
+D mssyst-text.ads	20060517214744 a7ed250d
+D mssyst-text-decoder.ads  20060518130022 3b11b35a
+D mssyst-text-decoderfallback.ads  20060518130022 75e2f645
+D mssyst-text-decoderfallbackbuffer.ads  20060518130022 cf5e5e9e
+D mssyst-text-encoder.ads  20060518130022 58ffabf7
+D mssyst-text-encoderfallback.ads  20060518130022 77489063
+D mssyst-text-encoderfallbackbuffer.ads  20060518130022 50c8196a
+D mssyst-text-encoding.ads  20060518130022 9fed9190
+D mssyst-text-encodinginfo.ads  20060518130022 ce8a22c1
+D mssyst-text-normalizationform.ads  20060518130022 2ca43f9a
+D mssyst-threading.ads	20060517214746 964d65eb
+D mssyst-threading-waithandle.ads  20060518130010 cebe4958
+D mssyst-timespan.ads	20060518130010 642ef661
+D mssyst-type_k.ads	20060518130010 5ccf03f1
+D mssyst-typecode.ads	20060518130010 f5c22e86
+D mssyst-typedreference.ads  20060518130010 9b3bbb41
+D mssyst-valuetype.ads	20060518130004 4fb553b0
+D mssyst-version.ads	20060518130010 523fbb99
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 11 msil_types.ads
+5K9*Msil_Types 66e15 83|7w6 8r5
+X 12 mssyst.ads
+6K9*MSSyst 7e11 83|6r6 9r6 12r9 13r20 16r10 18r12 20r14 22r14 24r14 26r14
+. 28r14 30r14 32r14 34r14 36r14 38r14 40r14 42r14 44r14 46r15 48r14 50r14
+. 52r15 54r14 56r13 58r16 60r15 62r15 64r15 66r15 68r15 70r15 72r15 74r15
+. 76r15 78r15 80r13 82r13 84r13 86r13 88r10 90r10 92r10 94r11 96r12 98r10
+. 100r11 102r16 104r15 106r12 108r12 110r12 112r12 114r12 116r15 118r15 120r15
+. 122r15 124r15 126r9 128r14 130r13 132r10 134r10 136r10 138r10 140r10 142r13
+. 144r13 146r13 148r13 150r13 152r13 154r15 156r15 158r15 160r15 162r15 164r15
+. 166r15 168r14 170r15 172r15 174r16 176r16 178r15 180r15 182r15 184r15 186r15
+. 188r15 190r10 192r10 194r10 196r10 198r13 200r12 202r13 204r12 206r11 208r12
+. 210r10 212r10 214r13 216r10 218r12 220r14 222r14 224r14 226r14 228r14 230r14
+. 232r14 234r14 236r15 238r12 240r12 242r12 244r13 246r16 248r13 250r16 252r12
+. 254r12 256r12 258r13 260r12 262r13 264r14 266r13 268r12 270r21 272r21 274r21
+. 276r21 278r21 280r21 282r21 284r21 286r20 288r20 290r10 292r13 294r12 296r14
+. 298r16 300r16 302r16 304r16 306r16 308r16 310r16 312r15 314r16 316r16 318r17
+. 320r15 322r16 324r16 326r16 328r16 330r16 332r16 334r17 336r13 338r13 340r16
+. 342r18 344r18 346r18 348r18 350r18 352r18 354r18 356r18 358r16 360r15 362r15
+. 364r14 366r14 368r14 370r13 372r17 374r17 376r14 378r17 380r14 382r17 384r14
+. 386r17 388r17 390r12 392r14 394r14 396r13 398r14 400r14 402r14 404r14 406r14
+. 408r14 410r14 412r16 414r14 416r10 418r10 420r13 422r10 424r13 426r12 428r16
+. 430r12 432r13 434r12 436r12 438r13 440r12 442r15 444r16 446r16 448r15 450r15
+. 452r14 454r18 456r12 458r14 460r14 462r13 464r17 466r15 474r14 478r5 479r20
+X 71 mssyst-object.ads
+10K16*Object 44e18 83|6w13 13r27
+11R9*Typ 13e14 83|13r34
+21V13*Equals{boolean}
+27V13*GetHashCode{integer}
+29V13*GetType
+34V13*ToString
+X 72 mssyst-reflection.ads
+6K16*Reflection 12|6k9 72|7e22 83|9r13 12r16 16r17 18r19 20r21 22r21 24r21
+. 26r21 28r21 30r21 32r21 34r21 36r21 38r21 40r21 42r21 44r21 46r22 48r21
+. 50r21 52r22 54r21 56r20 58r23 60r22 62r22 64r22 66r22 68r22 70r22 72r22
+. 74r22 76r22 78r22 80r20 82r20 84r20 86r20 88r17 90r17 92r17 94r18 96r19
+. 98r17 100r18 102r23 104r22 106r19 108r19 110r19 112r19 114r19 116r22 118r22
+. 120r22 122r22 124r22 126r16 128r21 130r20 132r17 134r17 136r17 138r17 140r17
+. 142r20 144r20 146r20 148r20 150r20 152r20 154r22 156r22 158r22 160r22 162r22
+. 164r22 166r22 168r21 170r22 172r22 174r23 176r23 178r22 180r22 182r22 184r22
+. 186r22 188r22 190r17 192r17 194r17 196r17 198r20 200r19 202r20 204r19 206r18
+. 208r19 210r17 212r17 214r20 216r17 218r19 220r21 222r21 224r21 226r21 228r21
+. 230r21 232r21 234r21 236r22 238r19 240r19 242r19 244r20 246r23 248r20 250r23
+. 252r19 254r19 256r19 258r20 260r19 262r20 264r21 266r20 268r19 270r28 272r28
+. 274r28 276r28 278r28 280r28 282r28 284r28 286r27 288r27 290r17 292r20 294r19
+. 296r21 298r23 300r23 302r23 304r23 306r23 308r23 310r23 312r22 314r23 316r23
+. 318r24 320r22 322r23 324r23 326r23 328r23 330r23 332r23 334r24 336r20 338r20
+. 340r23 342r25 344r25 346r25 348r25 350r25 352r25 354r25 356r25 358r23 360r22
+. 362r22 364r21 366r21 368r21 370r20 372r24 374r24 376r21 378r24 380r21 382r24
+. 384r21 386r24 388r24 390r19 392r21 394r21 396r20 398r21 400r21 402r21 404r21
+. 406r21 408r21 410r21 412r23 414r21 416r17 418r17 420r20 422r17 424r20 426r19
+. 428r23 430r19 432r20 434r19 436r19 438r20 440r19 442r22 444r23 446r23 448r22
+. 450r22 452r21 454r25 456r19 458r21 460r21 462r20 464r24 466r22 474r21 478r12
+. 479r27
+X 80 mssyst-reflection-emit.ads
+6K27*Emit 72|6k16 80|7e27 83|9r24 12r27 16r28 18r30 20r32 22r32 24r32 26r32
+. 28r32 30r32 32r32 34r32 36r32 38r32 40r32 42r32 44r32 46r33 48r32 50r32
+. 52r33 54r32 56r31 58r34 60r33 62r33 64r33 66r33 68r33 70r33 72r33 74r33
+. 76r33 78r33 80r31 82r31 84r31 86r31 88r28 90r28 92r28 94r29 96r30 98r28
+. 100r29 102r34 104r33 106r30 108r30 110r30 112r30 114r30 116r33 118r33 120r33
+. 122r33 124r33 126r27 128r32 130r31 132r28 134r28 136r28 138r28 140r28 142r31
+. 144r31 146r31 148r31 150r31 152r31 154r33 156r33 158r33 160r33 162r33 164r33
+. 166r33 168r32 170r33 172r33 174r34 176r34 178r33 180r33 182r33 184r33 186r33
+. 188r33 190r28 192r28 194r28 196r28 198r31 200r30 202r31 204r30 206r29 208r30
+. 210r28 212r28 214r31 216r28 218r30 220r32 222r32 224r32 226r32 228r32 230r32
+. 232r32 234r32 236r33 238r30 240r30 242r30 244r31 246r34 248r31 250r34 252r30
+. 254r30 256r30 258r31 260r30 262r31 264r32 266r31 268r30 270r39 272r39 274r39
+. 276r39 278r39 280r39 282r39 284r39 286r38 288r38 290r28 292r31 294r30 296r32
+. 298r34 300r34 302r34 304r34 306r34 308r34 310r34 312r33 314r34 316r34 318r35
+. 320r33 322r34 324r34 326r34 328r34 330r34 332r34 334r35 336r31 338r31 340r34
+. 342r36 344r36 346r36 348r36 350r36 352r36 354r36 356r36 358r34 360r33 362r33
+. 364r32 366r32 368r32 370r31 372r35 374r35 376r32 378r35 380r32 382r35 384r32
+. 386r35 388r35 390r30 392r32 394r32 396r31 398r32 400r32 402r32 404r32 406r32
+. 408r32 410r32 412r34 414r32 416r28 418r28 420r31 422r28 424r31 426r30 428r34
+. 430r30 432r31 434r30 436r30 438r31 440r30 442r33 444r34 446r34 448r33 450r33
+. 452r32 454r36 456r30 458r32 460r32 462r31 464r35 466r33 474r32 478r23 479r38
+X 82 mssyst-reflection-emit-opcode.ads
+16K32*OpCode 68e34 83|9w29 16r33 18r35 20r37 22r37 24r37 26r37 28r37 30r37
+. 32r37 34r37 36r37 38r37 40r37 42r37 44r37 46r38 48r37 50r37 52r38 54r37
+. 56r36 58r39 60r38 62r38 64r38 66r38 68r38 70r38 72r38 74r38 76r38 78r38
+. 80r36 82r36 84r36 86r36 88r33 90r33 92r33 94r34 96r35 98r33 100r34 102r39
+. 104r38 106r35 108r35 110r35 112r35 114r35 116r38 118r38 120r38 122r38 124r38
+. 126r32 128r37 130r36 132r33 134r33 136r33 138r33 140r33 142r36 144r36 146r36
+. 148r36 150r36 152r36 154r38 156r38 158r38 160r38 162r38 164r38 166r38 168r37
+. 170r38 172r38 174r39 176r39 178r38 180r38 182r38 184r38 186r38 188r38 190r33
+. 192r33 194r33 196r33 198r36 200r35 202r36 204r35 206r34 208r35 210r33 212r33
+. 214r36 216r33 218r35 220r37 222r37 224r37 226r37 228r37 230r37 232r37 234r37
+. 236r38 238r35 240r35 242r35 244r36 246r39 248r36 250r39 252r35 254r35 256r35
+. 258r36 260r35 262r36 264r37 266r36 268r35 270r44 272r44 274r44 276r44 278r44
+. 280r44 282r44 284r44 286r43 288r43 290r33 292r36 294r35 296r37 298r39 300r39
+. 302r39 304r39 306r39 308r39 310r39 312r38 314r39 316r39 318r40 320r38 322r39
+. 324r39 326r39 328r39 330r39 332r39 334r40 336r36 338r36 340r39 342r41 344r41
+. 346r41 348r41 350r41 352r41 354r41 356r41 358r39 360r38 362r38 364r37 366r37
+. 368r37 370r36 372r40 374r40 376r37 378r40 380r37 382r40 384r37 386r40 388r40
+. 390r35 392r37 394r37 396r36 398r37 400r37 402r37 404r37 406r37 408r37 410r37
+. 412r39 414r37 416r33 418r33 420r36 422r33 424r36 426r35 428r39 430r35 432r36
+. 434r35 436r35 438r36 440r35 442r38 444r39 446r39 448r38 450r38 452r37 454r41
+. 456r35 458r37 460r37 462r36 464r40 466r38 474r37
+17R9*ValueType<213|12R9> 17e63 83|16r40 18r42 20r44 22r44 24r44 26r44 28r44
+. 30r44 32r44 34r44 36r44 38r44 40r44 42r44 44r44 46r45 48r44 50r44 52r45
+. 54r44 56r43 58r46 60r45 62r45 64r45 66r45 68r45 70r45 72r45 74r45 76r45
+. 78r45 80r43 82r43 84r43 86r43 88r40 90r40 92r40 94r41 96r42 98r40 100r41
+. 102r46 104r45 106r42 108r42 110r42 112r42 114r42 116r45 118r45 120r45 122r45
+. 124r45 126r39 128r44 130r43 132r40 134r40 136r40 138r40 140r40 142r43 144r43
+. 146r43 148r43 150r43 152r43 154r45 156r45 158r45 160r45 162r45 164r45 166r45
+. 168r44 170r45 172r45 174r46 176r46 178r45 180r45 182r45 184r45 186r45 188r45
+. 190r40 192r40 194r40 196r40 198r43 200r42 202r43 204r42 206r41 208r42 210r40
+. 212r40 214r43 216r40 218r42 220r44 222r44 224r44 226r44 228r44 230r44 232r44
+. 234r44 236r45 238r42 240r42 242r42 244r43 246r46 248r43 250r46 252r42 254r42
+. 256r42 258r43 260r42 262r43 264r44 266r43 268r42 270r51 272r51 274r51 276r51
+. 278r51 280r51 282r51 284r51 286r50 288r50 290r40 292r43 294r42 296r44 298r46
+. 300r46 302r46 304r46 306r46 308r46 310r46 312r45 314r46 316r46 318r47 320r45
+. 322r46 324r46 326r46 328r46 330r46 332r46 334r47 336r43 338r43 340r46 342r48
+. 344r48 346r48 348r48 350r48 352r48 354r48 356r48 358r46 360r45 362r45 364r44
+. 366r44 368r44 370r43 372r47 374r47 376r44 378r47 380r44 382r47 384r44 386r47
+. 388r47 390r42 392r44 394r44 396r43 398r44 400r44 402r44 404r44 406r44 408r44
+. 410r44 412r46 414r44 416r40 418r40 420r43 422r40 424r43 426r42 428r46 430r42
+. 432r43 434r42 436r42 438r43 440r42 442r45 444r46 446r46 448r45 450r45 452r44
+. 454r48 456r42 458r44 460r44 462r43 464r47 466r45 474r44
+X 83 mssyst-reflection-emit-opcodes.ads
+12K32*OpCodes 80|6k27 83|478l28 478e35 479r43
+13R9*Typ<71|11R9> 71|21p13 27p13 29p13 34p13 83|15e14 468r27 476r27
+16r4*Nop{82|17R9} 17m23
+18r4*Break{82|17R9} 19m23
+20r4*Ldarg_0{82|17R9} 21m23
+22r4*Ldarg_1{82|17R9} 23m23
+24r4*Ldarg_2{82|17R9} 25m23
+26r4*Ldarg_3{82|17R9} 27m23
+28r4*Ldloc_0{82|17R9} 29m23
+30r4*Ldloc_1{82|17R9} 31m23
+32r4*Ldloc_2{82|17R9} 33m23
+34r4*Ldloc_3{82|17R9} 35m23
+36r4*Stloc_0{82|17R9} 37m23
+38r4*Stloc_1{82|17R9} 39m23
+40r4*Stloc_2{82|17R9} 41m23
+42r4*Stloc_3{82|17R9} 43m23
+44r4*Ldarg_S{82|17R9} 45m23
+46r4*Ldarga_S{82|17R9} 47m23
+48r4*Starg_S{82|17R9} 49m23
+50r4*Ldloc_S{82|17R9} 51m23
+52r4*Ldloca_S{82|17R9} 53m23
+54r4*Stloc_S{82|17R9} 55m23
+56r4*Ldnull{82|17R9} 57m23
+58r4*Ldc_I4_M1{82|17R9} 59m23
+60r4*Ldc_I4_0{82|17R9} 61m23
+62r4*Ldc_I4_1{82|17R9} 63m23
+64r4*Ldc_I4_2{82|17R9} 65m23
+66r4*Ldc_I4_3{82|17R9} 67m23
+68r4*Ldc_I4_4{82|17R9} 69m23
+70r4*Ldc_I4_5{82|17R9} 71m23
+72r4*Ldc_I4_6{82|17R9} 73m23
+74r4*Ldc_I4_7{82|17R9} 75m23
+76r4*Ldc_I4_8{82|17R9} 77m23
+78r4*Ldc_I4_S{82|17R9} 79m23
+80r4*Ldc_I4{82|17R9} 81m23
+82r4*Ldc_I8{82|17R9} 83m23
+84r4*Ldc_R4{82|17R9} 85m23
+86r4*Ldc_R8{82|17R9} 87m23
+88r4*Dup{82|17R9} 89m23
+90r4*Pop{82|17R9} 91m23
+92r4*Jmp{82|17R9} 93m23
+94r4*Call{82|17R9} 95m23
+96r4*Calli{82|17R9} 97m23
+98r4*Ret{82|17R9} 99m23
+100r4*Br_S{82|17R9} 101m23
+102r4*Brfalse_S{82|17R9} 103m23
+104r4*Brtrue_S{82|17R9} 105m23
+106r4*Beq_S{82|17R9} 107m23
+108r4*Bge_S{82|17R9} 109m23
+110r4*Bgt_S{82|17R9} 111m23
+112r4*Ble_S{82|17R9} 113m23
+114r4*Blt_S{82|17R9} 115m23
+116r4*Bne_Un_S{82|17R9} 117m23
+118r4*Bge_Un_S{82|17R9} 119m23
+120r4*Bgt_Un_S{82|17R9} 121m23
+122r4*Ble_Un_S{82|17R9} 123m23
+124r4*Blt_Un_S{82|17R9} 125m23
+126r4*Br{82|17R9} 127m23
+128r4*Brfalse{82|17R9} 129m23
+130r4*Brtrue{82|17R9} 131m23
+132r4*Beq{82|17R9} 133m23
+134r4*Bge{82|17R9} 135m23
+136r4*Bgt{82|17R9} 137m23
+138r4*Ble{82|17R9} 139m23
+140r4*Blt{82|17R9} 141m23
+142r4*Bne_Un{82|17R9} 143m23
+144r4*Bge_Un{82|17R9} 145m23
+146r4*Bgt_Un{82|17R9} 147m23
+148r4*Ble_Un{82|17R9} 149m23
+150r4*Blt_Un{82|17R9} 151m23
+152r4*Switch{82|17R9} 153m23
+154r4*Ldind_I1{82|17R9} 155m23
+156r4*Ldind_U1{82|17R9} 157m23
+158r4*Ldind_I2{82|17R9} 159m23
+160r4*Ldind_U2{82|17R9} 161m23
+162r4*Ldind_I4{82|17R9} 163m23
+164r4*Ldind_U4{82|17R9} 165m23
+166r4*Ldind_I8{82|17R9} 167m23
+168r4*Ldind_I{82|17R9} 169m23
+170r4*Ldind_R4{82|17R9} 171m23
+172r4*Ldind_R8{82|17R9} 173m23
+174r4*Ldind_Ref{82|17R9} 175m23
+176r4*Stind_Ref{82|17R9} 177m23
+178r4*Stind_I1{82|17R9} 179m23
+180r4*Stind_I2{82|17R9} 181m23
+182r4*Stind_I4{82|17R9} 183m23
+184r4*Stind_I8{82|17R9} 185m23
+186r4*Stind_R4{82|17R9} 187m23
+188r4*Stind_R8{82|17R9} 189m23
+190r4*Add{82|17R9} 191m23
+192r4*Sub{82|17R9} 193m23
+194r4*Mul{82|17R9} 195m23
+196r4*Div{82|17R9} 197m23
+198r4*Div_Un{82|17R9} 199m23
+200r4*Rem_k{82|17R9} 201m23
+202r4*Rem_Un{82|17R9} 203m23
+204r4*And_k{82|17R9} 205m23
+206r4*Or_k{82|17R9} 207m23
+208r4*Xor_k{82|17R9} 209m23
+210r4*Shl{82|17R9} 211m23
+212r4*Shr{82|17R9} 213m23
+214r4*Shr_Un{82|17R9} 215m23
+216r4*Neg{82|17R9} 217m23
+218r4*Not_k{82|17R9} 219m23
+220r4*Conv_I1{82|17R9} 221m23
+222r4*Conv_I2{82|17R9} 223m23
+224r4*Conv_I4{82|17R9} 225m23
+226r4*Conv_I8{82|17R9} 227m23
+228r4*Conv_R4{82|17R9} 229m23
+230r4*Conv_R8{82|17R9} 231m23
+232r4*Conv_U4{82|17R9} 233m23
+234r4*Conv_U8{82|17R9} 235m23
+236r4*Callvirt{82|17R9} 237m23
+238r4*Cpobj{82|17R9} 239m23
+240r4*Ldobj{82|17R9} 241m23
+242r4*Ldstr{82|17R9} 243m23
+244r4*Newobj{82|17R9} 245m23
+246r4*Castclass{82|17R9} 247m23
+248r4*Isinst{82|17R9} 249m23
+250r4*Conv_R_Un{82|17R9} 251m23
+252r4*Unbox{82|17R9} 253m23
+254r4*Throw{82|17R9} 255m23
+256r4*Ldfld{82|17R9} 257m23
+258r4*Ldflda{82|17R9} 259m23
+260r4*Stfld{82|17R9} 261m23
+262r4*Ldsfld{82|17R9} 263m23
+264r4*Ldsflda{82|17R9} 265m23
+266r4*Stsfld{82|17R9} 267m23
+268r4*Stobj{82|17R9} 269m23
+270r4*Conv_Ovf_I1_Un{82|17R9} 271m23
+272r4*Conv_Ovf_I2_Un{82|17R9} 273m23
+274r4*Conv_Ovf_I4_Un{82|17R9} 275m23
+276r4*Conv_Ovf_I8_Un{82|17R9} 277m23
+278r4*Conv_Ovf_U1_Un{82|17R9} 279m23
+280r4*Conv_Ovf_U2_Un{82|17R9} 281m23
+282r4*Conv_Ovf_U4_Un{82|17R9} 283m23
+284r4*Conv_Ovf_U8_Un{82|17R9} 285m23
+286r4*Conv_Ovf_I_Un{82|17R9} 287m23
+288r4*Conv_Ovf_U_Un{82|17R9} 289m23
+290r4*Box{82|17R9} 291m23
+292r4*Newarr{82|17R9} 293m23
+294r4*Ldlen{82|17R9} 295m23
+296r4*Ldelema{82|17R9} 297m23
+298r4*Ldelem_I1{82|17R9} 299m23
+300r4*Ldelem_U1{82|17R9} 301m23
+302r4*Ldelem_I2{82|17R9} 303m23
+304r4*Ldelem_U2{82|17R9} 305m23
+306r4*Ldelem_I4{82|17R9} 307m23
+308r4*Ldelem_U4{82|17R9} 309m23
+310r4*Ldelem_I8{82|17R9} 311m23
+312r4*Ldelem_I{82|17R9} 313m23
+314r4*Ldelem_R4{82|17R9} 315m23
+316r4*Ldelem_R8{82|17R9} 317m23
+318r4*Ldelem_Ref{82|17R9} 319m23
+320r4*Stelem_I{82|17R9} 321m23
+322r4*Stelem_I1{82|17R9} 323m23
+324r4*Stelem_I2{82|17R9} 325m23
+326r4*Stelem_I4{82|17R9} 327m23
+328r4*Stelem_I8{82|17R9} 329m23
+330r4*Stelem_R4{82|17R9} 331m23
+332r4*Stelem_R8{82|17R9} 333m23
+334r4*Stelem_Ref{82|17R9} 335m23
+336r4*Ldelem{82|17R9} 337m23
+338r4*Stelem{82|17R9} 339m23
+340r4*Unbox_Any{82|17R9} 341m23
+342r4*Conv_Ovf_I1{82|17R9} 343m23
+344r4*Conv_Ovf_U1{82|17R9} 345m23
+346r4*Conv_Ovf_I2{82|17R9} 347m23
+348r4*Conv_Ovf_U2{82|17R9} 349m23
+350r4*Conv_Ovf_I4{82|17R9} 351m23
+352r4*Conv_Ovf_U4{82|17R9} 353m23
+354r4*Conv_Ovf_I8{82|17R9} 355m23
+356r4*Conv_Ovf_U8{82|17R9} 357m23
+358r4*Refanyval{82|17R9} 359m23
+360r4*Ckfinite{82|17R9} 361m23
+362r4*Mkrefany{82|17R9} 363m23
+364r4*Ldtoken{82|17R9} 365m23
+366r4*Conv_U2{82|17R9} 367m23
+368r4*Conv_U1{82|17R9} 369m23
+370r4*Conv_I{82|17R9} 371m23
+372r4*Conv_Ovf_I{82|17R9} 373m23
+374r4*Conv_Ovf_U{82|17R9} 375m23
+376r4*Add_Ovf{82|17R9} 377m23
+378r4*Add_Ovf_Un{82|17R9} 379m23
+380r4*Mul_Ovf{82|17R9} 381m23
+382r4*Mul_Ovf_Un{82|17R9} 383m23
+384r4*Sub_Ovf{82|17R9} 385m23
+386r4*Sub_Ovf_Un{82|17R9} 387m23
+388r4*Endfinally{82|17R9} 389m23
+390r4*Leave{82|17R9} 391m23
+392r4*Leave_S{82|17R9} 393m23
+394r4*Stind_I{82|17R9} 395m23
+396r4*Conv_U{82|17R9} 397m23
+398r4*Prefix7{82|17R9} 399m23
+400r4*Prefix6{82|17R9} 401m23
+402r4*Prefix5{82|17R9} 403m23
+404r4*Prefix4{82|17R9} 405m23
+406r4*Prefix3{82|17R9} 407m23
+408r4*Prefix2{82|17R9} 409m23
+410r4*Prefix1{82|17R9} 411m23
+412r4*Prefixref{82|17R9} 413m23
+414r4*Arglist{82|17R9} 415m23
+416r4*Ceq{82|17R9} 417m23
+418r4*Cgt{82|17R9} 419m23
+420r4*Cgt_Un{82|17R9} 421m23
+422r4*Clt{82|17R9} 423m23
+424r4*Clt_Un{82|17R9} 425m23
+426r4*Ldftn{82|17R9} 427m23
+428r4*Ldvirtftn{82|17R9} 429m23
+430r4*Ldarg{82|17R9} 431m23
+432r4*Ldarga{82|17R9} 433m23
+434r4*Starg{82|17R9} 435m23
+436r4*Ldloc{82|17R9} 437m23
+438r4*Ldloca{82|17R9} 439m23
+440r4*Stloc{82|17R9} 441m23
+442r4*Localloc{82|17R9} 443m23
+444r4*Endfilter{82|17R9} 445m23
+446r4*Unaligned{82|17R9} 447m23
+448r4*Volatile{82|17R9} 449m23
+450r4*Tailcall{82|17R9} 451m23
+452r4*Initobj{82|17R9} 453m23
+454r4*Constrained{82|17R9} 455m23
+456r4*Cpblk{82|17R9} 457m23
+458r4*Initblk{82|17R9} 459m23
+460r4*Rethrow{82|17R9} 461m23
+462r4*Sizeof{82|17R9} 463m23
+464r4*Refanytype{82|17R9} 465m23
+466r4*Readonly{82|17R9} 467m23
+468P9*Ref(13R9) 469r34 470r47
+469P9*Ref_addrof(468P9)
+470A9*Ref_Arr(468P9) 471r33
+471P9*Ref_Array(470A9) 472r40
+472P9*Ref_Array_addrof(471P9)
+473V13*TakesSingleByteArgument{boolean} 474>7 477b23
+474r7 inst{82|17R9}
+

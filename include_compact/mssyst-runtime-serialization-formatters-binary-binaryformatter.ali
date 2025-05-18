@@ -1,0 +1,257 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.runtime.serialization.formatters.binary.binaryformatter%s  mssyst-runtime-serialization-formatters-binary-binaryformatter.ads  8bc4c2ef NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.remoting%s  mssyst-runtime-remoting.ads  mssyst-runtime-remoting.ali
+W mssyst.runtime.remoting.messaging%s  mssyst-runtime-remoting-messaging.ads  mssyst-runtime-remoting-messaging.ali
+W mssyst.runtime.remoting.messaging.iremotingformatter%s  mssyst-runtime-remoting-messaging-iremotingformatter.ads  mssyst-runtime-remoting-messaging-iremotingformatter.ali
+W mssyst.runtime.serialization%s  mssyst-runtime-serialization.ads  mssyst-runtime-serialization.ali
+W mssyst.runtime.serialization.formatters%s  mssyst-runtime-serialization-formatters.ads  mssyst-runtime-serialization-formatters.ali
+W mssyst.runtime.serialization.formatters.binary%s  mssyst-runtime-serialization-formatters-binary.ads  mssyst-runtime-serialization-formatters-binary.ali
+W mssyst.runtime.serialization.formatters.formatterassemblystyle%s  mssyst-runtime-serialization-formatters-formatterassemblystyle.ads  mssyst-runtime-serialization-formatters-formatterassemblystyle.ali
+W mssyst.runtime.serialization.formatters.formattertypestyle%s  mssyst-runtime-serialization-formatters-formattertypestyle.ads  mssyst-runtime-serialization-formatters-formattertypestyle.ali
+W mssyst.runtime.serialization.formatters.typefilterlevel%s  mssyst-runtime-serialization-formatters-typefilterlevel.ads  mssyst-runtime-serialization-formatters-typefilterlevel.ali
+W mssyst.runtime.serialization.iformatter%s  mssyst-runtime-serialization-iformatter.ads  mssyst-runtime-serialization-iformatter.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-seekorigin.ads  20060131171404 0f77313e
+D mssyst-io-stream.ads	20060131171402 5b7412c0
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-messaging.ads  20060131165236 4bfbab1c
+D mssyst-runtime-remoting-messaging-header.ads  20060131171404 0f4d010c
+D mssyst-runtime-remoting-messaging-headerhandler.ads  20060131171404 d647dffd
+D mssyst-runtime-remoting-messaging-imessage.ads  20060131171404 4a6683f1
+D mssyst-runtime-remoting-messaging-imethodcallmessage.ads  20060131171404 6399584e
+D mssyst-runtime-remoting-messaging-imethodmessage.ads  20060131171404 60eed5d3
+D mssyst-runtime-remoting-messaging-iremotingformatter.ads  20060131171406 2af93d16
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-formatters.ads  20060131165238 f2e43a4d
+D mssyst-runtime-serialization-formatters-binary.ads  20060131165240 5c9231d6
+D mssyst-runtime-serialization-formatters-binary-binaryformatter.ads  20060131171406 d9d10759
+D mssyst-runtime-serialization-formatters-formatterassemblystyle.ads  20060131171406 0c31ac00
+D mssyst-runtime-serialization-formatters-formattertypestyle.ads  20060131171406 3e67e805
+D mssyst-runtime-serialization-formatters-typefilterlevel.ads  20060131171406 3bc774f3
+D mssyst-runtime-serialization-iformatter.ads  20060131171358 986bbe70
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-runtime-serialization-isurrogateselector.ads  20060131171358 0aeb2991
+D mssyst-runtime-serialization-serializationbinder.ads  20060131171358 b4a338f1
+D mssyst-runtime-serialization-streamingcontext.ads  20060131171358 58e01b0b
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060131171358 2f27fbc4
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 48|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 48|7r6 10r6 11r6 12r6 16r6 19r6 21r6 25r9 32r20 33r14 34r14
+. 42r18 43r17 46r29 47r17 47r77 50r29 50r58 53r29 54r17 55r27 55r92 57r33
+. 59r33 61r33 63r33 65r33 67r33 70r29 71r15 74r29 75r15 76r17 79r15 82r15
+. 85r15 88r15 91r15 94r15 97r29 98r17 98r77 101r29 102r17 103r27 103r92 124r5
+. 126r20
+X 17 mssyst-io.ads
+6K16 IO 48|46r36 50r36 53r36 70r36 74r36 97r36 101r36
+X 19 mssyst-io-stream.ads
+18K19 Stream 48|46r39 50r39 53r39 70r39 74r39 97r39 101r39
+20P9 Ref(integer) 48|46r46 50r46 53r46 70r46 74r46 97r46 101r46
+X 22 mssyst-object.ads
+11K16*Object 46e18 48|7w13 10w13 32r27 47r84 50r65 55r99 71r22 75r22 98r84
+. 103r99
+12R9*Typ 20e14 48|32r34
+13P9*Ref(12R9) 48|47r91 50r72 55r106 71r29 75r29 98r91 103r106
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{64|51P9}
+36V13*ToString{59|27P9}
+X 33 mssyst-runtime.ads
+6K16*Runtime 9|6k9 33|7e19 48|11r13 12r13 16r13 19r13 21r13 25r16 33r21 34r21
+. 42r25 43r24 47r24 54r24 55r34 57r40 59r40 61r40 63r40 65r40 67r40 76r24
+. 79r22 82r22 85r22 88r22 91r22 94r22 98r24 102r24 103r34 124r12 126r27
+X 37 mssyst-runtime-remoting.ads
+6K24*Remoting 7e28 48|11r21 33r29 47r32 54r32 55r42 76r32 98r32 102r32 103r42
+X 38 mssyst-runtime-remoting-messaging.ads
+6K33*Messaging 7e38 48|11r30 33r38 47r41 54r41 55r51 76r41 98r41 102r41 103r51
+X 39 mssyst-runtime-remoting-messaging-header.ads
+13K43 Header 48|76r51
+18P9 Ref_Array(integer) 48|76r58
+X 40 mssyst-runtime-remoting-messaging-headerhandler.ads
+24K43 HeaderHandler 48|47r51 54r51 98r51 102r51
+26P9 Ref(integer) 48|47r65 54r65 98r65 102r65
+X 42 mssyst-runtime-remoting-messaging-imethodcallmessage.ads
+15K43 IMethodCallMessage 48|55r61 103r61
+17P9 Ref(integer) 48|55r80 103r80
+X 44 mssyst-runtime-remoting-messaging-iremotingformatter.ads
+15K43*IRemotingFormatter 35e57 48|11w40 33r48
+16R9*Typ 48|33r67
+X 45 mssyst-runtime-serialization.ads
+6K24*Serialization 33|6k16 45|7e33 48|12r21 16r21 19r21 21r21 25r24 34r29
+. 42r33 43r32 57r48 59r48 61r48 63r48 65r48 67r48 79r30 82r30 85r30 88r30
+. 91r30 94r30 124r20 126r35
+X 46 mssyst-runtime-serialization-formatters.ads
+6K38*Formatters 45|6k24 46|7e44 48|16r35 19r35 21r35 25r38 57r62 63r62 67r62
+. 79r44 88r44 94r44 124r34 126r49
+X 47 mssyst-runtime-serialization-formatters-binary.ads
+6K49*Binary 46|6k38 47|7e51 48|25r49 124r45 126r60
+X 48 mssyst-runtime-serialization-formatters-binary-binaryformatter.ads
+25K56*BinaryFormatter 47|6k49 48|124l52 124e67 126r67
+26R9*Typ 27r27 32c9 45r21 49r21 52r21 57r21 59r21 61r21 63r21 65r21 67r21
+. 69r21 73r21 78r21 81r21 84r21 87r21 90r21 93r21 96r21 100r21 105r27
+27P9*Ref(26R9) 28r34 29r47 39r14 39r34 41r14 43r81
+28P9*Ref_addrof(27P9)
+29A9*Ref_Arr(27P9) 30r33
+30P9*Ref_Array(29A9) 31r40
+31P9*Ref_Array_addrof(30P9)
+32R9*Typ<22|18R9> 22|23p13 29p13 31p13 36p13 48|37e14 44P13 48P13 51p13 56p13
+. 58P13 60P13 62p13 64P13 66p13 68P14 72P14 77p14 80P14 83P14 86p14 89P14
+. 92p14 95p13 99p13
+38V13*new_BinaryFormatter{27P9} 39>7
+39p7 This{27P9}
+40V13*new_BinaryFormatter{27P9} 41>7 42>7 43>7
+41p7 This{27P9}
+42p7 selector{54|16P9}
+43r7 context{56|16R9}
+44V13*Deserialize{22|13P9} 45^7 46>7 47>7
+45p7 This(32R9)
+46p7 serializationStream{19|20P9}
+47p7 handler{40|26P9}
+48V13*Deserialize{22|13P9} 49^7 50>7 107b23
+49p7 This(32R9)
+50p7 serializationStream{19|20P9}
+51V13*DeserializeMethodResponse{22|13P9} 52^7 53>7 54>7 55>7 108b23
+52p7 This(32R9)
+53p7 serializationStream{19|20P9}
+54p7 handler{40|26P9}
+55p7 methodCallMessage{42|17P9}
+56V13*get_AssemblyFormat{49|16E9} 57^7 109b23
+57p7 This(32R9)
+58V13*get_Binder{55|15P9} 59^7 110b23
+59p7 This(32R9)
+60V13*get_Context{56|16R9} 61^7 111b23
+61p7 This(32R9)
+62V13*get_FilterLevel{51|16E9} 63^7 112b23
+63p7 This(32R9)
+64V13*get_SurrogateSelector{54|16P9} 65^7 113b23
+65p7 This(32R9)
+66V13*get_TypeFormat{50|16E9} 67^7 114b23
+67p7 This(32R9)
+68U14*Serialize 69^7 70>7 71>7
+69p7 This(32R9)
+70p7 serializationStream{19|20P9}
+71p7 graph{22|13P9}
+72U14*Serialize 73^7 74>7 75>7 76>7 115b23
+73p7 This(32R9)
+74p7 serializationStream{19|20P9}
+75p7 graph{22|13P9}
+76p7 headers{39|18P9}
+77U14*set_AssemblyFormat 78^7 79>7 116b23
+78p7 This(32R9)
+79e7 value{49|16E9}
+80U14*set_Binder 81^7 82>7 117b23
+81p7 This(32R9)
+82p7 value{55|15P9}
+83U14*set_Context 84^7 85>7 118b23
+84p7 This(32R9)
+85r7 value{56|16R9}
+86U14*set_FilterLevel 87^7 88>7 119b23
+87p7 This(32R9)
+88e7 value{51|16E9}
+89U14*set_SurrogateSelector 90^7 91>7 120b23
+90p7 This(32R9)
+91p7 value{54|16P9}
+92U14*set_TypeFormat 93^7 94>7 121b23
+93p7 This(32R9)
+94e7 value{50|16E9}
+95V13*UnsafeDeserialize{22|13P9} 96^7 97>7 98>7 122b23
+96p7 This(32R9)
+97p7 serializationStream{19|20P9}
+98p7 handler{40|26P9}
+99V13*UnsafeDeserializeMethodResponse{22|13P9} 100^7 101>7 102>7 103>7 123b23
+100p7 This(32R9)
+101p7 serializationStream{19|20P9}
+102p7 handler{40|26P9}
+103p7 methodCallMessage{42|17P9}
+X 49 mssyst-runtime-serialization-formatters-formatterassemblystyle.ads
+15K49*FormatterAssemblyStyle 48|16w46 57r73 79r55 49|58e67
+16E9*ValueType 48|57r96 79r78 49|18e12
+X 50 mssyst-runtime-serialization-formatters-formattertypestyle.ads
+15K49*FormatterTypeStyle 48|21w46 67r73 94r55 50|60e63
+16E9*ValueType 48|67r92 94r74 50|19e17
+X 51 mssyst-runtime-serialization-formatters-typefilterlevel.ads
+15K49*TypeFilterLevel 48|19w46 63r73 88r55 51|58e60
+16E9*ValueType 48|63r89 88r71 51|18e12
+X 52 mssyst-runtime-serialization-iformatter.ads
+15K38*IFormatter 48|12w35 34r43 52|54e44
+16R9*Typ 48|34r54
+X 54 mssyst-runtime-serialization-isurrogateselector.ads
+14K38 ISurrogateSelector 48|42r47 65r62 91r44
+16P9 Ref(integer) 48|42r66 65r81 91r63
+X 55 mssyst-runtime-serialization-serializationbinder.ads
+13K38 SerializationBinder 48|59r62 82r44
+15P9 Ref(integer) 48|59r82 82r64
+X 56 mssyst-runtime-serialization-streamingcontext.ads
+15K38 StreamingContext 48|43r46 61r62 85r44
+16R9 ValueType 48|43r63 61r79 85r61
+X 59 mssyst-string.ads
+27P9 Ref(integer)
+X 64 mssyst-type_k.ads
+51P9 Ref(integer)
+

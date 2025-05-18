@@ -1,0 +1,176 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.design.uitypeeditor%s  mssyst-drawing-design-uitypeeditor.ads  311b4aba NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.design%s  mssyst-drawing-design.ads  mssyst-drawing-design.ali
+W mssyst.drawing.design.uitypeeditoreditstyle%s  mssyst-drawing-design-uitypeeditoreditstyle.ads  mssyst-drawing-design-uitypeeditoreditstyle.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-itypedescriptorcontext.ads  20060131171414 d0c826f6
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-copypixeloperation.ads  20060131171430 bcae6884
+D mssyst-drawing-design.ads  20060131171432 4c490217
+D mssyst-drawing-design-paintvalueeventargs.ads  20060131171432 07df1b69
+D mssyst-drawing-design-uitypeeditor.ads  20060131171432 cf111856
+D mssyst-drawing-design-uitypeeditoreditstyle.ads  20060131171432 07c7170b
+D mssyst-drawing-drawing2d.ads  20060131171430 02b10736
+D mssyst-drawing-drawing2d-combinemode.ads  20060131171430 467ba574
+D mssyst-drawing-drawing2d-compositingmode.ads  20060131171430 3ce094d4
+D mssyst-drawing-drawing2d-compositingquality.ads  20060131171430 777a28ce
+D mssyst-drawing-drawing2d-coordinatespace.ads  20060131171430 4eae09c0
+D mssyst-drawing-drawing2d-fillmode.ads  20060131171430 fd618471
+D mssyst-drawing-drawing2d-flushintention.ads  20060131171430 c85a32e0
+D mssyst-drawing-drawing2d-interpolationmode.ads  20060131171430 923a6e49
+D mssyst-drawing-drawing2d-matrixorder.ads  20060131171430 32337ee5
+D mssyst-drawing-drawing2d-pixeloffsetmode.ads  20060131171432 290cbe8f
+D mssyst-drawing-drawing2d-smoothingmode.ads  20060131171432 35dda90b
+D mssyst-drawing-graphics.ads  20060131171430 a787a9b1
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-idevicecontext.ads  20060131171428 3b407974
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-pointf.ads  20060131171432 a63d5a83
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-rectanglef.ads  20060131171432 7fcf14fa
+D mssyst-drawing-text.ads  20060131171430 47e8b126
+D mssyst-drawing-text-textrenderinghint.ads  20060131171432 e6fd5e60
+D mssyst-eventargs.ads	20060131171354 20b9e5e0
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 13|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 13|7r6 10r6 13r6 19r9 26r20 33r17 34r18 35r15 35r41 38r18
+. 39r15 39r41 44r17 44r74 46r33 49r17 54r15 55r16 56r19 59r11 68r5 70r20
+X 7 mssyst-componentmodel.ads
+6K16 ComponentModel 13|33r24 44r24 49r24
+X 8 mssyst-componentmodel-itypedescriptorcontext.ads
+14K31 ITypeDescriptorContext 13|33r39 44r39 49r39
+16P9 Ref(integer) 13|33r62 44r62 49r62
+X 9 mssyst-drawing.ads
+6K16*Drawing 6|6k9 9|7e19 13|13r13 19r16 44r81 46r40 55r23 56r26 59r18 68r12
+. 70r27
+X 11 mssyst-drawing-design.ads
+6K24*Design 9|6k16 11|7e26 13|13r21 19r24 44r89 46r48 59r26 68r20 70r35
+X 12 mssyst-drawing-design-paintvalueeventargs.ads
+17K31 PaintValueEventArgs 13|59r33
+19P9 Ref(integer) 13|59r53
+X 13 mssyst-drawing-design-uitypeeditor.ads
+19K31*UITypeEditor 11|6k24 13|68l27 68e39 70r42
+20R9*Typ 21r27 26c9 32r21 37r21 41r21 43r21 46r21 48r21 51r21 53r21 58r21
+. 61r27
+21P9*Ref(20R9) 22r34 23r47 30r14 30r34
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40
+25P9*Ref_Array_addrof(24P9)
+26R9*Typ<44|18R9> 28e14 31p13 36p13 40p13 42p13 45p13 47p13 50p13 52p14 57p14
+. 44|23p13 29p13 31p13 36p13
+29V13*new_UITypeEditor{21P9} 30>7 62r28
+30p7 This{21P9}
+31V13*EditValue{44|13P9} 32^7 33>7 34>7 35>7
+32p7 This(26R9)
+33p7 context{8|16P9}
+34p7 provider{42|14P9}
+35p7 value{44|13P9}
+36V13*EditValue{44|13P9} 37^7 38>7 39>7 63b23
+37p7 This(26R9)
+38p7 provider{42|14P9}
+39p7 value{44|13P9}
+40V13*get_IsDropDownResizable{boolean} 41^7 64b23
+41p7 This(26R9)
+42V13*GetEditStyle{14|16E9} 43^7 44>7
+43p7 This(26R9)
+44p7 context{8|16P9}
+45V13*GetEditStyle{14|16E9} 46^7 65b23
+46p7 This(26R9)
+47V13*GetPaintValueSupported{boolean} 48^7 49>7
+48p7 This(26R9)
+49p7 context{8|16P9}
+50V13*GetPaintValueSupported{boolean} 51^7 66b23
+51p7 This(26R9)
+52U14*PaintValue 53^7 54>7 55>7 56>7
+53p7 This(26R9)
+54p7 value{44|13P9}
+55p7 canvas{26|58P9}
+56r7 rectangle{31|18R9}
+57U14*PaintValue 58^7 59>7 67b23
+58p7 This(26R9)
+59p7 e{12|19P9}
+X 14 mssyst-drawing-design-uitypeeditoreditstyle.ads
+15K31*UITypeEditorEditStyle 13|13w28 44r96 46r55 14|60e48
+16E9*ValueType 13|44r118 46r77 14|19e16
+X 26 mssyst-drawing-graphics.ads
+56K24 Graphics 13|55r31
+58P9 Ref(integer) 13|55r40
+X 31 mssyst-drawing-rectangle.ads
+17K24 Rectangle 13|56r34
+18R9 ValueType 13|56r44
+X 42 mssyst-iserviceprovider.ads
+12K16 IServiceProvider 13|34r25 38r25
+14P9 Ref(integer) 13|34r42 38r42
+X 44 mssyst-object.ads
+11K16*Object 13|7w13 10w13 26r27 35r22 35r48 39r22 39r48 54r22 44|46e18
+12R9*Typ 13|26r34 44|20e14
+13P9*Ref(12R9) 13|35r29 35r55 39r29 39r55 54r29
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{65|51P9}
+36V13*ToString{60|27P9}
+X 60 mssyst-string.ads
+27P9 Ref(integer)
+X 65 mssyst-type_k.ads
+51P9 Ref(integer)
+

@@ -1,0 +1,109 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.reflection.exceptionhandlingclause%s  mssyst-reflection-exceptionhandlingclause.ads  aa95e24f NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.reflection%s	mssyst-reflection.ads	mssyst-reflection.ali
+W mssyst.reflection.exceptionhandlingclauseoptions%s  mssyst-reflection-exceptionhandlingclauseoptions.ads  mssyst-reflection-exceptionhandlingclauseoptions.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-exceptionhandlingclause.ads  20060131171358 e806b1f2
+D mssyst-reflection-exceptionhandlingclauseoptions.ads  20060131171358 d2bcabf1
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 17|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 17|7r6 10r6 12r6 14r9 21r20 25r33 29r33 39r33 50r5 52r20
+X 13 mssyst-object.ads
+11K16*Object 46e18 17|7w13 10w13 21r27
+12R9*Typ 20e14 17|21r34
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{36|51P9}
+X 14 mssyst-reflection.ads
+6K16*Reflection 6|6k9 14|7e22 17|12r13 14r16 29r40 50r12 52r27
+X 17 mssyst-reflection-exceptionhandlingclause.ads
+14K27*ExceptionHandlingClause 14|6k16 17|50l23 50e46 52r38
+15R9*Typ 16r27 21c9 25r21 27r21 29r21 31r21 33r21 35r21 37r21 39r21 41r27
+16P9*Ref(15R9) 17r34 18r47
+17P9*Ref_addrof(16P9)
+18A9*Ref_Arr(16P9) 19r33
+19P9*Ref_Array(18A9) 20r40
+20P9*Ref_Array_addrof(19P9)
+21R9*Typ<13|18R9> 13|23p13 29p13 31p13 17|23e14 24p13 26p13 28p13 30p13 32p13
+. 34p13 36p13 38P13
+24V13*get_CatchType{36|51P9} 25^7 42b23
+25p7 This(21R9)
+26V13*get_FilterOffset{integer} 27^7 43b23
+27p7 This(21R9)
+28V13*get_Flags{18|16E9} 29^7 44b23
+29p7 This(21R9)
+30V13*get_HandlerLength{integer} 31^7 45b23
+31p7 This(21R9)
+32V13*get_HandlerOffset{integer} 33^7 46b23
+33p7 This(21R9)
+34V13*get_TryLength{integer} 35^7 47b23
+35p7 This(21R9)
+36V13*get_TryOffset{integer} 37^7 48b23
+37p7 This(21R9)
+38V13*ToString{31|27P9} 39^7 49b23
+39p7 This(21R9)
+X 18 mssyst-reflection-exceptionhandlingclauseoptions.ads
+15K27*ExceptionHandlingClauseOptions 17|12w24 29r51 18|64e53
+16E9*ValueType 17|29r82 18|20e13
+X 31 mssyst-string.ads
+25K16 String 17|39r40
+27P9 Ref(integer) 17|39r47
+X 36 mssyst-type_k.ads
+49K16 Type_k 17|25r40
+51P9 Ref(integer) 17|25r47
+

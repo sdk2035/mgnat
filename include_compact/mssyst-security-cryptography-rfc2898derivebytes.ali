@@ -1,0 +1,137 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.security.cryptography.rfc2898derivebytes%s  mssyst-security-cryptography-rfc2898derivebytes.ads  47c1a62f NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.cryptography%s  mssyst-security-cryptography.ads  mssyst-security-cryptography.ali
+W mssyst.security.cryptography.derivebytes%s  mssyst-security-cryptography-derivebytes.ads  mssyst-security-cryptography-derivebytes.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-cryptography.ads  20060131165240 6bbb0e6b
+D mssyst-security-cryptography-derivebytes.ads  20060131171408 a40f154e
+D mssyst-security-cryptography-rfc2898derivebytes.ads  20060131171408 1f8e9a40
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 31|8w6 9r5 36r14 40r14 44r18 45r14 50r33 53r28 61r15
+24E9*unsigned_int8<character>
+44A9*unsigned_int8_arr(24E9) 31|36r25 40r25 44r29 45r25 61r26
+45P9*Unsigned_Int8_Array(44A9) 31|50r44 53r39
+X 6 mssyst.ads
+6K9*MSSyst 7e11 31|7r6 10r6 14r9 21r20 26r18 30r18 35r18 39r18 71r5 73r20
+X 12 mssyst-object.ads
+11K16*Object 46e18 31|7w13
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{37|51P9}
+36V13*ToString{32|27P9}
+X 28 mssyst-security.ads
+6K16*Security 6|6k9 28|7e20 31|10r13 14r16 21r27 71r12 73r27
+X 29 mssyst-security-cryptography.ads
+6K25*Cryptography 28|6k16 29|7e33 31|10r22 14r25 21r36 71r21 73r36
+X 30 mssyst-security-cryptography-derivebytes.ads
+13K38*DeriveBytes 32e45 31|10w35 21r49
+14R9*Typ 31|21r61
+X 31 mssyst-security-cryptography-rfc2898derivebytes.ads
+14K38*Rfc2898DeriveBytes 29|6k25 31|71l34 71e52 73r49
+15R9*Typ 16r27 21c9 48r21 50r21 52r21 55r21 57r21 60r21 63r27
+16P9*Ref(15R9) 17r34 18r47 25r14 27r34 29r14 32r36 34r14 36r51 38r14 41r36
+. 43r14 46r36
+17P9*Ref_addrof(16P9)
+18A9*Ref_Arr(16P9) 19r33
+19P9*Ref_Array(18A9) 20r40
+20P9*Ref_Array_addrof(19P9)
+21R9*Typ<30|20R9> 12|23p13 29p13 31p13 36p13 31|23e14 47p13 49p13 51P13 54P14
+. 56p14 59p14
+24V13*new_Rfc2898DeriveBytes{16P9} 25>7 26>7 27>7
+25p7 This{16P9}
+26p7 password{32|27P9}
+27i7 saltSize{integer}
+28V13*new_Rfc2898DeriveBytes{16P9} 29>7 30>7 31>7 32>7
+29p7 This{16P9}
+30p7 password{32|27P9}
+31i7 saltSize{integer}
+32i7 iterations{integer}
+33V13*new_Rfc2898DeriveBytes{16P9} 34>7 35>7 36>7
+34p7 This{16P9}
+35p7 password{32|27P9}
+36a7 salt{5|44A9}
+37V13*new_Rfc2898DeriveBytes{16P9} 38>7 39>7 40>7 41>7
+38p7 This{16P9}
+39p7 password{32|27P9}
+40a7 salt{5|44A9}
+41i7 iterations{integer}
+42V13*new_Rfc2898DeriveBytes{16P9} 43>7 44>7 45>7 46>7
+43p7 This{16P9}
+44a7 password{5|44A9}
+45a7 salt{5|44A9}
+46i7 iterations{integer}
+47V13*get_IterationCount{integer} 48^7 65b23
+48p7 This(21R9)
+49V13*get_Salt{5|45P9} 50^7 66b23
+50p7 This(21R9)
+51V13*GetBytes{5|45P9} 52^7 53>7 67b23
+52p7 This(21R9)
+53i7 cb{integer}
+54U14*Reset 55^7 68b23
+55p7 This(21R9)
+56U14*set_IterationCount 57^7 58>7 69b23
+57p7 This(21R9)
+58i7 value{integer}
+59U14*set_Salt 60^7 61>7 70b23
+60p7 This(21R9)
+61a7 value{5|44A9}
+X 32 mssyst-string.ads
+25K16 String 31|26r25 30r25 35r25 39r25
+27P9 Ref(integer) 31|26r32 30r32 35r32 39r32
+X 37 mssyst-type_k.ads
+51P9 Ref(integer)
+

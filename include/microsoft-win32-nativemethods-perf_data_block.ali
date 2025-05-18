@@ -1,0 +1,100 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U microsoft.win32.nativemethods.perf_data_block%s  microsoft-win32-nativemethods-perf_data_block.ads  fa427e46 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W microsoft%s		microsoft.ads		microsoft.ali
+W microsoft.win32%s	microsoft-win32.ads	microsoft-win32.ali
+W microsoft.win32.nativemethods%s  microsoft-win32-nativemethods.ads  microsoft-win32-nativemethods.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20050914013254 02f2695c
+D microsoft-win32.ads	20050914013254 bf37fdc1
+D microsoft-win32-nativemethods.ads  20050914013306 1e366b2e
+D microsoft-win32-nativemethods-perf_data_block.ads  20041030171620 60cba1d3
+D microsoft-win32-nativemethods-systemtime.ads  20041030171620 273b3204
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 microsoft.ads
+6K9*Microsoft 7e14 8|15r9 41r20 61r5 63r20
+X 6 microsoft-win32.ads
+6K19*Win32 5|6k9 6|7e20 8|15r19 41r30 61r15 63r30
+X 7 microsoft-win32-nativemethods.ads
+6K25*NativeMethods 6|6k19 7|7e34 8|15r25 41r36 61r21 63r36
+X 8 microsoft-win32-nativemethods-perf_data_block.ads
+15K39*PERF_DATA_BLOCK 7|6k25 8|61l35 61e50 63r50
+16R9*Typ 17r27 22c9 59r27
+17P9*Ref(16R9) 18r34 19r47 57r14 57r34
+18P9*Ref_addrof(17P9)
+19A9*Ref_Arr(17P9) 20r33
+20P9*Ref_Array(19A9) 21r40
+21P9*Ref_Array_addrof(20P9)
+22R9*Typ<14|18R9> 55e14 14|26p13 29p13 31p13 36p13
+23i7*Signature1{integer}
+25i7*Signature2{integer}
+27i7*LittleEndian{integer}
+29i7*Version{integer}
+31i7*Revision{integer}
+33i7*TotalByteLength{integer}
+35i7*HeaderLength{integer}
+37i7*NumObjectTypes{integer}
+39i7*DefaultObject{integer}
+41p7*SystemTime{9|16P9}
+43i7*pad1{integer}
+45i7*PerfTime{long_long_integer}
+47i7*PerfFreq{long_long_integer}
+49i7*PerfTime100nSec{long_long_integer}
+51i7*SystemNameLength{integer}
+53i7*SystemNameOffset{integer}
+56V13*new_PERF_DATA_BLOCK{17P9} 57>7 60r28
+57p7 This{17P9}
+X 9 microsoft-win32-nativemethods-systemtime.ads
+14K39 SYSTEMTIME 8|41r50
+16P9 Ref(integer) 8|41r61
+X 10 msil_types.ads
+7K9*Msil_Types 8|8w6 9r5 10|72e15
+X 11 mssyst.ads
+6K9*MSSyst 8|7r6 14r6 22r20 11|7e11
+X 14 mssyst-object.ads
+11K16*Object 8|7w13 14w13 22r27 14|46e18
+12R9*Typ 8|22r34 14|20e14
+18R9*Typ
+26V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{24|44P9}
+36V13*ToString{23|22P9}
+X 23 mssyst-string.ads
+22P9 Ref(integer)
+X 24 mssyst-type_k.ads
+44P9 Ref(integer)
+

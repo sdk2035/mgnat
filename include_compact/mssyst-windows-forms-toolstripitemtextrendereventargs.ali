@@ -1,0 +1,259 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.toolstripitemtextrendereventargs%s  mssyst-windows-forms-toolstripitemtextrendereventargs.ads  5b4804bf NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.contentalignment%s  mssyst-drawing-contentalignment.ads  mssyst-drawing-contentalignment.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.textformatflags%s  mssyst-windows-forms-textformatflags.ads  mssyst-windows-forms-textformatflags.ali
+W mssyst.windows.forms.toolstripitemrendereventargs%s  mssyst-windows-forms-toolstripitemrendereventargs.ads  mssyst-windows-forms-toolstripitemrendereventargs.ali
+W mssyst.windows.forms.toolstriptextdirection%s  mssyst-windows-forms-toolstriptextdirection.ads  mssyst-windows-forms-toolstriptextdirection.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-color.ads  20060131171430 efe0dbd6
+D mssyst-drawing-contentalignment.ads  20060131171430 648ba58e
+D mssyst-drawing-copypixeloperation.ads  20060131171430 bcae6884
+D mssyst-drawing-drawing2d.ads  20060131171430 02b10736
+D mssyst-drawing-drawing2d-combinemode.ads  20060131171430 467ba574
+D mssyst-drawing-drawing2d-compositingmode.ads  20060131171430 3ce094d4
+D mssyst-drawing-drawing2d-compositingquality.ads  20060131171430 777a28ce
+D mssyst-drawing-drawing2d-coordinatespace.ads  20060131171430 4eae09c0
+D mssyst-drawing-drawing2d-fillmode.ads  20060131171430 fd618471
+D mssyst-drawing-drawing2d-flushintention.ads  20060131171430 c85a32e0
+D mssyst-drawing-drawing2d-interpolationmode.ads  20060131171430 923a6e49
+D mssyst-drawing-drawing2d-matrixorder.ads  20060131171430 32337ee5
+D mssyst-drawing-drawing2d-pixeloffsetmode.ads  20060131171432 290cbe8f
+D mssyst-drawing-drawing2d-smoothingmode.ads  20060131171432 35dda90b
+D mssyst-drawing-font.ads  20060131171430 86695792
+D mssyst-drawing-fontstyle.ads  20060131171430 a1bbe068
+D mssyst-drawing-graphics.ads  20060131171430 a787a9b1
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-idevicecontext.ads  20060131171428 3b407974
+D mssyst-drawing-knowncolor.ads  20060131171430 28ff3226
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-pointf.ads  20060131171432 a63d5a83
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-rectanglef.ads  20060131171432 7fcf14fa
+D mssyst-drawing-text.ads  20060131171430 47e8b126
+D mssyst-drawing-text-textrenderinghint.ads  20060131171432 e6fd5e60
+D mssyst-eventargs.ads	20060131171354 20b9e5e0
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-accessiblerole.ads  20060131171436 c08bcb4f
+D mssyst-windows-forms-anchorstyles.ads  20060131171436 22446596
+D mssyst-windows-forms-arrowdirection.ads  20060131171436 7a0a27d2
+D mssyst-windows-forms-boundsspecified.ads  20060131171436 2f9ca777
+D mssyst-windows-forms-control.ads  20060131171436 1c03b650
+D mssyst-windows-forms-dockstyle.ads  20060131171440 a08bf6b6
+D mssyst-windows-forms-dragdropeffects.ads  20060131171440 dfaed805
+D mssyst-windows-forms-getchildatpointskip.ads  20060131171442 84d63876
+D mssyst-windows-forms-ibindablecomponent.ads  20060131171436 1e1050b2
+D mssyst-windows-forms-imagelayout.ads  20060131171442 e0e6ce51
+D mssyst-windows-forms-imemode.ads  20060131171442 58d96089
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D mssyst-windows-forms-keys.ads  20060131171442 e98517be
+D mssyst-windows-forms-mergeaction.ads  20060131171444 0c83e06a
+D mssyst-windows-forms-message.ads  20060131171444 f6b3d9da
+D mssyst-windows-forms-mousebuttons.ads  20060131171444 1b279075
+D mssyst-windows-forms-orientation.ads  20060131171444 f6d26c92
+D mssyst-windows-forms-preprocesscontrolstate.ads  20060131171446 047a345d
+D mssyst-windows-forms-righttoleft.ads  20060131171446 898cfeaf
+D mssyst-windows-forms-scrollablecontrol.ads  20060131171436 2a5f36a7
+D mssyst-windows-forms-textformatflags.ads  20060131171450 2ab4374e
+D mssyst-windows-forms-textimagerelation.ads  20060131171446 00d8472a
+D mssyst-windows-forms-toolstrip.ads  20060131171436 cf98054c
+D mssyst-windows-forms-toolstripdropdowndirection.ads  20060131171446 ef1c98b6
+D mssyst-windows-forms-toolstripgripdisplaystyle.ads  20060131171446 dfc1a9b6
+D mssyst-windows-forms-toolstripgripstyle.ads  20060131171446 e2e57ce2
+D mssyst-windows-forms-toolstripitem.ads  20060131171436 aa7a7c77
+D mssyst-windows-forms-toolstripitemalignment.ads  20060131171446 097d2277
+D mssyst-windows-forms-toolstripitemdisplaystyle.ads  20060131171446 28f7e9ad
+D mssyst-windows-forms-toolstripitemimagescaling.ads  20060131171446 b6d733c9
+D mssyst-windows-forms-toolstripitemoverflow.ads  20060131171446 1e67956b
+D mssyst-windows-forms-toolstripitemplacement.ads  20060131171446 b9617c94
+D mssyst-windows-forms-toolstripitemrendereventargs.ads  20060131171446 1dc5043c
+D mssyst-windows-forms-toolstripitemtextrendereventargs.ads  20060131171446 7f3ebfff
+D mssyst-windows-forms-toolstriplayoutstyle.ads  20060131171446 ea413ecd
+D mssyst-windows-forms-toolstriprendermode.ads  20060131171448 c1599e1e
+D mssyst-windows-forms-toolstriptextdirection.ads  20060131171448 26b992df
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 108|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 108|7r6 10r6 16r6 18r6 22r6 23r9 30r20 35r11 36r14 37r14
+. 38r23 39r19 40r18 41r16 44r11 45r14 46r14 47r23 48r19 49r18 50r19 52r33
+. 54r33 56r33 58r33 60r33 62r33 65r15 68r15 71r15 74r15 77r15 80r15 96r5
+. 98r20
+X 11 mssyst-drawing.ads
+6K16*Drawing 7e19 108|22r13 35r18 38r30 39r26 40r25 44r18 47r30 48r26 49r25
+. 50r26 54r40 58r40 62r40 68r22 74r22 80r22
+X 12 mssyst-drawing-color.ads
+15K24 Color 108|39r34 48r34 54r48 68r30
+16R9 ValueType 108|39r40 48r40 54r54 68r36
+X 13 mssyst-drawing-contentalignment.ads
+15K24*ContentAlignment 72e36 108|22w21 50r34
+16E9*ValueType 25e19 108|50r51
+X 26 mssyst-drawing-font.ads
+21K24 Font 108|40r33 49r33 58r48 74r30
+23P9 Ref(integer) 108|40r38 49r38 58r53 74r35
+X 28 mssyst-drawing-graphics.ads
+56K24 Graphics 108|35r26 44r26
+58P9 Ref(integer) 108|35r35 44r35
+X 34 mssyst-drawing-rectangle.ads
+17K24 Rectangle 108|38r38 47r38 62r48 80r30
+18R9 ValueType 108|38r48 47r48 62r58 80r40
+X 46 mssyst-object.ads
+11K16*Object 46e18 108|7w13
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{69|51P9}
+36V13*ToString{64|27P9}
+X 64 mssyst-string.ads
+25K16 String 108|37r21 46r21 52r40 65r22
+27P9 Ref(integer) 108|37r28 46r28 52r47 65r29
+X 69 mssyst-type_k.ads
+51P9 Ref(integer)
+X 73 mssyst-windows.ads
+6K16*Windows 6|6k9 73|7e19 108|10r13 16r13 18r13 23r16 30r27 36r21 41r23
+. 45r21 56r40 60r40 71r22 77r22 96r12 98r27
+X 74 mssyst-windows-forms.ads
+6K24*Forms 73|6k16 74|7e25 108|10r21 16r21 18r21 23r24 30r35 36r29 41r31
+. 45r29 56r48 60r48 71r30 77r30 96r20 98r35
+X 95 mssyst-windows-forms-textformatflags.ads
+15K30*TextFormatFlags 109e41 108|18w27 41r37 60r54 77r36
+16E9*ValueType 41e27 108|41r53 60r70 77r52
+X 97 mssyst-windows-forms-toolstrip.ads
+97P9 Ref(integer)
+X 101 mssyst-windows-forms-toolstripitem.ads
+48K30 ToolStripItem 108|36r35 45r35
+50P9 Ref(integer) 108|36r49 45r49
+X 107 mssyst-windows-forms-toolstripitemrendereventargs.ads
+17K30*ToolStripItemRenderEventArgs 43e54 108|10w27 30r41
+18R9*Typ 108|30r70
+31V13*get_Graphics{28|58P9}
+33V13*get_Item{101|50P9}
+35V13*get_ToolStrip{97|97P9}
+X 108 mssyst-windows-forms-toolstripitemtextrendereventargs.ads
+23K30*ToolStripItemTextRenderEventArgs 74|6k24 108|96l26 96e58 98r41
+24R9*Typ 25r27 30c9 52r21 54r21 56r21 58r21 60r21 62r21 64r21 67r21 70r21
+. 73r21 76r21 79r21 82r27
+25P9*Ref(24R9) 26r34 27r47 34r14 41r71 43r14 50r69
+26P9*Ref_addrof(25P9)
+27A9*Ref_Arr(25P9) 28r33
+28P9*Ref_Array(27A9) 29r40
+29P9*Ref_Array_addrof(28P9)
+30R9*Typ<107|24R9> 46|23p13 29p13 31p13 36p13 107|31p13 33p13 35p13 108|32e14
+. 51p13 53p13 55p13 57p13 59p13 61p13 63p14 66p14 69p14 72p14 75p14 78p14
+33V13*new_ToolStripItemTextRenderEventArgs{25P9} 34>7 35>7 36>7 37>7 38>7
+. 39>7 40>7 41>7
+34p7 This{25P9}
+35p7 g{28|58P9}
+36p7 item{101|50P9}
+37p7 text{64|27P9}
+38r7 textRectangle{34|18R9}
+39r7 textColor{12|16R9}
+40p7 textFont{26|23P9}
+41e7 format{95|16E9}
+42V13*new_ToolStripItemTextRenderEventArgs{25P9} 43>7 44>7 45>7 46>7 47>7
+. 48>7 49>7 50>7
+43p7 This{25P9}
+44p7 g{28|58P9}
+45p7 item{101|50P9}
+46p7 text{64|27P9}
+47r7 textRectangle{34|18R9}
+48r7 textColor{12|16R9}
+49p7 textFont{26|23P9}
+50e7 textAlign{13|16E9}
+51V13*get_Text{64|27P9} 52^7 84b23
+52p7 This(30R9)
+53V13*get_TextColor{12|16R9} 54^7 85b23
+54p7 This(30R9)
+55V13*get_TextDirection{111|16E9} 56^7 86b23
+56p7 This(30R9)
+57V13*get_TextFont{26|23P9} 58^7 87b23
+58p7 This(30R9)
+59V13*get_TextFormat{95|16E9} 60^7 88b23
+60p7 This(30R9)
+61V13*get_TextRectangle{34|18R9} 62^7 89b23
+62p7 This(30R9)
+63U14*set_Text 64^7 65>7 90b23
+64p7 This(30R9)
+65p7 value{64|27P9}
+66U14*set_TextColor 67^7 68>7 91b23
+67p7 This(30R9)
+68r7 value{12|16R9}
+69U14*set_TextDirection 70^7 71>7 92b23
+70p7 This(30R9)
+71e7 value{111|16E9}
+72U14*set_TextFont 73^7 74>7 93b23
+73p7 This(30R9)
+74p7 value{26|23P9}
+75U14*set_TextFormat 76^7 77>7 94b23
+76p7 This(30R9)
+77e7 value{95|16E9}
+78U14*set_TextRectangle 79^7 80>7 95b23
+79p7 This(30R9)
+80r7 value{34|18R9}
+X 111 mssyst-windows-forms-toolstriptextdirection.ads
+15K30*ToolStripTextDirection 108|16w27 56r54 71r36 111|62e48
+16E9*ValueType 108|56r77 71r59 111|20e19
+

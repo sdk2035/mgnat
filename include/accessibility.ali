@@ -1,0 +1,13 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U accessibility%s	accessibility.ads	b094c4cf EE PK
+
+D accessibility.ads	20060518124702 b094c4cf
+D system.ads		20050820125040 15131902
+X 1 accessibility.ads
+6K9*Accessibility 7l5 7e18
+

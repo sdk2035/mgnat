@@ -1,0 +1,194 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.folderbrowserdialog%s  mssyst-windows-forms-folderbrowserdialog.ads  75f830c7 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.environment_specialfolder%s  mssyst-environment_specialfolder.ads  mssyst-environment_specialfolder.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.commondialog%s  mssyst-windows-forms-commondialog.ads  mssyst-windows-forms-commondialog.ali
+W mssyst.windows.forms.dialogresult%s  mssyst-windows-forms-dialogresult.ads  mssyst-windows-forms-dialogresult.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-environment_specialfolder.ads  20060131171356 d3cd364e
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-commondialog.ads  20060131171438 dfb27ea0
+D mssyst-windows-forms-dialogresult.ads  20060131171440 e555f490
+D mssyst-windows-forms-folderbrowserdialog.ads  20060131171442 e6ee9dee
+D mssyst-windows-forms-iwin32window.ads  20060131171436 655650c5
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 61|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 61|7r6 10r6 11r6 18r6 20r6 22r9 29r20 30r14 38r15 40r33 42r33
+. 44r33 49r15 54r15 57r15 60r15 78r5 80r20
+X 10 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 61|11r13 30r21
+X 11 mssyst-componentmodel-component.ads
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{13|15P9}
+40V13*get_Site{14|16P9}
+42U14*remove_Disposed
+45U14*set_Site
+48V13*ToString{48|27P9}
+X 12 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 61|11w28 30r36
+13R9*Typ 61|30r47
+X 13 mssyst-componentmodel-icontainer.ads
+15P9 Ref(integer)
+X 14 mssyst-componentmodel-isite.ads
+16P9 Ref(integer)
+X 16 mssyst-environment_specialfolder.ads
+15K16*Environment_Specialfolder 99e37 61|18w13 42r40 57r22
+16E9*ValueType 38e26 61|42r66 57r48
+X 17 mssyst-eventhandler.ads
+24K16 EventHandler 61|38r22 49r22
+26P9 Ref(integer) 61|38r35 49r35
+X 25 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{43|23P9}
+27V13*GetLifetimeService{27|13P9}
+29V13*InitializeLifetimeService{27|13P9}
+X 27 mssyst-object.ads
+11K16*Object 46e18 61|7w13
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{53|51P9}
+X 43 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 48 mssyst-string.ads
+25K16 String 61|40r40 44r40 54r22 60r22
+27P9 Ref(integer) 61|40r47 44r47 54r29 60r29
+X 53 mssyst-type_k.ads
+51P9 Ref(integer)
+X 57 mssyst-windows.ads
+6K16*Windows 9|6k9 57|7e19 61|10r13 20r13 22r16 29r27 78r12 80r27
+X 58 mssyst-windows-forms.ads
+6K24*Forms 57|6k16 58|7e25 61|10r21 20r21 22r24 29r35 78r20 80r35
+X 59 mssyst-windows-forms-commondialog.ads
+21K30*CommonDialog 62e38 61|10w27 29r41
+22R9*Typ 61|29r54
+38V13*get_Tag{27|13P9}
+45U14*set_Tag
+48V13*ShowDialog{60|16E9}
+51V13*ShowDialog{60|16E9}
+X 60 mssyst-windows-forms-dialogresult.ads
+15K30*DialogResult 70e38 61|20w27
+X 61 mssyst-windows-forms-folderbrowserdialog.ads
+22K30*FolderBrowserDialog 58|6k24 61|78l26 78e45 80r41
+23R9*Typ 24r27 29c9 37r21 40r21 42r21 44r21 46r21 48r21 51r21 53r21 56r21
+. 59r21 62r21 65r27
+24P9*Ref(23R9) 25r34 26r47 35r14 35r34
+25P9*Ref_addrof(24P9)
+26A9*Ref_Arr(24P9) 27r33
+27P9*Ref_Array(26A9) 28r40
+28P9*Ref_Array_addrof(27P9)
+29R9*Typ<59|28R9> 11|33P14 36p14 38p13 40P13 42P14 45P14 48P13 25|24p13 27p13
+. 29p13 27|23p13 29p13 31p13 59|38p13 45p14 48p13 51p13 61|33e14 36P14 39p13
+. 41p13 43p13 45p13 47P14 50P14 52p14 55p14 58p14 61p14
+34V13*new_FolderBrowserDialog{24P9} 35>7 66r28
+35p7 This{24P9}
+36U14*add_HelpRequest 37^7 38>7 67b23
+37p7 This(29R9)
+38p7 value{17|26P9}
+39V13*get_Description{48|27P9} 40^7 68b23
+40p7 This(29R9)
+41V13*get_RootFolder{16|16E9} 42^7 69b23
+42p7 This(29R9)
+43V13*get_SelectedPath{48|27P9} 44^7 70b23
+44p7 This(29R9)
+45V13*get_ShowNewFolderButton{boolean} 46^7 71b23
+46p7 This(29R9)
+47U14*remove_HelpRequest 48^7 49>7 72b23
+48p7 This(29R9)
+49p7 value{17|26P9}
+50U14*Reset 51^7 73b23
+51p7 This(29R9)
+52U14*set_Description 53^7 54>7 74b23
+53p7 This(29R9)
+54p7 value{48|27P9}
+55U14*set_RootFolder 56^7 57>7 75b23
+56p7 This(29R9)
+57e7 value{16|16E9}
+58U14*set_SelectedPath 59^7 60>7 76b23
+59p7 This(29R9)
+60p7 value{48|27P9}
+61U14*set_ShowNewFolderButton 62^7 63>7 77b23
+62p7 This(29R9)
+63b7 value{boolean}
+

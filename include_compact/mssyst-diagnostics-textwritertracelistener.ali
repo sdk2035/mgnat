@@ -1,0 +1,204 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.diagnostics.textwritertracelistener%s  mssyst-diagnostics-textwritertracelistener.ads  2fddcd6b NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.diagnostics%s	mssyst-diagnostics.ads	mssyst-diagnostics.ali
+W mssyst.diagnostics.traceeventtype%s  mssyst-diagnostics-traceeventtype.ads  mssyst-diagnostics-traceeventtype.ali
+W mssyst.diagnostics.tracelistener%s  mssyst-diagnostics-tracelistener.ads  mssyst-diagnostics-tracelistener.ali
+W mssyst.diagnostics.traceoptions%s  mssyst-diagnostics-traceoptions.ads  mssyst-diagnostics-traceoptions.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-specialized.ads  20060131171418 96cafd88
+D mssyst-collections-specialized-stringdictionary.ads  20060131171418 78884958
+D mssyst-diagnostics.ads  20060131165224 ca17f3f6
+D mssyst-diagnostics-textwritertracelistener.ads  20060131171416 e891df10
+D mssyst-diagnostics-traceeventcache.ads  20060131171416 c1ba0a14
+D mssyst-diagnostics-traceeventtype.ads  20060131171416 fba6a886
+D mssyst-diagnostics-tracefilter.ads  20060131171416 5c08b9a5
+D mssyst-diagnostics-tracelistener.ads  20060131171416 d3330f6b
+D mssyst-diagnostics-traceoptions.ads  20060131171416 b235612a
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-seekorigin.ads  20060131171404 0f77313e
+D mssyst-io-stream.ads	20060131171402 5b7412c0
+D mssyst-io-textwriter.ads  20060131171404 a59d24fb
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 11|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 11|7r6 10r6 17r6 20r6 24r9 31r20 38r16 41r16 42r14 45r16
+. 48r16 49r14 52r18 55r18 56r14 62r33 65r15 68r17 71r17 81r5 83r20
+X 9 mssyst-collections-specialized-stringdictionary.ads
+18P9 Ref(integer)
+X 10 mssyst-diagnostics.ads
+6K16*Diagnostics 6|6k9 10|7e23 11|10r13 17r13 20r13 24r16 31r27 81r12 83r27
+X 11 mssyst-diagnostics-textwritertracelistener.ads
+24K28*TextWriterTraceListener 10|6k16 11|81l24 81e47 83r39
+25R9*Typ 26r27 31c9 58r21 60r21 62r21 64r21 67r21 70r21 73r27
+26P9*Ref(25R9) 27r34 28r47 35r14 35r34 37r14 38r45 40r14 42r40 44r14 45r49
+. 47r14 49r40 51r14 52r44 54r14 56r40
+27P9*Ref_addrof(26P9)
+28A9*Ref_Arr(26P9) 29r33
+29P9*Ref_Array(28A9) 30r40
+30P9*Ref_Array_addrof(29P9)
+31R9*Typ<15|29R9> 33e14 57P14 59P14 61p13 63p14 66P14 69P14 15|34p14 36p14
+. 39p14 45p13 47p13 49p13 51p13 53p13 55p13 57p13 59p14 62p14 65p14 68p14
+. 71p14 74p14 81p14 88p14 95p14 103p14 109p14 116p14 120p14 127p14 130p14
+. 134p14 141p14 27|24p13 27p13 29p13 28|23p13 29p13 31p13 36p13
+34V13*new_TextWriterTraceListener{26P9} 35>7
+35p7 This{26P9}
+36V13*new_TextWriterTraceListener{26P9} 37>7 38>7
+37p7 This{26P9}
+38p7 stream{25|20P9}
+39V13*new_TextWriterTraceListener{26P9} 40>7 41>7 42>7
+40p7 This{26P9}
+41p7 stream{25|20P9}
+42p7 name{49|27P9}
+43V13*new_TextWriterTraceListener{26P9} 44>7 45>7
+44p7 This{26P9}
+45p7 writer{26|21P9}
+46V13*new_TextWriterTraceListener{26P9} 47>7 48>7 49>7
+47p7 This{26P9}
+48p7 writer{26|21P9}
+49p7 name{49|27P9}
+50V13*new_TextWriterTraceListener{26P9} 51>7 52>7
+51p7 This{26P9}
+52p7 fileName{49|27P9}
+53V13*new_TextWriterTraceListener{26P9} 54>7 55>7 56>7
+54p7 This{26P9}
+55p7 fileName{49|27P9}
+56p7 name{49|27P9}
+57U14*Close 58^7 75b23
+58p7 This(31R9)
+59U14*Flush 60^7 76b23
+60p7 This(31R9)
+61V13*get_Writer{26|21P9} 62^7 77b23
+62p7 This(31R9)
+63U14*set_Writer 64^7 65>7 78b23
+64p7 This(31R9)
+65p7 value{26|21P9}
+66U14*Write 67^7 68>7 79b23
+67p7 This(31R9)
+68p7 message{49|27P9}
+69U14*WriteLine 70^7 71>7 80b23
+70p7 This(31R9)
+71p7 message{49|27P9}
+X 13 mssyst-diagnostics-traceeventtype.ads
+15K28*TraceEventType 11|20w25 13|74e38
+X 14 mssyst-diagnostics-tracefilter.ads
+18P9 Ref(integer)
+X 15 mssyst-diagnostics-tracelistener.ads
+22K28*TraceListener 11|10w25 31r39 15|167e37
+23R9*Typ 11|31r53
+34U14*Dispose
+36U14*Fail
+39U14*Fail
+45V13*get_Attributes{9|18P9}
+47V13*get_Filter{14|18P9}
+49V13*get_IndentLevel{integer}
+51V13*get_IndentSize{integer}
+53V13*get_IsThreadSafe{boolean}
+55V13*get_Name{49|27P9}
+57V13*get_TraceOutputOptions{16|16E9}
+59U14*set_Filter
+62U14*set_IndentLevel
+65U14*set_IndentSize
+68U14*set_Name
+71U14*set_TraceOutputOptions
+74U14*TraceData
+81U14*TraceData
+88U14*TraceEvent
+95U14*TraceEvent
+103U14*TraceEvent
+109U14*TraceTransfer
+116U14*Write
+120U14*Write
+127U14*Write
+130U14*WriteLine
+134U14*WriteLine
+141U14*WriteLine
+X 16 mssyst-diagnostics-traceoptions.ads
+15K28*TraceOptions 11|17w25 16|70e36
+X 23 mssyst-io.ads
+6K16 IO 11|38r23 41r23 45r23 48r23 62r40 65r22
+X 25 mssyst-io-stream.ads
+18K19 Stream 11|38r26 41r26
+20P9 Ref(integer) 11|38r33 41r33
+X 26 mssyst-io-textwriter.ads
+19K19 TextWriter 11|45r26 48r26 62r43 65r25
+21P9 Ref(integer) 11|45r37 48r37 62r54 65r36
+X 27 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{44|23P9}
+27V13*GetLifetimeService{28|13P9}
+29V13*InitializeLifetimeService{28|13P9}
+X 28 mssyst-object.ads
+11K16*Object 11|7w13 28|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{54|51P9}
+36V13*ToString{49|27P9}
+X 44 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 49 mssyst-string.ads
+25K16 String 11|42r21 49r21 52r25 55r25 56r21 68r24 71r24
+27P9 Ref(integer) 11|42r28 49r28 52r32 55r32 56r28 68r31 71r31
+X 54 mssyst-type_k.ads
+51P9 Ref(integer)
+

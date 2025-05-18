@@ -1,0 +1,341 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.io.file%s	mssyst-io-file.ads	ffc03c16 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.io%s		mssyst-io.ads		mssyst-io.ali
+W mssyst.io.fileaccess%s  mssyst-io-fileaccess.ads  mssyst-io-fileaccess.ali
+W mssyst.io.fileattributes%s  mssyst-io-fileattributes.ads  mssyst-io-fileattributes.ali
+W mssyst.io.filemode%s	mssyst-io-filemode.ads	mssyst-io-filemode.ali
+W mssyst.io.fileoptions%s  mssyst-io-fileoptions.ads  mssyst-io-fileoptions.ali
+W mssyst.io.fileshare%s	mssyst-io-fileshare.ads	mssyst-io-fileshare.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.accesscontrol%s  mssyst-security-accesscontrol.ads  mssyst-security-accesscontrol.ali
+W mssyst.security.accesscontrol.accesscontrolsections%s  mssyst-security-accesscontrol-accesscontrolsections.ads  mssyst-security-accesscontrol-accesscontrolsections.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-datetime.ads	20060131171354 8b310f47
+D mssyst-datetimekind.ads  20060131171354 c9caab99
+D mssyst-dayofweek.ads	20060131171356 9441cb97
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-datetimestyles.ads  20060131171358 230aa7c6
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-file.ads	20060131171402 5b4b8125
+D mssyst-io-fileaccess.ads  20060131171402 760b9389
+D mssyst-io-fileattributes.ads  20060131171402 7663b97b
+D mssyst-io-filemode.ads  20060131171402 4a63120f
+D mssyst-io-fileoptions.ads  20060131171402 a3731fa1
+D mssyst-io-fileshare.ads  20060131171402 172f63be
+D mssyst-io-filestream.ads  20060131171402 f386744d
+D mssyst-io-seekorigin.ads  20060131171404 0f77313e
+D mssyst-io-stream.ads	20060131171402 5b7412c0
+D mssyst-io-streamreader.ads  20060131171404 64c0d8af
+D mssyst-io-streamwriter.ads  20060131171404 3c728c7a
+D mssyst-io-textreader.ads  20060131171404 93c15f07
+D mssyst-io-textwriter.ads  20060131171404 a59d24fb
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-accesscontrol.ads  20060131165242 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060131171410 d41b00a6
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060131171410 dea99828
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060131171410 8a7c3246
+D mssyst-security-accesscontrol-auditflags.ads  20060131171410 7b3aaf2b
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060131171410 d4d4024f
+D mssyst-security-accesscontrol-filesecurity.ads  20060131171410 2e1210c3
+D mssyst-security-accesscontrol-filesystemrights.ads  20060131171410 b5120f0e
+D mssyst-security-accesscontrol-filesystemsecurity.ads  20060131171410 dbb4caf6
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060131171410 f9355c16
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060131171410 d5b3ab4d
+D mssyst-security-accesscontrol-objectsecurity.ads  20060131171410 5d18e96d
+D mssyst-security-accesscontrol-propagationflags.ads  20060131171410 df68af09
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-encoding.ads  20060131171400 d678db95
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 18|8w6 9r5 117r40 163r15
+24E9*unsigned_int8<character>
+44A9*unsigned_int8_arr(24E9) 18|163r26
+45P9*Unsigned_Int8_Array(44A9) 18|117r51
+X 6 mssyst.ads
+6K9*MSSyst 7e11 18|7r6 10r6 15r6 17r6 18r6 21r6 22r6 23r6 26r9 33r29 37r14
+. 38r18 39r18 41r14 42r18 44r14 44r40 46r24 47r22 49r24 50r22 53r14 54r36
+. 56r14 58r17 58r57 60r14 62r17 63r22 63r77 65r14 65r40 67r14 67r40 69r14
+. 71r14 73r14 75r14 77r14 77r40 79r14 80r25 80r95 82r14 82r40 84r14 84r40
+. 86r14 86r40 88r14 88r40 90r14 90r40 92r14 92r40 94r14 94r40 96r24 97r22
+. 99r14 100r14 100r51 102r14 103r14 104r18 105r15 105r53 107r14 108r14 109r18
+. 109r57 111r14 111r40 113r14 113r40 115r14 115r40 117r14 119r14 120r18 120r51
+. 122r14 122r40 124r14 124r40 126r14 127r18 127r51 129r24 130r29 131r35 133r24
+. 134r29 135r35 138r14 139r22 141r14 142r24 144r14 145r22 147r14 148r25 150r14
+. 151r24 153r14 154r27 156r14 157r23 159r14 160r26 162r14 165r14 166r18 168r14
+. 169r18 170r18 172r14 173r18 175r14 176r18 177r18 217r5 219r20
+X 7 mssyst-datetime.ads
+22K16 DateTime 18|84r47 86r47 88r47 90r47 92r47 94r47 145r29 148r32 151r31
+. 154r34 157r30 160r33
+23R9 ValueType 18|84r56 86r56 88r56 90r56 92r56 94r56 145r38 148r41 151r40
+. 154r43 157r39 160r42
+X 17 mssyst-io.ads
+6K16*IO 6|6k9 17|7e14 18|15r13 18r13 21r13 22r13 23r13 26r16 44r47 54r43
+. 58r24 58r64 62r24 63r84 65r47 67r47 82r47 100r21 100r58 103r21 104r25 105r22
+. 105r60 108r21 109r25 109r64 111r47 113r47 115r47 142r31 217r12 219r27
+X 18 mssyst-io-file.ads
+26K19*File 17|6k16 18|217l15 217e19 219r30
+27R9*Typ 28r27 33c9 179r27
+28P9*Ref(27R9) 29r34 30r47
+29P9*Ref_addrof(28P9)
+30A9*Ref_Arr(28P9) 31r33
+31P9*Ref_Array(30A9) 32r40
+32P9*Ref_Array_addrof(31P9)
+33H9*Typ<32|18R9> 35e14 32|23p13 29p13 31p13 36p13
+36U14*AppendAllText 37>7 38>7 39>7
+37p7 path{62|27P9}
+38p7 contents{62|27P9}
+39p7 encoding{66|22P9}
+40U14*AppendAllText 41>7 42>7 180b23
+41p7 path{62|27P9}
+42p7 contents{62|27P9}
+43V13*AppendText{28|22P9} 44>7 181b23
+44p7 path{62|27P9}
+45U14*Copy 46>7 47>7
+46p7 sourceFileName{62|27P9}
+47p7 destFileName{62|27P9}
+48U14*Copy 49>7 50>7 51>7 182b23
+49p7 sourceFileName{62|27P9}
+50p7 destFileName{62|27P9}
+51b7 overwrite{boolean}
+52V13*Create{24|27P9} 53>7 54>7
+53p7 path{62|27P9}
+54i7 bufferSize{integer}
+55V13*Create{24|27P9} 56>7 57>7 58>7
+56p7 path{62|27P9}
+57i7 bufferSize{integer}
+58e7 options{22|16E9}
+59V13*Create{24|27P9} 60>7 61>7 62>7 63>7
+60p7 path{62|27P9}
+61i7 bufferSize{integer}
+62e7 options{22|16E9}
+63p7 fileSecurity{55|28P9}
+64V13*Create{24|27P9} 65>7 183b23
+65p7 path{62|27P9}
+66V13*CreateText{28|22P9} 67>7 184b23
+67p7 path{62|27P9}
+68U14*Decrypt 69>7 185b23
+69p7 path{62|27P9}
+70U14*Delete 71>7 186b23
+71p7 path{62|27P9}
+72U14*Encrypt 73>7 187b23
+73p7 path{62|27P9}
+74V13*Exists{boolean} 75>7 188b23
+75p7 path{62|27P9}
+76V13*GetAccessControl{55|28P9} 77>7
+77p7 path{62|27P9}
+78V13*GetAccessControl{55|28P9} 79>7 80>7 189b23
+79p7 path{62|27P9}
+80e7 includeSections{51|16E9}
+81V13*GetAttributes{20|16E9} 82>7 190b23
+82p7 path{62|27P9}
+83V13*GetCreationTime{7|23R9} 84>7 191b23
+84p7 path{62|27P9}
+85V13*GetCreationTimeUtc{7|23R9} 86>7 192b23
+86p7 path{62|27P9}
+87V13*GetLastAccessTime{7|23R9} 88>7 193b23
+88p7 path{62|27P9}
+89V13*GetLastAccessTimeUtc{7|23R9} 90>7 194b23
+90p7 path{62|27P9}
+91V13*GetLastWriteTime{7|23R9} 92>7 195b23
+92p7 path{62|27P9}
+93V13*GetLastWriteTimeUtc{7|23R9} 94>7 196b23
+94p7 path{62|27P9}
+95U14*Move 96>7 97>7 197b23
+96p7 sourceFileName{62|27P9}
+97p7 destFileName{62|27P9}
+98V13*Open{24|27P9} 99>7 100>7
+99p7 path{62|27P9}
+100e7 mode{21|16E9}
+101V13*Open{24|27P9} 102>7 103>7 104>7 105>7
+102p7 path{62|27P9}
+103e7 mode{21|16E9}
+104e7 access_k{19|16E9}
+105e7 share{23|16E9}
+106V13*Open{24|27P9} 107>7 108>7 109>7 198b23
+107p7 path{62|27P9}
+108e7 mode{21|16E9}
+109e7 access_k{19|16E9}
+110V13*OpenRead{24|27P9} 111>7 199b23
+111p7 path{62|27P9}
+112V13*OpenText{27|19P9} 113>7 200b23
+113p7 path{62|27P9}
+114V13*OpenWrite{24|27P9} 115>7 201b23
+115p7 path{62|27P9}
+116V13*ReadAllBytes{5|45P9} 117>7 202b23
+117p7 path{62|27P9}
+118V13*ReadAllLines{62|30P9} 119>7 120>7
+119p7 path{62|27P9}
+120p7 encoding{66|22P9}
+121V13*ReadAllLines{62|30P9} 122>7 203b23
+122p7 path{62|27P9}
+123V13*ReadAllText{62|27P9} 124>7
+124p7 path{62|27P9}
+125V13*ReadAllText{62|27P9} 126>7 127>7 204b23
+126p7 path{62|27P9}
+127p7 encoding{66|22P9}
+128U14*Replace 129>7 130>7 131>7
+129p7 sourceFileName{62|27P9}
+130p7 destinationFileName{62|27P9}
+131p7 destinationBackupFileName{62|27P9}
+132U14*Replace 133>7 134>7 135>7 136>7 205b23
+133p7 sourceFileName{62|27P9}
+134p7 destinationFileName{62|27P9}
+135p7 destinationBackupFileName{62|27P9}
+136b7 ignoreMetadataErrors{boolean}
+137U14*SetAccessControl 138>7 139>7 206b23
+138p7 path{62|27P9}
+139p7 fileSecurity{55|28P9}
+140U14*SetAttributes 141>7 142>7 207b23
+141p7 path{62|27P9}
+142e7 fileAttributes{20|16E9}
+143U14*SetCreationTime 144>7 145>7 208b23
+144p7 path{62|27P9}
+145r7 creationTime{7|23R9}
+146U14*SetCreationTimeUtc 147>7 148>7 209b23
+147p7 path{62|27P9}
+148r7 creationTimeUtc{7|23R9}
+149U14*SetLastAccessTime 150>7 151>7 210b23
+150p7 path{62|27P9}
+151r7 lastAccessTime{7|23R9}
+152U14*SetLastAccessTimeUtc 153>7 154>7 211b23
+153p7 path{62|27P9}
+154r7 lastAccessTimeUtc{7|23R9}
+155U14*SetLastWriteTime 156>7 157>7 212b23
+156p7 path{62|27P9}
+157r7 lastWriteTime{7|23R9}
+158U14*SetLastWriteTimeUtc 159>7 160>7 213b23
+159p7 path{62|27P9}
+160r7 lastWriteTimeUtc{7|23R9}
+161U14*WriteAllBytes 162>7 163>7 214b23
+162p7 path{62|27P9}
+163a7 bytes{5|44A9}
+164U14*WriteAllLines 165>7 166>7
+165p7 path{62|27P9}
+166p7 contents{62|30P9}
+167U14*WriteAllLines 168>7 169>7 170>7 215b23
+168p7 path{62|27P9}
+169p7 contents{62|30P9}
+170p7 encoding{66|22P9}
+171U14*WriteAllText 172>7 173>7
+172p7 path{62|27P9}
+173p7 contents{62|27P9}
+174U14*WriteAllText 175>7 176>7 177>7 216b23
+175p7 path{62|27P9}
+176p7 contents{62|27P9}
+177p7 encoding{66|22P9}
+X 19 mssyst-io-fileaccess.ads
+15K19*FileAccess 18|22w16 104r28 109r28 19|62e25
+16E9*ValueType 18|104r39 109r39 19|19e17
+X 20 mssyst-io-fileattributes.ads
+15K19*FileAttributes 18|18w16 82r50 142r34 20|84e29
+16E9*ValueType 18|82r65 142r49 20|30e17
+X 21 mssyst-io-filemode.ads
+15K19*FileMode 18|21w16 100r24 103r24 108r24 21|66e23
+16E9*ValueType 18|100r33 103r33 108r33 21|22e14
+X 22 mssyst-io-fileoptions.ads
+15K19*FileOptions 18|15w16 58r27 62r27 22|70e26
+16E9*ValueType 18|58r39 62r39 22|23e20
+X 23 mssyst-io-fileshare.ads
+15K19*FileShare 18|23w16 105r25 23|68e24
+16E9*ValueType 18|105r35 23|22e19
+X 24 mssyst-io-filestream.ads
+25K19 FileStream 18|54r46 58r67 63r87 65r50 100r61 105r63 109r67 111r50 115r50
+27P9 Ref(integer) 18|54r57 58r78 63r98 65r61 100r72 105r74 109r78 111r61
+. 115r61
+X 27 mssyst-io-streamreader.ads
+17K19 StreamReader 18|113r50
+19P9 Ref(integer) 18|113r63
+X 28 mssyst-io-streamwriter.ads
+20K19 StreamWriter 18|44r50 67r50
+22P9 Ref(integer) 18|44r63 67r63
+X 32 mssyst-object.ads
+11K16*Object 18|7w13 10w13 33r36 32|46e18
+12R9*Typ 18|33r43 32|20e14
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{68|51P9}
+36V13*ToString{62|27P9}
+X 48 mssyst-security.ads
+6K16*Security 18|17r13 63r29 77r47 80r32 80r102 139r29 48|7e20
+X 49 mssyst-security-accesscontrol.ads
+6K25*AccessControl 18|17r22 63r38 77r56 80r41 80r111 139r38 49|7e34
+X 51 mssyst-security-accesscontrol-accesscontrolsections.ads
+15K39*AccessControlSections 18|17w36 80r55 51|68e56
+16E9*ValueType 18|80r77 51|22e13
+X 55 mssyst-security-accesscontrol-filesecurity.ads
+26K39 FileSecurity 18|63r52 77r70 80r125 139r52
+28P9 Ref(integer) 18|63r65 77r83 80r138 139r65
+X 62 mssyst-string.ads
+25K16 String 18|37r21 38r25 41r21 42r25 44r21 46r31 47r29 49r31 50r29 53r21
+. 56r21 60r21 65r21 67r21 69r21 71r21 73r21 75r21 77r21 79r21 82r21 84r21
+. 86r21 88r21 90r21 92r21 94r21 96r31 97r29 99r21 102r21 107r21 111r21 113r21
+. 115r21 117r21 119r21 120r58 122r21 122r47 124r21 124r47 126r21 127r58 129r31
+. 130r36 131r42 133r31 134r36 135r42 138r21 141r21 144r21 147r21 150r21 153r21
+. 156r21 159r21 162r21 165r21 166r25 168r21 169r25 172r21 173r25 175r21 176r25
+27P9 Ref(integer) 18|37r28 38r32 41r28 42r32 44r28 46r38 47r36 49r38 50r36
+. 53r28 56r28 60r28 65r28 67r28 69r28 71r28 73r28 75r28 77r28 79r28 82r28
+. 84r28 86r28 88r28 90r28 92r28 94r28 96r38 97r36 99r28 102r28 107r28 111r28
+. 113r28 115r28 117r28 119r28 122r28 124r28 124r54 126r28 127r65 129r38 130r43
+. 131r49 133r38 134r43 135r49 138r28 141r28 144r28 147r28 150r28 153r28 156r28
+. 159r28 162r28 165r28 168r28 172r28 173r32 175r28 176r32
+30P9 Ref_Array(integer) 18|120r65 122r54 166r32 169r32
+X 65 mssyst-text.ads
+6K16 Text 18|39r25 120r25 127r25 170r25 177r25
+X 66 mssyst-text-encoding.ads
+20K21 Encoding 18|39r30 120r30 127r30 170r30 177r30
+22P9 Ref(integer) 18|39r39 120r39 127r39 170r39 177r39
+X 68 mssyst-type_k.ads
+51P9 Ref(integer)
+

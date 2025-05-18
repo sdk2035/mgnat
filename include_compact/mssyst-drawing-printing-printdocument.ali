@@ -1,0 +1,228 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.printing.printdocument%s  mssyst-drawing-printing-printdocument.ads  b81844ab NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.component%s  mssyst-componentmodel-component.ads  mssyst-componentmodel-component.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.printing%s  mssyst-drawing-printing.ads  mssyst-drawing-printing.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-printing.ads  20060131171432 b389d8c7
+D mssyst-drawing-printing-duplex.ads  20060131171432 149d0e2b
+D mssyst-drawing-printing-pagesettings.ads  20060131171432 be08ef14
+D mssyst-drawing-printing-printcontroller.ads  20060131171432 89f8c80f
+D mssyst-drawing-printing-printdocument.ads  20060131171432 04a0534a
+D mssyst-drawing-printing-printersettings.ads  20060131171432 c5ef0804
+D mssyst-drawing-printing-printeventhandler.ads  20060131171434 ad08a2c0
+D mssyst-drawing-printing-printpageeventhandler.ads  20060131171434 f5e60806
+D mssyst-drawing-printing-printrange.ads  20060131171434 3bb866ab
+D mssyst-drawing-printing-querypagesettingseventhandler.ads  20060131171434 6047f681
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 21|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 21|7r6 10r6 11r6 25r9 32r20 33r14 41r15 44r15 47r15 50r15
+. 52r33 54r33 58r33 60r33 65r15 68r15 71r15 74r15 77r15 80r15 86r15 89r15
+. 91r33 115r5 117r20
+X 10 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 21|10r13 11r13 32r27 33r21
+X 11 mssyst-componentmodel-component.ads
+19K31*Component 60e36 21|10w28 32r42
+20R9*Typ 21|32r52
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{13|15P9}
+40V13*get_Site{14|16P9}
+42U14*remove_Disposed
+45U14*set_Site
+X 12 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 21|11w28 33r36
+13R9*Typ 21|33r47
+X 13 mssyst-componentmodel-icontainer.ads
+15P9 Ref(integer)
+X 14 mssyst-componentmodel-isite.ads
+16P9 Ref(integer)
+X 16 mssyst-drawing.ads
+6K16*Drawing 9|6k9 16|7e19 21|25r16 41r22 44r22 47r22 50r22 52r40 58r40 60r40
+. 65r22 68r22 71r22 74r22 77r22 86r22 89r22 115r12 117r27
+X 17 mssyst-drawing-printing.ads
+6K24*Printing 16|6k16 17|7e28 21|25r24 41r30 44r30 47r30 50r30 52r48 58r48
+. 60r48 65r30 68r30 71r30 74r30 77r30 86r30 89r30 115r20 117r35
+X 19 mssyst-drawing-printing-pagesettings.ads
+21K33 PageSettings 21|52r57 77r39
+23P9 Ref(integer) 21|52r70 77r52
+X 20 mssyst-drawing-printing-printcontroller.ads
+17K33 PrintController 21|58r57 86r39
+19P9 Ref(integer) 21|58r73 86r55
+X 21 mssyst-drawing-printing-printdocument.ads
+25K33*PrintDocument 17|6k24 21|115l29 115e42 117r44
+26R9*Typ 27r27 32c9 40r21 43r21 46r21 49r21 52r21 54r21 56r21 58r21 60r21
+. 62r21 64r21 67r21 70r21 73r21 76r21 79r21 82r21 85r21 88r21 91r21 93r27
+27P9*Ref(26R9) 28r34 29r47 38r14 38r34
+28P9*Ref_addrof(27P9)
+29A9*Ref_Arr(27P9) 30r33
+30P9*Ref_Array(29A9) 31r40
+31P9*Ref_Array_addrof(30P9)
+32R9*Typ<11|26R9> 11|33P14 36p14 38p13 40P13 42P14 45P14 21|36e14 39p14 42p14
+. 45p14 48p14 51p13 53p13 55p13 57p13 59p13 61p14 63p14 66p14 69p14 72p14
+. 75p14 78p14 81p14 84p14 87p14 90P13 34|24p13 27p13 29p13 36|23p13 29p13
+. 31p13
+37V13*new_PrintDocument{27P9} 38>7 94r28
+38p7 This{27P9}
+39U14*add_BeginPrint 40^7 41>7 95b23
+40p7 This(32R9)
+41p7 value{23|26P9}
+42U14*add_EndPrint 43^7 44>7 96b23
+43p7 This(32R9)
+44p7 value{23|26P9}
+45U14*add_PrintPage 46^7 47>7 97b23
+46p7 This(32R9)
+47p7 value{24|26P9}
+48U14*add_QueryPageSettings 49^7 50>7 98b23
+49p7 This(32R9)
+50p7 value{26|26P9}
+51V13*get_DefaultPageSettings{19|23P9} 52^7 99b23
+52p7 This(32R9)
+53V13*get_DocumentName{57|27P9} 54^7 100b23
+54p7 This(32R9)
+55V13*get_OriginAtMargins{boolean} 56^7 101b23
+56p7 This(32R9)
+57V13*get_PrintController{20|19P9} 58^7 102b23
+58p7 This(32R9)
+59V13*get_PrinterSettings{22|26P9} 60^7 103b23
+60p7 This(32R9)
+61U14*Print 62^7 104b23
+62p7 This(32R9)
+63U14*remove_BeginPrint 64^7 65>7 105b23
+64p7 This(32R9)
+65p7 value{23|26P9}
+66U14*remove_EndPrint 67^7 68>7 106b23
+67p7 This(32R9)
+68p7 value{23|26P9}
+69U14*remove_PrintPage 70^7 71>7 107b23
+70p7 This(32R9)
+71p7 value{24|26P9}
+72U14*remove_QueryPageSettings 73^7 74>7 108b23
+73p7 This(32R9)
+74p7 value{26|26P9}
+75U14*set_DefaultPageSettings 76^7 77>7 109b23
+76p7 This(32R9)
+77p7 value{19|23P9}
+78U14*set_DocumentName 79^7 80>7 110b23
+79p7 This(32R9)
+80p7 value{57|27P9}
+81U14*set_OriginAtMargins 82^7 83>7 111b23
+82p7 This(32R9)
+83b7 value{boolean}
+84U14*set_PrintController 85^7 86>7 112b23
+85p7 This(32R9)
+86p7 value{20|19P9}
+87U14*set_PrinterSettings 88^7 89>7 113b23
+88p7 This(32R9)
+89p7 value{22|26P9}
+90V13*ToString{57|27P9} 91^7 114b23
+91p7 This(32R9)
+X 22 mssyst-drawing-printing-printersettings.ads
+24K33 PrinterSettings 21|60r57 89r39
+26P9 Ref(integer) 21|60r73 89r55
+X 23 mssyst-drawing-printing-printeventhandler.ads
+24K33 PrintEventHandler 21|41r39 44r39 65r39 68r39
+26P9 Ref(integer) 21|41r57 44r57 65r57 68r57
+X 24 mssyst-drawing-printing-printpageeventhandler.ads
+24K33 PrintPageEventHandler 21|47r39 71r39
+26P9 Ref(integer) 21|47r61 71r61
+X 26 mssyst-drawing-printing-querypagesettingseventhandler.ads
+24K33 QueryPageSettingsEventHandler 21|50r39 74r39
+26P9 Ref(integer) 21|50r69 74r69
+X 34 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{52|23P9}
+27V13*GetLifetimeService{36|13P9}
+29V13*InitializeLifetimeService{36|13P9}
+X 36 mssyst-object.ads
+11K16*Object 21|7w13 36|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{62|51P9}
+X 52 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 57 mssyst-string.ads
+25K16 String 21|54r40 80r22 91r40
+27P9 Ref(integer) 21|54r47 80r29 91r47
+X 62 mssyst-type_k.ads
+51P9 Ref(integer)
+

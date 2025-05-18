@@ -1,0 +1,440 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.diagnostics.process%s  mssyst-diagnostics-process.ads  35d53597 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.component%s  mssyst-componentmodel-component.ads  mssyst-componentmodel-component.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.diagnostics%s	mssyst-diagnostics.ads	mssyst-diagnostics.ali
+W mssyst.diagnostics.processpriorityclass%s  mssyst-diagnostics-processpriorityclass.ads  mssyst-diagnostics-processpriorityclass.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-readonlycollectionbase.ads  20060131171358 091a326d
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-componentmodel-isynchronizeinvoke.ads  20060131171414 82ed2566
+D mssyst-datetime.ads	20060131171354 8b310f47
+D mssyst-datetimekind.ads  20060131171354 c9caab99
+D mssyst-dayofweek.ads	20060131171356 9441cb97
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-diagnostics.ads  20060131165224 ca17f3f6
+D mssyst-diagnostics-datareceivedeventhandler.ads  20060131171426 052afec7
+D mssyst-diagnostics-process.ads  20060131171428 b1a24d75
+D mssyst-diagnostics-processmodule.ads  20060131171428 a6088d60
+D mssyst-diagnostics-processmodulecollection.ads  20060131171428 d30a9c28
+D mssyst-diagnostics-processpriorityclass.ads  20060131171428 41514432
+D mssyst-diagnostics-processstartinfo.ads  20060131171428 b79e5854
+D mssyst-diagnostics-processthreadcollection.ads  20060131171428 dec52928
+D mssyst-diagnostics-processwindowstyle.ads  20060131171428 417543ea
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-datetimestyles.ads  20060131171358 230aa7c6
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-streamreader.ads  20060131171404 64c0d8af
+D mssyst-io-streamwriter.ads  20060131171404 3c728c7a
+D mssyst-io-textreader.ads  20060131171404 93c15f07
+D mssyst-io-textwriter.ads  20060131171404 a59d24fb
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-constrainedexecution.ads  20060131165222 f6aa2aec
+D mssyst-runtime-constrainedexecution-criticalfinalizerobject.ads  20060131171354 4c20b64b
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-securestring.ads  20060131171404 74438637
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-timespan.ads	20060131171356 266cea38
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 25|8w6 9r5 77r33 89r33 93r33 95r33 135r33 199r15 202r15
+. 211r15
+52M9*native_int 25|77r44 89r44 93r44 95r44 135r44 199r26 202r26 211r26
+X 9 mssyst.ads
+6K9*MSSyst 7e11 25|7r6 10r6 11r6 22r6 32r9 39r20 40r14 48r15 51r15 54r15
+. 75r33 85r33 87r33 91r33 97r33 125r33 131r33 133r33 141r33 143r33 145r33
+. 147r33 149r33 151r33 153r33 155r33 157r33 166r38 168r35 171r21 171r47 173r21
+. 173r47 174r33 176r21 176r47 178r21 179r21 179r47 187r15 190r15 193r15 208r15
+. 214r15 217r15 219r18 220r19 220r45 222r19 222r67 224r18 225r18 226r18 227r16
+. 227r42 231r18 232r19 233r18 234r18 235r16 235r42 237r18 237r44 239r33 334r5
+. 336r20
+X 13 mssyst-componentmodel.ads
+6K16*ComponentModel 7e26 25|10r13 11r13 39r27 40r21 151r40 217r22
+X 14 mssyst-componentmodel-component.ads
+19K31*Component 60e36 25|10w28 39r42
+20R9*Typ 25|39r52
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{16|15P9}
+40V13*get_Site{17|16P9}
+42U14*remove_Disposed
+45U14*set_Site
+X 15 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 36e37 25|11w28 40r36
+13R9*Typ 25|40r47
+X 16 mssyst-componentmodel-icontainer.ads
+15P9 Ref(integer)
+X 17 mssyst-componentmodel-isite.ads
+16P9 Ref(integer)
+X 18 mssyst-componentmodel-isynchronizeinvoke.ads
+14K31 ISynchronizeInvoke 25|151r55 217r37
+16P9 Ref(integer) 25|151r74 217r56
+X 19 mssyst-datetime.ads
+22K16 DateTime 25|75r40 149r40
+23R9 ValueType 25|75r49 149r49
+X 23 mssyst-diagnostics.ads
+6K16*Diagnostics 9|6k9 23|7e23 25|22r13 32r16 48r22 54r22 87r40 97r40 125r40
+. 147r40 153r40 166r45 168r42 171r54 173r54 174r40 176r54 179r54 187r22 193r22
+. 208r22 214r22 220r52 222r26 222r74 227r49 235r49 237r51 334r12 336r27
+X 24 mssyst-diagnostics-datareceivedeventhandler.ads
+24K28 DataReceivedEventHandler 25|48r34 54r34 187r34 193r34
+26P9 Ref(integer) 25|48r59 54r59 187r59 193r59
+X 25 mssyst-diagnostics-process.ads
+32K28*Process 23|6k16 25|166r57 168r54 171r66 173r66 174r52 176r66 179r66
+. 220r64 222r86 227r61 235r61 237r63 334l24 334e31 336r39
+33R9*Typ 34r27 39c9 47r21 50r21 53r21 56r21 58r21 60r21 62r21 64r21 66r21
+. 69r21 71r21 73r21 75r21 77r21 79r21 81r21 83r21 85r21 87r21 89r21 91r21
+. 93r21 95r21 97r21 99r21 101r21 103r21 105r21 107r21 109r21 111r21 113r21
+. 115r21 117r21 119r21 121r21 123r21 125r21 127r21 129r21 131r21 133r21 135r21
+. 137r21 139r21 141r21 143r21 145r21 147r21 149r21 151r21 153r21 155r21 157r21
+. 159r21 161r21 163r21 165r21 181r21 184r21 186r21 189r21 192r21 195r21 198r21
+. 201r21 204r21 207r21 210r21 213r21 216r21 229r21 239r21 241r21 243r21 246r21
+. 248r21 251r27
+34P9*Ref(33R9) 35r34 36r47 45r14 45r34 166r65 168r62 171r74 220r72 222r94
+. 227r69 235r69 237r71
+35P9*Ref_addrof(34P9)
+36A9*Ref_Arr(34P9) 37r33
+37P9*Ref_Array(36A9) 38r40 173r74 174r60 176r74 179r74
+38P9*Ref_Array_addrof(37P9)
+39R9*Typ<14|26R9> 14|33P14 36p14 38p13 40P13 42P14 45P14 25|43e14 46p14 49p14
+. 52p14 55p14 57p14 59p14 61p14 63p14 65p13 68p13 70p13 72p13 74p13 76p13
+. 78p13 80p13 82p13 84p13 86p13 88p13 90p13 92p13 94p13 96p13 98p13 100p13
+. 102p13 104p13 106p13 108p13 110p13 112p13 114p13 116p13 118p13 120p13 122p13
+. 124p13 126p13 128p13 130p13 132p13 134p13 136p13 138p13 140p13 142p13 144p13
+. 146p13 148p13 150p13 152p13 154p13 156p13 158p13 160p13 162p13 164p13 180p14
+. 183p14 185p14 188p14 191p14 194p14 197p14 200p14 203p14 206p14 209p14 212p14
+. 215p14 228p13 238P13 240p14 242p13 245p13 247p13 46|24p13 27p13 29p13 48|23p13
+. 29p13 31p13
+44V13*new_Process{34P9} 45>7 252r28
+45p7 This{34P9}
+46U14*add_ErrorDataReceived 47^7 48>7 253b23
+47p7 This(39R9)
+48p7 value{24|26P9}
+49U14*add_Exited 50^7 51>7 254b23
+50p7 This(39R9)
+51p7 value{32|26P9}
+52U14*add_OutputDataReceived 53^7 54>7 255b23
+53p7 This(39R9)
+54p7 value{24|26P9}
+55U14*BeginErrorReadLine 56^7 256b23
+56p7 This(39R9)
+57U14*BeginOutputReadLine 58^7 257b23
+58p7 This(39R9)
+59U14*CancelErrorRead 60^7 258b23
+60p7 This(39R9)
+61U14*CancelOutputRead 62^7 259b23
+62p7 This(39R9)
+63U14*Close 64^7 260b23
+64p7 This(39R9)
+65V13*CloseMainWindow{boolean} 66^7 261b23
+66p7 This(39R9)
+67U14*EnterDebugMode 262b23
+68V13*get_BasePriority{integer} 69^7 263b23
+69p7 This(39R9)
+70V13*get_EnableRaisingEvents{boolean} 71^7 264b23
+71p7 This(39R9)
+72V13*get_ExitCode{integer} 73^7 265b23
+73p7 This(39R9)
+74V13*get_ExitTime{19|23R9} 75^7 266b23
+75p7 This(39R9)
+76V13*get_Handle{8|52M9} 77^7 267b23
+77p7 This(39R9)
+78V13*get_HandleCount{integer} 79^7 268b23
+79p7 This(39R9)
+80V13*get_HasExited{boolean} 81^7 269b23
+81p7 This(39R9)
+82V13*get_Id{integer} 83^7 270b23
+83p7 This(39R9)
+84V13*get_MachineName{73|27P9} 85^7 271b23
+85p7 This(39R9)
+86V13*get_MainModule{26|22P9} 87^7 272b23
+87p7 This(39R9)
+88V13*get_MainWindowHandle{8|52M9} 89^7 273b23
+89p7 This(39R9)
+90V13*get_MainWindowTitle{73|27P9} 91^7 274b23
+91p7 This(39R9)
+92V13*get_MaxWorkingSet{8|52M9} 93^7 275b23
+93p7 This(39R9)
+94V13*get_MinWorkingSet{8|52M9} 95^7 276b23
+95p7 This(39R9)
+96V13*get_Modules{27|20P9} 97^7 277b23
+97p7 This(39R9)
+98V13*get_NonpagedSystemMemorySize{integer} 99^7 278b23
+99p7 This(39R9)
+100V13*get_NonpagedSystemMemorySize64{long_long_integer} 101^7 279b23
+101p7 This(39R9)
+102V13*get_PagedMemorySize{integer} 103^7 280b23
+103p7 This(39R9)
+104V13*get_PagedMemorySize64{long_long_integer} 105^7 281b23
+105p7 This(39R9)
+106V13*get_PagedSystemMemorySize{integer} 107^7 282b23
+107p7 This(39R9)
+108V13*get_PagedSystemMemorySize64{long_long_integer} 109^7 283b23
+109p7 This(39R9)
+110V13*get_PeakPagedMemorySize{integer} 111^7 284b23
+111p7 This(39R9)
+112V13*get_PeakPagedMemorySize64{long_long_integer} 113^7 285b23
+113p7 This(39R9)
+114V13*get_PeakVirtualMemorySize{integer} 115^7 286b23
+115p7 This(39R9)
+116V13*get_PeakVirtualMemorySize64{long_long_integer} 117^7 287b23
+117p7 This(39R9)
+118V13*get_PeakWorkingSet{integer} 119^7 288b23
+119p7 This(39R9)
+120V13*get_PeakWorkingSet64{long_long_integer} 121^7 289b23
+121p7 This(39R9)
+122V13*get_PriorityBoostEnabled{boolean} 123^7 290b23
+123p7 This(39R9)
+124V13*get_PriorityClass{28|16E9} 125^7 291b23
+125p7 This(39R9)
+126V13*get_PrivateMemorySize{integer} 127^7 292b23
+127p7 This(39R9)
+128V13*get_PrivateMemorySize64{long_long_integer} 129^7 293b23
+129p7 This(39R9)
+130V13*get_PrivilegedProcessorTime{78|15R9} 131^7 294b23
+131p7 This(39R9)
+132V13*get_ProcessName{73|27P9} 133^7 295b23
+133p7 This(39R9)
+134V13*get_ProcessorAffinity{8|52M9} 135^7 296b23
+135p7 This(39R9)
+136V13*get_Responding{boolean} 137^7 297b23
+137p7 This(39R9)
+138V13*get_SessionId{integer} 139^7 298b23
+139p7 This(39R9)
+140V13*get_StandardError{41|19P9} 141^7 299b23
+141p7 This(39R9)
+142V13*get_StandardInput{42|22P9} 143^7 300b23
+143p7 This(39R9)
+144V13*get_StandardOutput{41|19P9} 145^7 301b23
+145p7 This(39R9)
+146V13*get_StartInfo{29|20P9} 147^7 302b23
+147p7 This(39R9)
+148V13*get_StartTime{19|23R9} 149^7 303b23
+149p7 This(39R9)
+150V13*get_SynchronizingObject{18|16P9} 151^7 304b23
+151p7 This(39R9)
+152V13*get_Threads{30|20P9} 153^7 305b23
+153p7 This(39R9)
+154V13*get_TotalProcessorTime{78|15R9} 155^7 306b23
+155p7 This(39R9)
+156V13*get_UserProcessorTime{78|15R9} 157^7 307b23
+157p7 This(39R9)
+158V13*get_VirtualMemorySize{integer} 159^7 308b23
+159p7 This(39R9)
+160V13*get_VirtualMemorySize64{long_long_integer} 161^7 309b23
+161p7 This(39R9)
+162V13*get_WorkingSet{integer} 163^7 310b23
+163p7 This(39R9)
+164V13*get_WorkingSet64{long_long_integer} 165^7 311b23
+165p7 This(39R9)
+166V13*GetCurrentProcess{34P9} 312b23
+167V13*GetProcessById{34P9} 168>7
+168i7 processId{integer}
+169V13*GetProcessById{34P9} 170>7 171>7 313b23
+170i7 processId{integer}
+171p7 machineName{73|27P9}
+172V13*GetProcesses{37P9} 173>7
+173p7 machineName{73|27P9}
+174V13*GetProcesses{37P9} 314b23
+175V13*GetProcessesByName{37P9} 176>7
+176p7 processName{73|27P9}
+177V13*GetProcessesByName{37P9} 178>7 179>7 315b23
+178p7 processName{73|27P9}
+179p7 machineName{73|27P9}
+180U14*Kill 181^7 316b23
+181p7 This(39R9)
+182U14*LeaveDebugMode 317b23
+183U14*Refresh 184^7 318b23
+184p7 This(39R9)
+185U14*remove_ErrorDataReceived 186^7 187>7 319b23
+186p7 This(39R9)
+187p7 value{24|26P9}
+188U14*remove_Exited 189^7 190>7 320b23
+189p7 This(39R9)
+190p7 value{32|26P9}
+191U14*remove_OutputDataReceived 192^7 193>7 321b23
+192p7 This(39R9)
+193p7 value{24|26P9}
+194U14*set_EnableRaisingEvents 195^7 196>7 322b23
+195p7 This(39R9)
+196b7 value{boolean}
+197U14*set_MaxWorkingSet 198^7 199>7 323b23
+198p7 This(39R9)
+199m7 value{8|52M9}
+200U14*set_MinWorkingSet 201^7 202>7 324b23
+201p7 This(39R9)
+202m7 value{8|52M9}
+203U14*set_PriorityBoostEnabled 204^7 205>7 325b23
+204p7 This(39R9)
+205b7 value{boolean}
+206U14*set_PriorityClass 207^7 208>7 326b23
+207p7 This(39R9)
+208e7 value{28|16E9}
+209U14*set_ProcessorAffinity 210^7 211>7 327b23
+210p7 This(39R9)
+211m7 value{8|52M9}
+212U14*set_StartInfo 213^7 214>7 328b23
+213p7 This(39R9)
+214p7 value{29|20P9}
+215U14*set_SynchronizingObject 216^7 217>7 329b23
+216p7 This(39R9)
+217p7 value{18|16P9}
+218V13*Start{34P9} 219>7 220>7
+219p7 fileName{73|27P9}
+220p7 arguments{73|27P9}
+221V13*Start{34P9} 222>7
+222p7 startInfo{29|20P9}
+223V13*Start{34P9} 224>7 225>7 226>7 227>7
+224p7 fileName{73|27P9}
+225p7 userName{73|27P9}
+226p7 password{72|16P9}
+227p7 domain{73|27P9}
+228V13*Start{boolean} 229^7
+229p7 This(39R9)
+230V13*Start{34P9} 231>7 232>7 233>7 234>7 235>7
+231p7 fileName{73|27P9}
+232p7 arguments{73|27P9}
+233p7 userName{73|27P9}
+234p7 password{72|16P9}
+235p7 domain{73|27P9}
+236V13*Start{34P9} 237>7 330b23
+237p7 fileName{73|27P9}
+238V13*ToString{73|27P9} 239^7 331b23
+239p7 This(39R9)
+240U14*WaitForExit 241^7
+241p7 This(39R9)
+242V13*WaitForExit{boolean} 243^7 244>7 332b23
+243p7 This(39R9)
+244i7 milliseconds{integer}
+245V13*WaitForInputIdle{boolean} 246^7
+246p7 This(39R9)
+247V13*WaitForInputIdle{boolean} 248^7 249>7 333b23
+248p7 This(39R9)
+249i7 milliseconds{integer}
+X 26 mssyst-diagnostics-processmodule.ads
+20K28 ProcessModule 25|87r52
+22P9 Ref(integer) 25|87r66
+X 27 mssyst-diagnostics-processmodulecollection.ads
+18K28 ProcessModuleCollection 25|97r52
+20P9 Ref(integer) 25|97r76
+X 28 mssyst-diagnostics-processpriorityclass.ads
+15K28*ProcessPriorityClass 25|22w25 125r52 208r34 28|66e44
+16E9*ValueType 25|125r73 208r55 28|22e19
+X 29 mssyst-diagnostics-processstartinfo.ads
+18K28 ProcessStartInfo 25|147r52 214r34 222r38
+20P9 Ref(integer) 25|147r69 214r51 222r55
+X 30 mssyst-diagnostics-processthreadcollection.ads
+18K28 ProcessThreadCollection 25|153r52
+20P9 Ref(integer) 25|153r76
+X 32 mssyst-eventhandler.ads
+24K16 EventHandler 25|51r22 190r22
+26P9 Ref(integer) 25|51r35 190r35
+X 40 mssyst-io.ads
+6K16 IO 25|141r40 143r40 145r40
+X 41 mssyst-io-streamreader.ads
+17K19 StreamReader 25|141r43 145r43
+19P9 Ref(integer) 25|141r56 145r56
+X 42 mssyst-io-streamwriter.ads
+20K19 StreamWriter 25|143r43
+22P9 Ref(integer) 25|143r56
+X 46 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{66|23P9}
+27V13*GetLifetimeService{48|13P9}
+29V13*InitializeLifetimeService{48|13P9}
+X 48 mssyst-object.ads
+11K16*Object 25|7w13 48|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{79|51P9}
+X 66 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 71 mssyst-security.ads
+6K16 Security 25|226r25 234r25
+X 72 mssyst-security-securestring.ads
+14K25 SecureString 25|226r34 234r34
+16P9 Ref(integer) 25|226r47 234r47
+X 73 mssyst-string.ads
+25K16 String 25|85r40 91r40 133r40 171r28 173r28 176r28 178r28 179r28 219r25
+. 220r26 224r25 225r25 227r23 231r25 232r26 233r25 235r23 237r25 239r40
+27P9 Ref(integer) 25|85r47 91r47 133r47 171r35 173r35 176r35 178r35 179r35
+. 219r32 220r33 224r32 225r32 227r30 231r32 232r33 233r32 235r30 237r32 239r47
+X 78 mssyst-timespan.ads
+14K16 TimeSpan 25|131r40 155r40 157r40
+15R9 ValueType 25|131r49 155r49 157r49
+X 79 mssyst-type_k.ads
+51P9 Ref(integer)
+

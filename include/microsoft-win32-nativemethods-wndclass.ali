@@ -1,0 +1,98 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U microsoft.win32.nativemethods.wndclass%s  microsoft-win32-nativemethods-wndclass.ads  2452e431 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W microsoft%s		microsoft.ads		microsoft.ali
+W microsoft.win32%s	microsoft-win32.ads	microsoft-win32.ali
+W microsoft.win32.nativemethods%s  microsoft-win32-nativemethods.ads  microsoft-win32-nativemethods.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20050914013254 02f2695c
+D microsoft-win32.ads	20050914013254 bf37fdc1
+D microsoft-win32-nativemethods.ads  20050914013306 1e366b2e
+D microsoft-win32-nativemethods-wndclass.ads  20041030171620 bedb3ba4
+D microsoft-win32-nativemethods-wndproc.ads  20050914133448 56df5974
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-delegate.ads	20050914133428 0015dc38
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-multicastdelegate.ads  20050914133428 2bb11668
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 microsoft.ads
+6K9*Microsoft 7e14 8|15r9 25r21 49r5 51r20
+X 6 microsoft-win32.ads
+6K19*Win32 5|6k9 6|7e20 8|15r19 25r31 49r15 51r30
+X 7 microsoft-win32-nativemethods.ads
+6K25*NativeMethods 6|6k19 7|7e34 8|15r25 25r37 49r21 51r36
+X 8 microsoft-win32-nativemethods-wndclass.ads
+15K39*WNDCLASS 7|6k25 8|49l35 49e43 51r50
+16R9*Typ 17r27 22c9 47r27
+17P9*Ref(16R9) 18r34 19r47 45r14 45r34
+18P9*Ref_addrof(17P9)
+19A9*Ref_Arr(17P9) 20r33
+20P9*Ref_Array(19A9) 21r40
+21P9*Ref_Array_addrof(20P9)
+22R9*Typ<16|18R9> 43e14 16|26p13 29p13 31p13 36p13
+23i7*style{integer}
+25p7*lpfnWndProc{9|23P9}
+27i7*cbClsExtra{integer}
+29i7*cbWndExtra{integer}
+31m7*hInstance{10|52M9}
+33m7*hIcon{10|52M9}
+35m7*hCursor{10|52M9}
+37m7*hbrBackground{10|52M9}
+39p7*lpszMenuName{25|22P9}
+41p7*lpszClassName{25|22P9}
+44V13*new_WNDCLASS{17P9} 45>7 48r28
+45p7 This{17P9}
+X 9 microsoft-win32-nativemethods-wndproc.ads
+21K39 WndProc 8|25r51
+23P9 Ref(integer) 8|25r59
+X 10 msil_types.ads
+7K9*Msil_Types 8|8w6 9r5 31r19 33r15 35r17 37r23 10|72e15
+52M9*native_int 8|31r30 33r26 35r28 37r34
+X 11 mssyst.ads
+6K9*MSSyst 8|7r6 14r6 22r20 39r22 41r23 11|7e11
+X 16 mssyst-object.ads
+11K16*Object 8|7w13 14w13 22r27 16|46e18
+12R9*Typ 8|22r34 16|20e14
+18R9*Typ
+26V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{26|44P9}
+36V13*ToString{25|22P9}
+X 25 mssyst-string.ads
+20K16 String 8|39r29 41r30
+22P9 Ref(integer) 8|39r36 41r37
+X 26 mssyst-type_k.ads
+44P9 Ref(integer)
+

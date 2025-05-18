@@ -1,0 +1,187 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.threading.mutex%s  mssyst-threading-mutex.ads  48a879fb NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+W mssyst.security.accesscontrol%s  mssyst-security-accesscontrol.ads  mssyst-security-accesscontrol.ali
+W mssyst.security.accesscontrol.mutexrights%s  mssyst-security-accesscontrol-mutexrights.ads  mssyst-security-accesscontrol-mutexrights.ali
+W mssyst.threading%s	mssyst-threading.ads	mssyst-threading.ali
+W mssyst.threading.waithandle%s  mssyst-threading-waithandle.ads  mssyst-threading-waithandle.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060131165226 02f2695c
+D microsoft-win32.ads	20060131165226 bf37fdc1
+D microsoft-win32-safehandles.ads  20060131165226 c240eeab
+D microsoft-win32-safehandles-safehandlezeroorminusoneisinvalid.ads  20060131171400 cad9e814
+D microsoft-win32-safehandles-safewaithandle.ads  20060131171400 015576dc
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-constrainedexecution.ads  20060131165222 f6aa2aec
+D mssyst-runtime-constrainedexecution-criticalfinalizerobject.ads  20060131171354 4c20b64b
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-safehandle.ads  20060131171356 d9bc34b4
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-accesscontrol.ads  20060131165242 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060131171410 d41b00a6
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060131171410 dea99828
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060131171410 8a7c3246
+D mssyst-security-accesscontrol-auditflags.ads  20060131171410 7b3aaf2b
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060131171410 d4d4024f
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060131171410 f9355c16
+D mssyst-security-accesscontrol-mutexrights.ads  20060131171410 f623e914
+D mssyst-security-accesscontrol-mutexsecurity.ads  20060131171410 681139e9
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060131171410 d5b3ab4d
+D mssyst-security-accesscontrol-objectsecurity.ads  20060131171410 5d18e96d
+D mssyst-security-accesscontrol-propagationflags.ads  20060131171410 df68af09
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-threading.ads	20060131165222 964d65eb
+D mssyst-threading-mutex.ads  20060131171356 4f42da16
+D mssyst-threading-waithandle.ads  20060131171356 f07f0858
+D mssyst-timespan.ads	20060131171356 266cea38
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 9 microsoft-win32-safehandles-safewaithandle.ads
+16P9 Ref(integer)
+X 10 msil_types.ads
+7K9*Msil_Types 71e15 62|8w6 9r5 35r20 40r20
+52M9*native_int
+63M9*bool_addrof 62|35r31 40r31
+X 11 mssyst.ads
+6K9*MSSyst 7e11 62|7r6 10r6 17r6 19r9 26r20 34r14 39r14 41r23 45r14 50r33
+. 52r14 53r16 53r76 55r14 55r40 60r23 68r5 70r20
+X 18 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{38|23P9}
+27V13*GetLifetimeService{19|13P9}
+29V13*InitializeLifetimeService{19|13P9}
+X 19 mssyst-object.ads
+11K16*Object 46e18 62|7w13
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{65|51P9}
+36V13*ToString{56|27P9}
+X 38 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 43 mssyst-security.ads
+6K16*Security 7e20 62|17r13 41r30 50r40 53r23 60r30
+X 44 mssyst-security-accesscontrol.ads
+6K25*AccessControl 7e34 62|17r22 41r39 50r49 53r32 60r39
+X 51 mssyst-security-accesscontrol-mutexrights.ads
+15K39*MutexRights 70e46 62|17w36 53r46
+16E9*ValueType 23e19 62|53r58
+X 52 mssyst-security-accesscontrol-mutexsecurity.ads
+26K39 MutexSecurity 62|41r53 50r63 60r53
+28P9 Ref(integer) 62|41r67 50r77 60r67
+X 56 mssyst-string.ads
+25K16 String 62|34r21 39r21 45r21 52r21 55r21
+27P9 Ref(integer) 62|34r28 39r28 45r28 52r28 55r28
+X 61 mssyst-threading.ads
+6K16*Threading 11|6k9 61|7e21 62|10r13 19r16 26r27 53r83 55r47 68r12 70r27
+X 62 mssyst-threading-mutex.ads
+19K26*Mutex 61|6k16 62|53r93 55r57 68l22 68e27 70r37
+20R9*Typ 21r27 26c9 50r21 57r21 59r21 62r27
+21P9*Ref(20R9) 22r34 23r47 30r14 30r34 32r14 35r51 37r14 41r79 43r14 45r40
+. 47r14 48r49 53r99 55r63
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40
+25P9*Ref_Array_addrof(24P9)
+26R9*Typ<63|25R9> 18|24p13 27p13 29p13 19|23p13 29p13 31p13 36p13 62|28e14
+. 49p13 56p14 58p14 63|30p14 32p13 34p13 36p14 39p14 75p13 79p13 83p13
+29V13*new_Mutex{21P9} 30>7
+30p7 This{21P9}
+31V13*new_Mutex{21P9} 32>7 33>7 34>7 35>7
+32p7 This{21P9}
+33b7 initiallyOwned{boolean}
+34p7 name{56|27P9}
+35m7 createdNew{10|63M9}
+36V13*new_Mutex{21P9} 37>7 38>7 39>7 40>7 41>7
+37p7 This{21P9}
+38b7 initiallyOwned{boolean}
+39p7 name{56|27P9}
+40m7 createdNew{10|63M9}
+41p7 mutexSecurity{52|28P9}
+42V13*new_Mutex{21P9} 43>7 44>7 45>7
+43p7 This{21P9}
+44b7 initiallyOwned{boolean}
+45p7 name{56|27P9}
+46V13*new_Mutex{21P9} 47>7 48>7
+47p7 This{21P9}
+48b7 initiallyOwned{boolean}
+49V13*GetAccessControl{52|28P9} 50^7 64b23
+50p7 This(26R9)
+51V13*OpenExisting{21P9} 52>7 53>7
+52p7 name{56|27P9}
+53e7 rights{51|16E9}
+54V13*OpenExisting{21P9} 55>7 65b23
+55p7 name{56|27P9}
+56U14*ReleaseMutex 57^7 66b23
+57p7 This(26R9)
+58U14*SetAccessControl 59^7 60>7 67b23
+59p7 This(26R9)
+60p7 mutexSecurity{52|28P9}
+X 63 mssyst-threading-waithandle.ads
+18K26*WaitHandle 62|10w23 26r37 63|96e32
+19R9*Typ 62|26r48
+30U14*Close
+32V13*get_Handle{10|52M9}
+34V13*get_SafeWaitHandle{9|16P9}
+36U14*set_Handle
+39U14*set_SafeWaitHandle
+75V13*WaitOne{boolean}
+79V13*WaitOne{boolean}
+83V13*WaitOne{boolean}
+X 65 mssyst-type_k.ads
+51P9 Ref(integer)
+

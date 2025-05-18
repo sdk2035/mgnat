@@ -1,0 +1,241 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.text.utf7encoding%s  mssyst-text-utf7encoding.ads  0462c32f NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.icloneable%s	mssyst-icloneable.ads	mssyst-icloneable.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.text%s		mssyst-text.ads		mssyst-text.ali
+W mssyst.text.encoding%s  mssyst-text-encoding.ads  mssyst-text-encoding.ali
+W mssyst.text.normalizationform%s  mssyst-text-normalizationform.ads  mssyst-text-normalizationform.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-decoder.ads  20060131171400 cd7c898a
+D mssyst-text-decoderfallback.ads  20060131171400 e0afbe3d
+D mssyst-text-encoder.ads  20060131171400 65ec8514
+D mssyst-text-encoderfallback.ads  20060131171400 23ce0d8c
+D mssyst-text-encoding.ads  20060131171400 d678db95
+D mssyst-text-encodinginfo.ads  20060131171400 9d2f834c
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-text-utf7encoding.ads  20060131171400 2a0dce8b
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 43|8w6 9r5 42r15 46r15 57r15 61r15 64r15 68r15 70r15
+. 74r15 78r15 83r15 86r15 90r15 92r15 108r15
+9E12*Char{wide_character}
+24E9*unsigned_int8<character>
+40A9*char_arr(9E12) 43|46r26 61r26 86r26
+41P9*char_array(string)
+44A9*unsigned_int8_arr(24E9) 43|57r26 64r26 78r26 83r26 108r26
+45P9*Unsigned_Int8_Array(44A9)
+53M9*unsigned_int8_addrof 43|70r26 74r26 90r26
+64M9*char_addrof 43|42r26 68r26 92r26
+X 9 mssyst.ads
+6K9*MSSyst 7e11 43|7r6 10r6 11r6 19r6 20r9 27r20 28r14 39r15 51r11 54r11
+. 95r33 97r33 110r31 125r5 127r20
+X 13 mssyst-icloneable.ads
+11K16*ICloneable 23e22 43|11w13 28r21
+12R9*Typ 43|28r32
+X 16 mssyst-object.ads
+11K16*Object 46e18 43|7w13 39r22
+13P9*Ref(12R9) 43|39r29
+18R9*Typ
+31V13*GetType{44|51P9}
+36V13*ToString{32|27P9}
+X 32 mssyst-string.ads
+25K16 String 43|51r18 54r18 110r38
+27P9 Ref(integer) 43|51r25 54r25 110r45
+X 35 mssyst-text.ads
+6K16*Text 9|6k9 35|7e16 43|10r13 19r13 20r16 27r27 95r40 97r40 125r12 127r27
+X 36 mssyst-text-decoder.ads
+15K21 Decoder 43|95r45
+17P9 Ref(integer) 43|95r53
+X 37 mssyst-text-decoderfallback.ads
+16P9 Ref(integer)
+X 38 mssyst-text-encoder.ads
+15K21 Encoder 43|97r45
+17P9 Ref(integer) 43|97r53
+X 39 mssyst-text-encoderfallback.ads
+16P9 Ref(integer)
+X 40 mssyst-text-encoding.ads
+20K21*Encoding 249e25 43|10w18 27r32
+21R9*Typ 43|27r41
+32V13*Clone{16|13P9}
+49V13*get_BodyName{32|27P9}
+51V13*get_CodePage{integer}
+53V13*get_DecoderFallback{37|16P9}
+56V13*get_EncoderFallback{39|16P9}
+58V13*get_EncodingName{32|27P9}
+60V13*get_HeaderName{32|27P9}
+62V13*get_IsBrowserDisplay{boolean}
+64V13*get_IsBrowserSave{boolean}
+66V13*get_IsMailNewsDisplay{boolean}
+68V13*get_IsMailNewsSave{boolean}
+70V13*get_IsReadOnly{boolean}
+72V13*get_IsSingleByte{boolean}
+78V13*get_WebName{32|27P9}
+80V13*get_WindowsCodePage{integer}
+91V13*GetByteCount{integer}
+97V13*GetBytes{8|45P9}
+113V13*GetBytes{8|45P9}
+116V13*GetBytes{8|45P9}
+137V13*GetCharCount{integer}
+153V13*GetChars{8|41P9}
+156V13*GetChars{8|41P9}
+186V13*GetPreamble{8|45P9}
+188V13*GetString{32|27P9}
+196V13*IsAlwaysNormalized{boolean}
+198V13*IsAlwaysNormalized{boolean}
+201U14*set_DecoderFallback
+204U14*set_EncoderFallback
+X 42 mssyst-text-normalizationform.ads
+15K21*NormalizationForm 62e34 43|19w18
+X 43 mssyst-text-utf7encoding.ads
+20K21*UTF7Encoding 35|6k16 43|125l17 125e29 127r32
+21R9*Typ 22r27 27c9 38r21 41r21 45r21 50r21 53r21 60r21 67r21 73r21 77r21
+. 82r21 89r21 95r21 97r21 99r21 101r21 104r21 107r21 112r27
+22P9*Ref(21R9) 23r34 24r47 33r14 33r34 35r14 36r49
+23P9*Ref_addrof(22P9)
+24A9*Ref_Arr(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27R9*Typ<40|27R9> 16|31p13 36p13 40|32P13 49p13 51p13 53p13 56p13 58p13 60p13
+. 62p13 64p13 66p13 68p13 70p13 72p13 78p13 80p13 91p13 97p13 113p13 116p13
+. 137p13 153p13 156p13 186p13 188p13 196p13 198p13 201p14 204p14 43|31e14
+. 37P13 40P13 44P13 49P13 52P13 59P13 66P13 72P13 76P13 81P13 88P13 94P13
+. 96P13 98P13 100P13 103P13 106P13
+32V13*new_UTF7Encoding{22P9} 33>7
+33p7 This{22P9}
+34V13*new_UTF7Encoding{22P9} 35>7 36>7
+35p7 This{22P9}
+36b7 allowOptionals{boolean}
+37V13*Equals{boolean} 38^7 39>7 114b23
+38p7 This(27R9)
+39p7 value{16|13P9}
+40V13*GetByteCount{integer} 41^7 42>7 43>7
+41p7 This(27R9)
+42m7 chars{8|64M9}
+43i7 count{integer}
+44V13*GetByteCount{integer} 45^7 46>7 47>7 48>7
+45p7 This(27R9)
+46a7 chars{8|40A9}
+47i7 index{integer}
+48i7 count{integer}
+49V13*GetByteCount{integer} 50^7 51>7 115b23
+50p7 This(27R9)
+51p7 s{32|27P9}
+52V13*GetBytes{integer} 53^7 54>7 55>7 56>7 57>7 58>7
+53p7 This(27R9)
+54p7 s{32|27P9}
+55i7 charIndex{integer}
+56i7 charCount{integer}
+57a7 bytes{8|44A9}
+58i7 byteIndex{integer}
+59V13*GetBytes{integer} 60^7 61>7 62>7 63>7 64>7 65>7
+60p7 This(27R9)
+61a7 chars{8|40A9}
+62i7 charIndex{integer}
+63i7 charCount{integer}
+64a7 bytes{8|44A9}
+65i7 byteIndex{integer}
+66V13*GetBytes{integer} 67^7 68>7 69>7 70>7 71>7 116b23
+67p7 This(27R9)
+68m7 chars{8|64M9}
+69i7 charCount{integer}
+70m7 bytes{8|53M9}
+71i7 byteCount{integer}
+72V13*GetCharCount{integer} 73^7 74>7 75>7
+73p7 This(27R9)
+74m7 bytes{8|53M9}
+75i7 count{integer}
+76V13*GetCharCount{integer} 77^7 78>7 79>7 80>7 117b23
+77p7 This(27R9)
+78a7 bytes{8|44A9}
+79i7 index{integer}
+80i7 count{integer}
+81V13*GetChars{integer} 82^7 83>7 84>7 85>7 86>7 87>7
+82p7 This(27R9)
+83a7 bytes{8|44A9}
+84i7 byteIndex{integer}
+85i7 byteCount{integer}
+86a7 chars{8|40A9}
+87i7 charIndex{integer}
+88V13*GetChars{integer} 89^7 90>7 91>7 92>7 93>7 118b23
+89p7 This(27R9)
+90m7 bytes{8|53M9}
+91i7 byteCount{integer}
+92m7 chars{8|64M9}
+93i7 charCount{integer}
+94V13*GetDecoder{36|17P9} 95^7 119b23
+95p7 This(27R9)
+96V13*GetEncoder{38|17P9} 97^7 120b23
+97p7 This(27R9)
+98V13*GetHashCode{integer} 99^7 121b23
+99p7 This(27R9)
+100V13*GetMaxByteCount{integer} 101^7 102>7 122b23
+101p7 This(27R9)
+102i7 charCount{integer}
+103V13*GetMaxCharCount{integer} 104^7 105>7 123b23
+104p7 This(27R9)
+105i7 byteCount{integer}
+106V13*GetString{32|27P9} 107^7 108>7 109>7 110>7 124b23
+107p7 This(27R9)
+108a7 bytes{8|44A9}
+109i7 index{integer}
+110i7 count{integer}
+X 44 mssyst-type_k.ads
+51P9 Ref(integer)
+

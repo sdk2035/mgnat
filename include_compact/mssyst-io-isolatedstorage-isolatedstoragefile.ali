@@ -1,0 +1,207 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.io.isolatedstorage.isolatedstoragefile%s  mssyst-io-isolatedstorage-isolatedstoragefile.ads  c7fe542b NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.io%s		mssyst-io.ads		mssyst-io.ali
+W mssyst.io.isolatedstorage%s  mssyst-io-isolatedstorage.ads  mssyst-io-isolatedstorage.ali
+W mssyst.io.isolatedstorage.isolatedstorage%s  mssyst-io-isolatedstorage-isolatedstorage.ads  mssyst-io-isolatedstorage-isolatedstorage.ali
+W mssyst.io.isolatedstorage.isolatedstoragescope%s  mssyst-io-isolatedstorage-isolatedstoragescope.ads  mssyst-io-isolatedstorage-isolatedstoragescope.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-collections-ienumerator.ads  20060131171354 1d07849c
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-isolatedstorage.ads  20060131165238 629d2270
+D mssyst-io-isolatedstorage-isolatedstorage.ads  20060131171406 7abb70ff
+D mssyst-io-isolatedstorage-isolatedstoragefile.ads  20060131171406 911b250f
+D mssyst-io-isolatedstorage-isolatedstoragescope.ads  20060131171406 d93804e1
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-policy.ads  20060131165228 7a609687
+D mssyst-security-policy-evidence.ads  20060131171400 64e7a78f
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 19|8w6 9r5 43r33 45r33
+33I9*unsigned_long_long_integer<long_long_integer> 19|43r44 45r44
+X 6 mssyst.ads
+6K9*MSSyst 7e11 19|7r6 10r6 15r6 19r9 26r20 33r13 36r13 39r14 48r23 48r49
+. 50r15 50r80 53r23 53r49 54r50 55r47 56r45 58r15 59r24 60r28 61r26 62r30
+. 62r56 64r15 65r33 65r59 67r15 68r29 68r55 70r15 71r24 72r26 72r52 74r15
+. 75r28 76r30 76r56 77r47 78r44 79r42 81r15 104r5 106r20
+X 7 mssyst-collections.ads
+6K16 Collections 19|50r87
+X 9 mssyst-collections-ienumerator.ads
+11K28 IEnumerator 19|50r99
+13P9 Ref(integer) 19|50r111
+X 16 mssyst-io.ads
+6K16*IO 6|6k9 16|7e14 19|10r13 15r13 19r16 26r27 50r22 54r57 55r54 56r52
+. 58r22 62r63 64r22 65r66 67r22 68r62 70r22 72r59 74r22 76r63 77r54 78r51
+. 79r49 81r22 104r12 106r27
+X 17 mssyst-io-isolatedstorage.ads
+6K19*IsolatedStorage 16|6k16 17|7e30 19|10r16 15r16 19r19 26r30 50r25 54r60
+. 55r57 56r55 58r25 62r66 64r25 65r69 67r25 68r65 70r25 72r62 74r25 76r66
+. 77r57 78r54 79r52 81r25 104r15 106r30
+X 18 mssyst-io-isolatedstorage-isolatedstorage.ads
+16K35*IsolatedStorage 49e46 19|10w32 26r46
+17R9*Typ 19|26r62
+26V13*get_ApplicationIdentity{22|13P9}
+28V13*get_AssemblyIdentity{22|13P9}
+32V13*get_DomainIdentity{22|13P9}
+36V13*get_Scope{20|16E9}
+X 19 mssyst-io-isolatedstorage-isolatedstoragefile.ads
+19K35*IsolatedStorageFile 17|6k19 19|54r76 55r73 56r71 62r82 65r85 68r81
+. 72r78 76r82 77r73 78r70 79r68 104l31 104e50 106r46
+20R9*Typ 21r27 26c9 30r21 32r21 35r21 38r21 41r21 43r21 45r21 47r21 52r21
+. 83r21 85r27
+21P9*Ref(20R9) 22r34 23r47 54r96 55r93 56r91 62r102 65r105 68r101 72r98 76r102
+. 77r93 78r90 79r88
+22P9*Ref_addrof(21P9)
+23A9*Ref_Arr(21P9) 24r33
+24P9*Ref_Array(23A9) 25r40
+25P9*Ref_Array_addrof(24P9)
+26R9*Typ<18|23R9> 18|26p13 28p13 32p13 36p13 19|28e14 29p14 31p14 34p14 37p14
+. 40p14 42P13 44P13 46p13 51p13 82P14 21|24p13 27p13 29p13 22|23p13 29p13
+. 31p13 36p13
+29U14*Close 30^7 86b23
+30p7 This(26R9)
+31U14*CreateDirectory 32^7 33>7 87b23
+32p7 This(26R9)
+33p7 dir{46|27P9}
+34U14*DeleteDirectory 35^7 36>7 88b23
+35p7 This(26R9)
+36p7 dir{46|27P9}
+37U14*DeleteFile 38^7 39>7 89b23
+38p7 This(26R9)
+39p7 file{46|27P9}
+40U14*Dispose 41^7 90b23
+41p7 This(26R9)
+42V13*get_CurrentSize{5|33I9} 43^7 91b23
+43p7 This(26R9)
+44V13*get_MaximumSize{5|33I9} 45^7 92b23
+45p7 This(26R9)
+46V13*GetDirectoryNames{46|30P9} 47^7 48>7 93b23
+47p7 This(26R9)
+48p7 searchPattern{46|27P9}
+49V13*GetEnumerator{9|13P9} 50>7 94b23
+50e7 scope{20|16E9}
+51V13*GetFileNames{46|30P9} 52^7 53>7 95b23
+52p7 This(26R9)
+53p7 searchPattern{46|27P9}
+54V13*GetMachineStoreForApplication{21P9} 96b23
+55V13*GetMachineStoreForAssembly{21P9} 97b23
+56V13*GetMachineStoreForDomain{21P9} 98b23
+57V13*GetStore{21P9} 58>7 59>7 60>7 61>7 62>7
+58e7 scope{20|16E9}
+59p7 domainEvidence{45|19P9}
+60p7 domainEvidenceType{51|51P9}
+61p7 assemblyEvidence{45|19P9}
+62p7 assemblyEvidenceType{51|51P9}
+63V13*GetStore{21P9} 64>7 65>7
+64e7 scope{20|16E9}
+65p7 applicationEvidenceType{51|51P9}
+66V13*GetStore{21P9} 67>7 68>7
+67e7 scope{20|16E9}
+68p7 applicationIdentity{22|13P9}
+69V13*GetStore{21P9} 70>7 71>7 72>7
+70e7 scope{20|16E9}
+71p7 domainIdentity{22|13P9}
+72p7 assemblyIdentity{22|13P9}
+73V13*GetStore{21P9} 74>7 75>7 76>7 99b23
+74e7 scope{20|16E9}
+75p7 domainEvidenceType{51|51P9}
+76p7 assemblyEvidenceType{51|51P9}
+77V13*GetUserStoreForApplication{21P9} 100b23
+78V13*GetUserStoreForAssembly{21P9} 101b23
+79V13*GetUserStoreForDomain{21P9} 102b23
+80U14*Remove 81>7
+81e7 scope{20|16E9}
+82U14*Remove 83^7 103b23
+83p7 This(26R9)
+X 20 mssyst-io-isolatedstorage-isolatedstoragescope.ads
+15K35*IsolatedStorageScope 19|15w32 50r41 58r41 64r41 67r41 70r41 74r41 81r41
+. 20|70e51
+16E9*ValueType 19|50r62 58r62 64r62 67r62 70r62 74r62 81r62 20|23e19
+X 21 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{38|23P9}
+27V13*GetLifetimeService{22|13P9}
+29V13*InitializeLifetimeService{22|13P9}
+X 22 mssyst-object.ads
+11K16*Object 19|7w13 68r36 71r31 72r33 22|46e18
+13P9*Ref(12R9) 19|68r43 71r38 72r40
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{51|51P9}
+36V13*ToString{46|27P9}
+X 38 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 43 mssyst-security.ads
+6K16 Security 19|59r31 61r33
+X 44 mssyst-security-policy.ads
+6K25 Policy 19|59r40 61r42
+X 45 mssyst-security-policy-evidence.ads
+17K32 Evidence 19|59r47 61r49
+19P9 Ref(integer) 19|59r56 61r58
+X 46 mssyst-string.ads
+25K16 String 19|33r20 36r20 39r21 48r30 48r56 53r30 53r56
+27P9 Ref(integer) 19|33r27 36r27 39r28 48r37 53r37
+30P9 Ref_Array(integer) 19|48r63 53r63
+X 51 mssyst-type_k.ads
+49K16 Type_k 19|60r35 62r37 65r40 75r35 76r37
+51P9 Ref(integer) 19|60r42 62r44 65r47 75r42 76r44
+

@@ -1,0 +1,754 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnvnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.type_k%s	mssyst-type_k.ads	2abf2c02 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.reflection%s	mssyst-reflection.ads	mssyst-reflection.ali
+W mssyst.reflection.bindingflags%s  mssyst-reflection-bindingflags.ads  mssyst-reflection-bindingflags.ali
+W mssyst.reflection.callingconventions%s  mssyst-reflection-callingconventions.ads  mssyst-reflection-callingconventions.ali
+W mssyst.reflection.genericparameterattributes%s  mssyst-reflection-genericparameterattributes.ads  mssyst-reflection-genericparameterattributes.ali
+W mssyst.reflection.icustomattributeprovider%s  mssyst-reflection-icustomattributeprovider.ads  mssyst-reflection-icustomattributeprovider.ali
+W mssyst.reflection.ireflect%s  mssyst-reflection-ireflect.ads  mssyst-reflection-ireflect.ali
+W mssyst.reflection.memberinfo%s  mssyst-reflection-memberinfo.ads  mssyst-reflection-memberinfo.ali
+W mssyst.reflection.membertypes%s  mssyst-reflection-membertypes.ads  mssyst-reflection-membertypes.ali
+W mssyst.reflection.parametermodifier%s  mssyst-reflection-parametermodifier.ads  mssyst-reflection-parametermodifier.ali
+W mssyst.reflection.typeattributes%s  mssyst-reflection-typeattributes.ads  mssyst-reflection-typeattributes.ali
+W mssyst.runtime%s	mssyst-runtime.ads	mssyst-runtime.ali
+W mssyst.runtime.interopservices%s  mssyst-runtime-interopservices.ads  mssyst-runtime-interopservices.ali
+W mssyst.runtime.interopservices.umemberinfo%s  mssyst-runtime-interopservices-umemberinfo.ads  mssyst-runtime-interopservices-umemberinfo.ali
+W mssyst.runtime.interopservices.utype%s  mssyst-runtime-interopservices-utype.ads  mssyst-runtime-interopservices-utype.ali
+W mssyst.typecode%s	mssyst-typecode.ads	mssyst-typecode.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-attribute.ads	20060131171354 578cce83
+D mssyst-configuration.ads  20060131165240 03b06563
+D mssyst-configuration-assemblies.ads  20060131165240 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060131171408 81fd999d
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-cultureinfo.ads  20060131171358 6ed5a64b
+D mssyst-globalization-culturetypes.ads  20060131171358 9d4d7f13
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-assembly.ads  20060131171358 cac2cf86
+D mssyst-reflection-binder.ads  20060131171356 21be81b5
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-constructorinfo.ads  20060131171358 b94c71f1
+D mssyst-reflection-eventattributes.ads  20060131171358 04f0c364
+D mssyst-reflection-eventinfo.ads  20060131171358 dacc8f9d
+D mssyst-reflection-fieldattributes.ads  20060131171358 00d0a4d6
+D mssyst-reflection-fieldinfo.ads  20060131171358 630ed2fc
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-imagefilemachine.ads  20060131171358 57db8f30
+D mssyst-reflection-interfacemapping.ads  20060131171358 4ae7c270
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberfilter.ads  20060131171358 a7fbe7ef
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-methodattributes.ads  20060131171358 3d878e1d
+D mssyst-reflection-methodbase.ads  20060131171358 8cf6333b
+D mssyst-reflection-methodimplattributes.ads  20060131171358 4937947b
+D mssyst-reflection-methodinfo.ads  20060131171358 ef578403
+D mssyst-reflection-module.ads  20060131171358 384ba6f0
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-portableexecutablekinds.ads  20060131171358 da84966e
+D mssyst-reflection-propertyattributes.ads  20060131171358 992e2854
+D mssyst-reflection-propertyinfo.ads  20060131171358 b43e3270
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-reflection-typefilter.ads  20060131171358 2779d9cb
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-charset.ads  20060131171400 671a21ef
+D mssyst-runtime-interopservices-layoutkind.ads  20060131171400 77429dc9
+D mssyst-runtime-interopservices-structlayoutattribute.ads  20060131171400 f194e79c
+D mssyst-runtime-interopservices-uassembly.ads  20060131171358 5462c788
+D mssyst-runtime-interopservices-uconstructorinfo.ads  20060131171358 ad67a578
+D mssyst-runtime-interopservices-ueventinfo.ads  20060131171358 20368e33
+D mssyst-runtime-interopservices-ufieldinfo.ads  20060131171358 6791fddd
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-umethodbase.ads  20060131171358 b1429f1d
+D mssyst-runtime-interopservices-umethodinfo.ads  20060131171358 2ecfe02d
+D mssyst-runtime-interopservices-umodule.ads  20060131171358 02c2dfd0
+D mssyst-runtime-interopservices-upropertyinfo.ads  20060131171358 b87848b4
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-runtimetypehandle.ads  20060131171356 07fbfd5c
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-ievidencefactory.ads  20060131171354 3a16bf31
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 80|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 80|7r6 10r6 11r6 12r6 13r6 14r6 20r6 21r6 24r6 27r6 33r6
+. 34r6 46r6 49r9 56r29 57r14 58r14 59r14 60r14 64r22 66r17 68r27 70r14 74r17
+. 78r11 81r11 84r16 85r24 85r50 88r20 89r21 90r16 91r24 91r50 93r33 95r33
+. 97r33 99r33 103r33 105r33 106r38 108r33 110r33 114r33 188r33 190r33 192r33
+. 194r33 196r33 198r33 200r33 202r33 207r15 207r47 210r21 211r16 212r15 213r19
+. 213r79 216r21 217r16 218r24 219r15 220r19 220r79 222r33 225r21 225r70 227r33
+. 229r33 232r14 232r40 235r14 236r21 236r70 238r33 241r21 241r70 244r14 244r40
+. 247r14 248r21 248r70 250r33 253r21 253r70 255r33 257r33 259r33 264r14 265r45
+. 268r14 268r40 271r23 271r49 273r33 276r14 276r40 279r14 280r21 280r70 283r14
+. 284r16 285r21 285r70 288r21 288r70 290r33 293r14 294r15 295r19 295r79 298r14
+. 299r21 300r16 301r15 302r19 302r79 305r14 306r21 307r16 308r24 309r15 310r19
+. 310r79 313r14 314r15 314r47 317r14 317r40 320r14 321r21 321r70 324r21 324r70
+. 326r33 329r14 330r21 330r70 333r14 333r40 335r33 338r21 338r70 341r21 341r70
+. 343r33 346r14 347r21 347r70 350r14 351r20 352r15 353r19 353r79 356r14 357r21
+. 358r16 359r20 360r15 361r19 361r79 364r14 365r20 366r15 366r47 369r14 369r40
+. 372r14 373r20 373r46 376r14 377r15 377r47 379r18 379r44 381r18 382r47 384r18
+. 386r45 388r33 390r14 390r46 392r16 392r42 394r15 394r45 396r15 397r16 398r47
+. 400r15 401r16 401r42 403r15 404r47 406r16 406r59 408r16 408r42 410r16 411r47
+. 413r16 414r16 414r42 416r16 417r16 418r47 420r11 420r37 423r14 424r20 425r16
+. 426r16 427r14 428r17 428r62 431r14 432r20 433r16 434r16 435r14 436r19 437r17
+. 438r25 438r57 441r14 442r20 443r16 444r16 445r14 445r46 448r11 451r11 454r11
+. 456r33 459r30 461r33 464r23 464r55 466r33 468r18 470r45 472r33 575r5 577r20
+X 15 mssyst-globalization.ads
+6K16 Globalization 80|428r24 437r24
+X 16 mssyst-globalization-cultureinfo.ads
+23K30 CultureInfo 80|428r38 437r38
+25P9 Ref(integer) 80|428r50 437r50
+X 19 mssyst-guid.ads
+15K16*Guid 96e16 80|114r40 394r22 396r22 400r22 403r22
+16R9*ValueType<83|20R9> 16e63 80|114r45 394r27 396r27 400r27 403r27
+X 24 mssyst-object.ads
+11K16*Object 46e18 80|7w13 70r21 81r18 85r31 91r31 390r21 420r18 426r23 427r21
+. 428r69 434r23 435r21 438r64 444r23 445r21 445r53 451r18
+13P9*Ref(12R9) 80|70r28 81r25 85r38 91r38 420r25 426r30 428r76 434r30 438r71
+. 444r30 445r60 451r25
+15A9*Ref_Arr(13P9)
+16P9*Ref_Array(15A9) 80|390r28 427r28 435r28 445r28
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{80|51P9}
+36V13*ToString{75|27P9}
+X 25 mssyst-reflection.ads
+6K16*Reflection 7e22 80|10r13 11r13 14r13 20r13 21r13 24r13 27r13 33r13 34r13
+. 56r36 57r21 60r21 64r29 66r24 68r34 84r23 88r27 89r28 90r23 91r57 93r40
+. 97r40 103r40 106r45 110r40 188r40 190r40 200r40 207r54 210r28 211r23 213r26
+. 213r86 216r28 217r23 218r31 220r26 220r86 222r40 225r28 225r77 227r40 232r47
+. 236r28 236r77 238r40 241r28 241r77 244r47 248r28 248r77 250r40 253r28 253r77
+. 271r56 276r47 280r28 280r77 284r23 285r28 285r77 288r28 288r77 290r40 295r26
+. 295r86 299r28 300r23 302r26 302r86 306r28 307r23 308r31 310r26 310r86 314r54
+. 317r47 321r28 321r77 324r28 324r77 326r40 330r28 338r28 341r28 341r77 343r40
+. 347r28 347r77 353r26 353r86 357r28 358r23 361r26 361r86 366r54 369r47 373r53
+. 377r54 424r27 425r23 432r27 433r23 436r26 442r27 443r23
+X 26 mssyst-reflection-assembly.ads
+38K27 Assembly 80|93r51
+40P9 Ref(integer) 80|93r60
+X 27 mssyst-reflection-binder.ads
+26K27 Binder 80|106r56 211r34 217r34 300r34 307r34 358r34 425r34 433r34 443r34
+28P9 Ref(integer) 80|106r63 211r41 217r41 300r41 307r41 358r41 425r41 433r41
+. 443r41
+X 28 mssyst-reflection-bindingflags.ads
+15K27*BindingFlags 96e35 80|21w24 89r39 210r39 216r39 225r39 236r39 241r39
+. 248r39 253r39 280r39 285r39 288r39 299r39 306r39 321r39 324r39 330r39 338r39
+. 341r39 347r39 357r39 424r38 432r38 442r38
+16E9*ValueType 36e20 80|89r52 210r52 216r52 225r52 236r52 241r52 248r52 253r52
+. 280r52 285r52 288r52 299r52 306r52 321r52 324r52 330r52 338r52 341r52 347r52
+. 357r52 424r51 432r51 442r51
+X 29 mssyst-reflection-callingconventions.ads
+15K27*CallingConventions 66e41 80|34w24 218r42 308r42
+16E9*ValueType 21e20 80|218r61 308r61
+X 30 mssyst-reflection-constructorinfo.ads
+31K27 ConstructorInfo 80|200r51 207r65 213r97 220r97 222r51 225r88
+33P9 Ref(integer) 80|200r67 207r81 213r113 220r113
+36P9 Ref_Array(integer) 80|222r67 225r104
+X 32 mssyst-reflection-eventinfo.ads
+24K27 EventInfo 80|232r58 236r88 238r51 241r88
+26P9 Ref(integer) 80|232r68 236r98
+29P9 Ref_Array(integer) 80|238r61 241r98
+X 34 mssyst-reflection-fieldinfo.ads
+28K27 FieldInfo 80|244r58 248r88 250r51 253r88
+30P9 Ref(integer) 80|244r68 248r98
+33P9 Ref_Array(integer) 80|250r61 253r98
+X 35 mssyst-reflection-genericparameterattributes.ads
+15K27*GenericParameterAttributes 72e49 80|27w24 110r51
+16E9*ValueType 24e29 80|110r78
+X 36 mssyst-reflection-icustomattributeprovider.ads
+12K27*ICustomAttributeProvider 34e47 80|11w24 57r32
+13R9*Typ 80|57r57
+X 38 mssyst-reflection-interfacemapping.ads
+15K27 InterfaceMapping 80|271r67
+16R9 ValueType 80|271r84
+X 39 mssyst-reflection-ireflect.ads
+27K27*IReflect 101e31 80|14w24 60r32
+28R9*Typ 80|60r41
+X 40 mssyst-reflection-memberfilter.ads
+24K27 MemberFilter 80|64r40 66r35 68r45 90r34
+26P9 Ref(integer) 80|64r53 66r48 68r58 90r47
+X 41 mssyst-reflection-memberinfo.ads
+18K27*MemberInfo 64e33 80|10w24 56r47 91r68 227r51 276r58 280r88 285r88 288r88
+. 290r51
+19R9*Typ 80|56r58
+20P9*Ref(19R9)
+22A9*Ref_Arr(20P9)
+23P9*Ref_Array(22A9) 80|91r79 227r62 276r69 280r99 285r99 288r99 290r62
+31V13*get_DeclaringType{80|51P9}
+33V13*get_MemberType{42|16E9}
+35V13*get_MetadataToken{integer}
+37V13*get_Module{47|39P9}
+39V13*get_Name{75|27P9}
+41V13*get_ReflectedType{80|51P9}
+43V13*GetCustomAttributes{24|16P9}
+46V13*GetCustomAttributes{24|16P9}
+50V13*IsDefined{boolean}
+X 42 mssyst-reflection-membertypes.ads
+15K27*MemberTypes 74e34 80|20w24 88r38 188r51 284r34
+16E9*ValueType 25e13 80|88r50 188r63 284r46
+X 44 mssyst-reflection-methodbase.ads
+31K27 MethodBase 80|103r51
+33P9 Ref(integer) 80|103r62
+X 46 mssyst-reflection-methodinfo.ads
+32K27 MethodInfo 80|295r97 302r97 310r97 314r65 317r58 321r88 324r88 326r51
+34P9 Ref(integer) 80|295r108 302r108 310r108 314r76 317r69 321r99
+37P9 Ref_Array(integer) 80|324r99 326r62
+X 47 mssyst-reflection-module.ads
+37K27 Module 80|190r51
+39P9 Ref(integer) 80|190r58
+X 48 mssyst-reflection-parametermodifier.ads
+14K27*ParameterModifier 33e40 80|33w24 213r37 220r37 295r37 302r37 310r37
+. 353r37 361r37 436r37
+16A9*ValueType_Arr(15R9)
+17P9*ValueType_Array(16A9) 80|213r55 220r55 295r55 302r55 310r55 353r55 361r55
+. 436r55
+X 51 mssyst-reflection-propertyinfo.ads
+28K27 PropertyInfo 80|341r88 343r51 347r88 353r97 361r97 366r65 369r58 373r64
+. 377r65
+30P9 Ref(integer) 80|347r101 353r110 361r110 366r78 369r71 373r77 377r78
+33P9 Ref_Array(integer) 80|341r101 343r64
+X 52 mssyst-reflection-typeattributes.ads
+15K27*TypeAttributes 112e37 80|24w24 97r51
+16E9*ValueType 41e24 80|97r66
+X 53 mssyst-reflection-typefilter.ads
+23K27 TypeFilter 80|84r34
+25P9 Ref(integer) 80|84r45
+X 54 mssyst-runtime.ads
+6K16*Runtime 7e19 80|12r13 13r13 58r21 59r21 196r40
+X 55 mssyst-runtime-interopservices.ads
+6K24*InteropServices 7e35 80|12r21 13r21 58r29 59r29 196r48
+X 58 mssyst-runtime-interopservices-structlayoutattribute.ads
+16K40 StructLayoutAttribute 80|196r64
+18P9 Ref(integer) 80|196r86
+X 63 mssyst-runtime-interopservices-umemberinfo.ads
+16K40*uMemberInfo 92e47 80|12w37 58r45
+17R9*Typ 80|58r57
+44x14*GetIDsOfNames
+53x14*GetTypeInfo
+58x14*GetTypeInfoCount
+61x14*Invoke
+X 68 mssyst-runtime-interopservices-utype.ads
+42K40*uType 484e41 80|13w37 59r45
+43R9*Typ 80|59r51
+218x14*GetIDsOfNames
+343x14*GetTypeInfo
+348x14*GetTypeInfoCount
+351x14*Invoke
+X 71 mssyst-runtimetypehandle.ads
+17K16 RuntimeTypeHandle 80|198r40 406r23 420r44
+18R9 ValueType 80|198r58 406r41 420r62
+X 75 mssyst-string.ads
+25K16 String 80|95r40 108r40 192r40 232r21 235r21 244r21 247r21 264r21 268r21
+. 276r21 279r21 283r21 293r21 298r21 305r21 313r21 317r21 320r21 329r21 333r21
+. 346r21 350r21 356r21 364r21 369r21 372r21 376r21 379r25 381r25 384r25 397r23
+. 401r23 408r23 410r23 413r23 414r23 416r23 417r23 423r21 431r21 438r32 441r21
+. 468r25 472r40
+27P9 Ref(integer) 80|95r47 108r47 192r47 232r28 235r28 244r28 247r28 264r28
+. 268r28 276r28 279r28 283r28 293r28 298r28 305r28 313r28 317r28 320r28 329r28
+. 333r28 346r28 350r28 356r28 364r28 369r28 372r28 376r28 379r32 381r32 384r32
+. 397r30 401r30 408r30 410r30 413r30 414r30 416r30 417r30 423r28 431r28 441r28
+. 468r32 472r47
+30P9 Ref_Array(integer) 80|438r39
+X 80 mssyst-type_k.ads
+49K16*Type_k 9|6k9 80|74r24 78r18 85r57 99r40 105r40 194r40 202r40 207r22
+. 212r22 219r22 229r40 255r40 257r40 259r40 265r52 268r47 271r30 273r40 294r22
+. 301r22 309r22 314r22 330r77 333r47 335r40 338r77 351r27 352r22 359r27 360r22
+. 365r27 366r22 373r27 377r22 379r51 382r54 386r52 388r40 390r53 392r23 394r52
+. 398r54 401r49 404r54 406r66 408r49 411r54 414r49 418r54 448r18 454r18 456r40
+. 459r37 461r40 464r30 464r62 466r40 470r52 575l12 575e18 577r27
+50R9*Typ 51r27 56c9 77r21 80r21 83r21 87r21 93r21 95r21 97r21 99r21 101r21
+. 103r21 105r21 108r21 110r21 112r21 114r21 116r21 118r21 120r21 122r21 124r21
+. 126r21 128r21 130r21 132r21 134r21 136r21 138r21 140r21 142r21 144r21 146r21
+. 148r21 150r21 152r21 154r21 156r21 158r21 160r21 162r21 164r21 166r21 168r21
+. 170r21 172r21 174r21 176r21 178r21 180r21 182r21 184r21 186r21 188r21 190r21
+. 192r21 194r21 196r21 198r21 200r21 202r21 204r21 206r21 209r21 215r21 222r21
+. 224r21 227r21 229r21 231r21 234r21 238r21 240r21 243r21 246r21 250r21 252r21
+. 255r21 257r21 259r21 261r21 263r21 267r21 270r21 273r21 275r21 278r21 282r21
+. 287r21 290r21 292r21 297r21 304r21 312r21 316r21 319r21 323r21 326r21 328r21
+. 332r21 335r21 337r21 340r21 343r21 345r21 349r21 355r21 363r21 368r21 371r21
+. 375r21 388r21 422r21 430r21 440r21 447r21 450r21 453r21 456r21 458r21 461r21
+. 463r21 466r21 472r21 474r27
+51P9*Ref(50R9) 52r34 53r47 78r25 99r47 105r47 194r47 202r47 229r47 259r47
+. 265r59 268r54 271r37 330r84 333r54 351r34 359r34 365r34 373r34 379r58 382r61
+. 386r59 388r47 392r30 394r59 398r61 401r56 404r61 406r73 408r56 411r61 414r56
+. 418r61 448r25 454r25 456r47 459r44 461r47 464r69 466r47 470r59
+52P9*Ref_addrof(51P9)
+53A9*Ref_Arr(51P9) 54r33
+54P9*Ref_Array(53A9) 55r40 74r31 85r64 207r29 212r29 219r29 255r47 257r47
+. 273r47 294r29 301r29 309r29 314r29 335r47 338r84 352r29 360r29 366r29 377r29
+. 390r60 464r37
+55P9*Ref_Array_addrof(54P9)
+56H9*Typ<41|25R9> 24|23p13 29p13 31p13 36p13 41|31P13 33P13 35p13 37p13 39P13
+. 41P13 43P13 46P13 50P13 63|44p14 53p14 58p14 61p14 68|218p14 343p14 348p14
+. 351p14 80|63e14 76P13 79P13 82P13 86P13 92P13 94P13 96P13 98P13 100p13
+. 102p13 104P13 107P13 109p13 111p13 113P13 115P13 117P13 119P13 121P13 123P13
+. 125P13 127P13 129P13 131P13 133P13 135P13 137P13 139p13 141p13 143p13 145P13
+. 147P13 149P13 151P13 153p13 155P13 157P13 159P13 161P13 163P13 165P13 167P13
+. 169P13 171P13 173P13 175P13 177P13 179P13 181P13 183P13 185p13 187P13 189P13
+. 191P13 193P13 195p13 197P13 199P13 201P13 203P13 205P13 208P13 214P13 221P13
+. 223P13 226P13 228P13 230P13 233P13 237P13 239P13 242P13 245P13 249P13 251P13
+. 254p13 256p13 258p13 260P13 262P13 266P13 269P13 272P13 274P13 277P13 281P13
+. 286P13 289P13 291P13 296P13 303P13 311P13 315P13 318P13 322P13 325P13 327P13
+. 331P13 334P13 336P13 339P13 342P13 344P13 348P13 354P13 362P13 367P13 370P13
+. 374P13 387P13 421P13 429P13 439P13 446P13 449P13 452P13 455p13 457p13 460p13
+. 462p13 465p13 471P13
+64p4*FilterAttribute{40|26P9} 65m23
+66p4*FilterName{40|26P9} 67m23
+68p4*FilterNameIgnoreCase{40|26P9} 69m23
+70p4*Missing{24|13P9} 71m23
+72e4*Delimiter{wide_character} 73m23
+74p4*EmptyTypes{54P9} 75m23
+76V13*Equals{boolean} 77^7 78>7
+77p7 This(56R9)
+78p7 o{51P9}
+79V13*Equals{boolean} 80^7 81>7 475b23
+80p7 This(56R9)
+81p7 o{24|13P9}
+82V13*FindInterfaces{54P9} 83^7 84>7 85>7 476b23
+83p7 This(56R9)
+84p7 filter{53|25P9}
+85p7 filterCriteria{24|13P9}
+86V13*FindMembers{41|23P9} 87^7 88>7 89>7 90>7 91>7 477b23
+87p7 This(56R9)
+88e7 memberType{42|16E9}
+89e7 bindingAttr{28|16E9}
+90p7 filter{40|26P9}
+91p7 filterCriteria{24|13P9}
+92V13*get_Assembly{26|40P9} 93^7 478b23
+93p7 This(56R9)
+94V13*get_AssemblyQualifiedName{75|27P9} 95^7 479b23
+95p7 This(56R9)
+96V13*get_Attributes{52|16E9} 97^7 480b23
+97p7 This(56R9)
+98V13*get_BaseType{51P9} 99^7 481b23
+99p7 This(56R9)
+100V13*get_ContainsGenericParameters{boolean} 101^7 482b23
+101p7 This(56R9)
+102V13*get_DeclaringMethod{44|33P9} 103^7 483b23
+103p7 This(56R9)
+104V13*get_DeclaringType{51P9} 105^7 484b23
+105p7 This(56R9)
+106V13*get_DefaultBinder{27|28P9} 485b23
+107V13*get_FullName{75|27P9} 108^7 486b23
+108p7 This(56R9)
+109V13*get_GenericParameterAttributes{35|16E9} 110^7 487b23
+110p7 This(56R9)
+111V13*get_GenericParameterPosition{integer} 112^7 488b23
+112p7 This(56R9)
+113V13*get_GUID{19|16R9} 114^7 489b23
+114p7 This(56R9)
+115V13*get_HasElementType{boolean} 116^7 490b23
+116p7 This(56R9)
+117V13*get_IsAbstract{boolean} 118^7 491b23
+118p7 This(56R9)
+119V13*get_IsAnsiClass{boolean} 120^7 492b23
+120p7 This(56R9)
+121V13*get_IsArray{boolean} 122^7 493b23
+122p7 This(56R9)
+123V13*get_IsAutoClass{boolean} 124^7 494b23
+124p7 This(56R9)
+125V13*get_IsAutoLayout{boolean} 126^7 495b23
+126p7 This(56R9)
+127V13*get_IsByRef{boolean} 128^7 496b23
+128p7 This(56R9)
+129V13*get_IsClass{boolean} 130^7 497b23
+130p7 This(56R9)
+131V13*get_IsCOMObject{boolean} 132^7 498b23
+132p7 This(56R9)
+133V13*get_IsContextful{boolean} 134^7 499b23
+134p7 This(56R9)
+135V13*get_IsEnum{boolean} 136^7 500b23
+136p7 This(56R9)
+137V13*get_IsExplicitLayout{boolean} 138^7 501b23
+138p7 This(56R9)
+139V13*get_IsGenericParameter{boolean} 140^7 502b23
+140p7 This(56R9)
+141V13*get_IsGenericType{boolean} 142^7 503b23
+142p7 This(56R9)
+143V13*get_IsGenericTypeDefinition{boolean} 144^7 504b23
+144p7 This(56R9)
+145V13*get_IsImport{boolean} 146^7 505b23
+146p7 This(56R9)
+147V13*get_IsInterface{boolean} 148^7 506b23
+148p7 This(56R9)
+149V13*get_IsLayoutSequential{boolean} 150^7 507b23
+150p7 This(56R9)
+151V13*get_IsMarshalByRef{boolean} 152^7 508b23
+152p7 This(56R9)
+153V13*get_IsNested{boolean} 154^7 509b23
+154p7 This(56R9)
+155V13*get_IsNestedAssembly{boolean} 156^7 510b23
+156p7 This(56R9)
+157V13*get_IsNestedFamANDAssem{boolean} 158^7 511b23
+158p7 This(56R9)
+159V13*get_IsNestedFamily{boolean} 160^7 512b23
+160p7 This(56R9)
+161V13*get_IsNestedFamORAssem{boolean} 162^7 513b23
+162p7 This(56R9)
+163V13*get_IsNestedPrivate{boolean} 164^7 514b23
+164p7 This(56R9)
+165V13*get_IsNestedPublic{boolean} 166^7 515b23
+166p7 This(56R9)
+167V13*get_IsNotPublic{boolean} 168^7 516b23
+168p7 This(56R9)
+169V13*get_IsPointer{boolean} 170^7 517b23
+170p7 This(56R9)
+171V13*get_IsPrimitive{boolean} 172^7 518b23
+172p7 This(56R9)
+173V13*get_IsPublic{boolean} 174^7 519b23
+174p7 This(56R9)
+175V13*get_IsSealed{boolean} 176^7 520b23
+176p7 This(56R9)
+177V13*get_IsSerializable{boolean} 178^7 521b23
+178p7 This(56R9)
+179V13*get_IsSpecialName{boolean} 180^7 522b23
+180p7 This(56R9)
+181V13*get_IsUnicodeClass{boolean} 182^7 523b23
+182p7 This(56R9)
+183V13*get_IsValueType{boolean} 184^7 524b23
+184p7 This(56R9)
+185V13*get_IsVisible{boolean} 186^7 525b23
+186p7 This(56R9)
+187V13*get_MemberType{42|16E9} 188^7 526b23
+188p7 This(56R9)
+189V13*get_Module{47|39P9} 190^7 527b23
+190p7 This(56R9)
+191V13*get_Namespace{75|27P9} 192^7 528b23
+192p7 This(56R9)
+193V13*get_ReflectedType{51P9} 194^7 529b23
+194p7 This(56R9)
+195V13*get_StructLayoutAttribute{58|18P9} 196^7 530b23
+196p7 This(56R9)
+197V13*get_TypeHandle{71|18R9} 198^7 531b23
+198p7 This(56R9)
+199V13*get_TypeInitializer{30|33P9} 200^7 532b23
+200p7 This(56R9)
+201V13*get_UnderlyingSystemType{51P9} 202^7 533b23
+202p7 This(56R9)
+203V13*GetArrayRank{integer} 204^7 534b23
+204p7 This(56R9)
+205V13*GetConstructor{30|33P9} 206^7 207>7
+206p7 This(56R9)
+207p7 types{54P9}
+208V13*GetConstructor{30|33P9} 209^7 210>7 211>7 212>7 213>7
+209p7 This(56R9)
+210e7 bindingAttr{28|16E9}
+211p7 binder{27|28P9}
+212p7 types{54P9}
+213p7 modifiers{48|17P9}
+214V13*GetConstructor{30|33P9} 215^7 216>7 217>7 218>7 219>7 220>7 535b23
+215p7 This(56R9)
+216e7 bindingAttr{28|16E9}
+217p7 binder{27|28P9}
+218e7 callConvention{29|16E9}
+219p7 types{54P9}
+220p7 modifiers{48|17P9}
+221V13*GetConstructors{30|36P9} 222^7
+222p7 This(56R9)
+223V13*GetConstructors{30|36P9} 224^7 225>7 536b23
+224p7 This(56R9)
+225e7 bindingAttr{28|16E9}
+226V13*GetDefaultMembers{41|23P9} 227^7 537b23
+227p7 This(56R9)
+228V13*GetElementType{51P9} 229^7 538b23
+229p7 This(56R9)
+230V13*GetEvent{32|26P9} 231^7 232>7
+231p7 This(56R9)
+232p7 name{75|27P9}
+233V13*GetEvent{32|26P9} 234^7 235>7 236>7 539b23
+234p7 This(56R9)
+235p7 name{75|27P9}
+236e7 bindingAttr{28|16E9}
+237V13*GetEvents{32|29P9} 238^7
+238p7 This(56R9)
+239V13*GetEvents{32|29P9} 240^7 241>7 540b23
+240p7 This(56R9)
+241e7 bindingAttr{28|16E9}
+242V13*GetField{34|30P9} 243^7 244>7
+243p7 This(56R9)
+244p7 name{75|27P9}
+245V13*GetField{34|30P9} 246^7 247>7 248>7 541b23
+246p7 This(56R9)
+247p7 name{75|27P9}
+248e7 bindingAttr{28|16E9}
+249V13*GetFields{34|33P9} 250^7
+250p7 This(56R9)
+251V13*GetFields{34|33P9} 252^7 253>7 542b23
+252p7 This(56R9)
+253e7 bindingAttr{28|16E9}
+254V13*GetGenericArguments{54P9} 255^7 543b23
+255p7 This(56R9)
+256V13*GetGenericParameterConstraints{54P9} 257^7 544b23
+257p7 This(56R9)
+258V13*GetGenericTypeDefinition{51P9} 259^7 545b23
+259p7 This(56R9)
+260V13*GetHashCode{integer} 261^7 546b23
+261p7 This(56R9)
+262V13*GetInterface{51P9} 263^7 264>7 265>7
+263p7 This(56R9)
+264p7 name{75|27P9}
+265b7 ignoreCase{boolean}
+266V13*GetInterface{51P9} 267^7 268>7 547b23
+267p7 This(56R9)
+268p7 name{75|27P9}
+269V13*GetInterfaceMap{38|16R9} 270^7 271>7 548b23
+270p7 This(56R9)
+271p7 interfaceType{51P9}
+272V13*GetInterfaces{54P9} 273^7 549b23
+273p7 This(56R9)
+274V13*GetMember{41|23P9} 275^7 276>7
+275p7 This(56R9)
+276p7 name{75|27P9}
+277V13*GetMember{41|23P9} 278^7 279>7 280>7
+278p7 This(56R9)
+279p7 name{75|27P9}
+280e7 bindingAttr{28|16E9}
+281V13*GetMember{41|23P9} 282^7 283>7 284>7 285>7 550b23
+282p7 This(56R9)
+283p7 name{75|27P9}
+284e7 type_k{42|16E9}
+285e7 bindingAttr{28|16E9}
+286V13*GetMembers{41|23P9} 287^7 288>7
+287p7 This(56R9)
+288e7 bindingAttr{28|16E9}
+289V13*GetMembers{41|23P9} 290^7 551b23
+290p7 This(56R9)
+291V13*GetMethod{46|34P9} 292^7 293>7 294>7 295>7
+292p7 This(56R9)
+293p7 name{75|27P9}
+294p7 types{54P9}
+295p7 modifiers{48|17P9}
+296V13*GetMethod{46|34P9} 297^7 298>7 299>7 300>7 301>7 302>7
+297p7 This(56R9)
+298p7 name{75|27P9}
+299e7 bindingAttr{28|16E9}
+300p7 binder{27|28P9}
+301p7 types{54P9}
+302p7 modifiers{48|17P9}
+303V13*GetMethod{46|34P9} 304^7 305>7 306>7 307>7 308>7 309>7 310>7
+304p7 This(56R9)
+305p7 name{75|27P9}
+306e7 bindingAttr{28|16E9}
+307p7 binder{27|28P9}
+308e7 callConvention{29|16E9}
+309p7 types{54P9}
+310p7 modifiers{48|17P9}
+311V13*GetMethod{46|34P9} 312^7 313>7 314>7
+312p7 This(56R9)
+313p7 name{75|27P9}
+314p7 types{54P9}
+315V13*GetMethod{46|34P9} 316^7 317>7
+316p7 This(56R9)
+317p7 name{75|27P9}
+318V13*GetMethod{46|34P9} 319^7 320>7 321>7 552b23
+319p7 This(56R9)
+320p7 name{75|27P9}
+321e7 bindingAttr{28|16E9}
+322V13*GetMethods{46|37P9} 323^7 324>7
+323p7 This(56R9)
+324e7 bindingAttr{28|16E9}
+325V13*GetMethods{46|37P9} 326^7 553b23
+326p7 This(56R9)
+327V13*GetNestedType{51P9} 328^7 329>7 330>7
+328p7 This(56R9)
+329p7 name{75|27P9}
+330e7 bindingAttr{28|16E9}
+331V13*GetNestedType{51P9} 332^7 333>7 554b23
+332p7 This(56R9)
+333p7 name{75|27P9}
+334V13*GetNestedTypes{54P9} 335^7
+335p7 This(56R9)
+336V13*GetNestedTypes{54P9} 337^7 338>7 555b23
+337p7 This(56R9)
+338e7 bindingAttr{28|16E9}
+339V13*GetProperties{51|33P9} 340^7 341>7
+340p7 This(56R9)
+341e7 bindingAttr{28|16E9}
+342V13*GetProperties{51|33P9} 343^7 556b23
+343p7 This(56R9)
+344V13*GetProperty{51|30P9} 345^7 346>7 347>7
+345p7 This(56R9)
+346p7 name{75|27P9}
+347e7 bindingAttr{28|16E9}
+348V13*GetProperty{51|30P9} 349^7 350>7 351>7 352>7 353>7
+349p7 This(56R9)
+350p7 name{75|27P9}
+351p7 returnType{51P9}
+352p7 types{54P9}
+353p7 modifiers{48|17P9}
+354V13*GetProperty{51|30P9} 355^7 356>7 357>7 358>7 359>7 360>7 361>7
+355p7 This(56R9)
+356p7 name{75|27P9}
+357e7 bindingAttr{28|16E9}
+358p7 binder{27|28P9}
+359p7 returnType{51P9}
+360p7 types{54P9}
+361p7 modifiers{48|17P9}
+362V13*GetProperty{51|30P9} 363^7 364>7 365>7 366>7
+363p7 This(56R9)
+364p7 name{75|27P9}
+365p7 returnType{51P9}
+366p7 types{54P9}
+367V13*GetProperty{51|30P9} 368^7 369>7
+368p7 This(56R9)
+369p7 name{75|27P9}
+370V13*GetProperty{51|30P9} 371^7 372>7 373>7
+371p7 This(56R9)
+372p7 name{75|27P9}
+373p7 returnType{51P9}
+374V13*GetProperty{51|30P9} 375^7 376>7 377>7 557b23
+375p7 This(56R9)
+376p7 name{75|27P9}
+377p7 types{54P9}
+378V13*GetType{51P9} 379>7
+379p7 typeName{75|27P9}
+380V13*GetType{51P9} 381>7 382>7
+381p7 typeName{75|27P9}
+382b7 throwOnError{boolean}
+383V13*GetType{51P9} 384>7 385>7 386>7
+384p7 typeName{75|27P9}
+385b7 throwOnError{boolean}
+386b7 ignoreCase{boolean}
+387V13*GetType{51P9} 388^7 558b23
+388p7 This(56R9)
+389V13*GetTypeArray{54P9} 390>7 559b23
+390p7 args{24|16P9}
+391V13*GetTypeCode{81|15E9} 392>7 560b23
+392p7 type_k{51P9}
+393V13*GetTypeFromCLSID{51P9} 394>7
+394r7 clsid{19|16R9}
+395V13*GetTypeFromCLSID{51P9} 396>7 397>7 398>7
+396r7 clsid{19|16R9}
+397p7 server{75|27P9}
+398b7 throwOnError{boolean}
+399V13*GetTypeFromCLSID{51P9} 400>7 401>7
+400r7 clsid{19|16R9}
+401p7 server{75|27P9}
+402V13*GetTypeFromCLSID{51P9} 403>7 404>7 561b23
+403r7 clsid{19|16R9}
+404b7 throwOnError{boolean}
+405V13*GetTypeFromHandle{51P9} 406>7 562b23
+406r7 handle{71|18R9}
+407V13*GetTypeFromProgID{51P9} 408>7
+408p7 progID{75|27P9}
+409V13*GetTypeFromProgID{51P9} 410>7 411>7
+410p7 progID{75|27P9}
+411b7 throwOnError{boolean}
+412V13*GetTypeFromProgID{51P9} 413>7 414>7
+413p7 progID{75|27P9}
+414p7 server{75|27P9}
+415V13*GetTypeFromProgID{51P9} 416>7 417>7 418>7 563b23
+416p7 progID{75|27P9}
+417p7 server{75|27P9}
+418b7 throwOnError{boolean}
+419V13*GetTypeHandle{71|18R9} 420>7 564b23
+420p7 o{24|13P9}
+421V13*InvokeMember{24|13P9} 422^7 423>7 424>7 425>7 426>7 427>7 428>7
+422p7 This(56R9)
+423p7 name{75|27P9}
+424e7 invokeAttr{28|16E9}
+425p7 binder{27|28P9}
+426p7 target{24|13P9}
+427p7 args{24|16P9}
+428p7 culture{16|25P9}
+429V13*InvokeMember{24|13P9} 430^7 431>7 432>7 433>7 434>7 435>7 436>7 437>7
+. 438>7
+430p7 This(56R9)
+431p7 name{75|27P9}
+432e7 invokeAttr{28|16E9}
+433p7 binder{27|28P9}
+434p7 target{24|13P9}
+435p7 args{24|16P9}
+436p7 modifiers{48|17P9}
+437p7 culture{16|25P9}
+438p7 namedParameters{75|30P9}
+439V13*InvokeMember{24|13P9} 440^7 441>7 442>7 443>7 444>7 445>7 565b23
+440p7 This(56R9)
+441p7 name{75|27P9}
+442e7 invokeAttr{28|16E9}
+443p7 binder{27|28P9}
+444p7 target{24|13P9}
+445p7 args{24|16P9}
+446V13*IsAssignableFrom{boolean} 447^7 448>7 566b23
+447p7 This(56R9)
+448p7 c{51P9}
+449V13*IsInstanceOfType{boolean} 450^7 451>7 567b23
+450p7 This(56R9)
+451p7 o{24|13P9}
+452V13*IsSubclassOf{boolean} 453^7 454>7 568b23
+453p7 This(56R9)
+454p7 c{51P9}
+455V13*MakeArrayType{51P9} 456^7
+456p7 This(56R9)
+457V13*MakeArrayType{51P9} 458^7 459>7 569b23
+458p7 This(56R9)
+459i7 rank{integer}
+460V13*MakeByRefType{51P9} 461^7 570b23
+461p7 This(56R9)
+462V13*MakeGenericType{51P9} 463^7 464>7 571b23
+463p7 This(56R9)
+464p7 typeArguments{54P9}
+465V13*MakePointerType{51P9} 466^7 572b23
+466p7 This(56R9)
+467V13*ReflectionOnlyGetType{51P9} 468>7 469>7 470>7 573b23
+468p7 typeName{75|27P9}
+469b7 throwIfNotFound{boolean}
+470b7 ignoreCase{boolean}
+471V13*ToString{75|27P9} 472^7 574b23
+472p7 This(56R9)
+X 81 mssyst-typecode.ads
+14K16*TypeCode 80|46w13 392r49 81|89e20
+15E9*ValueType 80|392r58 81|33e14
+

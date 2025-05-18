@@ -1,0 +1,20 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U mssyst.security.authentication%s  mssyst-security-authentication.ads  e8ab55cd EE PK
+W mssyst.security%s	mssyst-security.ads	mssyst-security.ali
+
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-security.ads	20060517214744 a4c8227c
+D mssyst-security-authentication.ads  20060517222322 4c6377b1
+D system.ads		20050820125040 15131902
+X 1 mssyst.ads
+6K9*MSSyst 7e11 3|6r9 7r5
+X 2 mssyst-security.ads
+6K16*Security 1|6k9 2|7e20 3|6r16 7r12
+X 3 mssyst-security-authentication.ads
+6K25*Authentication 2|6k16 3|7l21 7e35
+

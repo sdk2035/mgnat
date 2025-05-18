@@ -1,0 +1,131 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.treenodemouseclickeventargs%s  mssyst-windows-forms-treenodemouseclickeventargs.ads  19b0129b NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.mousebuttons%s  mssyst-windows-forms-mousebuttons.ads  mssyst-windows-forms-mousebuttons.ali
+W mssyst.windows.forms.mouseeventargs%s  mssyst-windows-forms-mouseeventargs.ads  mssyst-windows-forms-mouseeventargs.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-eventargs.ads	20060131171354 20b9e5e0
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-mousebuttons.ads  20060131171444 1b279075
+D mssyst-windows-forms-mouseeventargs.ads  20060131171438 39660782
+D mssyst-windows-forms-treenode.ads  20060131171448 245fcae9
+D mssyst-windows-forms-treenodemouseclickeventargs.ads  20060131171448 6ac43a0f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 49|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 49|7r6 10r6 12r6 17r9 24r20 29r14 30r16 35r33 40r5 42r20
+X 8 mssyst-drawing-point.ads
+17R9 ValueType
+X 17 mssyst-object.ads
+11K16*Object 46e18 49|7w13
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{40|51P9}
+36V13*ToString{35|27P9}
+X 35 mssyst-string.ads
+27P9 Ref(integer)
+X 40 mssyst-type_k.ads
+51P9 Ref(integer)
+X 44 mssyst-windows.ads
+6K16*Windows 6|6k9 44|7e19 49|10r13 12r13 17r16 24r27 29r21 30r23 35r40 40r12
+. 42r27
+X 45 mssyst-windows-forms.ads
+6K24*Forms 44|6k16 45|7e25 49|10r21 12r21 17r24 24r35 29r29 30r31 35r48 40r20
+. 42r35
+X 46 mssyst-windows-forms-mousebuttons.ads
+15K30*MouseButtons 68e38 49|12w27 30r37
+16E9*ValueType 22e16 49|30r50
+X 47 mssyst-windows-forms-mouseeventargs.ads
+16K30*MouseEventArgs 54e40 49|10w27 24r41
+17R9*Typ 49|24r56
+33V13*get_Button{46|16E9}
+35V13*get_Clicks{integer}
+37V13*get_Delta{integer}
+39V13*get_Location{8|17R9}
+41V13*get_X{integer}
+43V13*get_Y{integer}
+X 48 mssyst-windows-forms-treenode.ads
+25K30 TreeNode 49|29r35 35r54
+27P9 Ref(integer) 49|29r44 35r63
+X 49 mssyst-windows-forms-treenodemouseclickeventargs.ads
+17K30*TreeNodeMouseClickEventArgs 45|6k24 49|40l26 40e53 42r41
+18R9*Typ 19r27 24c9 35r21 37r27
+19P9*Ref(18R9) 20r34 21r47 28r14 33r27
+20P9*Ref_addrof(19P9)
+21A9*Ref_Arr(19P9) 22r33
+22P9*Ref_Array(21A9) 23r40
+23P9*Ref_Array_addrof(22P9)
+24R9*Typ<47|23R9> 17|23p13 29p13 31p13 36p13 47|33p13 35p13 37p13 39p13 41p13
+. 43p13 49|26e14 34p13
+27V13*new_TreeNodeMouseClickEventArgs{19P9} 28>7 29>7 30>7 31>7 32>7 33>7
+. 38r28
+28p7 This{19P9}
+29p7 node{48|27P9}
+30e7 button{46|16E9}
+31i7 clicks{integer}
+32i7 x{integer}
+33i7 y{integer}
+34V13*get_Node{48|27P9} 35^7 39b23
+35p7 This(24R9)
+

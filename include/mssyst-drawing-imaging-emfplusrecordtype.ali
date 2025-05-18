@@ -1,0 +1,535 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.imaging.emfplusrecordtype%s  mssyst-drawing-imaging-emfplusrecordtype.ads  dde1257b NE PK
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing.imaging%s  mssyst-drawing-imaging.ads  mssyst-drawing-imaging.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D microsoft.ads		20060517214748 02f2695c
+D microsoft-win32.ads	20060517214748 bf37fdc1
+D microsoft-win32-safehandles.ads  20060517214748 c240eeab
+D microsoft-win32-safehandles-safefilehandle.ads  20060518130024 34c2417a
+D microsoft-win32-safehandles-safehandlezeroorminusoneisinvalid.ads  20060518130024 66041aba
+D microsoft-win32-safehandles-safewaithandle.ads  20060518130024 ae8855ed
+D msil_types.ads	20060219005222 3027c2c3
+D mssyst.ads		20060517214744 82dcb036
+D mssyst-array_k.ads	20060518130004 44c548ce
+D mssyst-asynccallback.ads  20060518130006 80e54e38
+D mssyst-attribute.ads	20060518130006 394ce8b0
+D mssyst-charenumerator.ads  20060518130008 d83886d0
+D mssyst-collections.ads  20060517214744 22f80fd8
+D mssyst-collections-dictionaryentry.ads  20060518130016 222dd9e6
+D mssyst-collections-icollection.ads  20060518130004 3a339eb6
+D mssyst-collections-icomparer.ads  20060518130006 71266c2a
+D mssyst-collections-idictionary.ads  20060518130016 d5a87938
+D mssyst-collections-idictionaryenumerator.ads  20060518130016 174d5352
+D mssyst-collections-ienumerable.ads  20060518130004 8a6639a6
+D mssyst-collections-ienumerator.ads  20060518130004 bc4e7b44
+D mssyst-collections-ilist.ads  20060518130004 d5fdb5e8
+D mssyst-collections-readonlycollectionbase.ads  20060518130016 2b7b6f73
+D mssyst-configuration.ads  20060517214756 03b06563
+D mssyst-configuration-assemblies.ads  20060517214756 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060518130040 813ea3b2
+D mssyst-configuration-assemblies-assemblyversioncompatibility.ads  20060518130040 80640b26
+D mssyst-datetime.ads	20060518130006 e8dd3274
+D mssyst-datetimekind.ads  20060518130006 db5b4b1d
+D mssyst-dayofweek.ads	20060518130008 4570cbc5
+D mssyst-decimal.ads	20060518130008 5671c372
+D mssyst-delegate.ads	20060518130006 5344fd33
+D mssyst-drawing.ads	20060517222328 770dd27a
+D mssyst-drawing-imaging.ads  20060517222330 83f7d7de
+D mssyst-drawing-imaging-emfplusrecordtype.ads  20060518130106 3b607e40
+D mssyst-eventargs.ads	20060518130006 f2d88790
+D mssyst-globalization.ads  20060517214748 13e8d46f
+D mssyst-globalization-calendar.ads  20060518130020 6b493ab4
+D mssyst-globalization-calendaralgorithmtype.ads  20060518130020 3e24c29f
+D mssyst-globalization-calendarweekrule.ads  20060518130020 fd7e4fa4
+D mssyst-globalization-compareinfo.ads  20060518130020 1578aa69
+D mssyst-globalization-compareoptions.ads  20060518130020 aa1d08c4
+D mssyst-globalization-cultureinfo.ads  20060518130020 eff0653d
+D mssyst-globalization-culturetypes.ads  20060518130020 0714709f
+D mssyst-globalization-datetimeformatinfo.ads  20060518130020 12cc668e
+D mssyst-globalization-datetimestyles.ads  20060518130020 493eba39
+D mssyst-globalization-digitshapes.ads  20060518130020 159048c6
+D mssyst-globalization-numberformatinfo.ads  20060518130020 3e2c26cf
+D mssyst-globalization-numberstyles.ads  20060518130020 e67a6e84
+D mssyst-globalization-sortkey.ads  20060518130020 fbdd0312
+D mssyst-globalization-textinfo.ads  20060518130020 87fe0838
+D mssyst-guid.ads	20060518130008 81a28a48
+D mssyst-iasyncresult.ads  20060518130008 f67d3866
+D mssyst-icloneable.ads	20060518130004 e17b533e
+D mssyst-icomparable.ads  20060518130004 bf9ec2a5
+D mssyst-iconvertible.ads  20060518130004 5fd73d03
+D mssyst-idisposable.ads  20060518130004 43dfd267
+D mssyst-iformatprovider.ads  20060518130008 0282a90a
+D mssyst-io.ads		20060517214752 31f12609
+D mssyst-io-fileaccess.ads  20060518130030 86b9fb32
+D mssyst-io-filemode.ads  20060518130030 cd9a2184
+D mssyst-io-fileoptions.ads  20060518130030 dcc00896
+D mssyst-io-fileshare.ads  20060518130030 9c1d8f8e
+D mssyst-io-filestream.ads  20060518130030 e99dd9b5
+D mssyst-io-seekorigin.ads  20060518130030 84ee3c99
+D mssyst-io-stream.ads	20060518130030 8edee4de
+D mssyst-marshalbyrefobject.ads  20060518130006 1fa39a8f
+D mssyst-midpointrounding.ads  20060518130008 67720843
+D mssyst-modulehandle.ads  20060518130010 ea2bb724
+D mssyst-multicastdelegate.ads  20060518130006 378f1b43
+D mssyst-object.ads	20060518130004 47535304
+D mssyst-reflection.ads	20060517214746 25abbfbc
+D mssyst-reflection-assembly.ads  20060518130016 123eb80d
+D mssyst-reflection-assemblyname.ads  20060518130018 15212dcc
+D mssyst-reflection-assemblynameflags.ads  20060518130018 086c5b0c
+D mssyst-reflection-binder.ads  20060518130008 8f817e78
+D mssyst-reflection-bindingflags.ads  20060518130018 44cb2c03
+D mssyst-reflection-callingconventions.ads  20060518130018 6e41b7d5
+D mssyst-reflection-constructorinfo.ads  20060518130018 4a784f3e
+D mssyst-reflection-eventattributes.ads  20060518130018 601969cf
+D mssyst-reflection-eventinfo.ads  20060518130018 d074f51e
+D mssyst-reflection-fieldattributes.ads  20060518130018 7952d5f0
+D mssyst-reflection-fieldinfo.ads  20060518130018 467b8c48
+D mssyst-reflection-genericparameterattributes.ads  20060518130018 bf8892e6
+D mssyst-reflection-icustomattributeprovider.ads  20060518130010 f243134e
+D mssyst-reflection-imagefilemachine.ads  20060518130018 e85430a4
+D mssyst-reflection-interfacemapping.ads  20060518130018 8db7a5bb
+D mssyst-reflection-ireflect.ads  20060518130010 881bf639
+D mssyst-reflection-manifestresourceinfo.ads  20060518130018 ad6bbbfa
+D mssyst-reflection-memberfilter.ads  20060518130018 50297139
+D mssyst-reflection-memberinfo.ads  20060518130010 0224f482
+D mssyst-reflection-membertypes.ads  20060518130018 781a8ce9
+D mssyst-reflection-methodattributes.ads  20060518130018 7f00d77d
+D mssyst-reflection-methodbase.ads  20060518130018 d9f75bde
+D mssyst-reflection-methodbody.ads  20060518130018 57c34b79
+D mssyst-reflection-methodimplattributes.ads  20060518130018 9b393827
+D mssyst-reflection-methodinfo.ads  20060518130018 9554c467
+D mssyst-reflection-module.ads  20060518130018 f7c1ae4f
+D mssyst-reflection-moduleresolveeventhandler.ads  20060518130016 55175e4b
+D mssyst-reflection-parameterattributes.ads  20060518130018 9852456a
+D mssyst-reflection-parameterinfo.ads  20060518130018 9faca9a0
+D mssyst-reflection-parametermodifier.ads  20060518130018 bf1ace9a
+D mssyst-reflection-portableexecutablekinds.ads  20060518130018 7dc22cdb
+D mssyst-reflection-processorarchitecture.ads  20060518130018 ed5839f4
+D mssyst-reflection-propertyattributes.ads  20060518130018 b25fd6ac
+D mssyst-reflection-propertyinfo.ads  20060518130018 83708877
+D mssyst-reflection-resourcelocation.ads  20060518130018 f7e12499
+D mssyst-reflection-strongnamekeypair.ads  20060518130018 80794f06
+D mssyst-reflection-typeattributes.ads  20060518130018 4ce15869
+D mssyst-reflection-typefilter.ads  20060518130018 1bb8611f
+D mssyst-resolveeventargs.ads  20060518130006 a313837d
+D mssyst-runtime.ads	20060517214744 31dcc047
+D mssyst-runtime-constrainedexecution.ads  20060517214746 f6aa2aec
+D mssyst-runtime-constrainedexecution-criticalfinalizerobject.ads  20060518130008 d30c8885
+D mssyst-runtime-interopservices.ads  20060517214744 59769bf0
+D mssyst-runtime-interopservices-charset.ads  20060518130026 91df90fa
+D mssyst-runtime-interopservices-layoutkind.ads  20060518130026 c12116e8
+D mssyst-runtime-interopservices-safehandle.ads  20060518130010 973569bf
+D mssyst-runtime-interopservices-structlayoutattribute.ads  20060518130026 78989125
+D mssyst-runtime-interopservices-uassembly.ads  20060518130016 f96b0f31
+D mssyst-runtime-interopservices-uassemblyname.ads  20060518130018 de1b10ef
+D mssyst-runtime-interopservices-uattribute.ads  20060518130006 caafc494
+D mssyst-runtime-interopservices-uconstructorinfo.ads  20060518130018 c34639c6
+D mssyst-runtime-interopservices-ueventinfo.ads  20060518130018 04844734
+D mssyst-runtime-interopservices-ufieldinfo.ads  20060518130018 cdb9c056
+D mssyst-runtime-interopservices-umemberinfo.ads  20060518130010 e5d5c7c0
+D mssyst-runtime-interopservices-umethodbase.ads  20060518130018 1ff9475f
+D mssyst-runtime-interopservices-umethodinfo.ads  20060518130018 fc46035a
+D mssyst-runtime-interopservices-umodule.ads  20060518130018 85209d28
+D mssyst-runtime-interopservices-uparameterinfo.ads  20060518130018 b106ef1a
+D mssyst-runtime-interopservices-upropertyinfo.ads  20060518130018 f015b8d5
+D mssyst-runtime-interopservices-utype.ads  20060518130010 edc8eebe
+D mssyst-runtime-remoting.ads  20060517214746 74500271
+D mssyst-runtime-remoting-ichannelinfo.ads  20060518130036 42c0549f
+D mssyst-runtime-remoting-ienvoyinfo.ads  20060518130036 0d613007
+D mssyst-runtime-remoting-iremotingtypeinfo.ads  20060518130036 9c09dda1
+D mssyst-runtime-remoting-messaging.ads  20060517214754 4bfbab1c
+D mssyst-runtime-remoting-messaging-imessage.ads  20060518130034 bf177a61
+D mssyst-runtime-remoting-messaging-imessagectrl.ads  20060518130034 e22b39ed
+D mssyst-runtime-remoting-messaging-imessagesink.ads  20060518130034 9c27ef9e
+D mssyst-runtime-remoting-objref.ads  20060518130036 cc63dccf
+D mssyst-runtime-serialization.ads  20060517214744 8d5305f0
+D mssyst-runtime-serialization-ideserializationcallback.ads  20060518130016 a25d9d2b
+D mssyst-runtime-serialization-iformatterconverter.ads  20060518130018 02d31acb
+D mssyst-runtime-serialization-iobjectreference.ads  20060518130008 c3279c62
+D mssyst-runtime-serialization-iserializable.ads  20060518130006 bc8947c1
+D mssyst-runtime-serialization-serializationentry.ads  20060518130020 a6dd57a6
+D mssyst-runtime-serialization-serializationinfo.ads  20060518130020 fe6300a3
+D mssyst-runtime-serialization-serializationinfoenumerator.ads  20060518130020 b2a6a08c
+D mssyst-runtime-serialization-streamingcontext.ads  20060518130020 b7580dc0
+D mssyst-runtime-serialization-streamingcontextstates.ads  20060518130020 ab32dd44
+D mssyst-runtimefieldhandle.ads  20060518130010 1a535b0a
+D mssyst-runtimemethodhandle.ads  20060518130010 b5a8fc11
+D mssyst-runtimetypehandle.ads  20060518130010 2dc72f74
+D mssyst-sbyte.ads	20060518130010 0b40b4c3
+D mssyst-security.ads	20060517214744 a4c8227c
+D mssyst-security-accesscontrol.ads  20060517214756 ec4dfff3
+D mssyst-security-accesscontrol-accesscontrolmodification.ads  20060518130042 da644f3b
+D mssyst-security-accesscontrol-accesscontrolsections.ads  20060518130042 983129b3
+D mssyst-security-accesscontrol-accesscontroltype.ads  20060518130042 aaa7f08e
+D mssyst-security-accesscontrol-accessrule.ads  20060518130042 357b7164
+D mssyst-security-accesscontrol-auditflags.ads  20060518130042 6697b648
+D mssyst-security-accesscontrol-auditrule.ads  20060518130042 548a6e76
+D mssyst-security-accesscontrol-authorizationrule.ads  20060518130042 d4d98288
+D mssyst-security-accesscontrol-authorizationrulecollection.ads  20060518130042 bd787679
+D mssyst-security-accesscontrol-commonobjectsecurity.ads  20060518130042 87d97b1c
+D mssyst-security-accesscontrol-filesecurity.ads  20060518130042 d4ef23f2
+D mssyst-security-accesscontrol-filesystemaccessrule.ads  20060518130042 3996455e
+D mssyst-security-accesscontrol-filesystemauditrule.ads  20060518130042 364a20bb
+D mssyst-security-accesscontrol-filesystemrights.ads  20060518130042 99ab4846
+D mssyst-security-accesscontrol-filesystemsecurity.ads  20060518130042 6b12c956
+D mssyst-security-accesscontrol-inheritanceflags.ads  20060518130042 cb8e28ec
+D mssyst-security-accesscontrol-nativeobjectsecurity.ads  20060518130042 68e32c77
+D mssyst-security-accesscontrol-objectsecurity.ads  20060518130042 d97d6fc7
+D mssyst-security-accesscontrol-propagationflags.ads  20060518130042 7d0c8f98
+D mssyst-security-cryptography.ads  20060517214756 6bbb0e6b
+D mssyst-security-cryptography-x509certificates.ads  20060517214756 1b20ddcc
+D mssyst-security-cryptography-x509certificates-x509certificate.ads  20060518130042 438b9ef5
+D mssyst-security-cryptography-x509certificates-x509contenttype.ads  20060518130042 6cfaa0cf
+D mssyst-security-cryptography-x509certificates-x509keystorageflags.ads  20060518130042 db32c0bb
+D mssyst-security-ievidencefactory.ads  20060518130006 43c6d461
+D mssyst-security-policy.ads  20060517214748 7a609687
+D mssyst-security-policy-evidence.ads  20060518130024 1eabe8be
+D mssyst-security-principal.ads  20060517214748 7adc43fd
+D mssyst-security-principal-identityreference.ads  20060518130042 0b9e5f80
+D mssyst-security-securestring.ads  20060518130034 a9a06371
+D mssyst-string.ads	20060518130004 b98d995f
+D mssyst-stringcomparison.ads  20060518130006 86ec68cf
+D mssyst-stringsplitoptions.ads  20060518130006 f2d0599e
+D mssyst-text.ads	20060517214744 a7ed250d
+D mssyst-text-decoder.ads  20060518130022 3b11b35a
+D mssyst-text-decoderfallback.ads  20060518130022 75e2f645
+D mssyst-text-decoderfallbackbuffer.ads  20060518130022 cf5e5e9e
+D mssyst-text-encoder.ads  20060518130022 58ffabf7
+D mssyst-text-encoderfallback.ads  20060518130022 77489063
+D mssyst-text-encoderfallbackbuffer.ads  20060518130022 50c8196a
+D mssyst-text-encoding.ads  20060518130022 9fed9190
+D mssyst-text-encodinginfo.ads  20060518130022 ce8a22c1
+D mssyst-text-normalizationform.ads  20060518130022 2ca43f9a
+D mssyst-threading.ads	20060517214746 964d65eb
+D mssyst-threading-waithandle.ads  20060518130010 cebe4958
+D mssyst-timespan.ads	20060518130010 642ef661
+D mssyst-type_k.ads	20060518130010 5ccf03f1
+D mssyst-typecode.ads	20060518130010 f5c22e86
+D mssyst-typedreference.ads  20060518130010 9b3bbb41
+D mssyst-valuetype.ads	20060518130004 4fb553b0
+D mssyst-version.ads	20060518130010 523fbb99
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 11 msil_types.ads
+5K9*Msil_Types 66e15 38|7w6 8r5
+X 12 mssyst.ads
+6K9*MSSyst 7e11 38|6r6 13r9 525r23 528r20 532r39 534r32 537r25 537r73 539r39
+. 542r23 543r25 543r73 546r23 546r62 554r5 555r20
+X 36 mssyst-drawing.ads
+6K16*Drawing 12|6k9 36|7e19 38|13r16 554r12 555r27
+X 37 mssyst-drawing-imaging.ads
+6K24*Imaging 36|6k16 37|7e27 38|13r24 554r20 555r35
+X 38 mssyst-drawing-imaging-emfplusrecordtype.ads
+13K32*EmfPlusRecordType 37|6k24 38|554l28 554e45 555r43
+14E9*ValueType 263e21 264r29 265r8 515r54 517r40 519r36 520r23 521r22 522r19
+. 524r14 527r14 530r14 532r14 534r14 536r14 539r14 541r14 545r14
+15n7*EmfMin{14E9} 266r7
+16n7*EmfHeader{14E9} 267r7
+17n7*EmfPolyBezier{14E9} 268r7
+18n7*EmfPolygon{14E9} 269r7
+19n7*EmfPolyline{14E9} 270r7
+20n7*EmfPolyBezierTo{14E9} 271r7
+21n7*EmfPolyLineTo{14E9} 272r7
+22n7*EmfPolyPolyline{14E9} 273r7
+23n7*EmfPolyPolygon{14E9} 274r7
+24n7*EmfSetWindowExtEx{14E9} 275r7
+25n7*EmfSetWindowOrgEx{14E9} 276r7
+26n7*EmfSetViewportExtEx{14E9} 277r7
+27n7*EmfSetViewportOrgEx{14E9} 278r7
+28n7*EmfSetBrushOrgEx{14E9} 279r7
+29n7*EmfEof{14E9} 280r7
+30n7*EmfSetPixelV{14E9} 281r7
+31n7*EmfSetMapperFlags{14E9} 282r7
+32n7*EmfSetMapMode{14E9} 283r7
+33n7*EmfSetBkMode{14E9} 284r7
+34n7*EmfSetPolyFillMode{14E9} 285r7
+35n7*EmfSetROP2{14E9} 286r7
+36n7*EmfSetStretchBltMode{14E9} 287r7
+37n7*EmfSetTextAlign{14E9} 288r7
+38n7*EmfSetColorAdjustment{14E9} 289r7
+39n7*EmfSetTextColor{14E9} 290r7
+40n7*EmfSetBkColor{14E9} 291r7
+41n7*EmfOffsetClipRgn{14E9} 292r7
+42n7*EmfMoveToEx{14E9} 293r7
+43n7*EmfSetMetaRgn{14E9} 294r7
+44n7*EmfExcludeClipRect{14E9} 295r7
+45n7*EmfIntersectClipRect{14E9} 296r7
+46n7*EmfScaleViewportExtEx{14E9} 297r7
+47n7*EmfScaleWindowExtEx{14E9} 298r7
+48n7*EmfSaveDC{14E9} 299r7
+49n7*EmfRestoreDC{14E9} 300r7
+50n7*EmfSetWorldTransform{14E9} 301r7
+51n7*EmfModifyWorldTransform{14E9} 302r7
+52n7*EmfSelectObject{14E9} 303r7
+53n7*EmfCreatePen{14E9} 304r7
+54n7*EmfCreateBrushIndirect{14E9} 305r7
+55n7*EmfDeleteObject{14E9} 306r7
+56n7*EmfAngleArc{14E9} 307r7
+57n7*EmfEllipse{14E9} 308r7
+58n7*EmfRectangle{14E9} 309r7
+59n7*EmfRoundRect{14E9} 310r7
+60n7*EmfRoundArc{14E9} 311r7
+61n7*EmfChord{14E9} 312r7
+62n7*EmfPie{14E9} 313r7
+63n7*EmfSelectPalette{14E9} 314r7
+64n7*EmfCreatePalette{14E9} 315r7
+65n7*EmfSetPaletteEntries{14E9} 316r7
+66n7*EmfResizePalette{14E9} 317r7
+67n7*EmfRealizePalette{14E9} 318r7
+68n7*EmfExtFloodFill{14E9} 319r7
+69n7*EmfLineTo{14E9} 320r7
+70n7*EmfArcTo{14E9} 321r7
+71n7*EmfPolyDraw{14E9} 322r7
+72n7*EmfSetArcDirection{14E9} 323r7
+73n7*EmfSetMiterLimit{14E9} 324r7
+74n7*EmfBeginPath{14E9} 325r7
+75n7*EmfEndPath{14E9} 326r7
+76n7*EmfCloseFigure{14E9} 327r7
+77n7*EmfFillPath{14E9} 328r7
+78n7*EmfStrokeAndFillPath{14E9} 329r7
+79n7*EmfStrokePath{14E9} 330r7
+80n7*EmfFlattenPath{14E9} 331r7
+81n7*EmfWidenPath{14E9} 332r7
+82n7*EmfSelectClipPath{14E9} 333r7
+83n7*EmfAbortPath{14E9} 334r7
+84n7*EmfReserved069{14E9} 335r7
+85n7*EmfGdiComment{14E9} 336r7
+86n7*EmfFillRgn{14E9} 337r7
+87n7*EmfFrameRgn{14E9} 338r7
+88n7*EmfInvertRgn{14E9} 339r7
+89n7*EmfPaintRgn{14E9} 340r7
+90n7*EmfExtSelectClipRgn{14E9} 341r7
+91n7*EmfBitBlt{14E9} 342r7
+92n7*EmfStretchBlt{14E9} 343r7
+93n7*EmfMaskBlt{14E9} 344r7
+94n7*EmfPlgBlt{14E9} 345r7
+95n7*EmfSetDIBitsToDevice{14E9} 346r7
+96n7*EmfStretchDIBits{14E9} 347r7
+97n7*EmfExtCreateFontIndirect{14E9} 348r7
+98n7*EmfExtTextOutA{14E9} 349r7
+99n7*EmfExtTextOutW{14E9} 350r7
+100n7*EmfPolyBezier16{14E9} 351r7
+101n7*EmfPolygon16{14E9} 352r7
+102n7*EmfPolyline16{14E9} 353r7
+103n7*EmfPolyBezierTo16{14E9} 354r7
+104n7*EmfPolylineTo16{14E9} 355r7
+105n7*EmfPolyPolyline16{14E9} 356r7
+106n7*EmfPolyPolygon16{14E9} 357r7
+107n7*EmfPolyDraw16{14E9} 358r7
+108n7*EmfCreateMonoBrush{14E9} 359r7
+109n7*EmfCreateDibPatternBrushPt{14E9} 360r7
+110n7*EmfExtCreatePen{14E9} 361r7
+111n7*EmfPolyTextOutA{14E9} 362r7
+112n7*EmfPolyTextOutW{14E9} 363r7
+113n7*EmfSetIcmMode{14E9} 364r7
+114n7*EmfCreateColorSpace{14E9} 365r7
+115n7*EmfSetColorSpace{14E9} 366r7
+116n7*EmfDeleteColorSpace{14E9} 367r7
+117n7*EmfGlsRecord{14E9} 368r7
+118n7*EmfGlsBoundedRecord{14E9} 369r7
+119n7*EmfPixelFormat{14E9} 370r7
+120n7*EmfDrawEscape{14E9} 371r7
+121n7*EmfExtEscape{14E9} 372r7
+122n7*EmfStartDoc{14E9} 373r7
+123n7*EmfSmallTextOut{14E9} 374r7
+124n7*EmfForceUfiMapping{14E9} 375r7
+125n7*EmfNamedEscpae{14E9} 376r7
+126n7*EmfColorCorrectPalette{14E9} 377r7
+127n7*EmfSetIcmProfileA{14E9} 378r7
+128n7*EmfSetIcmProfileW{14E9} 379r7
+129n7*EmfAlphaBlend{14E9} 380r7
+130n7*EmfSetLayout{14E9} 381r7
+131n7*EmfTransparentBlt{14E9} 382r7
+132n7*EmfReserved117{14E9} 383r7
+133n7*EmfGradientFill{14E9} 384r7
+134n7*EmfSetLinkedUfis{14E9} 385r7
+135n7*EmfSetTextJustification{14E9} 386r7
+136n7*EmfColorMatchToTargetW{14E9} 387r7
+137n7*EmfMax{14E9} 388r7 519r49
+138n7*EmfPlusRecordBase{14E9} 389r7 520r36
+139n7*Min{14E9} 390r7 521r35
+140n7*EndOfFile{14E9} 391r7
+141n7*Comment{14E9} 392r7
+142n7*GetDC{14E9} 393r7
+143n7*MultiFormatStart{14E9} 394r7
+144n7*MultiFormatSection{14E9} 395r7
+145n7*MultiFormatEnd{14E9} 396r7
+146n7*Object{14E9} 397r7
+147n7*Clear{14E9} 398r7
+148n7*FillRects{14E9} 399r7
+149n7*DrawRects{14E9} 400r7
+150n7*FillPolygon{14E9} 401r7
+151n7*DrawLines{14E9} 402r7
+152n7*FillEllipse{14E9} 403r7
+153n7*DrawEllipse{14E9} 404r7
+154n7*FillPie{14E9} 405r7
+155n7*DrawPie{14E9} 406r7
+156n7*DrawArc{14E9} 407r7
+157n7*FillRegion{14E9} 408r7
+158n7*FillPath{14E9} 409r7
+159n7*DrawPath{14E9} 410r7
+160n7*FillClosedCurve{14E9} 411r7
+161n7*DrawClosedCurve{14E9} 412r7
+162n7*DrawCurve{14E9} 413r7
+163n7*DrawBeziers{14E9} 414r7
+164n7*DrawImage{14E9} 415r7
+165n7*DrawImagePoints{14E9} 416r7
+166n7*DrawString{14E9} 417r7
+167n7*SetRenderingOrigin{14E9} 418r7
+168n7*SetAntiAliasMode{14E9} 419r7
+169n7*SetTextRenderingHint{14E9} 420r7
+170n7*SetTextContrast{14E9} 421r7
+171n7*SetInterpolationMode{14E9} 422r7
+172n7*SetPixelOffsetMode{14E9} 423r7
+173n7*SetCompositingMode{14E9} 424r7
+174n7*SetCompositingQuality{14E9} 425r7
+175n7*Save{14E9} 426r7
+176n7*Restore{14E9} 427r7
+177n7*BeginContainer{14E9} 428r7
+178n7*BeginContainerNoParams{14E9} 429r7
+179n7*EndContainer{14E9} 430r7
+180n7*SetWorldTransform{14E9} 431r7
+181n7*ResetWorldTransform{14E9} 432r7
+182n7*MultiplyWorldTransform{14E9} 433r7
+183n7*TranslateWorldTransform{14E9} 434r7
+184n7*ScaleWorldTransform{14E9} 435r7
+185n7*RotateWorldTransform{14E9} 436r7
+186n7*SetPageTransform{14E9} 437r7
+187n7*ResetClip{14E9} 438r7
+188n7*SetClipRect{14E9} 439r7
+189n7*SetClipPath{14E9} 440r7
+190n7*SetClipRegion{14E9} 441r7
+191n7*OffsetClip{14E9} 442r7
+192n7*DrawDriverString{14E9} 443r7 522r32
+193n7*Total{14E9} 444r7
+194n7*WmfRecordBase{14E9} 445r7
+195n7*WmfSaveDC{14E9} 446r7
+196n7*WmfRealizePalette{14E9} 447r7
+197n7*WmfSetPalEntries{14E9} 448r7
+198n7*WmfCreatePalette{14E9} 449r7
+199n7*WmfSetBkMode{14E9} 450r7
+200n7*WmfSetMapMode{14E9} 451r7
+201n7*WmfSetROP2{14E9} 452r7
+202n7*WmfSetRelAbs{14E9} 453r7
+203n7*WmfSetPolyFillMode{14E9} 454r7
+204n7*WmfSetStretchBltMode{14E9} 455r7
+205n7*WmfSetTextCharExtra{14E9} 456r7
+206n7*WmfRestoreDC{14E9} 457r7
+207n7*WmfInvertRegion{14E9} 458r7
+208n7*WmfPaintRegion{14E9} 459r7
+209n7*WmfSelectClipRegion{14E9} 460r7
+210n7*WmfSelectObject{14E9} 461r7
+211n7*WmfSetTextAlign{14E9} 462r7
+212n7*WmfResizePalette{14E9} 463r7
+213n7*WmfDibCreatePatternBrush{14E9} 464r7
+214n7*WmfSetLayout{14E9} 465r7
+215n7*WmfDeleteObject{14E9} 466r7
+216n7*WmfCreatePatternBrush{14E9} 467r7
+217n7*WmfSetBkColor{14E9} 468r7
+218n7*WmfSetTextColor{14E9} 469r7
+219n7*WmfSetTextJustification{14E9} 470r7
+220n7*WmfSetWindowOrg{14E9} 471r7
+221n7*WmfSetWindowExt{14E9} 472r7
+222n7*WmfSetViewportOrg{14E9} 473r7
+223n7*WmfSetViewportExt{14E9} 474r7
+224n7*WmfOffsetWindowOrg{14E9} 475r7
+225n7*WmfOffsetViewportOrg{14E9} 476r7
+226n7*WmfLineTo{14E9} 477r7
+227n7*WmfMoveTo{14E9} 478r7
+228n7*WmfOffsetCilpRgn{14E9} 479r7
+229n7*WmfFillRegion{14E9} 480r7
+230n7*WmfSetMapperFlags{14E9} 481r7
+231n7*WmfSelectPalette{14E9} 482r7
+232n7*WmfCreatePenIndirect{14E9} 483r7
+233n7*WmfCreateFontIndirect{14E9} 484r7
+234n7*WmfCreateBrushIndirect{14E9} 485r7
+235n7*WmfPolygon{14E9} 486r7
+236n7*WmfPolyline{14E9} 487r7
+237n7*WmfScaleWindowExt{14E9} 488r7
+238n7*WmfScaleViewportExt{14E9} 489r7
+239n7*WmfExcludeClipRect{14E9} 490r7
+240n7*WmfIntersectClipRect{14E9} 491r7
+241n7*WmfEllipse{14E9} 492r7
+242n7*WmfFloodFill{14E9} 493r7
+243n7*WmfRectangle{14E9} 494r7
+244n7*WmfSetPixel{14E9} 495r7
+245n7*WmfFrameRegion{14E9} 496r7
+246n7*WmfAnimatePalette{14E9} 497r7
+247n7*WmfTextOut{14E9} 498r7
+248n7*WmfPolyPolygon{14E9} 499r7
+249n7*WmfExtFloodFill{14E9} 500r7
+250n7*WmfRoundRect{14E9} 501r7
+251n7*WmfPatBlt{14E9} 502r7
+252n7*WmfEscape{14E9} 503r7
+253n7*WmfCreateRegion{14E9} 504r7
+254n7*WmfArc{14E9} 505r7
+255n7*WmfPie{14E9} 506r7
+256n7*WmfChord{14E9} 507r7
+257n7*WmfBitBlt{14E9} 508r7
+258n7*WmfDibBitBlt{14E9} 509r7
+259n7*WmfExtTextOut{14E9} 510r7
+260n7*WmfStretchBlt{14E9} 511r7
+261n7*WmfDibStretchBlt{14E9} 512r7
+262n7*WmfSetDibToDev{14E9} 513r7
+263n7*WmfStretchDib{14E9} 514r7
+515A9*ValueType_Arr(14E9) 516r39
+516P9*ValueType_Array(515A9) 518r46
+517P9*ValueType_addrof(14E9)
+518P9*ValueType_array_addrof(516P9)
+519e4*EmfCreateColorSpaceW{14E9}
+520e4*Invalid{14E9}
+521e4*Header{14E9}
+522e4*Max{14E9}
+523V13*CompareTo{integer} 524>7 525^7 548b23
+524e7 This{14E9}
+525p7 target(74|11R9)
+526V13*Equals{boolean} 527>7 528^7 549b23
+527e7 This{14E9}
+528p7 obj(74|11R9)
+529V13*GetHashCode{integer} 530>7 550b23
+530e7 This{14E9}
+531V13*GetType 532>7 551b23
+532e7 This{14E9}
+533V13*GetTypeCode 534>7 552b23
+534e7 This{14E9}
+535V13*ToString 536>7 537^7
+536e7 This{14E9}
+537p7 provider
+538V13*ToString 539>7
+539e7 This{14E9}
+540V13*ToString 541>7 542^7 543^7
+541e7 This{14E9}
+542p7 format
+543p7 provider
+544V13*ToString 545>7 546^7 553b23
+545e7 This{14E9}
+546p7 format
+X 61 mssyst-iformatprovider.ads
+10K16 IFormatProvider 38|537r32 543r32
+X 74 mssyst-object.ads
+10K16*Object 38|6w13 525r30 528r27 74|44e18
+11R9*Typ 38|525r37 528r34 74|13e14
+X 190 mssyst-string.ads
+23K16 String 38|537r80 539r46 542r30 543r80 546r30 546r69
+X 206 mssyst-type_k.ads
+38K16 Type_k 38|532r46
+X 207 mssyst-typecode.ads
+12K16 TypeCode 38|534r39
+

@@ -1,0 +1,180 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.componentmodel.design.icomponentchangeservice%s  mssyst-componentmodel-design-icomponentchangeservice.ads  5d042e59 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.design%s  mssyst-componentmodel-design.ads  mssyst-componentmodel-design.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-design.ads  20060131171414 dcbb2ca1
+D mssyst-componentmodel-design-componentchangedeventhandler.ads  20060131171414 3ab738e5
+D mssyst-componentmodel-design-componentchangingeventhandler.ads  20060131171414 51847446
+D mssyst-componentmodel-design-componenteventhandler.ads  20060131171414 559d27a2
+D mssyst-componentmodel-design-componentrenameeventhandler.ads  20060131171414 5ed2138c
+D mssyst-componentmodel-design-icomponentchangeservice.ads  20060131171416 164425b2
+D mssyst-componentmodel-memberdescriptor.ads  20060131171412 ebdb73f4
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 16|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 16|7r6 16r9 26r15 29r15 32r15 35r15 38r15 41r15 44r15 47r19
+. 48r16 49r18 50r18 53r19 54r16 57r15 60r15 63r15 66r15 69r15 72r15 75r15
+. 93r5 95r20
+X 10 mssyst-componentmodel.ads
+6K16*ComponentModel 9|6k9 10|7e26 16|16r16 26r22 29r22 32r22 35r22 38r22
+. 41r22 44r22 48r23 54r23 57r22 60r22 63r22 66r22 69r22 72r22 75r22 93r12
+. 95r27
+X 11 mssyst-componentmodel-design.ads
+6K31*Design 10|6k16 11|7e33 16|16r31 26r37 29r37 32r37 35r37 38r37 41r37
+. 44r37 57r37 60r37 63r37 66r37 69r37 72r37 75r37 93r27 95r42
+X 12 mssyst-componentmodel-design-componentchangedeventhandler.ads
+24K38 ComponentChangedEventHandler 16|32r44 63r44
+26P9 Ref(integer) 16|32r73 63r73
+X 13 mssyst-componentmodel-design-componentchangingeventhandler.ads
+24K38 ComponentChangingEventHandler 16|35r44 66r44
+26P9 Ref(integer) 16|35r74 66r74
+X 14 mssyst-componentmodel-design-componenteventhandler.ads
+24K38 ComponentEventHandler 16|26r44 29r44 38r44 41r44 57r44 60r44 69r44
+. 72r44
+26P9 Ref(integer) 16|26r66 29r66 38r66 41r66 57r66 60r66 69r66 72r66
+X 15 mssyst-componentmodel-design-componentrenameeventhandler.ads
+24K38 ComponentRenameEventHandler 16|44r44 75r44
+26P9 Ref(integer) 16|44r72 75r72
+X 16 mssyst-componentmodel-design-icomponentchangeservice.ads
+16K38*IComponentChangeService 11|6k31 16|93l34 93e57 95r49
+17R9*Typ 18r27 23c9 25r21 28r21 31r21 34r21 37r21 40r21 43r21 46r21 52r21
+. 56r21 59r21 62r21 65r21 68r21 71r21 74r21
+18P9*Ref(17R9) 19r34 20r47
+19P9*Ref_addrof(18P9)
+20A9*Ref_Arr(18P9) 21r33
+21P9*Ref_Array(20A9) 22r40
+22P9*Ref_Array_addrof(21P9)
+23H9*Typ 24p14 27p14 30p14 33p14 36p14 39p14 42p14 45p14 51p14 55p14 58p14
+. 61p14 64p14 67p14 70p14 73p14
+24x14*add_ComponentAdded 25^7 26>7 77b23
+25p7 This(23R9)
+26p7 value{14|26P9}
+27x14*add_ComponentAdding 28^7 29>7 78b23
+28p7 This(23R9)
+29p7 value{14|26P9}
+30x14*add_ComponentChanged 31^7 32>7 79b23
+31p7 This(23R9)
+32p7 value{12|26P9}
+33x14*add_ComponentChanging 34^7 35>7 80b23
+34p7 This(23R9)
+35p7 value{13|26P9}
+36x14*add_ComponentRemoved 37^7 38>7 81b23
+37p7 This(23R9)
+38p7 value{14|26P9}
+39x14*add_ComponentRemoving 40^7 41>7 82b23
+40p7 This(23R9)
+41p7 value{14|26P9}
+42x14*add_ComponentRename 43^7 44>7 83b23
+43p7 This(23R9)
+44p7 value{15|26P9}
+45x14*OnComponentChanged 46^7 47>7 48>7 49>7 50>7 84b23
+46p7 This(23R9)
+47p7 component{25|13P9}
+48p7 member{17|16P9}
+49p7 oldValue{25|13P9}
+50p7 newValue{25|13P9}
+51x14*OnComponentChanging 52^7 53>7 54>7 85b23
+52p7 This(23R9)
+53p7 component{25|13P9}
+54p7 member{17|16P9}
+55x14*remove_ComponentAdded 56^7 57>7 86b23
+56p7 This(23R9)
+57p7 value{14|26P9}
+58x14*remove_ComponentAdding 59^7 60>7 87b23
+59p7 This(23R9)
+60p7 value{14|26P9}
+61x14*remove_ComponentChanged 62^7 63>7 88b23
+62p7 This(23R9)
+63p7 value{12|26P9}
+64x14*remove_ComponentChanging 65^7 66>7 89b23
+65p7 This(23R9)
+66p7 value{13|26P9}
+67x14*remove_ComponentRemoved 68^7 69>7 90b23
+68p7 This(23R9)
+69p7 value{14|26P9}
+70x14*remove_ComponentRemoving 71^7 72>7 91b23
+71p7 This(23R9)
+72p7 value{14|26P9}
+73x14*remove_ComponentRename 74^7 75>7 92b23
+74p7 This(23R9)
+75p7 value{15|26P9}
+X 17 mssyst-componentmodel-memberdescriptor.ads
+14K31 MemberDescriptor 16|48r38 54r38
+16P9 Ref(integer) 16|48r55 54r55
+X 25 mssyst-object.ads
+11K16*Object 16|7w13 47r26 49r25 50r25 53r26 25|46e18
+12R9*Typ 20e14
+13P9*Ref(12R9) 16|47r33 49r32 50r32 53r33
+

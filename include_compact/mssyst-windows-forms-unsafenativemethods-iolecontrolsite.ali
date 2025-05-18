@@ -1,0 +1,140 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.unsafenativemethods.iolecontrolsite%s  mssyst-windows-forms-unsafenativemethods-iolecontrolsite.ads  1c1bbac6 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.nativemethods%s  mssyst-windows-forms-nativemethods.ads  mssyst-windows-forms-nativemethods.ali
+W mssyst.windows.forms.nativemethods.msg%s  mssyst-windows-forms-nativemethods-msg.ads  mssyst-windows-forms-nativemethods-msg.ali
+W mssyst.windows.forms.unsafenativemethods%s  mssyst-windows-forms-unsafenativemethods.ads  mssyst-windows-forms-unsafenativemethods.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-nativemethods.ads  20060131171318 7704f2a2
+D mssyst-windows-forms-nativemethods-msg.ads  20060131171444 fc48f207
+D mssyst-windows-forms-nativemethods-tagpointf.ads  20060131171444 2d7094d2
+D mssyst-windows-forms-nativemethods-upointl.ads  20060131171444 5c07ddf5
+D mssyst-windows-forms-unsafenativemethods.ads  20060131171244 a7f33d5f
+D mssyst-windows-forms-unsafenativemethods-iolecontrolsite.ads  20060131171434 d05b52d4
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 47|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 47|7r6 13r6 14r9 24r16 37r22 38r23 42r14 52r5 54r20
+X 15 mssyst-object.ads
+11K16*Object 46e18 47|7w13 24r23
+13P9*Ref(12R9)
+14P9*Ref_addrof(13P9) 47|24r30
+18R9*Typ
+X 40 mssyst-windows.ads
+6K16*Windows 9|6k9 40|7e19 47|13r13 14r16 37r29 38r30 42r21 52r12 54r27
+X 41 mssyst-windows-forms.ads
+6K24*Forms 40|6k16 41|7e25 47|13r21 14r24 37r37 38r38 42r29 52r20 54r35
+X 42 mssyst-windows-forms-nativemethods.ads
+6K30*NativeMethods 7e39 47|13r27 37r43 38r44 42r35
+X 43 mssyst-windows-forms-nativemethods-msg.ads
+14K44*MSG 21e43 47|13w41 42r49
+18P9*ValueType_addrof(15R9) 47|42r53
+X 44 mssyst-windows-forms-nativemethods-tagpointf.ads
+13K44 tagPOINTF 47|38r58
+15P9 Ref(integer) 47|38r68
+X 45 mssyst-windows-forms-nativemethods-upointl.ads
+13K44 uPOINTL 47|37r57
+15P9 Ref(integer) 47|37r65
+X 46 mssyst-windows-forms-unsafenativemethods.ads
+6K30*UnsafeNativeMethods 41|6k24 46|7e45 47|14r30 52r26 54r41
+X 47 mssyst-windows-forms-unsafenativemethods-iolecontrolsite.ads
+14K50*IOleControlSite 46|6k30 47|52l46 52e61 54r61
+15R9*Typ 16r27 21c9 23r21 26r21 29r21 31r21 34r21 36r21 41r21
+16P9*Ref(15R9) 17r34 18r47
+17P9*Ref_addrof(16P9)
+18A9*Ref_Arr(16P9) 19r33
+19P9*Ref_Array(18A9) 20r40
+20P9*Ref_Array_addrof(19P9)
+21H9*Typ 22p13 25p13 28p13 30p13 33p13 35p13 40p13
+22y13*GetExtendedControl{integer} 23^7 24>7 45b23
+23p7 This(21R9)
+24p7 ppDisp{15|14P9}
+25y13*LockInPlaceActive{integer} 26^7 27>7 46b23
+26p7 This(21R9)
+27i7 fLock{integer}
+28y13*OnControlInfoChanged{integer} 29^7 47b23
+29p7 This(21R9)
+30y13*OnFocus{integer} 31^7 32>7 48b23
+31p7 This(21R9)
+32i7 fGotFocus{integer}
+33y13*ShowPropertyFrame{integer} 34^7 49b23
+34p7 This(21R9)
+35y13*TransformCoords{integer} 36^7 37>7 38>7 39>7 50b23
+36p7 This(21R9)
+37p7 pPtlHimetric{45|15P9}
+38p7 pPtfContainer{44|15P9}
+39i7 dwFlags{integer}
+40y13*TranslateAccelerator{integer} 41^7 42>7 43>7 51b23
+41p7 This(21R9)
+42p7 pMsg{43|18P9}
+43i7 grfModifiers{integer}
+

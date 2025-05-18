@@ -1,0 +1,192 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.timespan%s	mssyst-timespan.ads	dd5acfdc NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.valuetype%s	mssyst-valuetype.ads	mssyst-valuetype.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-timespan.ads	20050914133430 2f568ec6
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 72e15 19|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 19|7r6 10r6 14r9 15r26 39r12 39r46 41r12 42r12 45r15 47r32
+. 49r12 50r12 53r15 55r34 57r34 59r34 61r34 63r34 65r41 91r32 93r12 94r12
+. 94r46 96r12 97r12 99r12 100r12 102r12 103r12 105r12 106r12 108r12 109r12
+. 111r12 112r12 114r12 115r12 115r46 117r11 117r45 119r11 119r45 121r11 121r37
+. 124r12 124r46 126r32 166r5 168r20
+X 9 mssyst-object.ads
+11K16*Object 46e18 19|7w13 45r22 53r22
+13P9*Ref(12R9) 19|45r29 53r29
+18R9*Typ
+31V13*GetType{20|44P9}
+X 18 mssyst-string.ads
+20K16 String 19|121r18 126r39
+22P9 Ref(integer) 19|121r25 126r46
+X 19 mssyst-timespan.ads
+14K16*TimeSpan 6|6k9 19|39r19 39r53 41r19 42r19 47r39 49r19 50r19 55r41 57r41
+. 59r41 61r41 63r41 65r48 91r39 93r19 94r19 94r53 96r19 97r19 99r19 100r19
+. 102r19 103r19 105r19 106r19 108r19 109r19 111r19 112r19 114r19 115r19 115r53
+. 117r18 117r52 119r18 119r52 121r44 124r19 124r53 166l12 166e20 168r27
+15R9*ValueType<23|20R9> 9|31p13 19|15e63 16r54 18r40 20p13 21r41 22p13 25r33
+. 26p13 30r33 31p13 36r38 37p13 38r14 39r28 39r62 40p13 41r28 42r28 43p13
+. 44r14 46p13 47r14 47r48 48p13 49r28 50r28 51p13 52r14 54p13 55r50 56p13
+. 57r50 58p13 59r50 60p13 61r50 62p13 63r50 64p13 65r57 66p13 67r14 68p13
+. 69r14 70p13 71r14 72p13 73r14 74p13 75r14 76p13 77r14 78p13 79r14 80p13
+. 81r14 82p13 83r14 84p13 85r14 86p13 87r14 88p13 89r14 90p13 91r14 91r48
+. 92p13 93r28 94r28 94r62 95p13 96r28 97r28 98p13 99r28 100r28 101p13 102r28
+. 103r28 104p13 105r28 106r28 107p13 108r28 109r28 110p13 111r28 112r28 113p13
+. 114r28 115r28 115r62 116p13 117r27 117r61 118p13 119r27 119r61 120p13 121r53
+. 122p13 123r14 124r28 124r62 125p13 126r14 23|23P13 26P13 28P13
+16A9*ValueType_Arr(15R9) 17r39
+17P9*ValueType_Array(16A9) 19r46
+18P9*ValueType_addrof(15R9)
+19P9*ValueType_array_addrof(17P9)
+20V13*new_TimeSpan{15R9} 21>7
+21i7 ticks{long_long_integer}
+22V13*new_TimeSpan{15R9} 23>7 24>7 25>7
+23i7 hours{integer}
+24i7 minutes{integer}
+25i7 seconds{integer}
+26V13*new_TimeSpan{15R9} 27>7 28>7 29>7 30>7
+27i7 days{integer}
+28i7 hours{integer}
+29i7 minutes{integer}
+30i7 seconds{integer}
+31V13*new_TimeSpan{15R9} 32>7 33>7 34>7 35>7 36>7
+32i7 days{integer}
+33i7 hours{integer}
+34i7 minutes{integer}
+35i7 seconds{integer}
+36i7 milliseconds{integer}
+37V13*Add{15R9} 38>7 39>7 129b23
+38r7 This{15R9}
+39r7 ts{15R9}
+40V13*Compare{integer} 41>7 42>7 130b23
+41r7 t1{15R9}
+42r7 t2{15R9}
+43V13*CompareTo{integer} 44>7 45>7 131b23
+44r7 This{15R9}
+45p7 value{9|13P9}
+46V13*Duration_k{15R9} 47>7 132b23
+47r7 This{15R9}
+48V13*Equals{boolean} 49>7 50>7
+49r7 t1{15R9}
+50r7 t2{15R9}
+51V13*Equals{boolean} 52>7 53>7 133b23
+52r7 This{15R9}
+53p7 value{9|13P9}
+54V13*FromDays{15R9} 55>7 134b23
+55f7 value{long_float}
+56V13*FromHours{15R9} 57>7 135b23
+57f7 value{long_float}
+58V13*FromMilliseconds{15R9} 59>7 136b23
+59f7 value{long_float}
+60V13*FromMinutes{15R9} 61>7 137b23
+61f7 value{long_float}
+62V13*FromSeconds{15R9} 63>7 138b23
+63f7 value{long_float}
+64V13*FromTicks{15R9} 65>7 139b23
+65i7 value{long_long_integer}
+66V13*get_Days{integer} 67>7 140b23
+67r7 This{15R9}
+68V13*get_Hours{integer} 69>7 141b23
+69r7 This{15R9}
+70V13*get_Milliseconds{integer} 71>7 142b23
+71r7 This{15R9}
+72V13*get_Minutes{integer} 73>7 143b23
+73r7 This{15R9}
+74V13*get_Seconds{integer} 75>7 144b23
+75r7 This{15R9}
+76V13*get_Ticks{long_long_integer} 77>7 145b23
+77r7 This{15R9}
+78V13*get_TotalDays{long_float} 79>7 146b23
+79r7 This{15R9}
+80V13*get_TotalHours{long_float} 81>7 147b23
+81r7 This{15R9}
+82V13*get_TotalMilliseconds{long_float} 83>7 148b23
+83r7 This{15R9}
+84V13*get_TotalMinutes{long_float} 85>7 149b23
+85r7 This{15R9}
+86V13*get_TotalSeconds{long_float} 87>7 150b23
+87r7 This{15R9}
+88V13*GetHashCode{integer} 89>7 151b23
+89r7 This{15R9}
+90V13*Negate{15R9} 91>7 152b23
+91r7 This{15R9}
+92V13*op_Addition{15R9} 93>7 94>7 153b23
+93r7 t1{15R9}
+94r7 t2{15R9}
+95V13*op_Equality{boolean} 96>7 97>7 154b23
+96r7 t1{15R9}
+97r7 t2{15R9}
+98V13*op_GreaterThan{boolean} 99>7 100>7 155b23
+99r7 t1{15R9}
+100r7 t2{15R9}
+101V13*op_GreaterThanOrEqual{boolean} 102>7 103>7 156b23
+102r7 t1{15R9}
+103r7 t2{15R9}
+104V13*op_Inequality{boolean} 105>7 106>7 157b23
+105r7 t1{15R9}
+106r7 t2{15R9}
+107V13*op_LessThan{boolean} 108>7 109>7 158b23
+108r7 t1{15R9}
+109r7 t2{15R9}
+110V13*op_LessThanOrEqual{boolean} 111>7 112>7 159b23
+111r7 t1{15R9}
+112r7 t2{15R9}
+113V13*op_Subtraction{15R9} 114>7 115>7 160b23
+114r7 t1{15R9}
+115r7 t2{15R9}
+116V13*op_UnaryNegation{15R9} 117>7 161b23
+117r7 t{15R9}
+118V13*op_UnaryPlus{15R9} 119>7 162b23
+119r7 t{15R9}
+120V13*Parse{15R9} 121>7 163b23
+121p7 s{18|22P9}
+122V13*Subtract{15R9} 123>7 124>7 164b23
+123r7 This{15R9}
+124r7 ts{15R9}
+125V13*ToString{18|22P9} 126>7 165b23
+126r7 This{15R9}
+X 20 mssyst-type_k.ads
+44P9 Ref(integer)
+X 23 mssyst-valuetype.ads
+13K16*ValueType 19|10w13 15r33 23|35e21
+14R9*Typ 19|15r43
+23V13*Equals{boolean}
+26V13*GetHashCode{integer}
+28V13*ToString{18|22P9}
+

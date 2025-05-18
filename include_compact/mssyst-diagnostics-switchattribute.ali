@@ -1,0 +1,139 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.diagnostics.switchattribute%s  mssyst-diagnostics-switchattribute.ads  4013240c NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.attribute%s	mssyst-attribute.ads	mssyst-attribute.ali
+W mssyst.diagnostics%s	mssyst-diagnostics.ads	mssyst-diagnostics.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-attribute.ads	20060131171354 578cce83
+D mssyst-configuration.ads  20060131165240 03b06563
+D mssyst-configuration-assemblies.ads  20060131165240 2a201fdb
+D mssyst-configuration-assemblies-assemblyhashalgorithm.ads  20060131171408 81fd999d
+D mssyst-diagnostics.ads  20060131165224 ca17f3f6
+D mssyst-diagnostics-switchattribute.ads  20060131171416 4a733e33
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-assembly.ads  20060131171358 cac2cf86
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-imagefilemachine.ads  20060131171358 57db8f30
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-module.ads  20060131171358 384ba6f0
+D mssyst-reflection-parameterattributes.ads  20060131171358 c0936dac
+D mssyst-reflection-parameterinfo.ads  20060131171358 c39e33ed
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-portableexecutablekinds.ads  20060131171358 da84966e
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-uassembly.ads  20060131171358 5462c788
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-umodule.ads  20060131171358 02c2dfd0
+D mssyst-runtime-interopservices-uparameterinfo.ads  20060131171358 4359b720
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-security.ads	20060131165220 a4c8227c
+D mssyst-security-ievidencefactory.ads  20060131171354 3a16bf31
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 12|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 12|7r6 10r6 16r9 23r20 28r20 29r20 31r33 33r33 35r33 37r18
+. 37r57 40r15 43r15 46r15 57r5 59r20
+X 7 mssyst-attribute.ads
+18K16*Attribute 154e21 12|10w13 23r27
+19R9*Typ 12|23r37
+28V13*Equals{boolean}
+31V13*get_TypeId{18|13P9}
+109V13*GetHashCode{integer}
+111V13*IsDefaultAttribute{boolean}
+141V13*Match{boolean}
+X 11 mssyst-diagnostics.ads
+6K16*Diagnostics 6|6k9 11|7e23 12|16r16 37r64 57r12 59r27
+X 12 mssyst-diagnostics-switchattribute.ads
+16K28*SwitchAttribute 11|6k16 12|37r76 57l24 57e39 59r39
+17R9*Typ 18r27 23c9 31r21 33r21 35r21 39r21 42r21 45r21 48r27
+18P9*Ref(17R9) 19r34 20r47 27r14 29r46
+19P9*Ref_addrof(18P9)
+20A9*Ref_Arr(18P9) 21r33
+21P9*Ref_Array(20A9) 22r40 37r92
+22P9*Ref_Array_addrof(21P9)
+23R9*Typ<7|25R9> 7|28P13 31p13 109P13 111p13 141p13 12|25e14 30p13 32p13
+. 34p13 38p14 41p14 44p14 18|31p13 36p13
+26V13*new_SwitchAttribute{18P9} 27>7 28>7 29>7 49r28
+27p7 This{18P9}
+28p7 switchName{47|27P9}
+29p7 switchType{52|51P9}
+30V13*get_SwitchDescription{47|27P9} 31^7 50b23
+31p7 This(23R9)
+32V13*get_SwitchName{47|27P9} 33^7 51b23
+33p7 This(23R9)
+34V13*get_SwitchType{52|51P9} 35^7 52b23
+35p7 This(23R9)
+36V13*GetAll{21P9} 37>7 53b23
+37p7 assembly{20|40P9}
+38U14*set_SwitchDescription 39^7 40>7 54b23
+39p7 This(23R9)
+40p7 value{47|27P9}
+41U14*set_SwitchName 42^7 43>7 55b23
+42p7 This(23R9)
+43p7 value{47|27P9}
+44U14*set_SwitchType 45^7 46>7 56b23
+45p7 This(23R9)
+46p7 value{52|51P9}
+X 18 mssyst-object.ads
+11K16*Object 12|7w13 18|46e18
+13P9*Ref(12R9)
+18R9*Typ
+31V13*GetType{52|51P9}
+36V13*ToString{47|27P9}
+X 19 mssyst-reflection.ads
+6K16 Reflection 12|37r25
+X 20 mssyst-reflection-assembly.ads
+38K27 Assembly 12|37r36
+40P9 Ref(integer) 12|37r45
+X 47 mssyst-string.ads
+25K16 String 12|28r27 31r40 33r40 40r22 43r22
+27P9 Ref(integer) 12|28r34 31r47 33r47 40r29 43r29
+X 52 mssyst-type_k.ads
+49K16 Type_k 12|29r27 35r40 46r22
+51P9 Ref(integer) 12|29r34 35r47 46r29
+

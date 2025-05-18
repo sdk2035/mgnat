@@ -1,0 +1,329 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.htmlwindow%s  mssyst-windows-forms-htmlwindow.ads  53487283 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-collections.ads  20060131165220 22f80fd8
+D mssyst-collections-icollection.ads  20060131171354 0d7aa344
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-size.ads  20060131171430 9e839193
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-uri.ads	20060131171420 e4097279
+D mssyst-uricomponents.ads  20060131171420 7ea03585
+D mssyst-uriformat.ads	20060131171420 bf7e8d5a
+D mssyst-urihostnametype.ads  20060131171420 24f50916
+D mssyst-urikind.ads	20060131171420 c1a164ce
+D mssyst-uripartial.ads	20060131171420 4bb7c6be
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-htmldocument.ads  20060131171442 5a00b2a8
+D mssyst-windows-forms-htmlelement.ads  20060131171442 a5e83ae8
+D mssyst-windows-forms-htmlelementerroreventhandler.ads  20060131171442 367844dd
+D mssyst-windows-forms-htmlelementeventhandler.ads  20060131171442 f7c9b01d
+D mssyst-windows-forms-htmlelementinsertionorientation.ads  20060131171442 d04c1216
+D mssyst-windows-forms-htmlhistory.ads  20060131171442 535e5969
+D mssyst-windows-forms-htmlwindow.ads  20060131171442 2002ad5a
+D mssyst-windows-forms-htmlwindowcollection.ads  20060131171442 611aa6c3
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 61|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 61|7r6 10r6 23r9 30r20 35r15 38r15 41r15 44r15 47r15 50r15
+. 53r15 56r17 59r19 60r22 65r17 68r19 69r22 72r13 76r33 78r33 80r33 82r33
+. 86r33 88r33 90r33 92r33 94r33 96r33 98r33 100r33 109r15 112r19 115r13 117r14
+. 118r15 120r14 121r15 124r13 125r16 126r23 127r47 130r19 131r16 132r23 133r47
+. 136r19 137r23 137r49 140r13 141r23 141r49 144r17 145r27 145r53 148r15 151r15
+. 154r15 157r15 160r15 163r15 166r15 171r14 178r15 185r15 188r15 191r15 242r5
+. 244r20
+X 10 mssyst-drawing.ads
+6K16 Drawing 61|92r40 94r40 109r22 171r21 178r22 188r22
+X 11 mssyst-drawing-point.ads
+16K24 Point 61|92r48 109r30 178r30
+17R9 ValueType 61|92r54 109r36 178r36
+X 12 mssyst-drawing-size.ads
+16K24 Size 61|94r48 171r29 188r30
+17R9 ValueType 61|94r53 171r34 188r35
+X 13 mssyst-eventhandler.ads
+24K16 EventHandler 61|60r29 69r29
+26P9 Ref(integer) 61|60r42 69r42
+X 20 mssyst-object.ads
+11K16*Object 46e18 61|7w13 10w13 30r27 72r20 78r40
+12R9*Typ 20e14 61|30r34
+13P9*Ref(12R9) 61|72r27 78r47
+18R9*Typ
+31V13*GetType{43|51P9}
+36V13*ToString{38|27P9}
+X 38 mssyst-string.ads
+25K16 String 61|56r24 59r26 65r24 68r26 86r40 96r40 112r26 125r23 126r30
+. 130r26 131r23 132r30 136r26 137r30 141r30 144r24 145r34 145r60 185r22 191r22
+27P9 Ref(integer) 61|56r31 59r33 65r31 68r33 86r47 96r47 112r33 125r30 126r37
+. 130r33 131r30 132r37 136r33 137r37 141r37 144r31 145r41 145r67 185r29 191r29
+X 43 mssyst-type_k.ads
+51P9 Ref(integer)
+X 46 mssyst-uri.ads
+22K16 Uri 61|98r40 115r20 124r20 140r20
+24P9 Ref(integer) 61|98r44 115r24 124r24 140r24
+X 53 mssyst-windows.ads
+6K16*Windows 6|6k9 53|7e19 61|23r16 35r22 38r22 41r22 44r22 47r22 50r22 53r22
+. 76r40 80r40 82r40 88r40 90r40 100r40 117r21 118r22 120r21 121r22 127r54
+. 133r54 137r56 141r56 148r22 151r22 154r22 157r22 160r22 163r22 166r22 242r12
+. 244r27
+X 54 mssyst-windows-forms.ads
+6K24*Forms 53|6k16 54|7e25 61|23r24 35r30 38r30 41r30 44r30 47r30 50r30 53r30
+. 76r48 80r48 82r48 88r48 90r48 100r48 117r29 118r30 120r29 121r30 127r62
+. 133r62 137r64 141r64 148r30 151r30 154r30 157r30 160r30 163r30 166r30 242r20
+. 244r35
+X 55 mssyst-windows-forms-htmldocument.ads
+22K30 HtmlDocument 61|76r54
+24P9 Ref(integer) 61|76r67
+X 56 mssyst-windows-forms-htmlelement.ads
+20K30 HtmlElement 61|100r54
+22P9 Ref(integer) 61|100r66
+X 57 mssyst-windows-forms-htmlelementerroreventhandler.ads
+24K30 HtmlElementErrorEventHandler 61|35r36 148r36
+26P9 Ref(integer) 61|35r65 148r65
+X 58 mssyst-windows-forms-htmlelementeventhandler.ads
+24K30 HtmlElementEventHandler 61|38r36 41r36 44r36 47r36 50r36 53r36 151r36
+. 154r36 157r36 160r36 163r36 166r36
+26P9 Ref(integer) 61|38r60 41r60 44r60 47r60 50r60 53r60 151r60 154r60 157r60
+. 160r60 163r60 166r60
+X 60 mssyst-windows-forms-htmlhistory.ads
+14K30 HtmlHistory 61|82r54
+16P9 Ref(integer) 61|82r66
+X 61 mssyst-windows-forms-htmlwindow.ads
+23K30*HtmlWindow 54|6k24 61|88r54 90r54 117r35 118r36 120r35 121r36 127r68
+. 133r68 137r70 141r70 242l26 242e36 244r41
+24R9*Typ 25r27 30c9 34r21 37r21 40r21 43r21 46r21 49r21 52r21 55r21 58r21
+. 62r21 64r21 67r21 71r21 74r21 76r21 78r21 80r21 82r21 84r21 86r21 88r21
+. 90r21 92r21 94r21 96r21 98r21 100r21 102r21 104r21 108r21 111r21 114r21
+. 123r21 129r21 135r21 139r21 143r21 147r21 150r21 153r21 156r21 159r21 162r21
+. 165r21 168r21 170r21 173r21 177r21 180r21 184r21 187r21 190r21 193r27
+25P9*Ref(24R9) 26r34 27r47 88r65 90r65 117r46 118r47 120r46 121r47 127r79
+. 133r79 137r81 141r81
+26P9*Ref_addrof(25P9)
+27A9*Ref_Arr(25P9) 28r33
+28P9*Ref_Array(27A9) 29r40
+29P9*Ref_Array_addrof(28P9)
+30R9*Typ<20|18R9> 20|31p13 36p13 61|32e14 33p14 36p14 39p14 42p14 45p14 48p14
+. 51p14 54p14 57p14 61p14 63p13 66p14 70P13 73p14 75p13 77p13 79p13 81p13
+. 83p13 85p13 87p13 89p13 91p13 93p13 95p13 97p13 99p13 101P13 103p14 107p14
+. 110p14 113p14 122p13 128p13 134p13 138p13 142p13 146p14 149p14 152p14 155p14
+. 158p14 161p14 164p14 167p14 169p14 172p14 176p14 179p14 183p14 186p14 189p14
+33U14*add_Error 34^7 35>7 194b23
+34p7 This(30R9)
+35p7 value{57|26P9}
+36U14*add_GotFocus 37^7 38>7 195b23
+37p7 This(30R9)
+38p7 value{58|26P9}
+39U14*add_Load 40^7 41>7 196b23
+40p7 This(30R9)
+41p7 value{58|26P9}
+42U14*add_LostFocus 43^7 44>7 197b23
+43p7 This(30R9)
+44p7 value{58|26P9}
+45U14*add_Resize 46^7 47>7 198b23
+46p7 This(30R9)
+47p7 value{58|26P9}
+48U14*add_Scroll 49^7 50>7 199b23
+49p7 This(30R9)
+50p7 value{58|26P9}
+51U14*add_Unload 52^7 53>7 200b23
+52p7 This(30R9)
+53p7 value{58|26P9}
+54U14*Alert 55^7 56>7 201b23
+55p7 This(30R9)
+56p7 message{38|27P9}
+57U14*AttachEventHandler 58^7 59>7 60>7 202b23
+58p7 This(30R9)
+59p7 eventName{38|27P9}
+60p7 eventHandler{13|26P9}
+61U14*Close 62^7 203b23
+62p7 This(30R9)
+63V13*Confirm{boolean} 64^7 65>7 204b23
+64p7 This(30R9)
+65p7 message{38|27P9}
+66U14*DetachEventHandler 67^7 68>7 69>7 205b23
+67p7 This(30R9)
+68p7 eventName{38|27P9}
+69p7 eventHandler{13|26P9}
+70V13*Equals{boolean} 71^7 72>7 206b23
+71p7 This(30R9)
+72p7 obj{20|13P9}
+73U14*Focus 74^7 207b23
+74p7 This(30R9)
+75V13*get_Document{55|24P9} 76^7 208b23
+76p7 This(30R9)
+77V13*get_DomWindow{20|13P9} 78^7 209b23
+78p7 This(30R9)
+79V13*get_Frames{62|18P9} 80^7 210b23
+80p7 This(30R9)
+81V13*get_History{60|16P9} 82^7 211b23
+82p7 This(30R9)
+83V13*get_IsClosed{boolean} 84^7 212b23
+84p7 This(30R9)
+85V13*get_Name{38|27P9} 86^7 213b23
+86p7 This(30R9)
+87V13*get_Opener{25P9} 88^7 214b23
+88p7 This(30R9)
+89V13*get_Parent{25P9} 90^7 215b23
+90p7 This(30R9)
+91V13*get_Position{11|17R9} 92^7 216b23
+92p7 This(30R9)
+93V13*get_Size{12|17R9} 94^7 217b23
+94p7 This(30R9)
+95V13*get_StatusBarText{38|27P9} 96^7 218b23
+96p7 This(30R9)
+97V13*get_Url{46|24P9} 98^7 219b23
+98p7 This(30R9)
+99V13*get_WindowFrameElement{56|22P9} 100^7 220b23
+100p7 This(30R9)
+101V13*GetHashCode{integer} 102^7 221b23
+102p7 This(30R9)
+103U14*MoveTo 104^7 105>7 106>7
+104p7 This(30R9)
+105i7 x{integer}
+106i7 y{integer}
+107U14*MoveTo 108^7 109>7 222b23
+108p7 This(30R9)
+109r7 point{11|17R9}
+110U14*Navigate 111^7 112>7
+111p7 This(30R9)
+112p7 urlString{38|27P9}
+113U14*Navigate 114^7 115>7 223b23
+114p7 This(30R9)
+115p7 url{46|24P9}
+116V13*op_Equality{boolean} 117>7 118>7 224b23
+117p7 left{25P9}
+118p7 right{25P9}
+119V13*op_Inequality{boolean} 120>7 121>7 225b23
+120p7 left{25P9}
+121p7 right{25P9}
+122V13*Open{25P9} 123^7 124>7 125>7 126>7 127>7
+123p7 This(30R9)
+124p7 url{46|24P9}
+125p7 target{38|27P9}
+126p7 windowOptions{38|27P9}
+127b7 replaceEntry{boolean}
+128V13*Open{25P9} 129^7 130>7 131>7 132>7 133>7 226b23
+129p7 This(30R9)
+130p7 urlString{38|27P9}
+131p7 target{38|27P9}
+132p7 windowOptions{38|27P9}
+133b7 replaceEntry{boolean}
+134V13*OpenNew{25P9} 135^7 136>7 137>7
+135p7 This(30R9)
+136p7 urlString{38|27P9}
+137p7 windowOptions{38|27P9}
+138V13*OpenNew{25P9} 139^7 140>7 141>7 227b23
+139p7 This(30R9)
+140p7 url{46|24P9}
+141p7 windowOptions{38|27P9}
+142V13*Prompt{38|27P9} 143^7 144>7 145>7 228b23
+143p7 This(30R9)
+144p7 message{38|27P9}
+145p7 defaultInputValue{38|27P9}
+146U14*remove_Error 147^7 148>7 229b23
+147p7 This(30R9)
+148p7 value{57|26P9}
+149U14*remove_GotFocus 150^7 151>7 230b23
+150p7 This(30R9)
+151p7 value{58|26P9}
+152U14*remove_Load 153^7 154>7 231b23
+153p7 This(30R9)
+154p7 value{58|26P9}
+155U14*remove_LostFocus 156^7 157>7 232b23
+156p7 This(30R9)
+157p7 value{58|26P9}
+158U14*remove_Resize 159^7 160>7 233b23
+159p7 This(30R9)
+160p7 value{58|26P9}
+161U14*remove_Scroll 162^7 163>7 234b23
+162p7 This(30R9)
+163p7 value{58|26P9}
+164U14*remove_Unload 165^7 166>7 235b23
+165p7 This(30R9)
+166p7 value{58|26P9}
+167U14*RemoveFocus 168^7 236b23
+168p7 This(30R9)
+169U14*ResizeTo 170^7 171>7
+170p7 This(30R9)
+171r7 size{12|17R9}
+172U14*ResizeTo 173^7 174>7 175>7 237b23
+173p7 This(30R9)
+174i7 width{integer}
+175i7 height{integer}
+176U14*ScrollTo 177^7 178>7
+177p7 This(30R9)
+178r7 point{11|17R9}
+179U14*ScrollTo 180^7 181>7 182>7 238b23
+180p7 This(30R9)
+181i7 x{integer}
+182i7 y{integer}
+183U14*set_Name 184^7 185>7 239b23
+184p7 This(30R9)
+185p7 value{38|27P9}
+186U14*set_Size 187^7 188>7 240b23
+187p7 This(30R9)
+188r7 value{12|17R9}
+189U14*set_StatusBarText 190^7 191>7 241b23
+190p7 This(30R9)
+191p7 value{38|27P9}
+X 62 mssyst-windows-forms-htmlwindowcollection.ads
+16K30 HtmlWindowCollection 61|80r54
+18P9 Ref(integer) 61|80r75
+

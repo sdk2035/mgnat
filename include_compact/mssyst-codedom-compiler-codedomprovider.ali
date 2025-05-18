@@ -1,0 +1,336 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.codedom.compiler.codedomprovider%s  mssyst-codedom-compiler-codedomprovider.ads  03ce9187 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.codedom%s	mssyst-codedom.ads	mssyst-codedom.ali
+W mssyst.codedom.compiler%s  mssyst-codedom-compiler.ads  mssyst-codedom-compiler.ali
+W mssyst.codedom.compiler.generatorsupport%s  mssyst-codedom-compiler-generatorsupport.ads  mssyst-codedom-compiler-generatorsupport.ali
+W mssyst.codedom.compiler.languageoptions%s  mssyst-codedom-compiler-languageoptions.ads  mssyst-codedom-compiler-languageoptions.ali
+W mssyst.componentmodel%s  mssyst-componentmodel.ads  mssyst-componentmodel.ali
+W mssyst.componentmodel.component%s  mssyst-componentmodel-component.ads  mssyst-componentmodel-component.ali
+W mssyst.componentmodel.icomponent%s  mssyst-componentmodel-icomponent.ads  mssyst-componentmodel-icomponent.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-codedom.ads	20060131171412 18e56f92
+D mssyst-codedom-codecompileunit.ads  20060131171412 1bce1683
+D mssyst-codedom-codeexpression.ads  20060131171412 f69bcb47
+D mssyst-codedom-codenamespace.ads  20060131171412 a72787c2
+D mssyst-codedom-codeobject.ads  20060131171412 dcd160d8
+D mssyst-codedom-codestatement.ads  20060131171412 1cf96c63
+D mssyst-codedom-codetypedeclaration.ads  20060131171412 2be34088
+D mssyst-codedom-codetypemember.ads  20060131171412 c425be62
+D mssyst-codedom-codetypereference.ads  20060131171412 7cb7ca40
+D mssyst-codedom-codetypereferenceoptions.ads  20060131171412 a1b475e9
+D mssyst-codedom-compiler.ads  20060131171418 f0d105a0
+D mssyst-codedom-compiler-codedomprovider.ads  20060131171418 14e021d6
+D mssyst-codedom-compiler-codegeneratoroptions.ads  20060131171418 2b28525d
+D mssyst-codedom-compiler-compilerinfo.ads  20060131171418 01f1a790
+D mssyst-codedom-compiler-compilerparameters.ads  20060131171418 de508fe4
+D mssyst-codedom-compiler-compilerresults.ads  20060131171418 c26f6248
+D mssyst-codedom-compiler-generatorsupport.ads  20060131171418 762ec23c
+D mssyst-codedom-compiler-icodecompiler.ads  20060131171418 ffabf2da
+D mssyst-codedom-compiler-icodegenerator.ads  20060131171418 4e73619c
+D mssyst-codedom-compiler-icodeparser.ads  20060131171418 b4e268dd
+D mssyst-codedom-compiler-languageoptions.ads  20060131171418 9ee0b8eb
+D mssyst-codedom-memberattributes.ads  20060131171412 9afe7c46
+D mssyst-componentmodel.ads  20060131171412 36ea93a4
+D mssyst-componentmodel-component.ads  20060131171412 b3c34658
+D mssyst-componentmodel-icomponent.ads  20060131171412 2b09ae34
+D mssyst-componentmodel-icontainer.ads  20060131171412 c382f4f5
+D mssyst-componentmodel-isite.ads  20060131171412 e3bde74c
+D mssyst-componentmodel-typeconverter.ads  20060131171412 0d522a74
+D mssyst-delegate.ads	20060131171354 6428fa17
+D mssyst-eventhandler.ads  20060131171356 ad211b2d
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-io.ads		20060131165234 31f12609
+D mssyst-io-textreader.ads  20060131171404 93c15f07
+D mssyst-io-textwriter.ads  20060131171404 a59d24fb
+D mssyst-iserviceprovider.ads  20060131171356 765aff5d
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-multicastdelegate.ads  20060131171354 265d428c
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 21|8w6 9r5
+X 9 mssyst.ads
+6K9*MSSyst 7e11 21|7r6 10r6 11r6 33r6 40r6 41r9 48r29 49r14 55r17 56r26 56r75
+. 59r17 60r19 60r51 63r17 64r17 64r49 66r33 69r15 69r41 71r33 74r16 74r49
+. 77r18 77r44 79r33 81r18 81r44 84r15 84r41 87r21 88r16 89r17 92r20 93r16
+. 94r17 97r16 98r16 99r17 102r23 103r16 104r17 107r19 108r16 109r17 112r18
+. 113r16 114r17 116r33 118r33 119r39 121r18 121r44 124r16 124r42 126r19 126r45
+. 129r16 129r61 131r19 133r18 136r15 139r20 139r53 142r26 172r5 174r20
+X 10 mssyst-codedom.ads
+6K16*CodeDom 9|6k9 10|7e19 21|33r13 40r13 41r16 55r24 56r33 56r82 59r24 60r58
+. 63r24 64r56 66r40 71r40 74r56 77r51 79r40 81r51 87r28 89r24 92r27 94r24
+. 97r23 99r24 102r30 104r24 107r26 109r24 112r25 114r24 118r40 119r46 121r51
+. 129r23 139r60 142r33 172r12 174r27
+X 11 mssyst-codedom-codecompileunit.ads
+19K24 CodeCompileUnit 21|56r41 87r36 139r68
+21P9 Ref(integer) 21|87r52 139r84
+24P9 Ref_Array(integer) 21|56r57
+X 12 mssyst-codedom-codeexpression.ads
+15K24 CodeExpression 21|92r35
+17P9 Ref(integer) 21|92r50
+X 13 mssyst-codedom-codenamespace.ads
+19K24 CodeNamespace 21|102r38
+21P9 Ref(integer) 21|102r52
+X 15 mssyst-codedom-codestatement.ads
+17K24 CodeStatement 21|107r34
+19P9 Ref(integer) 21|107r48
+X 16 mssyst-codedom-codetypedeclaration.ads
+25K24 CodeTypeDeclaration 21|112r33
+27P9 Ref(integer) 21|112r53
+X 17 mssyst-codedom-codetypemember.ads
+20K24 CodeTypeMember 21|97r31
+22P9 Ref(integer) 21|97r46
+X 18 mssyst-codedom-codetypereference.ads
+19K24 CodeTypeReference 21|129r31
+21P9 Ref(integer) 21|129r49
+X 20 mssyst-codedom-compiler.ads
+6K24*Compiler 10|6k16 20|7e28 21|33r21 40r21 41r24 55r32 56r90 59r32 60r66
+. 63r32 64r64 66r48 71r48 74r64 77r59 79r48 81r59 89r32 94r32 99r32 104r32
+. 109r32 114r32 118r48 119r54 121r59 142r41 172r20 174r35
+X 21 mssyst-codedom-compiler-codedomprovider.ads
+41K33*CodeDomProvider 20|6k24 21|81r68 172l29 172e44 174r44
+42R9*Typ 43r27 48c9 54r21 58r21 62r21 66r21 68r21 71r21 73r21 76r21 79r21
+. 83r21 86r21 91r21 96r21 101r21 106r21 111r21 116r21 118r21 123r21 128r21
+. 135r21 138r21 141r21 144r27
+43P9*Ref(42R9) 44r34 45r47 81r84
+44P9*Ref_addrof(43P9)
+45A9*Ref_Arr(43P9) 46r33
+46P9*Ref_Array(45A9) 47r40
+47P9*Ref_Array_addrof(46P9)
+48H9*Typ<33|26R9> 52e14 53p13 57p13 61p13 65p13 67p13 70p13 72p13 75p13 78p13
+. 82p13 85p14 90p14 95p14 100p14 105p14 110p14 115p13 117p13 122p13 127p13
+. 134p13 137p13 140p13 33|33P14 36p14 38p13 40P13 42P14 45P14 48P13 50|24p13
+. 27p13 29p13 52|23p13 29p13 31p13
+53V13*CompileAssemblyFromDom{25|20P9} 54^7 55>7 56>7 145b23
+54p7 This(48R9)
+55p7 options{24|19P9}
+56p7 compilationUnits{11|24P9}
+57V13*CompileAssemblyFromFile{25|20P9} 58^7 59>7 60>7 146b23
+58p7 This(48R9)
+59p7 options{24|19P9}
+60p7 fileNames{73|30P9}
+61V13*CompileAssemblyFromSource{25|20P9} 62^7 63>7 64>7 147b23
+62p7 This(48R9)
+63p7 options{24|19P9}
+64p7 sources{73|30P9}
+65V13*CreateCompiler{27|18P9} 66^7 148b23
+66p7 This(48R9)
+67V13*CreateEscapedIdentifier{73|27P9} 68^7 69>7 149b23
+68p7 This(48R9)
+69p7 value{73|27P9}
+70V13*CreateGenerator{28|22P9} 71^7
+71p7 This(48R9)
+72V13*CreateGenerator{28|22P9} 73^7 74>7
+73p7 This(48R9)
+74p7 output{48|21P9}
+75V13*CreateGenerator{28|22P9} 76^7 77>7 150b23
+76p7 This(48R9)
+77p7 fileName{73|27P9}
+78V13*CreateParser{29|14P9} 79^7 151b23
+79p7 This(48R9)
+80V13*CreateProvider{43P9} 81>7 152b23
+81p7 language{73|27P9}
+82V13*CreateValidIdentifier{73|27P9} 83^7 84>7 153b23
+83p7 This(48R9)
+84p7 value{73|27P9}
+85U14*GenerateCodeFromCompileUnit 86^7 87>7 88>7 89>7 154b23
+86p7 This(48R9)
+87p7 compileUnit{11|21P9}
+88p7 writer{48|21P9}
+89p7 options{22|15P9}
+90U14*GenerateCodeFromExpression 91^7 92>7 93>7 94>7 155b23
+91p7 This(48R9)
+92p7 expression{12|17P9}
+93p7 writer{48|21P9}
+94p7 options{22|15P9}
+95U14*GenerateCodeFromMember 96^7 97>7 98>7 99>7 156b23
+96p7 This(48R9)
+97p7 member{17|22P9}
+98p7 writer{48|21P9}
+99p7 options{22|15P9}
+100U14*GenerateCodeFromNamespace 101^7 102>7 103>7 104>7 157b23
+101p7 This(48R9)
+102p7 codeNamespace{13|21P9}
+103p7 writer{48|21P9}
+104p7 options{22|15P9}
+105U14*GenerateCodeFromStatement 106^7 107>7 108>7 109>7 158b23
+106p7 This(48R9)
+107p7 statement{15|19P9}
+108p7 writer{48|21P9}
+109p7 options{22|15P9}
+110U14*GenerateCodeFromType 111^7 112>7 113>7 114>7 159b23
+111p7 This(48R9)
+112p7 codeType{16|27P9}
+113p7 writer{48|21P9}
+114p7 options{22|15P9}
+115V13*get_FileExtension{73|27P9} 116^7 160b23
+116p7 This(48R9)
+117V13*get_LanguageOptions{30|16E9} 118^7 161b23
+118p7 This(48R9)
+119V13*GetAllCompilerInfo{23|21P9} 162b23
+120V13*GetCompilerInfo{23|18P9} 121>7 163b23
+121p7 language{73|27P9}
+122V13*GetConverter{37|22P9} 123^7 124>7 164b23
+123p7 This(48R9)
+124p7 type_k{78|51P9}
+125V13*GetLanguageFromExtension{73|27P9} 126>7 165b23
+126p7 extension{73|27P9}
+127V13*GetTypeOutput{73|27P9} 128^7 129>7 166b23
+128p7 This(48R9)
+129p7 type_k{18|21P9}
+130V13*IsDefinedExtension{boolean} 131>7 167b23
+131p7 extension{73|27P9}
+132V13*IsDefinedLanguage{boolean} 133>7 168b23
+133p7 language{73|27P9}
+134V13*IsValidIdentifier{boolean} 135^7 136>7 169b23
+135p7 This(48R9)
+136p7 value{73|27P9}
+137V13*Parse{11|21P9} 138^7 139>7 170b23
+138p7 This(48R9)
+139p7 codeStream{47|17P9}
+140V13*Supports{boolean} 141^7 142>7 171b23
+141p7 This(48R9)
+142e7 generatorSupport{26|16E9}
+X 22 mssyst-codedom-compiler-codegeneratoroptions.ads
+13K33 CodeGeneratorOptions 21|89r41 94r41 99r41 104r41 109r41 114r41
+15P9 Ref(integer) 21|89r62 94r62 99r62 104r62 109r62 114r62
+X 23 mssyst-codedom-compiler-compilerinfo.ads
+16K33 CompilerInfo 21|119r63 121r68
+18P9 Ref(integer) 21|121r81
+21P9 Ref_Array(integer) 21|119r76
+X 24 mssyst-codedom-compiler-compilerparameters.ads
+17K33 CompilerParameters 21|55r41 59r41 63r41
+19P9 Ref(integer) 21|55r60 59r60 63r60
+X 25 mssyst-codedom-compiler-compilerresults.ads
+18K33 CompilerResults 21|56r99 60r75 64r73
+20P9 Ref(integer) 21|56r115 60r91 64r89
+X 26 mssyst-codedom-compiler-generatorsupport.ads
+15K33*GeneratorSupport 21|40w30 142r50 26|108e45
+16E9*ValueType 21|142r67 26|42e32
+X 27 mssyst-codedom-compiler-icodecompiler.ads
+16K33 ICodeCompiler 21|66r57
+18P9 Ref(integer) 21|66r71
+X 28 mssyst-codedom-compiler-icodegenerator.ads
+20K33 ICodeGenerator 21|71r57 74r73 77r68
+22P9 Ref(integer) 21|71r72 74r88 77r83
+X 29 mssyst-codedom-compiler-icodeparser.ads
+12K33 ICodeParser 21|79r57
+14P9 Ref(integer) 21|79r69
+X 30 mssyst-codedom-compiler-languageoptions.ads
+15K33*LanguageOptions 21|33w30 118r57 30|60e44
+16E9*ValueType 21|118r73 30|18e23
+X 32 mssyst-componentmodel.ads
+6K16*ComponentModel 21|10r13 11r13 48r36 49r21 124r49 32|7e26
+X 33 mssyst-componentmodel-component.ads
+19K31*Component 21|10w28 48r51 33|60e36
+20R9*Typ 21|48r61
+33U14*add_Disposed
+36U14*Dispose
+38V13*get_Container{35|15P9}
+40V13*get_Site{36|16P9}
+42U14*remove_Disposed
+45U14*set_Site
+48V13*ToString{73|27P9}
+X 34 mssyst-componentmodel-icomponent.ads
+12K31*IComponent 21|11w28 49r36 34|36e37
+13R9*Typ 21|49r47
+X 35 mssyst-componentmodel-icontainer.ads
+15P9 Ref(integer)
+X 36 mssyst-componentmodel-isite.ads
+16P9 Ref(integer)
+X 37 mssyst-componentmodel-typeconverter.ads
+20K31 TypeConverter 21|124r64
+22P9 Ref(integer) 21|124r78
+X 46 mssyst-io.ads
+6K16 IO 21|74r23 88r23 93r23 98r23 103r23 108r23 113r23 139r27
+X 47 mssyst-io-textreader.ads
+15K19 TextReader 21|139r30
+17P9 Ref(integer) 21|139r41
+X 48 mssyst-io-textwriter.ads
+19K19 TextWriter 21|74r26 88r26 93r26 98r26 103r26 108r26 113r26
+21P9 Ref(integer) 21|74r37 88r37 93r37 98r37 103r37 108r37 113r37
+X 50 mssyst-marshalbyrefobject.ads
+24V13*CreateObjRef{68|23P9}
+27V13*GetLifetimeService{52|13P9}
+29V13*InitializeLifetimeService{52|13P9}
+X 52 mssyst-object.ads
+11K16*Object 21|7w13 52|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{78|51P9}
+X 68 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 73 mssyst-string.ads
+25K16 String 21|60r26 64r24 69r22 69r48 77r25 81r25 84r22 84r48 116r40 121r25
+. 126r26 126r52 129r68 131r26 133r25 136r22
+27P9 Ref(integer) 21|69r29 69r55 77r32 81r32 84r29 84r55 116r47 121r32 126r33
+. 126r59 129r75 131r33 133r32 136r29
+30P9 Ref_Array(integer) 21|60r33 64r31
+X 78 mssyst-type_k.ads
+49K16 Type_k 21|124r23
+51P9 Ref(integer) 21|124r30
+

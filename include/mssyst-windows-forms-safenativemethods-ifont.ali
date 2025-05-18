@@ -1,0 +1,158 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.safenativemethods.ifont%s  mssyst-windows-forms-safenativemethods-ifont.ads  c6f0e0f7 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.safenativemethods%s  mssyst-windows-forms-safenativemethods.ads  mssyst-windows-forms-safenativemethods.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D mssyst-windows.ads	20050914013316 8e5e07ed
+D mssyst-windows-forms.ads  20050914013316 c6ce9829
+D mssyst-windows-forms-safenativemethods.ads  20050914013326 ab6157df
+D mssyst-windows-forms-safenativemethods-ifont.ads  20050914133506 8f42951d
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 72e15 29|8w6 9r5 22r15 29r33 31r33 43r33 49r13 52r15 58r18
+. 61r13 83r17
+20I9*int16<short_integer> 29|29r44 43r44 58r29 83r28
+52M9*native_int 29|22r26 31r44 52r26 61r24
+66P9*native_int_addrof(52M9) 29|49r24
+X 9 mssyst.ads
+6K9*MSSyst 7e11 29|7r6 12r9 25r16 35r33 46r20 67r15 109r5 111r20
+X 12 mssyst-object.ads
+11K16*Object 46e18 29|7w13
+X 21 mssyst-string.ads
+20K16 String 29|35r40 67r22
+22P9 Ref(integer) 29|35r47 67r29
+X 26 mssyst-windows.ads
+6K16*Windows 9|6k9 26|7e19 29|12r16 25r23 46r27 109r12 111r27
+X 27 mssyst-windows-forms.ads
+6K24*Forms 26|6k16 27|7e25 29|12r24 25r31 46r35 109r20 111r35
+X 28 mssyst-windows-forms-safenativemethods.ads
+6K30*SafeNativeMethods 27|6k24 28|7e43 29|12r30 25r37 46r41 109r26 111r41
+X 29 mssyst-windows-forms-safenativemethods-ifont.ads
+12K48*IFont 28|6k30 29|25r55 46r59 109l44 109e49 111r59
+13R9*Typ 14r27 19c9 21r21 24r21 27r21 29r21 31r21 33r21 35r21 37r21 39r21
+. 41r21 43r21 45r21 48r21 51r21 54r21 57r21 60r21 63r21 66r21 69r21 73r21
+. 76r21 79r21 82r21
+14P9*Ref(13R9) 15r34 16r47 46r65
+15P9*Ref_addrof(14P9) 25r61
+16A9*Ref_Arr(14P9) 17r33
+17P9*Ref_Array(16A9) 18r40
+18P9*Ref_Array_addrof(17P9)
+19H9*Typ 20p14 23p14 26p13 28p13 30p13 32p13 34p13 36p13 38p13 40p13 42p13
+. 44p13 47p14 50p14 53p14 56p14 59p14 62p14 65p14 68p14 72p14 75p14 78p14
+. 81p14
+20x14*AddRefHfont 21^7 22>7 85b23
+21p7 This(19R9)
+22m7 hFont{8|52M9}
+23x14*Clone 24^7 25>7 86b23
+24p7 This(19R9)
+25p7 ppfont{15P9}
+26y13*GetBold{boolean} 27^7 87b23
+27p7 This(19R9)
+28y13*GetCharset{8|20I9} 29^7 88b23
+29p7 This(19R9)
+30y13*GetHFont{8|52M9} 31^7 89b23
+31p7 This(19R9)
+32y13*GetItalic{boolean} 33^7 90b23
+33p7 This(19R9)
+34y13*GetName{21|22P9} 35^7 91b23
+35p7 This(19R9)
+36y13*GetSize{long_long_integer} 37^7 92b23
+37p7 This(19R9)
+38y13*GetStrikethrough{boolean} 39^7 93b23
+39p7 This(19R9)
+40y13*GetUnderline{boolean} 41^7 94b23
+41p7 This(19R9)
+42y13*GetWeight{8|20I9} 43^7 95b23
+43p7 This(19R9)
+44y13*IsEqual{integer} 45^7 46>7 96b23
+45p7 This(19R9)
+46p7 pfontOther{14P9}
+47x14*QueryTextMetrics 48^7 49>7 97b23
+48p7 This(19R9)
+49p7 ptm{8|66P9}
+50x14*ReleaseHfont 51^7 52>7 98b23
+51p7 This(19R9)
+52m7 hFont{8|52M9}
+53x14*SetBold 54^7 55>7 99b23
+54p7 This(19R9)
+55b7 pbold{boolean}
+56x14*SetCharset 57^7 58>7 100b23
+57p7 This(19R9)
+58i7 pcharset{8|20I9}
+59x14*SetHdc 60^7 61>7 101b23
+60p7 This(19R9)
+61m7 hdc{8|52M9}
+62x14*SetItalic 63^7 64>7 102b23
+63p7 This(19R9)
+64b7 pitalic{boolean}
+65x14*SetName 66^7 67>7 103b23
+66p7 This(19R9)
+67p7 pname{21|22P9}
+68x14*SetRatio 69^7 70>7 71>7 104b23
+69p7 This(19R9)
+70i7 cyLogical{integer}
+71i7 cyHimetric{integer}
+72x14*SetSize 73^7 74>7 105b23
+73p7 This(19R9)
+74i7 psize{long_long_integer}
+75x14*SetStrikethrough 76^7 77>7 106b23
+76p7 This(19R9)
+77b7 pstrikethrough{boolean}
+78x14*SetUnderline 79^7 80>7 107b23
+79p7 This(19R9)
+80b7 punderline{boolean}
+81x14*SetWeight 82^7 83>7 108b23
+82p7 This(19R9)
+83i7 pweight{8|20I9}
+

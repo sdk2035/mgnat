@@ -1,0 +1,20 @@
+V "GNAT Lib v2.01"
+A -gnatX
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U microsoft.win32.safehandles%s  microsoft-win32-safehandles.ads  7d77136a EE PK
+W microsoft.win32%s	microsoft-win32.ads	microsoft-win32.ali
+
+D microsoft.ads		20060517214748 02f2695c
+D microsoft-win32.ads	20060517214748 bf37fdc1
+D microsoft-win32-safehandles.ads  20060517214748 c240eeab
+D system.ads		20050820125040 15131902
+X 1 microsoft.ads
+6K9*Microsoft 7e14 3|6r9 7r5
+X 2 microsoft-win32.ads
+6K19*Win32 1|6k9 2|7e20 3|6r19 7r15
+X 3 microsoft-win32-safehandles.ads
+6K25*SafeHandles 2|6k19 3|7l21 7e32
+

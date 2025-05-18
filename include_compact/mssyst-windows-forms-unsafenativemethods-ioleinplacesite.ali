@@ -1,0 +1,161 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.unsafenativemethods.ioleinplacesite%s  mssyst-windows-forms-unsafenativemethods-ioleinplacesite.ads  86697ba8 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.unsafenativemethods%s  mssyst-windows-forms-unsafenativemethods.ads  mssyst-windows-forms-unsafenativemethods.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-nativemethods.ads  20060131171318 7704f2a2
+D mssyst-windows-forms-nativemethods-comrect.ads  20060131171444 480b5dca
+D mssyst-windows-forms-nativemethods-msg.ads  20060131171444 fc48f207
+D mssyst-windows-forms-nativemethods-tagoifi.ads  20060131171444 52c0753c
+D mssyst-windows-forms-nativemethods-tagsize.ads  20060131171444 f1ff07f9
+D mssyst-windows-forms-unsafenativemethods.ads  20060131171244 a7f33d5f
+D mssyst-windows-forms-unsafenativemethods-ioleinplaceframe.ads  20060131171436 ed82504d
+D mssyst-windows-forms-unsafenativemethods-ioleinplacesite.ads  20060131171434 b66161bd
+D mssyst-windows-forms-unsafenativemethods-ioleinplaceuiwindow.ads  20060131171436 b730557c
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 49|8w6 9r5 33r33
+52M9*native_int 49|33r44
+X 9 mssyst.ads
+6K9*MSSyst 7e11 49|7r6 15r9 36r17 37r15 38r21 39r22 40r21 47r21 55r22 69r5
+. 71r20
+X 15 mssyst-object.ads
+11K16*Object 46e18 49|7w13
+X 40 mssyst-windows.ads
+6K16*Windows 9|6k9 40|7e19 49|15r16 36r24 37r22 38r28 39r29 40r28 47r28 55r29
+. 69r12 71r27
+X 41 mssyst-windows-forms.ads
+6K24*Forms 40|6k16 41|7e25 49|15r24 36r32 37r30 38r36 39r37 40r36 47r36 55r37
+. 69r20 71r35
+X 42 mssyst-windows-forms-nativemethods.ads
+6K30 NativeMethods 49|38r42 39r43 40r42 47r42 55r43
+X 43 mssyst-windows-forms-nativemethods-comrect.ads
+14K44 COMRECT 49|38r56 39r57 47r56
+16P9 Ref(integer) 49|38r64 39r65 47r64
+X 45 mssyst-windows-forms-nativemethods-tagoifi.ads
+13K44 tagOIFI 49|40r56
+15P9 Ref(integer) 49|40r64
+X 46 mssyst-windows-forms-nativemethods-tagsize.ads
+13K44 tagSIZE 49|55r57
+15P9 Ref(integer) 49|55r65
+X 47 mssyst-windows-forms-unsafenativemethods.ads
+6K30*UnsafeNativeMethods 41|6k24 47|7e45 49|15r30 36r38 37r36 69r26 71r41
+X 48 mssyst-windows-forms-unsafenativemethods-ioleinplaceframe.ads
+15K50 IOleInPlaceFrame 49|36r58
+18P9 Ref_addrof(integer) 49|36r75
+X 49 mssyst-windows-forms-unsafenativemethods-ioleinplacesite.ads
+15K50*IOleInPlaceSite 47|6k30 49|69l46 69e61 71r61
+16R9*Typ 17r27 22c9 24r21 26r21 29r21 31r21 33r21 35r21 42r21 44r21 46r21
+. 49r21 51r21 54r21
+17P9*Ref(16R9) 18r34 19r47
+18P9*Ref_addrof(17P9)
+19A9*Ref_Arr(17P9) 20r33
+20P9*Ref_Array(19A9) 21r40
+21P9*Ref_Array_addrof(20P9)
+22H9*Typ 23p13 25p13 28p13 30p13 32p13 34p13 41p13 43p13 45p13 48p13 50p13
+. 53p13
+23y13*CanInPlaceActivate{integer} 24^7 57b23
+24p7 This(22R9)
+25y13*ContextSensitiveHelp{integer} 26^7 27>7 58b23
+26p7 This(22R9)
+27i7 fEnterMode{integer}
+28y13*DeactivateAndUndo{integer} 29^7 59b23
+29p7 This(22R9)
+30y13*DiscardUndoState{integer} 31^7 60b23
+31p7 This(22R9)
+32y13*GetWindow{8|52M9} 33^7 61b23
+33p7 This(22R9)
+34y13*GetWindowContext{integer} 35^7 36>7 37>7 38>7 39>7 40>7 62b23
+35p7 This(22R9)
+36p7 ppFrame{48|18P9}
+37p7 ppDoc{50|16P9}
+38p7 lprcPosRect{43|16P9}
+39p7 lprcClipRect{43|16P9}
+40p7 lpFrameInfo{45|15P9}
+41y13*OnInPlaceActivate{integer} 42^7 63b23
+42p7 This(22R9)
+43y13*OnInPlaceDeactivate{integer} 44^7 64b23
+44p7 This(22R9)
+45y13*OnPosRectChange{integer} 46^7 47>7 65b23
+46p7 This(22R9)
+47p7 lprcPosRect{43|16P9}
+48y13*OnUIActivate{integer} 49^7 66b23
+49p7 This(22R9)
+50y13*OnUIDeactivate{integer} 51^7 52>7 67b23
+51p7 This(22R9)
+52i7 fUndoable{integer}
+53y13*Scroll{integer} 54^7 55>7 68b23
+54p7 This(22R9)
+55p7 scrollExtant{46|15P9}
+X 50 mssyst-windows-forms-unsafenativemethods-ioleinplaceuiwindow.ads
+13K50 IOleInPlaceUIWindow 49|37r56
+16P9 Ref_addrof(integer) 49|37r76
+

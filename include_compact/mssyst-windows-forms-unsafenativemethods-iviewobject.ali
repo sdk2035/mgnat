@@ -1,0 +1,173 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.unsafenativemethods.iviewobject%s  mssyst-windows-forms-unsafenativemethods-iviewobject.ads  629deca4 NE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.unsafenativemethods%s  mssyst-windows-forms-unsafenativemethods.ads  mssyst-windows-forms-unsafenativemethods.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-comtypes.ads  20060131165234 c90b3930
+D mssyst-runtime-interopservices-comtypes-dvaspect.ads  20060131171418 0404599e
+D mssyst-runtime-interopservices-comtypes-formatetc.ads  20060131171418 6a4800e0
+D mssyst-runtime-interopservices-comtypes-iadvisesink.ads  20060131171418 404af675
+D mssyst-runtime-interopservices-comtypes-stgmedium.ads  20060131171418 d9269ba6
+D mssyst-runtime-interopservices-comtypes-tymed.ads  20060131171418 4d032abc
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-nativemethods.ads  20060131171318 7704f2a2
+D mssyst-windows-forms-nativemethods-comrect.ads  20060131171444 480b5dca
+D mssyst-windows-forms-nativemethods-tagdvtargetdevice.ads  20060131171444 d3492328
+D mssyst-windows-forms-nativemethods-taglogpalette.ads  20060131171444 618032d5
+D mssyst-windows-forms-unsafenativemethods.ads  20060131171244 a7f33d5f
+D mssyst-windows-forms-unsafenativemethods-iviewobject.ads  20060131171436 5295f6b1
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 8 msil_types.ads
+7K9*Msil_Types 71e15 53|8w6 9r5 27r18 29r22 30r17 33r21 39r18 40r19 43r18
+. 44r14 50r18 52r22
+34A9*int32_arr(integer) 53|43r29 44r25
+52M9*native_int 53|27r29 29r33 30r28 33r32 39r29 40r30 50r29 52r33
+X 9 mssyst.ads
+6K9*MSSyst 7e11 53|7r6 15r9 28r13 31r20 32r21 45r18 51r13 53r20 58r18 69r5
+. 71r20
+X 15 mssyst-object.ads
+11K16*Object 46e18 53|7w13
+X 26 mssyst-runtime.ads
+6K16 Runtime 53|45r25 58r25
+X 27 mssyst-runtime-interopservices.ads
+6K24 InteropServices 53|45r33 58r33
+X 28 mssyst-runtime-interopservices-comtypes.ads
+6K40 ComTypes 53|45r49 58r49
+X 31 mssyst-runtime-interopservices-comtypes-iadvisesink.ads
+13K49 IAdviseSink 53|45r58 58r58
+15P9 Ref(integer) 53|58r70
+18P9 Ref_Array(integer) 53|45r70
+X 46 mssyst-windows.ads
+6K16*Windows 9|6k9 46|7e19 53|15r16 28r20 31r27 32r28 51r20 53r27 69r12 71r27
+X 47 mssyst-windows-forms.ads
+6K24*Forms 46|6k16 47|7e25 53|15r24 28r28 31r35 32r36 51r28 53r35 69r20 71r35
+X 48 mssyst-windows-forms-nativemethods.ads
+6K30 NativeMethods 53|28r34 31r41 32r42 51r34 53r41
+X 49 mssyst-windows-forms-nativemethods-comrect.ads
+14K44 COMRECT 53|31r55 32r56
+16P9 Ref(integer) 53|31r63 32r64
+X 50 mssyst-windows-forms-nativemethods-tagdvtargetdevice.ads
+13K44 tagDVTARGETDEVICE 53|28r48 51r48
+15P9 Ref(integer) 53|28r66 51r66
+X 51 mssyst-windows-forms-nativemethods-taglogpalette.ads
+13K44 tagLOGPALETTE 53|53r55
+15P9 Ref(integer) 53|53r69
+X 52 mssyst-windows-forms-unsafenativemethods.ads
+6K30*UnsafeNativeMethods 47|6k24 52|7e45 53|15r30 69r26 71r41
+X 53 mssyst-windows-forms-unsafenativemethods-iviewobject.ads
+15K50*IViewObject 52|6k30 53|69l46 69e57 71r61
+16R9*Typ 17r27 22c9 24r21 36r21 42r21 47r21 55r21 60r21
+17P9*Ref(16R9) 18r34 19r47
+18P9*Ref_addrof(17P9)
+19A9*Ref_Arr(17P9) 20r33
+20P9*Ref_Array(19A9) 21r40
+21P9*Ref_Array_addrof(20P9)
+22H9*Typ 23p13 35p13 41p14 46p13 54p14 59p13
+23y13*Draw{integer} 24^7 25>7 26>7 27>7 28>7 29>7 30>7 31>7 32>7 33>7 34>7
+. 63b23
+24p7 This(22R9)
+25i7 dwDrawAspect{integer}
+26i7 lindex{integer}
+27m7 pvAspect{8|52M9}
+28p7 ptd{50|15P9}
+29m7 hdcTargetDev{8|52M9}
+30m7 hdcDraw{8|52M9}
+31p7 lprcBounds{49|16P9}
+32p7 lprcWBounds{49|16P9}
+33m7 pfnContinue{8|52M9}
+34i7 dwContinue{integer}
+35y13*Freeze{integer} 36^7 37>7 38>7 39>7 40>7 64b23
+36p7 This(22R9)
+37i7 dwDrawAspect{integer}
+38i7 lindex{integer}
+39m7 pvAspect{8|52M9}
+40m7 pdwFreeze{8|52M9}
+41x14*GetAdvise 42^7 43>7 44>7 45>7 65b23
+42p7 This(22R9)
+43a7 paspects{8|34A9}
+44a7 advf{8|34A9}
+45p7 pAdvSink{31|18P9}
+46y13*GetColorSet{integer} 47^7 48>7 49>7 50>7 51>7 52>7 53>7 66b23
+47p7 This(22R9)
+48i7 dwDrawAspect{integer}
+49i7 lindex{integer}
+50m7 pvAspect{8|52M9}
+51p7 ptd{50|15P9}
+52m7 hicTargetDev{8|52M9}
+53p7 ppColorSet{51|15P9}
+54x14*SetAdvise 55^7 56>7 57>7 58>7 67b23
+55p7 This(22R9)
+56i7 aspects{integer}
+57i7 advf{integer}
+58p7 pAdvSink{31|15P9}
+59y13*Unfreeze{integer} 60^7 61>7 68b23
+60p7 This(22R9)
+61i7 dwFreeze{integer}
+

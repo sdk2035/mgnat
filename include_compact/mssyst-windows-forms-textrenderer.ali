@@ -1,0 +1,235 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.windows.forms.textrenderer%s  mssyst-windows-forms-textrenderer.ads  171bccf9 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.textformatflags%s  mssyst-windows-forms-textformatflags.ads  mssyst-windows-forms-textformatflags.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-color.ads  20060131171430 efe0dbd6
+D mssyst-drawing-font.ads  20060131171430 86695792
+D mssyst-drawing-fontstyle.ads  20060131171430 a1bbe068
+D mssyst-drawing-graphicsunit.ads  20060131171432 210de045
+D mssyst-drawing-idevicecontext.ads  20060131171428 3b407974
+D mssyst-drawing-knowncolor.ads  20060131171430 28ff3226
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-size.ads  20060131171430 9e839193
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-iformatprovider.ads  20060131171356 c3e66732
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D mssyst-windows.ads	20060131171150 8e5e07ed
+D mssyst-windows-forms.ads  20060131171148 c6ce9829
+D mssyst-windows-forms-textformatflags.ads  20060131171450 2ab4374e
+D mssyst-windows-forms-textrenderer.ads  20060131171450 4ee5246e
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 54|8w6 9r5
+X 6 mssyst.ads
+6K9*MSSyst 7e11 54|7r6 10r6 16r6 20r9 27r20 31r12 32r14 33r14 34r16 35r19
+. 36r19 38r12 39r14 40r14 41r16 42r19 44r12 45r14 46r14 47r16 48r19 49r19
+. 50r15 52r12 53r14 54r14 55r16 56r19 57r15 59r12 60r14 61r14 62r12 63r19
+. 64r19 66r12 67r14 68r14 69r12 70r19 72r12 73r14 74r14 75r12 76r19 77r19
+. 78r15 80r12 81r14 82r14 83r12 84r19 85r15 87r12 88r14 89r14 90r22 91r15
+. 91r70 93r12 94r14 95r14 96r22 96r60 98r14 99r14 99r46 101r14 102r14 103r22
+. 103r60 105r12 106r14 107r14 107r46 109r14 110r14 111r22 112r15 112r70 117r5
+. 119r20
+X 7 mssyst-drawing.ads
+6K16 Drawing 54|31r19 33r21 34r23 35r26 36r26 38r19 40r21 41r23 42r26 44r19
+. 46r21 47r23 48r26 49r26 52r19 54r21 55r23 56r26 59r19 61r21 62r19 63r26
+. 64r26 66r19 68r21 69r19 70r26 72r19 74r21 75r19 76r26 77r26 80r19 82r21
+. 83r19 84r26 87r19 89r21 90r29 91r77 93r19 95r21 96r29 96r67 99r21 99r53
+. 102r21 103r29 103r67 105r19 107r21 107r53 110r21 111r29 112r77
+X 8 mssyst-drawing-color.ads
+15K24 Color 54|35r34 36r34 42r34 48r34 49r34 56r34 63r34 64r34 70r34 76r34
+. 77r34 84r34
+16R9 ValueType 54|35r40 36r40 42r40 48r40 49r40 56r40 63r40 64r40 70r40 76r40
+. 77r40 84r40
+X 9 mssyst-drawing-font.ads
+21K24 Font 54|33r29 40r29 46r29 54r29 61r29 68r29 74r29 82r29 89r29 95r29
+. 99r29 102r29 107r29 110r29
+23P9 Ref(integer) 54|33r34 40r34 46r34 54r34 61r34 68r34 74r34 82r34 89r34
+. 95r34 99r34 102r34 107r34 110r34
+X 12 mssyst-drawing-idevicecontext.ads
+10K24 IDeviceContext 54|31r27 38r27 44r27 52r27 59r27 66r27 72r27 80r27 87r27
+. 93r27 105r27
+12P9 Ref(integer) 54|31r42 38r42 44r42 52r42 59r42 66r42 72r42 80r42 87r42
+. 93r42 105r42
+X 14 mssyst-drawing-point.ads
+16K24 Point 54|62r27 69r27 75r27 83r27
+17R9 ValueType 54|62r33 69r33 75r33 83r33
+X 15 mssyst-drawing-rectangle.ads
+17K24 Rectangle 54|34r31 41r31 47r31 55r31
+18R9 ValueType 54|34r41 41r41 47r41 55r41
+X 16 mssyst-drawing-size.ads
+16K24 Size 54|90r37 91r85 96r37 96r75 99r61 103r37 103r75 107r61 111r37 112r85
+17R9 ValueType 54|90r42 91r90 96r42 96r80 99r66 103r42 103r80 107r66 111r42
+. 112r90
+X 24 mssyst-object.ads
+11K16*Object 46e18 54|7w13 10w13 27r27
+12R9*Typ 20e14 54|27r34
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{47|51P9}
+36V13*ToString{42|27P9}
+X 42 mssyst-string.ads
+25K16 String 54|32r21 39r21 45r21 53r21 60r21 67r21 73r21 81r21 88r21 94r21
+. 98r21 101r21 106r21 109r21
+27P9 Ref(integer) 54|32r28 39r28 45r28 53r28 60r28 67r28 73r28 81r28 88r28
+. 94r28 98r28 101r28 106r28 109r28
+X 47 mssyst-type_k.ads
+51P9 Ref(integer)
+X 51 mssyst-windows.ads
+6K16*Windows 6|6k9 51|7e19 54|16r13 20r16 50r22 57r22 78r22 85r22 91r22 112r22
+. 117r12 119r27
+X 52 mssyst-windows-forms.ads
+6K24*Forms 51|6k16 52|7e25 54|16r21 20r24 50r30 57r30 78r30 85r30 91r30 112r30
+. 117r20 119r35
+X 53 mssyst-windows-forms-textformatflags.ads
+15K30*TextFormatFlags 109e41 54|16w27 50r36 57r36 78r36 85r36 91r36 112r36
+16E9*ValueType 41e27 54|50r52 57r52 78r52 85r52 91r52 112r52
+X 54 mssyst-windows-forms-textrenderer.ads
+20K30*TextRenderer 52|6k24 54|117l26 117e38 119r41
+21R9*Typ 22r27 27c9 114r27
+22P9*Ref(21R9) 23r34 24r47
+23P9*Ref_addrof(22P9)
+24A9*Ref_Arr(22P9) 25r33
+25P9*Ref_Array(24A9) 26r40
+26P9*Ref_Array_addrof(25P9)
+27R9*Typ<24|18R9> 24|23p13 29p13 31p13 36p13 54|29e14
+30U14*DrawText 31>7 32>7 33>7 34>7 35>7 36>7
+31p7 dc{12|12P9}
+32p7 text{42|27P9}
+33p7 font{9|23P9}
+34r7 bounds{15|18R9}
+35r7 foreColor{8|16R9}
+36r7 backColor{8|16R9}
+37U14*DrawText 38>7 39>7 40>7 41>7 42>7
+38p7 dc{12|12P9}
+39p7 text{42|27P9}
+40p7 font{9|23P9}
+41r7 bounds{15|18R9}
+42r7 foreColor{8|16R9}
+43U14*DrawText 44>7 45>7 46>7 47>7 48>7 49>7 50>7
+44p7 dc{12|12P9}
+45p7 text{42|27P9}
+46p7 font{9|23P9}
+47r7 bounds{15|18R9}
+48r7 foreColor{8|16R9}
+49r7 backColor{8|16R9}
+50e7 flags{53|16E9}
+51U14*DrawText 52>7 53>7 54>7 55>7 56>7 57>7
+52p7 dc{12|12P9}
+53p7 text{42|27P9}
+54p7 font{9|23P9}
+55r7 bounds{15|18R9}
+56r7 foreColor{8|16R9}
+57e7 flags{53|16E9}
+58U14*DrawText 59>7 60>7 61>7 62>7 63>7 64>7
+59p7 dc{12|12P9}
+60p7 text{42|27P9}
+61p7 font{9|23P9}
+62r7 pt{14|17R9}
+63r7 foreColor{8|16R9}
+64r7 backColor{8|16R9}
+65U14*DrawText 66>7 67>7 68>7 69>7 70>7
+66p7 dc{12|12P9}
+67p7 text{42|27P9}
+68p7 font{9|23P9}
+69r7 pt{14|17R9}
+70r7 foreColor{8|16R9}
+71U14*DrawText 72>7 73>7 74>7 75>7 76>7 77>7 78>7
+72p7 dc{12|12P9}
+73p7 text{42|27P9}
+74p7 font{9|23P9}
+75r7 pt{14|17R9}
+76r7 foreColor{8|16R9}
+77r7 backColor{8|16R9}
+78e7 flags{53|16E9}
+79U14*DrawText 80>7 81>7 82>7 83>7 84>7 85>7 115b23
+80p7 dc{12|12P9}
+81p7 text{42|27P9}
+82p7 font{9|23P9}
+83r7 pt{14|17R9}
+84r7 foreColor{8|16R9}
+85e7 flags{53|16E9}
+86V13*MeasureText{16|17R9} 87>7 88>7 89>7 90>7 91>7
+87p7 dc{12|12P9}
+88p7 text{42|27P9}
+89p7 font{9|23P9}
+90r7 proposedSize{16|17R9}
+91e7 flags{53|16E9}
+92V13*MeasureText{16|17R9} 93>7 94>7 95>7 96>7
+93p7 dc{12|12P9}
+94p7 text{42|27P9}
+95p7 font{9|23P9}
+96r7 proposedSize{16|17R9}
+97V13*MeasureText{16|17R9} 98>7 99>7
+98p7 text{42|27P9}
+99p7 font{9|23P9}
+100V13*MeasureText{16|17R9} 101>7 102>7 103>7
+101p7 text{42|27P9}
+102p7 font{9|23P9}
+103r7 proposedSize{16|17R9}
+104V13*MeasureText{16|17R9} 105>7 106>7 107>7
+105p7 dc{12|12P9}
+106p7 text{42|27P9}
+107p7 font{9|23P9}
+108V13*MeasureText{16|17R9} 109>7 110>7 111>7 112>7 116b23
+109p7 text{42|27P9}
+110p7 font{9|23P9}
+111r7 proposedSize{16|17R9}
+112e7 flags{53|16E9}
+

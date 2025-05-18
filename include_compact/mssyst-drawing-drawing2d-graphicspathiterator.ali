@@ -1,0 +1,178 @@
+V "GNAT Lib v2.01"
+A -compact
+A -gnatX
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnn
+
+U mssyst.drawing.drawing2d.graphicspathiterator%s  mssyst-drawing-drawing2d-graphicspathiterator.ads  3e872835 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.drawing%s	mssyst-drawing.ads	mssyst-drawing.ali
+W mssyst.drawing.drawing2d%s  mssyst-drawing-drawing2d.ads  mssyst-drawing-drawing2d.ali
+W mssyst.drawing.pointf%s  mssyst-drawing-pointf.ads  mssyst-drawing-pointf.ali
+W mssyst.marshalbyrefobject%s  mssyst-marshalbyrefobject.ads  mssyst-marshalbyrefobject.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D msil_types.ads	20041202174022 b58447f0
+D mssyst.ads		20060131165220 82dcb036
+D mssyst-drawing.ads	20060131171428 770dd27a
+D mssyst-drawing-drawing2d.ads  20060131171430 02b10736
+D mssyst-drawing-drawing2d-fillmode.ads  20060131171430 fd618471
+D mssyst-drawing-drawing2d-graphicspath.ads  20060131171430 16dbf5d7
+D mssyst-drawing-drawing2d-graphicspathiterator.ads  20060131171430 cd01e82e
+D mssyst-drawing-drawing2d-warpmode.ads  20060131171432 1e61b940
+D mssyst-drawing-point.ads  20060131171430 f5e69dbb
+D mssyst-drawing-pointf.ads  20060131171432 a63d5a83
+D mssyst-drawing-rectangle.ads  20060131171430 84e22140
+D mssyst-drawing-rectanglef.ads  20060131171432 7fcf14fa
+D mssyst-drawing-size.ads  20060131171430 9e839193
+D mssyst-drawing-sizef.ads  20060131171432 32b1bdc4
+D mssyst-globalization.ads  20060131165226 13e8d46f
+D mssyst-globalization-numberstyles.ads  20060131171400 a374986f
+D mssyst-guid.ads	20060131171356 60ed22b7
+D mssyst-icloneable.ads	20060131171354 7183f1b5
+D mssyst-icomparable.ads  20060131171354 48fe9b77
+D mssyst-marshalbyrefobject.ads  20060131171354 c0f1bae4
+D mssyst-object.ads	20060131171354 227f60ba
+D mssyst-reflection.ads	20060131165222 25abbfbc
+D mssyst-reflection-bindingflags.ads  20060131171358 0550cf97
+D mssyst-reflection-callingconventions.ads  20060131171358 1f4e2aad
+D mssyst-reflection-genericparameterattributes.ads  20060131171358 eeb568df
+D mssyst-reflection-icustomattributeprovider.ads  20060131171356 e58c7e77
+D mssyst-reflection-ireflect.ads  20060131171356 11012162
+D mssyst-reflection-memberinfo.ads  20060131171356 ddee847c
+D mssyst-reflection-membertypes.ads  20060131171358 4b7230ac
+D mssyst-reflection-parametermodifier.ads  20060131171358 439cc898
+D mssyst-reflection-typeattributes.ads  20060131171358 df5a9e5c
+D mssyst-runtime.ads	20060131165220 31dcc047
+D mssyst-runtime-interopservices.ads  20060131165220 59769bf0
+D mssyst-runtime-interopservices-umemberinfo.ads  20060131171356 fa8f8920
+D mssyst-runtime-interopservices-utype.ads  20060131171356 5fe61cd2
+D mssyst-runtime-remoting.ads  20060131165222 74500271
+D mssyst-runtime-remoting-objref.ads  20060131171406 24184351
+D mssyst-runtime-serialization.ads  20060131165220 8d5305f0
+D mssyst-runtime-serialization-iobjectreference.ads  20060131171356 52a5cbcf
+D mssyst-runtime-serialization-iserializable.ads  20060131171354 c7c79445
+D mssyst-sbyte.ads	20060131171356 942b2000
+D mssyst-string.ads	20060131171354 c6563d08
+D mssyst-stringcomparison.ads  20060131171354 a36d4b0b
+D mssyst-stringsplitoptions.ads  20060131171354 f1f66a76
+D mssyst-text.ads	20060131165220 a7ed250d
+D mssyst-text-normalizationform.ads  20060131171400 b98225c3
+D mssyst-type_k.ads	20060131171356 0983f807
+D mssyst-typecode.ads	20060131171356 990ee66f
+D mssyst-uint32.ads	20060131171356 7da3a0c8
+D mssyst-valuetype.ads	20060131171354 52e87a9f
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 11|8w6 9r5 33r15 41r15 53r20 54r18 57r18 58r20 59r18
+. 62r20 63r18 64r18 68r18
+24E9*unsigned_int8<character>
+44A9*unsigned_int8_arr(24E9)
+45P9*Unsigned_Int8_Array(44A9)
+47P9*unsigned_int8_array_addrof(45P9) 11|33r26 41r26
+53M9*unsigned_int8_addrof 11|57r29
+59M9*int32_addrof 11|53r31 54r29 58r31 59r29 62r31 63r29
+63M9*bool_addrof 11|64r29 68r29
+X 6 mssyst.ads
+6K9*MSSyst 7e11 11|7r6 10r6 11r6 17r9 24r20 29r14 32r16 40r16 50r14 67r14
+. 84r5 86r20
+X 7 mssyst-drawing.ads
+6K16*Drawing 6|6k9 7|7e19 11|11r13 17r16 29r21 32r23 40r23 50r21 67r21 84r12
+. 86r27
+X 8 mssyst-drawing-drawing2d.ads
+6K24*Drawing2D 7|6k16 8|7e29 11|17r24 29r29 50r29 67r29 84r20 86r35
+X 10 mssyst-drawing-drawing2d-graphicspath.ads
+32K34 GraphicsPath 11|29r39 50r39 67r39
+34P9 Ref(integer) 11|29r52 50r52 67r52
+X 11 mssyst-drawing-drawing2d-graphicspathiterator.ads
+17K34*GraphicsPathIterator 8|6k24 11|84l30 84e50 86r45
+18R9*Typ 19r27 24c9 31r21 37r21 39r21 43r21 45r21 47r21 49r21 52r21 56r21
+. 61r21 66r21 70r21 72r27
+19P9*Ref(18R9) 20r34 21r47 28r14 29r64
+20P9*Ref_addrof(19P9)
+21A9*Ref_Arr(19P9) 22r33
+22P9*Ref_Array(21A9) 23r40
+23P9*Ref_Array_addrof(22P9)
+24R9*Typ<24|21R9> 26e14 30p13 36p14 38p13 42p13 44p13 46p13 48p13 51p13 55p13
+. 60p13 65p13 69p14 24|24p13 27p13 29p13 25|23p13 29p13 31p13 36p13
+27V13*new_GraphicsPathIterator{19P9} 28>7 29>7 73r28
+28p7 This{19P9}
+29p7 path{10|34P9}
+30V13*CopyData{integer} 31^7 32>7 33>7 34>7 35>7 74b23
+31p7 This(24R9)
+32p7 points{14|21P9}
+33p7 types{5|47P9}
+34i7 startIndex{integer}
+35i7 endIndex{integer}
+36U14*Dispose 37^7 75b23
+37p7 This(24R9)
+38V13*Enumerate{integer} 39^7 40>7 41>7 76b23
+39p7 This(24R9)
+40p7 points{14|21P9}
+41p7 types{5|47P9}
+42V13*get_Count{integer} 43^7 77b23
+43p7 This(24R9)
+44V13*get_SubpathCount{integer} 45^7 78b23
+45p7 This(24R9)
+46V13*HasCurve{boolean} 47^7 79b23
+47p7 This(24R9)
+48V13*NextMarker{integer} 49^7 50>7
+49p7 This(24R9)
+50p7 path{10|34P9}
+51V13*NextMarker{integer} 52^7 53>7 54>7 80b23
+52p7 This(24R9)
+53m7 startIndex{5|59M9}
+54m7 endIndex{5|59M9}
+55V13*NextPathType{integer} 56^7 57>7 58>7 59>7 81b23
+56p7 This(24R9)
+57m7 pathType{5|53M9}
+58m7 startIndex{5|59M9}
+59m7 endIndex{5|59M9}
+60V13*NextSubpath{integer} 61^7 62>7 63>7 64>7
+61p7 This(24R9)
+62m7 startIndex{5|59M9}
+63m7 endIndex{5|59M9}
+64m7 isClosed{5|63M9}
+65V13*NextSubpath{integer} 66^7 67>7 68>7 82b23
+66p7 This(24R9)
+67p7 path{10|34P9}
+68m7 isClosed{5|63M9}
+69U14*Rewind 70^7 83b23
+70p7 This(24R9)
+X 14 mssyst-drawing-pointf.ads
+16K24*PointF 11|11w21 32r31 40r31 14|90e26
+18A9*ValueType_Arr(17R9)
+19P9*ValueType_Array(18A9)
+21P9*ValueType_array_addrof(19P9) 11|32r38 40r38
+X 24 mssyst-marshalbyrefobject.ads
+14K16*MarshalByRefObject 11|10w13 24r27 24|36e30
+15R9*Typ 11|24r46
+24V13*CreateObjRef{41|23P9}
+27V13*GetLifetimeService{25|13P9}
+29V13*InitializeLifetimeService{25|13P9}
+X 25 mssyst-object.ads
+11K16*Object 11|7w13 25|46e18
+13P9*Ref(12R9)
+18R9*Typ
+23V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{51|51P9}
+36V13*ToString{46|27P9}
+X 41 mssyst-runtime-remoting-objref.ads
+23P9 Ref(integer)
+X 46 mssyst-string.ads
+27P9 Ref(integer)
+X 51 mssyst-type_k.ads
+51P9 Ref(integer)
+
