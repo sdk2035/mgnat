@@ -1,0 +1,57 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U gnatvsn%b		gnatvsn.adb		be5439c7 NE PK
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U gnatvsn%s		gnatvsn.ads		aa3af9cd EE NE PK
+
+D gnatvsn.ads		20060112172940 aa3af9cd
+D gnatvsn.adb		20040924160926 146ec00a
+D system.ads		20060219120116 9a1fe783
+D s-secsta.ads		20060219120110 db466d0c
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D unchconv.ads		20050819202736 34860a55
+X 1 gnatvsn.ads
+37K9*Gnatvsn 107l5 107e12 2|34b14 82l5 82t12
+39a4*Gnat_Static_Version_String{string} 2|47r19 63r19 65r29 67r34 69r20
+48V13*Gnat_Version_String{string} 2|61b13 71l8 71t27
+53E9*Gnat_Build_Type 53e55 56r40 2|45r40
+53n29*Gnatpro{53E9} 2|49r20
+53n38*FSF{53E9}
+53n43*GAP{53E9}
+53n48*Public{53E9} 2|51r20 53r20
+56V13*Get_Gnat_Build_Type{53E9} 2|45b13 55l8 55t27
+81N4*Ver_Len_Max
+89a4*Library_Version{string} 97r64
+97a4*Verbose_Library_Version{string}
+100N4*ASIS_Version_Number
+X 2 gnatvsn.adb
+36V13 Ident{character} 36>20 47r12 63r12 77b13 80l8 80t13
+36e20 C{character} 77b20 79r14
+

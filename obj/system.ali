@@ -1,0 +1,112 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U system%s		system.ads		9a1fe783 NE PU PK
+L "-Wl,--stack=0x2000000"
+
+D system.ads		20060219120116 9a1fe783
+X 1 system.ads
+39K9*System 205l5 205e11
+45E9*Name 45e35 46r27
+45n18*SYSTEM_NAME_GNAT{45E9} 46r35
+46e4*System_Name{45E9}
+50N4*Min_Int
+51N4*Max_Int
+53N4*Max_Binary_Modulus
+54N4*Max_Nonbinary_Modulus
+56N4*Max_Base_Digits
+57N4*Max_Digits
+59N4*Max_Mantissa 60r49
+60N4*Fine_Delta
+62N4*Tick
+66M9*Address 67r28 75r33 76r33 77r33 78r33 79r33 105c9 106r28
+67m4*Null_Address{66M9} 106c4
+69N4*Storage_Unit
+70N4*Word_Size
+71N4*Memory_Size 105r24
+75V13*"<"{boolean} 75>19 75>25 81b30
+75m19 Left{66M9}
+75m25 Right{66M9}
+76V13*"<="{boolean} 76>19 76>25 82b30
+76m19 Left{66M9}
+76m25 Right{66M9}
+77V13*">"{boolean} 77>19 77>25 83b30
+77m19 Left{66M9}
+77m25 Right{66M9}
+78V13*">="{boolean} 78>19 78>25 84b30
+78m19 Left{66M9}
+78m25 Right{66M9}
+79V13*"="{boolean} 79>19 79>25 85b30
+79m19 Left{66M9}
+79m25 Right{66M9}
+89E9*Bit_Order 89e57 90r33
+89n23*High_Order_First{89E9}
+89n41*Low_Order_First{89E9} 90r46
+90e4*Default_Bit_Order{89E9}
+94i4*Max_Priority{positive}
+95i4*Max_Interrupt_Priority{positive}
+97I12*Any_Priority{integer} 98r34 99r34 166r38
+98I12*Priority{97I12} 101r32 171r7 187r7
+99I12*Interrupt_Priority{97I12} 188r7
+101i4*Default_Priority{98I12} 172r7 173r7 174r7 175r7 176r7 177r7 178r7 179r7
+. 180r7 181r7 182r7 183r7 184r7 185r7 186r7
+118b4 AAMP{boolean}
+119b4 Backend_Divide_Checks{boolean}
+120b4 Backend_Overflow_Checks{boolean}
+121b4 Command_Line_Args{boolean}
+122b4 Compiler_System_Version{boolean}
+123b4 Configurable_Run_Time{boolean}
+124b4 Denorm{boolean}
+125b4 Duration_32_Bits{boolean}
+126b4 Exit_Status_Supported{boolean}
+127b4 Fractional_Fixed_Ops{boolean}
+128b4 Frontend_Layout{boolean}
+129b4 Functions_Return_By_DSP{boolean}
+130b4 Machine_Overflows{boolean}
+131b4 Machine_Rounds{boolean}
+132b4 OpenVMS{boolean}
+133b4 Preallocated_Stacks{boolean}
+134b4 Signed_Zeros{boolean}
+135b4 Stack_Check_Default{boolean}
+136b4 Stack_Check_Probes{boolean}
+137b4 Support_64_Bit_Divides{boolean}
+138b4 Support_Aggregates{boolean}
+139b4 Support_Composite_Assign{boolean}
+140b4 Support_Composite_Compare{boolean}
+141b4 Support_Long_Shifts{boolean}
+142b4 Suppress_Standard_Library{boolean}
+143b4 Use_Ada_Main_Program_Name{boolean}
+144b4 ZCX_By_Default{boolean}
+145b4 GCC_ZCX_Support{boolean}
+146b4 Front_End_ZCX_Support{boolean}
+150b4 High_Integrity_Mode{boolean}
+151b4 Long_Shifts_Inlined{boolean}
+166A9 Priorities_Mapping(integer) 167r36 170r37
+170a4 Underlying_Priorities{166A9}
+

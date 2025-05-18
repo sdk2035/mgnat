@@ -1,0 +1,117 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U lib.util%b		lib-util.adb		c7d096d2 NE PK
+W hostparm%s		hostparm.ads		hostparm.ali
+W lib%s			lib.adb			lib.ali
+W namet%s		namet.adb		namet.ali
+W osint%s		osint.adb		osint.ali
+W osint.c%s		osint-c.adb		osint-c.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U lib.util%s		lib-util.ads		d197c411 BN EE NE PK
+W lib%s			lib.adb			lib.ali
+
+D alloc.ads		20050704094642 baad0baa
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D hostparm.ads		20060213225900 f78f204c
+D lib.ads		20051127005428 f7794dc9
+D lib-util.ads		20050704094650 26ee89d8
+D lib-util.adb		20050704094650 1d7bcd74
+D namet.ads		20051128233748 d7b5fee4
+D osint.ads		20050819204702 67d8ead2
+D osint-c.ads		20050819200356 dc7f0cd6
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 5 hostparm.ads
+40K9*Hostparm 99e13 8|27w6 33r41 107r10
+58b4*OpenVMS{boolean} 8|107r19
+76N4*Max_Name_Length 8|33r50
+X 6 lib.ads
+41K9*Lib 760e8 7|27r9 70r5 8|31r14 217r5
+X 7 lib-util.ads
+27K13*Util 6|41k9 7|70l9 70e13 8|31b18 217l9 217t13
+31U14*Write_Info_Char 31>31 32r19 8|51b14 56l8 56t23 71r10 72r10 79r10 82r10
+. 86r10 130r60 155r7 184r13 189r13
+31e31 C{character} 8|51b31 54r40
+35U14*Write_Info_Char_Code 35>36 8|62b14 90l8 90t28
+35m36 Code{19|535M12} 8|62b36 78r10 79r42 81r13 83r40 87r40 88r40
+40V13*Write_Info_Col{positive} 8|96b13 99l8 99t22
+43U14*Write_Info_EOL 8|105b14 124l8 124t22
+48U14*Write_Info_Initiate 48>35 8|130b14
+48e35 Key{character}
+53U14*Write_Info_Nat 53>30 8|149b14 152r10 156l8 156t22
+53i30 N{19|65I12} 8|149b30 151r10 152r26 155r39
+56U14*Write_Info_Name 56>31 8|136b14 143l8 143t23
+56i31 Name{19|372I9} 8|136b31 138r24
+59U14*Write_Info_Str 59>30 8|162b14 168l8 168t22 179r10
+59s30 Val{string} 8|162b30 164r61 165r70 166r44 167r44
+62U14*Write_Info_Tab 62>30 8|174b14 192l8 192t22
+62i30 Col{positive} 8|174b30 178r10 183r23 188r34
+67U14*Write_Info_Terminate 8|110r10 198b14 215l8 215t28
+X 8 lib-util.adb
+33i4 Max_Line{natural} 34r44 108r35
+34i4 Max_Buffer{natural} 36r31 108r50
+36a4 Info_Buffer{string} 54m7 115r21 121m10 139m7 164m7 203r18 210r27
+39i4 Info_Buffer_Len{natural} 53m7 53r26 54r20 108r17 114r16 115r34 117m13
+. 117r32 120m10 120r29 121r23 139r20 139r43 141m7 141r26 164r20 164r43 166m7
+. 166r26 202r13 203r31 205m10 205r29 210r45 212m7
+42i4 Info_Buffer_Col{natural} 55m7 55r26 98r14 122m10 142m7 142r26 167m7
+. 167r26 178r17 182r31 185m13 188r16 213m7
+64U17 Write_Info_Hex_Byte 64>38 67b17 73l11 73t30 83r10 87r10 88r10
+64i38 J{natural} 67b38 71r33 72r33
+68a10 Hexd{string} 71r27 72r27
+130e35 Key{character}
+175i7 Next_Tab{positive} 182m13 183r29 185r32
+X 9 namet.ads
+40K9*Namet 8|28w6 28r20 9|425e10
+129a4*Name_Buffer{string} 8|140r9
+135i4*Name_Len{natural} 8|139r61 140r27 141r44 142r44
+148U14*Get_Name_String 8|138r7
+X 10 osint.ads
+37K9*Osint 8|29r6 29r20 10|629e10
+X 11 osint-c.ads
+30K15*C 8|29w12 29r26 11|154e12
+120U14*Write_Library_Info 8|210r7
+X 19 types.ads
+59I9*Int<integer>
+65I12*Nat{59I9} 7|53r34 8|149r34
+372I9*Name_Id<integer> 7|56r38 8|136r38
+532M9*Char_Code_Base
+535M12*Char_Code{532M9} 7|35r43 8|62r43
+

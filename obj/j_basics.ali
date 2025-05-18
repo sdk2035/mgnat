@@ -1,0 +1,166 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnvnnnvnnnnnnnnnnnnnnnnnvnvnnnnnnnnvnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U j_basics%b		j_basics.adb		a55fd58c NE PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.latin_1%s  a-chlat1.ads	a-chlat1.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.adb		g-os_lib.ali
+W osint%s		osint.adb		osint.ali
+W output%s		output.adb		output.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+
+U j_basics%s		j_basics.ads		35151540 BN EE NE PK
+W j_types%s		j_types.adb		j_types.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-charac.ads		20060219120048 506ce725
+D a-chlat1.ads		20060219120048 3078abae
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D hostparm.ads		20060213225900 f78f204c
+D j_basics.ads		20021211230738 71dbba47
+D j_basics.adb		20041021185728 f5e561f3
+D j_types.ads		19990119232548 44ceaf07
+D osint.ads		20050819204702 67d8ead2
+D output.ads		20051202225852 111deb13
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-secsta.ads		20060219120110 db466d0c
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-strops.ads		20060219120110 92e79914
+D s-sopco3.ads		20060219120110 14cc5bf6
+D s-sopco4.ads		20060219120110 dca7f27b
+D s-sopco5.ads		20060219120110 63c5ad18
+D s-unstyp.ads		20060219120112 b399198a
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 1 ada.ads
+16K9*Ada 19e8 9|29r6 53r39 54r39
+X 2 a-charac.ads
+16K13*Characters 19e19 9|29r10 53r43 54r43
+X 3 a-chlat1.ads
+16K24*Latin_1 295e27 9|29w21 53r54 54r54
+33e4*LF{character} 9|53r62
+36e4*CR{character} 9|54r62
+X 4 gnat.ads
+36K9*GNAT 39e9 9|30r6 107r11 169r11
+X 5 g-os_lib.ads
+52K14*OS_Lib 859e16 9|30w11 107r16 169r16
+160I9*File_Descriptor<integer> 9|111r21 172r21
+168i4*Invalid_FD{160I9} 9|116r21 177r22
+171n18*Binary{171E9} 9|114r51 175r54
+255U14*Close 9|149r10 187r7
+351V13*Read{integer} 9|140r27
+358V13*Write{integer} 9|182r9
+380V13*File_Length{long_integer} 9|124r28
+558V13*Open_Read{160I9} 9|114r19
+566V13*Create_File{160I9} 9|175r20
+X 8 j_basics.ads
+34K9*J_Basics 104l5 104e13 9|34b14 252l5 252t13
+36b4*Debug_ON{boolean} 9|42r10
+38U14*Debug_Msg 38>25 102r19 9|40b14 46l8 46t17
+38s25 S{string} 9|40b25 43r28
+41V13*Strip{string} 41>20 9|159r34 195r34 204b13 218l8 218t13
+41s20 S{string} 9|204b20 205r22 206r22 209r29 213r29 217r14
+45V13*Right_Justify{string} 45>28 45>40 9|194b13 198l8 198t21
+45s28 S{string} 9|194b28 195r41
+45i40 Pos{positive} 9|194b40 197r27
+49V13*Left_Justify{string} 49>27 49>39 9|158b13 162l8 162t20
+49s27 S{string} 9|158b27 159r41
+49i39 Pos{positive} 9|158b39 161r35
+53V13*To_String{string} 53>24 9|240b13 250l8 250t17
+53a24 Stream{10|79A9} 9|240b24 241r33 245r16 246r34
+57V13*To_Stream_Of_U1{10|79A9} 57>30 9|224b13 234l8 234t23
+57s30 S{string} 9|224b30 225r43 229r16 230r43
+60V13*Get_Stream_Of_U1{10|80P9} 61>7 62>7 9|102b13 152l8 152t24
+61s7 File_Name{string} 9|103b7 109r40 120r42
+62b7 Dont_Fail{boolean} 9|104b7 117r13
+70U14*Put_Stream_Of_U1 70>32 70>55 9|168b14 188l8 188t24
+70a32 Stream{10|79A9} 9|168b32 181r19 182r27 182r52
+70s55 File_Name{string} 9|168b55 171r40 178r41 184r51
+75R9*Line_Position 78e14 79r50
+76i7*First{10|64I12} 9|76r25
+77i7*Last{10|64I12} 9|84r28 86r28 90r25
+79A9*Line_Table(75R9) 80r64 9|52r64 66r17
+80V13*Get_Line_Table{79A9} 80>29 9|52b13 96l8 96t22
+80a29 Source_File{10|79A9} 9|52b29 59r16 60r13 60r46 73r19 80r16 83r23 83r50
+. 89r23
+X 9 j_basics.adb
+53N7 LF 60r31 80r34
+54N7 CR 83r72
+56i7 Total_Lines{10|64I12} 61m13 61r28 66r34
+59i11 K<integer> 60r26 60r42
+66a10 Line{8|79A9} 76m16 84m19 86m19 90m16 94r17
+67i10 N{10|64I12} 75m16 75r21 76r22 84r25 86r25 90r22
+70b10 New_Line_Starts{boolean} 74r16 77m16 81m16
+73i14 K<integer> 76r34 80r29 83r19 83r63 84r36 86r36 89r19 90r33
+109a7 File_Name_0{string} 114r30
+110i7 File_Len{integer} 124m7 128r37 140r64 146r36
+111i7 Input_FD{5|160I9} 114m7 116r10 124r41 140r33 149r17
+126q7 Read_The_Stream 151l11 151e26
+127i10 Lo{10|64I12} 129r57 138r16
+128i10 Hi{10|64I12} 129r63 138m10 140r51 143m16 143r22
+129p10 Stream{10|80P9} 140m43 150r17
+131i10 Actual_Len{integer} 140m13 142r16 143r35 146r23 146r48
+159a7 New_S{string} 161r14 161r41
+171a7 File_Name_0{string} 175r33
+172i7 Output_FD{5|160I9} 175m7 177r10 182r16 187r14
+195a7 New_S{string} 197r33 197r56
+205i7 F{integer} 209r13 209r32 210m10 210r15 213r13 217r17
+206i7 L{integer} 209r18 213r18 213r32 214m10 214r15 217r22
+225a7 Stream{10|79A9} 230m10 233r14
+226i7 P{10|64I12} 230r18 231m10 231r15
+229i11 K{integer} 230r46
+241a7 S{string} 246m10 249r14
+242i7 P{positive} 246r13 247m10 247r15
+245i11 K<integer> 246r42
+X 10 j_types.ads
+32K9*J_Types 8|31w6 31r20 10|198e12
+36M9*U1 9|230r24
+56I9*Int_32<integer> 9|143r27
+64I12*Nat_32{56I9} 8|76r15 77r15 9|56r21 67r17 127r28 128r19 128r29 225r35
+. 226r16
+69I12*Pos_32{64I12} 8|79r30
+79A9*Stream_Of_U1(36M9) 8|53r33 57r49 70r41 80r43 9|52r43 129r43 168r41 224r49
+. 225r16 240r33
+80P9*Stream_Of_U1_Ptr(79A9) 8|63r19 9|105r19 129r19
+X 11 osint.ads
+37K9*Osint 9|31w6 120r13 178r10 184r10 11|629e10
+121U14*Fail 9|120r19 178r16 184r16
+X 12 output.ads
+41K9*Output 9|32w6 43r10 44r10 12|194e11
+93U14*Write_Eol 9|44r17
+104U14*Write_Str 9|43r17
+

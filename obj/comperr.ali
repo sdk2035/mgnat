@@ -1,0 +1,223 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnnnnnvnnnnnnnvnvnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U comperr%b		comperr.adb		7c984a75 NE PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W atree%s		atree.adb		atree.ali
+W debug%s		debug.adb		debug.ali
+W errout%s		errout.adb		errout.ali
+W fname%s		fname.adb		fname.ali
+W gnatvsn%s		gnatvsn.adb		gnatvsn.ali
+W lib%s			lib.adb			lib.ali
+W namet%s		namet.adb		namet.ali
+W osint%s		osint.adb		osint.ali
+W output%s		output.adb		output.ali
+W sdefault%s		sdefault.adb		sdefault.ali
+W sinput%s		sinput.adb		sinput.ali
+W sprint%s		sprint.adb		sprint.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W treepr%s		treepr.adb		treepr.ali
+W types%s		types.adb		types.ali
+
+U comperr%s		comperr.ads		ab4c3d47 EE NE PK
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D casing.ads		20050704094644 1a6e5ef9
+D comperr.ads		20041021165202 ab4c3d47
+D comperr.adb		20041021165346 e022766f
+D debug.ads		20051106042240 f7a1e876
+D einfo.ads		20060105095504 a63ced63
+D err_vars.ads		20051106042414 f22c305d
+D errout.ads		20051106042544 1b1d99fc
+D erroutc.ads		20051106042626 749b7f29
+D fname.ads		20050704094646 e06812a2
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D lib.ads		20051127005428 f7794dc9
+D namet.ads		20051128233748 d7b5fee4
+D osint.ads		20050819204702 67d8ead2
+D output.ads		20051202225852 111deb13
+D sdefault.ads		20050819200558 d4238d68
+D sinfo.ads		20051124200850 7567e295
+D sinput.ads		20050925211914 fd546e96
+D snames.ads		20060213235714 57cf62a2
+D sprint.ads		20050819202648 93a4548f
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-parame.ads		20060219120110 6bd7b874
+D s-secsta.ads		20060219120110 db466d0c
+D s-soflin.ads		20060219120110 677820d8
+D s-stache.ads		20060219120110 07e06d0a
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-traent.ads		20060219120112 9950c76b
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D treepr.ads		20050819202804 13ec75ff
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 1 ada.ads
+16K9*Ada 19e8 7|46r6 46r26
+X 2 a-except.ads
+59K13*Exceptions 335e19 7|46w10 46r30
+71P9*Exception_Occurrence_Access(70R9)
+103V13*Exception_Message{string} 7|205r24
+X 4 atree.ads
+45K9*Atree 2860e10 7|31w6 31r20
+275i4*Current_Error_Node{41|400I9} 7|212r19 213r26 219r35 351r30
+574V13*Sloc{41|200I12} 7|212r13 213r20 219r29
+X 6 comperr.ads
+31K9*Comperr 73l5 73e12 7|50b14 405l5 405t12
+33U14*Compiler_Abort 34>7 35>7 7|73b14 390l8 390t22
+34s7 X{string} 7|74b7 162r13 172r13 178r22 183r27 186r27 186r48 189r24
+35i7 Code{integer} 7|75b7 163r16 192r13 194r29 196r16
+X 7 comperr.adb
+56b4 Abort_In_Progress{boolean} 105r10 109m7
+64U14 Repeat_Char 64>27 64>45 64>56 92r10 137r10 139r10 345r10 396b14 403l8
+. 403t19
+64e27 Char{character} 396b27 399r22
+64i45 Col{41|65I12} 396b45 398r22
+64e56 After{character} 396b56 402r19
+83U17 End_Line 90b17 94l11 94t19 167r13 184r16 208r10 216r13 220r13 252r19
+. 269r19 275r19 280r19 287r19 293r16 298r16 302r16 306r16 311r19 316r19 322r19
+. 326r19 332r19 337r19
+96b7 Is_Public_Version{boolean} 283r24 308r19
+97b7 Is_FSF_Version{boolean} 265r19 283r45 328r26
+98b7 Is_GAP_Version{boolean} 318r22
+174i16 Last_Blank{integer} 179m22 183r35 186r30
+177i20 P{integer} 178r25 179r36
+227i13 Lo{41|200I12} 240m16 242r30 246r43 247r37 248r39 249m22 249r28 254r25
+. 255r36 256r46 258m22 258r28
+228i13 Hi{41|200I12} 235m46 242r35 254r31
+229p13 Src{41|192P9} 235m50 239r16 246r38 247r32 248r34 255r31 256r41
+242l16 Outer 260l25 260e30
+245l19 Inner 246r27 250l28 250e33
+363i14 U<41|59I9> 366r51 368r61
+X 8 debug.ads
+38K9*Debug 7|32w6 32r20 8|195e10
+64b4*Debug_Flag_K{boolean} 7|117r52
+110b4*Debug_Flag_3{boolean} 7|348r13
+X 11 errout.ads
+40K9*Errout 7|33w6 33r20 118r10 11|668e11
+42i4*Serious_Errors_Detected=42:51{41|65I12} 7|117r10
+511U14*Finalize 7|118r17
+X 13 fname.ads
+40K9*Fname 7|34w6 34r20 13|99e10
+82V13*Is_Internal_File_Name{boolean} 7|365r23
+X 17 gnatvsn.ads
+37K9*Gnatvsn 7|35w6 35r20 17|107e12
+39a4*Gnat_Static_Version_String{string} 7|145r21
+53n38*FSF{53E9} 7|97r69
+53n43*GAP{53E9} 7|98r69
+53n48*Public{53E9} 7|96r69
+56V13*Get_Gnat_Build_Type{53E9} 7|96r47 97r47 98r47
+X 19 lib.ads
+41K9*Lib 7|36w6 36r20 19|760e8
+382V13*Source_Index{41|582I9} 7|366r37 368r47
+405V13*Last_Unit{41|571I9} 7|363r32
+X 20 namet.ads
+40K9*Namet 7|37w6 37r20 232r13 20|425e10
+129a4*Name_Buffer{string} 7|233m13
+135i4*Name_Len{natural} 7|234m13
+221U14*Unlock 7|232r19
+247V13*Name_Enter{41|372I9} 7|235r31
+353U14*Write_Name 7|368r19
+X 21 osint.ads
+37K9*Osint 7|38w6 38r20 21|629e10
+325U14*Read_Source_File 7|235r13
+522n7*E_Errors{517E9} 7|127r24
+524n7*E_Abort{517E9} 7|106r24
+526U14*Exit_Program 7|106r10 127r10
+X 22 output.ads
+41K9*Output 7|39w6 39r20 22|194e11
+71U14*Set_Standard_Error 7|120r10 132r10
+78U14*Set_Standard_Output 7|124r10 383r10
+86U14*Write_Char 7|136r10 204r13 248r22 344r10 399r10 402r7
+93U14*Write_Eol 7|93r10 122r10 140r10 346r10 349r13 350r13 352r13 355r10
+. 361r10 369r19 382r10
+100U14*Write_Int 7|194r13
+104U14*Write_Str 7|121r10 138r10 144r10 145r10 146r10 153r13 155r13 160r10
+. 164r16 169r13 183r16 185r16 186r16 189r13 193r13 205r13 215r13 218r13 243r19
+. 266r19 272r19 277r19 284r19 290r16 295r16 300r16 304r16 309r19 313r19 319r19
+. 324r19 329r19 334r19 377r19
+110U14*Write_Line 7|357r10 358r10 359r10 360r10
+113V13*Column{41|68I12} 7|162r24 398r13
+X 23 sdefault.ads
+28K9*Sdefault 7|42w6 42r20 23|38e13
+36V13*Target_Name{41|119P9} 7|150r13 150r30 151r20 151r37 153r24 153r46 155r24
+X 25 sinput.ads
+72K9*Sinput 7|40w6 40r20 25|751e11
+283V13*File_Name{41|593I12} 7|366r26
+287V13*Full_File_Name{41|593I12} 7|368r31
+587U14*Write_Location 7|219r13
+X 27 sprint.ads
+36K9*Sprint 7|41w6 41r20 27|150e11
+88U14*Source_Dump 7|125r10 386r10
+X 28 system.ads
+39K9*System 7|48r6 48r29 28|205e11
+X 32 s-soflin.ads
+45K16*Soft_Links 7|48w13 48r36 32|363e22
+75P9*Get_EOA_Call(2|71P9)
+234p4*Get_Current_Excep{75P9} 7|205r43
+X 40 treepr.ads
+28K9*Treepr 7|43w6 43r20 40|81e11
+33U14*Tree_Dump 7|126r10 385r10
+37U14*Print_Tree_Node 7|351r13
+X 41 types.ads
+52K9*Types 7|44w6 44r20 41|829e10
+59I9*Int<integer> 7|194r24
+65I12*Nat{59I9} 7|64r51 396r51
+68I12*Pos{59I9}
+119P9*String_Ptr(string)
+140I9*Text_Ptr<59I9>
+143A9*Text_Buffer(character)
+188A12*Big_Source_Buffer{143A9}
+192P9*Source_Buffer_Ptr(188A12) 7|229r19
+200I12*Source_Ptr{140I9} 7|227r19 228r19
+207i4*No_Location{200I12} 7|213r48
+213i4*Standard_Location{200I12} 7|212r42
+372I9*Name_Id<integer>
+400I9*Node_Id<integer>
+571I9*Unit_Number_Type<59I9>
+576i4*Main_Unit{571I9} 7|363r19
+582I9*Source_File_Index<59I9>
+593I12*File_Name_Type{372I9}
+730X4*Unrecoverable_Error 7|387r16
+

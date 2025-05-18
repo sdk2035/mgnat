@@ -1,0 +1,72 @@
+V "GNAT Lib v5.05"
+M P W=b
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U makeusg%b		makeusg.adb		7e457e52 NE SU
+W osint%s		osint.adb		osint.ali
+W output%s		output.adb		output.ali
+W usage%s		usage.adb		usage.ali
+
+U makeusg%s		makeusg.ads		e6d4c046 EE NE SU
+
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D hostparm.ads		20060213225900 f78f204c
+D makeusg.ads		20050819163950 e6d4c046
+D makeusg.adb		20050819204244 32473162
+D osint.ads		20050819204702 67d8ead2
+D output.ads		20051202225852 111deb13
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D usage.ads		20050819202736 dc138eb7
+X 5 makeusg.ads
+29U11*Makeusg 6|31b11 312l5 312t12
+X 7 osint.ads
+37K9*Osint 6|27w6 27r18 39r4 7|629e10
+117U14*Write_Program_Name 6|39r10
+X 8 output.ads
+41K9*Output 6|28w6 28r18 8|194e11
+93U14*Write_Eol 6|42r4 43r4 46r4 47r4 52r4 57r4 62r4 67r4 72r4 78r4 84r4
+. 89r4 94r4 100r4 105r4 110r4 116r4 121r4 126r4 131r4 136r4 141r4 147r4 152r4
+. 157r4 162r4 167r4 172r4 177r4 182r4 187r4 192r4 198r4 204r4 209r4 210r4
+. 213r4 216r4 219r4 220r4 225r4 230r4 235r4 240r4 245r4 250r4 256r4 261r4
+. 267r4 273r4 279r4 280r4 286r4 291r4 296r4 301r4 306r4
+104U14*Write_Str 6|38r4 40r4 41r4 44r4 45r4 51r4 56r4 61r4 66r4 71r4 76r4
+. 82r4 88r4 93r4 98r4 104r4 109r4 114r4 115r4 120r4 125r4 130r4 135r4 140r4
+. 145r4 146r4 151r4 156r4 161r4 166r4 171r4 176r4 181r4 186r4 191r4 196r4
+. 202r4 208r4 212r4 215r4 218r4 224r4 229r4 234r4 239r4 244r4 249r4 254r4
+. 255r4 260r4 265r4 266r4 271r4 272r4 277r4 284r4 285r4 290r4 295r4 300r4
+. 305r4
+X 16 usage.ads
+29U11*Usage 6|29w6 310r4
+

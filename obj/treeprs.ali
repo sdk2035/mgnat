@@ -1,0 +1,289 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U treeprs%s		treeprs.ads		2645111a NE PK
+W sinfo%s		sinfo.adb		sinfo.ali
+
+D alloc.ads		20050704094642 baad0baa
+D sinfo.ads		20051124200850 7567e295
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D treeprs.ads		20060213225714 5322f38f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 sinfo.ads
+57K9*Sinfo 9296e10 8|32w6 32r17
+6584E9*Node_Kind 6928e23 8|604r35
+6585n7*N_Unused_At_Start{6584E9} 8|606r7
+6589n7*N_At_Clause{6584E9} 8|607r7
+6590n7*N_Component_Clause{6584E9} 8|608r7
+6591n7*N_Enumeration_Representation_Clause{6584E9} 8|609r7
+6592n7*N_Mod_Clause{6584E9} 8|610r7
+6593n7*N_Record_Representation_Clause{6584E9} 8|611r7
+6597n7*N_Attribute_Definition_Clause{6584E9} 8|612r7
+6601n7*N_Empty{6584E9} 8|613r7
+6602n7*N_Pragma{6584E9} 8|614r7
+6603n7*N_Pragma_Argument_Association{6584E9} 8|615r7
+6607n7*N_Error{6584E9} 8|616r7
+6611n7*N_Defining_Character_Literal{6584E9} 8|617r7
+6612n7*N_Defining_Identifier{6584E9} 8|618r7
+6613n7*N_Defining_Operator_Symbol{6584E9} 8|619r7
+6617n7*N_Expanded_Name{6584E9} 8|620r7
+6622n7*N_Identifier{6584E9} 8|621r7
+6623n7*N_Operator_Symbol{6584E9} 8|622r7
+6628n7*N_Character_Literal{6584E9} 8|623r7
+6633n7*N_Op_Add{6584E9} 8|624r7
+6634n7*N_Op_Concat{6584E9} 8|625r7
+6635n7*N_Op_Expon{6584E9} 8|626r7
+6636n7*N_Op_Subtract{6584E9} 8|627r7
+6641n7*N_Op_Divide{6584E9} 8|628r7
+6642n7*N_Op_Mod{6584E9} 8|629r7
+6643n7*N_Op_Multiply{6584E9} 8|630r7
+6644n7*N_Op_Rem{6584E9} 8|631r7
+6649n7*N_Op_And{6584E9} 8|632r7
+6654n7*N_Op_Eq{6584E9} 8|633r7
+6655n7*N_Op_Ge{6584E9} 8|634r7
+6656n7*N_Op_Gt{6584E9} 8|635r7
+6657n7*N_Op_Le{6584E9} 8|636r7
+6658n7*N_Op_Lt{6584E9} 8|637r7
+6659n7*N_Op_Ne{6584E9} 8|638r7
+6664n7*N_Op_Or{6584E9} 8|639r7
+6665n7*N_Op_Xor{6584E9} 8|640r7
+6670n7*N_Op_Rotate_Left{6584E9} 8|641r7
+6671n7*N_Op_Rotate_Right{6584E9} 8|642r7
+6672n7*N_Op_Shift_Left{6584E9} 8|643r7
+6673n7*N_Op_Shift_Right{6584E9} 8|644r7
+6674n7*N_Op_Shift_Right_Arithmetic{6584E9} 8|645r7
+6679n7*N_Op_Abs{6584E9} 8|646r7
+6680n7*N_Op_Minus{6584E9} 8|647r7
+6681n7*N_Op_Not{6584E9} 8|648r7
+6682n7*N_Op_Plus{6584E9} 8|649r7
+6686n7*N_Attribute_Reference{6584E9} 8|650r7
+6690n7*N_And_Then{6584E9} 8|651r7
+6691n7*N_Conditional_Expression{6584E9} 8|652r7
+6692n7*N_Explicit_Dereference{6584E9} 8|653r7
+6693n7*N_Function_Call{6584E9} 8|654r7
+6694n7*N_In{6584E9} 8|655r7
+6695n7*N_Indexed_Component{6584E9} 8|656r7
+6696n7*N_Integer_Literal{6584E9} 8|657r7
+6697n7*N_Not_In{6584E9} 8|658r7
+6698n7*N_Null{6584E9} 8|659r7
+6699n7*N_Or_Else{6584E9} 8|660r7
+6700n7*N_Procedure_Call_Statement{6584E9} 8|661r7
+6701n7*N_Qualified_Expression{6584E9} 8|662r7
+6705n7*N_Raise_Constraint_Error{6584E9} 8|663r7
+6706n7*N_Raise_Program_Error{6584E9} 8|664r7
+6707n7*N_Raise_Storage_Error{6584E9} 8|665r7
+6711n7*N_Aggregate{6584E9} 8|666r7
+6712n7*N_Allocator{6584E9} 8|667r7
+6713n7*N_Extension_Aggregate{6584E9} 8|668r7
+6714n7*N_Range{6584E9} 8|669r7
+6715n7*N_Real_Literal{6584E9} 8|670r7
+6716n7*N_Reference{6584E9} 8|671r7
+6717n7*N_Selected_Component{6584E9} 8|672r7
+6718n7*N_Slice{6584E9} 8|673r7
+6719n7*N_String_Literal{6584E9} 8|674r7
+6720n7*N_Subprogram_Info{6584E9} 8|675r7
+6721n7*N_Type_Conversion{6584E9} 8|676r7
+6722n7*N_Unchecked_Expression{6584E9} 8|677r7
+6723n7*N_Unchecked_Type_Conversion{6584E9} 8|678r7
+6727n7*N_Subtype_Indication{6584E9} 8|679r7
+6731n7*N_Component_Declaration{6584E9} 8|680r7
+6732n7*N_Entry_Declaration{6584E9} 8|681r7
+6733n7*N_Formal_Object_Declaration{6584E9} 8|682r7
+6734n7*N_Formal_Type_Declaration{6584E9} 8|683r7
+6735n7*N_Full_Type_Declaration{6584E9} 8|684r7
+6736n7*N_Incomplete_Type_Declaration{6584E9} 8|685r7
+6737n7*N_Loop_Parameter_Specification{6584E9} 8|686r7
+6738n7*N_Object_Declaration{6584E9} 8|687r7
+6739n7*N_Protected_Type_Declaration{6584E9} 8|688r7
+6740n7*N_Private_Extension_Declaration{6584E9} 8|689r7
+6741n7*N_Private_Type_Declaration{6584E9} 8|690r7
+6742n7*N_Subtype_Declaration{6584E9} 8|691r7
+6746n7*N_Function_Specification{6584E9} 8|692r7
+6747n7*N_Procedure_Specification{6584E9} 8|693r7
+6751n7*N_Access_Function_Definition{6584E9} 8|694r7
+6752n7*N_Access_Procedure_Definition{6584E9} 8|695r7
+6756n7*N_Task_Type_Declaration{6584E9} 8|696r7
+6760n7*N_Package_Body_Stub{6584E9} 8|697r7
+6761n7*N_Protected_Body_Stub{6584E9} 8|698r7
+6762n7*N_Subprogram_Body_Stub{6584E9} 8|699r7
+6763n7*N_Task_Body_Stub{6584E9} 8|700r7
+6768n7*N_Function_Instantiation{6584E9} 8|701r7
+6769n7*N_Procedure_Instantiation{6584E9} 8|702r7
+6773n7*N_Package_Instantiation{6584E9} 8|703r7
+6777n7*N_Package_Body{6584E9} 8|704r7
+6778n7*N_Subprogram_Body{6584E9} 8|705r7
+6782n7*N_Protected_Body{6584E9} 8|706r7
+6783n7*N_Task_Body{6584E9} 8|707r7
+6787n7*N_Implicit_Label_Declaration{6584E9} 8|708r7
+6788n7*N_Package_Declaration{6584E9} 8|709r7
+6789n7*N_Single_Task_Declaration{6584E9} 8|710r7
+6790n7*N_Subprogram_Declaration{6584E9} 8|711r7
+6791n7*N_Use_Package_Clause{6584E9} 8|712r7
+6795n7*N_Generic_Package_Declaration{6584E9} 8|713r7
+6796n7*N_Generic_Subprogram_Declaration{6584E9} 8|714r7
+6800n7*N_Constrained_Array_Definition{6584E9} 8|715r7
+6801n7*N_Unconstrained_Array_Definition{6584E9} 8|716r7
+6805n7*N_Exception_Renaming_Declaration{6584E9} 8|717r7
+6806n7*N_Object_Renaming_Declaration{6584E9} 8|718r7
+6807n7*N_Package_Renaming_Declaration{6584E9} 8|719r7
+6808n7*N_Subprogram_Renaming_Declaration{6584E9} 8|720r7
+6812n7*N_Generic_Function_Renaming_Declaration{6584E9} 8|721r7
+6813n7*N_Generic_Package_Renaming_Declaration{6584E9} 8|722r7
+6814n7*N_Generic_Procedure_Renaming_Declaration{6584E9} 8|723r7
+6818n7*N_Abort_Statement{6584E9} 8|724r7
+6819n7*N_Accept_Statement{6584E9} 8|725r7
+6820n7*N_Assignment_Statement{6584E9} 8|726r7
+6821n7*N_Asynchronous_Select{6584E9} 8|727r7
+6822n7*N_Block_Statement{6584E9} 8|728r7
+6823n7*N_Case_Statement{6584E9} 8|729r7
+6824n7*N_Code_Statement{6584E9} 8|730r7
+6825n7*N_Conditional_Entry_Call{6584E9} 8|731r7
+6829n7*N_Delay_Relative_Statement{6584E9} 8|732r7
+6830n7*N_Delay_Until_Statement{6584E9} 8|733r7
+6834n7*N_Entry_Call_Statement{6584E9} 8|734r7
+6835n7*N_Free_Statement{6584E9} 8|735r7
+6836n7*N_Goto_Statement{6584E9} 8|736r7
+6837n7*N_Loop_Statement{6584E9} 8|737r7
+6838n7*N_Null_Statement{6584E9} 8|738r7
+6839n7*N_Raise_Statement{6584E9} 8|739r7
+6840n7*N_Requeue_Statement{6584E9} 8|740r7
+6841n7*N_Return_Statement{6584E9} 8|741r7
+6842n7*N_Selective_Accept{6584E9} 8|742r7
+6843n7*N_Timed_Entry_Call{6584E9} 8|743r7
+6847n7*N_Exit_Statement{6584E9} 8|744r7
+6848n7*N_If_Statement{6584E9} 8|745r7
+6852n7*N_Accept_Alternative{6584E9} 8|746r7
+6853n7*N_Delay_Alternative{6584E9} 8|747r7
+6854n7*N_Elsif_Part{6584E9} 8|748r7
+6855n7*N_Entry_Body_Formal_Part{6584E9} 8|749r7
+6856n7*N_Iteration_Scheme{6584E9} 8|750r7
+6857n7*N_Terminate_Alternative{6584E9} 8|751r7
+6861n7*N_Formal_Abstract_Subprogram_Declaration{6584E9} 8|752r7
+6862n7*N_Formal_Concrete_Subprogram_Declaration{6584E9} 8|753r7
+6866n7*N_Abortable_Part{6584E9} 8|754r7
+6867n7*N_Abstract_Subprogram_Declaration{6584E9} 8|755r7
+6868n7*N_Access_Definition{6584E9} 8|756r7
+6869n7*N_Access_To_Object_Definition{6584E9} 8|757r7
+6870n7*N_Case_Statement_Alternative{6584E9} 8|758r7
+6871n7*N_Compilation_Unit{6584E9} 8|759r7
+6872n7*N_Compilation_Unit_Aux{6584E9} 8|760r7
+6873n7*N_Component_Association{6584E9} 8|761r7
+6874n7*N_Component_Definition{6584E9} 8|762r7
+6875n7*N_Component_List{6584E9} 8|763r7
+6876n7*N_Derived_Type_Definition{6584E9} 8|764r7
+6877n7*N_Decimal_Fixed_Point_Definition{6584E9} 8|765r7
+6878n7*N_Defining_Program_Unit_Name{6584E9} 8|766r7
+6879n7*N_Delta_Constraint{6584E9} 8|767r7
+6880n7*N_Designator{6584E9} 8|768r7
+6881n7*N_Digits_Constraint{6584E9} 8|769r7
+6882n7*N_Discriminant_Association{6584E9} 8|770r7
+6883n7*N_Discriminant_Specification{6584E9} 8|771r7
+6884n7*N_Enumeration_Type_Definition{6584E9} 8|772r7
+6885n7*N_Entry_Body{6584E9} 8|773r7
+6886n7*N_Entry_Call_Alternative{6584E9} 8|774r7
+6887n7*N_Entry_Index_Specification{6584E9} 8|775r7
+6888n7*N_Exception_Declaration{6584E9} 8|776r7
+6889n7*N_Exception_Handler{6584E9} 8|777r7
+6890n7*N_Floating_Point_Definition{6584E9} 8|778r7
+6891n7*N_Formal_Decimal_Fixed_Point_Definition{6584E9} 8|779r7
+6892n7*N_Formal_Derived_Type_Definition{6584E9} 8|780r7
+6893n7*N_Formal_Discrete_Type_Definition{6584E9} 8|781r7
+6894n7*N_Formal_Floating_Point_Definition{6584E9} 8|782r7
+6895n7*N_Formal_Modular_Type_Definition{6584E9} 8|783r7
+6896n7*N_Formal_Ordinary_Fixed_Point_Definition{6584E9} 8|784r7
+6897n7*N_Formal_Package_Declaration{6584E9} 8|785r7
+6898n7*N_Formal_Private_Type_Definition{6584E9} 8|786r7
+6899n7*N_Formal_Signed_Integer_Type_Definition{6584E9} 8|787r7
+6900n7*N_Freeze_Entity{6584E9} 8|788r7
+6901n7*N_Generic_Association{6584E9} 8|789r7
+6902n7*N_Handled_Sequence_Of_Statements{6584E9} 8|790r7
+6903n7*N_Index_Or_Discriminant_Constraint{6584E9} 8|791r7
+6904n7*N_Itype_Reference{6584E9} 8|792r7
+6905n7*N_Label{6584E9} 8|793r7
+6906n7*N_Modular_Type_Definition{6584E9} 8|794r7
+6907n7*N_Number_Declaration{6584E9} 8|795r7
+6908n7*N_Ordinary_Fixed_Point_Definition{6584E9} 8|796r7
+6909n7*N_Others_Choice{6584E9} 8|797r7
+6910n7*N_Package_Specification{6584E9} 8|798r7
+6911n7*N_Parameter_Association{6584E9} 8|799r7
+6912n7*N_Parameter_Specification{6584E9} 8|800r7
+6913n7*N_Protected_Definition{6584E9} 8|801r7
+6914n7*N_Range_Constraint{6584E9} 8|802r7
+6915n7*N_Real_Range_Specification{6584E9} 8|803r7
+6916n7*N_Record_Definition{6584E9} 8|804r7
+6917n7*N_Signed_Integer_Type_Definition{6584E9} 8|805r7
+6918n7*N_Single_Protected_Declaration{6584E9} 8|806r7
+6919n7*N_Subunit{6584E9} 8|807r7
+6920n7*N_Task_Definition{6584E9} 8|808r7
+6921n7*N_Triggering_Alternative{6584E9} 8|809r7
+6922n7*N_Use_Type_Clause{6584E9} 8|810r7
+6923n7*N_Validate_Unchecked_Conversion{6584E9} 8|811r7
+6924n7*N_Variant{6584E9} 8|812r7
+6925n7*N_Variant_Part{6584E9} 8|813r7
+6926n7*N_With_Clause{6584E9} 8|814r7
+6927n7*N_With_Type_Clause{6584E9} 8|815r7
+6928n7*N_Unused_At_End{6584E9} 8|816r7
+X 8 treeprs.ads
+34K9*Treeprs 818l5 818e12
+51E12*Fchar{character} 53r28 54r28 55r28 56r28 57r28 58r28 59r28 60r28 61r28
+. 62r28 63r28 64r28 65r28 66r28 67r28 68r28 69r28 70r28 71r28 72r28 73r28
+. 74r28 75r28
+53e4*F_Field1{51E12}
+54e4*F_Field2{51E12}
+55e4*F_Field3{51E12}
+56e4*F_Field4{51E12}
+57e4*F_Field5{51E12}
+58e4*F_Flag1{51E12}
+59e4*F_Flag2{51E12}
+60e4*F_Flag3{51E12}
+61e4*F_Flag4{51E12}
+62e4*F_Flag5{51E12}
+63e4*F_Flag6{51E12}
+64e4*F_Flag7{51E12}
+65e4*F_Flag8{51E12}
+66e4*F_Flag9{51E12}
+67e4*F_Flag10{51E12}
+68e4*F_Flag11{51E12}
+69e4*F_Flag12{51E12}
+70e4*F_Flag13{51E12}
+71e4*F_Flag14{51E12}
+72e4*F_Flag15{51E12}
+73e4*F_Flag16{51E12}
+74e4*F_Flag17{51E12}
+75e4*F_Flag18{51E12}
+100a4*Pchars{string}
+604A9*Pchar_Pos_Array(positive) 605r25 605r44
+605a4*Pchar_Pos{604A9}
+

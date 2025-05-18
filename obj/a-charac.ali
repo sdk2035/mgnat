@@ -1,0 +1,40 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U ada.characters%s	a-charac.ads		cc1134cf NE PU PK
+W ada%s			ada.ads			ada.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-charac.ads		20060219120048 506ce725
+D system.ads		20060219120116 9a1fe783
+X 1 ada.ads
+16K9*Ada 19e8 2|16r9 19r5
+X 2 a-charac.ads
+16K13*Characters 1|16k9 2|19l9 19e19
+

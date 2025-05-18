@@ -1,0 +1,150 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U jx_ch7%b		jx_ch7.adb		de33a80e NE PK
+W atree%s		atree.adb		atree.ali
+W einfo%s		einfo.adb		einfo.ali
+W errout%s		errout.adb		errout.ali
+W j_string%s		j_string.adb		j_string.ali
+W jvm%s			jvm.adb			jvm.ali
+W jx_decl%s		jx_decl.adb		jx_decl.ali
+W jx_drive%s		jx_drive.adb		jx_drive.ali
+W sem_util%s		sem_util.adb		sem_util.ali
+W sinfo%s		sinfo.adb		sinfo.ali
+W snames%s		snames.adb		snames.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+
+U jx_ch7%s		jx_ch7.ads		598b31de EE NE PK
+W types%s		types.adb		types.ali
+
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D einfo.ads		20060105095504 a63ced63
+D err_vars.ads		20051106042414 f22c305d
+D errout.ads		20051106042544 1b1d99fc
+D erroutc.ads		20051106042626 749b7f29
+D j_stack.ads		19990119232546 e8b1a39c
+D j_string.ads		20021113225422 ac8693ae
+D j_types.ads		19990119232548 44ceaf07
+D jvm.ads		20060517185752 32c8c0f9
+D jx_ch7.ads		19990322104336 c920657f
+D jx_ch7.adb		20060213231712 42ca8c2d
+D jx_decl.ads		20060417223328 48073337
+D jx_drive.ads		19990119232548 39507b89
+D sem_util.ads		20060105095836 65788333
+D sinfo.ads		20051124200850 7567e295
+D snames.ads		20060213235714 57cf62a2
+D system.ads		20060219120116 9a1fe783
+D s-assert.ads		20060219120106 85573af2
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 atree.ads
+45K9*Atree 2860e10 12|29w6 29r20
+562V13*Nkind{16|6584E9} 12|56r10 62r10 73r18 96r10 106r10
+580V13*Parent{24|400I9} 12|57r22 63r22
+606V13*Convention{17|1199E9} 12|72r18
+X 3 einfo.ads
+39K9*Einfo 6952e10 12|30w6 30r20
+5155B12*B{boolean}
+5365V13*Is_Imported{5155E12} 12|71r10
+X 5 errout.ads
+40K9*Errout 668e11 12|31w6 31r20
+634V13*Compilation_Errors=635:22{boolean} 12|129r17 137r14
+X 7 j_stack.ads
+38U14*Push 12|81r19[13|36] 94r20[13|58] 111r23[13|58]
+40U14*Pop 12|103r20[13|58] 114r23[13|58] 132r22[13|36] 140r19[13|36]
+44V13*Top{10|61I9} 12|127r25[13|36] 128r37[13|36] 135r34[13|36]
+46V13*Empty{boolean} 12|118r35[13|58]
+X 8 j_string.ads
+34K9*J_String 52e13 12|33w6 33r20
+36V13*Name{24|372I9} 12|89r34 91r45 108r38
+X 10 jvm.ads
+55K9*JVM 1291e8 12|32w6 32r20
+61I9*Class_Id 12|48r21 52r21
+64I9*Field_Id 12|50r21
+68I9*Method_Id 12|49r21
+72I9*Type_Id
+168U14*Begin_Class_File 12|82r7
+172U14*End_Class_File 12|130r13 138r10
+243i4*Boolean_Type{72I9} 12|90r11
+254i4*Void_Type{72I9} 12|91r62 108r55
+339V13*New_Field{64I9} 12|89r12
+382V13*New_Method{68I9} 12|91r22 108r15
+436U14*Open_Method 12|92r7 109r10
+442U14*Close_Method 12|104r7 115r10
+451U14*Set_Current_Method 12|93r7 110r10
+1061U14*Gen_Method_Return 12|102r7 113r10
+X 11 jx_ch7.ads
+34K9*Jx_Ch7 40l5 40e11 12|40b14 144l5 144t11
+36V13*Generate_Package_Class{boolean} 36>37 12|46b13 142l8 142t30
+36i37 Pkg{24|400I9} 12|46b37 56r17 57r50 59r24 73r25 96r17 99r21 106r17 112r21
+X 12 jx_ch7.adb
+47i7 Pkg_Entity{24|403I12} 66m7 71r23 72r30 78r30 79r31
+48i7 Pkg_Class{10|61I9} 79m7 81r25 82r25 85r35 86r37 89r23 91r34 108r27 127r32
+. 135r40 138r26
+49i7 Elab_Method{10|68I9} 91m7 92r20 93r27 94r26 104r21 107m10 109r23 110r30
+. 111r29 115r24
+50i7 Elab_Bool{10|64I9} 51r29 88m7
+52i7 Other_Class{10|61I9} 128m10 130r29
+53i7 Pkg_Spec{24|400I9} 57m10 59m10 62r17 63m10 63r30 66r38 97r21
+X 13 jx_decl.ads
+34K9*Jx_Decl 12|34w6 34r20 13|271e12
+36K12*Class_Stack[7|34] 12|81r7 127r13 128r25 132r10 135r22 140r7
+42V13*Current_Class=42:63{10|61I9} 12|83r36
+45i4*Current_Compilation_Class{10|61I9} 12|83m7
+58K12*Method_Stack[7|34] 12|94r7 103r7 111r10 114r10 118r22
+71V13*JVM_Class{10|61I9} 12|79r20
+161U14*Declare_Package_Class 12|78r7
+222U14*Generate_Class_Init_Method 12|85r7
+225U14*Generate_Default_Constructor 12|86r7
+X 14 jx_drive.ads
+34K9*Jx_Drive 12|35w6 35r20 14|52e13
+47U14*Translate 12|97r10 99r10 112r10
+X 15 sem_util.ads
+34K9*Sem_Util 12|36w6 36r20 15|881e13
+169V13*Defining_Entity{24|403I12} 12|66r21
+X 16 sinfo.ads
+57K9*Sinfo 12|37w6 37r20 16|9296e10
+6777n7*N_Package_Body{6584E9} 12|56r24 73r33 96r24 106r24
+6878n7*N_Defining_Program_Unit_Name{6584E9} 12|62r29
+7268V13*Corresponding_Spec{24|400I9} 12|57r30
+X 17 snames.ads
+36K9*Snames 12|38w6 38r20 17|1544e11
+1215n7*Convention_Java{1199E9} 12|72r44
+X 24 types.ads
+52K9*Types 11|32w6 32r17 24|829e10
+372I9*Name_Id<integer>
+400I9*Node_Id<integer> 11|36r43 12|46r43 53r21
+403I12*Entity_Id{400I9} 12|47r21
+

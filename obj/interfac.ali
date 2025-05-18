@@ -1,0 +1,111 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U interfaces%s		interfac.ads		279b6d6d NE PU PK
+
+D interfac.ads		20050819163502 279b6d6d
+D system.ads		20060219120116 9a1fe783
+X 1 interfac.ads
+43K9*Interfaces 44r14 168l5 168e15
+46I9*Integer_8<short_short_integer> 47r8
+49I9*Integer_16<short_integer> 50r8
+52I9*Integer_32<integer> 53r8
+55I9*Integer_64<long_long_integer> 56r8
+58M9*Unsigned_8 59r8 71r16 72r32 75r16 76r32 79r16 80r32 83r16 84r32 87r16
+. 88r32
+61M9*Unsigned_16 62r8 91r16 92r35 95r16 96r32 99r16 100r32 103r16 104r32
+. 107r16 108r32
+64M9*Unsigned_32 65r8 111r16 112r32 115r16 116r32 119r16 120r32 123r16 124r32
+. 127r16 128r32
+67M9*Unsigned_64 68r8 131r16 132r32 135r16 136r32 139r16 140r32 143r16 144r32
+. 147r16 148r32
+70V13*Shift_Left{58M9} 71>7 72>7
+71m7 Value{58M9}
+72i7 Amount{natural}
+74V13*Shift_Right{58M9} 75>7 76>7
+75m7 Value{58M9}
+76i7 Amount{natural}
+78V13*Shift_Right_Arithmetic{58M9} 79>7 80>7
+79m7 Value{58M9}
+80i7 Amount{natural}
+82V13*Rotate_Left{58M9} 83>7 84>7
+83m7 Value{58M9}
+84i7 Amount{natural}
+86V13*Rotate_Right{58M9} 87>7 88>7
+87m7 Value{58M9}
+88i7 Amount{natural}
+90V13*Shift_Left{61M9} 91>7 92>7
+91m7 Value{61M9}
+92i7 Amount{natural}
+94V13*Shift_Right{61M9} 95>7 96>7
+95m7 Value{61M9}
+96i7 Amount{natural}
+98V13*Shift_Right_Arithmetic{61M9} 99>7 100>7
+99m7 Value{61M9}
+100i7 Amount{natural}
+102V13*Rotate_Left{61M9} 103>7 104>7
+103m7 Value{61M9}
+104i7 Amount{natural}
+106V13*Rotate_Right{61M9} 107>7 108>7
+107m7 Value{61M9}
+108i7 Amount{natural}
+110V13*Shift_Left{64M9} 111>7 112>7
+111m7 Value{64M9}
+112i7 Amount{natural}
+114V13*Shift_Right{64M9} 115>7 116>7
+115m7 Value{64M9}
+116i7 Amount{natural}
+118V13*Shift_Right_Arithmetic{64M9} 119>7 120>7
+119m7 Value{64M9}
+120i7 Amount{natural}
+122V13*Rotate_Left{64M9} 123>7 124>7
+123m7 Value{64M9}
+124i7 Amount{natural}
+126V13*Rotate_Right{64M9} 127>7 128>7
+127m7 Value{64M9}
+128i7 Amount{natural}
+130V13*Shift_Left{67M9} 131>7 132>7 150b30
+131m7 Value{67M9}
+132i7 Amount{natural}
+134V13*Shift_Right{67M9} 135>7 136>7 151b30
+135m7 Value{67M9}
+136i7 Amount{natural}
+138V13*Shift_Right_Arithmetic{67M9} 139>7 140>7 152b30
+139m7 Value{67M9}
+140i7 Amount{natural}
+142V13*Rotate_Left{67M9} 143>7 144>7 153b30
+143m7 Value{67M9}
+144i7 Amount{natural}
+146V13*Rotate_Right{67M9} 147>7 148>7 154b30
+147m7 Value{67M9}
+148i7 Amount{natural}
+164F9*IEEE_Float_32<short_float>
+165F9*IEEE_Float_64<long_float>
+166F9*IEEE_Extended_Float<long_long_float>
+

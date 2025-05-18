@@ -1,0 +1,306 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnnnnnnnnnnvnnvnvnnnnnnnvnnnnnnnnnnvnvnnnnnnnnnnnnnnvnvvnnnnnnnnnnnnnnn
+
+U targparm%b		targparm.adb		472cc1a7 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W csets%s		csets.adb		csets.ali
+W namet%s		namet.adb		namet.ali
+W opt%s			opt.adb			opt.ali
+W osint%s		osint.adb		osint.ali
+W output%s		output.adb		output.ali
+W system%s		system.ads		system.ali
+W system.img_enum%s	s-imgenu.adb		s-imgenu.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U targparm%s		targparm.ads		a897959c EE PK
+W rident%s		rident.ads		rident.ali
+W types%s		types.adb		types.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D alloc.ads		20050704094642 baad0baa
+D csets.ads		20051106041828 a510609d
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D namet.ads		20051128233748 d7b5fee4
+D opt.ads		20060214002402 703337d5
+D osint.ads		20050819204702 67d8ead2
+D output.ads		20051202225852 111deb13
+D rident.ads		20050819200532 6450d2e5
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-imgenu.ads		20060219120108 3c6798e9
+D s-parame.ads		20060219120110 6bd7b874
+D s-rident.ads		20060219120110 4205e218
+D s-secsta.ads		20060219120110 db466d0c
+D s-soflin.ads		20060219120110 677820d8
+D s-stache.ads		20060219120110 07e06d0a
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-traent.ads		20060219120112 9950c76b
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D targparm.ads		20050819202804 5c6c13d8
+D targparm.adb		20050819202804 6f137a12
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 4 csets.ads
+34K9*Csets 99e10 31|27w6 27r18
+46A9*Translate_Table(character)
+85a4*Fold_Upper{46A9} 31|276r25 303r25
+X 10 namet.ads
+40K9*Namet 425e10 31|28w6 28r18
+129a4*Name_Buffer{string} 31|188m7
+135i4*Name_Len{natural} 31|189m7 471m13
+237V13*Name_Find{32|372I9} 31|191r25
+247V13*Name_Enter{32|372I9} 31|499r43
+302U14*Add_Char_To_Name_Buffer 31|482r16
+X 11 opt.ads
+46K9*Opt 1350e8 31|29w6 29r18 228r7 241r13 251r13 252r13 381r13 388r13 395r13
+. 396r13 403r13 404r13 411r13 424r13 425r13 434r13 443r13 444r13
+124b4*Address_Is_Private{boolean} 31|228m11 241m17
+321b4*Detect_Blocking{boolean} 31|381m17
+386b4*Exception_Locations_Suppressed{boolean} 31|434m17
+501b4*Global_Discard_Names{boolean} 31|388m17
+547b4*Init_Or_Norm_Scalars{boolean} 31|404m17
+668e4*Locking_Policy{character} 31|252m17 395m17
+674i4*Locking_Policy_Sloc{32|200I12} 31|396m17
+751b4*Normalize_Scalars{boolean} 31|403m17
+806b4*Polling_Required{boolean} 31|411m17
+837e4*Queuing_Policy{character} 31|424m17
+843i4*Queuing_Policy_Sloc{32|200I12} 31|425m17
+947e4*Task_Dispatching_Policy{character} 31|251m17 443m17
+953i4*Task_Dispatching_Policy_Sloc{32|200I12} 31|444m17
+X 12 osint.ads
+37K9*Osint 629e10 31|30w6 30r18
+325U14*Read_Source_File 31|191r7
+327i7 Lo{32|200I12} 31|191r36
+328i7 Hi{32|200I12} 31|191r45
+329p7 Src{32|192P9} 31|191r55
+X 13 output.ads
+41K9*Output 194e11 31|31w6 31r18
+71U14*Set_Standard_Error 31|360r13 450r13 492r16 514r22 602r13 615r16
+78U14*Set_Standard_Output 31|375r13 461r13 495r16 524r22 605r13 625r16
+86U14*Write_Char 31|369r16 456r16 520r25 621r19
+93U14*Write_Eol 31|373r13 460r13 523r22 624r16
+104U14*Write_Str 31|363r13 517r22 618r16
+110U14*Write_Line 31|194r10 195r10 361r13 451r13 493r16 515r22 603r13 604r13
+. 616r16
+X 14 rident.ads
+44K9*Rident[19|47] 30|72w6 72r18
+X 19 s-rident.ads
+56E9*Restriction_Id 31|272r46[14|44]
+170E12*All_Boolean_Restrictions{56E9[14|44]} 31|270r30[14|44]
+188E12*All_Parameter_Restrictions{56E9[14|44]} 31|166r21[14|44] 293r30[14|44]
+. 296r29[14|44]
+242A9*Restriction_Flags(boolean) 31|158r11[14|44]
+243A9*Restriction_Values(natural) 31|159r11[14|44]
+246R9*Restrictions_Info 30|125r29[14|44]
+247a7*Set{242A9[14|44]} 31|164r36[14|44] 284r45[14|44] 341r51[14|44]
+254a7*Value{243A9[14|44]} 31|167r39[14|44] 340r51[14|44]
+292E9*Profile_Name 31|150r44[14|44] 157r44[14|44]
+292n26*Ravenscar{292E9[14|44]} 31|250r39[14|44]
+292n37*Restricted{292E9[14|44]} 31|261r39[14|44]
+295R9*Profile_Data
+296a7*Set{242A9[14|44]} 31|158r55[14|44]
+303a7*Value{243A9[14|44]} 31|159r55[14|44]
+309a4*Profile_Info(295R9[14|44]) 31|158r38[14|44] 159r38[14|44]
+X 30 targparm.ads
+75K9*Targparm 642l5 642e13 31|33b14 199r7 636l5 636t13
+125r4*Restrictions_On_Target{19|246R9[14|44]} 31|164m13 167m16 284m22 340m28
+. 341m28
+149i4*Run_Time_Name_On_Target{32|372I9} 31|499m16
+181b4*Compiler_System_Version{boolean} 31|551m34 612r14
+199b4*AAMP_On_Target{boolean} 31|546m34
+202b4*OpenVMS_On_Target{boolean} 31|571m34
+215b4*Backend_Divide_Checks_On_Target{boolean} 31|547m34
+220b4*Backend_Overflow_Checks_On_Target{boolean} 31|548m34
+309b4*ZCX_By_Default_On_Target{boolean} 31|572m34
+316b4*GCC_ZCX_Support_On_Target{boolean} 31|573m34
+321b4*Front_End_ZCX_Support_On_Target{boolean} 31|574m34
+336b4*Configurable_Run_Time_On_Target{boolean} 31|550m34
+357b4*Suppress_Standard_Library_On_Target{boolean} 31|568m34
+379b4*Preallocated_Stacks_On_Target{boolean} 31|560m34
+394b4*Duration_32_Bits_On_Target{boolean} 31|552m34
+409b4*Support_64_Bit_Divides_On_Target{boolean} 31|561m34
+417b4*Support_Aggregates_On_Target{boolean} 31|562m34
+424b4*Support_Composite_Assign_On_Target{boolean} 31|563m34
+432b4*Support_Composite_Compare_On_Target{boolean} 31|564m34
+439b4*Support_Long_Shifts_On_Target{boolean} 31|567m34
+475b4*Stack_Check_Probes_On_Target{boolean} 31|566m34
+479b4*Stack_Check_Default_On_Target{boolean} 31|565m34
+491b4*Command_Line_Args_On_Target{boolean} 31|549m34
+500b4*Exit_Status_Supported_On_Target{boolean} 31|555m34
+517b4*Use_Ada_Main_Program_Name_On_Target{boolean} 31|570m34
+545b4*Denorm_On_Target{boolean} 31|553m34
+548b4*Machine_Rounds_On_Target{boolean} 31|559m34
+551b4*Machine_Overflows_On_Target{boolean} 31|558m34
+554b4*Signed_Zeros_On_Target{boolean} 31|569m34
+561b4*Fractional_Fixed_Ops_On_Target{boolean} 31|557m34
+603b4*Functions_Return_By_DSP_On_Target{boolean} 31|554m34
+616b4*Frontend_Layout_On_Target{boolean} 31|556m34
+628U14*Get_Target_Parameters 629>7 630>7 631>7 31|199r16 207b14 634l8 634t29
+629p7 System_Text{32|192P9} 31|200r10 208b7 231r25 235r13 240r16 247r16 258r16
+. 267r16 276r37 283r22 303r37 310r22 317r28 325r51 336r31 339r31 365r19 367r19
+. 369r28 379r16 386r16 393r16 395r35 401r16 409r16 416r16 422r16 424r35 430r16
+. 439r16 443r44 449r16 453r19 454r24 456r28 466r16 472r19 474r19 476r19 478r19
+. 480r19 482r41 486r16 487r23 488r24 490r24 508r19 531r25 532r30 539r25 543r30
+. 591r16 591r47 596r16 596r45
+630i7 Source_First{32|200I12} 31|201r10 209b7 230r12
+631i7 Source_Last{32|200I12} 31|202r10 210b7 593r28 598r28 601r18
+636U14*Get_Target_Parameters 31|179b14 203l8 203t29
+X 31 targparm.adb
+36b4 Parameters_Obtained{boolean} 184r10 222r10 225m10
+42E9 Targparm_Tags 71e11 73r32 76r28 115r35 507r42
+43n7 AAM{42E9} 73r52 546r27
+44n7 BDC{42E9} 547r27
+45n7 BOC{42E9} 548r27
+46n7 CLA{42E9} 549r27
+47n7 CRT{42E9} 550r27
+48n7 CSV{42E9} 551r27
+49n7 D32{42E9} 552r27
+50n7 DEN{42E9} 553r27
+51n7 DSP{42E9} 554r27
+52n7 EXS{42E9} 555r27
+53n7 FEL{42E9} 556r27
+54n7 FFO{42E9} 557r27
+55n7 MOV{42E9} 558r27
+56n7 MRN{42E9} 559r27
+57n7 PAS{42E9} 560r27
+58n7 S64{42E9} 561r27
+59n7 SAG{42E9} 562r27
+60n7 SCA{42E9} 563r27
+61n7 SCC{42E9} 564r27
+62n7 SCD{42E9} 565r27
+63n7 SCP{42E9} 566r27
+64n7 SLS{42E9} 567r27
+65n7 SNZ{42E9} 569r27
+66n7 SSL{42E9} 568r27
+67n7 UAM{42E9} 570r27
+68n7 VMS{42E9} 571r27
+69n7 ZCD{42E9} 572r27
+70n7 ZCG{42E9} 573r27
+71n7 ZCF{42E9} 73r59 574r27
+73E12 Targparm_Tags_OK{42E9} 613r19
+76a4 Targparm_Flags(boolean) 513r22 528m22 614r20
+81a4 AAM_Str{32|182A12} 116r7
+82a4 BDC_Str{32|182A12} 117r7
+83a4 BOC_Str{32|182A12} 118r7
+84a4 CLA_Str{32|182A12} 119r7
+85a4 CRT_Str{32|182A12} 120r7
+86a4 CSV_Str{32|182A12} 121r7
+87a4 D32_Str{32|182A12} 122r7
+88a4 DEN_Str{32|182A12} 123r7
+89a4 DSP_Str{32|182A12} 124r7
+90a4 EXS_Str{32|182A12} 125r7
+91a4 FEL_Str{32|182A12} 126r7
+92a4 FFO_Str{32|182A12} 127r7
+93a4 MOV_Str{32|182A12} 128r7
+94a4 MRN_Str{32|182A12} 129r7
+95a4 PAS_Str{32|182A12} 130r7
+96a4 S64_Str{32|182A12} 131r7
+97a4 SAG_Str{32|182A12} 132r7
+98a4 SCA_Str{32|182A12} 133r7
+99a4 SCC_Str{32|182A12} 134r7
+100a4 SCD_Str{32|182A12} 135r7
+101a4 SCP_Str{32|182A12} 136r7
+102a4 SLS_Str{32|182A12} 137r7
+103a4 SNZ_Str{32|182A12} 138r7
+104a4 SSL_Str{32|182A12} 139r7
+105a4 UAM_Str{32|182A12} 140r7
+106a4 VMS_Str{32|182A12} 141r7
+107a4 ZCD_Str{32|182A12} 142r7
+108a4 ZCG_Str{32|182A12} 143r7
+109a4 ZCF_Str{32|182A12} 144r7
+114P9 Buffer_Ptr(32|182A12) 115r53
+115a4 Targparm_Str(114P9) 508r49 509r55 511r32 519r31 520r37 620r25 621r31
+150U14 Set_Profile_Restrictions 150>40 157b14 171l8 171t32 250r13 261r13
+150e40 P{19|292E9[14|44]} 157b40 158r52 159r52
+158a7 R{19|242A9[14|44]} 162r16 163r13
+159a7 V{19|243A9[14|44]} 167r52
+162e11 J{19|56E9[14|44]} 163r16 164r41 166r16 167r46 167r55
+180p7 Text{32|192P9} 191m62 193r10 200r26
+181i7 Hi{32|200I12} 191m51 202r26
+212i7 P{32|200I12} 230m7 231r38 231r43 235r26 240r29 240r34 242m13 242r18
+. 247r29 247r34 253m13 253r18 258r29 258r34 262m13 262r18 267r29 267r34 268m13
+. 268r18 276r50 283r35 303r50 310r35 310r55 313m22 313r27 317r41 325r64 336r44
+. 339r44 348m25 348r30 365r32 367r32 369r41 370m16 370r21 379r29 379r34 380m13
+. 380r18 386r29 386r34 387m13 387r18 393r29 393r34 394m13 394r18 395r48 401r29
+. 401r34 402m13 402r18 409r29 409r34 410m13 410r18 416r29 416r34 417m13 417r18
+. 422r29 422r34 423m13 423r18 424r48 430r29 430r34 433m13 433r18 439r29 439r34
+. 442m13 442r18 443r57 449r29 449r34 453r32 454r37 456r41 457m16 457r21 466r29
+. 466r34 469m13 469r18 472r32 474r32 476r32 478r32 480r32 482r54 483m16 483r21
+. 486r29 487r36 488r37 490r37 508r32 508r41 511m19 511r24 531r38 532r43 534m22
+. 534r27 537m19 537r24 539r38 540m22 540r27 543r43 591r29 591r60 592m13 592r18
+. 593r23 596r29 596r58 597m13 597r18 598r23 601r13
+215b7 Fatal{boolean} 374m13 462m13 496m16 525m22 626m16 631r10
+218b7 Result{boolean} 543m19 546r73 547r73 548r73 549r73 550r73 551r73 552r73
+. 553r73 554r73 555r73 556r73 557r73 558r73 559r73 560r73 561r73 562r73 563r73
+. 564r73 565r73 566r73 567r73 568r73 569r73 570r73 571r73 572r73 573r73 574r73
+231l7 Line_Loop 608l16 608e25
+270l13 Rloop 291l22 291e27
+270e25 K{19|170E12[14|44]} 272r68 284r50
+272a19 Rname{string} 275r28 277r60 283r39
+275i23 J{integer} 276r66 277r67
+289L15 Rloop_Continue 279r30
+293l13 Ploop 345r33 352r27 358l22 358e27
+293e25 K{19|188E12[14|44]} 296r63 340r58 341r56
+295a19 Rname{string} 302r28 304r60 310r39 310r59 313r31
+298i19 V{natural} 315m22 324m31 324r41 340r64
+302i23 J{integer} 303r66 304r67
+356L15 Ploop_Continue 306r30
+507l13 Config_Param_Loop 584l22 584e39
+507e37 K{42E9} 508r63 509r69 511r46 513r38 519r45 520r51 528r38 545r24
+519i26 J<32|59I9> 520r59
+589L12 Line_Loop_Continue 236r18 243r18 254r18 263r18 285r27 333r39 342r33
+. 382r18 389r18 397r18 405r18 412r18 418r18 426r18 435r18 445r18 502r18 576r27
+613e14 K{73E12} 614r36 620r39 621r45
+620i20 J<32|59I9> 621r53
+X 32 types.ads
+52K9*Types 30|73w6 73r18 32|829e10
+59I9*Int<integer>
+140I9*Text_Ptr<59I9>
+143A9*Text_Buffer(character)
+182A12*Source_Buffer{143A9} 31|81r31 82r31 83r31 84r31 85r31 86r31 87r31
+. 88r31 89r31 90r31 91r31 92r31 93r31 94r31 95r31 96r31 97r31 98r31 99r31
+. 100r31 101r31 102r31 103r31 104r31 105r31 106r31 107r31 108r31 109r31 114r39
+188A12*Big_Source_Buffer{143A9}
+192P9*Source_Buffer_Ptr(188A12) 30|629r22 31|180r14 208r22
+200I12*Source_Ptr{140I9} 30|630r22 631r22 31|181r14 209r22 210r22 212r11
+. 276r54 303r54
+222i4*System_Location{200I12} 31|396r40 425r40 444r49
+372I9*Name_Id<integer> 30|149r30
+376i4*No_Name{372I9} 30|149r41
+730X4*Unrecoverable_Error 31|196r16 606r19 632r16
+

@@ -1,0 +1,167 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U prj.err%b		prj-err.adb		4b839881 NE PK
+W namet%s		namet.adb		namet.ali
+W output%s		output.adb		output.ali
+W prj%s			prj.adb			prj.ali
+W stringt%s		stringt.adb		stringt.ali
+
+U prj.err%s		prj-err.ads		70a748c7 EE PK
+W errutil%s		errutil.adb		errutil.ali
+W prj%s			prj.adb			prj.ali
+W scng%s		scng.adb		scng.ali  AD
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D a-finali.ads		20060219120048 2f48e141
+D a-filico.ads		20060219120048 9299732a
+D a-stream.ads		20060219120050 74337d1b
+D a-tags.ads		20060219120052 81dd2f9c
+D a-tags.adb		20060219120044 9bcd7865
+D a-uncdea.ads		20060219120052 dc667e6d
+D alloc.ads		20050704094642 baad0baa
+D casing.ads		20050704094644 1a6e5ef9
+D csets.ads		20051106041828 a510609d
+D err_vars.ads		20051106042414 f22c305d
+D errutil.ads		20050819160726 887b6c73
+D gnat.ads		20050819162446 e279999f
+D g-dynhta.ads		20060219120056 802e9e53
+D g-dyntab.ads		20060219120056 db91ccc4
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D g-utf_32.ads		20060219120058 24acff66
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D interfac.ads		20050819163502 279b6d6d
+D namet.ads		20051128233748 d7b5fee4
+D opt.ads		20060214002402 703337d5
+D output.ads		20051202225852 111deb13
+D prj.ads		20051207041146 729d51b5
+D prj-err.ads		20050905023044 b6221d7a
+D prj-err.adb		20050817132012 a22bd30e
+D scans.ads		20050819200544 d9be3407
+D scng.ads		20050704094700 3c63687b
+D scng.adb		20051210123356 8a9c40a3
+D sinput.ads		20050925211914 fd546e96
+D snames.ads		20060213235714 57cf62a2
+D stringt.ads		20050925211740 99224302
+D styleg.ads		20050905024154 37ce6741
+D stylesw.ads		20051124180646 1d2c7222
+D system.ads		20060219120116 9a1fe783
+D s-crc32.ads		20060219120106 2e7fbf79
+D s-exctab.ads		20060219120106 e14b1567
+D s-finimp.ads		20060219120106 33c39bf7
+D s-finroo.ads		20060219120106 6f410d48
+D s-htable.ads		20060219120108 9598cfa4
+D s-parame.ads		20060219120110 6bd7b874
+D s-secsta.ads		20060219120110 db466d0c
+D s-soflin.ads		20060219120110 677820d8
+D s-stache.ads		20060219120110 07e06d0a
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-stratt.ads		20060219120110 63715cfd
+D s-traent.ads		20060219120112 9950c76b
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D s-wchstw.ads		20060219120112 6b782940
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+D widechar.ads		20050925194252 cade724a
+X 13 errutil.ads
+42K9*Errutil 250e12 27|34w6 54r33 59r14 64r14 67r49 70r50 75r50 82r26
+213U14*Initialize 27|54r41
+217U14*Finalize 27|59r22
+224U14*Error_Msg 27|64r22
+227U14*Error_Msg_S 27|67r57
+230U14*Error_Msg_SC 27|70r58
+235U14*Error_Msg_SP 27|75r58
+242K12*Style[35|51] 27|82r34
+X 23 namet.ads
+40K9*Namet 425e10 28|27w6 27r19
+154V13*Get_Name_String{string} 28|68r32
+237V13*Name_Find{56|372I9} 28|59r24
+X 25 output.ads
+41K9*Output 194e11 28|28w6 28r19
+110U14*Write_Line 28|63r10 68r13
+X 26 prj.ads
+44K9*Prj 1088e8 27|36r9 102r5 28|31r14 73r5
+X 27 prj-err.ads
+36K13*Err 26|44k9 27|102l9 102e12 28|31b18 73l9 73t12
+54U14*Initialize=54:41
+58U14*Finalize=59:22
+58s24 Source_Type{string}
+63U14*Error_Msg=64:22 94r28
+63s25 Msg{string}
+63i39 Flag_Location{56|200I12}
+67U14*Error_Msg_S=67:57 95r28
+67s27 Msg{string}
+70U14*Error_Msg_SC=70:58 96r28
+70s28 Msg{string}
+75U14*Error_Msg_SP=75:58 97r28
+75s28 Msg{string}
+82K12*Style=82:34 99r28
+86U14*Obsolescent_Check 86>33 98r28 28|37b14 41l8 41t25
+86i33 S{56|200I12} 28|37b33 38r29
+89U14*Post_Scan 93r28 28|47b14 71l8 71t17
+92K12*Scanner[30|61]
+X 28 prj-err.adb
+48b7 Debug_Tokens{boolean} 62r10
+X 29 scans.ads
+53E9*Token_Type 28|63r22 29|210e16
+61n7*Tok_String_Literal{53E9} 28|55r25 57r19 66r28
+65n7*Tok_Operator_Symbol{53E9} 28|54r18
+67n7*Tok_Identifier{53E9} 28|65r21
+344e4*Token{53E9} 28|54r10 55r17 57m10 63r40 65r13 66r20
+374i4*Token_Name{56|372I9} 28|59m10 68r49
+405i4*String_Literal_Id{56|508I9} 28|58r33
+X 30 scng.ads
+36U19 Post_Scan 27|93r7
+41U19 Error_Msg 27|94r7
+44U19 Error_Msg_S 27|95r7
+47U19 Error_Msg_SC 27|96r7
+50U19 Error_Msg_SP 27|97r7
+53U19 Obsolescent_Check 27|98r7
+57K17 Style 27|99r7
+61k9*Scng 27|33w6 92r27 30|110e9
+X 34 stringt.ads
+37K9*Stringt 28|29w6 29r19 34|165e12
+109U14*String_To_Name_Buffer 28|58r10
+X 56 types.ads
+59I9*Int<integer>
+140I9*Text_Ptr<59I9>
+200I12*Source_Ptr{140I9} 27|63r55 86r37 28|37r37
+372I9*Name_Id<integer>
+508I9*String_Id<integer>
+

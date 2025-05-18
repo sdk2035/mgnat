@@ -1,0 +1,95 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P SS ZX
+R nnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnn
+
+U system.wch_stw%b	s-wchstw.adb		5d0c7544 NE PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.wch_cnv%s	s-wchcnv.adb		s-wchcnv.ali
+W system.wch_con%s	s-wchcon.adb		s-wchcon.ali
+
+U system.wch_stw%s	s-wchstw.ads		e6627743 NE PU PK
+W system%s		system.ads		system.ali
+W system.wch_con%s	s-wchcon.adb		s-wchcon.ali
+
+D interfac.ads		20050819163502 279b6d6d
+D system.ads		20060219120116 9a1fe783
+D s-secsta.ads		20060219120110 db466d0c
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-wchcnv.ads		20060219120112 7337e026
+D s-wchcnv.adb		20060219120106 704bdd2d
+D s-wchcon.ads		20060219120112 1705b980
+D s-wchjis.ads		20060219120112 5383a097
+D s-wchstw.ads		20060219120112 6b782940
+D s-wchstw.adb		20060219120106 524605a2
+D unchconv.ads		20050819202736 34860a55
+X 2 system.ads
+39K9*System 205e11 10|37r6 39r9 44r12 61r12 64r5 11|34r6 34r26 35r6 35r26
+. 37r14 174r5
+X 6 s-wchcnv.ads
+39K16*WCh_Cnv 88e19 11|35w13 35r33
+42I9*UTF_32_Code<integer> 11|46r16 60r16 130r12 160r12
+60v13*Char_Sequence_To_UTF_32 11|67r34
+X 8 s-wchcon.ads
+41K16*WCh_Con 189e19 10|37w13 44r19 61r19 11|34w13 34r33
+93I9*WC_Encoding_Method<short_short_integer> 10|44r27 61r27 11|47r12 61r12
+. 125r12 155r12
+99i4*WCEM_Hex{93I9} 11|90r15
+107i4*WCEM_Upper{93I9} 11|96r15
+115i4*WCEM_Shift_JIS{93I9} 11|96r28
+123i4*WCEM_EUC{93I9} 11|96r45
+130i4*WCEM_UTF8{93I9} 11|96r56
+151i4*WCEM_Brackets{93I9} 11|102r15
+X 10 s-wchstw.ads
+39K16*WCh_StW 2|39k9 10|64l12 64e19 11|37b21 174l12 174t19
+42V13*String_To_Wide_String{wide_string} 43>7 44>7 11|123b13 147l8 147t29
+43s7 S{string} 11|124b7 127r30 133r13 135r19 136r25
+44i7 EM{8|93I9} 11|125b7 136r35
+59V13*String_To_Wide_Wide_String{wide_wide_string} 60>7 61>7 11|153b13 172l8
+. 172t34
+60s7 S{string} 11|154b7 157r35 163r13 165r19 166r25
+61i7 EM{8|93I9} 11|155b7 166r35
+X 11 s-wchstw.adb
+43U14 Get_Next_Code 44>7 45=7 46<7 47>7 57b14 117l8 117t21 136r10 166r10
+44s7 S{string} 58b7 76r17 80r20 91r16 97r16 103r25 104r24 105r24 106r24 115r27
+45i7 P{natural} 59b7 76r13 79m13 79r18 80r23 91r19 97r19 103r16 104r27 105r27
+. 106r27 115r30 116m7 116r12
+46i7 V{6|42I9} 60b7 92m16 98m16 108m16 115m7
+47i7 EM{8|93I9} 61b7 89r12 92r42 98r42 108r42
+63V16 In_Char{character} 67r59 74b16 82l11 82t18 92r33 98r33 108r33
+67V16 Get_UTF_32[6|60]{6|42I9} 92r21 98r21 108r21
+127a7 R{wide_string} 143m10 146r14
+128i7 RP{natural} 134m7 142m10 142r16 143r13 146r22
+129i7 SP{natural} 133m7 135r13 136m28
+130i7 V{6|42I9} 136m32 138r13 143r40
+157a7 R{wide_wide_string} 168m10 171r14
+158i7 RP{natural} 164m7 167m10 167r16 168r13 171r22
+159i7 SP{natural} 163m7 165r13 166m28
+160i7 V{6|42I9} 166m32 168r45
+

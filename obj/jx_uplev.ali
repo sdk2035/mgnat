@@ -1,0 +1,263 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnvnnnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnvnvnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U jx_uplev%b		jx_uplev.adb		a87bc3e5 NE PK
+W atree%s		atree.adb		atree.ali
+W einfo%s		einfo.adb		einfo.ali
+W j_string%s		j_string.adb		j_string.ali
+W jvm%s			jvm.adb			jvm.ali
+W jvm.api%s		jvm-api.adb		jvm-api.ali
+W jx_decl%s		jx_decl.adb		jx_decl.ali
+W sem_util%s		sem_util.adb		sem_util.ali
+W sinfo%s		sinfo.adb		sinfo.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.string_ops_concat_4%s  s-sopco4.adb	s-sopco4.ali
+
+U jx_uplev%s		jx_uplev.ads		e54fd2d0 EE PK
+W j_stack%s		j_stack.adb		j_stack.ali  AD
+W jvm%s			jvm.adb			jvm.ali
+W types%s		types.adb		types.ali
+
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D einfo.ads		20060105095504 a63ced63
+D j_stack.ads		19990119232546 e8b1a39c
+D j_stack.adb		19990119232546 b89d4731
+D j_string.ads		20021113225422 ac8693ae
+D j_types.ads		19990119232548 44ceaf07
+D jvm.ads		20060517185752 32c8c0f9
+D jvm-api.ads		20060220231738 fb3a14ae
+D jx_decl.ads		20060417223328 48073337
+D jx_uplev.ads		20000707080730 af9de514
+D jx_uplev.adb		20060213232620 ee4f332d
+D sem_util.ads		20060105095836 65788333
+D sinfo.ads		20051124200850 7567e295
+D snames.ads		20060213235714 57cf62a2
+D system.ads		20060219120116 9a1fe783
+D s-assert.ads		20060219120106 85573af2
+D s-exctab.ads		20060219120106 e14b1567
+D s-imgint.ads		20060219120108 8222338e
+D s-secsta.ads		20060219120110 db466d0c
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-strops.ads		20060219120110 92e79914
+D s-sopco3.ads		20060219120110 14cc5bf6
+D s-sopco4.ads		20060219120110 dca7f27b
+D s-sopco5.ads		20060219120110 63c5ad18
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 atree.ads
+45K9*Atree 2860e10 12|29w6 29r20
+591V13*Present{boolean} 12|479r13 493r18
+603V13*Ekind{3|3337E9} 12|79r10 390r18 454r10 454r41 476r13
+X 3 einfo.ads
+39K9*Einfo 6952e10 12|30w6 30r20
+3350n7*E_Variable{3337E9} 12|454r22
+3357n7*E_Constant{3337E9} 12|454r53
+3977E12*Subprogram_Kind{3337E9} 12|79r35 476r26
+X 4 j_stack.ads
+34k9*J_Stack 48e12 11|36w6 69r28
+38U14*Push 12|107r16[11|69]
+42V13*Pop{11|54P9} 12|194r43[11|69]
+44V13*Top{11|54P9} 12|99r54[11|69] 104r36[11|69] 234r40[11|69] 293r28[11|69]
+. 342r28[11|69] 389r27[11|69] 393r30[11|69]
+46V13*Empty{boolean} 12|99r31[11|69] 101r19[11|69] 291r35[11|69] 340r35[11|69]
+. 388r27[11|69]
+X 6 j_string.ads
+34K9*J_String 52e13 12|32w6 32r20 116r23 139r23
+36V13*Name{30|372I9} 12|82r17 116r32 139r32 185r10
+39V13*Name_String{string} 12|116r48
+X 8 jvm.ads
+55K9*JVM 1291e8 11|34w6 34r20 12|31r6 31r20
+61I9*Class_Id 11|59r18
+64I9*Field_Id 11|45r15 88r52 92r67 96r62 121r58 12|206r52 215r67 224r62 287r29
+. 335r29 400r58
+68I9*Method_Id 11|58r18 74r18 85r46 108r16 128r48 136r44 140r53 12|50r49
+. 91r18 95r38 193r46 233r49 284r16 286r29 334r29 337r38 415r48 428r44 439r53
+72I9*Type_Id
+76I9*Local_Var_Id 11|60r18 108r32 12|284r32
+101i4*Null_Field{64I9} 12|306r43 357r63 393r69
+102i4*Null_Method{68I9} 12|456r20 483r17
+124V13*New_Class{61I9} 12|116r12
+126i7 Pkg_Name{30|508I9} 12|118r23
+128i7 Super{61I9} 12|119r23
+168U14*Begin_Class_File 12|127r7
+172U14*End_Class_File 12|199r7
+193V13*Type_Of{72I9} 12|139r47
+339V13*New_Field{64I9} 12|308r25 358r25
+343b7 Static{boolean} 12|309r50 361r36
+367V13*Field{64I9} 12|217r14 226r14
+451U14*Set_Current_Method 12|135r7 174r7 317r10 325r10 370r10 378r10
+457V13*Current_Method{68I9} 12|95r51 166r37 238r26 244r37 249r31 307r33 369r33
+. 389r40
+460U14*Start_Entry_Code_Sequence 12|155r7
+467U14*End_Entry_Code_Sequence 12|170r7
+513V13*Parent_Method{68I9} 12|477r17
+527V13*New_Local_Var{76I9} 12|138r12
+548V13*Name{30|372I9} 12|306r30 308r55 321r45
+568V13*Local_Var{76I9} 12|166r26 244r26
+572V13*Type_Of{72I9} 12|309r36 360r36
+575V13*Method_Of{68I9} 12|459r20
+636U14*Gen_Load_Local 12|165r10 166r10 239r10 244r10 319r10 320r10 372r10
+. 373r10
+644U14*Gen_Store_Local 12|158r7
+675U14*Gen_Put_Field 12|321r10 374r10
+686U14*Gen_Get_Object_Field 12|260r13 432r7
+694U14*Gen_Put_Object_Field 12|167r10
+706U14*Gen_Default_Object 12|157r7
+1148U14*Gen_Check_Cast 12|272r13
+X 9 jvm-api.ads
+33K13*API 131e12 12|31w10 31r24
+65n7*Ada_Activation_Rec{37E9} 12|119r46
+102n7*AR_Static_Link{91E9} 12|167r43 260r46
+116V13*API_Class{8|61I9} 12|119r35
+125V13*API_Field{8|64I9} 12|167r32 260r35
+X 10 jx_decl.ads
+34K9*Jx_Decl 271e12 12|33w6 33r20
+86V13*JVM_Method{8|68I9} 12|184r10 477r32 480r17
+94V13*JVM_Local_Var{8|76I9} 12|360r45 373r26 459r31
+105V13*JVM_Expanded_Name{string} 12|82r30 185r16
+118V13*Full_Type{30|403I12} 12|390r25
+146V13*Package_Name{30|508I9} 12|186r10
+222U14*Generate_Class_Init_Method 12|128r7
+225U14*Generate_Default_Constructor 12|129r7
+228E12*Wrappable_Kind{3|3816E12} 12|390r49
+233V13*Has_Wrapper{boolean} 12|391r22
+X 11 jx_uplev.ads
+38K9*Jx_Uplev 150l5 150e13 12|37b14 496l5 496t13
+40R9*AR_Field_Rec 42r32 44c9 47e14 12|208r24
+42P9*AR_Field_Ref(40R9) 46r15 61r18
+45i7*Field{8|64I9}
+46p7*Next{42P9}
+52R9*Active_Rec 54r29 56c9 62e14 12|96r55
+54P9*AR_Access(52R9) 57r18 69r37 88r33 92r28 96r28 12|50r67 96r38 194r21
+. 206r33 215r28 224r28 233r67 234r18 288r29 336r29 401r18 418r18 429r27
+57p7*Parent{54P9} 12|102r17 104r17 164r17 250r34 261r34 296r31 347r31
+58i7*Method{8|68I9} 12|99r58 109r14 197r25 249r22 257r30 295r58 317r39 345r45
+. 370r39 389r31
+59i7*AR_Class{8|61I9} 12|115r14 127r32 128r42 129r44 139r63 157r34 199r26
+. 217r24 226r24 272r38 308r45 358r45
+60i7*AR_Obj{8|76I9} 12|137r14 158r31 165r33 239r35 319r35 372r35
+61p7*Fields{42P9} 12|208r10 208r48
+69K12*AR_Stack[4|34] 12|99r22 99r45 101r10 104r27 107r7 194r34 234r31 291r26
+. 293r19 340r26 342r19 388r18 389r18 393r21
+73U14*Make_Activation_Record 74>7 75>7 76>7 12|90b14 175l8 175t30 183r7
+74i7 Method{8|68I9} 12|91b7 99r68 109r24 135r27 139r15
+75i7 Name{30|372I9} 12|92b7 116r61
+76i7 Pkg_Name{30|508I9} 12|93b7 118r35
+81U14*Make_Activation_Record 81>38 12|181b14 187l8 187t30
+81i38 Subp{30|403I12} 12|181b38 184r22 185r35 186r24
+85U14*End_Activation_Record 85>37 12|193b14 200l8 200t29
+85i37 Method{8|68I9} 12|193b37 197r34
+88U14*Add_AR_Field 88>28 88>44 12|206b14 209l8 209t20 311r10 363r10
+88p28 AR{54P9} 12|206b28 208r7 208r45
+88i44 Field{8|64I9} 12|206b44 208r38
+92V13*AR_Field{8|64I9} 92>23 92>39 12|215b13 218l8 218t16
+92p23 AR{54P9} 12|215b23 217r21
+92i39 Ada_Obj{30|403I12} 12|215b39 217r55
+96V13*AR_Field{8|64I9} 96>23 96>39 12|224b13 227l8 227t16 306r10 321r25 357r10
+. 393r11 408r14 432r29
+96p23 AR{54P9} 12|224b23 226r21
+96i39 Name{30|372I9} 12|224b39 226r34
+100U14*Register_Up_Level_Reference 100>43 12|333b14 380l8 380t35 404r7
+100i43 Ada_Obj{30|403I12} 12|333b43 337r69 357r51 359r57 360r60 373r41
+107U14*Register_Up_Level_Reference 108>7 108>27 12|283b14 327l8 327t35
+108i7 Method{8|68I9} 12|284b7 295r39
+108i27 LV{8|76I9} 12|284b27 306r36 308r61 309r45 320r26 321r51
+114V13*Access_From_Current_AR{boolean} 114>37 12|386b13 394l8 394t30
+114i37 Ada_Obj{30|403I12} 12|386b37 390r36 391r35 393r56
+121V13*Access_AR_Field{8|64I9} 121>30 12|400b13 409l8 409t23
+121i30 Ada_Obj{30|403I12} 12|400b30 404r36 406r57 408r55
+128U14*Load_Static_Link 128>32 12|415b14 422l8 422t24
+128i32 Parent_Method{8|68I9} 12|415b32 421r39
+136U14*Load_Up_Level_Field 136>35 136>55 12|428b14 433l8 433t27
+136i35 Method{8|68I9} 12|428b35 429r60
+136i55 Name{30|372I9} 12|428b55 432r49
+140V13*Enclosing_Method{8|68I9} 140>31 12|337r51 406r39 439b13 485l8 485t24
+140i31 E{30|403I12} 12|439b31 440r59 454r17 454r48 455r31 459r46 476r20 477r44
+145V13*Is_Global_Entity{boolean} 145>31 12|455r13 491b13 494l8 494t24
+145i31 E{30|403I12} 12|491b31 493r49
+X 12 jx_uplev.adb
+39i4 Counter{integer} 117r52 121m7 121r18
+41V13 Integer_Image{string} 41>28 44b13 48l8 48t21 117r37
+41i28 I{integer} 44b28 45r50
+45a7 Result{string} 47r14 47r22 47r42
+50V13 Load_Up_Level_Link{11|54P9} 50>33 233b13 277l8 277t26 406r19 421r19
+. 429r40
+50i33 Parent_Method{8|68I9} 233b33 238r10 257r40
+56V13 Undot{string} 56>20 58b13 67l8 67t13 82r23
+56s20 Name{string} 58b20 59r26
+59a7 Result{string} 61r16 62r13 63m13 66r14
+61i11 i{integer} 62r21 63r21
+69V13 Up_Level_Field_Name{30|372I9} 69>34 77b13 84l8 84t27 217r34 357r30
+. 359r36 393r35 408r34
+69i34 Local{30|403I12} 77b34 79r24 80r24 82r49
+95i7 Save_Current_Method{8|68I9} 174r27
+96p7 New_AR{11|54P9} 102r10 104r10 107r22 109r7 115r7 127r25 128r35 129r37
+. 137r7 139r56 157r27 158r24 164r10 165r26
+194p7 AR{11|54P9} 197r22 199r23
+234p7 AR_Entry{11|54P9} 239r26 249r13 250m13 250r25 256r16 257r21 261m13
+. 261r25 264r25 272r29 276r14
+235b7 Chaining{boolean} 259m13 271r13
+286i7 Save_Current_Method{8|68I9} 307m10 325r30
+287i7 Local_Field{8|64I9} 308m10 311r34
+288p7 AR_Entry{11|54P9} 293m7 295r13 295r49 296m10 296r22 299r22 306r20 308r36
+. 311r24 317r30 319r26 321r35
+334i7 Save_Current_Method{8|68I9} 369m10 378r30
+335i7 Local_Field{8|64I9} 358m10 363r34 374r25
+336p7 AR_Entry{11|54P9} 342m7 344r13 345r36 347m10 347r22 350r22 357r20 358r36
+. 363r24 370r30 372r26
+337i7 Object_Method{8|68I9} 345r19
+401p7 AR_Entry{11|54P9} 406m7 408r24
+418p7 AR_Entry{11|54P9} 421m7
+429p7 AR_Entry{11|54P9} 432r39
+440i7 Subp{30|403I12} 479r22 480r29
+X 13 sem_util.ads
+34K9*Sem_Util 12|34w6 34r20 13|881e13
+211V13*Enclosing_Subprogram{30|403I12} 12|440r37 493r27
+X 14 sinfo.ads
+57K9*Sinfo 12|35w6 35r20 14|9296e10
+7193V13*Chars{30|372I9} 12|80r17
+7805V13*Scope{30|400I9} 12|79r17
+X 30 types.ads
+52K9*Types 11|35w6 35r20 30|829e10
+372I9*Name_Id<integer> 11|75r18 96r46 136r62 12|69r60 77r60 92r18 224r46
+. 428r62
+400I9*Node_Id<integer>
+403I12*Entity_Id{400I9} 11|81r45 92r49 100r53 114r47 121r40 140r35 145r35
+. 12|69r42 77r42 181r45 215r49 333r53 386r47 400r40 439r35 440r24 491r35
+508I9*String_Id<integer> 11|76r18 12|93r18
+511i4*No_String{508I9} 11|76r31 12|93r31
+

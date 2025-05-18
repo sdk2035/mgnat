@@ -1,0 +1,128 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U output%b		output.adb		3a510ddd NE PK
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.adb		g-os_lib.ali
+W system%s		system.ads		system.ali
+
+U output%s		output.ads		76399ffe BN EB NE PK
+W hostparm%s		hostparm.ads		hostparm.ali
+W types%s		types.adb		types.ali
+
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D hostparm.ads		20060213225900 f78f204c
+D output.ads		20051202225852 111deb13
+D output.adb		20051202225904 4c904299
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 1 gnat.ads
+36K9*GNAT 39e9 6|34r6 34r23
+X 2 g-os_lib.ads
+52K14*OS_Lib 859e16 6|34w11 34r28
+160I9*File_Descriptor<integer> 6|38r17
+164i4*Standout{160I9} 6|38r36 169r21
+165i4*Standerr{160I9} 6|83r29 90r30 155r21
+358V13*Write{integer} 6|79r23
+808U14*OS_Exit 6|84r16 93r16
+X 4 hostparm.ads
+40K9*Hostparm 99e13 5|38w6 38r20 127r29
+66N4*Max_Line_Length 5|127r38
+X 5 output.ads
+41K9*Output 194l5 194e11 6|36b14 309l5 309t11
+44P9*Output_Proc 56r38 6|41r26 139r38
+44s42 S{string}
+56U14*Set_Special_Output 56>34 6|139b14 142l8 142t26
+56p34 P{44P9} 6|139b34 141r30
+64U14*Cancel_Special_Output 6|56b14 59l8 59t29
+71U14*Set_Standard_Error 6|148b14 156l8 156t26
+78U14*Set_Standard_Output 6|162b14 170l8 170t27
+86U14*Write_Char 86>26 6|178r7 179r7 180r7 208r7 215r7 222r7 229r7 237b14
+. 245l8 245t18 276r10 284r10 305r10
+86e26 C{character} 6|237b26 243r28
+90U14*Write_Erase_Char 90>32 6|262b14 267l8 267t24
+90e32 C{character} 6|262b32 264r57
+93U14*Write_Eol 6|181r7 187r7 193r7 240r10 251b14 256l8 256t17 295r7
+100U14*Write_Int 100>25 6|192r7 273b14 277r10 281r13 286l8 286t17
+100i25 Val{11|59I9} 6|273b25 275r10 277r22 280r13 281r24 284r38
+104U14*Write_Str 104>25 6|186r7 207r7 214r7 221r7 228r7 294r7 302b14 307l8
+. 307t17
+104s25 S{string} 6|302b25 304r16 305r22
+110U14*Write_Line 110>26 6|92r16 292b14 296l8 296t18
+110s26 S{string} 6|292b26 294r18
+113V13*Column{11|68I12} 114r19 6|107b13 110l8 110t14
+124R9*Saved_Output_Buffer 130r39 133r41 189c9 192e14 6|116r41 126r39 127r11
+127N4*Buffer_Max 175r26 190r31
+130V13*Save_Output_Buffer{124R9} 6|126b13 133l8 133t26
+133U14*Restore_Output_Buffer 133>37 6|116b14 120l8 120t29
+133r37 S{124R9} 6|116b37 118r19 119r37
+146U14*w 146>17 6|176b14 182l8 182t9 209r7
+146e17 C{character} 6|176b17 179r19
+149U14*w 149>17 6|184b14 188l8 188t9 199r10 201r10 216r7
+149s17 S{string} 6|184b17 186r18
+152U14*w 152>17 6|190b14 194l8 194t9 223r7
+152i17 V{11|59I9} 6|190b17 192r18
+155U14*w 155>17 6|196b14 203l8 203t9 230r7
+155b17 B{boolean} 6|196b17 198r10
+158U14*w 158>17 158>29 6|205b14 210l8 210t9
+158s17 L{string} 6|205b17 207r18
+158e29 C{character} 6|205b29 209r10
+161U14*w 161>17 161>29 6|212b14 217l8 217t9
+161s17 L{string} 6|212b17 214r18
+161s29 S{string} 6|212b29 216r10
+164U14*w 164>17 164>29 6|219b14 224l8 224t9
+164s17 L{string} 6|219b17 221r18
+164i29 V{11|59I9} 6|219b29 223r10
+167U14*w 167>17 167>29 6|226b14 231l8 231t9
+167s17 L{string} 6|226b17 228r18
+167b29 B{boolean} 6|226b29 230r10
+175a4 Buffer{string} 176r8 186r35 6|74r38 79m42 119m7 129r39 239r21 243m7
+. 253m7 264r33
+186i4 Next_Col{positive} 6|66r33 91m16 99m10 109r19 118m7 119r20 119r52 129r22
+. 129r52 130r21 131m7 152m10 166m10 239r10 243r15 244m7 244r19 253r15 254m7
+. 254r19 264r10 264r41 265m10 265r22
+190a7*Buffer{string} 6|119r39 129r9
+191i7*Next_Col{positive} 6|118r21 130r9
+X 6 output.adb
+38i4 Current_FD{2|160I9} 79r30 83r16 90m16 155m7 169m7
+41p4 Special_Output_Proc{5|44P9} 58m7 73r13 74r13 141m7 150r10 164r10
+49U14 Flush_Buffer 65b14 101l8 101t20 151r10 165r10 255r7
+66i7 Len{natural} 69r10 74r51 79r16 79r58
+127r7 S{5|124R9} 129m7 130m7 132r14
+304i11 J{integer} 305r25
+X 11 types.ads
+52K9*Types 5|39w6 39r20 11|829e10
+59I9*Int<integer> 5|100r31 152r21 164r33 6|190r21 219r33 273r31
+68I12*Pos{59I9} 5|113r27 6|107r27 109r14
+

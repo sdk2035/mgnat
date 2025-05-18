@@ -1,0 +1,92 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U validsw%b		validsw.adb		ba3cb511 NE PK
+W opt%s			opt.adb			opt.ali
+
+U validsw%s		validsw.ads		2e4dd3cc EE NE PK
+
+D gnat.ads		20050819162446 e279999f
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D opt.ads		20060214002402 703337d5
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D validsw.ads		20050819202740 2e4dd3cc
+D validsw.adb		20050819202740 e4425108
+X 5 opt.ads
+46K9*Opt 1350e8 15|27w6 27r15
+1037b4*Validity_Checks_On{boolean} 15|129m10 216m16
+X 14 validsw.ads
+30K9*Validsw 158l5 158e12 15|29b14 232l5 232t12
+44b4*Validity_Check_Copies{boolean} 15|37m7 77r17 134m16 164m16 194m16 206m16
+50b4*Validity_Check_Default{boolean} 15|38m7 75r21 137m16 167m16 195m16 207m16
+57b4*Validity_Check_Floating_Point{boolean} 15|39m7 78r17 140m16 173m16 196m16
+. 208m16
+66b4*Validity_Check_In_Out_Params{boolean} 15|40m7 80r17 146m16 176m16 197m16
+. 209m16
+73b4*Validity_Check_In_Params{boolean} 15|41m7 79r17 143m16 170m16 198m16
+. 210m16
+79b4*Validity_Check_Operands{boolean} 15|42m7 81r17 149m16 179m16 199m16
+. 211m16
+85b4*Validity_Check_Parameters{boolean} 15|152m16 182m16 200m16 212m16
+94b4*Validity_Check_Returns{boolean} 15|43m7 82r17 155m16 185m16 201m16 213m16
+99b4*Validity_Check_Subscripts{boolean} 15|44m7 83r17 158m16 188m16 202m16
+. 214m16
+108b4*Validity_Check_Tests{boolean} 15|45m7 84r17 161m16 191m16 203m16 215m16
+114b4*Force_Validity_Checks{boolean}
+123U14*Set_Default_Validity_Check_Options 15|91b14 95l8 95t42
+127U14*Set_Validity_Check_Options 128>7 129<7 130<7 15|108r7 113b14 230l8
+. 230t34
+128s7 Options{string} 15|114b7 122r12 123r18 124r15 229r18
+129b7 OK{boolean} 15|115b7 222m16 228m7
+130i7 Err_Col{natural} 15|116b7 223m16 229m7
+140U14*Set_Validity_Check_Options 140>42 15|94r7 103b14 109l8 109t34
+140s42 Options{string} 15|103b42 108r35
+146U14*Reset_Validity_Check_Options 15|35b14 46l8 46t36 93r7
+149A12*Validity_Check_Options{string} 153r21 15|53r21
+152U14*Save_Validity_Check_Options 153<7 15|52b14 85l8 85t35
+153a7 Options{149A12} 15|53b7 64m13 71r16 72m10
+X 15 validsw.adb
+55i7 P{natural} 63m13 63r18 64r22
+57U17 Add 57>22 57>37 60b17 66l11 66t14 75r7 77r7 78r7 79r7 80r7 81r7 82r7
+. 83r7 84r7
+57e22 C{character} 60b22 64r28
+57b37 S{boolean} 60b37 62r13
+71i11 K{integer} 72r19
+104b7 OK{boolean} 108m44
+105i7 EC{natural} 108m48
+118i7 J{natural} 122m7 123r13 124r24 125m10 125r15 223r27
+119e7 C{character} 124m10 131r15
+

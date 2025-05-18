@@ -1,0 +1,190 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnvnnnnnnnnnnnnnnnnnnvnnvnvnnnnnnnnvnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U prj.ext%b		prj-ext.adb		8abb22cf PK
+W gnat%s		gnat.ads		gnat.ali
+W gnat.htable%s		g-htable.adb		g-htable.ali
+W namet%s		namet.adb		namet.ali  AD
+W osint%s		osint.adb		osint.ali
+W output%s		output.adb		output.ali  AD
+W prj%s			prj.adb			prj.ali
+W sdefault%s		sdefault.adb		sdefault.ali  AD
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_5%s  s-sopco5.adb	s-sopco5.ali
+
+U prj.ext%s		prj-ext.ads		267ea2b6 EE NE PK
+W prj%s			prj.adb			prj.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D a-finali.ads		20060219120048 2f48e141
+D a-filico.ads		20060219120048 9299732a
+D a-stream.ads		20060219120050 74337d1b
+D a-tags.ads		20060219120052 81dd2f9c
+D a-tags.adb		20060219120044 9bcd7865
+D a-uncdea.ads		20060219120052 dc667e6d
+D alloc.ads		20050704094642 baad0baa
+D casing.ads		20050704094644 1a6e5ef9
+D gnat.ads		20050819162446 e279999f
+D g-dynhta.ads		20060219120056 802e9e53
+D g-dyntab.ads		20060219120056 db91ccc4
+D g-htable.ads		20060219120056 a8e75576
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D hostparm.ads		20060213225900 f78f204c
+D namet.ads		20051128233748 d7b5fee4
+D osint.ads		20050819204702 67d8ead2
+D output.ads		20051202225852 111deb13
+D prj.ads		20051207041146 729d51b5
+D prj-ext.ads		20050905023124 54e3f303
+D prj-ext.adb		20050922012654 03ecf6f7
+D scans.ads		20050819200544 d9be3407
+D sdefault.ads		20050819200558 d4238d68
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-finimp.ads		20060219120106 33c39bf7
+D s-finroo.ads		20060219120106 6f410d48
+D s-htable.ads		20060219120108 9598cfa4
+D s-htable.adb		20060219120100 3b955f24
+D s-parame.ads		20060219120110 6bd7b874
+D s-secsta.ads		20060219120110 db466d0c
+D s-soflin.ads		20060219120110 677820d8
+D s-stache.ads		20060219120110 07e06d0a
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-stratt.ads		20060219120110 63715cfd
+D s-strops.ads		20060219120110 92e79914
+D s-sopco3.ads		20060219120110 14cc5bf6
+D s-sopco4.ads		20060219120110 dca7f27b
+D s-sopco5.ads		20060219120110 63c5ad18
+D s-traent.ads		20060219120112 9950c76b
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D s-wchstw.ads		20060219120112 6b782940
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 11 gnat.ads
+36K9*GNAT 39e9 23|32r6 53r26
+X 14 g-htable.ads
+48K14*HTable 213e16 23|32w11 53r31
+66k20*Simple_HTable 23|53r38
+X 15 g-os_lib.ads
+63P12*String_Access{16|41P9} 23|42r28 43r28 49r27 163r22 190r25
+65V13*"="=66:22{boolean} 23|166r23
+68U14*Free=68:62 23|134r7 171r13 175r13
+393V13*Normalize_Pathname{string} 23|257r30
+788V13*Getenv{63P12} 23|42r45 43r45 163r39
+828e4*Directory_Separator{character} 23|286r24 286r53 287r31
+831e4*Path_Separator{character} 23|215r36 226r47 236r50 284r54
+X 16 g-string.ads
+41P9*String_Access(string)
+X 18 namet.ads
+40K9*Namet 425e10 23|27w6 27r19
+129a4*Name_Buffer{string} 23|79m7 82m7 83m33 153m7 168m13 209m7 215m10 226r25
+. 236r24 244r16 248m19 249r21 257r50 262r33 267m22 268r24 269m22 284r24 289r46
+135i4*Name_Len{natural} 23|78m7 79r25 81m7 82r25 83r51 152m7 153r25 167m13
+. 168r31 208m7 209r20 214m10 214r22 215r23 225r28 231r31 235r26 247r37 252m16
+. 252r28 265r33 268r49 270m22 284r42 289r64
+154V13*Get_Name_String{string} 23|148r29
+237V13*Name_Find{49|372I9} 23|80r20 84r18 154r32 169r26
+311U14*Add_Str_To_Name_Buffer 23|217r10
+X 19 osint.ads
+37K9*Osint 629e10 23|29w6 29r19
+84U14*Canonical_Case_File_Name 23|83r7 151r7
+X 20 output.ads
+41K9*Output 194e11 23|28w6 28r19
+110U14*Write_Line 23|198r13 199r13
+X 21 prj.ads
+44K9*Prj 1088e8 22|30r9 61r5 23|34r14 292r5
+109I9*Header_Num<short_integer> 23|54r21
+113V13*Hash{109I9} 23|58r21
+X 22 prj-ext.ads
+30K13*Ext 21|44k9 22|61l9 61e12 23|34b18 292l9 292t12
+32V13*Project_Path{string} 23|114b13 117l8 117t20
+37U14*Set_Project_Path 37>32 23|132b14 136l8 136t24
+37s32 New_Path{string} 23|132b32 135r43
+42U14*Add 43>7 44>7 23|70b14 86l8 86t11 98r13
+43s7 External_Name{string} 23|71b7 81r19 82r38 99r16
+44s7 Value{string} 23|72b7 78r19 79r38 101r16
+47V13*Value_Of{49|372I9} 48>7 49>7 23|142b13 179l8 179t16
+48i7 External_Name{49|372I9} 23|143b7 148r46 170r25
+49i7 With_Default{49|372I9} 23|144b7 176r20
+53V13*Check{boolean} 53>20 23|92b13 108l8 108t13
+53s20 Declaration{string} 23|92b20 94r24 95r13 96r35 97r35 100r18 100r31
+. 102r18 102r48
+57U14*Reset 23|123b14 126l8 126t13
+X 23 prj-ext.adb
+36a4 Gpr_Project_Path{string} 42r53
+37a4 Ada_Project_Path{string} 43r53
+42p4 Gpr_Prj_Path{15|63P12} 190r42 193r10
+43p4 Ada_Prj_Path{15|63P12} 197r13 203r22
+47a4 No_Project_Default_Dir{string} 244r46 248r36 252r39
+49p4 Current_Project_Path{15|63P12} 116r14 134m13 135m7 283m10 289m10
+53K12 Htable[30|70] 85r7 125r7 154r20 170r13
+74i7 The_Key{49|372I9} 84m7 85r19
+75i7 The_Value{49|372I9} 80m7 85r28
+94i11 Equal_Pos{integer} 95r26 96r23 97r23 100r52 102r31
+147i7 The_Value{49|372I9} 154m7 156r10 157r17 169m13 170r40 172r20
+148a7 Name{string} 151r33 152r19 153r38 163r47
+163p10 Env_Value{15|63P12} 166r13 166r40 167r25 168r44 171m19 175m19
+185b7 Add_Default_Dir{boolean} 245m16 282r10
+186i7 First{positive} 223m10 225r19 226r38 228m16 228r25 231r23 233r21 244r29
+. 257r63 262r46 265r69 266r34 269r35 276m13
+187i7 Last{positive} 233m13 235r19 236r37 238m16 238r24 244r38 247r25 257r72
+. 262r55 265r62 268r37 271m22 276r22
+188i7 New_Len{positive} 265m22 267r51 270r34
+189i7 New_Last{positive} 266m22 267r35 269r44 271r30
+190p7 Prj_Path{15|63P12} 203m10 213r10 217r34
+247i20 J{integer} 248r32 249r34
+256a19 New_Dir{string} 262r22 263r30 265r44 266r42 269r57
+X 25 sdefault.ads
+28K9*Sdefault 23|30w6 285r24 25|38e13
+37V13*Search_Dir_Prefix{49|119P9} 23|285r33
+X 30 s-htable.ads
+56I12 Header_Num 23|54r7
+59+12 Element 23|55r7
+62*7 No_Element{59+12} 23|56r7
+66+12 Key 23|57r7
+67V21 Hash{56I12} 23|58r7
+68V21 Equal{boolean} 23|59r7
+72U17*Set 23|85r14[53] 170r20[53]
+76U17*Reset 23|125r14[53]
+79V16*Get{49|372I9} 23|154r27[53]
+X 49 types.ads
+119P9*String_Ptr(string)
+372I9*Name_Id<integer> 22|48r23 49r23 50r23 23|55r21 57r21 74r19 75r19 143r23
+. 144r23 145r23 147r19
+376i4*No_Name{372I9} 22|49r34 23|56r21 144r34 156r23
+

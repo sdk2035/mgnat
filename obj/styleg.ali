@@ -1,0 +1,214 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnn
+
+U styleg%b		styleg.adb		7551bb71 NE PK GE
+W casing%s		casing.adb		casing.ali
+W csets%s		csets.adb		csets.ali
+W err_vars%s		err_vars.ads		err_vars.ali
+W opt%s			opt.adb			opt.ali
+W scans%s		scans.adb		scans.ali
+W sinput%s		sinput.adb		sinput.ali
+W stylesw%s		stylesw.adb		stylesw.ali
+
+U styleg%s		styleg.ads		a76533e0 BN EE NE PK GE
+W types%s		types.adb		types.ali
+
+D alloc.ads		20050704094642 baad0baa
+D casing.ads		20050704094644 1a6e5ef9
+D csets.ads		20051106041828 a510609d
+D err_vars.ads		20051106042414 f22c305d
+D gnat.ads		20050819162446 e279999f
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D opt.ads		20060214002402 703337d5
+D scans.ads		20050819200544 d9be3407
+D sinput.ads		20050925211914 fd546e96
+D styleg.ads		20050905024154 37ce6741
+D styleg.adb		20050704094704 4638cd6f
+D stylesw.ads		20051124180646 1d2c7222
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 casing.ads
+36K9*Casing 88e11 13|31w6 31r20
+49E9*Casing_Type 64e5 13|66r43 765r43
+57n7*Mixed_Case{49E9} 13|144r39 664r39
+85V13*Determine_Casing{49E9} 13|767r14
+X 3 csets.ads
+34K9*Csets 99e10 13|32w6 32r20
+49A9*Char_Array_Flags(boolean)
+91a4*Identifier_Char{49A9} 13|491r21
+X 4 err_vars.ads
+33K9*Err_Vars 118e13 13|33w6 33r20
+96i4*Error_Msg_Node_1{21|400I9} 13|807m10 822m10
+X 9 opt.ads
+46K9*Opt 1350e8 13|34w6 34r20
+505b4*GNAT_Mode{boolean} 13|347r16
+897b4*Style_Check{boolean} 13|872r14
+X 10 scans.ads
+38K9*Scans 456e10 13|35w6 35r20
+89n7*Tok_Left_Paren{53E9} 13|176r27
+340i4*Scan_Ptr{21|200I12} 13|99r21 100r35 223r21 224r35 279r15 293r13 294r29
+. 304r10 306r24 307r53 334r21 335r26 365r18 369r44 371r64 384r24 392r35 540r35
+. 547r21 549r24 559r21 561r24 562r28 570r12 594r36 619r34 623r15 636r35 696r21
+. 697r35 767r53 848r18 849r32
+347i4*Token_Ptr{21|200I12} 13|471r13 490r13 491r46 493r35 646r10 647r27 649r35
+. 714r39 767r40 859r10 860r26 862r32
+350i4*Current_Line_Start{21|200I12} 13|513r16
+353i4*Start_Column{21|173I9} 13|319r16 472r21
+363i4*First_Non_Blank_Location{21|200I12} 13|304r22 471r25 646r22
+383e4*Prev_Token{53E9} 13|176r13
+X 11 sinput.ads
+72K9*Sinput 751e11 13|36w6 36r20
+298V13*Source_First{21|200I12} 13|293r24 490r25 859r22
+420i4*Current_Source_File{21|582I9} 13|293r38 490r39 859r36
+431p4*Source{21|192P9} 13|99r13 223r13 280r16 284r17 284r47 294r21 306r16
+. 334r13 335r18 366r19 367r19 384r16 491r38 547r13 549r16 559r13 561r16 562r20
+. 571r44 619r26 625r16 625r42 628r35 647r19 696r13 767r32 848r10 860r18
+471V13*Get_Logical_Line_Number{21|157I9} 13|540r10
+482V13*Get_Physical_Line_Number{21|167I9} 13|714r13 715r13
+X 12 styleg.ads
+39U19 Error_Msg 39>30 39>44 13|307r16 371r22 424r13 429r13 511r13 579r10
+. 601r13 757r10 776r7 785r7
+39s30 Msg{string}
+39i44 Flag_Location{21|200I12}
+42U19 Error_Msg_S 42>32 13|296r13 320r16 456r10 548r13 550r13 564r13
+42s32 Msg{string}
+45U19 Error_Msg_SC 45>33 13|145r13 474r13 665r13 717r13 838r10
+45s33 Msg{string}
+48U19 Error_Msg_SP 48>33 13|808r10 823r10
+48s33 Msg{string}
+51k9*Styleg 39z19 42z19 45z19 48z19 170l5 170e11 13|39b14 875l5 875t11
+53U14*Check_Abs_Not 13|96b14 103l8 103t21
+56U14*Check_Apostrophe 13|111b14 116l8 116t24
+59U14*Check_Arrow 13|124b14 130l8 130t19
+62U14*Check_Attribute_Name 62>36 13|140b14 148l8 148t28
+62b36 Reserved{boolean} 13|140b36 141r29
+68U14*Check_Box 13|173b14 180l8 180t17
+71U14*Check_Binary_Operator 13|157b14 163l8 163t29
+75U14*Check_Exponentiation_Operator 13|442b14 445l8 445t37
+79U14*Check_Colon 13|188b14 194l8 194t19
+82U14*Check_Colon_Equal 13|202b14 208l8 208t25
+85U14*Check_Comma 13|218b14 227l8 227t19
+88U14*Check_Comment 13|261b14 395l8 395t21
+92U14*Check_Dot_Dot 13|403b14 409l8 409t21
+95U14*Check_EOF 13|417b14 434l8 434t17
+98U14*Check_HT 13|453b14 458l8 458t16
+101U14*Check_Indentation 13|468b14 477l8 477t25
+107U14*Check_Left_Paren 13|487b14 498l8 498t24
+110U14*Check_Line_Max_Length 110>37 13|507b14 516l8 516t29
+110i37 Len{21|59I9} 13|507b37 510r13
+115U14*Check_Line_Terminator 115>37 13|531b14 609l8 609t29
+115i37 Len{21|59I9} 13|531b37 534r18 578r49
+120U14*Check_Pragma_Name 13|661b14 668l8 668t25
+124U14*Check_Right_Paren 13|677b14 682l8 682t25
+127U14*Check_Semicolon 13|691b14 700l8 700t23
+130U14*Check_Then 130>26 13|711b14 720l8 720t18
+130i26 If_Loc{21|200I12} 13|711b26 715r39
+136U14*Check_Unary_Plus_Or_Minus 13|729b14 734l8 734t33
+139U14*Check_Vertical_Bar 13|742b14 748l8 748t26
+142U14*Check_Xtra_Parens 142>33 13|754b14 759l8 759t25
+142i33 Loc{21|200I12} 13|754b33 757r47
+146U14*No_End_Name 146>27 13|804b14 810l8 810t19
+146i27 Name{21|400I9} 13|804b27 807r30
+153U14*No_Exit_Name 153>28 13|819b14 825l8 825t20
+153i28 Name{21|400I9} 13|819b28 822r30
+159U14*Non_Lower_Case_Keyword 13|835b14 840l8 840t30
+165V13*RM_Column_Check{boolean} 166r19 13|870b13 873l8 873t23
+X 13 styleg.adb
+43i4 Blank_Lines{21|65I12} 423r13 428r16 541m10 589m10 589r25 593r13 600r46
+. 607m10
+48i4 Blank_Line_Location{21|200I12} 426r16 431r16 594m13 602r48
+57U14 Check_No_Space_After 114r10 496r10 615b14 638l8 638t28 732r10
+62U14 Check_No_Space_Before 221r10 644b14 651l8 651t29 680r10 694r10
+66V13 Determine_Token_Casing{2|49E9} 144r13 664r13 765b13 768l8 768t30
+68U14 Error_Space_Not_Allowed 68>39 636r10 649r10 774b14 777l8 777t31
+68i39 S{21|200I12} 774b39 776r47
+72U14 Error_Space_Required 72>36 100r13 224r13 369r22 392r13 493r13 697r13
+. 783b14 786l8 786t28 849r10 862r10
+72i36 S{21|200I12} 783b36 785r44
+76V13 Is_White_Space{boolean} 76>29 77r19 571r28 619r10 628r19 792b13 795l8
+. 795t22
+76e29 C{character} 792b29 794r14 794r30
+80U14 Require_Following_Space 81r19 128r10 161r10 192r10 206r10 407r10 746r10
+. 846b14 851l8 851t31
+85U14 Require_Preceding_Space 86r19 127r10 160r10 177r13 191r10 205r10 406r10
+. 745r10 857b14 864l8 864t31
+262i7 S{21|200I12} 365m13 366r27 367r27 377m16 377r21
+263e7 C{character} 335m13 339r16 348r19 353r34 355r34
+265V16 Is_Box_Comment{boolean} 273b16 285l11 285t25 368r22 391r20
+274i10 S{21|200I12} 279m10 280r24 281m13 281r18 284r25 284r55
+532i7 S{21|200I12} 570m7 571r52 572m10 572r15 580r54
+534i7 L{21|59I9} 571r13 573m10 573r15 578r45 585r10
+616i7 S{21|200I12} 623m10 625r24 625r50 628r43 629m16 629r21
+X 14 stylesw.ads
+34K9*Stylesw 13|37w6 37r20 14|294e12
+50b4*Style_Check_Attribute_Casing{boolean} 13|143r10
+55b4*Style_Check_Blanks_At_End{boolean} 13|578r10
+59b4*Style_Check_Blank_Lines{boolean} 13|419r10 600r13
+64b4*Style_Check_Comments{boolean} 13|292r10 305r13 327r17
+92b4*Style_Check_DOS_Line_Terminator{boolean} 13|558r10
+97b4*Style_Check_End_Labels{boolean} 13|806r10 821r10
+101b4*Style_Check_Form_Feeds{boolean} 13|546r10
+106b4*Style_Check_Horizontal_Tabs{boolean} 13|455r10
+110b4*Style_Check_If_Then_Layout{boolean} 13|713r10
+134i4*Style_Check_Indentation{21|173I9} 13|318r13 319r33 470r10 472r38
+142b4*Style_Check_Keyword_Casing{boolean} 13|837r10
+148b4*Style_Check_Max_Line_Length{boolean} 13|509r10
+163b4*Style_Check_Pragma_Casing{boolean} 13|663r10
+167b4*Style_Check_Layout{boolean} 13|872r30
+191b4*Style_Check_Tokens{boolean} 13|98r10 113r10 126r10 159r10 175r10 190r10
+. 204r10 220r10 405r10 489r10 679r10 693r10 731r10 744r10
+234b4*Style_Check_Xtra_Parens{boolean} 13|756r10
+239i4*Style_Max_Line_Length{21|59I9} 13|510r19 513r49
+X 21 types.ads
+52K9*Types 12|36w6 36r17 21|829e10
+59I9*Int<integer> 12|110r43 115r43 13|507r43 531r43 534r11
+65I12*Nat{59I9} 13|43r18
+94e4*EOF{character} 13|559r33
+107E12*Line_Terminator{character} 13|280r34
+140I9*Text_Ptr<59I9>
+143A9*Text_Buffer(character)
+157I9*Logical_Line_Number<integer>
+167I9*Physical_Line_Number<integer>
+173I9*Column_Number<short_integer>
+188A12*Big_Source_Buffer{143A9}
+192P9*Source_Buffer_Ptr(188A12)
+200I12*Source_Ptr{140I9} 12|39r60 130r35 142r39 13|48r26 68r43 72r40 262r11
+. 274r14 513r37 532r11 616r11 711r35 754r39 774r43 783r40
+400I9*Node_Id<integer> 12|146r34 153r35 13|804r34 819r35
+582I9*Source_File_Index<59I9>
+

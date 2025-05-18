@@ -1,0 +1,308 @@
+V "GNAT Lib v5.05"
+M P W=b
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U frontend%b		frontend.adb		af3a1926 NE SU
+W atree%s		atree.adb		atree.ali
+W checks%s		checks.adb		checks.ali
+W cstand%s		cstand.adb		cstand.ali
+W debug%s		debug.adb		debug.ali
+W elists%s		elists.adb		elists.ali
+W exp_dbug%s		exp_dbug.adb		exp_dbug.ali
+W fmap%s		fmap.adb		fmap.ali
+W fname%s		fname.adb		fname.ali
+W fname.uf%s		fname-uf.adb		fname-uf.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.strings%s	g-string.adb		g-string.ali
+W hostparm%s		hostparm.ads		hostparm.ali
+W inline%s		inline.adb		inline.ali
+W lib%s			lib.adb			lib.ali
+W lib.load%s		lib-load.adb		lib-load.ali
+W live%s		live.adb		live.ali
+W namet%s		namet.adb		namet.ali
+W nlists%s		nlists.adb		nlists.ali
+W opt%s			opt.adb			opt.ali
+W osint%s		osint.adb		osint.ali
+W output%s		output.adb		output.ali
+W par%s			par.adb			par.ali
+W prepcomp%s		prepcomp.adb		prepcomp.ali
+W rtsfind%s		rtsfind.adb		rtsfind.ali
+W scn%s			scn.adb			scn.ali
+W sem%s			sem.adb			sem.ali
+W sem_ch8%s		sem_ch8.adb		sem_ch8.ali
+W sem_elab%s		sem_elab.adb		sem_elab.ali
+W sem_prag%s		sem_prag.adb		sem_prag.ali
+W sem_warn%s		sem_warn.adb		sem_warn.ali
+W sinfo%s		sinfo.adb		sinfo.ali
+W sinput%s		sinput.adb		sinput.ali
+W sinput.l%s		sinput-l.adb		sinput-l.ali
+W sprint%s		sprint.adb		sprint.ali
+W tbuild%s		tbuild.adb		tbuild.ali
+W types%s		types.adb		types.ali
+
+U frontend%s		frontend.ads		94964265 EE NE SU
+
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D casing.ads		20050704094644 1a6e5ef9
+D checks.ads		20050902034804 372ef489
+D cstand.ads		20050817133512 0140f859
+D debug.ads		20051106042240 f7a1e876
+D einfo.ads		20060105095504 a63ced63
+D elists.ads		20051026195116 b3ccb8c4
+D err_vars.ads		20051106042414 f22c305d
+D errout.ads		20051106042544 1b1d99fc
+D erroutc.ads		20051106042626 749b7f29
+D exp_dbug.ads		20051023141954 1baefbc4
+D fmap.ads		20050819162316 2d5e4c35
+D fname.ads		20050704094646 e06812a2
+D fname-uf.ads		20050704094646 63a9279e
+D frontend.ads		20050819162340 94964265
+D frontend.adb		20051128115508 425d42f0
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D inline.ads		20050819163502 e76819d0
+D lib.ads		20051127005428 f7794dc9
+D lib-load.ads		20051127005344 9b6b7dfa
+D live.ads		20050819163554 d2ae5bdd
+D namet.ads		20051128233748 d7b5fee4
+D nlists.ads		20050928021552 215c5d8c
+D opt.ads		20060214002402 703337d5
+D osint.ads		20050819204702 67d8ead2
+D output.ads		20051202225852 111deb13
+D par.ads		20051002143040 a2448b85
+D prepcomp.ads		20050819200448 6de9d571
+D rtsfind.ads		20051221150028 29320d53
+D scn.ads		20050704094700 5165457b
+D scng.ads		20050704094700 3c63687b
+D sem.ads		20051023143526 8ffc9e5e
+D sem_ch8.ads		20060213215058 96d4454e
+D sem_elab.ads		20051023143826 1cde976a
+D sem_prag.ads		20050927233506 5b339f98
+D sem_warn.ads		20051002122708 ea552e00
+D sinfo.ads		20051124200850 7567e295
+D sinput.ads		20050925211914 fd546e96
+D sinput-l.ads		20050819004752 09dcfd5d
+D snames.ads		20060213235714 57cf62a2
+D sprint.ads		20050819202648 93a4548f
+D style.ads		20050704094704 574d70ca
+D styleg.ads		20050905024154 37ce6741
+D styleg-c.ads		20050819004706 0c4e933b
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D tbuild.ads		20050704094704 55fa2132
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 atree.ads
+45K9*Atree 2860e10 17|29w6 29r20 76r4
+326U14*Initialize 17|76r10
+562V13*Nkind{42|6584E9} 17|296r22
+591V13*Present{boolean} 17|181r16 268r16
+X 4 checks.ads
+42K9*Checks 649e11 17|30w6 82r4
+44U14*Initialize 17|82r11
+X 5 cstand.ads
+32K9*CStand 50e11 17|31w6 86r4
+34U14*Create_Standard 17|86r11
+X 6 debug.ads
+38K9*Debug 195e10 17|32w6 32r20
+101b4*Debug_Flag_UU{boolean} 17|323r16
+114b4*Debug_Flag_7{boolean} 17|231r14
+X 8 elists.ads
+45K9*Elists 170e11 17|33w6 78r4
+57U14*Initialize 17|78r11
+X 12 exp_dbug.ads
+34K9*Exp_Dbug 1516e13 17|34w6 349r7
+476U14*Qualify_All_Entity_Names 17|349r16
+X 13 fmap.ads
+32K9*Fmap 77e9 17|35w6 203r7 362r7
+34U14*Initialize 17|203r12
+56U14*Update_Mapping_File 17|362r12
+X 14 fname.ads
+40K9*Fname 99e10 17|36r6 81r4
+X 15 fname-uf.ads
+40K15*UF 115e13 17|36w12 81r10
+75U14*Initialize 17|81r13
+X 16 frontend.ads
+30U11*Frontend 17|63b11 366l5 366t13
+X 17 frontend.adb
+64i7 Config_Pragmas{57|448I9} 144m13 147m13 151m10 170r16 177r10 180r25 255r7
+. 267r25 284r63
+114b7 Save_Style_Check{boolean} 192r26
+117i7 Source_Config_File{57|582I9} 160m13 162r16 168r42
+120i7 Prag{57|400I9} 180m10 181r25 182r49 183r32 186m19
+157i14 Index{integer} 158r44 159r63 165r38
+264i10 Prag{57|400I9} 267m10 268r25 269r45 270r32 273m19
+X 18 gnat.ads
+36K9*GNAT 17|27r6 27r24 18|39e9
+X 20 g-string.ads
+38K14*Strings 17|27w11 27r29 20|59e17
+41P9*String_Access(string)
+50A9*String_List(41P9)
+51P9*String_List_Access(50A9)
+X 22 hostparm.ads
+40K9*Hostparm 17|37w6 37r20 22|99e13
+48b4*Java_VM{boolean} 17|348r11
+X 23 inline.ads
+43K9*Inline 17|38w6 38r20 23|132e11
+107U14*Instantiate_Bodies 17|312r13
+118U14*Analyze_Inlined_Bodies 17|317r16
+X 24 lib.ads
+41K9*Lib 17|39w6 39r20 40r6 40r20 79r4 109r4 333r13 24|760e8
+369V13*Cunit{57|400I9} 17|284r43 296r35 304r21
+375V13*Fatal_Error{boolean} 17|288r14
+382V13*Source_Index{57|582I9} 17|216r35
+395U14*Set_Loading 17|249r4
+578U14*List 17|333r17
+X 25 lib-load.ads
+31K13*Load 17|40w10 40r24 79r8 109r8 25|178e13
+90U14*Initialize 17|79r13
+98U14*Load_Main_Source 17|109r13
+X 26 live.ads
+31K9*Live 17|41w6 41r20 26|37e9
+33U14*Collect_Garbage_Entities 17|324r16
+X 27 namet.ads
+40K9*Namet 17|42w6 42r20 27|425e10
+129a4*Name_Buffer{string} 17|96m7 138m10 159m13
+135i4*Name_Len{natural} 17|95m7 96r25 139m10 158m13 159r31
+237V13*Name_Find{57|372I9} 17|97r47
+247V13*Name_Enter{57|372I9} 17|140r47 160r53
+353U14*Write_Name 17|229r7
+X 28 nlists.ads
+43K9*Nlists 17|43w6 43r20 77r4 28|344e11
+71V13*Empty_List=71:47{57|448I9} 17|147r31 151r28
+120V13*First{57|400I9} 17|180r18 267r18
+159U14*Next 17|186r13 273r13
+235U14*Append_List_To 17|169r13
+286U14*Initialize 17|77r11
+X 29 opt.ads
+46K9*Opt 17|44w6 44r20 114r46 128r7 133r25 137r10 156r10 157r23 192r7 196r7
+. 210r4 29|1350e8
+148b4*ASIS_Mode{boolean} 17|310r32
+260b4*Config_File{boolean} 17|137r14
+264p4*Config_File_Names{20|51P9} 17|156r14 157r27 158r25 159r44 165r19
+490b4*Full_List{boolean} 17|220r23
+582b4*Inline_Processing_Required{boolean} 17|316r16
+613b4*List_Units{boolean} 17|332r13
+696p4*Mapping_File_Name{57|119P9} 17|202r7 203r24 361r7 362r33
+760n33*Check_Syntax{760E9} 17|178r36 256r33 280r25
+760n47*Check_Semantics{760E9} 17|298r31 309r39
+760n64*Generate_Code{760E9} 17|223r27 295r30 308r30 315r30
+761e4*Operating_Mode{760E9} 17|178r18 223r10 256r15 280r7 295r13 298m13 308r13
+. 309r22 315r13
+811p4*Preprocessing_Data_File{57|119P9} 17|94r7 95r19 96r38
+897b4*Style_Check{boolean} 17|114r50 128m11 129m7 192m11 192r46
+926a4*Suppress_Options{57|712A9} 17|133r29 196m11 303r28
+1048b4*Verbose_Mode{boolean} 17|220r7
+1280U14*Register_Opt_Config_Switches 17|210r8
+X 30 osint.ads
+37K9*Osint 17|45w6 163r16 30|629e10
+121U14*Fail 17|163r22
+X 31 output.ads
+41K9*Output 17|46w6 46r20 31|194e11
+86U14*Write_Char 17|234r10
+93U14*Write_Eol 17|221r7 237r7
+104U14*Write_Str 17|224r10 226r10 232r10
+X 32 par.ads
+32V10*Par{57|448I9} 17|47w6 144r31 170r32 244r18
+33b4 Configuration_Pragmas{boolean} 17|144r36 170r37 244r23
+X 33 prepcomp.ads
+31K9*Prepcomp 17|48w6 90r4 97r7 103r7 33|67e13
+41U14*Check_Symbols 17|103r16
+48U14*Parse_Preprocessing_Data_File 17|97r16
+59U14*Process_Command_Line_Symbol_Definitions 17|90r13
+X 34 rtsfind.ads
+29K9*Rtsfind 17|49w6 75r4 34|2935e12
+2851U14*Initialize 17|75r12
+X 35 scn.ads
+36K9*Scn 17|51w6 51r20 35|90e8
+38U14*Initialize_Scanner 17|143r13 168r13 216r4
+X 37 sem.ads
+203K9*Sem 17|52w6 52r20 37|555e8
+376a4*Scope_Suppress{57|712A9} 17|133m7 196r31 303m10
+442U14*Semantics 17|304r10
+X 38 sem_ch8.ads
+28K9*Sem_Ch8 17|53w6 53r20 80r4 38|165e12
+112U14*Initialize 17|80r12
+X 39 sem_elab.ads
+33K9*Sem_Elab 17|54w6 54r20 39|154e13
+129U14*Check_Elab_Calls 17|327r13
+X 40 sem_prag.ads
+32K9*Sem_Prag 17|55w6 55r20 40|89e13
+34U14*Analyze_Pragma 17|183r16 270r16
+37V13*Delay_Config_Pragma_Analyze{boolean} 17|182r20 269r16
+X 41 sem_warn.ads
+33K9*Sem_Warn 17|56w6 56r20 339r10 41|135e13
+72U14*Check_Unused_Withs 17|339r19
+101U14*Output_Unreferenced_Messages 17|338r10
+X 42 sinfo.ads
+57K9*Sinfo 17|57w6 57r20 42|9296e10
+6919n7*N_Subunit{6584E9} 17|296r57
+7169V13*Aux_Decls_Node{57|400I9} 17|284r27
+7883V13*Unit{57|400I9} 17|296r29
+8054U14*Set_Config_Pragmas 17|284r7
+X 43 sinput.ads
+72K9*Sinput 17|58w6 58r20 59r6 59r20 43|751e11
+287V13*Full_File_Name{57|593I12} 17|229r19
+420i4*Current_Source_File{57|582I9} 17|229r35 233r28
+428i4*Source_gnat_adc{57|582I9} 17|140m10 142r13 143r42
+601U14*Write_Time_Stamp 17|233r10
+X 44 sinput-l.ads
+33K16*L 17|59w13 59r27 44|125e13
+49V13*Load_Config_File{57|582I9} 17|140r29 160r35
+X 46 sprint.ads
+36K9*Sprint 17|50w6 356r4 46|150e11
+88U14*Source_Dump 17|356r11
+X 56 tbuild.ads
+32K9*Tbuild 17|60w6 60r20 56|272e11
+56U14*Discard_List 17|244r4
+X 57 types.ads
+52K9*Types 17|61w6 61r20 57|829e10
+59I9*Int<integer>
+119P9*String_Ptr(string)
+372I9*Name_Id<integer>
+400I9*Node_Id<integer> 17|120r14 264r17
+448I9*List_Id<integer> 17|64r24
+456i4*Error_List{448I9} 17|177r28 255r25
+571I9*Unit_Number_Type<59I9>
+576i4*Main_Unit{571I9} 17|216r24 216r49 249r17 284r50 288r27 296r42 304r28
+579i4*No_Unit{571I9} 17|143r33 168r33
+582I9*Source_File_Index<59I9> 17|117r28
+590i4*No_Source_File{582I9} 17|142r32 162r37
+593I12*File_Name_Type{372I9}
+712A9*Suppress_Array(boolean)
+

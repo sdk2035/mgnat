@@ -1,0 +1,138 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U sem_ch2%b		sem_ch2.adb		44a9fd42 NE PK
+W atree%s		atree.adb		atree.ali
+W errout%s		errout.adb		errout.ali
+W opt%s			opt.adb			opt.ali
+W restrict%s		restrict.adb		restrict.ali
+W rident%s		rident.ads		rident.ali
+W sem_ch8%s		sem_ch8.adb		sem_ch8.ali
+W sinfo%s		sinfo.adb		sinfo.ali
+W stand%s		stand.adb		stand.ali
+W uintp%s		uintp.adb		uintp.ali
+
+U sem_ch2%s		sem_ch2.ads		c092894d BN EE NE PK
+W types%s		types.adb		types.ali
+
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D einfo.ads		20060105095504 a63ced63
+D err_vars.ads		20051106042414 f22c305d
+D errout.ads		20051106042544 1b1d99fc
+D erroutc.ads		20051106042626 749b7f29
+D gnat.ads		20050819162446 e279999f
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D namet.ads		20051128233748 d7b5fee4
+D opt.ads		20060214002402 703337d5
+D restrict.ads		20050819200528 0239bdb8
+D rident.ads		20050819200532 6450d2e5
+D sem_ch2.ads		20050704094700 5039ddec
+D sem_ch2.adb		20050704094700 6fc1d351
+D sem_ch8.ads		20060213215058 96d4454e
+D sinfo.ads		20051124200850 7567e295
+D snames.ads		20060213235714 57cf62a2
+D stand.ads		20051015031156 dba3a3c7
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-rident.ads		20060219120110 4205e218
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 atree.ads
+45K9*Atree 2860e10 16|27w6 27r20
+568V13*Comes_From_Source{boolean} 16|54r10 121r10
+586V13*No{boolean} 16|48r10 109r10
+X 5 errout.ads
+40K9*Errout 668e11 16|28w6 28r20
+47i4*Total_Errors_Detected=47:49{28|65I12} 16|72r18
+X 12 opt.ads
+46K9*Opt 1350e8 16|29w6 29r20
+63n38*Ada_95{63E9} 16|117r25
+76e4*Ada_Version{63E9} 16|117r10
+X 13 restrict.ads
+34K9*Restrict 295e13 16|30w6 30r20
+178U14*Check_Restriction 16|57r10 122r10
+X 14 rident.ads
+44K9*Rident[23|47] 16|31w6 31r20
+X 15 sem_ch2.ads
+29K9*Sem_Ch2 44l5 44e12 16|37b14 126l5 126t12
+31U14*Analyze_Character_Literal 31>41 38r19 16|43b14 59l8 59t33
+31i41 N{28|400I9} 16|43b41 48r21 49r21 52r33 54r29 55r72 57r49
+32U14*Analyze_Identifier 32>41 39r19 16|65b14 78l8 78t26
+32i41 N{28|400I9} 16|65b34 71r17 76r28
+33U14*Analyze_Integer_Literal 33>41 40r19 16|84b14 88l8 88t31
+33i41 N{28|400I9} 16|84b39 86r18 87r33
+34U14*Analyze_Real_Literal 34>41 41r19 16|94b14 98l8 98t28
+34i41 N{28|400I9} 16|94b36 96r18 97r33
+35U14*Analyze_String_Literal 35>41 42r19 16|104b14 124l8 124t30
+35i41 N{28|400I9} 16|104b38 109r21 110r21 118r36 121r29 121r61 122r49
+X 17 sem_ch8.ads
+28K9*Sem_Ch8 16|32w6 32r20 17|165e12
+78U14*Find_Direct_Name 16|76r10
+X 18 sinfo.ads
+57K9*Sinfo 16|33w6 33r20 18|9296e10
+7190V13*Char_Literal_Value{29|50I9} 16|55r52
+7193V13*Chars{28|372I9} 16|71r10
+7412V13*Etype{28|400I9} 16|48r14 109r14
+7517V13*Has_Wide_Character{boolean} 16|121r41
+8231U14*Set_Etype 16|49r10 86r7 96r7 110r10
+8399U14*Set_Is_Static_Expression 16|52r7 87r7 97r7 118r10
+X 20 stand.ads
+47K9*Stand 16|34w6 34r20 20|465e10
+373i4*Any_Character{28|403I12} 16|49r24
+405i4*Any_String{28|403I12} 16|110r24
+411i4*Universal_Integer{28|403I12} 16|86r21
+416i4*Universal_Real{28|403I12} 16|96r21
+X 23 s-rident.ads
+56E9*Restriction_Id
+120n7*No_Wide_Characters{56E9[14|44]} 16|57r29[14|44] 122r29[14|44]
+X 28 types.ads
+52K9*Types 15|27w6 27r17 28|829e10
+59I9*Int<integer>
+65I12*Nat{59I9}
+372I9*Name_Id<integer>
+385I12*Error_Name_Or_No_Name{372I9} 16|71r23
+400I9*Node_Id<integer> 15|31r45 32r45 33r45 34r45 35r45 16|43r45 65r38 84r43
+. 94r40 104r42
+403I12*Entity_Id{400I9}
+532M9*Char_Code_Base
+535M12*Char_Code{532M9}
+546V13*In_Character_Range{boolean} 16|55r22
+X 29 uintp.ads
+44K9*Uintp 16|35w6 35r20 29|528e10
+50I9*Uint
+240V13*UI_To_CC{28|535M12} 16|55r42
+

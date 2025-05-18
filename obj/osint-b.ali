@@ -1,0 +1,151 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnvnnnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnn
+
+U osint.b%b		osint-b.adb		1fdc12b8 PK
+W hostparm%s		hostparm.ads		hostparm.ali
+W namet%s		namet.adb		namet.ali
+W opt%s			opt.adb			opt.ali
+W osint%s		osint.adb		osint.ali  AD
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U osint.b%s		osint-b.ads		cb30edef EE NE PK
+W osint%s		osint.adb		osint.ali
+
+D alloc.ads		20050704094642 baad0baa
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D namet.ads		20051128233748 d7b5fee4
+D opt.ads		20060214002402 703337d5
+D osint.ads		20050819204702 67d8ead2
+D osint-b.ads		20050819200356 ace8073d
+D osint-b.adb		20050819200356 e33dfcf8
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-secsta.ads		20060219120110 db466d0c
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 3 g-os_lib.ads
+160I9*File_Descriptor<integer>
+171n26*Text{171E9} 11|158r41
+250U14*Close 11|46r7
+828e4*Directory_Separator{character} 11|98r32
+X 6 hostparm.ads
+40K9*Hostparm 99e13 11|27w6 138r16
+58b4*OpenVMS{boolean} 11|138r25
+X 7 namet.ads
+40K9*Namet 425e10 11|28w6 28r19
+129a4*Name_Buffer{string} 11|76m10 77m10 80m13 86m10 123m10 124m10 129m13
+. 130m13 131m13 139m16 141m16 144m13 145m13 146m13 147m13
+135i4*Name_Len{natural} 11|83m10 132m13 148m13
+154V13*Get_Name_String{string} 11|51r13
+237V13*Name_Find{21|372I9} 11|152r16
+X 8 opt.ads
+46K9*Opt 1350e8 11|29w6 29r19
+706i4*Maximum_File_Name_Length{21|59I9} 11|113r13 117r35
+X 9 osint.ads
+37K9*Osint 629e10 10|30r9 100r5 11|31r14 255r5
+121U14*Fail 11|49r10
+152V13*File_Stamp{21|634A9} 11|55r43 155r42
+567i4 Output_FD{3|160I9} 11|46r14 158m30
+570i4 Output_File_Name{21|593I12} 11|51r30 55r55
+577A9 File_Name_Array(21|119P9)
+578P9 File_Name_Array_Ptr(577A9)
+579p4 File_Names{578P9} 11|87r23
+591i4 Current_File_Name_Index{21|59I9} 11|87r35
+596U14 Create_File_And_Check 11|158r7
+605n36 Binder{605E9} 11|254r17
+607U14 Set_Program 11|254r4
+612V13 More_Files{boolean} 11|165r52
+615V13 Next_Main_File{21|593I12} 11|171r62
+625U14 Write_Info 11|251r56
+X 10 osint-b.ads
+30K15*B 9|37k9 10|100l11 100e12 11|31b20 255l11 255t12
+32U14*Record_Time_From_Last_Bind 11|177b14 180l8 180t34
+36V13*More_Lib_Files{boolean} 11|165b13
+41V13*Next_Main_Lib_File{21|593I12} 11|171b13
+48V13*Time_From_Last_Bind{21|65I12} 11|186b13 245l8 245t27
+70U14*Create_Binder_Output 71>7 72>7 73<7 11|64b14 159l8 159t28
+71s7 Output_File_Name{string} 11|65b7 75r10 76r23 76r50 77r23 80r26 83r22
+72e7 Typ{character} 11|66b7 79r13 128r13 146r42
+73i7 Bfile{21|372I9} 11|67b7 152m7 155r54
+88U14*Write_Binder_Info 88>33 11|251b14
+88s33 Info{string}
+96U14*Close_Binder_Output 11|43b14 58l8 58t27
+X 11 osint-b.adb
+33b4 Binder_Output_Time_Stamps_Set{boolean} 56m10 211r21
+35a4 Old_Binder_Output_Time_Stamp{21|634A9} 155m10 212r17 218r9
+36a4 New_Binder_Output_Time_Stamp{21|634A9} 55m10 222r9
+37b4 Recording_Time_From_Last_Bind{boolean} 54r10 154r10 179m7 210r14
+44b7 Status{boolean} 46m25 48r14
+69p7 File_Name{21|119P9} 87m10 89r21 97r27 98r16 99r23 106r21 107r16 123r44
+70i7 Findex1{natural} 89m10 101m16 111r31 119r37 123r55
+71i7 Findex2{natural} 106m10 107r27 108m13 108r24 111r21 118m16 118r27 119r27
+. 123r66
+72i7 Flength{natural} 111m10 117r24 119m16 123r28 124r23 130r26 131r26 132r25
+. 144r26 145r26 146r26 147r26 148r25
+97i14 J{integer} 98r27 99r34 101r27
+187i7 Old_Y{21|65I12} 219m9 242r45
+188i7 Old_M{21|65I12} 219m16 238r24 238r56
+189i7 Old_D{21|65I12} 219m23 233r40
+190i7 Old_H{21|65I12} 219m30 229r35
+191i7 Old_Mi{21|65I12} 219m37 225r23
+192i7 Old_S{21|65I12} 219m45
+193i7 New_Y{21|65I12} 223m9 242r37
+194i7 New_M{21|65I12} 223m16 238r16 238r40
+195i7 New_D{21|65I12} 223m23 233r31
+196i7 New_H{21|65I12} 223m30 229r26
+197i7 New_Mi{21|65I12} 223m37 225r14
+198i7 New_S{21|65I12} 223m45
+200A12 Month_Data(21|59I9) 201r24
+201a7 Cumul{200A12} 238r33 238r49
+207i7 Res{21|59I9} 225m7 229m7 229r14 233m7 233r14 237m7 237r14 242m7 242r14
+. 244r14
+251s33 Info{string}
+X 21 types.ads
+59I9*Int<integer> 11|117r19 200r33 200r55 207r13
+65I12*Nat{59I9} 10|48r40 11|186r40 187r16 188r16 189r16 190r16 191r16 192r16
+. 193r16 194r16 195r16 196r16 197r16 198r16 214r17
+119P9*String_Ptr(string) 11|69r19
+372I9*Name_Id<integer> 10|73r30 11|67r30
+593I12*File_Name_Type{372I9} 10|41r39 11|171r39
+634A9*Time_Stamp_Type<string> 11|35r36 36r36
+637a4*Empty_Time_Stamp{634A9} 11|212r48
+648V13*"="{boolean} 11|212r46
+662U14*Split_Time_Stamp 11|217r7 221r7
+

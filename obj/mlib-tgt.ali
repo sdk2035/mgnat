@@ -1,0 +1,146 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnvnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U mlib.tgt%b		mlib-tgt.adb		bd5cd6ad NE PK
+W mlib%s		mlib.adb		mlib.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U mlib.tgt%s		mlib-tgt.ads		b2ac9f5f EE NE PK
+W mlib%s		mlib.adb		mlib.ali
+W prj%s			prj.adb			prj.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D a-finali.ads		20060219120048 2f48e141
+D a-filico.ads		20060219120048 9299732a
+D a-stream.ads		20060219120050 74337d1b
+D a-tags.ads		20060219120052 81dd2f9c
+D a-tags.adb		20060219120044 9bcd7865
+D a-uncdea.ads		20060219120052 dc667e6d
+D alloc.ads		20050704094642 baad0baa
+D casing.ads		20050704094644 1a6e5ef9
+D gnat.ads		20050819162446 e279999f
+D g-dynhta.ads		20060219120056 802e9e53
+D g-dyntab.ads		20060219120056 db91ccc4
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D mlib.ads		20050819164040 b26a2fed
+D mlib-tgt.ads		20060213233942 725be107
+D mlib-tgt.adb		20050819164040 cf0737aa
+D osint.ads		20050819204702 67d8ead2
+D prj.ads		20051207041146 729d51b5
+D scans.ads		20050819200544 d9be3407
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-finimp.ads		20060219120106 33c39bf7
+D s-finroo.ads		20060219120106 6f410d48
+D s-htable.ads		20060219120108 9598cfa4
+D s-parame.ads		20060219120110 6bd7b874
+D s-secsta.ads		20060219120110 db466d0c
+D s-soflin.ads		20060219120110 677820d8
+D s-stache.ads		20060219120110 07e06d0a
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-stratt.ads		20060219120110 63715cfd
+D s-traent.ads		20060219120112 9950c76b
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D s-wchstw.ads		20060219120112 6b782940
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 14 g-os_lib.ads
+70A12*String_List{15|50A9} 18|49r18 76r18
+84P12*String_List_Access{15|51P9} 17|59r44 66r44 18|47r44 74r44
+610A12*Argument_List{70A12} 17|102r22 103r22 104r22 105r22 106r22 107r22
+. 18|84r22 85r22 86r22 87r22 88r22 89r22
+X 15 g-string.ads
+41P9*String_Access(string)
+50A9*String_List(41P9)
+51P9*String_List_Access(50A9)
+X 16 mlib.ads
+34K9*MLib 79e9 17|37r9 160r5 18|32r14 234r5
+X 17 mlib-tgt.ads
+37K14*Tgt 16|34k9 17|160l10 160e13 18|32b19 234l10 234t13
+39E9*Library_Support 39e53 47r42 18|229r42
+39n29*None{39E9} 18|231r14
+39n35*Static_Only{39E9}
+39n48*Full{39E9}
+47V13*Support_For_Libraries{39E9} 18|229b13 232l8 232t29
+51V13*Standalone_Library_Auto_Init_Is_Supported{boolean} 18|220b13 223l8
+. 223t49
+56V13*Archive_Builder{string} 18|38b13 41l8 41t23
+59V13*Archive_Builder_Options{14|84P12} 18|47b13 50l8 50t31
+62V13*Archive_Indexer{string} 18|65b13 68l8 68t23
+66V13*Archive_Indexer_Options{14|84P12} 18|74b13 77l8 77t31
+69V13*Dynamic_Option{string} 18|127b13 130l8 130t22
+73V13*Libgnat{string} 18|166b13 169l8 169t15
+76V13*Archive_Ext{string} 18|56b13 59l8 59t19
+80V13*Object_Ext{string} 18|202b13 205l8 205t18
+84V13*DLL_Ext{string} 18|118b13 121l8 121t15
+89V13*PIC_Option{string} 18|211b13 214l8 214t18
+92V13*Is_Object_Ext{boolean} 92>28 18|136b13 140l8 140t21
+92s28 Ext{string} 18|136b28 137r28
+95V13*Is_C_Ext{boolean} 95>23 18|146b13 150l8 150t16
+95s23 Ext{string} 18|146b23 147r28
+98V13*Is_Archive_Ext{boolean} 98>29 18|156b13 160l8 160t22
+98s29 Ext{string} 18|156b29 157r28
+101U14*Build_Dynamic_Library 102>7 103>7 104>7 105>7 106>7 107>7 108>7 109>7
+. 110>7 111>7 112>7 113>7 18|83b14 112l8 112t29
+102a7 Ofiles{14|610A12} 18|84b7 97r28
+103a7 Foreign{14|610A12} 18|85b7 98r28
+104a7 Afiles{14|610A12} 18|86b7 99r28
+105a7 Options{14|610A12} 18|87b7 100r28
+106a7 Options_2{14|610A12} 18|88b7 101r28
+107a7 Interfaces{14|610A12} 18|89b7 102r28
+108s7 Lib_Filename{string} 18|90b7 103r28
+109s7 Lib_Dir{string} 18|91b7 104r28
+110r7 Symbol_Data{20|294R9} 18|92b7 105r28
+111i7 Driver_Name{40|372I9} 18|93b7 106r28
+112s7 Lib_Version{string} 18|94b7 107r28
+113b7 Auto_Init{boolean} 18|95b7 108r28
+149V13*Library_Exists_For{boolean} 150>7 150>29 18|175b13 182l8 182t26
+150i7 Project{20|310I9} 18|176b7 178r28
+150p29 In_Tree{20|51P9} 18|176b29 179r28
+154V13*Library_File_Name_For{40|372I9} 155>7 156>7 18|188b13 196l8 196t29
+155i7 Project{20|310I9} 18|189b7 192r28
+156p7 In_Tree{20|51P9} 18|190b7 193r28
+X 20 prj.ads
+44K9*Prj 17|35w6 35r23 20|1088e8
+50R9*Project_Tree_Data 918e17
+51P9*Project_Tree_Ref(50R9) 17|150r39 156r17 18|176r39 190r17
+294R9*Symbol_Record 17|110r22 18|92r22 20|298e14
+310I9*Project_Id<40|59I9> 17|150r17 155r17 18|176r17 189r17
+X 40 types.ads
+59I9*Int<integer>
+372I9*Name_Id<integer> 17|111r22 156r42 18|93r22 190r42
+376i4*No_Name{372I9} 17|111r33 18|93r33 195r14
+

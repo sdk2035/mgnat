@@ -1,0 +1,218 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnvnnnnnnnnnnnnnvnnnnvnnvnvnnnnnnnnnnvnnnnnnnnnnnnnnvnvvnnnnnnnnnnnnnnn
+
+U switch.m%b		switch-m.adb		5c1fc972 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W debug%s		debug.adb		debug.ali
+W opt%s			opt.adb			opt.ali
+W osint%s		osint.adb		osint.ali
+W switch%s		switch.adb		switch.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W table%s		table.adb		table.ali  AD
+
+U switch.m%s		switch-m.ads		2d905750 EE NE PK
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.adb		g-os_lib.ali
+W switch%s		switch.adb		switch.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D debug.ads		20051106042240 f7a1e876
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D opt.ads		20060214002402 703337d5
+D osint.ads		20050819204702 67d8ead2
+D output.ads		20051202225852 111deb13
+D switch.ads		20051219195322 a5fc36ac
+D switch-m.ads		20050704094704 efb0c5ab
+D switch-m.adb		20051219195316 1e3711b7
+D system.ads		20060219120116 9a1fe783
+D s-assert.ads		20060219120106 85573af2
+D s-exctab.ads		20060219120106 e14b1567
+D s-memory.ads		20060219120108 33b8762e
+D s-parame.ads		20060219120110 6bd7b874
+D s-secsta.ads		20060219120110 db466d0c
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-traent.ads		20060219120112 9950c76b
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D table.adb		20050704094704 47c50577
+D tree_io.ads		20050905024702 f2f33d85
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 3 debug.ads
+38K9*Debug 195e10 14|27w6 27r20
+186U14*Set_Debug_Flag 14|578r19
+X 4 gnat.ads
+36K9*GNAT 39e9 13|33r6 33r23
+X 5 g-os_lib.ads
+52K14*OS_Lib 859e16 13|33w11 33r28
+63P12*String_Access{6|41P9} 14|35r31
+70A12*String_List{6|50A9}
+84P12*String_List_Access{6|51P9}
+86V13*"="=87:22{boolean} 14|82r22
+610A12*Argument_List{70A12} 13|67r22 14|83r29 90r37 465r22
+615P12*Argument_List_Access{84P12} 13|48r29 14|47r22 56r29 89r40
+X 6 g-string.ads
+41P9*String_Access(string)
+50A9*String_List(41P9)
+51P9*String_List_Access(50A9)
+X 9 opt.ads
+46K9*Opt 1350e8 14|29w6 29r20 710r32 715r41 718r41 721r41
+180b4*Bind_Only{boolean} 14|527m13
+195b4*Build_Bind_And_Link_Full_Project{boolean} 14|534m13
+214b4*Check_Readonly_Files{boolean} 14|521m13
+225b4*Check_Switches{boolean} 14|703m13
+253b4*Compile_Only{boolean} 14|540m13
+279b4*Create_Mapping_File{boolean} 14|547m13
+349b4*Do_Not_Execute{boolean} 14|674m13
+450b4*External_Unit_Compilation_Allowed{boolean} 14|734m13
+479b4*Force_Compilations{boolean} 14|617m13
+483b4*Full_Path_Name_For_Brief_Errors{boolean} 14|623m13
+574b4*Follow_Links{boolean} 14|607m19
+588b4*In_Place_Mode{boolean} 14|635m13
+594b4*Keep_Going{boolean} 14|657m13
+604b4*Link_Only{boolean} 14|663m13
+617b4*List_Dependencies{boolean} 14|668m13
+686b4*Make_Steps{boolean} 14|528m13 541m13 664m13
+691i4*Main_Index{30|59I9} 14|601m53
+712i4*Maximum_Processes{positive} 14|650m16
+729b4*No_Main_Subprogram{boolean} 14|740m13
+756b4*Object_Directory_Present{boolean} 14|554r16 558m16
+782b4*Output_File_Name_Present{boolean} 14|681r16 684m16
+849b4*Quiet_Output{boolean} 14|691m13
+868b4*Run_Path_Option{boolean} 14|697m13
+1024b4*Usage_Requested{boolean} 14|629m13
+1048b4*Verbose_Mode{boolean} 14|709m13
+1054n40*Low{1054E9} 14|715r45
+1054n45*Medium{1054E9} 14|718r45
+1054n53*High{1054E9} 14|710r36 721r45
+1055e4*Verbosity_Level{1054E9} 14|710m13 715m22 718m22 721m22
+X 10 osint.ads
+37K9*Osint 629e10 14|28w6 28r20 506r10 555r16 682r16
+121U14*Fail 14|506r16 555r22 682r22
+X 12 switch.ads
+36K9*Switch 92e11 13|35r9 74r5 14|32r14 757r5
+78U14 Scan_Pos 14|601r19 649r16
+89U14 Bad_Switch 14|494r10 580r19 592r16 610r19 641r16 724r22 745r13 750r13
+X 13 switch-m.ads
+35K16*M 12|36k9 13|74l12 74e13 14|32b21 757l12 757t13
+37U14*Scan_Make_Switches 37>34 14|485b14 755l8 755t26
+37s34 Switch_Chars{string} 14|485b34 486r33 487r33 494r22 503r10 504r18 507r35
+. 513r15 575r21 580r31 592r28 595r18 601r29 610r31 641r28 649r26 713r21 724r34
+. 745r25 750r25
+46U14*Normalize_Compiler_Switches 47>7 48=7 49<7 14|54b14 461l8 461t35 470r7
+47s7 Switch_Chars{string} 14|55b7 61r24 62r33 65r32 131r28 138r34 146r15
+. 157r19 165r41 194r35 196r50 207r30 235r33 236r44 244r25 247r27 262r28 275r30
+. 292r27 320r33 322r30 334r39 363r30 378r39 414r44 436r44
+48p7 Switches{5|615P12} 14|56b7 82r13 83m13 87r23 91r45 91r63 93r35 93r55
+. 94r24 95m16 102r21 112r16 120r10 123r12
+49i7 Last{natural} 14|57b7 87r16 94m16 101r13 102m13 104m13 104r21 112r26
+. 120r20 123r22 129m7 220m28 238m25 258m28 288m25 307m25 325m28 357m28 389m34
+. 418m25 440m25 454m22
+65V13*Normalize_Compiler_Switches{5|610A12} 66>7 14|463b13 479l8 479t35
+66s7 Switch_Chars{string} 14|464b7 470r36
+X 14 switch-m.adb
+34K12 Normalized_Switches[27|57] 110r28 111r20 112r35 121r10 122r10 122r37
+45N4 Initial_Number_Of_Switches 83r49
+47p4 Global_Switches{5|615P12} 470m50 476r17 476r34
+59b7 Switch_Starts_With_Gnat{boolean} 137m7 140r10 150r15
+61i7 Ptr{integer} 66r34 131r10 131r42 135m7 135r14 138r10 138r48 138r55 141m10
+. 141r17 142r26 145r13 146r29 183m22 183r29 192m25 192r32 193r35 194r49 196r64
+. 205r28 206m25 206r32 207r44 232m22 232r29 234r25 235r47 236r58 244r39 246r55
+. 247r41 250r60 255m25 255r32 257r28 262r42 263m28 263r35 271r58 274r49 275r44
+. 285m22 285r29 287r25 292r41 304m25 304r32 317m22 317r29 319r25 320r47 322r44
+. 331m28 331r35 333r31 334r53 337m31 337r38 349m22 349r29 351r25 362r28 363r44
+. 364m25 364r32 377r37 378r53 382m34 382r41 412m22 412r29 414r25 414r58 426m25
+. 426r32 434m22 434r29 436r25 436r58 448m25 448r32
+62i7 Max{integer} 131r16 138r21 145r20 193r41 205r34 234r31 246r49 247r48
+. 250r54 257r34 271r52 274r43 275r51 287r31 319r32 333r38 351r31 362r35 377r44
+. 414r32 436r32
+63e7 C{character} 146m10 164r22 172r21 180r48 188r48 207m25 208r35 208r57
+. 209r35 211r28 212r28 213r28 215r58 292m22 294r25 295r32 296r32 297r32 298r32
+. 299r32 301r55 322m25 324r28 330r53 348r48 352r28 363m25 368r28 372r31 378m34
+. 379r44 381r59 400r61 411r47
+65a7 Storing{string} 180m22 182r25 182r34 188m22 196m25 200r25 200r34 203m22
+. 215m28 217r31 217r40 231m22 245m25 249r28 249r37 283m22 301m25 303r28 303r37
+. 316m22 330m28 336m31 343r25 343r34 348m22 354r31 354r40 368r45 373r39 375m31
+. 381m34 394r37 394r46 400m31 402r34 402r43 411m22 423m25 425r28 425r37 433m22
+. 445m25 447r28 447r37
+66i7 First_Stored{positive} 67r34 142m10 180r31 182r51 188r31 189r37 203r31
+. 215r37 217r57 231r31 245r34 246r34 250r39 283r31 301r34 303r54 315r37 348r31
+. 354r57 368r54 373r48 374r46 388r48 400r40 402r60 410r37 432r37
+67i7 Last_Stored{positive} 189m22 195m25 195r40 196r34 200r51 315m22 316r31
+. 329m28 329r43 330r37 335m31 335r46 336r40 343r51 374m31 375r40 380m34 380r49
+. 381r43 388r34 394r63 410m22 411r31 422m25 422r40 423r34 425r54 432m22 433r31
+. 444m25 444r40 445r34 447r54
+69U17 Add_Switch_Component 69>39 78b17 124l11 124t31 162r19 165r19 181r22
+. 199r22 216r28 248r25 276r28 302r25 342r22 353r28 393r34 401r31 424r25 446r25
+69s39 S{string} 78b39 111r16 120r41
+89p16 New_Switches{5|615P12} 93r16 95r28
+110i14 Index{integer} 111r47 112r62
+271a28 To_Store{string} 273m28 274m28 276r50
+467i7 Last{natural} 470m67 472r10 476r59
+486i7 Ptr{integer} 493r10 497m10 497r17 503r33 504r32 504r39 513r29 520m13
+. 520r20 526m13 526r20 533m13 533r20 539m13 539r20 546m13 546r20 552m13 552r20
+. 573r19 574m16 574r23 575r35 589m13 589r20 591r16 595r32 600m19 600r26 601m48
+. 606m19 606r26 616m13 616r20 622m13 622r20 628m13 628r20 634m13 634r20 640r16
+. 644m13 644r20 649m45 656m13 656r20 662m13 662r20 667m13 667r20 673m13 673r20
+. 679m13 679r20 690m13 690r20 696m13 696r20 702m13 702r20 708m13 708r20 712r16
+. 713r35 727m16 727r23 733m13 733r20 739m13 739r20 749r13
+487i7 Max{integer} 493r16 573r25 591r22 601r43 640r22 649r40 712r23 749r20
+488e7 C{character} 513m10 517r15 575m16 577r19 577r43 578r35 601r65 649r60
+512q7 Check_Switch 753l11 753e23
+647i16 Max_Proc{30|68I12} 649m50 650r47
+X 27 table.ads
+45K9*Table 14|30w6 34r39 27|236e10
+49+12 Table_Component_Type 14|35r7
+50I12 Table_Index_Type 14|36r7
+52*7 Table_Low_Bound{50I12} 14|37r7
+53i7 Table_Initial{30|68I12} 14|38r7
+54i7 Table_Increment{30|65I12} 14|39r7
+55s7 Table_Name{string} 14|40r7
+57k12*Table 14|34r45 27|235e13
+108A12*Table_Type(6|41P9)
+111A15*Big_Table_Type{108A12[14|34]}
+119P12*Table_Ptr(111A15[14|34])
+122p7*Table{119P12[14|34]} 14|111r40[34] 112r55[34] 122r30[34]
+146V16*Last{integer} 14|110r48[34] 122r57[34]
+175U17*Increment_Last 14|121r30[34]
+X 30 types.ads
+59I9*Int<integer>
+65I12*Nat{59I9}
+68I12*Pos{59I9} 14|647r27
+

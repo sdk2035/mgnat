@@ -1,0 +1,119 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnvnnnnnnnnnnnnnnnnnnvnvnnvnnnnnnnnvnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U sdefault%b		sdefault.adb		0db1ebfb PK
+W gnat%s		gnat.ads		gnat.ali
+W gnat.case_util%s	g-casuti.adb		g-casuti.ali
+W gnat.os_lib%s		g-os_lib.adb		g-os_lib.ali
+W opt%s			opt.adb			opt.ali
+W osint%s		osint.adb		osint.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+W system.string_ops_concat_4%s  s-sopco4.adb	s-sopco4.ali
+
+U sdefault%s		sdefault.ads		4488d9c9 EE NE PK
+W types%s		types.adb		types.ali
+
+D gnat.ads		20050819162446 e279999f
+D g-casuti.ads		20060219120054 7d943894
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D opt.ads		20060214002402 703337d5
+D osint.ads		20050819204702 67d8ead2
+D sdefault.ads		20050819200558 d4238d68
+D sdefault.adb		20050816192704 d4312757
+D system.ads		20060219120116 9a1fe783
+D s-casuti.ads		20060219120106 97b72bfb
+D s-exctab.ads		20060219120106 e14b1567
+D s-secsta.ads		20060219120110 db466d0c
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-strops.ads		20060219120110 92e79914
+D s-sopco3.ads		20060219120110 14cc5bf6
+D s-sopco4.ads		20060219120110 dca7f27b
+D s-sopco5.ads		20060219120110 63c5ad18
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 1 gnat.ads
+36K9*GNAT 39e9 10|68r6 68r26 69r6 69r26 161r31
+X 2 g-casuti.ads
+45K14*Case_Util 79e19 10|68w11 68r31
+69U14*To_Lower=70:31 10|128r13
+X 3 g-os_lib.ads
+52K14*OS_Lib 859e16 10|69w11 69r31 161r36
+63P12*String_Access{4|41P9}
+492V13*Locate_Exec_On_Path{63P12} 10|161r43
+828e4*Directory_Separator{character} 10|79r31
+X 4 g-string.ads
+41P9*String_Access(string)
+X 7 opt.ads
+46K9*Opt 1350e8 10|71w6 172r14 188r14 211r14
+250b4*Compact_Framework{boolean} 10|172r18 188r18 211r18
+X 8 osint.ads
+37K9*Osint 629e10 10|70w6 70r26 102r32 136r13 147r7
+121U14*Fail 10|136r19
+127V13*Is_Directory_Separator{boolean} 10|121r16 134r34 153r13
+544U14*Fill_Arg 10|147r13
+548V13*Len_Arg{integer} 10|102r38
+X 9 sdefault.ads
+28K9*Sdefault 38l5 38e13 10|73b14 218l5 218t13
+34V13*Include_Dir_Default_Name{24|119P9} 10|168b13 178l8 178t32
+35V13*Object_Dir_Default_Name{24|119P9} 10|184b13 194l8 194t31
+36V13*Target_Name{24|119P9} 10|200b13 203l8 203t19
+37V13*Search_Dir_Prefix{24|119P9} 10|209b13 216l8 216t25
+X 10 sdefault.adb
+79e4 DS{character} 81r54 82r46 82r66 83r46 83r66 212r42 214r55
+81a4 Common_Dir{string} 169r54 175r51 185r54 191r51 212r29 214r29
+82a4 Relative_Include_Dir{string} 170r10 176r13
+83a4 Relative_Object_Dir{string} 186r10 192r13
+84a4 Target{string} 202r26
+90V13 Executable_Location{string} 101b13 162l8 162t27 169r32 175r29 185r32
+. 191r29
+102a7 Exec_Name{string} 147m23 152r24 153r37 154r37 161r64
+104V16 Get_Install_Dir{string} 104>33 115b16 142l11 142t26 154r20 161r14
+104s33 S{string} 115b33 116r33
+116a10 Exec{string} 120r27 121r40 127r26 128m23 131r25 132r20 133r38 134r58
+. 138r16 141r17 141r23
+117i10 Path_Last{integer} 122m16 127r13 128r29 128r46 131r13 132r26 132r43
+. 133r21 134r64 141r37
+120i14 J{integer} 121r46 122r29
+152i11 J{integer} 153r48
+169a7 Dir{string} 173r29
+185a7 Dir{string} 189r29
+X 24 types.ads
+52K9*Types 9|27w6 27r17 24|829e10
+119P9*String_Ptr(string) 9|34r45 35r44 36r32 37r38 10|168r45 184r44 200r32
+. 209r38
+

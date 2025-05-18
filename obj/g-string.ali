@@ -1,0 +1,58 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnvnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnn
+
+U gnat.strings%b	g-string.adb		c5c1ddd4 NE PK
+W gnat%s		gnat.ads		gnat.ali
+
+U gnat.strings%s	g-string.ads		1060e054 NE PR PK
+W gnat%s		gnat.ads		gnat.ali
+W unchecked_deallocation%s
+
+D gnat.ads		20050819162446 e279999f
+D g-string.ads		20060219120058 94ae84e2
+D g-string.adb		20060219120058 516f5936
+D system.ads		20060219120116 9a1fe783
+D unchdeal.ads		20050819202736 66b7fd29
+X 1 gnat.ads
+36K9*GNAT 39e9 2|38r9 59r5 3|34r14 61r5
+X 2 g-string.ads
+38K14*Strings 1|36k9 2|59l10 59e17 3|34b19 61l10 61t17
+41P9*String_Access(string) 46r33 50r53 3|41r11
+45U14*Free[5|20] 3|52r13
+50A9*String_List(41P9) 51r42 3|44r20
+51P9*String_List_Access(50A9) 54r33 3|40r33 44r41
+54U14*Free 54=20 3|40b14 59l8 59t12
+54p20 Arg{51P9} 3|40b20 49r10 50r19 51r18 58m19
+X 3 g-string.adb
+41p7 X{2|41P9} 51m13 52m19
+43U17 Free_Array[5|20] 58r7
+50i14 J{integer} 51r23
+X 5 unchdeal.ads
+17+9 Object 2|46r7 3|44r10
+18P9 Name(17+9) 2|46r25 3|44r33
+20u11*Unchecked_Deallocation 2|36w6 45r26 3|43r35
+

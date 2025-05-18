@@ -1,0 +1,81 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.restrictions%b	s-restri.adb		65af5a34 PK
+W system%s		system.ads		system.ali
+
+U system.restrictions%s	s-restri.ads		265101de BN EE PK
+W system%s		system.ads		system.ali
+W system.rident%s
+
+D system.ads		20060219120116 9a1fe783
+D s-restri.ads		20060219120110 fe4b0445
+D s-restri.adb		20060219120102 9be45e71
+D s-rident.ads		20060219120110 4205e218
+X 1 system.ads
+39K9*System 205e11 2|43r6 45r9 47r26 67r5 3|34r14 147r5
+X 2 s-restri.ads
+45K16*Restrictions 1|39k9 2|67l12 67e24 3|34b21 147l12 147t24
+47K12*Rident[4|47] 49r28 3|35r8
+49r4*Run_Time_Restrictions{4|246R9[47]} 3|43r14 45r14 54r14 56r14 116m13
+. 119m13 130m13 131m13 137m13 138m13 141m16
+55V13*Abort_Allowed{boolean} 56r19 3|41b13 46l8 46t21
+61V13*Tasking_Allowed{boolean} 62r19 3|52b13 57l8 57t23
+X 3 s-restri.adb
+62q4 Acquire_Restrictions 146l8 146e28
+64A15 Big_String{string} 65r41
+65P12 Big_String_Ptr(64A15) 67r17
+67p7*RString{65P12} 68m25 89r17 100r16 140r16
+70i7 P{natural} 88m10 88r15 89r26 100r25 140r25 142m16 142r21
+73e7 C{character} 113m10 115r13 118r16
+76V16 Get_Char{character} 86b16 90l11 90t19 101r43 113r15 129r13 136r13
+79V16 Get_Natural{natural} 96b16 105l11 105t22 131r49 138r49
+97i10 N{natural} 101m13 101r18 104r17
+112e11 R{4|170E12[2|47]} 116r45 119r40
+125e11 RP{4|188E12[2|47]} 130r40 131r42 137r45 138r42 141r47
+X 4 s-rident.ads
+47k16*Rident 2|43w13 47r33 4|396e18
+56E9*Restriction_Id
+61n7*No_Abort_Statements{56E9[2|47]} 3|43r46[2|47]
+104n7*No_Tasking{56E9[2|47]} 3|56r46[2|47]
+140n7*Max_Tasks{56E9[2|47]} 3|54r46[2|47]
+148n7*Max_Asynchronous_Select_Nesting{56E9[2|47]} 3|45r46[2|47]
+170E12*All_Boolean_Restrictions{56E9[2|47]} 3|112r16[2|47]
+188E12*All_Parameter_Restrictions{56E9[2|47]} 3|125r17[2|47]
+242A9*Restriction_Flags(boolean)
+243A9*Restriction_Values(natural)
+244A9*Parameter_Flags(boolean)
+246R9*Restrictions_Info 2|49r35[47]
+247a7*Set{242A9[2|47]} 3|119r35[2|47] 130r35[2|47]
+254a7*Value{243A9[2|47]} 3|131r35[2|47]
+261a7*Violated{242A9[2|47]} 3|43r36[2|47] 45r36[2|47] 54r36[2|47] 56r36[2|47]
+. 116r35[2|47] 137r35[2|47]
+267a7*Count{243A9[2|47]} 3|138r35[2|47]
+274a7*Unknown{244A9[2|47]} 3|141r38[2|47]
+

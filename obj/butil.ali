@@ -1,0 +1,82 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U butil%b		butil.adb		205292dd NE PK
+W hostparm%s		hostparm.ads		hostparm.ali
+W namet%s		namet.adb		namet.ali
+W output%s		output.adb		output.ali
+
+U butil%s		butil.ads		8af86432 EE NE PK
+W types%s		types.adb		types.ali
+
+D alloc.ads		20050704094642 baad0baa
+D butil.ads		20050819155748 1a533093
+D butil.adb		20050819155748 0b2697f5
+D hostparm.ads		20060213225900 f78f204c
+D namet.ads		20051128233748 d7b5fee4
+D output.ads		20051202225852 111deb13
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 2 butil.ads
+29K9*Butil 55l5 55e10 3|31b14 166l5 166t10
+33V13*Is_Predefined_Unit{boolean} 3|42r14 63b13 112l8 112t26
+39V13*Is_Internal_Unit{boolean} 3|40b13 54l8 54t24
+48V13*Uname_Less{boolean} 48>25 48>29 3|118b13 146l8 146t18
+48i25 U1{12|601I12} 3|118b25 120r24
+48i29 U2{12|601I12} 3|118b29 128r27
+51U14*Write_Unit_Name 51>31 3|152b14 164l8 164t23
+51i31 U{12|601I12} 3|152b31 154r24
+X 3 butil.adb
+123a10 U1_Name{string} 130r24 133r27 137r16 139r19 144r17
+125i10 Min_Length{natural} 131m13 133m13 136r24
+136i14 I{integer} 137r25 137r43 139r28 139r46
+X 4 hostparm.ads
+40K9*Hostparm 3|27w6 27r20 4|99e13
+58b4*OpenVMS{boolean} 3|48r12
+X 5 namet.ads
+40K9*Namet 3|28w6 28r20 5|425e10
+129a4*Name_Buffer{string} 3|44r30 46r30 50r24 52r24 66r28 69r28 72r29 75r29
+. 78r29 81r29 84r29 87r29 90r29 93r29 96r29 99r29 102r29 105r29 108r29 111r29
+. 124r44 137r30 139r33 155r18 157r10
+135i4*Name_Len{natural} 3|43r18 49r23 65r18 68r18 71r18 74r18 77r18 80r18
+. 83r18 86r18 89r18 92r18 95r18 98r18 101r18 104r18 107r18 110r18 123r42
+. 124r62 130r13 131r27 144r32 155r36 157r23 163m7 163r19
+148U14*Get_Name_String 3|120r7 128r10 154r7
+X 6 output.ads
+41K9*Output 3|29w6 29r20 6|194e11
+104U14*Write_Str 3|155r7 158r10 160r10
+X 12 types.ads
+52K9*Types 2|27w6 27r17 12|829e10
+372I9*Name_Id<integer>
+601I12*Unit_Name_Type{372I9} 2|48r34 51r35 3|118r34 152r35
+

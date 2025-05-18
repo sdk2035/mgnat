@@ -1,0 +1,130 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U stylesw%b		stylesw.adb		9373097b NE PK
+W hostparm%s		hostparm.ads		hostparm.ali
+W opt%s			opt.adb			opt.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U stylesw%s		stylesw.ads		8d872683 EE NE PK
+W types%s		types.adb		types.ali
+
+D gnat.ads		20050819162446 e279999f
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D opt.ads		20060214002402 703337d5
+D stylesw.ads		20051124180646 1d2c7222
+D stylesw.adb		20051128114616 09e36cc0
+D system.ads		20060219120116 9a1fe783
+D s-assert.ads		20060219120106 85573af2
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 4 hostparm.ads
+40K9*Hostparm 99e13 7|27w6 27r20
+66N4*Max_Line_Length 7|306r51 310r40
+X 5 opt.ads
+46K9*Opt 1350e8 7|28w6 28r20
+897b4*Style_Check{boolean} 7|361m7
+X 6 stylesw.ads
+34K9*Stylesw 294l5 294e12 7|30b14 364l5 364t12
+50b4*Style_Check_Attribute_Casing{boolean} 7|39m7 110r17 229m16
+55b4*Style_Check_Blanks_At_End{boolean} 7|40m7 111r17 232m16
+59b4*Style_Check_Blank_Lines{boolean} 7|41m7 126r17 343m16
+64b4*Style_Check_Comments{boolean} 7|42m7 112r17 235m16
+92b4*Style_Check_DOS_Line_Terminator{boolean} 7|43m7 113r17 238m16
+97b4*Style_Check_End_Labels{boolean} 7|44m7 114r17 241m16
+101b4*Style_Check_Form_Feeds{boolean} 7|45m7 115r17 244m16
+106b4*Style_Check_Horizontal_Tabs{boolean} 7|46m7 116r17 247m16
+110b4*Style_Check_If_Then_Layout{boolean} 7|47m7 117r17 250m16
+134i4*Style_Check_Indentation{16|173I9} 7|38m7 107r27 108r12 225m16
+142b4*Style_Check_Keyword_Casing{boolean} 7|48m7 118r17 253m16
+148b4*Style_Check_Max_Line_Length{boolean} 7|50m7 129r10 287m16 319m16
+153b4*Style_Check_Max_Nesting_Level{boolean} 7|51m7 135r10 284m16
+158b4*Style_Check_Order_Subprograms{boolean} 7|52m7 121r17 328m16
+163b4*Style_Check_Pragma_Casing{boolean} 7|53m7 122r17 331m16
+167b4*Style_Check_Layout{boolean} 7|49m7 119r17 256m16
+173b4*Style_Check_References{boolean} 7|54m7 123r17 334m16
+179b4*Style_Check_Specs{boolean} 7|55m7 124r17 337m16
+186b4*Style_Check_Standard{boolean} 7|56m7 120r17 322m16
+191b4*Style_Check_Tokens{boolean} 7|57m7 125r17 340m16
+234b4*Style_Check_Xtra_Parens{boolean} 7|58m7 127r17 346m16
+239i4*Style_Max_Line_Length{16|59I9} 7|132r19 288m16 291m16 302m19 303r21
+. 306r22 319r49
+244i4*Style_Max_Nesting_Level{16|59I9} 7|138r19 259m16 269m19 270r21 273r22
+. 284r49
+253U14*Set_Default_Style_Check_Options 7|153b14 157l8 157t39
+257a4*Style_Msg_Buf{string} 7|200m10 212m10 308m22 353m16 355m16
+258i4*Style_Msg_Len{natural} 7|199m10 199r27 200r25 211m10 212r30 309m22
+. 354m16 355r31
+261U14*Set_Style_Check_Options 262>7 263<7 264<7 7|169r7 175b14 363l8 363t31
+262s7 Options{string} 7|176b7 218r18 219r24 220r15 261r29 262r26 271r38 280r39
+. 281r29 293r29 294r26 304r38 315r39 316r29
+263b7 OK{boolean} 7|177b7 210m10 307m22 356m16 362m7
+264i7 Err_Col{natural} 7|178b7 218m7 219r13 220r24 221m10 221r21 261r19 262r35
+. 271r47 279m19 279r30 280r29 281r38 293r19 294r35 304r47 314m19 314r30 315r29
+. 316r38 352m16 352r27
+278U14*Set_Style_Check_Options 278>39 7|156r7 165b14 171l8 171t31
+278s39 Options{string} 7|165b39 169r32
+283U14*Reset_Style_Check_Options 7|36b14 59l8 59t33 155r7 325r16
+286A12*Style_Check_Options{string} 289r54 7|65r54
+289U14*Save_Style_Check_Options 289<40 7|65b14 147l8 147t32
+289a40 Options{286A12} 7|65b40 82m13 97m10 103r16 104m10 131m10 137m10 141r27
+. 143r17 145m10
+X 7 stylesw.adb
+66i7 P{natural} 81m13 81r18 82r22 96m10 96r15 97r19 130m10 130r15 131r19
+. 136m10 136r15 137r19 141r22 143r13 144m10 144r15 145r19
+68U17 Add 68>22 68>37 78b17 84l11 84t14 107r7 110r7 111r7 112r7 113r7 114r7
+. 115r7 116r7 117r7 118r7 119r7 120r7 121r7 122r7 123r7 124r7 125r7 126r7
+. 127r7
+68e22 C{character} 78b22 82r28
+68b37 S{boolean} 78b37 80r13
+71U17 Add_Nat 71>26 90b17 93r13 98l11 98t18 132r10 138r10
+71i26 N{16|65I12} 90b26 92r13 93r22 97r62
+103i11 K{integer} 104r19
+166b7 OK{boolean} 169m41 170r22
+167i7 EC{natural} 169m45
+180e7 C{character} 220m10 223r15 226r33 355r49
+182U17 Add_Img 182>26 193b17 196r13 202l11 202t18 310r22
+182i26 N{natural} 193b26 195r13 196r22 201r27
+185U17 Bad_Style_Switch 185>35 208b17 213l11 213t27 264r19 274r22 296r19
+185s35 Msg{string} 208b35 211r27 212r48
+X 16 types.ads
+52K9*Types 6|32w6 32r17 16|829e10
+59I9*Int<integer> 6|239r28 244r30 7|306r46
+65I12*Nat{59I9} 7|71r30 90r30
+173I9*Column_Number<short_integer> 6|134r30
+

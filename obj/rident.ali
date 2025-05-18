@@ -1,0 +1,41 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U rident%s		rident.ads		265530fd EE PK
+W system%s		system.ads		system.ali
+W system.rident%s
+
+D rident.ads		20050819200532 6450d2e5
+D system.ads		20060219120116 9a1fe783
+D s-rident.ads		20060219120110 4205e218
+X 1 rident.ads
+44K9*Rident[3|47]
+X 2 system.ads
+39K9*System 1|42r6 44r23 2|205e11
+X 3 s-rident.ads
+47k16*Rident 1|42w13 44r30 3|396e18
+

@@ -1,0 +1,812 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnvnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U sem%b			sem.adb			031a05fc NE PK
+W atree%s		atree.adb		atree.ali
+W debug%s		debug.adb		debug.ali
+W debug_a%s		debug_a.adb		debug_a.ali
+W errout%s		errout.adb		errout.ali
+W expander%s		expander.adb		expander.ali
+W fname%s		fname.adb		fname.ali
+W hlo%s			hlo.adb			hlo.ali
+W lib%s			lib.adb			lib.ali
+W lib.load%s		lib-load.adb		lib-load.ali
+W nlists%s		nlists.adb		nlists.ali
+W sem_attr%s		sem_attr.adb		sem_attr.ali
+W sem_ch10%s		sem_ch10.adb		sem_ch10.ali
+W sem_ch11%s		sem_ch11.adb		sem_ch11.ali
+W sem_ch12%s		sem_ch12.adb		sem_ch12.ali
+W sem_ch13%s		sem_ch13.adb		sem_ch13.ali
+W sem_ch2%s		sem_ch2.adb		sem_ch2.ali
+W sem_ch3%s		sem_ch3.adb		sem_ch3.ali
+W sem_ch4%s		sem_ch4.adb		sem_ch4.ali
+W sem_ch5%s		sem_ch5.adb		sem_ch5.ali
+W sem_ch6%s		sem_ch6.adb		sem_ch6.ali
+W sem_ch7%s		sem_ch7.adb		sem_ch7.ali
+W sem_ch8%s		sem_ch8.adb		sem_ch8.ali
+W sem_ch9%s		sem_ch9.adb		sem_ch9.ali
+W sem_prag%s		sem_prag.adb		sem_prag.ali
+W sem_util%s		sem_util.adb		sem_util.ali
+W sinfo%s		sinfo.adb		sinfo.ali
+W stand%s		stand.adb		stand.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W uintp%s		uintp.adb		uintp.ali
+
+U sem%s			sem.ads			3e2733fc EE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W alloc%s		alloc.ads		alloc.ali
+W einfo%s		einfo.adb		einfo.ali
+W opt%s			opt.adb			opt.ali
+W system%s		system.ads		system.ali
+W table%s		table.adb		table.ali  AD
+W types%s		types.adb		types.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D debug.ads		20051106042240 f7a1e876
+D debug_a.ads		20050704094644 22702ace
+D einfo.ads		20060105095504 a63ced63
+D err_vars.ads		20051106042414 f22c305d
+D errout.ads		20051106042544 1b1d99fc
+D erroutc.ads		20051106042626 749b7f29
+D exp_tss.ads		20051023143406 582d42fe
+D expander.ads		20050928020658 0a7169b4
+D fname.ads		20050704094646 e06812a2
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hlo.ads		20050819163308 cfbc4e18
+D hostparm.ads		20060213225900 f78f204c
+D inline.ads		20050819163502 e76819d0
+D lib.ads		20051127005428 f7794dc9
+D lib-load.ads		20051127005344 9b6b7dfa
+D namet.ads		20051128233748 d7b5fee4
+D nlists.ads		20050928021552 215c5d8c
+D opt.ads		20060214002402 703337d5
+D output.ads		20051202225852 111deb13
+D sem.ads		20051023143526 8ffc9e5e
+D sem.adb		20051009092954 2b737f0a
+D sem_attr.ads		20050704094700 8ca38474
+D sem_ch10.ads		20050704094700 9119634e
+D sem_ch11.ads		20050704094700 6a9e8a94
+D sem_ch12.ads		20051103062122 0d9a29c6
+D sem_ch13.ads		20051126165430 c934f511
+D sem_ch2.ads		20050704094700 5039ddec
+D sem_ch3.ads		20051220012228 67d5b4a0
+D sem_ch4.ads		20050704094700 3a50ffc0
+D sem_ch5.ads		20050928015136 7e4cea87
+D sem_ch6.ads		20050928015226 46dc4661
+D sem_ch7.ads		20050928015334 3b2eb432
+D sem_ch8.ads		20060213215058 96d4454e
+D sem_ch9.ads		20050704094702 f467f65c
+D sem_prag.ads		20050927233506 5b339f98
+D sem_util.ads		20060105095836 65788333
+D sinfo.ads		20051124200850 7567e295
+D snames.ads		20060213235714 57cf62a2
+D stand.ads		20051015031156 dba3a3c7
+D system.ads		20060219120116 9a1fe783
+D s-assert.ads		20060219120106 85573af2
+D s-exctab.ads		20060219120106 e14b1567
+D s-memory.ads		20060219120108 33b8762e
+D s-parame.ads		20060219120110 6bd7b874
+D s-stalib.ads		20060219120110 99eda53f
+D s-traent.ads		20060219120112 9950c76b
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D table.adb		20050704094704 47c50577
+D tree_io.ads		20050905024702 f2f33d85
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 3 alloc.ads
+44K9*Alloc 150e10 27|197w6 342r30 343r30 415r30 416r30 428r30 429r30
+66N4*Entity_Suppress_Initial 27|415r36 428r36
+67N4*Entity_Suppress_Increment 27|416r36 429r36
+111N4*Scope_Stack_Initial 27|342r36
+112N4*Scope_Stack_Increment 27|343r36
+X 4 atree.ads
+45K9*Atree 2860e10 28|27w6 27r20
+368U14*Set_Comes_From_Source_Default 28|1285r7
+562V13*Nkind{44|6584E9} 28|83r12 637r10 1209r30
+565V13*Analyzed{boolean} 28|76r10 1293r14
+586V13*No{boolean} 28|781r10 840r10
+591V13*Present{boolean} 28|675r13 851r16 885r10 890r13 907r19 952r10
+686U14*Mark_Rewrite_Insertion 28|909r16 970r13 1031r13 1089r13
+X 5 debug.ads
+38K9*Debug 195e10 28|28w6 28r20
+77b4*Debug_Flag_X{boolean} 28|1278r47
+X 6 debug_a.ads
+33K9*Debug_A 64e12 28|29w6 29r20
+43U14*Debug_A_Entry 28|72r7
+54U14*Debug_A_Exit 28|77r10 624r7
+X 7 einfo.ads
+39K9*Einfo 6952e10 27|198w6 198r18
+4969E9*Component_Alignment_Kind 4973e27 27|325r37
+4970n7*Calign_Default{4969E9} 28|1233r62
+5155B12*B{boolean}
+5192V13*Checks_May_Be_Suppressed{5155E12} 28|715r14 803r14
+5693U14*Set_Checks_May_Be_Suppressed 28|737r19 764r19
+6173V13*Scope_Depth{60|50I9} 28|843r13 843r39 854r19 854r40
+X 9 errout.ads
+40K9*Errout 668e11 28|30w6 30r20
+42i4*Serious_Errors_Detected=42:51{59|65I12} 28|549r28
+62n42*Analyzing{62E9} 28|1256r27
+63e4*Compiler_State{62E9} 28|1256m7
+X 12 expander.ads
+116K9*Expander 168e13 28|31w6 31r20
+147U14*Expand 28|638r10
+150U14*Expander_Mode_Save_And_Set 28|1275r10 1277r10 1296r13
+162U14*Expander_Mode_Restore 28|1300r13 1323r7
+X 13 fname.ads
+40K9*Fname 99e10 28|32w6 32r20
+67V13*Is_Predefined_File_Name{boolean} 28|1270r19
+69b7 Renamings_Included{boolean} 28|1272r22
+82V13*Is_Internal_File_Name{boolean} 28|1288r10
+X 18 hlo.ads
+29K9*HLO 37e8 28|33w6 33r20
+31U14*High_Level_Optimize 28|1301r13
+X 21 lib.ads
+41K9*Lib 760e8 28|34w6 34r20 35r6 35r20
+230i4*Current_Sem_Unit{59|571I9} 28|1206r57 1257m7 1271r38 1288r49 1289r10
+. 1294r30 1310r25 1314m7
+369V13*Cunit{59|400I9} 28|1209r43 1245r47
+383V13*Unit_File_Name{59|593I12} 28|1271r22 1288r33
+389U14*Set_Dynamic_Elab 28|1310r7
+440V13*In_Same_Source_Unit{boolean} 28|844r21
+510V13*Get_Cunit_Unit_Number{59|571I9} 28|1257r27
+X 22 lib-load.ads
+31K13*Load 178e13 28|35w10 35r24
+93U14*Initialize_Version 28|1294r10
+X 24 nlists.ads
+43K9*Nlists 344e11 28|36w6 36r20
+120V13*First{59|400I9} 28|674r15 1019r18 1077r18
+153V13*Next{59|400I9} 28|890r22 891r40 1009r35
+159U14*Next 28|677r10 910r16 971r13 1032r13 1090r13
+206V13*Is_Non_Empty_List{boolean} 28|1013r10 1071r10
+239U14*Insert_After 28|900r13
+245U14*Insert_List_After 28|1020r10
+250U14*Insert_Before 28|959r10
+256U14*Insert_List_Before 28|1078r10
+X 25 opt.ads
+46K9*Opt 1350e8 27|199w6 199r18
+353b4*Dynamic_Elaboration_Checks{boolean} 28|1310r43
+505b4*GNAT_Mode{boolean} 28|1207r57 1268m7 1269r9 1320m7
+509b4*HLO_Active{boolean} 28|1295r13
+760n64*Generate_Code{760E9} 28|1278r30
+761e4*Operating_Mode{760E9} 28|1278r13
+926a4*Suppress_Options{59|712A9} 27|376r39 28|1231r28
+1257R9*Config_Switches_Type 1348e14 28|1215r30
+1260U14*Save_Opt_Config_Switches 28|1286r7
+1265U14*Set_Opt_Config_Switches 28|1287r7
+1276U14*Restore_Opt_Config_Switches 28|1322r7
+X 27 sem.ads
+203K9*Sem 555l5 555e8 28|59b14 1326l5 1326t8
+205i4*New_Nodes_OK{59|59I9} 28|1204r57 1297m13 1302m13 1318m7
+213b4*Explicit_Overriding{boolean}
+218b4*Full_Analysis{boolean} 28|1201r57 1281m7 1315m7
+231b4*In_Default_Expression{boolean} 28|1202r57 1283m7 1316m7
+240b4*In_Deleted_Code{boolean}
+247b4*In_Inlined_Body{boolean}
+253b4*Inside_A_Generic{boolean} 28|1203r57 1282m7 1317m7
+260b4*Unloaded_Subunits{boolean} 28|874m7
+279R9*Scope_Stack_Entry 336e14 339r30
+280i7*Entity{59|403I12}
+283p7*Last_Subprogram_Name{59|119P9}
+287a7*Save_Scope_Suppress{59|712A9}
+290i7*Save_Local_Entity_Suppress{59|59I9}
+293b7*Is_Transient{boolean}
+296b7*Previous_Visibility{boolean}
+301i7*Node_To_Be_Wrapped{59|400I9}
+305i7*Actions_To_Be_Wrapped_Before{59|448I9}
+306i7*Actions_To_Be_Wrapped_After{59|448I9}
+312i7*Pending_Freeze_Actions{59|448I9}
+320i7*First_Use_Clause{59|400I9}
+325e7*Component_Alignment_Default{7|4969E9} 28|1233r31
+330b7*Is_Active_Stack_Base{boolean} 28|1235r31
+338K12*Scope_Stack[56|57] 28|873r7 1183r7 1186r7 1232r10 1233r13 1234r10
+. 1235r13
+376a4*Scope_Suppress{59|712A9} 28|648r46 650m13 652m13 657r39 659m13 661m13
+. 687r46 689m13 691m13 696r39 698m13 700m13 926r46 928m13 930m13 935r39 937m13
+. 939m13 986r46 988m13 990m13 995r39 997m13 999m13 1045r46 1047m13 1049m13
+. 1054r39 1056m13 1058m13 1103r46 1105m13 1107m13 1112r39 1114m13 1116m13
+. 1172r14 1231m10
+391R9*Entity_Check_Suppress_Record 402e14 412r30 425r30 28|729r17 756r17
+. 811r20 1135r17 1156r17
+392i7*Entity{59|403I12} 28|733r18 739r23 760r18 766r23 815r21 1139r19 1139r44
+. 1160r18
+396e7*Check{59|686E9} 28|734r27 734r56 740r23 761r27 761r56 767r23 816r30
+. 816r59 1140r27 1140r56 1161r27 1161r56
+400b7*Suppress{boolean} 28|736r21 741r23 763r21 768r23 818r28 1142r25 1163r25
+411K12*Local_Entity_Suppress[56|57] 28|726r17 726r48 730r27 738r19 765r19
+. 871r7 1132r17 1132r48 1136r27 1181r7 1184r7
+424K12*Global_Entity_Suppress[56|57] 28|753r17 753r49 757r26 808r20 808r52
+. 812r30 872r7 1153r17 1153r49 1157r27 1182r7 1185r7
+436U14*Initialize 28|869b14 875l8 875t18
+439U14*Lock 28|1179b14 1187l8 1187t12
+442U14*Semantics 442>25 28|1193b14 1325l8 1325t17
+442i25 Comp_Unit{59|400I9} 28|1193b25 1240r19 1245r35 1257r50 1293r24 1299r35
+. 1301r34
+446U14*Analyze 446>23 28|70b14 640l8 640t15 651r13 660r13 676r10 908r16 969r13
+. 1030r13 1088r13 1240r10
+446i23 N{59|400I9} 28|70b23 72r37 76r20 77r39 83r19 86r38 89r54 92r41 95r39
+. 98r32 101r32 104r36 107r33 110r42 113r32 116r32 119r50 122r38 125r37 128r40
+. 131r37 134r39 137r44 140r45 143r45 146r40 149r37 152r34 155r33 158r45 161r45
+. 164r40 167r48 170r56 173r44 176r41 179r37 182r36 185r43 188r32 191r48 194r37
+. 197r40 200r46 203r37 209r39 212r36 215r45 218r48 221r50 224r47 227r49 230r53
+. 233r37 236r41 239r33 242r35 245r49 248r36 251r43 254r45 257r38 260r38 263r28
+. 266r37 269r36 272r27 275r37 278r41 281r41 284r38 287r38 290r31 293r36 296r33
+. 299r36 302r36 305r34 308r36 311r36 314r36 317r36 320r36 323r31 326r36 329r36
+. 332r34 335r31 338r33 341r31 344r36 347r36 350r36 353r36 356r36 359r36 362r36
+. 365r33 368r36 371r36 374r35 377r40 380r42 383r44 386r39 389r44 392r44 395r29
+. 398r52 401r47 404r37 407r46 410r37 413r42 416r43 419r37 422r43 425r38 428r38
+. 431r28 434r46 437r35 440r51 443r32 446r30 449r39 452r38 456r39 459r39 462r34
+. 465r28 468r37 471r38 474r43 477r45 480r38 483r42 486r42 489r41 492r30 495r32
+. 498r37 501r38 504r32 507r44 510r39 513r45 516r38 519r43 522r48 525r34 528r31
+. 534r35 537r34 540r39 624r36 637r17 638r18
+447U14*Analyze 447>23 447>36 28|644b14 664l8 664t15
+447i23 N{59|400I9} 28|644b23 651r22 660r22
+447e36 Suppress{59|686E9} 28|644b36 646r10 657r55 659r29 661r29
+472U14*Analyze_List 472>28 28|670b14 679l8 679t20 690r13 699r13
+472i28 L{59|448I9} 28|670b28 674r22
+473U14*Analyze_List 473>28 473>41 28|683b14 703l8 703t20
+473i28 L{59|448I9} 28|683b28 690r27 699r27
+473e41 Suppress{59|686E9} 28|683b41 685r10 696r55 698r29 700r29
+478U14*Copy_Suppress_Status 479>7 480>7 481>7 28|709b14 773l8 773t28
+479e7 C{59|686E9} 28|710b7 734r64 740r35 761r64 767r35
+480i7 From{59|403I12} 28|711b7 715r40 733r27 760r27
+481i7 To{59|403I12} 28|712b7 737r49 739r35 764r49 766r35
+485U14*Insert_List_After_And_Analyze 486>7 486>20 28|1008b14 1035l8 1035t37
+. 1048r13 1057r13
+486i7 N{59|400I9} 28|1008b45 1009r41 1020r29
+486i20 L{59|448I9} 28|1008b58 1013r29 1019r25 1020r32
+487U14*Insert_List_After_And_Analyze 488>7 488>20 488>33 28|1039b14 1061l8
+. 1061t37
+488i7 N{59|400I9} 28|1040b7 1048r44 1057r44
+488i20 L{59|448I9} 28|1040b20 1048r47 1057r47
+488e33 Suppress{59|686E9} 28|1040b33 1043r10 1054r55 1056r29 1058r29
+496U14*Insert_List_Before_And_Analyze 497>7 497>20 28|1067b14 1093l8 1093t38
+. 1106r13 1115r13
+497i7 N{59|400I9} 28|1067b46 1078r30 1087r24
+497i20 L{59|448I9} 28|1067b59 1071r29 1077r25 1078r33
+498U14*Insert_List_Before_And_Analyze 499>7 499>20 499>33 28|1097b14 1119l8
+. 1119t38
+499i7 N{59|400I9} 28|1098b7 1106r45 1115r45
+499i20 L{59|448I9} 28|1098b20 1106r48 1115r48
+499e33 Suppress{59|686E9} 28|1098b33 1101r10 1112r55 1114r29 1116r29
+507U14*Insert_After_And_Analyze 508>7 508>20 28|881b14 914l8 914t32 929r13
+. 938r13
+508i7 N{59|400I9} 28|881b40 890r28 891r46 900r27
+508i20 M{59|400I9} 28|881b53 885r19 891r50 899r21 900r30
+509U14*Insert_After_And_Analyze 510>7 510>20 510>33 28|918b14 942l8 942t32
+510i7 N{59|400I9} 28|919b7 929r39 938r39
+510i20 M{59|400I9} 28|920b7 929r42 938r42
+510e33 Suppress{59|686E9} 28|921b7 924r10 935r55 937r29 939r29
+517U14*Insert_Before_And_Analyze 518>7 518>20 28|891r13 948b14 974l8 974t33
+. 989r13 998r13
+518i7 N{59|400I9} 28|948b41 959r25 968r24
+518i20 M{59|400I9} 28|948b54 952r19 958r18 959r28
+519U14*Insert_Before_And_Analyze 520>7 520>20 520>33 28|978b14 1002l8 1002t33
+520i7 N{59|400I9} 28|979b7 989r40 998r40
+520i20 M{59|400I9} 28|980b7 989r43 998r43
+520e33 Suppress{59|686E9} 28|981b7 984r10 995r55 997r29 999r29
+527V13*External_Ref_In_Generic{boolean} 527>38 28|831b13 863l8 863t31
+527i38 E{59|403I12} 28|831b38 843r33 844r42 849r25
+531U14*Enter_Generic_Scope 531>35 28|779b14 784l8 784t27
+531i35 S{59|403I12} 28|779b35 782r33
+539U14*Exit_Generic_Scope 539>35 28|790b14 795l8 795t26
+539i35 S{59|403I12} 28|790b35 792r10
+544V13*Explicit_Suppress{boolean} 544>32 544>47 28|801b13 825l8 825t25
+544i32 E{59|403I12} 28|801b32 803r40 815r30
+544e47 C{59|686E9} 28|801b47 816r67
+548V13*Is_Check_Suppressed{boolean} 548>34 548>49 28|1125b13 1173l8 1173t27
+548i34 E{59|403I12} 28|1125b34 1139r53 1160r27
+548e49 C{59|686E9} 28|1125b49 1140r64 1161r64 1172r30
+X 28 sem.adb
+61i4 Outer_Generic_Scope{59|403I12} 781r14 782m10 792r14 793m10 840r14 843r52
+. 844r45 852r23 854r53 1205r57 1236m10 1319m7
+648a13 Svg{59|712A9} 652r31
+657b13 Svg{boolean} 661r42
+671i7 Node{59|400I9} 674m7 675r22 676r19 677m16
+687a13 Svg{59|712A9} 691r31
+696b13 Svg{boolean} 700r42
+725i11 J<integer> 730r56
+729r13 R{27|391R9} 733r16 734r25 734r54 736r19
+752i11 J<integer> 757r56
+756r13 R{27|391R9} 760r16 761r25 761r54 763r19
+807i14 J<integer> 812r60
+811r16 R{27|391R9} 815r19 816r28 816r57 818r26
+832i7 Scop{59|403I12} 849m10 851r25 852r16 854r32 857m16 857r31
+882i7 Node{59|400I9} 899m13 907r28 908r25 909r40 910m22
+926a13 Svg{59|712A9} 930r31
+935b13 Svg{boolean} 939r42
+949i7 Node{59|400I9} 958m10 968r16 969r22 970r37 971m19
+986a13 Svg{59|712A9} 990r31
+995b13 Svg{boolean} 999r42
+1009i7 After{59|400I9} 1029r24
+1010i7 Node{59|400I9} 1019m10 1029r16 1030r22 1031r37 1032m19
+1045a13 Svg{59|712A9} 1049r31
+1054b13 Svg{boolean} 1058r42
+1068i7 Node{59|400I9} 1077m10 1087r16 1088r22 1089r37 1090m19
+1103a13 Svg{59|712A9} 1107r31
+1112b13 Svg{boolean} 1116r42
+1131i11 J<integer> 1136r56
+1135r13 R{27|391R9} 1139r17 1139r42 1140r25 1140r54 1142r23
+1152i11 J<integer> 1157r57
+1156r13 R{27|391R9} 1160r16 1161r25 1161r54 1163r23
+1201b7 S_Full_Analysis{boolean} 1315r33
+1202b7 S_In_Default_Expr{boolean} 1316r33
+1203b7 S_Inside_A_Generic{boolean} 1317r33
+1204i7 S_New_Nodes_OK{59|59I9} 1318r33
+1205i7 S_Outer_Gen_Scope{59|403I12} 1319r33
+1206i7 S_Sem_Unit{59|571I9} 1314r33
+1207b7 S_GNAT_Mode{boolean} 1320r33
+1208b7 Generic_Main{boolean} 1274r10
+1215r7 Save_Config_Switches{25|1257R9} 1286m33 1322r36
+1219U17 Do_Analyze 1227b17 1251l11 1251t21 1298r13 1305r10
+X 29 sem_attr.ads
+38K9*Sem_Attr 28|37w6 37r20 29|546e13
+517U14*Analyze_Attribute 28|116r13
+X 30 sem_ch10.ads
+28K9*Sem_Ch10 28|46w6 46r20 30|63e13
+29U14*Analyze_Compilation_Unit 28|134r13
+30U14*Analyze_With_Clause 28|537r13
+31U14*Analyze_With_Type_Clause 28|540r13
+32U14*Analyze_Subprogram_Body_Stub 28|474r13
+33U14*Analyze_Package_Body_Stub 28|377r13
+34U14*Analyze_Task_Body_Stub 28|498r13
+35U14*Analyze_Protected_Body_Stub 28|413r13
+36U14*Analyze_Subunit 28|492r13
+X 31 sem_ch11.ads
+28K9*Sem_Ch11 28|47w6 47r20 31|38e13
+29U14*Analyze_Exception_Declaration 28|173r13
+30U14*Analyze_Handled_Statements 28|236r13
+31U14*Analyze_Raise_Statement 28|425r13
+32U14*Analyze_Raise_xxx_Error 28|428r13
+33U14*Analyze_Subprogram_Info 28|480r13
+X 32 sem_ch12.ads
+30K9*Sem_Ch12 28|48w6 48r20 32|129e13
+31U14*Analyze_Generic_Package_Declaration 28|221r13
+32U14*Analyze_Generic_Subprogram_Declaration 28|230r13
+33U14*Analyze_Package_Instantiation 28|383r13
+34U14*Analyze_Procedure_Instantiation 28|407r13
+35U14*Analyze_Function_Instantiation 28|215r13
+36U14*Analyze_Formal_Object_Declaration 28|191r13
+37U14*Analyze_Formal_Type_Declaration 28|200r13
+38U14*Analyze_Formal_Subprogram 28|197r13
+39U14*Analyze_Formal_Package 28|194r13
+X 33 sem_ch13.ads
+30K9*Sem_Ch13 28|49w6 49r20 33|158e13
+31U14*Analyze_At_Clause 28|113r13
+32U14*Analyze_Attribute_Definition_Clause 28|119r13
+33U14*Analyze_Enumeration_Representation_Clause 28|170r13
+34U14*Analyze_Free_Statement 28|203r13
+35U14*Analyze_Record_Representation_Clause 28|440r13
+36U14*Analyze_Code_Statement 28|131r13
+X 34 sem_ch2.ads
+29K9*Sem_Ch2 28|38w6 38r20 34|44e12
+31U14*Analyze_Character_Literal 28|128r13
+32U14*Analyze_Identifier 28|239r13
+33U14*Analyze_Integer_Literal 28|257r13
+34U14*Analyze_Real_Literal 28|437r13
+35U14*Analyze_String_Literal 28|468r13
+X 35 sem_ch3.ads
+30K9*Sem_Ch3 28|39w6 39r20 35|252e12
+31U14*Analyze_Component_Declaration 28|137r13
+32U14*Analyze_Incomplete_Type_Decl 28|251r13
+33U14*Analyze_Itype_Reference 28|260r13
+34U14*Analyze_Number_Declaration 28|278r13
+35U14*Analyze_Object_Declaration 28|281r13
+36U14*Analyze_Others_Choice 28|371r13
+37U14*Analyze_Private_Extension_Declaration 28|398r13
+38U14*Analyze_Subtype_Declaration 28|486r13
+39U14*Analyze_Subtype_Indication 28|489r13
+40U14*Analyze_Type_Declaration 28|209r13
+41U14*Analyze_Variant_Part 28|534r13
+X 36 sem_ch4.ads
+29K9*Sem_Ch4 28|40w6 40r20 36|64e12
+30U14*Analyze_Aggregate 28|98r13 188r13
+31U14*Analyze_Allocator 28|101r13
+32U14*Analyze_Arithmetic_Op 28|293r13 302r13 308r13 326r13 329r13 344r13
+. 347r13 350r13 353r13 356r13 359r13 362r13
+34U14*Analyze_Comparison_Op 28|311r13 314r13 317r13 320r13
+35U14*Analyze_Concatenation 28|299r13
+36U14*Analyze_Conditional_Expression 28|140r13
+37U14*Analyze_Equality_Op 28|305r13 332r13
+38U14*Analyze_Explicit_Dereference 28|185r13
+39U14*Analyze_Logical_Op 28|296r13 338r13 365r13
+40U14*Analyze_Membership_Op 28|248r13 269r13
+41U14*Analyze_Negation 28|335r13
+42U14*Analyze_Null 28|272r13
+43U14*Analyze_Qualified_Expression 28|422r13
+44U14*Analyze_Range 28|431r13 434r13
+45U14*Analyze_Reference 28|443r13
+47U14*Analyze_Short_Circuit 28|104r13 368r13
+48U14*Analyze_Slice 28|465r13
+49U14*Analyze_Type_Conversion 28|516r13
+50U14*Analyze_Unary_Op 28|290r13 323r13 341r13
+51U14*Analyze_Unchecked_Expression 28|519r13
+52U14*Analyze_Unchecked_Type_Conversion 28|522r13
+54U14*Analyze_Indexed_Component_Form 28|254r13
+X 37 sem_ch5.ads
+29K9*Sem_Ch5 28|41w6 41r20 37|65e12
+31U14*Analyze_Assignment 28|107r13
+32U14*Analyze_Block_Statement 28|122r13
+33U14*Analyze_Case_Statement 28|125r13
+34U14*Analyze_Exit_Statement 28|179r13
+35U14*Analyze_Goto_Statement 28|233r13
+36U14*Analyze_If_Statement 28|242r13
+37U14*Analyze_Implicit_Label_Declaration 28|245r13
+38U14*Analyze_Label 28|263r13
+39U14*Analyze_Loop_Statement 28|266r13
+40U14*Analyze_Null_Statement 28|275r13
+X 38 sem_ch6.ads
+28K9*Sem_Ch6 28|42w6 42r20 38|182e12
+30U14*Analyze_Abstract_Subprogram_Declaration 28|89r13
+31U14*Analyze_Function_Call 28|212r13
+32U14*Analyze_Operator_Symbol 28|287r13
+33U14*Analyze_Parameter_Association 28|392r13
+34U14*Analyze_Procedure_Call 28|404r13
+35U14*Analyze_Return_Statement 28|449r13
+36U14*Analyze_Subprogram_Declaration 28|477r13
+37U14*Analyze_Subprogram_Body 28|471r13
+X 39 sem_ch7.ads
+29K9*Sem_Ch7 28|43w6 43r20 39|79e12
+31U14*Analyze_Package_Body 28|374r13
+32U14*Analyze_Package_Declaration 28|380r13
+33U14*Analyze_Package_Specification 28|389r13
+34U14*Analyze_Private_Type_Declaration 28|401r13
+X 40 sem_ch8.ads
+28K9*Sem_Ch8 28|44w6 44r20 40|165e12
+48U14*Analyze_Exception_Renaming 28|176r13
+49U14*Analyze_Expanded_Name 28|182r13
+50U14*Analyze_Generic_Function_Renaming 28|218r13
+51U14*Analyze_Generic_Package_Renaming 28|224r13
+52U14*Analyze_Generic_Procedure_Renaming 28|227r13
+53U14*Analyze_Object_Renaming 28|284r13
+54U14*Analyze_Package_Renaming 28|386r13
+55U14*Analyze_Subprogram_Renaming 28|483r13
+56U14*Analyze_Use_Package 28|525r13
+57U14*Analyze_Use_Type 28|528r13
+94U14*Find_Selected_Component 28|452r13
+130U14*New_Scope 28|1230r10
+135U14*Pop_Scope 28|1249r10
+147U14*Restore_Scope_Stack 28|1250r10
+148U14*Save_Scope_Stack 28|1229r10
+X 41 sem_ch9.ads
+29K9*Sem_Ch9 28|45w6 45r20 41|56e12
+30U14*Analyze_Abort_Statement 28|86r13
+31U14*Analyze_Accept_Alternative 28|92r13
+32U14*Analyze_Accept_Statement 28|95r13
+33U14*Analyze_Asynchronous_Select 28|110r13
+34U14*Analyze_Conditional_Entry_Call 28|143r13
+35U14*Analyze_Delay_Alternative 28|146r13
+36U14*Analyze_Delay_Relative 28|149r13
+37U14*Analyze_Delay_Until 28|152r13
+38U14*Analyze_Entry_Body 28|155r13
+39U14*Analyze_Entry_Body_Formal_Part 28|158r13
+40U14*Analyze_Entry_Call_Alternative 28|161r13
+41U14*Analyze_Entry_Declaration 28|164r13
+42U14*Analyze_Entry_Index_Specification 28|167r13
+43U14*Analyze_Protected_Body 28|410r13
+44U14*Analyze_Protected_Definition 28|416r13
+45U14*Analyze_Protected_Type 28|419r13
+46U14*Analyze_Requeue 28|446r13
+47U14*Analyze_Selective_Accept 28|456r13
+48U14*Analyze_Single_Protected 28|459r13
+49U14*Analyze_Single_Task 28|462r13
+50U14*Analyze_Task_Body 28|495r13
+51U14*Analyze_Task_Definition 28|501r13
+52U14*Analyze_Task_Type 28|504r13
+53U14*Analyze_Terminate_Alternative 28|507r13
+54U14*Analyze_Timed_Entry_Call 28|510r13
+55U14*Analyze_Triggering_Alternative 28|513r13
+X 42 sem_prag.ads
+32K9*Sem_Prag 28|50w6 50r20 42|89e13
+34U14*Analyze_Pragma 28|395r13
+X 43 sem_util.ads
+34K9*Sem_Util 28|51w6 51r20 56r23 43|881e13
+160V13*Current_Scope{59|403I12} 28|1244r25
+754U14*Reset_Analyzed_Flags 28|1299r13
+X 44 sinfo.ads
+57K9*Sinfo 28|52w6 52r20 44|9296e10
+6585n7*N_Unused_At_Start{6584E9} 28|617r12
+6589n7*N_At_Clause{6584E9} 28|112r15
+6590n7*N_Component_Clause{6584E9} 28|574r12
+6591n7*N_Enumeration_Representation_Clause{6584E9} 28|169r15
+6592n7*N_Mod_Clause{6584E9} 28|607r12
+6593n7*N_Record_Representation_Clause{6584E9} 28|439r15
+6597n7*N_Attribute_Definition_Clause{6584E9} 28|118r15
+6601n7*N_Empty{6584E9} 28|548r15
+6602n7*N_Pragma{6584E9} 28|394r15
+6603n7*N_Pragma_Argument_Association{6584E9} 28|611r12
+6607n7*N_Error{6584E9} 28|555r15
+6611n7*N_Defining_Character_Literal{6584E9} 28|579r12
+6612n7*N_Defining_Identifier{6584E9} 28|580r12
+6613n7*N_Defining_Operator_Symbol{6584E9} 28|581r12
+6617n7*N_Expanded_Name{6584E9} 28|181r15
+6622n7*N_Identifier{6584E9} 28|238r15
+6623n7*N_Operator_Symbol{6584E9} 28|286r15
+6628n7*N_Character_Literal{6584E9} 28|127r15
+6633n7*N_Op_Add{6584E9} 28|292r15
+6634n7*N_Op_Concat{6584E9} 28|298r15
+6635n7*N_Op_Expon{6584E9} 28|307r15
+6636n7*N_Op_Subtract{6584E9} 28|361r15
+6641n7*N_Op_Divide{6584E9} 28|301r15
+6642n7*N_Op_Mod{6584E9} 28|325r15
+6643n7*N_Op_Multiply{6584E9} 28|328r15
+6644n7*N_Op_Rem{6584E9} 28|343r15
+6649n7*N_Op_And{6584E9} 28|295r15
+6654n7*N_Op_Eq{6584E9} 28|304r15
+6655n7*N_Op_Ge{6584E9} 28|310r15
+6656n7*N_Op_Gt{6584E9} 28|313r15
+6657n7*N_Op_Le{6584E9} 28|316r15
+6658n7*N_Op_Lt{6584E9} 28|319r15
+6659n7*N_Op_Ne{6584E9} 28|331r15
+6664n7*N_Op_Or{6584E9} 28|337r15
+6665n7*N_Op_Xor{6584E9} 28|364r15
+6670n7*N_Op_Rotate_Left{6584E9} 28|346r15
+6671n7*N_Op_Rotate_Right{6584E9} 28|349r15
+6672n7*N_Op_Shift_Left{6584E9} 28|352r15
+6673n7*N_Op_Shift_Right{6584E9} 28|355r15
+6674n7*N_Op_Shift_Right_Arithmetic{6584E9} 28|358r15
+6679n7*N_Op_Abs{6584E9} 28|289r15
+6680n7*N_Op_Minus{6584E9} 28|322r15
+6681n7*N_Op_Not{6584E9} 28|334r15
+6682n7*N_Op_Plus{6584E9} 28|340r15
+6686n7*N_Attribute_Reference{6584E9} 28|115r15
+6690n7*N_And_Then{6584E9} 28|103r15
+6691n7*N_Conditional_Expression{6584E9} 28|139r15
+6692n7*N_Explicit_Dereference{6584E9} 28|184r15
+6693n7*N_Function_Call{6584E9} 28|211r15
+6694n7*N_In{6584E9} 28|247r15
+6695n7*N_Indexed_Component{6584E9} 28|253r15
+6696n7*N_Integer_Literal{6584E9} 28|256r15
+6697n7*N_Not_In{6584E9} 28|268r15
+6698n7*N_Null{6584E9} 28|271r15
+6699n7*N_Or_Else{6584E9} 28|367r15
+6700n7*N_Procedure_Call_Statement{6584E9} 28|403r15
+6701n7*N_Qualified_Expression{6584E9} 28|421r15
+6711n7*N_Aggregate{6584E9} 28|97r15
+6712n7*N_Allocator{6584E9} 28|100r15
+6713n7*N_Extension_Aggregate{6584E9} 28|187r15
+6714n7*N_Range{6584E9} 28|430r15
+6715n7*N_Real_Literal{6584E9} 28|436r15
+6716n7*N_Reference{6584E9} 28|442r15
+6717n7*N_Selected_Component{6584E9} 28|451r15
+6718n7*N_Slice{6584E9} 28|464r15
+6719n7*N_String_Literal{6584E9} 28|467r15
+6720n7*N_Subprogram_Info{6584E9} 28|479r15
+6721n7*N_Type_Conversion{6584E9} 28|515r15
+6722n7*N_Unchecked_Expression{6584E9} 28|518r15
+6723n7*N_Unchecked_Type_Conversion{6584E9} 28|521r15
+6727n7*N_Subtype_Indication{6584E9} 28|488r15
+6731n7*N_Component_Declaration{6584E9} 28|136r15
+6732n7*N_Entry_Declaration{6584E9} 28|163r15
+6733n7*N_Formal_Object_Declaration{6584E9} 28|190r15
+6734n7*N_Formal_Type_Declaration{6584E9} 28|199r15
+6735n7*N_Full_Type_Declaration{6584E9} 28|208r15
+6736n7*N_Incomplete_Type_Declaration{6584E9} 28|250r15
+6737n7*N_Loop_Parameter_Specification{6584E9} 28|606r12
+6738n7*N_Object_Declaration{6584E9} 28|280r15
+6739n7*N_Protected_Type_Declaration{6584E9} 28|418r15
+6740n7*N_Private_Extension_Declaration{6584E9} 28|397r15
+6741n7*N_Private_Type_Declaration{6584E9} 28|400r15
+6742n7*N_Subtype_Declaration{6584E9} 28|485r15
+6746n7*N_Function_Specification{6584E9} 28|602r12
+6747n7*N_Procedure_Specification{6584E9} 28|612r12
+6751n7*N_Access_Function_Definition{6584E9} 28|568r12
+6752n7*N_Access_Procedure_Definition{6584E9} 28|569r12
+6756n7*N_Task_Type_Declaration{6584E9} 28|503r15
+6760n7*N_Package_Body_Stub{6584E9} 28|376r15
+6761n7*N_Protected_Body_Stub{6584E9} 28|412r15
+6762n7*N_Subprogram_Body_Stub{6584E9} 28|473r15
+6763n7*N_Task_Body_Stub{6584E9} 28|497r15
+6768n7*N_Function_Instantiation{6584E9} 28|214r15
+6769n7*N_Procedure_Instantiation{6584E9} 28|406r15
+6773n7*N_Package_Instantiation{6584E9} 28|382r15
+6777n7*N_Package_Body{6584E9} 28|373r15
+6778n7*N_Subprogram_Body{6584E9} 28|470r15
+6782n7*N_Protected_Body{6584E9} 28|409r15
+6783n7*N_Task_Body{6584E9} 28|494r15
+6787n7*N_Implicit_Label_Declaration{6584E9} 28|244r15
+6788n7*N_Package_Declaration{6584E9} 28|379r15
+6789n7*N_Single_Task_Declaration{6584E9} 28|461r15
+6790n7*N_Subprogram_Declaration{6584E9} 28|476r15
+6791n7*N_Use_Package_Clause{6584E9} 28|524r15
+6795n7*N_Generic_Package_Declaration{6584E9} 28|220r15
+6796n7*N_Generic_Subprogram_Declaration{6584E9} 28|229r15
+6800n7*N_Constrained_Array_Definition{6584E9} 28|577r12
+6801n7*N_Unconstrained_Array_Definition{6584E9} 28|616r12
+6805n7*N_Exception_Renaming_Declaration{6584E9} 28|175r15
+6806n7*N_Object_Renaming_Declaration{6584E9} 28|283r15
+6807n7*N_Package_Renaming_Declaration{6584E9} 28|385r15
+6808n7*N_Subprogram_Renaming_Declaration{6584E9} 28|482r15
+6812n7*N_Generic_Function_Renaming_Declaration{6584E9} 28|217r15
+6813n7*N_Generic_Package_Renaming_Declaration{6584E9} 28|223r15
+6814n7*N_Generic_Procedure_Renaming_Declaration{6584E9} 28|226r15
+6818n7*N_Abort_Statement{6584E9} 28|85r15
+6819n7*N_Accept_Statement{6584E9} 28|94r15
+6820n7*N_Assignment_Statement{6584E9} 28|106r15
+6821n7*N_Asynchronous_Select{6584E9} 28|109r15
+6822n7*N_Block_Statement{6584E9} 28|121r15
+6823n7*N_Case_Statement{6584E9} 28|124r15
+6824n7*N_Code_Statement{6584E9} 28|130r15
+6825n7*N_Conditional_Entry_Call{6584E9} 28|142r15
+6829n7*N_Delay_Relative_Statement{6584E9} 28|148r15
+6830n7*N_Delay_Until_Statement{6584E9} 28|151r15
+6834n7*N_Entry_Call_Statement{6584E9} 28|590r12
+6835n7*N_Free_Statement{6584E9} 28|202r15
+6836n7*N_Goto_Statement{6584E9} 28|232r15
+6837n7*N_Loop_Statement{6584E9} 28|265r15
+6838n7*N_Null_Statement{6584E9} 28|274r15
+6839n7*N_Raise_Statement{6584E9} 28|424r15
+6840n7*N_Requeue_Statement{6584E9} 28|445r15
+6841n7*N_Return_Statement{6584E9} 28|448r15
+6842n7*N_Selective_Accept{6584E9} 28|455r15
+6843n7*N_Timed_Entry_Call{6584E9} 28|509r15
+6847n7*N_Exit_Statement{6584E9} 28|178r15
+6848n7*N_If_Statement{6584E9} 28|241r15
+6852n7*N_Accept_Alternative{6584E9} 28|91r15
+6853n7*N_Delay_Alternative{6584E9} 28|145r15
+6854n7*N_Elsif_Part{6584E9} 28|589r12
+6855n7*N_Entry_Body_Formal_Part{6584E9} 28|157r15
+6856n7*N_Iteration_Scheme{6584E9} 28|605r12
+6857n7*N_Terminate_Alternative{6584E9} 28|506r15
+6866n7*N_Abortable_Part{6584E9} 28|566r12
+6867n7*N_Abstract_Subprogram_Declaration{6584E9} 28|88r15
+6868n7*N_Access_Definition{6584E9} 28|567r12
+6869n7*N_Access_To_Object_Definition{6584E9} 28|570r12
+6870n7*N_Case_Statement_Alternative{6584E9} 28|571r12
+6871n7*N_Compilation_Unit{6584E9} 28|133r15
+6872n7*N_Compilation_Unit_Aux{6584E9} 28|572r12
+6873n7*N_Component_Association{6584E9} 28|573r12
+6874n7*N_Component_Definition{6584E9} 28|575r12
+6875n7*N_Component_List{6584E9} 28|576r12
+6876n7*N_Derived_Type_Definition{6584E9} 28|584r12
+6877n7*N_Decimal_Fixed_Point_Definition{6584E9} 28|578r12
+6878n7*N_Defining_Program_Unit_Name{6584E9} 28|582r12
+6879n7*N_Delta_Constraint{6584E9} 28|583r12
+6880n7*N_Designator{6584E9} 28|585r12
+6881n7*N_Digits_Constraint{6584E9} 28|586r12
+6882n7*N_Discriminant_Association{6584E9} 28|587r12
+6883n7*N_Discriminant_Specification{6584E9} 28|588r12
+6884n7*N_Enumeration_Type_Definition{6584E9} 28|591r12
+6885n7*N_Entry_Body{6584E9} 28|154r15
+6886n7*N_Entry_Call_Alternative{6584E9} 28|160r15
+6887n7*N_Entry_Index_Specification{6584E9} 28|166r15
+6888n7*N_Exception_Declaration{6584E9} 28|172r15
+6889n7*N_Exception_Handler{6584E9} 28|592r12
+6890n7*N_Floating_Point_Definition{6584E9} 28|593r12
+6891n7*N_Formal_Decimal_Fixed_Point_Definition{6584E9} 28|594r12
+6892n7*N_Formal_Derived_Type_Definition{6584E9} 28|595r12
+6893n7*N_Formal_Discrete_Type_Definition{6584E9} 28|596r12
+6894n7*N_Formal_Floating_Point_Definition{6584E9} 28|597r12
+6895n7*N_Formal_Modular_Type_Definition{6584E9} 28|598r12
+6896n7*N_Formal_Ordinary_Fixed_Point_Definition{6584E9} 28|599r12
+6897n7*N_Formal_Package_Declaration{6584E9} 28|193r15
+6898n7*N_Formal_Private_Type_Definition{6584E9} 28|600r12
+6899n7*N_Formal_Signed_Integer_Type_Definition{6584E9} 28|601r12
+6900n7*N_Freeze_Entity{6584E9} 28|205r15
+6901n7*N_Generic_Association{6584E9} 28|603r12
+6902n7*N_Handled_Sequence_Of_Statements{6584E9} 28|235r15
+6903n7*N_Index_Or_Discriminant_Constraint{6584E9} 28|604r12
+6904n7*N_Itype_Reference{6584E9} 28|259r15
+6905n7*N_Label{6584E9} 28|262r15
+6906n7*N_Modular_Type_Definition{6584E9} 28|608r12
+6907n7*N_Number_Declaration{6584E9} 28|277r15
+6908n7*N_Ordinary_Fixed_Point_Definition{6584E9} 28|609r12
+6909n7*N_Others_Choice{6584E9} 28|370r15
+6910n7*N_Package_Specification{6584E9} 28|388r15
+6911n7*N_Parameter_Association{6584E9} 28|391r15
+6912n7*N_Parameter_Specification{6584E9} 28|610r12
+6913n7*N_Protected_Definition{6584E9} 28|415r15
+6914n7*N_Range_Constraint{6584E9} 28|433r15
+6915n7*N_Real_Range_Specification{6584E9} 28|613r12
+6916n7*N_Record_Definition{6584E9} 28|614r12
+6917n7*N_Signed_Integer_Type_Definition{6584E9} 28|615r12
+6918n7*N_Single_Protected_Declaration{6584E9} 28|458r15
+6919n7*N_Subunit{6584E9} 28|491r15
+6920n7*N_Task_Definition{6584E9} 28|500r15
+6921n7*N_Triggering_Alternative{6584E9} 28|512r15
+6922n7*N_Use_Type_Clause{6584E9} 28|527r15
+6923n7*N_Validate_Unchecked_Conversion{6584E9} 28|530r15
+6924n7*N_Variant{6584E9} 28|619r12
+6925n7*N_Variant_Part{6584E9} 28|533r15
+6926n7*N_With_Clause{6584E9} 28|536r15
+6927n7*N_With_Type_Clause{6584E9} 28|539r15
+6928n7*N_Unused_At_End{6584E9} 28|618r12
+6971E12*N_Formal_Subprogram_Declaration{6584E9} 28|196r15
+6975E12*N_Generic_Declaration{6584E9} 28|1210r35
+7039E12*N_Raise_xxx_Error{6584E9} 28|427r15
+7068E12*N_Subexpr{6584E9} 28|637r27
+7772V13*Range_Expression{59|400I9} 28|434r28
+7805V13*Scope{59|400I9} 28|843r26 849r18 857r24
+7883V13*Unit{59|400I9} 28|1209r37
+X 46 stand.ads
+47K9*Stand 28|53w6 53r20 46|465e10
+251i4*Standard_Standard=251:53{59|400I9} 28|1230r21 1244r41
+X 56 table.ads
+45K9*Table 27|200w6 338r31 411r41 424r42 56|236e10
+49+12 Table_Component_Type 27|339r6 412r6 425r6
+50I12 Table_Index_Type 27|340r6 413r6 426r6
+52*7 Table_Low_Bound{50I12} 27|341r6 414r6 427r6
+53i7 Table_Initial{59|68I12} 27|342r6 415r6 428r6
+54i7 Table_Increment{59|65I12} 27|343r6 416r6 429r6
+55s7 Table_Name{string} 27|344r6 417r6 430r6
+57k12*Table 27|338r37 411r47 424r48 56|235e13
+108A12*Table_Type(27|391R9)
+111A15*Big_Table_Type{108A12[27|424]}
+119P12*Table_Ptr(111A15[27|411])
+122p7*Table{119P12[27|411]} 28|730r49[27|411] 757r49[27|424] 812r53[27|424]
+. 1136r49[27|411] 1157r50[27|424] 1232r22[27|338] 1234r22[27|338]
+129b7*Locked{boolean} 28|1181m29[27|411] 1182m30[27|424] 1183m19[27|338]
+139U17*Init 28|871r29[27|411] 872r30[27|424] 873r19[27|338]
+146V16*Last{59|59I9} 28|726r70[27|411] 753r72[27|424] 808r75[27|424] 1132r70[27|411]
+. 1153r72[27|424] 1233r25[27|338] 1235r25[27|338]
+153U17*Release 28|1184r29[27|411] 1185r30[27|424] 1186r19[27|338]
+163i7*First{59|59I9} 28|726r39[27|411] 753r40[27|424] 808r43[27|424] 1132r39[27|411]
+. 1153r40[27|424]
+183U17*Append 28|738r41[27|411] 765r41[27|411]
+X 59 types.ads
+52K9*Types 27|201w6 201r18 59|829e10
+59I9*Int<integer> 27|205r19 290r36 340r30 413r30 426r30 28|1204r37
+65I12*Nat{59I9}
+68I12*Pos{59I9}
+119P9*String_Ptr(string) 27|283r30
+372I9*Name_Id<integer>
+400I9*Node_Id<integer> 27|301r28 320r26 442r37 446r27 447r27 486r11 488r11
+. 497r11 499r11 508r11 508r24 510r11 510r24 518r11 518r24 520r11 520r24 28|70r27
+. 644r27 671r14 881r44 881r57 882r14 919r18 920r18 948r45 948r58 949r14 979r18
+. 980r18 1008r49 1009r24 1010r15 1040r11 1067r50 1068r14 1098r11 1193r37
+403I12*Entity_Id{400I9} 27|280r16 392r16 480r14 481r14 527r42 531r39 539r39
+. 544r36 548r38 28|61r26 711r14 712r14 779r39 790r39 801r36 831r42 832r14
+. 1125r38 1205r37
+415i4*Empty{400I9} 28|61r39 793r33 1139r28 1236r33
+448I9*List_Id<integer> 27|305r38 306r38 312r32 472r32 473r32 486r24 488r24
+. 497r24 499r24 28|670r32 683r32 1008r62 1040r24 1067r63 1098r24
+571I9*Unit_Number_Type<59I9> 28|1206r37
+576i4*Main_Unit{571I9} 28|1209r50 1245r54 1289r29
+593I12*File_Name_Type{372I9}
+686E9*Check_Id 27|396r15 447r47 473r52 479r14 488r44 499r44 510r44 520r44
+. 544r51 548r53 28|644r47 683r52 710r14 801r51 921r18 981r18 1040r44 1098r44
+. 1125r53 59|698e18
+698n7*All_Checks{686E9} 28|646r21 685r21 734r35 761r35 816r38 924r21 984r21
+. 1043r21 1101r21 1140r35 1161r35
+712A9*Suppress_Array(boolean) 27|287r30 376r21 28|648r28 687r28 926r28 986r28
+. 1045r28 1103r28
+X 60 uintp.ads
+44K9*Uintp 28|54w6 54r20 60|528e10
+50I9*Uint
+344V13*"<"=344:70{boolean} 28|843r37 854r38
+

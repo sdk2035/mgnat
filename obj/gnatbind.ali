@@ -1,0 +1,360 @@
+V "GNAT Lib v5.05"
+M P W=b
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnvnnnnnnnnvnnvnvnnnnvnnvnvnnnnnnnnvnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U gnatbind%b		gnatbind.adb		1f05c925 NE SU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ali%s			ali.adb			ali.ali
+W ali.util%s		ali-util.adb		ali-util.ali
+W bcheck%s		bcheck.adb		bcheck.ali
+W binde%s		binde.adb		binde.ali
+W binderr%s		binderr.adb		binderr.ali
+W bindgen%s		bindgen.adb		bindgen.ali
+W bindusg%s		bindusg.adb		bindusg.ali
+W butil%s		butil.adb		butil.ali
+W casing%s		casing.adb		casing.ali
+W csets%s		csets.adb		csets.ali
+W debug%s		debug.adb		debug.ali
+W fmap%s		fmap.adb		fmap.ali
+W gnatvsn%s		gnatvsn.adb		gnatvsn.ali
+W namet%s		namet.adb		namet.ali
+W opt%s			opt.adb			opt.ali
+W osint%s		osint.adb		osint.ali
+W osint.b%s		osint-b.adb		osint-b.ali
+W output%s		output.adb		output.ali
+W rident%s		rident.ads		rident.ali
+W snames%s		snames.adb		snames.ali
+W switch%s		switch.adb		switch.ali
+W switch.b%s		switch-b.adb		switch-b.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.case_util%s	s-casuti.adb		s-casuti.ali
+W system.img_enum%s	s-imgenu.adb		s-imgenu.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W targparm%s		targparm.adb		targparm.ali
+W types%s		types.adb		types.ali
+
+U gnatbind%s		gnatbind.ads		f7fb450b EE NE SU
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D ali.ads		20060220022454 14fd5a17
+D ali-util.ads		20060220022454 e9c72b90
+D alloc.ads		20050704094642 baad0baa
+D bcheck.ads		20050819154526 4de1bd3c
+D binde.ads		20050819154558 f6fe4a26
+D binderr.ads		20041021170336 12171c41
+D bindgen.ads		20050819155436 2ba68294
+D bindusg.ads		20050819155518 73ece820
+D butil.ads		20050819155748 1a533093
+D casing.ads		20050704094644 1a6e5ef9
+D csets.ads		20051106041828 a510609d
+D debug.ads		20051106042240 f7a1e876
+D fmap.ads		20050819162316 2d5e4c35
+D gnat.ads		20050819162446 e279999f
+D g-htable.ads		20060219120056 a8e75576
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D gnatbind.ads		20050819162932 f7fb450b
+D gnatbind.adb		20050820141822 2f615bf0
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D namet.ads		20051128233748 d7b5fee4
+D opt.ads		20060214002402 703337d5
+D osint.ads		20050819204702 67d8ead2
+D osint-b.ads		20050819200356 ace8073d
+D output.ads		20051202225852 111deb13
+D rident.ads		20050819200532 6450d2e5
+D snames.ads		20060213235714 57cf62a2
+D switch.ads		20051219195322 a5fc36ac
+D switch-b.ads		20050704094704 aeb7516b
+D system.ads		20060219120116 9a1fe783
+D s-assert.ads		20060219120106 85573af2
+D s-casuti.ads		20060219120106 97b72bfb
+D s-exctab.ads		20060219120106 e14b1567
+D s-htable.ads		20060219120108 9598cfa4
+D s-imgenu.ads		20060219120108 3c6798e9
+D s-parame.ads		20060219120110 6bd7b874
+D s-rident.ads		20060219120110 4205e218
+D s-secsta.ads		20060219120110 db466d0c
+D s-soflin.ads		20060219120110 677820d8
+D s-stache.ads		20060219120110 07e06d0a
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-strops.ads		20060219120110 92e79914
+D s-sopco3.ads		20060219120110 14cc5bf6
+D s-sopco4.ads		20060219120110 dca7f27b
+D s-sopco5.ads		20060219120110 63c5ad18
+D s-traent.ads		20060219120112 9950c76b
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D targparm.ads		20050819202804 5c6c13d8
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 3 ali.ads
+39K9*ALI 920e8 21|27w6 27r20 28r6 28r20
+49I9*ALI_Id<integer> 21|541r18 585r18
+52I9*Unit_Id<integer>
+82n31*None{82E9} 21|620r57
+106b7*SAL_Interface{boolean} 21|571r29
+121e7*Main_Program{82E9} 21|620r42
+204K12*ALIs[54|57] 21|570r20 570r34 571r10 603r20 603r34 620r18 620r30
+238i7*Uname{56|601I12} 21|655r60
+335b7*SAL_Interface{boolean} 21|652r61
+343K12*Units[54|57] 21|652r26 655r25
+409b4*No_Object_Specified{boolean} 21|609r10
+421r4*Cumulative_Restrictions{40|246R9[29|44]} 21|137r16 140r26 164r35 464m4
+860U14*Initialize_ALI 21|515r7
+863V13*Scan_ALI{49I9} 21|545r19 590r15
+864i7 F{56|593I12} 21|546r22 591r18
+865p7 T{56|146P9} 21|547r22 592r18
+866b7 Ignore_ED{boolean} 21|548r22 593r18
+867b7 Err{boolean} 21|549r22 594r18
+871b7 Ignore_Errors{boolean} 21|550r22 595r18
+X 4 ali-util.ads
+30K13*Util 157e13 21|28w10 28r24
+98U14*Initialize_ALI_Source 21|516r7
+105U14*Read_ALI 21|604r10
+114U14*Set_Source_Table 21|615r7
+X 6 bcheck.ads
+27K9*Bcheck 50e11 21|29w6 29r20
+31U14*Check_Duplicated_Subunits 21|629r7
+35U14*Check_Versions 21|630r7
+38U14*Check_Consistency 21|631r7
+46U14*Check_Configuration_Consistency 21|632r7
+X 7 binde.ads
+33K9*Binde 53e10 21|30w6 30r20
+42K12*Elab_Order[54|57] 21|651r25 651r45 652r39 655r38
+50U14*Find_Elab_Order 21|643r10
+X 8 binderr.ads
+32K9*Binderr 125e12 21|31w6 31r20
+34i4*Errors_Detected{56|59I9} 21|642r10 645r13 669r38 674r41
+37i4*Warnings_Detected{56|59I9} 21|670r42 675r45
+88i4*Error_Msg_Name_1{56|372I9} 21|623m10
+100U14*Error_Msg 21|624r10
+119U14*Finalize_Binderr 21|680r4
+122U14*Initialize_Binderr 21|514r7
+X 9 bindgen.ads
+36K9*Bindgen 41e12 21|32w6 32r20
+38U14*Gen_Output_File 21|664r16
+X 10 bindusg.ads
+29U11*Bindusg 21|33w6 413r7 497r7
+X 11 butil.ads
+29K9*Butil 55e10 21|34w6 34r20
+51U14*Write_Unit_Name 21|654r22
+X 12 casing.ads
+36K9*Casing 88e11 21|35w6 35r20
+57n7*Mixed_Case{49E9} 21|159r28
+70U14*Set_Casing 21|159r16
+X 13 csets.ads
+34K9*Csets 99e10 21|36w6 452r4
+58U14*Initialize 21|452r10
+X 14 debug.ads
+38K9*Debug 195e10 21|37w6 37r20
+62b4*Debug_Flag_I{boolean} 21|550r39 595r35
+X 15 fmap.ads
+32K9*Fmap 77e9 21|38w6 504r7
+34U14*Initialize 21|504r12
+X 20 gnatbind.ads
+29U11*Gnatbind 21|54b11 691l5 691t13
+X 21 gnatbind.adb
+56i4 Total_Errors{56|65I12} 669m7 669r23 674m10 674r26 683r7
+59i4 Total_Warnings{56|65I12} 670m7 670r25 675m10 675r28 685r10
+62i4 Main_Lib_File{56|593I12} 525m10 534r25 538r37 546r39 623r30
+65i4 Std_Lib_File{56|593I12} 581m10 582r37 591r35
+68p4 Text{56|146P9} 538m10 547r39 553m16 582m10 592r35 598m16
+69i4 Next_Arg{positive} 390m4 391r22 393r44 396r39 399m7 399r19
+71b4 Output_File_Name_Seen{boolean} 184r22 186m10 405r19 420r15
+72p4 Output_File_Name{56|119P9} 194m13 423r39 424r39 429r23 436r23 664r33
+74b4 L_Switch_Seen{boolean} 219m16 471r7
+76p4 Mapping_File{56|119P9} 332r16 336m13 503r7 504r24
+78U14 List_Applicable_Restrictions 90b14 172l8 172t36 637r10
+81U14 Scan_Bind_Arg 81>29 178b14 362l8 362t21 397r10
+81s29 Argv{string} 178b29 188r13 189r21 189r47 194r45 197r13 197r39 201r13
+. 201r24 206r16 207r33 207r44 208r33 208r44 212r16 213r16 223r30 223r41 225r30
+. 225r41 227r30 227r41 241r16 242r21 245r34 246r34 282r41 293r16 294r21 296r33
+. 296r44 300r16 301r21 303r33 303r44 306r16 306r27 311r16 311r27 316r16 316r27
+. 321r16 321r27 326r16 326r27 331r16 331r42 336r41 336r52 340r16 340r42 342r52
+. 342r63 348r35 353r13 354r13 355r21 355r27 355r44 357r23 359r23
+98a7 No_Restriction_List(boolean) 132r17
+125b7 Additional_Restrictions_Listed{boolean} 142r23 147m19
+131e11 R{40|166E12[29|44]} 132r38 137r50 138r24 140r59 153r64 162r19 164r66
+153a19 S{string} 155r31 156r50
+245e16 C1{character} 251r19 252m19 252r55 261r19 264r22 267r22 270r22 273r23
+. 273r48 283m19 287r44
+246e16 C2{character} 255r19 256m19 256r55 261r37 264r40 267r40 270r40 275r23
+. 275r48 284m19 288r44
+372e7 Shared_Libgnat_Default{character} 381r10 383r9
+376e7 SHARED{character} 381r35
+377e7 STATIC{character} 383r34
+391l4 Scan_Args 400l13 400e22
+393a10 Next_Argv{string} 396m20 397r25
+422q7 Check_Extensions 441l11 441e27
+423i10 Length{natural} 428r16 435r16
+424i10 Last{natural} 429r41 429r53 436r41 436r53
+541i13 Id{3|49I9} 542r35 545m13
+570i11 Index<integer> 571r22
+585i13 Id{3|49I9} 586r35 589m13
+603i11 Index<integer> 604r20
+651i20 J<integer> 652r57 655r56
+X 22 gnatvsn.ads
+37K9*Gnatvsn 21|39w6 39r20 22|107e12
+48V13*Gnat_Version_String{string} 21|488r18
+X 24 namet.ads
+40K9*Namet 21|40w6 40r20 453r4 681r4 24|425e10
+129a4*Name_Buffer{string} 21|156m19 160r27 579m10
+135i4*Name_Len{natural} 21|155m19 156r37 160r45 580m10
+143U14*Finalize 21|681r10
+212U14*Initialize 21|453r10
+237V13*Name_Find{56|372I9} 21|581r26
+353U14*Write_Name 21|534r13
+X 25 opt.ads
+46K9*Opt 21|41w6 41r20 183r10 202r13 221r16 222r16 223r54 224r16 225r54 226r16
+. 227r54 231r16 307r13 312r13 317r13 322r13 327r13 341r13 342r13 404r7 419r7
+. 472r17 473r17 474r17 25|1350e8
+59b4*Ada_Bind_File{boolean} 21|427r13
+96a4*Ada_Final_Suffix{string} 21|225r58
+97p4*Ada_Final_Name{56|119P9} 21|224m20 473r21
+102a4*Ada_Init_Suffix{string} 21|223r58
+103p4*Ada_Init_Name{56|119P9} 21|222m20 472r21
+108a4*Ada_Main_Name_Suffix{string} 21|227r58
+115p4*Ada_Main_Name{56|119P9} 21|226m20 474r21
+139p4*Alternate_Main_Name{56|119P9} 21|342m17
+166b4*Bind_Alternate_Main_Name{boolean} 21|341m17
+171b4*Bind_Main_Program{boolean} 21|231m20 619r10
+175b4*Bind_For_Library{boolean} 21|221m20
+210b4*Check_Only{boolean} 21|528r16 663r20
+250b4*Compact_Framework{boolean} 21|307m17
+268b4*Configurable_Run_Time_Mode{boolean} 21|480m7 563m10
+373b4*Elab_Order_Output{boolean} 21|646r16
+557e4*Initialize_Scalars_Mode1{character} 21|287m16
+558e4*Initialize_Scalars_Mode2{character} 21|288m16
+609b4*List_Restrictions{boolean} 21|636r10
+680b4*Look_In_Primary_Dir{boolean} 21|202m17
+729b4*No_Main_Subprogram{boolean} 21|621r22
+734b4*No_Run_Time_Mode{boolean} 21|558r10
+739b4*No_Stdinc{boolean} 21|317m17
+743b4*No_Stdlib{boolean} 21|312m17
+782b4*Output_File_Name_Present{boolean} 21|183r14 404r11 419r11
+882b4*Shared_Libgnat{boolean} 21|322m17 327m17 385m7
+1024b4*Usage_Requested{boolean} 21|412r7
+1048b4*Verbose_Mode{boolean} 21|485r7 518r10 527r13
+X 26 osint.ads
+37K9*Osint 21|42w6 42r20 43r6 43r20 444r4 26|629e10
+99U14*Add_File 21|357r13 359r13
+121U14*Fail 21|191r13 234r16 333r16 407r7 431r16 438r16
+237U14*Add_Default_Search_Dirs 21|444r10
+241U14*Add_Lib_Search_Dir 21|208r13 303r13
+244U14*Add_Src_Search_Dir 21|207r13 296r13
+447V13*Read_Library_Info{56|146P9} 21|538r18 582r18
+518n7*E_Success{517E9} 21|688r21
+519n7*E_Warnings{517E9} 21|686r21
+522n7*E_Errors{517E9} 21|684r21
+523n7*E_Fatal{517E9} 21|498r21
+526U14*Exit_Program 21|498r7 684r7 686r7 688r7
+540V13*Arg_Count{natural} 21|391r33
+544U14*Fill_Arg 21|396r10
+548V13*Len_Arg{integer} 21|393r35
+X 27 osint-b.ads
+30K15*B 21|43w12 43r26 27|100e12
+36V13*More_Lib_Files{boolean} 21|496r11 524r13
+41V13*Next_Main_Lib_File{56|593I12} 21|525r27
+X 28 output.ads
+41K9*Output 21|44w6 44r20 28|194e11
+93U14*Write_Eol 21|143r19 168r16 486r7 489r7 491r7 519r10 535r13 647r16 649r16
+. 656r22 660r16
+100U14*Write_Int 21|164r19
+104U14*Write_Str 21|150r16 160r16 163r19 167r16 487r7 488r7 490r7 529r16
+. 531r16 648r16 653r22
+110U14*Write_Line 21|144r19
+X 29 rident.ads
+44K9*Rident[40|47] 21|45w6 45r20
+X 30 snames.ads
+36K9*Snames 21|46w6 454r4 30|1544e11
+1429U14*Initialize 21|454r11
+X 31 switch.ads
+36K9*Switch 21|47w6 47r20 48r6 48r20 31|92e11
+X 32 switch-b.ads
+33K16*B 21|48w13 48r27 32|44e13
+35U14*Scan_Binder_Switches 21|282r19 348r13
+X 33 system.ads
+39K9*System 21|52r6 52r28 33|205e11
+X 35 s-casuti.ads
+42K16*Case_Util 21|52w13 52r35 35|66e21
+51U14*To_Upper 21|472r7 473r7 474r7
+X 40 s-rident.ads
+56E9*Restriction_Id 21|153r42[29|44]
+77n7*No_Exceptions{56E9[29|44]} 21|99r10[29|44]
+82n7*No_Implicit_Conditionals{56E9[29|44]} 21|102r10[29|44]
+83n7*No_Implicit_Dynamic_Code{56E9[29|44]} 21|105r10[29|44]
+85n7*No_Implicit_Loops{56E9[29|44]} 21|108r10[29|44]
+92n7*No_Recursion{56E9[29|44]} 21|111r10[29|44]
+93n7*No_Reentrancy{56E9[29|44]} 21|114r10[29|44]
+149n7*Max_Entry_Queue_Length{56E9[29|44]} 21|117r10[29|44]
+153n7*Max_Storage_At_Blocking{56E9[29|44]} 21|120r10[29|44]
+166E12*All_Restrictions{56E9[29|44]} 21|98r45[29|44] 131r16[29|44]
+188E12*All_Parameter_Restrictions{56E9[29|44]} 21|138r29[29|44] 162r24[29|44]
+242A9*Restriction_Flags(boolean)
+243A9*Restriction_Values(natural)
+244A9*Parameter_Flags(boolean)
+246R9*Restrictions_Info
+261a7*Violated{242A9[29|44]} 21|137r40[29|44]
+267a7*Count{243A9[29|44]} 21|164r59[29|44]
+274a7*Unknown{244A9[29|44]} 21|140r50[29|44]
+X 54 table.ads
+108A12*Table_Type(3|85R9)
+111A15*Big_Table_Type{108A12[3|204]}
+119P12*Table_Ptr(111A15[3|204])
+122p7*Table{119P12[3|204]} 21|571r15[3|204] 620r23[3|204] 652r32[3|343] 652r50[7|42]
+. 655r31[3|343] 655r49[7|42]
+146V16*Last{3|49I9} 21|570r39[3|204] 603r39[3|204] 651r56[7|42]
+163i7*First{3|49I9} 21|570r25[3|204] 603r25[3|204] 620r35[3|204] 651r36[7|42]
+X 55 targparm.ads
+75K9*Targparm 21|49w6 49r20 458r4 464r31 55|642e13
+125r4*Restrictions_On_Target{40|246R9[29|44]} 21|464r40
+202b4*OpenVMS_On_Target{boolean} 21|471r30
+336b4*Configurable_Run_Time_On_Target{boolean} 21|479r7
+357b4*Suppress_Standard_Library_On_Target{boolean} 21|562m10 578r14
+636U14*Get_Target_Parameters 21|458r13
+X 56 types.ads
+52K9*Types 21|50w6 50r20 56|829e10
+59I9*Int<integer> 21|164r30
+65I12*Nat{59I9} 21|56r19 59r21
+119P9*String_Ptr(string) 21|72r28 76r19
+143A9*Text_Buffer(character)
+146P9*Text_Buffer_Ptr(143A9) 21|68r15
+150U14*Free[58|20] 21|553r10 598r10
+372I9*Name_Id<integer>
+593I12*File_Name_Type{372I9} 21|62r20 65r19
+601I12*Unit_Name_Type{372I9}
+730X4*Unrecoverable_Error 21|610r16 673r12
+

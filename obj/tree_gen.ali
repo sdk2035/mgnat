@@ -1,0 +1,132 @@
+V "GNAT Lib v5.05"
+M P W=b
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U tree_gen%b		tree_gen.adb		98894dad NE SU
+W atree%s		atree.adb		atree.ali
+W elists%s		elists.adb		elists.ali
+W fname%s		fname.adb		fname.ali
+W lib%s			lib.adb			lib.ali
+W namet%s		namet.adb		namet.ali
+W nlists%s		nlists.adb		nlists.ali
+W opt%s			opt.adb			opt.ali
+W osint%s		osint.adb		osint.ali
+W osint.c%s		osint-c.adb		osint-c.ali
+W repinfo%s		repinfo.adb		repinfo.ali
+W sinput%s		sinput.adb		sinput.ali
+W stand%s		stand.adb		stand.ali
+W stringt%s		stringt.adb		stringt.ali
+W uintp%s		uintp.adb		uintp.ali
+W urealp%s		urealp.adb		urealp.ali
+
+U tree_gen%s		tree_gen.ads		e937ffc0 EE NE SU
+
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D casing.ads		20050704094644 1a6e5ef9
+D einfo.ads		20060105095504 a63ced63
+D elists.ads		20051026195116 b3ccb8c4
+D fname.ads		20050704094646 e06812a2
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D lib.ads		20051127005428 f7794dc9
+D namet.ads		20051128233748 d7b5fee4
+D nlists.ads		20050928021552 215c5d8c
+D opt.ads		20060214002402 703337d5
+D osint.ads		20050819204702 67d8ead2
+D osint-c.ads		20050819200356 dc7f0cd6
+D repinfo.ads		20050819200514 907d6803
+D sinfo.ads		20051124200850 7567e295
+D sinput.ads		20050925211914 fd546e96
+D snames.ads		20060213235714 57cf62a2
+D stand.ads		20051015031156 dba3a3c7
+D stringt.ads		20050925211740 99224302
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D tree_gen.ads		20050819202804 e937ffc0
+D tree_gen.adb		20050819202804 81f8c397
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 atree.ads
+45K9*Atree 2860e10 31|27w6 47r7
+340U14*Tree_Write 31|47r13
+X 5 elists.ads
+45K9*Elists 170e11 31|28w6 48r7
+70U14*Tree_Write 31|48r14
+X 6 fname.ads
+40K9*Fname 99e10 31|29w6 49r7
+92U14*Tree_Write 31|49r13
+X 12 lib.ads
+41K9*Lib 760e8 31|30w6 50r7
+563U14*Tree_Write 31|50r11
+X 13 namet.ads
+40K9*Namet 425e10 31|31w6 51r7
+344U14*Tree_Write 31|51r13
+X 14 nlists.ads
+43K9*Nlists 344e11 31|32w6 52r7
+299U14*Tree_Write 31|52r14
+X 15 opt.ads
+46K9*Opt 1350e8 31|33w6 44r7 46r7
+981b4*Tree_Output{boolean} 31|44r11
+1306U14*Tree_Write 31|46r11
+X 16 osint.ads
+37K9*Osint 629e10 31|34r6 45r7 59r7
+X 17 osint-c.ads
+30K15*C 154e12 31|34w12 45r13 59r13
+146U14*Tree_Create 31|45r15
+151U14*Tree_Close 31|59r15
+X 18 repinfo.ads
+43K9*Repinfo 312e12 31|35w6 58r7
+290U14*Tree_Write 31|58r15
+X 20 sinput.ads
+72K9*Sinput 751e11 31|36w6 53r7
+608U14*Tree_Write 31|53r14
+X 22 stand.ads
+47K9*Stand 465e10 31|37w6 54r7
+461U14*Tree_Write 31|54r13
+X 23 stringt.ads
+37K9*Stringt 165e12 31|38w6 55r7
+135U14*Tree_Write 31|55r15
+X 30 tree_gen.ads
+29U11*Tree_Gen 31|42b11 61l5 61t13
+X 33 uintp.ads
+44K9*Uintp 31|39w6 56r7 33|528e10
+110U14*Tree_Write 31|56r13
+X 36 urealp.ads
+39K9*Urealp 31|40w6 57r7 36|367e11
+146U14*Tree_Write 31|57r14
+

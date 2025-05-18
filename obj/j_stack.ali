@@ -1,0 +1,49 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U j_stack%b		j_stack.adb		502ce4ad NE PK GE
+
+U j_stack%s		j_stack.ads		e8b1a39c BN EB NE PK GE
+
+D j_stack.ads		19990119232546 e8b1a39c
+D j_stack.adb		19990119232546 b89d4731
+D system.ads		20060219120116 9a1fe783
+X 1 j_stack.ads
+32+9 Element_Type 38r27 42r24 44r24 2|31r54 38r27 59r24 70r24
+33i4 Max_Depth{natural} 2|31r40
+34k9*J_Stack 32z9 33z4 48l5 48e12 2|29b14 85l5 85t12
+38U14*Push 38>20 2|38b14 43l8 43t12
+38*20 Elmt{32+9} 2|38b20 42r26
+40U14*Pop 2|49b14 53l8 53t11
+42V13*Pop{32+9} 2|59b13 64l8 64t11
+44V13*Top{32+9} 2|70b13 74l8 74t11
+46V13*Empty{boolean} 2|80b13 83l8 83t13
+X 2 j_stack.adb
+31a4 Stack(1|32+9) 40r32 42m7 51r33 61r33 63r14 72r33 73r14
+32i4 Stk_Top{natural} 40r22 41m7 41r18 42r14 51r22 52m7 52r18 61r22 62m7
+. 62r18 63r21 72r22 73r21 82r14
+

@@ -1,0 +1,56 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U hlo%b			hlo.adb			5c22e341 NE PK IU
+W output%s		output.adb		output.ali
+
+U hlo%s			hlo.ads			5f171ab9 EE NE PK IU
+W types%s		types.adb		types.ali
+
+D hlo.ads		20050819163308 cfbc4e18
+D hlo.adb		20050819163308 8283464a
+D hostparm.ads		20060213225900 f78f204c
+D output.ads		20051202225852 111deb13
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 1 hlo.ads
+29K9*HLO 37l5 37e8 2|29b14 45l5 45t8
+31U14*High_Level_Optimize 31>35 2|35b14 43l8 43t27
+31i35 N{9|400I9} 2|35b35 36r29
+X 4 output.ads
+41K9*Output 2|27w6 27r18 4|194e11
+93U14*Write_Eol 2|40r7 42r7
+104U14*Write_Str 2|39r7 41r7
+X 9 types.ads
+52K9*Types 1|27w6 27r17 9|829e10
+400I9*Node_Id<integer> 1|31r39 2|35r39
+

@@ -1,0 +1,102 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U alloc%s		alloc.ads		baad0baa NE PK
+
+D alloc.ads		20050704094642 baad0baa
+D system.ads		20060219120116 9a1fe783
+X 1 alloc.ads
+44K9*Alloc 150l5 150e10
+48N4*All_Interp_Initial
+49N4*All_Interp_Increment
+51N4*Branches_Initial
+52N4*Branches_Increment
+54N4*Conditionals_Initial
+55N4*Conditionals_Increment
+57N4*Conditional_Stack_Initial
+58N4*Conditional_Stack_Increment
+60N4*Elists_Initial
+61N4*Elists_Increment
+63N4*Elmts_Initial
+64N4*Elmts_Increment
+66N4*Entity_Suppress_Initial
+67N4*Entity_Suppress_Increment
+69N4*Inlined_Bodies_Initial
+70N4*Inlined_Bodies_Increment
+72N4*Inlined_Initial
+73N4*Inlined_Increment
+75N4*Interp_Map_Initial
+76N4*Interp_Map_Increment
+78N4*Lines_Initial
+79N4*Lines_Increment
+81N4*Linker_Option_Lines_Initial
+82N4*Linker_Option_Lines_Increment
+84N4*Lists_Initial
+85N4*Lists_Increment
+87N4*Load_Stack_Initial
+88N4*Load_Stack_Increment
+90N4*Name_Chars_Initial
+91N4*Name_Chars_Increment
+93N4*Name_Qualify_Units_Initial
+94N4*Name_Qualify_Units_Increment
+96N4*Names_Initial
+97N4*Names_Increment
+99N4*Nodes_Initial
+100N4*Nodes_Increment
+102N4*Orig_Nodes_Initial
+103N4*Orig_Nodes_Increment
+105N4*Pending_Instantiations_Initial
+106N4*Pending_Instantiations_Increment
+108N4*Rep_Table_Initial
+109N4*Rep_Table_Increment
+111N4*Scope_Stack_Initial
+112N4*Scope_Stack_Increment
+114N4*SFN_Table_Initial
+115N4*SFN_Table_Increment
+117N4*Source_File_Initial
+118N4*Source_File_Increment
+120N4*String_Chars_Initial
+121N4*String_Chars_Increment
+123N4*Strings_Initial
+124N4*Strings_Increment
+126N4*Successors_Initial
+127N4*Successors_Increment
+129N4*Udigits_Initial
+130N4*Udigits_Increment
+132N4*Uints_Initial
+133N4*Uints_Increment
+135N4*Units_Initial
+136N4*Units_Increment
+138N4*Ureals_Initial
+139N4*Ureals_Increment
+141N4*Unreferenced_Entities_Initial
+142N4*Unreferenced_Entities_Increment
+144N4*With_List_Initial
+145N4*With_List_Increment
+147N4*Xrefs_Initial
+148N4*Xrefs_Increment
+

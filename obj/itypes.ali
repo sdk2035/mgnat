@@ -1,0 +1,152 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U itypes%b		itypes.adb		7d812ae0 NE PK
+W atree%s		atree.adb		atree.ali
+W opt%s			opt.adb			opt.ali
+W sem%s			sem.adb			sem.ali
+W sinfo%s		sinfo.adb		sinfo.ali
+W stand%s		stand.adb		stand.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+
+U itypes%s		itypes.ads		e65b2d56 EE NE PK
+W einfo%s		einfo.adb		einfo.ali
+W sem_util%s		sem_util.adb		sem_util.ali
+W types%s		types.adb		types.ali
+
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D einfo.ads		20060105095504 a63ced63
+D gnat.ads		20050819162446 e279999f
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D itypes.ads		20051126002902 b5b417a7
+D itypes.adb		20051126032302 d90ff8b0
+D namet.ads		20051128233748 d7b5fee4
+D opt.ads		20060214002402 703337d5
+D sem.ads		20051023143526 8ffc9e5e
+D sem_util.ads		20060105095836 65788333
+D sinfo.ads		20051124200850 7567e295
+D snames.ads		20060213235714 57cf62a2
+D stand.ads		20051015031156 dba3a3c7
+D system.ads		20060219120116 9a1fe783
+D s-assert.ads		20060219120106 85573af2
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 atree.ads
+45K9*Atree 2860e10 9|27w6 27r17
+574V13*Sloc{24|200I12} 9|51r55 56r30
+X 3 einfo.ads
+39K9*Einfo 6952e10 8|29w6 29r20
+3337E9*Entity_Kind 3715e5 8|83r22 9|40r22
+3480n7*E_Access_Subtype{3337E9} 9|88r45
+5155B12*B{boolean}
+5157I12*E{24|403I12}
+5220V13*Depends_On_Private{5155E12} 9|95r44
+5222V13*Directly_Designated_Type{5157I12} 9|92r44
+5260V13*From_With_Type{5155E12} 9|97r44
+5334V13*Is_Access_Constant{5155E12} 9|98r44
+5335V13*Is_Ada_2005{5155E12} 9|103r44
+5338V13*Is_Atomic{5155E12} 9|102r44
+5392V13*Is_Public{5155E12} 9|96r44
+5411V13*Is_Volatile{5155E12} 9|100r44
+5491V13*Treat_As_Volatile{5155E12} 9|101r44
+5510V13*Is_Access_Type{5155E12} 9|86r22
+5530V13*Is_Generic_Type{5155E12} 9|99r44
+5684U14*Set_Associated_Node_For_Itype 9|63r7
+5692U14*Set_Can_Never_Be_Null 9|104r7
+5721U14*Set_Depends_On_Private 9|95r7
+5723U14*Set_Directly_Designated_Type 9|92r7
+5760U14*Set_From_With_Type 9|97r7
+5834U14*Set_Is_Access_Constant 9|98r7
+5835U14*Set_Is_Ada_2005 9|103r7
+5838U14*Set_Is_Atomic 9|102r7
+5862U14*Set_Is_Frozen 9|68r10
+5865U14*Set_Is_Generic_Type 9|99r7
+5876U14*Set_Is_Itype 9|62r7
+5898U14*Set_Is_Public 9|96r7
+5917U14*Set_Is_Volatile 9|100r7
+5997U14*Set_Treat_As_Volatile 9|101r7
+6051U14*Init_Size_Align 9|60r7 94r7
+X 8 itypes.ads
+33K9*Itypes 140l5 140e11 9|33b14 109l5 109t11
+82V13*Create_Itype{24|403I12} 83>7 84>7 85>7 86>7 87>7 88>7 9|39b13 72l8
+. 72t20 88r16
+83e7 Ekind{3|3337E9} 9|40b7 51r38 56r13 88r30
+84i7 Related_Nod{24|400I9} 9|41b7 51r61 56r36 63r43 89r30
+85i7 Related_Id{24|403I12} 9|42b7 50r10 56r50
+86e7 Suffix{character} 9|43b7 56r62
+87i7 Suffix_Index{24|65I12} 9|44b7 57r16
+88i7 Scope_Id{24|403I12} 9|45b7 51r45 56r20 90r30
+116V13*Create_Null_Excluding_Itype{24|403I12} 117>8 118>8 119>8 9|78b13 107l8
+. 107t35
+117i8 T{24|403I12} 9|79b8 86r38 92r70 93r44 95r64 96r55 97r60 98r64 99r61
+. 100r57 101r63 102r55 103r57
+118i8 Related_Nod{24|400I9} 9|80b8 89r45
+119i8 Scope_Id{24|403I12} 9|81b8 90r45
+X 9 itypes.adb
+47i7 Typ{24|403I12} 51m10 52r29 55m10 60r24 61r18 62r21 63r38 68r25 71r14
+83i7 I_Typ{24|403I12} 88m7 92r37 93r37 94r37 95r37 96r37 97r37 98r37 99r37
+. 100r37 101r37 102r37 103r37 104r37 106r14
+X 11 opt.ads
+46K9*Opt 9|28w6 28r17 11|1350e8
+148b4*ASIS_Mode{boolean} 9|66r22
+X 12 sem.ads
+203K9*Sem 9|29w6 29r17 12|555e8
+240b4*In_Deleted_Code{boolean} 9|65r10
+X 13 sem_util.ads
+34K9*Sem_Util 8|30w6 30r20 13|881e13
+160V13*Current_Scope{24|403I12} 8|88r35 119r35 9|45r35 81r35
+642V13*New_External_Entity{24|403I12} 9|55r17
+659V13*New_Internal_Entity{24|403I12} 9|51r17
+810U14*Set_Public_Status 9|52r10
+X 14 sinfo.ads
+57K9*Sinfo 9|30w6 30r17 14|9296e10
+8231U14*Set_Etype 9|61r7 93r7
+X 16 stand.ads
+47K9*Stand 9|31w6 31r17 16|465e10
+358i4*Any_Type{24|403I12} 9|61r23
+X 24 types.ads
+52K9*Types 8|31w6 31r20 24|829e10
+59I9*Int<integer>
+65I12*Nat{59I9} 8|87r22 9|44r22
+140I9*Text_Ptr<59I9>
+200I12*Source_Ptr{140I9}
+400I9*Node_Id<integer> 8|84r22 118r22 9|41r22 80r22
+403I12*Entity_Id{400I9} 8|85r22 88r22 88r57 117r22 119r22 119r57 9|42r22
+. 45r22 45r57 47r13 79r22 81r22 81r57 83r22
+415i4*Empty{400I9} 8|85r35 9|42r35 50r23
+

@@ -1,0 +1,127 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U sem_vfpt%b		sem_vfpt.adb		8c36cfb4 NE PK
+W cstand%s		cstand.adb		cstand.ali
+W einfo%s		einfo.adb		einfo.ali
+W opt%s			opt.adb			opt.ali
+W stand%s		stand.adb		stand.ali
+W targparm%s		targparm.adb		targparm.ali
+W ttypef%s		ttypef.ads		ttypef.ali
+
+U sem_vfpt%s		sem_vfpt.ads		2ecdbdaa EE NE PK
+W types%s		types.adb		types.ali
+
+D alloc.ads		20050704094642 baad0baa
+D cstand.ads		20050817133512 0140f859
+D einfo.ads		20060105095504 a63ced63
+D gnat.ads		20050819162446 e279999f
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D namet.ads		20051128233748 d7b5fee4
+D opt.ads		20060214002402 703337d5
+D rident.ads		20050819200532 6450d2e5
+D sem_vfpt.ads		20050704094702 be66e90b
+D sem_vfpt.adb		20050704094702 ffae23a0
+D snames.ads		20060213235714 57cf62a2
+D stand.ads		20051015031156 dba3a3c7
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-rident.ads		20060219120110 4205e218
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D targparm.ads		20050819202804 5c6c13d8
+D ttypef.ads		20050819202806 9d7e97ef
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 cstand.ads
+32K9*CStand 50e11 12|27w6 27r20
+46U14*Set_Float_Bounds 12|46r7 64r7 82r7 100r7 118r7
+X 3 einfo.ads
+39K9*Einfo 6952e10 12|28w6 28r20
+5157I12*E{24|403I12}
+5159I12*N{24|400I9}
+5470V13*Scalar_Range{5159I12} 12|51r29 69r29 87r29 105r29 123r29
+5562V13*Base_Type{5157I12} 12|42r26 43r26 44r26 45r26 46r26 51r43 60r26 61r26
+. 62r26 63r26 64r26 69r43 78r26 79r26 80r26 81r26 82r26 87r43 96r26 97r26
+. 98r26 99r26 100r26 105r43 114r26 115r26 116r26 117r26 118r26 123r43
+5976U14*Set_Scalar_Range 12|51r7 69r7 87r7 105r7 123r7
+6001U14*Set_Vax_Float 12|45r7 63r7 81r7 99r7 117r7
+6034U14*Init_Digits_Value 12|44r7 50r7 62r7 68r7 80r7 86r7 98r7 104r7 116r7
+. 122r7
+6041U14*Init_Alignment 12|43r7 49r7 61r7 67r7 79r7 85r7 97r7 103r7 115r7
+. 121r7
+6055U14*Init_Size 12|42r7 48r7 60r7 66r7 78r7 84r7 96r7 102r7 114r7 120r7
+X 9 opt.ads
+46K9*Opt 1350e8 12|29w6 29r20 134r10 144r13
+455e4*Float_Format{character} 12|134r14
+462e4*Float_Format_Long{character} 12|144r17
+X 11 sem_vfpt.ads
+34K9*Sem_VFpt 56l5 56e13 12|34b14 160l5 160t13
+36U14*Set_D_Float 36>27 12|40b14 52l8 52t19 145r13
+36i27 E{24|403I12} 12|40b27 42r37 43r37 44r37 45r37 46r37 48r26 49r26 50r26
+. 51r26 51r54
+39U14*Set_F_Float 39>27 12|58b14 70l8 70t19 142r10
+39i27 E{24|403I12} 12|58b27 60r37 61r37 62r37 63r37 64r37 66r26 67r26 68r26
+. 69r26 69r54
+42U14*Set_G_Float 42>27 12|76b14 88l8 88t19 147r13 155r13
+42i27 E{24|403I12} 12|76b27 78r37 79r37 80r37 81r37 82r37 84r26 85r26 86r26
+. 87r26 87r54
+45U14*Set_IEEE_Short 45>30 12|112b14 124l8 124t22 135r10
+45i30 E{24|403I12} 12|112b30 114r37 115r37 116r37 117r37 118r37 120r26 121r26
+. 122r26 123r26 123r54
+48U14*Set_IEEE_Long 48>29 12|94b14 106l8 106t21 136r10 137r10
+48i29 E{24|403I12} 12|94b29 96r37 97r37 98r37 99r37 100r37 102r26 103r26
+. 104r26 105r26 105r54
+51U14*Set_Standard_Fpt_Formats 12|130b14 158l8 158t32
+X 14 stand.ads
+47K9*Stand 12|30w6 30r20 14|465e10
+277i4*Standard_Float=277:53{24|400I9} 12|135r26 142r23
+278i4*Standard_Long_Float=278:53{24|400I9} 12|136r26 145r26 147r26
+279i4*Standard_Long_Long_Float=279:53{24|400I9} 12|137r26 155r26
+X 22 targparm.ads
+75K9*Targparm 12|31w6 31r20 22|642e13
+202b4*OpenVMS_On_Target{boolean} 12|154r13
+X 23 ttypef.ads
+45K9*Ttypef 12|32w6 32r20 23|205e11
+57N4*IEEES_Digits 12|116r41 122r29
+58N4*IEEEL_Digits 12|98r41 104r29
+60N4*VAXFF_Digits 12|62r41 68r29
+61N4*VAXDF_Digits 12|44r41 50r29
+62N4*VAXGF_Digits 12|80r41 86r29
+X 24 types.ads
+52K9*Types 11|32w6 32r17 24|829e10
+400I9*Node_Id<integer>
+403I12*Entity_Id{400I9} 11|36r31 39r31 42r31 45r34 48r33 12|40r31 58r31 76r31
+. 94r33 112r34
+

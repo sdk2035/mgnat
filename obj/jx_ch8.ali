@@ -1,0 +1,132 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U jx_ch8%b		jx_ch8.adb		ac8d1309 NE PK
+W atree%s		atree.adb		atree.ali
+W einfo%s		einfo.adb		einfo.ali
+W errout%s		errout.adb		errout.ali
+W jvm%s			jvm.adb			jvm.ali
+W jx_ch4%s		jx_ch4.adb		jx_ch4.ali
+W jx_decl%s		jx_decl.adb		jx_decl.ali
+W jx_uplev%s		jx_uplev.adb		jx_uplev.ali
+W sem_util%s		sem_util.adb		sem_util.ali
+W sinfo%s		sinfo.adb		sinfo.ali
+
+U jx_ch8%s		jx_ch8.ads		1bcb942b EE NE PK
+W types%s		types.adb		types.ali
+
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D einfo.ads		20060105095504 a63ced63
+D err_vars.ads		20051106042414 f22c305d
+D errout.ads		20051106042544 1b1d99fc
+D erroutc.ads		20051106042626 749b7f29
+D j_stack.ads		19990119232546 e8b1a39c
+D j_types.ads		19990119232548 44ceaf07
+D jvm.ads		20060517185752 32c8c0f9
+D jx_ch4.ads		19990428210820 90d959cb
+D jx_ch8.ads		19990119232556 8b60c08a
+D jx_ch8.adb		20060213231718 8f69a485
+D jx_decl.ads		20060417223328 48073337
+D jx_uplev.ads		20000707080730 af9de514
+D sem_util.ads		20060105095836 65788333
+D sinfo.ads		20051124200850 7567e295
+D snames.ads		20060213235714 57cf62a2
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 atree.ads
+45K9*Atree 2860e10 12|29w6 29r21
+562V13*Nkind{16|6584E9} 12|91r13 92r20 94r16 113r16 128r16
+603V13*Ekind{3|3337E9} 12|58r10 59r13
+X 3 einfo.ads
+39K9*Einfo 6952e10 12|30w6 30r21 59r33
+3743E12*Array_Kind{3337E9} 12|59r39
+3754E12*Composite_Kind{3337E9} 12|58r30
+5159I12*N{23|400I9}
+5465V13*Renamed_Object{5159I12} 12|47r42
+6164V13*Is_Entity_Name{boolean} 12|90r17
+X 5 errout.ads
+40K9*Errout 668e11 12|31w6 31r21
+544U14*Error_Msg_N 12|142r13
+X 9 jvm.ads
+55K9*JVM 1291e8 12|32w6 32r21
+61I9*Class_Id
+64I9*Field_Id 12|50r20
+76I9*Local_Var_Id 12|51r20
+644U14*Gen_Store_Local 12|73r13 109r16 125r16 139r16
+682U14*Gen_Put_Static_Field 12|68r13 104r16 120r16 134r16
+X 10 jx_ch4.ads
+36K9*Jx_Ch4 171e11 12|33w6 33r21
+72U14*Evaluate_Array_Address 12|60r13
+81U14*Evaluate_Expr 12|62r13 95r16 98r16 115r13 129r13
+X 11 jx_ch8.ads
+33K9*Jx_Ch8 44l5 44e11 12|39b14 148l5 148t11
+35U14*Translate_Object_Renaming 35>41 12|45b14 146l8 146t33
+35i41 Obj_Renaming{23|400I9} 12|45b41 46r59
+X 12 jx_ch8.adb
+46i7 Obj_Entity{23|403I12} 47r58 48r60 49r53 66r55 67r37 71r37 72r41 102r58
+. 103r40 107r40 108r44 118r58 119r40 123r40 124r44 132r58 133r40 137r40 138r44
+47i7 Obj_Name{23|400I9} 60r37 62r28 90r33 91r20 92r27 94r23 95r39 98r31 113r23
+. 115r28 128r23 129r28 143r62
+48b7 Is_Global{boolean} 65r13 101r16 117r16 131r16
+49i7 Obj_Type{23|403I12} 58r17 59r20
+50i7 Obj_Field{9|64I9} 67m13 68r35 103m16 104r38 119m16 120r38 133m16 134r38
+51i7 Local_Var{9|76I9} 72m13 73r30 108m16 109r33 124m16 125r33 138m16 139r33
+X 13 jx_decl.ads
+34K9*Jx_Decl 12|34w6 34r21 13|271e12
+45i4*Current_Compilation_Class{9|61I9} 12|66r28 102r31 118r31 132r31
+77V13*JVM_Field{9|64I9} 12|67r26 103r29 119r29 133r29
+94V13*JVM_Local_Var{9|76I9} 12|72r26 108r29 124r29 138r29
+118V13*Full_Type{23|403I12} 12|49r42
+194U14*Declare_Field 12|66r13 102r16 118r16 132r16
+206U14*Declare_Local_Variable 12|71r13 107r16 123r16 137r16
+X 14 jx_uplev.ads
+38K9*Jx_Uplev 12|35w6 35r21 14|150e13
+145V13*Is_Global_Entity{boolean} 12|48r42
+X 15 sem_util.ads
+34K9*Sem_Util 12|36w6 36r21 15|881e13
+169V13*Defining_Entity{23|403I12} 12|46r42
+X 16 sinfo.ads
+57K9*Sinfo 12|37w6 37r21 16|9296e10
+6692n7*N_Explicit_Dereference{6584E9} 12|113r35
+6693n7*N_Function_Call{6584E9} 12|92r39
+6717n7*N_Selected_Component{6584E9} 12|91r32 94r35
+6723n7*N_Unchecked_Type_Conversion{6584E9} 12|128r35
+7736V13*Prefix{23|400I9} 12|95r31
+X 23 types.ads
+52K9*Types 11|31w6 31r18 23|829e10
+400I9*Node_Id<integer> 11|35r56 12|45r56 47r29
+403I12*Entity_Id{400I9} 12|46r29 49r29
+

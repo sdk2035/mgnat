@@ -1,0 +1,183 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U debug%b		debug.adb		ad188429 NE PK
+
+U debug%s		debug.ads		f7a1e876 NE PR PK
+
+D debug.ads		20051106042240 f7a1e876
+D debug.adb		20051218200256 5ab96c5f
+D system.ads		20060219120116 9a1fe783
+X 1 debug.ads
+38K9*Debug 195l5 195e10 2|34b14 733l5 733t10
+54b4*Debug_Flag_A{boolean} 2|618m25
+55b4*Debug_Flag_B{boolean} 2|619m25
+56b4*Debug_Flag_C{boolean} 2|620m25
+57b4*Debug_Flag_D{boolean} 2|621m25
+58b4*Debug_Flag_E{boolean} 2|622m25
+59b4*Debug_Flag_F{boolean} 2|623m25
+60b4*Debug_Flag_G{boolean} 2|624m25
+61b4*Debug_Flag_H{boolean} 2|625m25
+62b4*Debug_Flag_I{boolean} 2|626m25
+63b4*Debug_Flag_J{boolean} 2|627m25
+64b4*Debug_Flag_K{boolean} 2|560r14 628m25
+65b4*Debug_Flag_L{boolean} 2|629m25
+66b4*Debug_Flag_M{boolean} 2|630m25
+67b4*Debug_Flag_N{boolean} 2|631m25
+68b4*Debug_Flag_O{boolean} 2|632m25
+69b4*Debug_Flag_P{boolean} 2|633m25
+70b4*Debug_Flag_Q{boolean} 2|634m25
+71b4*Debug_Flag_R{boolean} 2|635m25
+72b4*Debug_Flag_S{boolean} 2|636m25
+73b4*Debug_Flag_T{boolean} 2|637m25
+74b4*Debug_Flag_U{boolean} 2|638m25
+75b4*Debug_Flag_V{boolean} 2|639m25
+76b4*Debug_Flag_W{boolean} 2|640m25
+77b4*Debug_Flag_X{boolean} 2|641m25
+78b4*Debug_Flag_Y{boolean} 2|642m25
+79b4*Debug_Flag_Z{boolean} 2|643m25
+81b4*Debug_Flag_AA{boolean} 2|588m25
+82b4*Debug_Flag_BB{boolean} 2|589m25
+83b4*Debug_Flag_CC{boolean} 2|590m25
+84b4*Debug_Flag_DD{boolean} 2|591m25
+85b4*Debug_Flag_EE{boolean} 2|592m25
+86b4*Debug_Flag_FF{boolean} 2|593m25
+87b4*Debug_Flag_GG{boolean} 2|594m25
+88b4*Debug_Flag_HH{boolean} 2|595m25
+89b4*Debug_Flag_II{boolean} 2|596m25
+90b4*Debug_Flag_JJ{boolean} 2|597m25
+91b4*Debug_Flag_KK{boolean} 2|598m25
+92b4*Debug_Flag_LL{boolean} 2|599m25
+93b4*Debug_Flag_MM{boolean} 2|600m25
+94b4*Debug_Flag_NN{boolean} 2|601m25
+95b4*Debug_Flag_OO{boolean} 2|602m25
+96b4*Debug_Flag_PP{boolean} 2|603m25
+97b4*Debug_Flag_QQ{boolean} 2|604m25
+98b4*Debug_Flag_RR{boolean} 2|605m25
+99b4*Debug_Flag_SS{boolean} 2|606m25
+100b4*Debug_Flag_TT{boolean} 2|607m25
+101b4*Debug_Flag_UU{boolean} 2|608m25
+102b4*Debug_Flag_VV{boolean} 2|609m25
+103b4*Debug_Flag_WW{boolean} 2|610m25
+104b4*Debug_Flag_XX{boolean} 2|611m25
+105b4*Debug_Flag_YY{boolean} 2|612m25
+106b4*Debug_Flag_ZZ{boolean} 2|613m25
+108b4*Debug_Flag_1{boolean} 2|575m25
+109b4*Debug_Flag_2{boolean} 2|576m25
+110b4*Debug_Flag_3{boolean} 2|577m25
+111b4*Debug_Flag_4{boolean} 2|578m25
+112b4*Debug_Flag_5{boolean} 2|579m25
+113b4*Debug_Flag_6{boolean} 2|580m25
+114b4*Debug_Flag_7{boolean} 2|581m25
+115b4*Debug_Flag_8{boolean} 2|582m25
+116b4*Debug_Flag_9{boolean} 2|583m25
+118b4*Debug_Flag_Dot_A{boolean} 2|703m25
+119b4*Debug_Flag_Dot_B{boolean} 2|704m25
+120b4*Debug_Flag_Dot_C{boolean} 2|705m25
+121b4*Debug_Flag_Dot_D{boolean} 2|706m25
+122b4*Debug_Flag_Dot_E{boolean} 2|707m25
+123b4*Debug_Flag_Dot_F{boolean} 2|708m25
+124b4*Debug_Flag_Dot_G{boolean} 2|709m25
+125b4*Debug_Flag_Dot_H{boolean} 2|710m25
+126b4*Debug_Flag_Dot_I{boolean} 2|711m25
+127b4*Debug_Flag_Dot_J{boolean} 2|712m25
+128b4*Debug_Flag_Dot_K{boolean} 2|713m25
+129b4*Debug_Flag_Dot_L{boolean} 2|714m25
+130b4*Debug_Flag_Dot_M{boolean} 2|715m25
+131b4*Debug_Flag_Dot_N{boolean} 2|716m25
+132b4*Debug_Flag_Dot_O{boolean} 2|717m25
+133b4*Debug_Flag_Dot_P{boolean} 2|718m25
+134b4*Debug_Flag_Dot_Q{boolean} 2|719m25
+135b4*Debug_Flag_Dot_R{boolean} 2|720m25
+136b4*Debug_Flag_Dot_S{boolean} 2|721m25
+137b4*Debug_Flag_Dot_T{boolean} 2|722m25
+138b4*Debug_Flag_Dot_U{boolean} 2|723m25
+139b4*Debug_Flag_Dot_V{boolean} 2|724m25
+140b4*Debug_Flag_Dot_W{boolean} 2|725m25
+141b4*Debug_Flag_Dot_X{boolean} 2|726m25
+142b4*Debug_Flag_Dot_Y{boolean} 2|727m25
+143b4*Debug_Flag_Dot_Z{boolean} 2|728m25
+145b4*Debug_Flag_Dot_AA{boolean} 2|673m25
+146b4*Debug_Flag_Dot_BB{boolean} 2|674m25
+147b4*Debug_Flag_Dot_CC{boolean} 2|675m25
+148b4*Debug_Flag_Dot_DD{boolean} 2|676m25
+149b4*Debug_Flag_Dot_EE{boolean} 2|677m25
+150b4*Debug_Flag_Dot_FF{boolean} 2|678m25
+151b4*Debug_Flag_Dot_GG{boolean} 2|679m25
+152b4*Debug_Flag_Dot_HH{boolean} 2|680m25
+153b4*Debug_Flag_Dot_II{boolean} 2|681m25
+154b4*Debug_Flag_Dot_JJ{boolean} 2|682m25
+155b4*Debug_Flag_Dot_KK{boolean} 2|683m25
+156b4*Debug_Flag_Dot_LL{boolean} 2|684m25
+157b4*Debug_Flag_Dot_MM{boolean} 2|685m25
+158b4*Debug_Flag_Dot_NN{boolean} 2|686m25
+159b4*Debug_Flag_Dot_OO{boolean} 2|687m25
+160b4*Debug_Flag_Dot_PP{boolean} 2|688m25
+161b4*Debug_Flag_Dot_QQ{boolean} 2|689m25
+162b4*Debug_Flag_Dot_RR{boolean} 2|690m25
+163b4*Debug_Flag_Dot_SS{boolean} 2|691m25
+164b4*Debug_Flag_Dot_TT{boolean} 2|692m25
+165b4*Debug_Flag_Dot_UU{boolean} 2|693m25
+166b4*Debug_Flag_Dot_VV{boolean} 2|694m25
+167b4*Debug_Flag_Dot_WW{boolean} 2|695m25
+168b4*Debug_Flag_Dot_XX{boolean} 2|696m25
+169b4*Debug_Flag_Dot_YY{boolean} 2|697m25
+170b4*Debug_Flag_Dot_ZZ{boolean} 2|698m25
+172b4*Debug_Flag_Dot_1{boolean} 2|660m25
+173b4*Debug_Flag_Dot_2{boolean} 2|661m25
+174b4*Debug_Flag_Dot_3{boolean} 2|662m25
+175b4*Debug_Flag_Dot_4{boolean} 2|663m25
+176b4*Debug_Flag_Dot_5{boolean} 2|664m25
+177b4*Debug_Flag_Dot_6{boolean} 2|665m25
+178b4*Debug_Flag_Dot_7{boolean} 2|666m25
+179b4*Debug_Flag_Dot_8{boolean} 2|667m25
+180b4*Debug_Flag_Dot_9{boolean} 2|668m25
+182V13*Get_Debug_Flag_K{boolean} 2|558b13 561l8 561t24
+186U14*Set_Debug_Flag 186>30 186>45 2|567b14 646l8 646t22
+186e30 C{character} 2|567b30 573r10 574r20 586r13 587r21 617r21
+186b45 Val{boolean} 2|567b45 575r41 576r41 577r41 578r41 579r41 580r41 581r41
+. 582r41 583r41 588r42 589r42 590r42 591r42 592r42 593r42 594r42 595r42 596r42
+. 597r42 598r42 599r42 600r42 601r42 602r42 603r42 604r42 605r42 606r42 607r42
+. 608r42 609r42 610r42 611r42 612r42 613r42 618r41 619r41 620r41 621r41 622r41
+. 623r41 624r41 625r41 626r41 627r41 628r41 629r41 630r41 631r41 632r41 633r41
+. 634r41 635r41 636r41 637r41 638r41 639r41 640r41 641r41 642r41 643r41
+191U14*Set_Dotted_Debug_Flag 191>37 191>52 2|652b14 731l8 731t29
+191e37 C{character} 2|652b37 658r10 659r20 671r13 672r21 702r21
+191b52 Val{boolean} 2|652b52 660r45 661r45 662r45 663r45 664r45 665r45 666r45
+. 667r45 668r45 673r46 674r46 675r46 676r46 677r46 678r46 679r46 680r46 681r46
+. 682r46 683r46 684r46 685r46 686r46 687r46 688r46 689r46 690r46 691r46 692r46
+. 693r46 694r46 695r46 696r46 697r46 698r46 703r45 704r45 705r45 706r45 707r45
+. 708r45 709r45 710r45 711r45 712r45 713r45 714r45 715r45 716r45 717r45 718r45
+. 719r45 720r45 721r45 722r45 723r45 724r45 725r45 726r45 727r45 728r45
+X 2 debug.adb
+568E15 Dig{character} 573r15 574r15
+569E15 LLet{character} 617r15
+570E15 ULet{character} 586r18 587r15
+653E15 Dig{character} 658r15 659r15
+654E15 LLet{character} 702r15
+655E15 ULet{character} 671r18 672r15
+

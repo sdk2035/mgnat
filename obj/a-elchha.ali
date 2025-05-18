@@ -1,0 +1,101 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnn
+
+U ada.exceptions.last_chance_handler%b  a-elchha.adb  0eb61a8b NE PR SU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U ada.exceptions.last_chance_handler%s  a-elchha.ads  09d7ba6d NE SU
+W ada.exceptions%s	a-except.adb		a-except.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D a-elchha.ads		20060219120048 d01b08e0
+D a-elchha.adb		20060219120042 2038978c
+D system.ads		20060219120116 9a1fe783
+D s-parame.ads		20060219120110 6bd7b874
+D s-soflin.ads		20060219120110 677820d8
+D s-stache.ads		20060219120110 07e06d0a
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-traent.ads		20060219120112 9950c76b
+D unchconv.ads		20050819202736 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 3|41r11 4|47r11 139r5
+X 2 a-except.ads
+59K13*Exceptions 335e19 3|41r15 4|47r15 139r9
+67P9*Exception_Id(9|122R9)
+70R9*Exception_Occurrence 311e14 3|42r14 4|48r13 56r11 60r11 65r11
+270p7*Id{67P9} 4|106r22 119r25 119r52
+301i7*Num_Tracebacks{integer} 4|115r17
+X 3 a-elchha.ads
+41U26*Last_Chance_Handler 2|59k13 3|42>4 44r16 46r19 4|47b26 139l20 139t39
+42r4 Except{2|70R9} 4|48b4 106r15 106r22 115r10 119r18 119r25 119r45 119r52
+. 121r36 123r41 135r42
+X 4 a-elchha.adb
+50U14*Unhandled_Terminate 51r22 52b<c,__gnat_unhandled_terminate>22 138r4
+55V13*Exception_Message_Length{natural} 56>7 57b<ada,__gnat_exception_msg_len>24
+. 121r10
+56r7 X{2|70R9}
+59U14*Append_Info_Exception_Message 60>7 60=33 60=55 62b<ada,__gnat_append_info_e_msg>12
+. 123r10
+60r7 X{2|70R9}
+60s33 Info{string}
+60i55 Ptr{natural}
+64U14*Append_Info_Exception_Information 65>7 65=33 65=55 67b<ada,__gnat_append_info_e_info>12
+. 135r7
+65r7 X{2|70R9}
+65s33 Info{string}
+65i55 Ptr{natural}
+69U14*To_Stderr 69>25 70b<ada,__gnat_to_stderr>24 107r7 108r7 109r7 116r7
+. 117r7 118r7 122r10 126r7 131r7 132r7 133r7
+69s25 S{string}
+73i4 Ptr{natural} 123m56 135m57
+74a4 Nobuf{string} 123m49 135m50
+76a4 Nline{string} 107r18 109r18 116r18 126r18 131r18 133r18
+X 5 system.ads
+39K9*System 4|40r6 40r35 43r6 85r4 86r6 100r4 5|205e11
+66M9*Address
+X 7 s-soflin.ads
+45K16*Soft_Links 4|43w13 85r11 86r13 7|363e22
+65P9*EO_Param_Proc
+144U14*Task_Termination_NT 4|86r24
+208p4*Task_Termination_Handler{65P9} 4|85m22
+X 9 s-stalib.ads
+56K16*Standard_Library 4|40w13 40r42 100r11 9|276e28
+61P9*Big_String_Ptr(string)
+64V13*To_Ptr[13|20]{61P9} 4|106r7 119r10
+122R9*Exception_Data
+135i7*Name_Length{natural} 4|119r55
+138m7*Full_Name{5|66M9} 4|106r25 119r28
+272U14*Adafinal 4|100r28
+

@@ -1,0 +1,155 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U system.crtl%s		s-crtl.ads		2686046a NE PR PK
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+
+D system.ads		20060219120116 9a1fe783
+D s-crtl.ads		20060219120106 d74e5b9d
+D s-parame.ads		20060219120110 6bd7b874
+X 1 system.ads
+39K9*System 205e11 2|37r6 39r9 42r21 45r20 48r21 53r31 54r18 60r23 96r26
+. 116r40 125r43 128r27 128r48 131r28 131r49 137r30 140r36 140r59 147r13 147r51
+. 178r5
+66M9*Address 2|42r28 45r27 48r28 60r30 96r33 116r47 125r50 128r34 128r55
+. 131r35 131r56 137r37 140r43 140r66 147r20 147r58
+X 2 s-crtl.ads
+39K16*CRTL 1|39k9 2|178l12 178e16
+42M12*chars{1|66M9} 75r42 84r28 84r67 87r31 87r45 93r28 100r18 101r18 134r33
+. 143r38 158r16 164r31 173r32 176r39
+45M12*DIRs{1|66M9}
+48M12*FILEs{1|66M9} 63r33 72r30 75r56 78r30 81r29 84r53 87r59 90r38 93r44
+. 102r18 103r18 107r16 113r29 150r31 157r16 167r28 170r39
+51I12*int{integer} 66r28 66r40 69r30 69r42 72r44 75r30 78r44 81r43 84r39
+. 90r24 90r52 93r58 109r16 110r16 119r30 119r42 122r25 122r58 137r53 143r24
+. 143r54 143r66 159r16 161r16 170r25 170r53 173r46 176r25 176r55 176r67
+53I9*long<integer> 108r16 113r43
+56I12*off_t{long_integer} 122r39 122r70
+58M9*size_t 125r28 128r68 131r69 147r36 160r16
+60V13*atoi{integer} 60>19 61b<c,atoi>22
+60m19 A{1|66M9}
+63U14*clearerr 63>24 64b<c,clearerr>22
+63m24 stream{48M12}
+66V13*dup{51I12} 66>19 67b<c,dup>22
+66i19 handle{51I12}
+69V13*dup2{51I12} 69>19 69>25 70b<c,dup2>22
+69i19 from{51I12}
+69i25 to{51I12}
+72V13*fclose{51I12} 72>21 73b<c,fclose>22
+72m21 stream{48M12}
+75V13*fdopen{48M12} 75>21 75>35 76b<c,fdopen>22
+75i21 handle{51I12}
+75m35 mode{42M12}
+78V13*fflush{51I12} 78>21 79b<c,fflush>22
+78m21 stream{48M12}
+81V13*fgetc{51I12} 81>20 82b<c,fgetc>22
+81m20 stream{48M12}
+84V13*fgets{42M12} 84>20 84>35 84>44 85b<c,fgets>22
+84m20 strng{42M12}
+84i35 n{51I12}
+84m44 stream{48M12}
+87V13*fopen{48M12} 87>20 87>38 88b<c,fopen>22
+87m20 filename{42M12}
+87m38 Mode{42M12}
+90V13*fputc{51I12} 90>20 90>29 91b<c,fputc>22
+90i20 C{51I12}
+90m29 stream{48M12}
+93V13*fputs{51I12} 93>20 93>35 94b<c,fputs>22
+93m20 Strng{42M12}
+93m35 Stream{48M12}
+96U14*free 96>20 97b<c,free>22
+96m20 Ptr{1|66M9}
+99V13*freopen{48M12} 100>7 101>7 102>7 104b<c,freopen>22
+100m7 filename{42M12}
+101m7 mode{42M12}
+102m7 stream{48M12}
+106V13*fseek{51I12} 107>7 108>7 109>7 111b<c,fseek>22
+107m7 stream{48M12}
+108i7 offset{53I9}
+109i7 origin{51I12}
+113V13*ftell{53I9} 113>20 114b<c,ftell>22
+113m20 stream{48M12}
+116V13*getenv{1|66M9} 116>21 117b<c,getenv>22
+116s21 S{string}
+119V13*isatty{51I12} 119>21 120b<c,isatty>22
+119i21 handle{51I12}
+122V13*lseek{56I12} 122>20 122>30 122>46 123b<c,lseek>22
+122i20 fd{51I12}
+122i30 offset{56I12}
+122i46 direction{51I12}
+125V13*malloc{1|66M9} 125>21 126b<c,malloc>22
+125m21 Size{58M9}
+128U14*memcpy 128>22 128>43 128>64 129b<c,memcpy>22
+128m22 S1{1|66M9}
+128m43 S2{1|66M9}
+128m64 N{58M9}
+131U14*memmove 131>23 131>44 131>65 132b<c,memmove>22
+131m23 S1{1|66M9}
+131m44 S2{1|66M9}
+131m65 N{58M9}
+134U14*mktemp 134>22 135b<c,mktemp>22
+134m22 template{42M12}
+137V13*pclose{51I12} 137>21 138b<c,pclose>22
+137m21 stream{1|66M9}
+140V13*popen{1|66M9} 140>20 140>29 141b<c,popen>22
+140m20 command{1|66M9}
+140m29 mode{1|66M9}
+143V13*read{51I12} 143>19 143>29 143>45 144b<c,read>22
+143i19 fd{51I12}
+143m29 buffer{42M12}
+143i45 nbytes{51I12}
+146V13*realloc{1|66M9} 147>7 147>29 148b<c,realloc>22
+147m7 Ptr{1|66M9}
+147m29 Size{58M9}
+150U14*rewind 150>22 151b<c,rewind>22
+150m22 stream{48M12}
+153U14*rmdir 153>21 154b<c,rmdir>22
+153s21 dir_name{string}
+156V13*setvbuf{51I12} 157>7 158>7 159>7 160>7 162b<c,setvbuf>22
+157m7 stream{48M12}
+158m7 buffer{42M12}
+159i7 mode{51I12}
+160m7 size{58M9}
+164U14*tmpnam 164>22 165b<c,tmpnam>22
+164m22 string{42M12}
+167V13*tmpfile{48M12} 168b<c,tmpfile>22
+170V13*ungetc{51I12} 170>21 170>30 171b<c,ungetc>22
+170i21 c{51I12}
+170m30 stream{48M12}
+173V13*unlink{51I12} 173>21 174b<c,unlink>22
+173m21 filename{42M12}
+176V13*write{51I12} 176>20 176>30 176>46 177b<c,write>22
+176i20 fd{51I12}
+176m30 buffer{42M12}
+176i46 nbytes{51I12}
+X 3 s-parame.ads
+51K16*Parameters 2|37w13 53r38 54r25 3|209e22
+110N4*long_bits 2|53r49 54r36
+

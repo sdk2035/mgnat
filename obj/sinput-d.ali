@@ -1,0 +1,119 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U sinput.d%b		sinput-d.adb		b1c88d59 NE PK
+W osint%s		osint.adb		osint.ali
+W osint.c%s		osint-c.adb		osint-c.ali
+W sinput%s		sinput.adb		sinput.ali
+
+U sinput.d%s		sinput-d.ads		db9d8e77 EE NE PK
+W sinput%s		sinput.adb		sinput.ali
+
+D alloc.ads		20050704094642 baad0baa
+D casing.ads		20050704094644 1a6e5ef9
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D osint.ads		20050819204702 67d8ead2
+D osint-c.ads		20050819200356 dc7f0cd6
+D sinput.ads		20050925211914 fd546e96
+D sinput-d.ads		20050704094702 26c9e0e1
+D sinput-d.adb		20050704094702 2ca68bbc
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 6 osint.ads
+37K9*Osint 629e10 10|27w6 27r19 28r6 28r19
+138V13*Strip_Directory{16|593I12} 10|75r33
+325U14*Read_Source_File 10|50r7
+X 7 osint-c.ads
+30K15*C 154e12 10|28w12 28r25
+59V13*Create_Debug_File{16|593I12} 10|74r33
+63U14*Write_Debug_Info 10|108r10
+68U14*Close_Debug_File 10|45r7
+72V13*Debug_File_Eol_Length{16|65I12} 10|109r52
+X 8 sinput.ads
+72K9*Sinput 751e11 9|31r9 61r5 10|30r14 115r5
+360U14*Set_Source_File_Index_Table 10|53r7
+638A9 Lines_Table_Type(16|200I12)
+645P9 Lines_Table_Ptr(638A9)
+666R9 Source_File_Record 716e14 10|40r14 70r14 95r11
+668i7*File_Name{16|593I12} 10|74r54
+671i7*Debug_Source_Name{16|593I12} 10|75r12
+672i7*Full_Debug_Name{16|593I12} 10|51r12 74r12 75r52
+679p7*Source_Text{16|192P9} 10|52r9
+680i7*Source_First{16|200I12} 10|51r31 76r12 100r42
+681i7*Source_Last{16|200I12} 10|51r47 65r51 77r12 111r12
+684i7*Last_Source_Line{16|167I9} 10|79r12 85r48
+699p7*Lines_Table{645P9} 10|78r12 86r12
+718K12 Source_File[15|57] 10|40r41 65r14 65r33 66r7 67r16 70r41 73r15 85r21
+. 95r38
+730U14 Alloc_Line_Tables 10|84r10
+737U14 Add_Line_Tables_Entry 10|110r10
+746U14 Trim_Lines_Table 10|44r7
+X 9 sinput-d.ads
+31K16*D 8|72k9 9|61l12 61e13 10|30b21 115l12 115t13
+37U14*Create_Debug_Source 38>7 39<7 10|60b14 88l8 88t27
+38i7 Source{16|582I9} 10|61b7 73r34 85r40
+39i7 Loc{16|200I12} 10|62b7 65m7 76r33 77r33 86r31
+45U14*Write_Debug_Line 45>32 45=46 10|94b14 113l8 113t24
+45s32 Str{string} 10|94b32 100r10 108r28 108r33 108r46 109r39
+45i46 Loc{16|200I12} 10|94b46 100r34 109m10 109r17 110r36 111r27
+55U14*Close_Debug_Source 10|39b14 54l8 54t26
+X 10 sinput-d.adb
+32i4 Dfile{16|582I9} 40r60 44r25 53r36 67m7 70r60 95r57
+40r7 S{8|666R9} 51r10 51r29 51r45 52r7
+41p7 Src{16|192P9} 51m60 52r24
+70r10 S{8|666R9} 73r10 74r10 74r52 75r10 75r50 76r10 77r10 78r10 79r10 85r13
+. 86r10 86r12
+95r7 S{8|666R9} 100r40 110r33 111r10
+X 15 table.ads
+108A12*Table_Type(8|666R9)
+111A15*Big_Table_Type{108A12[8|718]}
+119P12*Table_Ptr(111A15[8|718])
+122p7*Table{119P12[8|718]} 10|40r53[8|718] 65r26[8|718] 70r53[8|718] 73r27[8|718]
+. 85r33[8|718] 95r50[8|718]
+146V16*Last{16|582I9} 10|65r45[8|718] 67r28[8|718]
+175U17*Increment_Last 10|66r19[8|718]
+X 16 types.ads
+59I9*Int<integer> 10|85r16
+65I12*Nat{59I9}
+140I9*Text_Ptr<59I9>
+143A9*Text_Buffer(character)
+167I9*Physical_Line_Number<integer>
+188A12*Big_Source_Buffer{143A9}
+192P9*Source_Buffer_Ptr(188A12) 10|41r14
+200I12*Source_Ptr{140I9} 9|39r20 45r59 10|62r20 94r59 109r27
+372I9*Name_Id<integer>
+582I9*Source_File_Index<59I9> 9|38r16 10|32r12 61r16
+593I12*File_Name_Type{372I9}
+

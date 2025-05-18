@@ -1,0 +1,113 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnnnnnnnnnnvnnnnnnnnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U debug_a%b		debug_a.adb		f3db6b6e NE PK
+W atree%s		atree.adb		atree.ali
+W debug%s		debug.adb		debug.ali
+W output%s		output.adb		output.ali
+W sinfo%s		sinfo.adb		sinfo.ali
+W sinput%s		sinput.adb		sinput.ali
+W system%s		system.ads		system.ali
+W system.img_enum%s	s-imgenu.adb		s-imgenu.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U debug_a%s		debug_a.ads		b2db7e6f BN EE NE PK
+W types%s		types.adb		types.ali
+
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D casing.ads		20050704094644 1a6e5ef9
+D debug.ads		20051106042240 f7a1e876
+D debug_a.ads		20050704094644 22702ace
+D debug_a.adb		20050704094644 ff15e3e8
+D einfo.ads		20060105095504 a63ced63
+D hostparm.ads		20060213225900 f78f204c
+D output.ads		20051202225852 111deb13
+D sinfo.ads		20051124200850 7567e295
+D sinput.ads		20050925211914 fd546e96
+D snames.ads		20060213235714 57cf62a2
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-imgenu.ads		20060219120108 3c6798e9
+D s-secsta.ads		20060219120110 db466d0c
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 atree.ads
+45K9*Atree 2860e10 6|27w6 27r19
+275i4*Current_Error_Node{22|400I9} 6|90m10 107m13
+562V13*Nkind{10|6584E9} 6|73r38
+574V13*Sloc{22|200I12} 6|71r26 89r10 106r13
+X 4 debug.ads
+38K9*Debug 195e10 6|28w6 28r19
+54b4*Debug_Flag_A{boolean} 6|65r10 114r10
+X 5 debug_a.ads
+33K9*Debug_A 64l5 64e12 6|33b14 145l5 145t12
+43U14*Debug_A_Entry 43>29 43>41 44r19 6|61b14 92l8 92t21
+43s29 S{string} 6|61b29 67r21
+43i41 N{22|400I9} 6|61b41 69r26 71r32 73r45 82r38 89r16 90r32
+54U14*Debug_A_Exit 54>28 54>40 54>53 55r19 6|98b14 122l8 122t20
+54s28 S{string} 6|98b28 116r21
+54i40 N{22|400I9} 6|98b40 118r26
+54s53 Comment{string} 6|98b53 119r21
+X 6 debug_a.adb
+35i4 Debug_A_Depth{natural} 79m7 79r24 81r10 82r20 100m7 100r24 105r56 133r10
+. 134r35 141r33
+41N4 Max_Node_Ids 44r27 81r27 105r42
+44a4 Node_Ids(22|400I9) 82m10 106r19 107r35
+54U14 Debug_Output_Astring 66r10 115r10 128b14 143l8 143t28
+105i11 J{integer} 106r29 107r45
+129a7 Vbars{string} 133r26 134r19 138r21 141r21
+134i14 I{integer}
+X 9 output.ads
+41K9*Output 6|31w6 31r19 9|194e11
+86U14*Write_Char 6|135r13
+93U14*Write_Eol 6|74r10 120r10
+100U14*Write_Int 6|69r10 118r10
+104U14*Write_Str 6|67r10 68r10 70r10 72r10 73r10 116r10 117r10 119r10 138r10
+. 141r10
+X 10 sinfo.ads
+57K9*Sinfo 6|29w6 29r19 10|9296e10
+6584E9*Node_Kind 6|73r21 10|6928e23
+X 11 sinput.ads
+72K9*Sinput 6|30w6 30r19 11|751e11
+587U14*Write_Location 6|71r10
+X 22 types.ads
+52K9*Types 5|31w6 31r17 22|829e10
+59I9*Int<integer> 6|69r21 118r21
+140I9*Text_Ptr<59I9>
+200I12*Source_Ptr{140I9}
+207i4*No_Location{200I12} 6|89r21 106r35
+400I9*Node_Id<integer> 5|43r45 54r44 6|44r44 61r45 98r44
+

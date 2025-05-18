@@ -1,0 +1,174 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U styleg.c%b		styleg-c.adb		3fb2114f NE PK GE
+W atree%s		atree.adb		atree.ali
+W casing%s		casing.adb		casing.ali
+W csets%s		csets.adb		csets.ali
+W einfo%s		einfo.adb		einfo.ali
+W err_vars%s		err_vars.ads		err_vars.ali
+W namet%s		namet.adb		namet.ali
+W sinfo%s		sinfo.adb		sinfo.ali
+W sinput%s		sinput.adb		sinput.ali
+W stand%s		stand.adb		stand.ali
+W styleg%s		styleg.adb		styleg.ali
+W stylesw%s		stylesw.adb		stylesw.ali
+
+U styleg.c%s		styleg-c.ads		3b80f47a BN EE NE PK GE
+W styleg%s		styleg.adb		styleg.ali
+
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D casing.ads		20050704094644 1a6e5ef9
+D csets.ads		20051106041828 a510609d
+D einfo.ads		20060105095504 a63ced63
+D err_vars.ads		20051106042414 f22c305d
+D hostparm.ads		20060213225900 f78f204c
+D namet.ads		20051128233748 d7b5fee4
+D sinfo.ads		20051124200850 7567e295
+D sinput.ads		20050925211914 fd546e96
+D snames.ads		20060213235714 57cf62a2
+D stand.ads		20051015031156 dba3a3c7
+D styleg.ads		20050905024154 37ce6741
+D styleg-c.ads		20050819004706 0c4e933b
+D styleg-c.adb		20050704094704 01aaef02
+D stylesw.ads		20051124180646 1d2c7222
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 atree.ads
+45K9*Atree 2860e10 15|27w6 27r20
+562V13*Nkind{9|6584E9} 15|51r13 57r19 58r27
+568V13*Comes_From_Source{boolean} 15|91r14 101r13
+571V13*Error_Posted{boolean} 15|96r13 96r40
+574V13*Sloc{22|200I12} 15|81r28 82r28 141r37
+580V13*Parent{22|400I9} 15|51r20
+586V13*No{boolean} 15|59r27
+X 3 casing.ads
+36K9*Casing 88e11 15|28w6 28r20
+49E9*Casing_Type 64e5 15|86r14
+51n7*All_Upper_Case{49E9} 15|174r26 184r26
+57n7*Mixed_Case{49E9} 15|189r26
+70U14*Set_Casing 15|204r19
+85V13*Determine_Casing{49E9} 15|196r19
+X 4 csets.ads
+34K9*Csets 99e10 15|29w6 29r20
+49A9*Char_Array_Flags(boolean)
+91a4*Identifier_Char{49A9} 15|122r26 136r19 138r19
+X 5 einfo.ads
+39K9*Einfo 6952e10 15|30w6 30r20
+5157I12*E{22|403I12}
+5569V13*First_Formal{5157I12} 15|59r31
+X 6 err_vars.ads
+33K9*Err_Vars 118e13 15|31w6 31r20
+84i4*Error_Msg_Sloc{22|200I12} 15|141m19
+87i4*Error_Msg_Name_1{22|372I9} 15|205m19
+96i4*Error_Msg_Node_1{22|400I9} 15|140m19
+X 8 namet.ads
+40K9*Namet 425e10 15|32w6 32r20
+129a4*Name_Buffer{string} 15|202m19
+135i4*Name_Len{natural} 15|201m19 202r37
+226V13*Length_Of_Name{22|65I12} 15|192r24
+247V13*Name_Enter{22|372I9} 15|205r39
+X 9 sinfo.ads
+57K9*Sinfo 9296e10 15|33w6 33r20
+6612n7*N_Defining_Identifier{6584E9} 15|58r43
+6747n7*N_Procedure_Specification{6584E9} 15|57r34
+6871n7*N_Compilation_Unit{6584E9} 15|51r34
+7193V13*Chars{22|372I9} 15|192r40
+7292V13*Defining_Unit_Name{22|400I9} 15|54r44
+7388V13*Entity{22|400I9} 15|173r19 178r22 180r22 182r22
+7823V13*Specification{22|400I9} 15|53r44
+X 10 sinput.ads
+72K9*Sinput 751e11 15|34w6 34r20
+300V13*Source_Text{22|192P9} 15|106r21 107r21 161r21
+489V13*Get_Source_File_Index{22|582I9} 15|106r34 107r34 161r34
+X 12 stand.ads
+47K9*Stand 465e10 15|35w6 35r20
+129n7*S_NUL{49E9} 15|180r42
+160n7*S_US{49E9} 15|180r56
+184n7*S_LC_A{49E9} 15|178r42
+209n7*S_LC_Z{49E9} 15|178r57
+218n7*S_DEL{49E9} 15|182r41
+235A9*Standard_Entity_Array_Type(22|400I9)
+249a4*SE=249:44{235A9} 15|178r38 178r53 180r38 180r52 182r37
+253i4*Standard_ASCII=253:53{22|400I9} 15|173r34
+X 13 styleg.ads
+39U19 Error_Msg 15|142r19
+51k9*Styleg 170e11 14|35r9 52r5 15|38r14 225r5
+X 14 styleg-c.ads
+32U19 Error_Msg_N 32>32 32>46 15|66r10 206r19 221r10
+32s32 Msg{string}
+32i46 N{22|409I12}
+35k16 C 13|51k9 14|32z19 52l12 52e13 15|38b21 225l12 225t13
+37U14*Body_With_No_Spec 37>33 15|48b14 68l8 68t25
+37i33 N{22|400I9} 15|48b33 51r28 53r59 66r71
+41U14*Check_Identifier 42>7 43>7 15|77b14 212l8 212t24
+42i7 Ref{22|409I12} 15|78b7 81r34 91r33 96r27 173r27 178r30 180r30 182r30
+. 192r47 207r70
+43i7 Def{22|409I12} 15|79b7 82r34 96r54 101r32 140r39 141r43
+48U14*Subprogram_Not_In_Alpha_Order 48>45 15|218b14 224l8 224t37
+48i45 Name{22|400I9} 15|218b45 222r67
+X 15 styleg-c.adb
+53i16 Spec{22|400I9} 54r64 57r26
+54i16 Defnm{22|400I9} 58r34 59r45
+81i7 Sref{22|200I12} 106r57 114r22 118r28 122r49 128m22 128r30 136r42 143r59
+. 161r57 165r22 197r28 197r36 203r35 203r43
+82i7 Sdef{22|200I12} 107r57 114r48 118r42 129m22 129r30 138r42 156r13
+83p7 Tref{22|192P9} 106m13 114r16 118r22 122r43 136r36 161m13 165r16 197r22
+. 203r29
+84p7 Tdef{22|192P9} 107m13 114r42 118r36 138r36
+85i7 Nlen{22|65I12} 192m16 197r55 201r40 203r62
+86e7 Cas{3|49E9} 174m19 184m19 189m19 197r69 204r31
+X 16 stylesw.ads
+34K9*Stylesw 15|36w6 36r20 16|294e12
+158b4*Style_Check_Order_Subprograms{boolean} 15|220r10
+173b4*Style_Check_References{boolean} 15|105r13
+179b4*Style_Check_Specs{boolean} 15|50r10
+186b4*Style_Check_Standard{boolean} 15|160r13
+X 22 types.ads
+59I9*Int<integer>
+65I12*Nat{59I9} 15|85r14
+140I9*Text_Ptr<59I9>
+143A9*Text_Buffer(character)
+188A12*Big_Source_Buffer{143A9}
+192P9*Source_Buffer_Ptr(188A12) 15|83r14 84r14
+200I12*Source_Ptr{140I9} 15|81r14 82r14 197r43 203r50
+213i4*Standard_Location{200I12} 15|156r20
+372I9*Name_Id<integer>
+400I9*Node_Id<integer> 14|37r37 48r52 15|48r37 53r33 54r33 218r52
+403I12*Entity_Id{400I9}
+409I12*Node_Or_Entity_Id{400I9} 14|32r50 42r13 43r13 15|78r13 79r13
+582I9*Source_File_Index<59I9>
+

@@ -1,0 +1,457 @@
+V "GNAT Lib v5.05"
+M P W=b
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnnnnnvnnnnnnnvnvnnnnvnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U gnat1drv%b		gnat1drv.adb		c8068c78 NE SU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W atree%s		atree.adb		atree.ali
+W back_end%s		back_end.adb		back_end.ali
+W comperr%s		comperr.adb		comperr.ali
+W csets%s		csets.adb		csets.ali
+W debug%s		debug.adb		debug.ali
+W elists%s		elists.adb		elists.ali
+W errout%s		errout.adb		errout.ali
+W fmap%s		fmap.adb		fmap.ali
+W fname%s		fname.adb		fname.ali
+W fname.uf%s		fname-uf.adb		fname-uf.ali
+W frontend%s		frontend.adb		frontend.ali
+W gnatvsn%s		gnatvsn.adb		gnatvsn.ali
+W hostparm%s		hostparm.ads		hostparm.ali
+W inline%s		inline.adb		inline.ali
+W lib%s			lib.adb			lib.ali
+W lib.writ%s		lib-writ.adb		lib-writ.ali
+W lib.xref%s		lib-xref.adb		lib-xref.ali
+W namet%s		namet.adb		namet.ali
+W nlists%s		nlists.adb		nlists.ali
+W opt%s			opt.adb			opt.ali
+W osint%s		osint.adb		osint.ali
+W output%s		output.adb		output.ali
+W prepcomp%s		prepcomp.adb		prepcomp.ali
+W repinfo%s		repinfo.adb		repinfo.ali
+W restrict%s		restrict.adb		restrict.ali
+W sem%s			sem.adb			sem.ali
+W sem_ch12%s		sem_ch12.adb		sem_ch12.ali
+W sem_ch13%s		sem_ch13.adb		sem_ch13.ali
+W sem_ch8%s		sem_ch8.adb		sem_ch8.ali
+W sem_elim%s		sem_elim.adb		sem_elim.ali
+W sem_eval%s		sem_eval.adb		sem_eval.ali
+W sem_type%s		sem_type.adb		sem_type.ali
+W sinfo%s		sinfo.adb		sinfo.ali
+W sinput%s		sinput.adb		sinput.ali
+W sinput.l%s		sinput-l.adb		sinput-l.ali
+W snames%s		snames.adb		snames.ali
+W sprint%s		sprint.adb		sprint.ali
+W stringt%s		stringt.adb		stringt.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W targparm%s		targparm.adb		targparm.ali
+W tree_gen%s		tree_gen.adb		tree_gen.ali
+W treepr%s		treepr.adb		treepr.ali
+W ttypes%s		ttypes.ads		ttypes.ali
+W types%s		types.adb		types.ali
+W uintp%s		uintp.adb		uintp.ali
+W uname%s		uname.adb		uname.ali
+W urealp%s		urealp.adb		urealp.ali
+W usage%s		usage.adb		usage.ali
+
+U gnat1drv%s		gnat1drv.ads		801c64da EE NE SU
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D back_end.ads		20050819154454 a980c24b
+D casing.ads		20050704094644 1a6e5ef9
+D comperr.ads		20041021165202 ab4c3d47
+D csets.ads		20051106041828 a510609d
+D debug.ads		20051106042240 f7a1e876
+D einfo.ads		20060105095504 a63ced63
+D elists.ads		20051026195116 b3ccb8c4
+D err_vars.ads		20051106042414 f22c305d
+D errout.ads		20051106042544 1b1d99fc
+D erroutc.ads		20051106042626 749b7f29
+D fmap.ads		20050819162316 2d5e4c35
+D fname.ads		20050704094646 e06812a2
+D fname-uf.ads		20050704094646 63a9279e
+D frontend.ads		20050819162340 94964265
+D get_targ.ads		20041007213918 7d7d6d1e
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D gnat1drv.ads		20050819162522 801c64da
+D gnat1drv.adb		20050718102032 50f96ea2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D inline.ads		20050819163502 e76819d0
+D lib.ads		20051127005428 f7794dc9
+D lib-writ.ads		20050925124956 97d66d14
+D lib-xref.ads		20051209141450 038a6124
+D namet.ads		20051128233748 d7b5fee4
+D nlists.ads		20050928021552 215c5d8c
+D opt.ads		20060214002402 703337d5
+D osint.ads		20050819204702 67d8ead2
+D output.ads		20051202225852 111deb13
+D prepcomp.ads		20050819200448 6de9d571
+D repinfo.ads		20050819200514 907d6803
+D restrict.ads		20050819200528 0239bdb8
+D rident.ads		20050819200532 6450d2e5
+D sem.ads		20051023143526 8ffc9e5e
+D sem_ch12.ads		20051103062122 0d9a29c6
+D sem_ch13.ads		20051126165430 c934f511
+D sem_ch8.ads		20060213215058 96d4454e
+D sem_elim.ads		20051023143840 b1ba007f
+D sem_eval.ads		20051126104710 4df422a0
+D sem_type.ads		20050925212134 c8687374
+D sinfo.ads		20051124200850 7567e295
+D sinput.ads		20050925211914 fd546e96
+D sinput-l.ads		20050819004752 09dcfd5d
+D snames.ads		20060213235714 57cf62a2
+D sprint.ads		20050819202648 93a4548f
+D stringt.ads		20050925211740 99224302
+D system.ads		20060219120116 9a1fe783
+D s-assert.ads		20060219120106 85573af2
+D s-exctab.ads		20060219120106 e14b1567
+D s-parame.ads		20060219120110 6bd7b874
+D s-rident.ads		20060219120110 4205e218
+D s-secsta.ads		20060219120110 db466d0c
+D s-soflin.ads		20060219120110 677820d8
+D s-stache.ads		20060219120110 07e06d0a
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-traent.ads		20060219120112 9950c76b
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D targparm.ads		20050819202804 5c6c13d8
+D tree_gen.ads		20050819202804 e937ffc0
+D treepr.ads		20050819202804 13ec75ff
+D ttypes.ads		20050819202806 a0bc3435
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D uname.ads		20050905025134 2a2c667e
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+D usage.ads		20050819202736 dc138eb7
+X 4 atree.ads
+45K9*Atree 2860e10 24|27w6 27r20 607r7
+332U14*Lock 24|607r13
+562V13*Nkind{47|6584E9} 24|246r20 260r20 344r22 405r10
+745V13*Original_Node{72|400I9} 24|260r27 344r29
+X 5 back_end.ads
+30K9*Back_End 67e13 24|28w6 28r20 83r20 620r7
+32E9*Back_End_Mode_Type 42e12 24|83r29
+33n7*Generate_Object{32E9} 24|441r27 450r27 463r27 473r27 481r27 487r27 651r45
+36n7*Declarations_Only{32E9} 24|422r27 579r26
+42n7*Skip{32E9} 24|432r27 495r27 510r26
+48U14*Call_Back_End 24|620r16
+54U14*Scan_Compiler_Arguments 24|101r7
+X 7 comperr.ads
+31K9*Comperr 73e12 24|29w6 670r10 673r10 676r10 683r10
+33U14*Compiler_Abort 24|670r18 673r18 676r18 683r18
+X 8 csets.ads
+34K9*Csets 99e10 24|30w6 30r20 107r7
+58U14*Initialize 24|107r13
+X 9 debug.ads
+38K9*Debug 195e10 24|31w6 31r20
+66b4*Debug_Flag_M{boolean} 24|193r10
+81b4*Debug_Flag_AA{boolean} 24|167r10
+86b4*Debug_Flag_FF{boolean} 24|198r10
+105b4*Debug_Flag_YY{boolean} 24|161r54
+114b4*Debug_Flag_7{boolean} 24|176r23
+115b4*Debug_Flag_8{boolean} 24|189r10
+X 11 elists.ads
+45K9*Elists 170e11 24|32w6 608r7
+62U14*Lock 24|608r14
+X 13 errout.ads
+40K9*Errout 668e11 24|33w6 33r20 110r7 383r10 416r10 556r10 586r10 639r7
+. 690r7
+351i4*Error_Msg_Name_1=351:48{72|372I9} 24|278r16 317r16 334r19
+507U14*Initialize 24|110r14
+511U14*Finalize 24|383r17 416r17 556r17 586r17 639r14 690r14
+544U14*Error_Msg_N 24|277r16 279r16 332r19 335r19
+634V13*Compilation_Errors=635:22{boolean} 24|330r31 362r29 380r10 646r10
+X 15 fmap.ads
+32K9*Fmap 77e9 24|34w6 98r7
+61U14*Reset_Tables 24|98r12
+X 16 fname.ads
+40K9*Fname 99e10 24|35w6 35r20 36r6 36r20 609r7
+X 17 fname-uf.ads
+40K15*UF 115e13 24|36w12 36r26 609r13
+46n32*Expect_Body{46E9} 24|314r57
+49V13*Get_Expected_Unit_Type{46E9} 24|314r24
+56V13*Get_File_Name{72|593I12} 24|295r22
+58b7 Subunit{boolean} 24|295r44
+81U14*Lock 24|609r16
+X 18 frontend.ads
+30U11*Frontend 24|37w6 244r7
+X 23 gnat1drv.ads
+33U11*Gnat1drv 24|76b11 701l5 701t13
+X 24 gnat1drv.adb
+77i4 Main_Unit_Node{72|400I9} 245m7 246r33 255r42 257r50 260r48 277r34 280r54
+. 333r61 336r57 344r50 405r23 406r36 409r50 459r31 471r37
+80e4 Main_Kind{47|6584E9} 246m7 254r13 256r21 258r20 259r20 326r19 352r25
+. 363r25 367r28 438r13 447r13 455r14 457r14 468r14 470r14 478r13 479r17 486r13
+. 520r16 525r16 532r16 581r29
+83e4 Back_End_Mode{5|32E9} 422m10 432m10 441m10 450m10 463m10 473m10 481m10
+. 487m10 495m10 510r10 579r10 620r31 651r29
+127i10 S{72|582I9} 134m10 136r13 146r41 150r42 151r43 152r42
+128i10 N{72|372I9} 133m10 134r33
+263q10 Bad_Body 375l14 375e22
+264i13 Sname{72|601I12} 286m13 291r34 292m16 292r40 295r37 317r36
+265i13 Src_Ind{72|582I9} 296m13 313r16 315r52
+266i13 Fname{72|593I12} 278r36 295m13 296r42 314r48 334r39
+268U23 Bad_Body_Error 268>39 275b23 281l17 281t31 347r22 353r22 364r25 368r25
+268s39 Msg{string} 275b39 277r29
+X 25 gnatvsn.ads
+37K9*Gnatvsn 24|38w6 38r20 25|107e12
+48V13*Gnat_Version_String{string} 24|180r21
+X 26 hostparm.ads
+40K9*Hostparm 24|39w6 195r10 547r13 583r29 26|99e13
+48b4*Java_VM{boolean} 24|583r38
+58b4*OpenVMS{boolean} 24|195m19 547r22
+X 27 inline.ads
+43K9*Inline 24|40w6 114r7 610r7 27|132e11
+101U14*Initialize 24|114r14
+104U14*Lock 24|610r14
+X 28 lib.ads
+41K9*Lib 24|41w6 41r20 42r6 42r20 43r6 99r7 100r7 598r7 611r7 28|760e8
+369V13*Cunit{72|400I9} 24|245r25
+383V13*Unit_File_Name{72|593I12} 24|513r22
+384V13*Unit_Name{72|601I12} 24|264r41 286r22
+392U14*Set_Generate_Code 24|400r7 408r10
+510V13*Get_Cunit_Unit_Number{72|571I9} 24|409r13
+553U14*Initialize 24|99r11
+556U14*Lock 24|611r11
+X 29 lib-writ.ads
+29K13*Writ 24|42w10 42r24 598r11 29|670e13
+650U14*Ensure_System_Dependency 24|598r16
+655U14*Write_ALI 24|389r13 559r10 587r10 651r7
+655b25 Object{boolean} 24|389r24 559r21 587r21 651r18
+X 30 lib-xref.ads
+32K13*Xref 24|43w10 100r11 30|625e13
+622U14*Initialize 24|100r16
+X 31 namet.ads
+40K9*Namet 24|44w6 44r20 111r7 384r10 418r10 560r10 590r10 615r7 626r7 664r7
+. 31|425e10
+129a4*Name_Buffer{string} 24|131m10
+135i4*Name_Len{natural} 24|132m10
+143U14*Finalize 24|384r16 418r16 560r16 590r16 664r13
+212U14*Initialize 24|111r13
+217U14*Lock 24|615r13
+221U14*Unlock 24|626r13
+237V13*Name_Find{72|372I9} 24|133r15
+353U14*Write_Name 24|513r10
+X 32 nlists.ads
+43K9*Nlists 24|45w6 104r7 612r7 32|344e11
+286U14*Initialize 24|104r14
+291U14*Lock 24|612r14
+X 33 opt.ads
+46K9*Opt 24|46w6 46r20 218r14 219r19 388r13 33|1350e8
+63n30*Ada_83{63E9} 24|327r41
+76e4*Ada_Version{63E9} 24|327r27
+158b4*Back_Annotate_Rep_Info{boolean} 24|168m10 580r23
+268b4*Configurable_Run_Time_Mode{boolean} 24|162m10
+340n7*Generate_Caller_Stub_Body{331E9} 24|329r53 461r37
+344e4*Distribution_Stub_Mode{331E9} 24|329r27 461r12
+381b4*Enable_Overflow_Checks{boolean} 24|219r23
+400n7*Back_End_Exceptions{391E9} 24|206r36
+407e4*Exception_Mechanism{391E9} 24|206m13
+469b4*Force_ALI_Tree_File{boolean} 24|388r17
+490b4*Full_List{boolean} 24|175r27
+505b4*GNAT_Mode{boolean} 24|532r52
+624i4*List_Representation_Info{72|59I9} 24|169m10
+641b4*List_Representation_Info_Mechanisms{boolean} 24|170m10
+760n33*Check_Syntax{760E9} 24|252r28 414r36
+760n47*Check_Semantics{760E9} 24|421r39
+760n64*Generate_Code{760E9} 24|328r44 431r31
+761e4*Operating_Mode{760E9} 24|243r34 252r10 328r27 431r13
+771e4*Original_Operating_Mode{760E9} 24|243m7 414r10 421r13
+917b4*Subunits_Missing{boolean} 24|439r22 448r22 515r13
+922b4*Suppress_Checks{boolean} 24|218r18
+926a4*Suppress_Options{72|712A9} 24|225m10 227m10
+1024b4*Usage_Requested{boolean} 24|239r13
+1048b4*Verbose_Mode{boolean} 24|175r11
+X 34 osint.ads
+37K9*Osint 24|47w6 47r20 97r7 102r7 208r13 234r10 237r10 34|629e10
+49U14*Initialize 24|97r13
+92V13*Number_Of_Files{72|59I9} 24|234r16
+121U14*Fail 24|208r19 237r16
+237U14*Add_Default_Search_Dirs 24|102r13
+518n7*E_Success{517E9} 24|419r24
+520n7*E_No_Code{517E9} 24|564r24
+522n7*E_Errors{517E9} 24|393r24 648r24 699r21
+526U14*Exit_Program 24|393r10 419r10 564r10 648r10 699r7
+X 35 output.ads
+41K9*Output 24|48w6 48r20 35|194e11
+71U14*Set_Standard_Error 24|692r7
+78U14*Set_Standard_Output 24|696r7
+93U14*Write_Eol 24|178r10 181r10 183r10 236r10 517r13 522r13 527r13 534r13
+. 541r13 553r10 694r7
+104U14*Write_Str 24|179r10 180r10 182r10 511r10 512r10 516r13 518r13 521r13
+. 523r13 526r13 528r13 533r13 535r13 540r13 542r13 545r10 548r13 550r13 693r7
+110U14*Write_Line 24|137r13 139r13
+X 36 prepcomp.ads
+31K9*Prepcomp 24|49w6 603r7 36|67e13
+33U14*Add_Dependencies 24|603r16
+X 37 repinfo.ads
+43K9*Repinfo 24|50w6 50r20 37|312e12
+287U14*List_Rep_Info 24|640r7
+X 38 restrict.ads
+34K9*Restrict 24|51w6 156r10 38|295e13
+36r4*Restrictions{57|246R9[39|44]} 24|156m19
+X 40 sem.ads
+203K9*Sem 24|52w6 106r7 613r7 40|555e8
+436U14*Initialize 24|106r11
+439U14*Lock 24|613r11
+X 41 sem_ch12.ads
+30K9*Sem_Ch12 24|54w6 116r7 41|129e13
+126U14*Initialize 24|116r16
+X 42 sem_ch13.ads
+30K9*Sem_Ch13 24|55w6 117r7 382r10 555r10 585r10 631r7 42|158e13
+38U14*Initialize 24|117r16
+152U14*Validate_Unchecked_Conversions 24|382r19 555r19 585r19 631r16
+X 43 sem_ch8.ads
+28K9*Sem_Ch8 24|53w6 115r7 43|165e12
+112U14*Initialize 24|115r15
+X 44 sem_elim.ads
+31K9*Sem_Elim 24|56w6 118r7 44|61e13
+33U14*Initialize 24|118r16
+X 45 sem_eval.ads
+41K9*Sem_Eval 24|57w6 119r7 45|416e13
+394U14*Initialize 24|119r16
+X 46 sem_type.ads
+32K9*Sem_Type 24|58w6 120r7 46|247e13
+93U14*Init_Interp_Tables 24|120r16
+X 47 sinfo.ads
+57K9*Sinfo 24|59w6 59r20 47|9296e10
+6584E9*Node_Kind 24|80r16 47|6928e23
+6777n7*N_Package_Body{6584E9} 24|447r25 532r28
+6778n7*N_Subprogram_Body{6584E9} 24|438r25
+6788n7*N_Package_Declaration{6584E9} 24|254r25 326r31 363r37 455r26
+6790n7*N_Subprogram_Declaration{6584E9} 24|457r26 525r28
+6795n7*N_Generic_Package_Declaration{6584E9} 24|256r33 367r40 468r26
+6796n7*N_Generic_Subprogram_Declaration{6584E9} 24|470r26
+6807n7*N_Package_Renaming_Declaration{6584E9} 24|258r32 478r25
+6808n7*N_Subprogram_Renaming_Declaration{6584E9} 24|259r32 479r29
+6919n7*N_Subunit{6584E9} 24|520r28 581r41
+6979E12*N_Generic_Instantiation{6584E9} 24|261r31 345r26
+6983E12*N_Generic_Renaming_Declaration{6584E9} 24|486r26
+7043E12*N_Renaming_Declaration{6584E9} 24|352r38
+7081E12*N_Unit_Body{6584E9} 24|405r43
+7130V13*Acts_As_Spec{boolean} 24|406r22
+7181V13*Body_Required{boolean} 24|255r27 257r35 459r16 471r22
+7613V13*Library_Unit{72|400I9} 24|409r36
+7883V13*Unit{72|400I9} 24|246r27 260r42 344r44 405r17
+X 48 sinput.ads
+72K9*Sinput 24|60r6 60r20 105r7 125r14 614r7 48|751e11
+274I12*SFI{72|582I9}
+276i4*System_Source_File_Index{274I12} 24|146m13
+298V13*Source_First{72|200I12} 24|151r29
+299V13*Source_Last{72|200I12} 24|152r29
+300V13*Source_Text{72|192P9} 24|150r29
+314U14*Initialize 24|105r14
+317U14*Lock 24|614r14
+X 49 sinput-l.ads
+33K16*L 24|60w13 60r27 49|125e13
+39V13*Load_Source_File{72|582I9} 24|134r15 296r24
+68V13*Source_File_Is_Subunit{boolean} 24|315r28
+X 50 snames.ads
+36K9*Snames 24|61w6 112r7 50|1544e11
+1429U14*Initialize 24|112r14
+X 51 sprint.ads
+36K9*Sprint 24|62w6 62r20 51|150e11
+88U14*Source_Dump 24|697r7
+X 52 stringt.ads
+37K9*Stringt 24|63w6 113r7 616r7 52|165e12
+57U14*Initialize 24|113r15
+61U14*Lock 24|616r15
+X 53 system.ads
+39K9*System 24|74r6 669r12 53|205e11
+X 54 s-assert.ads
+39K16*Assertions 24|74w13 669r19 54|48e22
+41X4*Assert_Failure 24|669r30
+X 57 s-rident.ads
+246R9*Restrictions_Info
+X 68 targparm.ads
+75K9*Targparm 24|64w6 149r10 156r35 161r10 194r10 199r10 204r10 205r13 221r24
+. 223r24 582r29 68|642e13
+125r4*Restrictions_On_Target{57|246R9[39|44]} 24|156r44
+202b4*OpenVMS_On_Target{boolean} 24|194m19
+215b4*Backend_Divide_Checks_On_Target{boolean} 24|221r33
+220b4*Backend_Overflow_Checks_On_Target{boolean} 24|223r33
+309b4*ZCX_By_Default_On_Target{boolean} 24|204r19
+316b4*GCC_ZCX_Support_On_Target{boolean} 24|205r22
+336b4*Configurable_Run_Time_On_Target{boolean} 24|161r19
+616b4*Frontend_Layout_On_Target{boolean} 24|199m19 582r38
+628U14*Get_Target_Parameters 24|149r19
+629p7 System_Text{72|192P9} 24|150r13
+630i7 Source_First{72|200I12} 24|151r13
+631i7 Source_Last{72|200I12} 24|152r13
+X 69 tree_gen.ads
+29U11*Tree_Gen 24|65w6 390r13 417r10 558r10 589r10 660r7
+X 70 treepr.ads
+28K9*Treepr 24|66w6 66r20 381r10 415r10 557r10 647r10 659r7 70|81e11
+33U14*Tree_Dump 24|381r17 415r17 557r17 588r10 647r17 659r14 698r7
+X 71 ttypes.ads
+32K9*Ttypes 24|67w6 190r10 190r41 71|210e11
+197b4*Bytes_Big_Endian{boolean} 24|190m17 190r48
+X 72 types.ads
+52K9*Types 24|68w6 68r20 72|829e10
+59I9*Int<integer>
+140I9*Text_Ptr<59I9>
+143A9*Text_Buffer(character)
+188A12*Big_Source_Buffer{143A9}
+192P9*Source_Buffer_Ptr(188A12)
+200I12*Source_Ptr{140I9}
+372I9*Name_Id<integer> 24|128r14
+400I9*Node_Id<integer> 24|77r21
+571I9*Unit_Number_Type<59I9>
+576i4*Main_Unit{571I9} 24|245r32 264r52 286r33 400r26 513r38
+582I9*Source_File_Index<59I9> 24|127r14 265r23
+590i4*No_Source_File{582I9} 24|136r17 313r27
+593I12*File_Name_Type{372I9} 24|266r23
+601I12*Unit_Name_Type{372I9} 24|264r23
+694n7*Overflow_Check{686E9} 24|225r28 227r28
+712A9*Suppress_Array(boolean)
+730X4*Unrecoverable_Error 24|141r19 689r9
+X 73 uintp.ads
+44K9*Uintp 24|69w6 69r20 108r7 73|528e10
+99U14*Initialize 24|108r13
+X 74 uname.ads
+35K9*Uname 24|70w6 70r20 74|173e10
+72V13*Get_Body_Name{72|601I12} 24|292r25
+125V13*Is_Body_Name{boolean} 24|291r20
+X 77 urealp.ads
+39K9*Urealp 24|71w6 109r7 77|367e11
+135U14*Initialize 24|109r14
+X 78 usage.ads
+29U11*Usage 24|72w6 235r10 240r10
+

@@ -1,0 +1,76 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnn
+
+U system.address_operations%b  s-addope.adb	08b09684 NE PK
+W system%s		system.ads		system.ali
+W unchecked_conversion%s
+
+U system.address_operations%s  s-addope.ads	e21510ce BN NE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20060219120116 9a1fe783
+D s-addope.ads		20060219120106 780af74d
+D s-addope.adb		20060219120058 443c6b9c
+D unchconv.ads		20050819202736 34860a55
+X 1 system.ads
+39K9*System 205e11 2|49r9 84r5 3|40r14 114r5
+66M9*Address 2|62r33 62r49 63r33 63r49 64r33 64r49 65r33 65r49 66r33 66r49
+. 73r33 73r49 74r33 74r49 3|42r24 45r44 46r48 55r33 55r49 64r33 64r49 73r33
+. 73r49 82r33 82r49 91r33 91r49 100r32 100r48 109r33 109r49
+X 2 s-addope.ads
+49K16*Address_Operations 1|39k9 2|84l12 84e30 3|40b21 114l12 114t30
+62V13*AddA{1|66M9} 62>19 62>25 76r26 3|55b13 58l8 58t12
+62m19 Left{1|66M9} 3|55b19 57r20
+62m25 Right{1|66M9} 3|55b25 57r31
+63V13*SubA{1|66M9} 63>19 63>25 77r26 3|109b13 112l8 112t12
+63m19 Left{1|66M9} 3|109b19 111r20
+63m25 Right{1|66M9} 3|109b25 111r31
+64V13*MulA{1|66M9} 64>19 64>25 78r26 3|91b13 94l8 94t12
+64m19 Left{1|66M9} 3|91b19 93r20
+64m25 Right{1|66M9} 3|91b25 93r31
+65V13*DivA{1|66M9} 65>19 65>25 79r26 3|73b13 76l8 76t12
+65m19 Left{1|66M9} 3|73b19 75r20
+65m25 Right{1|66M9} 3|73b25 75r31
+66V13*ModA{1|66M9} 66>19 66>25 80r26 3|82b13 85l8 85t12
+66m19 Left{1|66M9} 3|82b19 84r20
+66m25 Right{1|66M9} 3|82b25 84r33
+73V13*AndA{1|66M9} 73>19 73>25 81r26 3|64b13 67l8 67t12
+73m19 Left{1|66M9} 3|64b19 66r20
+73m25 Right{1|66M9} 3|64b25 66r33
+74V13*OrA{1|66M9} 74>19 74>25 82r26 3|100b13 103l8 103t11
+74m19 Left{1|66M9} 3|100b18 102r20
+74m25 Right{1|66M9} 3|100b24 102r32
+X 3 s-addope.adb
+42M9 IA 45r53 46r44
+45V13 I[4|20]{42M9} 57r17 57r28 66r17 66r30 75r17 75r28 84r17 84r30 93r17
+. 93r28 102r17 102r29 111r17 111r28
+46V13 A[4|20]{1|66M9} 57r14 66r14 75r14 84r14 93r14 102r14 111r14
+X 4 unchconv.ads
+20v10*Unchecked_Conversion 3|38w6 45r22 46r22
+

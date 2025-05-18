@@ -1,0 +1,150 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnnvnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnvnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnn
+
+U system.exception_table%b  s-exctab.adb	423fa2a0 PK
+W system%s		system.ads		system.ali
+W system.htable%s	s-htable.adb		s-htable.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U system.exception_table%s  s-exctab.ads	e2b957db BN EB EE NE PK
+W system%s		system.ads		system.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D a-uncdea.ads		20060219120052 dc667e6d
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-exctab.adb		20060219120100 519458bb
+D s-htable.ads		20060219120108 9598cfa4
+D s-htable.adb		20060219120100 3b955f24
+D s-parame.ads		20060219120110 6bd7b874
+D s-soflin.ads		20060219120110 677820d8
+D s-stache.ads		20060219120110 07e06d0a
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-traent.ads		20060219120112 9950c76b
+D unchconv.ads		20050819202736 34860a55
+X 4 system.ads
+39K9*System 205e11 5|38r6 40r9 43r24 75r5 6|34r6 35r6 35r31 37r14 39r8 46r23
+. 47r27 48r53 50r36 57r20 66r27 98r53 130r23 246r5
+66M9*Address 6|46r30 47r34 48r60 57r27 66r34 98r60 130r30
+X 5 s-exctab.ads
+40K16*Exception_Table 4|39k9 5|75l12 75e27 6|37b21 246l12 246t27
+43K12*SSL=43:31 45r38 58r53 68r9
+45U14*Register_Exception 45>34 46r19 6|186r10 196b14 199l8 199t26 239r4 240r4
+. 241r4 242r4 243r4 244r4
+45p34 X{12|95P9} 6|196b34 198r29
+56V13*Internal_Exception{12|95P9} 57>7 58>7 6|154b13 190l8 190t26
+57s7 X{string} 6|155b7 160r34 160r45 165r13 165r25
+58b7 Create_If_Not_Exist{boolean} 6|156b7 173r30
+64V13*Registered_Exceptions_Count{natural} 6|205b13 222l8 222t35
+67A9*Exception_Data_Array(12|95P9) 71r18 6|108r18
+70U14*Get_Registered_Exceptions 71<7 72<7 6|107b14 124l8 124t33
+71a7 List{67A9} 6|108b7 115r15 117r20 119m10
+72i7 Last{integer} 6|109b7 115m7 117r13 118m10 118r18 119r16
+X 6 s-exctab.adb
+41I9 HTable_Headers<short_short_integer> 46r46 51r20 130r46 134r31 134r53
+. 142r20 142r43
+43U14 Set_HT_Link 43>27 43>51 55r20 228b14 234l8 234t19
+43p27 T{12|95P9} 229b7 233r7
+43p51 Next{12|95P9} 230b7 233r23
+44V14 Get_HT_Link{12|95P9} 44>27 56r20 89b14 92l8 92t19
+44p27 T{12|95P9} 89b27 91r14
+46V13 Hash{41I9} 46>19 59r20 130b13 148l8 148t12
+46m19 F{4|66M9} 130b19 133r49
+47V13 Equal{boolean} 47>20 47>23 60r20 66b13 83l8 83t13
+47m20 A{4|66M9} 66b20 67r47
+47m23 B{4|66M9} 66b23 68r47
+48V13 Get_Key{4|66M9} 48>22 58r20 98b13 101l8 101t15
+48p22 T{12|95P9} 98b22 100r14
+50K12 Exception_HTable[7|152] 111r36 120r18 167r14 198r7 207r37 217r18
+67p7 S1{12|61P9} 73r13 76r16
+68p7 S2{12|61P9} 73r23
+69i7 J{integer} 73r17 73r27 76r20 80m13 80r18
+111p7 Data{12|95P9} 117r39 119r25 120m10
+131M12 S 134r23 134r28 135r14 144r28
+133p7 Str{12|61P9} 141r13 144r46
+134m7 Size{131M12} 142r72
+135m7 Tmp{131M12} 142r64 144m13 144r20
+136i7 J{positive} 139m7 141r18 144r51 146m10 146r15
+158P12 String_Ptr(string) 162r18
+160a7 Copy{string} 165m7 166m7 166r13 167m36 174r34 180r40
+161p7 Res{12|95P9} 167m7 173r10 176m10 186r30 189r14
+162p7 Dyn_Copy{158P12} 174m10 181r40
+206i7 Count{natural} 216m10 216r19 221r14
+207p7 Data{12|95P9} 215r13 217m10
+X 7 s-htable.ads
+42K16*HTable 6|34w13 50r43 7|198e18
+122I12 Header_Num 6|51r6
+125+12 Element 6|52r6
+135+12 Elmt_Ptr 6|53r6
+139*7 Null_Ptr{135+12} 6|54r6
+142U22 Set_Next 6|55r6
+143V22 Next{135+12} 6|56r6
+147+12 Key 6|57r6
+148V21 Get_Key{147+12} 6|58r6
+149V21 Hash{122I12} 6|59r6
+150V21 Equal{boolean} 6|60r6
+152k12*Static_HTable 6|50r50 7|186e21
+163U17*Set 6|198r24[50]
+166V16*Get{12|95P9} 6|167r31[50]
+174V16*Get_First{12|95P9} 6|111r53[50] 207r54[50]
+179V16*Get_Next{12|95P9} 6|120r35[50] 217r35[50]
+X 10 s-soflin.ads
+45K16*Soft_Links 6|35w13 35r38 10|363e22
+63P9*No_Param_Proc
+172p4*Lock_Task{63P9} 6|114r7 213r7
+182p4*Unlock_Task{63P9} 6|123r7 220r7
+X 12 s-stalib.ads
+56K16*Standard_Library 5|38w13 43r31 6|39r15 12|276e28
+61P9*Big_String_Ptr(string) 6|67r21 68r21 133r23
+64V13*To_Ptr[16|20]{61P9} 6|67r39 68r39 133r41
+91P9*Raise_Action
+94R9*Exception_Data 6|52r20 177r16 12|159e14
+95P9*Exception_Data_Ptr(94R9) 5|45r42 58r57 68r13 6|43r31 43r58 44r31 44r58
+. 48r26 53r20 89r31 89r58 98r26 111r14 156r53 161r18 196r38 207r15 229r14
+. 230r14
+98M9*Exception_Code
+122R9*Exception_Data
+123b7*Not_Handled_By_Others{boolean} 6|178r15
+130e7*Lang{character} 6|179r15
+135i7*Name_Length{natural} 6|180r15
+138m7*Full_Name{4|66M9} 6|100r16 181r15
+142p7*HTable_Ptr{95P9} 6|91r16 182r15 233r9
+147m7*Import_Code{98M9} 6|183r15
+153p7*Raise_Hook{91P9} 6|184r15
+176r4*Constraint_Error_Def{122R9} 6|244m24
+185r4*Numeric_Error_Def{122R9} 6|243m24
+194r4*Program_Error_Def{122R9} 6|242m24
+203r4*Storage_Error_Def{122R9} 6|241m24
+212r4*Tasking_Error_Def{122R9} 6|240m24
+221r4*Abort_Signal_Def{122R9} 6|239m24
+

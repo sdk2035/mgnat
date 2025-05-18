@@ -1,0 +1,83 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U krunch%b		krunch.adb		0aabc2b5 NE SU
+W hostparm%s		hostparm.ads		hostparm.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U krunch%s		krunch.ads		ed92f8eb EB NE SU
+
+D hostparm.ads		20060213225900 f78f204c
+D krunch.ads		20050819163530 ed92f8eb
+D krunch.adb		20050819163530 10b61a12
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-unstyp.ads		20060219120112 b399198a
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 1 hostparm.ads
+40K9*Hostparm 99e13 3|34w6 128r10
+58b4*OpenVMS{boolean} 3|128r19
+X 2 krunch.ads
+122U11*Krunch 123=4 124=4 125>4 126>4 127r24 3|35b11 247l5 247t11
+123s4 Buffer{string} 3|36b4 42r33 60r15 63m7 64m7 64r33 69r15 72m7 73m7 73r33
+. 77r28 79m7 79r32 83r28 85m7 85r32 89r28 91m7 91r32 95r29 97m7 97r32 105r33
+. 106r33 107r33 108r33 109r33 110r33 111r33 124r15 129m10 131m10 155r10 157r29
+. 158r29 160r29 161r29 163m10 164m10 164r42 175r10 186r10 186r35 187m10 211r42
+. 226m13 227r15 239r10 241m10 241r26
+124i4 Len{natural} 3|37b4 56r17 59r10 64r20 64r47 65r17 68r10 73r20 73r47
+. 74r17 77r10 79r20 79r45 80r17 83r10 85r20 85r45 86r17 89r10 91r20 91r45
+. 92r17 95r10 97r20 97r46 98r17 105r15 106r15 107r15 108r15 109r15 110r15
+. 111r15 115r19 123r10 126r15 140r19 147m7 236m4 240m10 240r17 241r18
+125i4 Maxlen{natural} 3|38b4 57r16 126r22 141r19
+126b4 No_Predef{boolean} 3|39b4 54r7
+X 3 krunch.adb
+42e4 B1=42:33{character} 125r16 125r33 125r50 125r67
+43i4 Curlen{natural} 56m7 65m7 74m7 80m7 86m7 92m7 98m7 115m7 140m7 146r7
+. 147r14 154r15 159r27 164r27 164r59 165m10 165r20 174r18 185r25 194r10 206r23
+. 211r26 225r25 226r34 227r40 230m10 230r20 238r18
+44i4 Krlen{natural} 57m7 66m7 75m7 81m7 87m7 93m7 99m7 114m7 141m7 146r17
+. 194r30
+45i4 Num_Seps{natural} 184m4 188m10 188r22 194r19
+46i4 Startloc{natural} 55m7 62m7 71m7 78m7 84m7 90m7 96m7 113m7 139m7 153r9
+. 156r23 185r13 202r17
+47i4 J{natural} 153m4 154r10 155r18 155r23 156r19 157r37 158r37 159r19 160r37
+. 161r37 163r18 164r18 164r50 168m7 168r12
+174i8 J{integer} 175r18
+185i8 J{integer} 186r18 186r43 187r18
+196i10 Long_Length{natural} 215r36 216m16
+197i10 Long_Last{natural} 217m16 225r13 226r21 227r23
+198i10 Piece_Start{natural} 207m13 215r22 216r37
+199i10 Ptr{natural} 202m10 206r16 207r28 211r19 211r50 212m16 212r23 215r16
+. 216r31 217r29 220m13 220r20
+238i8 J{integer} 239r18 241r34
+

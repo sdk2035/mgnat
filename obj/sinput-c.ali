@@ -1,0 +1,188 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnvnnnvnnnnnnnnnnnnnnvnnvnvnnnnnnnnnnvnnnnnnnnvnnnnnvnnvnnnnnnnnnnnnnnn
+
+U sinput.c%b		sinput-c.adb		ddf52d87 NE PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W gnat%s		gnat.ads		gnat.ali
+W gnat.os_lib%s		g-os_lib.adb		g-os_lib.ali
+W namet%s		namet.adb		namet.ali
+W opt%s			opt.adb			opt.ali
+W sinput%s		sinput.adb		sinput.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U sinput.c%s		sinput-c.ads		2c444a3c EE NE PK
+W sinput%s		sinput.adb		sinput.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-unccon.ads		20060219120052 51e09df2
+D alloc.ads		20050704094642 baad0baa
+D casing.ads		20050704094644 1a6e5ef9
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D gnatvsn.ads		20060112172940 aa3af9cd
+D hostparm.ads		20060213225900 f78f204c
+D namet.ads		20051128233748 d7b5fee4
+D opt.ads		20060214002402 703337d5
+D sinput.ads		20050925211914 fd546e96
+D sinput-c.ads		20051206194620 d11024aa
+D sinput-c.adb		20050704094702 07401e3a
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 1 ada.ads
+16K9*Ada 19e8 14|27r6 137r15
+X 2 a-unccon.ads
+20v14*Unchecked_Conversion 14|27w10 137r19
+X 3 alloc.ads
+44K9*Alloc 150e10 14|198r51
+78N4*Lines_Initial 14|198r57
+X 4 casing.ads
+61n7*Unknown{49E9} 14|179r39 182r39
+X 5 gnat.ads
+36K9*GNAT 39e9 14|29r6 29r23
+X 6 g-os_lib.ads
+52K14*OS_Lib 859e16 14|29w11 29r28
+160I9*File_Descriptor<integer> 14|46r24
+168i4*Invalid_FD{160I9} 14|84r27
+171n18*Binary{171E9} 14|82r57
+255U14*Close 14|149r7
+351V13*Read{integer} 14|118r27
+380V13*File_Length{long_integer} 14|90r23
+558V13*Open_Read{160I9} 14|82r25
+828e4*Directory_Separator{character} 14|159r42
+X 10 namet.ads
+40K9*Namet 425e10 14|30w6 30r23
+129a4*Name_Buffer{string} 14|73m7 75m7 82m36 164m10
+135i4*Name_Len{natural} 14|72m7 73r25 75r20 163m10 164r28
+237V13*Name_Find{23|372I9} 14|74r18 165r21
+X 11 opt.ads
+46K9*Opt 1350e8 14|31w6 31r23 198r32
+939i4*Table_Factor{23|59I9} 14|198r36
+X 12 sinput.ads
+72K9*Sinput 751e11 13|32r9 37r5 14|34r14 206r5
+80n7*Config{74E9} 14|174r39
+97n7*Unknown{96E9} 14|184r39
+360U14*Set_Source_File_Index_Table 14|202r7
+638A9 Lines_Table_Type(23|200I12)
+645P9 Lines_Table_Ptr(638A9)
+648A9 Logical_Lines_Table_Type(23|157I9)
+657P9 Logical_Lines_Table_Ptr(648A9)
+666R9 Source_File_Record 716e14 14|169r14
+668i7*File_Name{23|593I12} 14|173r16
+669e7*File_Type{74E9} 14|174r16
+670i7*Reference_Name{23|593I12} 14|189r16
+671i7*Debug_Source_Name{23|593I12} 14|172r16
+672i7*Full_Debug_Name{23|593I12} 14|176r16
+673i7*Full_File_Name{23|593I12} 14|177r16
+674i7*Full_Ref_Name{23|593I12} 14|178r16
+675b7*Inlined_Body{boolean} 14|180r16
+676e7*License{96E9} 14|184r16
+677i7*Num_SRef_Pragmas{23|65I12} 14|188r16
+678i7*First_Mapped_Line{23|157I9} 14|175r16
+679p7*Source_Text{23|192P9} 14|194r16
+680i7*Source_First{23|200I12} 14|192r16
+681i7*Source_Last{23|200I12} 14|69r42 193r16
+682a7*Time_Stamp{23|634A9} 14|196r16
+683m7*Source_Checksum{23|71M9} 14|191r16
+684i7*Last_Source_Line{23|167I9} 14|183r16
+685e7*Keyword_Casing{4|49E9} 14|182r16
+686e7*Identifier_Casing{4|49E9} 14|179r16
+687i7*Instantiation{23|200I12} 14|181r16
+688i7*Template{23|582I9} 14|195r16
+693i7*Sloc_Adjust{23|200I12} 14|190r16
+699p7*Lines_Table{645P9} 14|185r16 199r12
+705p7*Logical_Lines_Table{657P9} 14|187r16
+710i7*Lines_Table_Max{23|167I9} 14|186r16
+718K12 Source_File[22|57] 14|63r7 64r12 66r14 69r16 85r10 169r41
+730U14 Alloc_Line_Tables 14|198r10
+X 13 sinput-c.ads
+32K16*C 12|72k9 13|37l12 37e13 14|34b21 206l12 206t13
+34V13*Load_File{23|582I9} 34>24 14|40b13 204l8 204t17
+34s24 Path{string} 14|40b24 59r10 72r19 73r38 154r30 157r24 158r23 159r23
+. 163r22 164r41 164r56
+X 14 sinput-c.adb
+41p7 Src{23|192P9} 142m13 194r39
+42i7 X{23|582I9} 64m7 66r10 69r35 169r60 202r36 203r14
+43i7 Lo{23|200I12} 67m10 69m10 95r13 100r57 116r16 192r39 199r31
+44i7 Hi{23|200I12} 95m7 100r63 116m10 118r61 119m13 119r19 123r22 193r39
+46i7 Source_File_FD{6|160I9} 82m7 84r10 90r36 118r33 149r14
+50i7 Len{integer} 90m7 95r30 118r74 120r36
+53i7 Actual_Len{integer} 118m13 119r36 120r23 120r43
+55i7 Path_Id{23|372I9} 74m7 176r39 177r39 178r39
+56i7 File_Id{23|372I9} 165m10 172r39 173r39 189r39
+100A18 Actual_Source_Buffer{23|182A12} 103r43 106r57
+103P15 Actual_Source_Ptr(100A18) 106r32
+106p10 Actual_Ptr{103P15} 118m49 123r10 142m42
+136V22 To_Source_Buffer_Ptr[2|20]{23|192P9} 142r20
+154i10 Index{positive} 157r16 158r29 159r29 160m13 160r22 163r34 164r47
+169r10 S{12|666R9} 172r10 198r29 199r10 199r12
+X 15 system.ads
+39K9*System 14|32w6 32r23 15|205e11
+66M9*Address 14|137r41
+X 22 table.ads
+108A12*Table_Type(12|666R9)
+111A15*Big_Table_Type{108A12[12|718]}
+119P12*Table_Ptr(111A15[12|718])
+122p7*Table{119P12[12|718]} 14|69r28[12|718] 169r53[12|718]
+146V16*Last{23|582I9} 14|64r24[12|718]
+163i7*First{23|582I9} 14|66r26[12|718]
+175U17*Increment_Last 14|63r19[12|718]
+179U17*Decrement_Last 14|85r22[12|718]
+X 23 types.ads
+59I9*Int<integer>
+65I12*Nat{59I9}
+71M9*Word
+94e4*EOF{character} 14|123r29
+140I9*Text_Ptr<59I9>
+143A9*Text_Buffer(character)
+157I9*Logical_Line_Number<integer>
+164i4*No_Line_Number{157I9} 14|175r39
+167I9*Physical_Line_Number<integer>
+182A12*Source_Buffer{143A9} 14|100r42
+188A12*Big_Source_Buffer{143A9}
+192P9*Source_Buffer_Ptr(188A12) 14|41r14 137r50
+200I12*Source_Ptr{140I9} 14|43r14 44r14 95r18 119r24
+207i4*No_Location{200I12} 14|181r39
+226i4*First_Source_Ptr{200I12} 14|67r16
+372I9*Name_Id<integer> 14|55r17 56r17
+582I9*Source_File_Index<59I9> 13|34r46 14|40r46 42r14
+590i4*No_Source_File{582I9} 14|60r17 86r17 195r39
+593I12*File_Name_Type{372I9}
+634A9*Time_Stamp_Type<string>
+637a4*Empty_Time_Stamp{634A9} 14|196r39
+

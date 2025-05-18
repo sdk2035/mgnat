@@ -1,0 +1,54 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.io_exceptions%s	a-ioexce.ads		2274d34a EE PU PK
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-ioexce.ads		20060219120048 be0900a0
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D unchconv.ads		20050819202736 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 2|16r9 28r5
+X 2 a-ioexce.ads
+16K13*IO_Exceptions 1|16k9 2|28l9 28e22
+19X4*Status_Error
+20X4*Mode_Error
+21X4*Name_Error
+22X4*Use_Error
+23X4*Device_Error
+24X4*End_Error
+25X4*Data_Error
+26X4*Layout_Error
+

@@ -1,0 +1,62 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U system.string_ops_concat_3%b  s-sopco3.adb	373bd87b NE PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+
+U system.string_ops_concat_3%s  s-sopco3.ads	8ed3bc75 NE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20060219120116 9a1fe783
+D s-secsta.ads		20060219120110 db466d0c
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-strops.ads		20060219120110 92e79914
+D s-sopco3.ads		20060219120110 14cc5bf6
+D s-sopco3.adb		20060219120104 23f7838d
+D s-sopco4.ads		20060219120110 dca7f27b
+D s-sopco5.ads		20060219120110 63c5ad18
+D unchconv.ads		20050819202736 34860a55
+X 1 system.ads
+39K9*System 205e11 6|36r9 42r5 7|34r14 60r5
+76V13*"<="{boolean} 7|42r20
+X 6 s-sopco3.ads
+36K16*String_Ops_Concat_3 1|39k9 6|42l12 42e31 7|34b21 60l12 60t31
+39V13*Str_Concat_3{string} 39>27 39>31 39>35 7|40b13 58l8 58t20
+39s27 S1{string} 7|40b27 42r10 47r39 49r25 49r37 52r16 52r34 52r57 53r16
+. 53r34 54r16
+39s31 S2{string} 7|40b31 43r17 47r51 53r57
+39s35 S3{string} 7|40b35 43r22 48r45 54r57
+X 7 s-sopco3.adb
+47i13 L12{natural} 48r39 53r45 54r27
+48i13 L13{natural} 49r48
+49a13 R{string} 52m13 53m13 54m13 54r34 55r20
+

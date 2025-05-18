@@ -1,0 +1,62 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.assertions%b	s-assert.adb		b1a0fecf NE PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+
+U system.assertions%s	s-assert.ads		1f48dd71 EE PK
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D system.ads		20060219120116 9a1fe783
+D s-assert.ads		20060219120106 85573af2
+D s-assert.adb		20060219120058 ed3b76b0
+D s-exctab.ads		20060219120106 e14b1567
+D s-parame.ads		20060219120110 6bd7b874
+D s-stalib.ads		20060219120110 99eda53f
+D s-traent.ads		20060219120112 9950c76b
+D unchconv.ads		20050819202736 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 5|34r6 44r7
+X 2 a-except.ads
+59K13*Exceptions 335e19 5|34w10 44r11
+95U14*Raise_Exception 5|44r22
+X 3 system.ads
+39K9*System 205e11 4|39r9 48r5 5|36r14 47r5
+X 4 s-assert.ads
+39K16*Assertions 3|39k9 4|48l12 48e22 5|36b21 47l12 47t22
+41X4*Assert_Failure 5|44r39
+44U14*Raise_Assert_Failure 44>36 45r22 5|42b14 45l8 45t28
+44s36 Msg{string} 5|42b36 44r64
+

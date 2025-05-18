@@ -1,0 +1,64 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U gnat.case_util%b	g-casuti.adb		ccd92b43 NE PK
+W gnat%s		gnat.ads		gnat.ali
+
+U gnat.case_util%s	g-casuti.ads		085a8af0 EB NE PU PK
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.case_util%s	s-casuti.adb		s-casuti.ali
+
+D gnat.ads		20050819162446 e279999f
+D g-casuti.ads		20060219120054 7d943894
+D g-casuti.adb		20060219120054 b14d13d7
+D system.ads		20060219120116 9a1fe783
+D s-casuti.ads		20060219120106 97b72bfb
+X 1 gnat.ads
+36K9*GNAT 39e9 2|45r9 79r5 3|39r14 40r5
+X 2 g-casuti.ads
+45K14*Case_Util 1|36k9 2|79l10 79e19 3|39b19 40l10 40t19
+55V13*To_Upper=56:31{character}
+55e23 A{character}
+60U14*To_Upper=61:31
+60s24 A{string}
+64V13*To_Lower=65:31{character}
+64e23 A{character}
+69U14*To_Lower=70:31
+69s24 A{string}
+73U14*To_Mixed=74:31
+73s24 A{string}
+X 4 system.ads
+39K9*System 2|43r6 56r14 61r14 65r14 70r14 74r14 4|205e11
+X 5 s-casuti.ads
+42K16*Case_Util 2|43w13 56r21 61r21 65r21 70r21 74r21 5|66e21
+47V13*To_Upper{character} 2|56r31
+51U14*To_Upper 2|61r31
+54V13*To_Lower{character} 2|65r31
+58U14*To_Lower 2|70r31
+61U14*To_Mixed 2|74r31
+

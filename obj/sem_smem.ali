@@ -1,0 +1,113 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U sem_smem%b		sem_smem.adb		663ca3e6 NE PK
+W atree%s		atree.adb		atree.ali
+W einfo%s		einfo.adb		einfo.ali
+W errout%s		errout.adb		errout.ali
+W namet%s		namet.adb		namet.ali
+W sinfo%s		sinfo.adb		sinfo.ali
+W snames%s		snames.adb		snames.ali
+
+U sem_smem%s		sem_smem.ads		34c0e014 EE NE PK
+W types%s		types.adb		types.ali
+
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D einfo.ads		20060105095504 a63ced63
+D err_vars.ads		20051106042414 f22c305d
+D errout.ads		20051106042544 1b1d99fc
+D erroutc.ads		20051106042626 749b7f29
+D hostparm.ads		20060213225900 f78f204c
+D namet.ads		20051128233748 d7b5fee4
+D sem_smem.ads		20050704094702 a46bb4b5
+D sem_smem.adb		20050704094702 ca5a3031
+D sinfo.ads		20051124200850 7567e295
+D snames.ads		20060213235714 57cf62a2
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 atree.ads
+45K9*Atree 2860e10 10|27w6 27r18
+568V13*Comes_From_Source{boolean} 10|112r19 125r16
+591V13*Present{boolean} 10|111r19 121r16
+X 3 einfo.ads
+39K9*Einfo 6952e10 10|28w6 28r18
+5155B12*B{boolean}
+5157I12*E{18|403I12}
+5199V13*Component_Type{5157I12} 10|106r39
+5203V13*Corresponding_Record_Type{5157I12} 10|141r39
+5282V13*Has_Discriminants{5155E12} 10|109r13
+5349V13*Is_Constrained{5155E12} 10|85r22
+5510V13*Is_Access_Type{5155E12} 10|66r13 102r10
+5511V13*Is_Array_Type{5155E12} 10|105r13
+5543V13*Is_Protected_Type{5155E12} 10|140r13
+5545V13*Is_Record_Type{5155E12} 10|84r13 108r13
+5567V13*First_Component{5157I12} 10|120r15
+5568V13*First_Discriminant{5157I12} 10|110r18
+5593V13*Next_Component{5157I12} 10|134r21
+5594V13*Next_Discriminant{5157I12} 10|115r24
+X 5 errout.ads
+40K9*Errout 668e11 10|29w6 29r18
+544U14*Error_Msg_N 10|57r10 67r10 75r10 87r10
+X 8 namet.ads
+40K9*Namet 425e10 10|30w6 30r18
+272V13*Is_Internal_Name{boolean} 10|129r22
+X 9 sem_smem.ads
+31K9*Sem_Smem 41l5 41e13 10|34b14 148l5 148t13
+33U14*Check_Shared_Var 34>7 35>7 36>7 10|45b14 92l8 92t24
+34i7 Id{18|403I12} 10|46b7 70r13 78r13 90r13
+35i7 T{18|403I12} 10|47b7 66r29 74r35 84r29 85r38
+36i7 N{18|400I9} 10|48b7 56r27 60r13
+X 10 sem_smem.adb
+36V13 Contains_Access_Type{boolean} 36>35 74r13 98b13 106r17 130r24 141r17
+. 146l8 146t28
+36i35 T{18|403I12} 98b35 102r26 105r28 106r55 108r29 109r32 110r38 120r32
+. 125r35 140r32 141r66
+99i7 C{18|403I12} 110m13 111r28 112r38 115m19 115r43 120m10 121r25 127r25
+. 129r47 130r53 134m16 134r37
+X 11 sinfo.ads
+57K9*Sinfo 10|31w6 31r18 11|9296e10
+7139V13*Aliased_Present{boolean} 10|56r10
+7193V13*Chars{18|372I9} 10|127r18 129r40
+7412V13*Etype{18|400I9} 10|130r46
+X 12 snames.ads
+36K9*Snames 10|32w6 32r18 12|1544e11
+138i4*Name_uParent{18|372I9} 10|127r30
+X 18 types.ads
+52K9*Types 9|30w6 30r17 18|829e10
+372I9*Name_Id<integer>
+400I9*Node_Id<integer> 9|36r12 10|48r12
+403I12*Entity_Id{400I9} 9|34r12 35r12 10|36r39 46r12 47r12 98r39 99r11
+

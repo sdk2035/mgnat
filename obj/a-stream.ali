@@ -1,0 +1,71 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnn
+
+U ada.streams%s		a-stream.ads		e84eaef1 EE PU PK
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D a-stream.ads		20060219120050 74337d1b
+D a-tags.ads		20060219120052 81dd2f9c
+D a-tags.adb		20060219120044 9bcd7865
+D system.ads		20060219120116 9a1fe783
+D s-assert.ads		20060219120106 85573af2
+D s-exctab.ads		20060219120106 e14b1567
+D s-htable.ads		20060219120108 9598cfa4
+D s-parame.ads		20060219120110 6bd7b874
+D s-secsta.ads		20060219120110 db466d0c
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-traent.ads		20060219120112 9950c76b
+D s-wchcon.ads		20060219120112 1705b980
+D s-wchstw.ads		20060219120112 6b782940
+D unchconv.ads		20050819202736 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 3|38r9 70r5
+X 3 a-stream.ads
+38K13*Streams 1|16k9 3|70l9 70e16
+41H9*Root_Stream_Type 55p14 56r23 61p14 62r23 68c9 68e64
+43M9*Stream_Element 53r57
+45I9*Stream_Element_Offset<integer> 50r7 50r40 53r14 58r20
+49I12*Stream_Element_Count{45I9}
+52A9*Stream_Element_Array(43M9) 57r20 63r16
+55x14*Read 56=7 57<7 58<7
+56r7 Stream{41R9}
+57a7 Item{52A9}
+58i7 Last{45I9}
+61x14*Write 62=7 63>7
+62r7 Stream{41R9}
+63a7 Item{52A9}
+

@@ -1,0 +1,78 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U system.wch_jis%b	s-wchjis.adb		ff5b1296 NE PK
+W system%s		system.ads		system.ali
+W system.pure_exceptions%s  s-purexc.ads	s-purexc.ali
+
+U system.wch_jis%s	s-wchjis.ads		c99c4714 NE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20060219120116 9a1fe783
+D s-purexc.ads		20060219120110 a1a8bd65
+D s-wchjis.ads		20060219120112 5383a097
+D s-wchjis.adb		20060219120106 0d700f64
+X 1 system.ads
+39K9*System 205e11 3|37r9 78r5 4|34r6 34r34 36r14 191r5
+X 2 s-purexc.ads
+38K16*Pure_Exceptions 77e27 4|34w13 34r41
+41R9*Exception_Type
+59r4*CE{41R9} 4|89r30 99r27
+65U14*Raise_Exception 4|89r13 99r10
+X 3 s-wchjis.ads
+37K16*WCh_JIS 1|39k9 3|78l12 78e19 4|36b21 191l12 191t19
+40V13*EUC_To_JIS{wide_character} 40>25 40>31 4|46b13 66l8 66t18
+40e25 EUC1{character} 4|46b25 47r48
+40e31 EUC2{character} 4|46b31 48r48
+45U14*JIS_To_EUC 46>7 47<7 48<7 4|72b14 107l8 107t18
+46e7 J{wide_character} 4|73b7 77r54 78r54
+47e7 EUC1{character} 4|74b7 92m10 104m10
+48e7 EUC2{character} 4|75b7 93m10 105m10
+58U14*JIS_To_Shift_JIS 59>7 60<7 61<7 4|113b14 145l8 145t24
+59e7 J{wide_character} 4|114b7 126r50 127r50
+60e7 SJ1{character} 4|115b7 134m10 142m10
+61e7 SJ2{character} 4|116b7 135m10 143m10
+73V13*Shift_JIS_To_JIS{wide_character} 73>31 73>36 4|151b13 189l8 189t24
+73e31 SJ1{character} 4|151b31 162r31
+73e36 SJ2{character} 4|151b36 163r31
+X 4 s-wchjis.adb
+38M9 Byte 40r32 47r25 48r25 118r14 119r14 126r15 127r15 152r15 153r15 154r15
+. 155r15
+40m4 EUC_Hankaku_Kana{38M9} 55r18 92r33
+47m7 EUC1B{38M9} 55r10 59r13 63r31
+48m7 EUC2B{38M9} 51r10 56r37 63r60
+77i7 JIS1{natural} 83r10 98r13 104r33
+78i7 JIS2{natural} 88r13 93r33 98r35 105r33
+118m7 JIS1{38M9} 126m7 129r10 130m10 130r18 133r11 134r33 142r33
+119m7 JIS2{38M9} 127m7 135r32 138r13 139m13 139r21 143r32
+152m7 SJIS1{38M9} 162m7 165r10 166m10 166r19 170r19 178r19
+153m7 SJIS2{38M9} 163m7 169r10 171r18 174r13 175m13 175r22 179r18
+154m7 JIS1{38M9} 170m10 178m10 182r10 187r52
+155m7 JIS2{38M9} 171m10 179m10 183r17 187r69
+

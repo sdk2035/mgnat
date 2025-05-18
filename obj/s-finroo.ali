@@ -1,0 +1,98 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P SS ZX
+R nnnnnnnnvnnnnnnvnvnnnnvnnvnnnnnnnnnnnnvnnnnnnnnvnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.finalization_root%b  s-finroo.adb	f00d9b80 NE PK
+W system%s		system.ads		system.ali
+
+U system.finalization_root%s  s-finroo.ads	b5eb9d85 EE PR PK
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W unchecked_conversion%s
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D a-stream.ads		20060219120050 74337d1b
+D a-tags.ads		20060219120052 81dd2f9c
+D a-tags.adb		20060219120044 9bcd7865
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-finroo.ads		20060219120106 6f410d48
+D s-finroo.adb		20060219120100 9f4c96c8
+D s-htable.ads		20060219120108 9598cfa4
+D s-parame.ads		20060219120110 6bd7b874
+D s-secsta.ads		20060219120110 db466d0c
+D s-soflin.ads		20060219120110 677820d8
+D s-stache.ads		20060219120110 07e06d0a
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-traent.ads		20060219120112 9950c76b
+D s-wchcon.ads		20060219120112 1705b980
+D s-wchstw.ads		20060219120112 6b782940
+D unchconv.ads		20050819202736 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 8|36r6 65r32 69r32 9|77r32 92r32
+X 3 a-stream.ads
+38K13*Streams 70e16 8|36w10 65r36 69r36 9|77r36 92r36
+41H9*Root_Stream_Type 68e64 8|65r44 69r44 9|77r44 92r44
+X 6 system.ads
+39K9*System 205e11 8|39r9 74r5 9|34r14 99r5
+66M9*Address 8|47r32 50r49
+X 8 s-finroo.ads
+39K16*Finalization_Root 6|39k9 8|74l12 74e29 9|34b21 99l12 99t29
+42R9*Root_Controlled 44r39 55c9 58r27 60r42 61r42 62r42 66r16 70r20 72r8
+. 73r8 9|42r38 51r40 60r42 78r20 93r16
+44P9*Finalizable_Ptr(42R9) 47r41 50r32 56r20
+46V13*To_Finalizable_Ptr[21|20]{44P9}
+49V13*To_Addr[21|20]{6|66M9}
+52H9*Empty_Root_Controlled 52e61 55r32
+55R9*Root_Controlled<52R9> 57e14 60p14 61p14 62p14 64p14 68p14
+56p7*Prev{44P9}
+56p13*Next{44P9}
+58C12*Finalizable<55R9>
+60U14*Initialize 60=26 9|60b14 63l8 63t18
+60r26 Object{55R9} 9|60b26
+61U14*Finalize 61=26 9|51b14 54l8 54t16
+61r26 Object{55R9} 9|51b24
+62U14*Adjust 62=26 9|42b14 45l8 45t14
+62r26 Object{55R9} 9|42b22
+64U14*Write 65^7 66>7 73r34 9|91b14 97l8 97t13
+65p7 Stream(3|41R9) 9|92b7
+66r7 Item{55R9} 9|93b7
+68U14*Read 69^7 70<7 72r33 9|76b14 82l8 82t12
+69p7 Stream(3|41R9) 9|77b7
+70r7 Item{55R9} 9|78b7
+X 21 unchconv.ads
+20v10*Unchecked_Conversion 8|37w6 47r10 50r10
+

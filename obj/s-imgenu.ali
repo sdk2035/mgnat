@@ -1,0 +1,90 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnn
+
+U system.img_enum%b	s-imgenu.adb		6b4b9336 NE PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W unchecked_conversion%s
+
+U system.img_enum%s	s-imgenu.ads		a6787f6a NE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20060219120116 9a1fe783
+D s-imgenu.ads		20060219120108 3c6798e9
+D s-imgenu.adb		20060219120100 63aa018a
+D s-secsta.ads		20060219120110 db466d0c
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D unchconv.ads		20050819202736 34860a55
+X 1 system.ads
+39K9*System 205e11 2|39r9 45r17 61r17 69r17 74r5 3|36r14 45r17 53r35 75r17
+. 83r35 105r17 113r35 128r5
+66M9*Address 2|45r24 61r24 69r24 3|45r24 53r42 75r24 83r42 105r24 113r42
+X 2 s-imgenu.ads
+39K16*Img_Enum 1|39k9 2|74l12 74e20 3|36b21 128l12 128t20
+42V13*Image_Enumeration_8{string} 43>7 44>7 45>7 3|42b13 66l8 66t27
+43i7 Pos{natural} 3|43b7 57r54 58r54
+44s7 Names{string} 3|44b7 65r27
+45m7 Indexes{1|66M9} 3|45b7 55r66
+58V13*Image_Enumeration_16{string} 59>7 60>7 61>7 3|72b13 96l8 96t28
+59i7 Pos{natural} 3|73b7 87r54 88r54
+60s7 Names{string} 3|74b7 95r27
+61m7 Indexes{1|66M9} 3|75b7 85r66
+66V13*Image_Enumeration_32{string} 67>7 68>7 69>7 3|102b13 126l8 126t28
+67i7 Pos{natural} 3|103b7 117r54 118r54
+68s7 Names{string} 3|104b7 125r27
+69m7 Indexes{1|66M9} 3|105b7 115r66
+X 3 s-imgenu.adb
+48I12 Natural_8<short_short_integer> 49r46
+49A12 Index_Table(48I12) 50r38
+50P12 Index_Table_Ptr(49A12) 53r51 55r27
+52V16 To_Index_Table_Ptr[7|20]{50P12} 55r46
+55p7 IndexesT{50P12} 57r44 58r44
+57i7 Start{natural} 60r50 65r34
+58i7 Next{natural} 60r43 65r43
+60A15 Result_Type{string} 65r14
+78I12 Natural_16<short_integer> 79r46
+79A12 Index_Table(78I12) 80r38
+80P12 Index_Table_Ptr(79A12) 83r51 85r27
+82V16 To_Index_Table_Ptr[7|20]{80P12} 85r46
+85p7 IndexesT{80P12} 87r44 88r44
+87i7 Start{natural} 90r50 95r34
+88i7 Next{natural} 90r43 95r43
+90A15 Result_Type{string} 95r14
+108I12 Natural_32<integer> 109r46
+109A12 Index_Table(108I12) 110r38
+110P12 Index_Table_Ptr(109A12) 113r51 115r27
+112V16 To_Index_Table_Ptr[7|20]{110P12} 115r46
+115p7 IndexesT{110P12} 117r44 118r44
+117i7 Start{natural} 120r50 125r34
+118i7 Next{natural} 120r43 125r43
+120A15 Result_Type{string} 125r14
+X 7 unchconv.ads
+20v10*Unchecked_Conversion 3|34w6 53r13 83r13 113r13
+

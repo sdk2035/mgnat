@@ -1,0 +1,101 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ttypes%s		ttypes.ads		4d6a0d8a EE PK
+W get_targ%s		get_targ.adb		get_targ.ali
+W types%s		types.adb		types.ali
+
+D get_targ.ads		20041007213918 7d7d6d1e
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D ttypes.ads		20050819202806 a0bc3435
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 1 get_targ.ads
+35K9*Get_Targ 66e13 6|30w6 30r20
+38N4*Get_Bits_Per_Unit 6|170r42
+39N4*Get_Bits_Per_Word 6|171r42
+40N4*Get_Char_Size 6|106r58 142r58
+42N4*Get_Short_Size 6|110r58
+43N4*Get_Int_Size 6|114r58
+44N4*Get_Long_Size 6|118r58
+45N4*Get_Long_Long_Size 6|122r58
+46N4*Get_Float_Size 6|126r58 130r58
+47N4*Get_Double_Size 6|134r58
+48N4*Get_Long_Double_Size 6|138r58
+49N4*Get_Pointer_Size 6|161r42
+50N4*Get_Maximum_Alignment 6|189r40
+51N4*Get_Max_Unaligned_Field 6|193r42
+54N4*Get_Bytes_BE 6|197r34
+56N4*Get_Strict_Alignment 6|207r41
+59N4*Get_Wchar_T_Size 6|183r46
+62V13*Width_From_Size{7|68I12} 6|108r28 112r28 116r28 120r28 124r28
+63V13*Digits_From_Size{7|68I12} 6|128r28 132r28 136r28 140r28
+X 6 ttypes.ads
+32K9*Ttypes 210l5 210e11
+106i4*Standard_Short_Short_Integer_Size{7|68I12} 108r45
+107i4*Standard_Short_Short_Integer_Width{7|68I12}
+110i4*Standard_Short_Integer_Size{7|68I12} 112r45
+111i4*Standard_Short_Integer_Width{7|68I12}
+114i4*Standard_Integer_Size{7|68I12} 116r45 168r43
+115i4*Standard_Integer_Width{7|68I12}
+118i4*Standard_Long_Integer_Size{7|68I12} 120r45
+119i4*Standard_Long_Integer_Width{7|68I12}
+122i4*Standard_Long_Long_Integer_Size{7|68I12} 124r45 165r43
+123i4*Standard_Long_Long_Integer_Width{7|68I12}
+126i4*Standard_Short_Float_Size{7|68I12} 128r46
+127i4*Standard_Short_Float_Digits{7|68I12}
+130i4*Standard_Float_Size{7|68I12} 132r46
+131i4*Standard_Float_Digits{7|68I12}
+134i4*Standard_Long_Float_Size{7|68I12} 136r46
+135i4*Standard_Long_Float_Digits{7|68I12}
+138i4*Standard_Long_Long_Float_Size{7|68I12} 140r46
+139i4*Standard_Long_Long_Float_Digits{7|68I12}
+142i4*Standard_Character_Size{7|68I12}
+144i4*Standard_Wide_Character_Size{7|68I12}
+145i4*Standard_Wide_Wide_Character_Size{7|68I12}
+161i4*System_Address_Size{7|68I12}
+164i4*System_Max_Binary_Modulus_Power{7|68I12}
+167i4*System_Max_Nonbinary_Modulus_Power{7|68I12}
+170i4*System_Storage_Unit{7|68I12}
+171i4*System_Word_Size{7|68I12}
+173i4*System_Tick_Nanoseconds{7|68I12}
+183i4*Interfaces_Wchar_T_Size{7|68I12}
+189i4*Maximum_Alignment{7|68I12}
+193i4*Max_Unaligned_Field{7|68I12}
+197b4*Bytes_Big_Endian{boolean}
+207b4*Target_Strict_Alignment{boolean}
+X 7 types.ads
+52K9*Types 6|29w6 29r20 7|829e10
+59I9*Int<integer>
+68I12*Pos{59I9} 6|106r51 107r51 110r51 111r51 114r51 115r51 118r51 119r51
+. 122r51 123r51 126r51 127r51 130r51 131r51 134r51 135r51 138r51 139r51 142r51
+. 144r51 145r51 161r35 164r50 167r50 170r35 171r35 173r39 183r39 189r33 193r35
+

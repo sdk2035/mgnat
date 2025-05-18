@@ -1,0 +1,133 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U mlib.fil%b		mlib-fil.adb		057b5679 NE PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+W mlib%s		mlib.adb		mlib.ali
+W mlib.tgt%s		mlib-tgt.adb		mlib-tgt.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+
+U mlib.fil%s		mlib-fil.ads		bd7f57ec EE NE PK
+W mlib%s		mlib.adb		mlib.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-charac.ads		20060219120048 506ce725
+D a-chlat1.ads		20060219120048 3078abae
+D a-except.ads		20060219120118 d9ccb28d
+D a-finali.ads		20060219120048 2f48e141
+D a-filico.ads		20060219120048 9299732a
+D a-stream.ads		20060219120050 74337d1b
+D a-string.ads		20060219120050 87b4230b
+D a-strfix.ads		20060219120050 253a46ca
+D a-strmap.ads		20060219120050 0b90abe7
+D a-tags.ads		20060219120052 81dd2f9c
+D a-tags.adb		20060219120044 9bcd7865
+D a-uncdea.ads		20060219120052 dc667e6d
+D alloc.ads		20050704094642 baad0baa
+D casing.ads		20050704094644 1a6e5ef9
+D gnat.ads		20050819162446 e279999f
+D g-dynhta.ads		20060219120056 802e9e53
+D g-dyntab.ads		20060219120056 db91ccc4
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D mlib.ads		20050819164040 b26a2fed
+D mlib-fil.ads		20050819164040 0f157801
+D mlib-fil.adb		20050819164040 5d0f89b5
+D mlib-tgt.ads		20060213233942 725be107
+D osint.ads		20050819204702 67d8ead2
+D prj.ads		20051207041146 729d51b5
+D scans.ads		20050819200544 d9be3407
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-finimp.ads		20060219120106 33c39bf7
+D s-finroo.ads		20060219120106 6f410d48
+D s-htable.ads		20060219120108 9598cfa4
+D s-parame.ads		20060219120110 6bd7b874
+D s-secsta.ads		20060219120110 db466d0c
+D s-soflin.ads		20060219120110 677820d8
+D s-stache.ads		20060219120110 07e06d0a
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-stratt.ads		20060219120110 63715cfd
+D s-strops.ads		20060219120110 92e79914
+D s-sopco3.ads		20060219120110 14cc5bf6
+D s-sopco4.ads		20060219120110 dca7f27b
+D s-sopco5.ads		20060219120110 63c5ad18
+D s-traent.ads		20060219120112 9950c76b
+D s-unstyp.ads		20060219120112 b399198a
+D s-wchcon.ads		20060219120112 1705b980
+D s-wchstw.ads		20060219120112 6b782940
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 1 ada.ads
+16K9*Ada 19e8 23|29r6 34r8
+X 8 a-string.ads
+16K13*Strings 35e16 23|29r10 47r11 51r31 75r11 80r31
+32n33*Backward{32E9} 23|51r39 80r39
+X 9 a-strfix.ads
+18K21*Fixed 242e22 23|29w18 47r19 75r19
+36V13*Index{natural} 23|49r13 78r13
+37s7 Source{string} 23|49r20 78r20
+38s7 Pattern{string} 23|50r20 79r20
+39e7 Going{8|32E9} 23|51r20 80r20
+208V13*Head{string} 23|63r20 65r20
+X 21 mlib.ads
+34K9*MLib 79e9 22|29r9 49r5 23|30r6 32r14 36r27 123r5
+X 22 mlib-fil.ads
+29K14*Fil 21|34k9 22|49l10 49e13 23|32b19 123l10 123t13
+31V13*Ext_To{string} 32>7 33>7 23|42b13 68l8 68t14
+32s7 Filename{string} 23|43b7 49r32 56r20 58r20 63r26 65r26
+33s7 New_Ext{string} 23|44b7 55r13 58r37 62r13 65r51
+37V13*Get_Ext{string} 37>22 23|74b13 88l8 88t15 95r32 106r32 117r32
+37s22 Filename{string} 23|74b22 78r32 86r17 86r32
+40V13*Is_Archive{boolean} 40>25 23|94b13 99l8 99t18
+40s25 Filename{string} 23|94b25 95r41
+43V13*Is_C{boolean} 43>19 23|105b13 110l8 110t12
+43s19 Filename{string} 23|105b19 106r41
+46V13*Is_Obj{boolean} 46>21 23|116b13 121l8 121t14
+46s21 Filename{string} 23|116b21 117r41
+X 23 mlib-fil.adb
+36K12 Target=36:32 98r14 109r14 120r14
+48i7 J{natural} 54r10 63r36 65r36
+77i7 J{natural} 83r10 86r27
+95a7 Ext{string} 98r37
+106a7 Ext{string} 109r31
+117a7 Ext{string} 120r36
+X 24 mlib-tgt.ads
+37K14*Tgt 23|30w11 36r32 24|160e13
+92V13*Is_Object_Ext{boolean} 23|120r21
+95V13*Is_C_Ext{boolean} 23|109r21
+98V13*Is_Archive_Ext{boolean} 23|98r21
+

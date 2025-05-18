@@ -1,0 +1,67 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U system.parameters%b	s-parame.adb		d4faec2d NE PK
+W system%s		system.ads		system.ali
+
+U system.parameters%s	s-parame.ads		f1c85ff7 NE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20060219120116 9a1fe783
+D s-parame.ads		20060219120110 6bd7b874
+D s-parame.adb		20060219120102 bf2d5459
+X 1 system.ads
+39K9*System 205e11 2|51r9 209r5 3|36r14 80r5
+X 2 s-parame.ads
+51K16*Parameters 1|39k9 2|209l12 209e22 3|36b21 80l12 80t22
+58I9*Task_Storage_Size<integer> 61r26
+61I9*Size_Type<58I9> 64r32 64r45 67r21 68r23 81r39 84r39 87r41 87r59 96r38
+. 3|42r41 42r59 57r39 64r17 72r39
+64i4*Unspecified_Size{61I9} 3|44r17
+67I12*Ratio{61I9} 75r31
+68i4*Dynamic{61I9} 75r40 78r62
+75i4*Sec_Stack_Ratio{67I12} 78r44
+78b4*Sec_Stack_Dynamic{boolean}
+81V13*Default_Stack_Size{61I9} 3|45r17 57b13 66l8 66t26
+84V13*Minimum_Stack_Size{61I9} 3|46r20 47r17 72b13 78l8 78t26
+87V13*Adjust_Storage_Size{61I9} 87>34 3|42b13 51l8 51t27
+87i34 Size{61I9} 3|42b34 44r10 46r13 49r17
+96i4*Default_Env_Stack_Size{61I9}
+101b4*Stack_Grows_Down{boolean}
+110N4*long_bits
+135b4*Garbage_Collected{boolean}
+150b4*Single_Lock{boolean}
+163b4*No_Abort{boolean}
+176b4*Dynamic_Priority_Support{boolean}
+188N4*Default_Attribute_Count
+196b4*Runtime_Traces{boolean}
+205N4*Default_Exception_Msg_Max_Length
+X 3 s-parame.adb
+58i7*Default_Stack_Size{integer} 59m25 61r10 64r28
+

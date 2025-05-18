@@ -1,0 +1,82 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U switch%b		switch.adb		b18fb2f3 NE PK
+W osint%s		osint.adb		osint.ali
+
+U switch%s		switch.ads		3557620d EE NE PK
+W types%s		types.adb		types.ali
+
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D osint.ads		20050819204702 67d8ead2
+D switch.ads		20051219195322 a5fc36ac
+D switch.adb		20060213230712 73ab6e8d
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 4 osint.ads
+37K9*Osint 629e10 6|27w6 37r7 42r7 89r10 98r16 122r10
+121U14*Fail 6|37r13 42r13 89r16 98r22 122r16
+X 5 switch.ads
+36K9*Switch 92l5 92e11 6|29b14 128l5 128t11
+51V13*Is_Switch{boolean} 51>24 6|52r14 68b13 72l8 72t17
+51s24 Switch_Chars{string} 6|68b24 70r14 71r18 71r32
+55V13*Is_Front_End_Switch{boolean} 55>34 6|49b13 62l8 62t27
+55s34 Switch_Chars{string} 6|49b34 50r34 52r25 54r12 56r22 57r28 58r22 59r32
+. 60r22 61r32
+65N4 Switch_Max_Value 6|97r25
+68U14 Scan_Nat 69>7 70>7 71=7 72<7 73>7 6|78b14 103l8 103t16 119r7
+69s7 Switch_Chars{string} 6|79b7 88r28 92r36 94r30
+70i7 Max{integer} 6|80b7 88r16 92r23
+71i7 Ptr{integer} 6|81b7 88r10 88r42 92r16 92r50 94r44 95m13 95r20
+72i7 Result{11|65I12} 6|82b7 86m7 93m13 93r23 97r16
+73e7 Switch{character} 6|83b7 89r66 99r68
+78U14 Scan_Pos 79>7 80>7 81=7 82<7 83>7 6|109b14 126l8 126t16
+79s7 Switch_Chars{string} 6|110b7 119r17
+80i7 Max{integer} 6|111b7 119r31
+81i7 Ptr{integer} 6|112b7 119m36
+82i7 Result{11|68I12} 6|113b7 125m7
+83e7 Switch{character} 6|114b7 119r47 122r71
+88U14 Bad_Switch 88>26 6|35b14 38l8 38t18
+88e26 Switch{character} 6|35b26 37r45
+89U14 Bad_Switch 89>26 6|40b14 43l8 43t18
+89s26 Switch{string} 6|40b26 42r39
+X 6 switch.adb
+50i7 Ptr{positive} 54r26 57r42 57r53 59r46 59r57 61r46 61r57
+116i7 Temp{11|65I12} 119m41 121r10 125r17
+X 11 types.ads
+52K9*Types 5|34w6 34r17 11|829e10
+59I9*Int<integer>
+65I12*Nat{59I9} 5|72r26 6|82r26 116r14
+68I12*Pos{59I9} 5|82r26 6|113r26
+

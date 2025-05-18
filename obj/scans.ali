@@ -1,0 +1,247 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U scans%b		scans.adb		b87e0446 NE PK
+
+U scans%s		scans.ads		28b2a5e6 BN EE PK
+W types%s		types.adb		types.ali
+W uintp%s		uintp.adb		uintp.ali
+W urealp%s		urealp.adb		urealp.ali
+
+D alloc.ads		20050704094642 baad0baa
+D scans.ads		20050819200544 d9be3407
+D scans.adb		20050819200544 61c03041
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 scans.ads
+38K9*Scans 456l5 456e10 3|34b14 74l5 74t10
+53E9*Token_Type 210e16 222r9 226r9 230r9 233r9 237r9 241r9 245r9 249r9 254r9
+. 259r9 263r9 268r9 273r9 279r9 285r9 290r9 296r9 300r9 304r9 308r9 312r9
+. 318r9 321r39 344r12 383r17 444r39 452r39
+57n7*Tok_Integer_Literal{53E9} 222r26 226r26 230r26
+59n7*Tok_Real_Literal{53E9} 222r49
+61n7*Tok_String_Literal{53E9}
+63n7*Tok_Char_Literal{53E9} 254r26
+65n7*Tok_Operator_Symbol{53E9} 226r49 259r26
+67n7*Tok_Identifier{53E9} 230r49 254r46 259r49
+69n7*Tok_Double_Asterisk{53E9}
+71n7*Tok_Ampersand{53E9} 233r26
+72n7*Tok_Minus{53E9} 237r26
+73n7*Tok_Plus{53E9} 233r43 237r39
+75n7*Tok_Asterisk{53E9} 241r26
+76n7*Tok_Mod{53E9} 323r10
+77n7*Tok_Rem{53E9} 323r26
+78n7*Tok_Slash{53E9} 241r42
+80n7*Tok_New{53E9} 324r10
+82n7*Tok_Abs{53E9}
+83n7*Tok_Others{53E9}
+84n7*Tok_Null{53E9} 324r26
+86n7*Tok_Dot{53E9} 263r26
+87n7*Tok_Apostrophe{53E9}
+89n7*Tok_Left_Paren{53E9} 263r37 268r26
+91n7*Tok_Delta{53E9} 279r26 285r26 325r10
+92n7*Tok_Digits{53E9}
+93n7*Tok_Range{53E9} 268r44 285r39 325r26
+95n7*Tok_Right_Paren{53E9}
+96n7*Tok_Comma{53E9}
+98n7*Tok_And{53E9} 245r26 326r10
+99n7*Tok_Or{53E9}
+100n7*Tok_Xor{53E9} 245r37 326r26
+102n7*Tok_Less{53E9} 249r26
+103n7*Tok_Equal{53E9}
+104n7*Tok_Greater{53E9}
+105n7*Tok_Not_Equal{53E9}
+106n7*Tok_Greater_Equal{53E9}
+107n7*Tok_Less_Equal{53E9}
+109n7*Tok_In{53E9} 327r10
+110n7*Tok_Not{53E9} 327r26
+112n7*Tok_Box{53E9} 249r38
+113n7*Tok_Colon_Equal{53E9} 273r26
+114n7*Tok_Colon{53E9}
+115n7*Tok_Greater_Greater{53E9}
+117n7*Tok_Abstract{53E9} 328r10
+118n7*Tok_Access{53E9}
+119n7*Tok_Aliased{53E9}
+120n7*Tok_All{53E9}
+121n7*Tok_Array{53E9}
+122n7*Tok_At{53E9}
+123n7*Tok_Body{53E9}
+124n7*Tok_Constant{53E9}
+125n7*Tok_Do{53E9}
+126n7*Tok_Is{53E9}
+127n7*Tok_Interface{53E9}
+128n7*Tok_Limited{53E9}
+129n7*Tok_Of{53E9}
+130n7*Tok_Out{53E9}
+131n7*Tok_Record{53E9}
+132n7*Tok_Renames{53E9}
+133n7*Tok_Reverse{53E9}
+134n7*Tok_Tagged{53E9}
+135n7*Tok_Then{53E9} 328r26
+137n7*Tok_Less_Less{53E9} 312r26
+139n7*Tok_Abort{53E9} 329r10
+140n7*Tok_Accept{53E9}
+141n7*Tok_Case{53E9}
+142n7*Tok_Delay{53E9}
+143n7*Tok_Else{53E9}
+144n7*Tok_Elsif{53E9}
+145n7*Tok_End{53E9}
+146n7*Tok_Exception{53E9}
+147n7*Tok_Exit{53E9}
+148n7*Tok_Goto{53E9}
+149n7*Tok_If{53E9}
+150n7*Tok_Pragma{53E9}
+151n7*Tok_Raise{53E9}
+152n7*Tok_Requeue{53E9}
+153n7*Tok_Return{53E9}
+154n7*Tok_Select{53E9}
+155n7*Tok_Terminate{53E9}
+156n7*Tok_Until{53E9}
+157n7*Tok_When{53E9}
+159n7*Tok_Begin{53E9} 318r26
+160n7*Tok_Declare{53E9}
+161n7*Tok_For{53E9}
+162n7*Tok_Loop{53E9}
+163n7*Tok_While{53E9} 318r39
+165n7*Tok_Entry{53E9} 304r26 308r26
+166n7*Tok_Protected{53E9}
+167n7*Tok_Task{53E9}
+168n7*Tok_Type{53E9}
+169n7*Tok_Subtype{53E9}
+170n7*Tok_Overriding{53E9}
+171n7*Tok_Synchronized{53E9}
+172n7*Tok_Use{53E9} 308r39
+174n7*Tok_Function{53E9} 300r26
+175n7*Tok_Generic{53E9}
+176n7*Tok_Package{53E9}
+177n7*Tok_Procedure{53E9} 304r39
+179n7*Tok_Private{53E9}
+180n7*Tok_With{53E9}
+181n7*Tok_Separate{53E9} 300r42 329r26
+183n7*Tok_EOF{53E9} 290r26 312r43
+185n7*Tok_Semicolon{53E9} 273r45
+187n7*Tok_Arrow{53E9} 296r26
+189n7*Tok_Vertical_Bar{53E9} 290r37
+191n7*Tok_Dot_Dot{53E9} 279r39 296r39
+196n7*Tok_Project{53E9}
+197n7*Tok_Extends{53E9}
+198n7*Tok_External{53E9}
+199n7*Tok_Comment{53E9}
+204n7*Tok_End_Of_Line{53E9}
+208n7*Tok_Special{53E9}
+210n7*No_Token{53E9} 383r31
+221E15*Token_Class_Numeric_Literal{53E9}
+225E15*Token_Class_Literal{53E9}
+229E15*Token_Class_Lit_Or_Name{53E9}
+232E15*Token_Class_Binary_Addop{53E9}
+236E15*Token_Class_Unary_Addop{53E9}
+240E15*Token_Class_Mulop{53E9}
+244E15*Token_Class_Logop{53E9}
+248E15*Token_Class_Relop{53E9}
+253E15*Token_Class_Name{53E9}
+258E15*Token_Class_Desig{53E9}
+262E15*Token_Class_Namext{53E9}
+267E15*Token_Class_Consk{53E9}
+272E15*Token_Class_Eterm{53E9}
+278E15*Token_Class_Sterm{53E9}
+284E15*Token_Class_Atkwd{53E9}
+289E15*Token_Class_Cterm{53E9}
+295E15*Token_Class_Chtok{53E9}
+299E15*Token_Class_Cunit{53E9}
+303E15*Token_Class_Declk{53E9}
+307E15*Token_Class_Deckn{53E9}
+311E15*Token_Class_After_SM{53E9}
+317E15*Token_Class_Labeled_Stmt{53E9}
+321A12*Token_Flag_Array(boolean) 322r38 322r58
+322a7*Is_Reserved_Keyword{321A12}
+340i4*Scan_Ptr{9|200I12} 3|42m7 61r52
+344e4*Token{53E9} 3|43m7 62r52
+347i4*Token_Ptr{9|200I12} 3|44m7 63r52
+350i4*Current_Line_Start{9|200I12} 3|45m7 64r52
+353i4*Start_Column{9|173I9} 3|46m7 65r52
+358m4*Checksum{9|71M9} 3|47m7 66r52
+363i4*First_Non_Blank_Location{9|200I12} 3|48m7 67r52
+368i4*Token_Node{9|400I9} 3|49m7 68r52
+374i4*Token_Name{9|372I9} 3|50m7 69r52
+383e4*Prev_Token{53E9} 3|51m7 70r52
+386i4*Prev_Token_Ptr{9|200I12} 3|52m7 71r52
+389b4*Version_To_Be_Found{boolean}
+396m4*Character_Code{9|535M12}
+399i4*Real_Literal_Value{13|79I9}
+402i4*Int_Literal_Value{10|50I9}
+405i4*String_Literal_Id{9|508I9}
+409b4*Wide_Character_Found{boolean}
+413e4*Special_Character{character}
+416i4*Comment_Id{9|372I9}
+428R9*Saved_Scan_State 431r49 436r51 442c9 454e14 3|40r51 59r49
+431U14*Save_Scan_State 431<31 432r19 3|59b14 72l8 72t23
+431r31 Saved_State{428R9} 3|59b31 61m7 62m7 63m7 64m7 65m7 66m7 67m7 68m7
+. 69m7 70m7 71m7
+436U14*Restore_Scan_State 436>34 437r19 3|40b14 53l8 53t26
+436r34 Saved_State{428R9} 3|40b34 42r35 43r35 44r35 45r35 46r35 47r35 48r35
+. 49r35 50r35 51r35 52r35
+443i7*Save_Scan_Ptr{9|200I12} 3|42r47 61r19
+444e7*Save_Token{53E9} 3|43r47 62r19
+445i7*Save_Token_Ptr{9|200I12} 3|44r47 63r19
+446i7*Save_Current_Line_Start{9|200I12} 3|45r47 64r19
+447i7*Save_Start_Column{9|173I9} 3|46r47 65r19
+448m7*Save_Checksum{9|71M9} 3|47r47 66r19
+449i7*Save_First_Non_Blank_Location{9|200I12} 3|48r47 67r19
+450i7*Save_Token_Node{9|400I9} 3|49r47 68r19
+451i7*Save_Token_Name{9|372I9} 3|50r47 69r19
+452e7*Save_Prev_Token{53E9} 3|51r47 70r19
+453i7*Save_Prev_Token_Ptr{9|200I12} 3|52r47 71r19
+X 9 types.ads
+52K9*Types 2|34w6 34r18 9|829e10
+59I9*Int<integer>
+71M9*Word 2|358r15 448r39
+140I9*Text_Ptr<59I9>
+173I9*Column_Number<short_integer> 2|353r19 447r39
+200I12*Source_Ptr{140I9} 2|340r15 347r16 350r25 363r31 386r21 443r39 445r39
+. 446r39 449r39 453r39
+372I9*Name_Id<integer> 2|374r17 416r17 451r39
+376i4*No_Name{372I9} 2|374r28 416r28
+400I9*Node_Id<integer> 2|368r17 450r39
+415i4*Empty{400I9} 2|368r28
+508I9*String_Id<integer> 2|405r24
+532M9*Char_Code_Base
+535M12*Char_Code{532M9} 2|396r21
+X 10 uintp.ads
+44K9*Uintp 2|35w6 35r18 10|528e10
+50I9*Uint 2|402r24
+X 13 urealp.ads
+39K9*Urealp 2|36w6 36r18 13|367e11
+79I9*Ureal 2|399r25
+

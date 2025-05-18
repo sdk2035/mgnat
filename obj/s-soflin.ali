@@ -1,0 +1,196 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+A -gnatp
+A -gnatg
+P ZX
+R nnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnvvnvnnnnnnnnnnnnnnnn
+
+U system.soft_links%b	s-soflin.adb		ccb45172 PK
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U system.soft_links%s	s-soflin.ads		234b18dc BN EE NE PR PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.stack_checking%s  s-stache.adb		s-stache.ali
+
+D ada.ads		20060219120040 9c7dd3ea
+D a-except.ads		20060219120118 d9ccb28d
+D system.ads		20060219120116 9a1fe783
+D s-parame.ads		20060219120110 6bd7b874
+D s-secsta.ads		20060219120110 db466d0c
+D s-soflin.ads		20060219120110 677820d8
+D s-soflin.adb		20060219120104 1b5da4d2
+D s-stache.ads		20060219120110 07e06d0a
+D s-stalib.ads		20060219120110 99eda53f
+D s-stoele.ads		20060219120110 f7e9ab3e
+D s-stoele.adb		20060219120104 a397f9ca
+D s-traent.ads		20060219120112 9950c76b
+D unchconv.ads		20050819202736 34860a55
+X 1 ada.ads
+16K9*Ada 19e8 6|42r6 50r19 51r18 340r39 7|98r37 198r39 200r14 323r7
+X 2 a-except.ads
+59K13*Exceptions 335e19 6|42w10 50r23 51r22 340r43 7|98r41 198r43 200r18
+. 323r11
+67P9*Exception_Id(9|122R9) 6|340r54 7|198r54
+70R9*Exception_Occurrence 311e14 6|51r33
+71P9*Exception_Occurrence_Access(70R9) 6|50r34
+73r4*Null_Occurrence{70R9} 7|98r52
+111V13*Exception_Identity{67P9} 7|200r29
+130U14*Save_Occurrence 7|323r22
+X 3 system.ads
+39K9*System 205e11 6|43r6 45r9 112r28 309r24 309r42 316r24 316r42 363r5 7|38r6
+. 44r6 47r14 49r24 335r5
+66M9*Address 6|64r55 67r53 68r55 70r17 70r33 112r35 217r44 218r44 223r44
+. 224r44 229r42 309r31 316r31 351r46 352r46 356r46 357r46 361r44 7|180r42
+. 189r44 207r43 216r45 225r43 234r45 261r44 266r46 275r44 284r46
+67m4*Null_Address{66M9} 6|309r49 316r49
+X 4 s-parame.ads
+51K16*Parameters 209e22 7|38w13 128r16 131r28 131r57
+58I9*Task_Storage_Size<integer>
+61I9*Size_Type<58I9> 7|128r27
+67I12*Ratio{61I9}
+68i4*Dynamic{61I9} 7|131r68
+75i4*Sec_Stack_Ratio{67I12} 7|131r39
+X 5 s-secsta.ads
+36K16*Secondary_Stack 116e27 7|44w13 49r31
+40i4*Default_Secondary_Stack_Size{natural} 7|136r41
+43U14*SS_Init 7|135r14
+70U14*SS_Free 7|155r11
+X 6 s-soflin.ads
+45K16*Soft_Links 3|39k9 6|363l12 363e22 7|47b21 335l12 335t22
+50P12*EOA{2|71P9} 75r53 76r56 232r42 7|171r41
+51R12*EO{2|70R9} 53r45 65r56 77r56 80r25 128r39 144r43 320r31 7|311r43 321r39
+53V13*Current_Target_Exception{51R12} 55b<ada,__gnat_current_target_exception>12
+. 80r31 128r45 7|321r45
+63P9*No_Param_Proc 94r35 154r18 158r20 162r20 172r16 182r18 211r27 214r15
+. 253r22 254r22
+64P9*Addr_Param_Proc 95r35
+64m48 Addr{3|66M9}
+65P9*EO_Param_Proc 96r35 208r31
+65r48 Excep{51R12}
+67P9*Get_Address_Call(3|66M9) 97r35 220r25 226r25 230r25
+68P9*Set_Address_Call 98r35 221r25 227r25
+68m48 Addr{3|66M9}
+69P9*Set_Address_Call2 99r35
+70m7 Self_ID{3|66M9}
+70m26 Addr{3|66M9}
+72P9*Get_Integer_Call(integer) 100r35 168r25 252r22
+73P9*Set_Integer_Call 101r35
+73i48 Len{integer}
+75P9*Get_EOA_Call(2|71P9) 102r35 234r24
+76P9*Set_EOA_Call 103r35
+76p48 Excep{50P12}
+77P9*Set_EO_Call
+77r48 Excep{51R12}
+79P9*Special_EO_Call 165r23
+80r17 Excep{51R12}
+82P9*Timed_Delay_Call 104r35 263r18
+83o17 Time{duration}
+83i34 Mode{integer}
+85P9*Get_Stack_Access_Call(8|60P9) 105r35 238r21
+88P9*Task_Name_Call(string) 106r35 271r16
+111P9*Traceback_Decorator_Wrapper_Call(string) 277r34
+112m16 Traceback{3|66M9}
+113i16 Len{natural}
+118U14*Abort_Defer_NT 154r35 7|63b14 66l8 66t22
+121U14*Abort_Undefer_NT 158r37 7|81b14 84l8 84t24
+124U14*Abort_Handler_NT 162r37 7|72b14 75l8 75t24
+128U14*Update_Exception_NT 128>35 165r42 7|321b14 324l8 324t27
+128r35 X{51R12} 7|321b35 323r61
+134V13*Check_Abort_Status_NT{integer} 168r45 7|109b13 112l8 112t29
+138U14*Task_Lock_NT 172r33 7|293b14 296l8 296t20
+141U14*Task_Unlock_NT 182r35 7|302b14 305l8 305t22
+144U14*Task_Termination_NT 144>35 208r48 7|311b14 315l8 315t27
+144r35 Excep{51R12} 7|311b35 312r29
+148U14*Null_Finalize_Global_List 211r44 7|252b14 255l8 255t33
+151U14*Adafinal_NT 214r32 7|90b14 103l8 103t19
+154p4*Abort_Defer{63P9} 155r35
+158p4*Abort_Undefer{63P9} 159r35
+162p4*Abort_Handler{63P9}
+165p4*Update_Exception{79P9}
+168p4*Check_Abort_Status{72P9}
+172p4*Lock_Task{63P9}
+182p4*Unlock_Task{63P9}
+208p4*Task_Termination_Handler{65P9} 7|98r7
+211p4*Finalize_Global_List{63P9} 7|102r7
+214p4*Adafinal{63P9}
+217V14*Get_Jmpbuf_Address_NT{3|66M9} 220r45 7|207b13 210l8 210t29
+218U14*Set_Jmpbuf_Address_NT 218>37 221r45 7|261b14 264l8 264t29
+218m37 Addr{3|66M9} 7|261b37 263r32
+220p4*Get_Jmpbuf_Address{67P9} 7|218r14
+221p4*Set_Jmpbuf_Address{68P9} 7|268r7
+223V14*Get_Sec_Stack_Addr_NT{3|66M9} 226r45 7|225b13 228l8 228t29
+224U14*Set_Sec_Stack_Addr_NT 224>37 227r45 7|275b14 278l8 278t29
+224m37 Addr{3|66M9} 7|275b37 277r32
+226p4*Get_Sec_Stack_Addr{67P9} 7|236r14
+227p4*Set_Sec_Stack_Addr{68P9} 7|286r7
+229V13*Get_Exc_Stack_Addr_NT{3|66M9} 230r45 7|180b13 183l8 183t29
+230p4*Get_Exc_Stack_Addr{67P9} 7|191r14
+232V14*Get_Current_Excep_NT{50P12} 234r40 7|171b13 174l8 174t28
+234p4*Get_Current_Excep{75P9} 7|200r49
+236V13*Get_Stack_Info_NT{8|60P9} 238r46 7|243b13 246l8 246t25
+238p4*Get_Stack_Info{85P9}
+248V13*Current_Master_NT{integer} 252r43 7|144b13 147l8 147t25
+249U14*Enter_Master_NT 253r43 7|162b14 165l8 165t23
+250U14*Complete_Master_NT 254r43 7|118b14 121l8 121t26
+252p4*Current_Master{72P9}
+253p4*Enter_Master{63P9}
+254p4*Complete_Master{63P9}
+263p4*Timed_Delay{82P9}
+269V13*Task_Name_NT{string} 271r34 7|330b13 333l8 333t20
+271p4*Task_Name{88P9}
+277p4*Traceback_Decorator_Wrapper{111P9} 286r19
+300R9*TSD 328e14 330r43 335r44 7|56r13 127r43 153r44
+301r7*Pri_Stack_Info{8|50R9} 7|245r21
+309m7*Jmpbuf_Address{3|66M9} 7|209r21 263r14
+316m7*Sec_Stack_Addr{3|66M9} 7|136r21 155r28 227r21 277r14
+320r7*Current_Excep{51R12} 7|173r21 323r46
+330U14*Create_TSD 330=26 331r19 7|127b14 138l8 138t18
+330r26 New_TSD{300R9} 7|127b26 136m13
+335U14*Destroy_TSD 335=27 336r19 7|153b14 156l8 156t19
+335r27 Old_TSD{300R9} 7|153b27 155m20
+340V13*Get_GNAT_Exception{2|67P9} 341r19 7|198b13 201l8 201t26
+351V14*Get_Jmpbuf_Address_Soft{3|66M9} 353r19 7|216b13 219l8 219t31
+352U14*Set_Jmpbuf_Address_Soft 352>39 354r19 7|266b14 269l8 269t31
+352m39 Addr{3|66M9} 7|266b39 268r27
+356V14*Get_Sec_Stack_Addr_Soft{3|66M9} 358r19 7|234b13 237l8 237t31
+357U14*Set_Sec_Stack_Addr_Soft 357>39 359r19 7|284b14 287l8 287t31
+357m39 Addr{3|66M9} 7|284b39 286r27
+361V13*Get_Exc_Stack_Addr_Soft{3|66M9} 7|189b13 192l8 192t31
+X 7 s-soflin.adb
+49K12 SST=49:31 135r10 136r37 155r7
+51a4 NT_Exc_Stack(character) 52r8 182m14 182r28
+56r4 NT_TSD{6|300R9} 173m14 209r14 227r14 245m14 263m7 277m7 323m39
+130b7 SS_Ratio_Dynamic{boolean} 134r10
+X 8 s-stache.ads
+42K16*Stack_Checking 6|43w13 86r22 236r38 301r32 7|243r38 8|82e26
+50R9*Stack_Info 6|301r47 8|54e14
+60P9*Stack_Access(50R9) 6|86r37 236r53 7|243r53
+X 9 s-stalib.ads
+122R9*Exception_Data
+

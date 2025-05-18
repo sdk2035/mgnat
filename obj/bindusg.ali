@@ -1,0 +1,67 @@
+V "GNAT Lib v5.05"
+M P W=b
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U bindusg%b		bindusg.adb		c3083f49 NE SU
+W osint%s		osint.adb		osint.ali
+W output%s		output.adb		output.ali
+
+U bindusg%s		bindusg.ads		73ece820 EE NE SU
+
+D bindusg.ads		20050819155518 73ece820
+D bindusg.adb		20050819155518 c621d6a8
+D gnat.ads		20050819162446 e279999f
+D g-os_lib.ads		20051129225648 67dca457
+D g-string.ads		20060219120058 94ae84e2
+D hostparm.ads		20060213225900 f78f204c
+D osint.ads		20050819204702 67d8ead2
+D output.ads		20051202225852 111deb13
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 1 bindusg.ads
+29U11*Bindusg 2|30b11 250l5 250t12
+X 7 osint.ads
+37K9*Osint 2|27w6 27r18 7|629e10
+117U14*Write_Program_Name 2|38r4
+X 8 output.ads
+41K9*Output 2|28w6 28r18 8|194e11
+86U14*Write_Char 2|39r4
+93U14*Write_Eol 2|41r4 42r4 47r4 52r4 57r4 63r4 69r4 74r4 79r4 85r4 90r4
+. 97r4 103r4 108r4 112r4 117r4 122r4 128r4 133r4 139r4 144r4 150r4 156r4
+. 161r4 166r4 172r4 178r4 184r4 190r4 195r4 200r4 205r4 210r4 216r4 222r4
+. 228r4 233r4 238r4 243r4 248r4
+104U14*Write_Str 2|37r4 40r4 46r4 51r4 56r4 61r4 62r4 67r4 68r4 73r4 78r4
+. 83r4 84r4 89r4 96r4 101r4 102r4 107r4 110r4 111r4 116r4 121r4 126r4 127r4
+. 132r4 137r4 138r4 143r4 148r4 149r4 154r4 155r4 160r4 165r4 170r4 171r4
+. 176r4 177r4 182r4 183r4 188r4 189r4 194r4 199r4 204r4 209r4 214r4 215r4
+. 220r4 221r4 226r4 227r4 232r4 237r4 242r4 247r4
+

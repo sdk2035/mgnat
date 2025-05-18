@@ -1,0 +1,54 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U hostparm%s		hostparm.ads		672474ed EE PK
+W types%s		types.adb		types.ali
+
+D hostparm.ads		20060213225900 f78f204c
+D system.ads		20060219120116 9a1fe783
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D types.ads		20051210130322 90ab54a1
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+X 1 hostparm.ads
+40K9*Hostparm 99l5 99e13
+48b4*Java_VM{boolean}
+55i4*Gnat_VMSp{integer} 56m22 58r25
+58b4*OpenVMS{boolean}
+63a4*Normalized_CWD{string}
+66N4*Max_Line_Length
+76N4*Max_Name_Length
+81N4*Max_Instantiations
+86b4*Tag_Errors{boolean}
+90b4*Exclude_Missing_Objects{boolean}
+94N4*Max_Debug_Name_Length
+X 6 types.ads
+52K9*Types 1|38w6 66r34 67r25 6|829e10
+173I9*Column_Number<short_integer> 1|66r40 67r31
+

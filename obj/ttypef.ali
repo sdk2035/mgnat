@@ -1,0 +1,154 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U ttypef%s		ttypef.ads		9d7e97ef NE PK
+
+D system.ads		20060219120116 9a1fe783
+D ttypef.ads		20050819202806 9d7e97ef
+X 2 ttypef.ads
+45K9*Ttypef 205l5 205e11
+57N4*IEEES_Digits
+58N4*IEEEL_Digits
+59N4*IEEEX_Digits
+60N4*VAXFF_Digits
+61N4*VAXDF_Digits
+62N4*VAXGF_Digits
+63N4*AAMPS_Digits
+64N4*AAMPL_Digits
+66N4*IEEES_Machine_Emax
+67N4*IEEEL_Machine_Emax
+68N4*IEEEX_Machine_Emax
+69N4*VAXFF_Machine_Emax
+70N4*VAXDF_Machine_Emax
+71N4*VAXGF_Machine_Emax
+72N4*AAMPS_Machine_Emax
+73N4*AAMPL_Machine_Emax
+75N4*IEEES_Machine_Emin
+76N4*IEEEL_Machine_Emin
+77N4*IEEEX_Machine_Emin
+78N4*VAXFF_Machine_Emin
+79N4*VAXDF_Machine_Emin
+80N4*VAXGF_Machine_Emin
+81N4*AAMPS_Machine_Emin
+82N4*AAMPL_Machine_Emin
+84N4*IEEES_Machine_Mantissa
+85N4*IEEEL_Machine_Mantissa
+86N4*IEEEX_Machine_Mantissa
+87N4*VAXFF_Machine_Mantissa
+88N4*VAXDF_Machine_Mantissa
+89N4*VAXGF_Machine_Mantissa
+90N4*AAMPS_Machine_Mantissa
+91N4*AAMPL_Machine_Mantissa
+93N4*IEEES_Model_Emin
+94N4*IEEEL_Model_Emin
+95N4*IEEEX_Model_Emin
+96N4*VAXFF_Model_Emin
+97N4*VAXDF_Model_Emin
+98N4*VAXGF_Model_Emin
+99N4*AAMPS_Model_Emin
+100N4*AAMPL_Model_Emin
+102N4*IEEES_Model_Mantissa
+103N4*IEEEL_Model_Mantissa
+104N4*IEEEX_Model_Mantissa
+105N4*VAXFF_Model_Mantissa
+106N4*VAXDF_Model_Mantissa
+107N4*VAXGF_Model_Mantissa
+108N4*AAMPS_Model_Mantissa
+109N4*AAMPL_Model_Mantissa
+111N4*IEEES_Safe_Emax
+112N4*IEEEL_Safe_Emax
+113N4*IEEEX_Safe_Emax
+114N4*VAXFF_Safe_Emax
+115N4*VAXDF_Safe_Emax
+116N4*VAXGF_Safe_Emax
+117N4*AAMPS_Safe_Emax
+118N4*AAMPL_Safe_Emax
+124N4*IEEES_Model_Epsilon
+125N4*IEEEL_Model_Epsilon
+126N4*IEEEX_Model_Epsilon
+127N4*VAXFF_Model_Epsilon
+128N4*VAXDF_Model_Epsilon
+129N4*VAXGF_Model_Epsilon
+130N4*AAMPS_Model_Epsilon
+131N4*AAMPL_Model_Epsilon
+133N4*IEEES_Model_Small
+134N4*IEEEL_Model_Small
+135N4*IEEEX_Model_Small
+136N4*VAXFF_Model_Small
+137N4*VAXDF_Model_Small
+138N4*VAXGF_Model_Small
+139N4*AAMPS_Model_Small
+140N4*AAMPL_Model_Small
+142N4*IEEES_Safe_First
+143N4*IEEEL_Safe_First
+144N4*IEEEX_Safe_First
+145N4*VAXFF_Safe_First
+146N4*VAXDF_Safe_First
+147N4*VAXGF_Safe_First
+148N4*AAMPS_Safe_First
+149N4*AAMPL_Safe_First
+151N4*IEEES_Safe_Large
+152N4*IEEEL_Safe_Large
+153N4*IEEEX_Safe_Large
+154N4*VAXFF_Safe_Large
+155N4*VAXDF_Safe_Large
+156N4*VAXGF_Safe_Large
+157N4*AAMPS_Safe_Large
+158N4*AAMPL_Safe_Large
+160N4*IEEES_Safe_Last
+161N4*IEEEL_Safe_Last
+162N4*IEEEX_Safe_Last
+163N4*VAXFF_Safe_Last
+164N4*VAXDF_Safe_Last
+165N4*VAXGF_Safe_Last
+166N4*AAMPS_Safe_Last
+167N4*AAMPL_Safe_Last
+169N4*IEEES_Safe_Small
+170N4*IEEEL_Safe_Small
+171N4*IEEEX_Safe_Small
+172N4*VAXFF_Safe_Small
+173N4*VAXDF_Safe_Small
+174N4*VAXGF_Safe_Small
+175N4*AAMPS_Safe_Small
+176N4*AAMPL_Safe_Small
+187N4*IEEES_First
+188N4*IEEEL_First
+189N4*IEEEX_First
+190N4*VAXFF_First
+191N4*VAXDF_First
+192N4*VAXGF_First
+193N4*AAMPS_First
+194N4*AAMPL_First
+196N4*IEEES_Last
+197N4*IEEEL_Last
+198N4*IEEEX_Last
+199N4*VAXFF_Last
+200N4*VAXDF_Last
+201N4*VAXGF_Last
+202N4*AAMPS_Last
+203N4*AAMPL_Last
+

@@ -1,0 +1,160 @@
+V "GNAT Lib v5.05"
+A -O
+A -g
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatwF
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U jx_ch12%b		jx_ch12.adb		f685b9e2 NE PK
+W atree%s		atree.adb		atree.ali
+W j_string%s		j_string.adb		j_string.ali
+W jvm%s			jvm.adb			jvm.ali
+W jvm.map%s		jvm-map.adb		jvm-map.ali
+W jx_ch3%s		jx_ch3.adb		jx_ch3.ali
+W jx_ch5%s		jx_ch5.adb		jx_ch5.ali
+W jx_decl%s		jx_decl.adb		jx_decl.ali
+W sem_util%s		sem_util.adb		sem_util.ali
+W sinfo%s		sinfo.adb		sinfo.ali
+W stand%s		stand.adb		stand.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+
+U jx_ch12%s		jx_ch12.ads		eb3ddf34 EE NE PK
+W types%s		types.adb		types.ali
+
+D alloc.ads		20050704094642 baad0baa
+D atree.ads		20050704094644 40312d2e
+D einfo.ads		20060105095504 a63ced63
+D hostparm.ads		20060213225900 f78f204c
+D j_stack.ads		19990119232546 e8b1a39c
+D j_string.ads		20021113225422 ac8693ae
+D j_types.ads		19990119232548 44ceaf07
+D jvm.ads		20060517185752 32c8c0f9
+D jvm-map.ads		20060213231624 12d80be4
+D jx_ch12.ads		20050816192634 7b968b95
+D jx_ch12.adb		20060213231640 c3e26a3a
+D jx_ch3.ads		20020521162828 c6250ccb
+D jx_ch5.ads		19990119232552 c7c8d04d
+D jx_decl.ads		20060417223328 48073337
+D namet.ads		20051128233748 d7b5fee4
+D sem_util.ads		20060105095836 65788333
+D sinfo.ads		20051124200850 7567e295
+D snames.ads		20060213235714 57cf62a2
+D stand.ads		20051015031156 dba3a3c7
+D system.ads		20060219120116 9a1fe783
+D s-assert.ads		20060219120106 85573af2
+D s-exctab.ads		20060219120106 e14b1567
+D s-stalib.ads		20060219120110 99eda53f
+D s-unstyp.ads		20060219120112 b399198a
+D table.ads		20050905024452 4dd2281f
+D types.ads		20051210130322 90ab54a1
+D uintp.ads		20050905025108 0e371bb9
+D unchconv.ads		20050819202736 34860a55
+D unchdeal.ads		20050819202736 66b7fd29
+D urealp.ads		20050925194618 6f90def9
+X 2 atree.ads
+45K9*Atree 2860e10 11|29w6 29r20
+562V13*Nkind{17|6584E9} 11|54r10 64r10
+580V13*Parent{26|400I9} 11|58r23 65r22 70r20 70r28
+591V13*Present{boolean} 11|94r10 103r10 110r13
+X 5 j_stack.ads
+38U14*Push 11|79r19[14|36] 92r20[14|58] 108r23[14|58]
+40U14*Pop 11|100r20[14|58] 116r23[14|58] 125r19[14|36]
+44V13*Top{8|61I9} 11|122r34[14|36]
+46V13*Empty{boolean} 11|120r35[14|58]
+X 6 j_string.ads
+34K9*J_String 52e13 11|31w6 31r20
+36V13*Name{26|372I9} 11|87r34 89r45 105r38
+X 8 jvm.ads
+55K9*JVM 1291e8 11|30w6 30r20 32r6 32r20
+61I9*Class_Id 11|48r21
+64I9*Field_Id 11|50r21
+68I9*Method_Id 11|49r21
+72I9*Type_Id
+168U14*Begin_Class_File 11|80r7
+172U14*End_Class_File 11|124r7
+243i4*Boolean_Type{72I9} 11|88r11
+254i4*Void_Type{72I9} 11|89r62 105r55
+339V13*New_Field{64I9} 11|87r12
+382V13*New_Method{68I9} 11|89r22 105r15
+436U14*Open_Method 11|90r7 106r10
+442U14*Close_Method 11|101r7 117r10
+451U14*Set_Current_Method 11|91r7 107r10
+1061U14*Gen_Method_Return 11|99r7 115r10
+X 9 jvm-map.ads
+29K13*Map 109e12 11|32w10 32r24
+79U14*Set_Map 11|77r7
+X 10 jx_ch12.ads
+34K9*Jx_Ch12 42l5 42e12 11|40b14 128l5 128t12
+36U14*Generate_Generic_Unit_Class 36>43 11|42b14 126l8 126t35
+36i43 Comp_Unit{26|400I9} 11|42b43 43r47 56r23 59r23
+X 11 jx_ch12.adb
+43i7 Gen_Node{26|400I9} 54r17 55r38 58r51
+44i7 Gen_Spec{26|400I9} 55m10 58m10 64r17 65m10 65r30 70r36 72r38
+45i7 Comp_Spec{26|400I9} 56m10 70m7 94r35 95r64 96r59
+46i7 Comp_Body{26|400I9} 59m10 103r19 110r38 111r67 112r62
+47i7 Gen_Entity{26|403I12} 72m7 74r30 75r31
+48i7 Gen_Class{8|61I9} 75m7 77r35 79r25 80r25 83r35 84r37 87r23 89r34 105r27
+. 122r40 124r23
+49i7 Elab_Method{8|68I9} 89m7 90r20 91r27 92r26 101r21 104m10 106r23 107r30
+. 108r29 117r24
+50i7 Elab_Bool{8|64I9} 51r29 86m7
+X 12 jx_ch3.ads
+35K9*Jx_Ch3 11|33w6 33r20 12|85e11
+37U14*Translate_Declarations 11|95r10 111r13
+X 13 jx_ch5.ads
+31K9*Jx_Ch5 11|34w6 34r20 13|44e11
+35U14*Translate_Statements 11|96r10 112r13
+X 14 jx_decl.ads
+34K9*Jx_Decl 11|35w6 35r20 14|271e12
+36K12*Class_Stack[5|34] 11|79r7 122r22 125r7
+42V13*Current_Class=42:63{8|61I9} 11|81r36
+45i4*Current_Compilation_Class{8|61I9} 11|81m7
+58K12*Method_Stack[5|34] 11|92r7 100r7 108r10 116r10 120r22
+71V13*JVM_Class{8|61I9} 11|75r20
+161U14*Declare_Package_Class 11|74r7
+222U14*Generate_Class_Init_Method 11|83r7
+225U14*Generate_Default_Constructor 11|84r7
+X 16 sem_util.ads
+34K9*Sem_Util 11|36w6 36r20 16|881e13
+169V13*Defining_Entity{26|403I12} 11|72r21
+X 17 sinfo.ads
+57K9*Sinfo 11|37w6 37r20 17|9296e10
+6878n7*N_Defining_Program_Unit_Name{6584E9} 11|64r29
+6975E12*N_Generic_Declaration{6584E9} 11|54r30
+7124V13*Actions{26|448I9} 11|96r34 112r37
+7169V13*Aux_Decls_Node{26|400I9} 11|94r19 95r48 96r43 110r22 111r51 112r46
+7268V13*Corresponding_Spec{26|400I9} 11|58r31
+7280V13*Declarations{26|448I9} 11|95r34 111r37
+7823V13*Specification{26|400I9} 11|55r23
+7883V13*Unit{26|400I9} 11|43r41
+X 19 stand.ads
+47K9*Stand 11|38w6 38r20 19|465e10
+251i4*Standard_Standard=251:53{26|400I9} 11|77r16
+X 26 types.ads
+52K9*Types 10|32w6 32r18 26|829e10
+372I9*Name_Id<integer>
+400I9*Node_Id<integer> 10|36r55 11|42r55 43r30 44r21 45r21 46r21
+403I12*Entity_Id{400I9} 11|47r21
+415i4*Empty{400I9} 11|46r32
+448I9*List_Id<integer>
+
