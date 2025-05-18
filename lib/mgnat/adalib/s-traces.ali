@@ -1,0 +1,73 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.traces%b	s-traces.adb		d1cceae8 PK
+W system%s		system.ads		system.ali
+
+U system.traces%s	s-traces.ads		0d5d35b8 EE PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-traces.ads		20021213045240 184e2cba
+D s-traces.adb		20021213045240 c982c652
+X 1 system.ads
+44K9*System 165e11 2|59r9 117r5 3|36r14 58r5
+X 2 s-traces.ads
+59K16*Traces 1|44k9 2|117l12 117e18 3|36b21 58l12 58t18
+61E9*Trace_T 106e19 113r36 115r36 3|44r36 53r36
+67n7*M_Accept_Complete{61E9}
+68n7*M_Select_Else{61E9}
+69n7*M_RDV_Complete{61E9}
+70n7*M_Call_Complete{61E9}
+71n7*M_Delay{61E9}
+75n7*E_Missed{61E9}
+76n7*E_Timeout{61E9}
+77n7*E_Kill{61E9}
+81n7*W_Call{61E9}
+82n7*W_Accept{61E9}
+83n7*W_Select{61E9}
+84n7*W_Completion{61E9}
+85n7*W_Delay{61E9}
+86n7*WU_Delay{61E9}
+88n7*WT_Call{61E9}
+89n7*WT_Select{61E9}
+90n7*WT_Completion{61E9}
+94n7*PO_Call{61E9}
+95n7*POT_Call{61E9}
+96n7*PO_Run{61E9}
+97n7*PO_Lock{61E9}
+98n7*PO_Unlock{61E9}
+99n7*PO_Done{61E9}
+103n7*T_Create{61E9}
+104n7*T_Activate{61E9}
+105n7*T_Abort{61E9}
+106n7*T_Terminate{61E9}
+113U14*Send_Trace_Info 113>31 3|44b14 47l8 47t23
+113e31 Id{61E9} 3|44b31
+115U14*Send_Trace_Info 115>31 115>45 3|53b14 56l8 56t23
+115e31 Id{61E9} 3|53b31
+115o45 Timeout{duration} 3|53b45
+

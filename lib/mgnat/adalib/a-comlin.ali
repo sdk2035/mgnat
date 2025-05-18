@@ -1,0 +1,66 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.command_line%b	a-comlin.adb		a6f63ef0 PK
+W ada%s			ada.ads			ada.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U ada.command_line%s	a-comlin.ads		3670727c EE PR PK
+W ada%s			ada.ads			ada.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-comlin.ads		19990831065000 4aa4499e
+D a-comlin.adb		20021123233200 ec52776e
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+X 1 ada.ads
+18K9*Ada 21e8 2|40r9 102r5 3|36r14 99r5
+X 2 a-comlin.ads
+40K13*Command_Line 1|18k9 2|41r22 102l9 102e21 3|36b18 99l9 99t21
+43V13*Argument_Count{natural} 3|51b13 58l8 58t22 68r19
+50V13*Argument{string} 50>23 3|64b13 85l8 85t16
+50i23 Number{positive} 3|64b23 68r10 73r17 75r30
+59V13*Command_Name{string} 3|91b13 97l8 97t20
+67I9*Exit_Status<integer> 69r23 70r23 72r41 77r23 78r23
+69i4*Success{67I9} 77c4
+70i4*Failure{67I9} 78c4
+72U14*Set_Exit_Status 72>31 73b<c,set_gnat_exit_status>22
+72i31 Code{67I9}
+87i4 Remove_Count{natural} 3|56r17
+91A9 Arg_Nums(positive) 92r32
+92P9 Arg_Nums_Ptr(91A9) 97r18
+97p4 Remove_Args{92P9} 3|53r10 72r10 75r17
+X 3 a-comlin.adb
+38V13 Arg_Count{natural} 39b<c,arg_count>22 54r17
+41U14 Fill_Arg 41<24 41>40 42b<c,fill_arg>22 82r10 95r7
+41s24 A{string}
+41i40 Arg_Num{integer}
+44V13 Len_Arg{integer} 44>22 45b<c,len_arg>22 79r37 92r34
+44i22 Arg_Num{integer}
+65i7 Num{positive} 73m10 75m10 79r46 82r25
+79a10 Arg{string} 82m20 83r17
+92a7 Arg{string} 95m17 96r14
+

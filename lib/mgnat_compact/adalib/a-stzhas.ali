@@ -1,0 +1,58 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.strings.wide_wide_hash%b  a-stzhas.adb	8170a37a NE PU SU
+W ada.strings%s		a-string.ads		a-string.ali
+
+U ada.strings.wide_wide_hash%s  a-stzhas.ads	918689ef EE PU SU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings%s		a-string.ads		a-string.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-contai.ads		20050817131724 050b27b6
+D a-string.ads		20060220230356 87b4230b
+D a-stzhas.ads		20060220172448 13398d52
+D a-stzhas.adb		20060220172446 92492e28
+D system.ads		20050820125040 15131902
+X 1 ada.ads
+18K9*Ada 21e8 4|16r6 18r10 21r14 5|38r10 41r8 57r5
+X 2 a-contai.ads
+16K13*Containers 22e19 4|16w10 19r35 5|39r35 41r12
+19M9*Hash_Type 4|19r46 5|39r46 44r16 45r32 48r10
+X 3 a-string.ads
+16K13*Strings 35e16 4|18r14 21r18 5|38r14 57r9
+X 4 a-stzhas.ads
+18V22*Wide_Wide_Hash{2|19M9} 3|16k13 4|19>4 21r26 5|38b22 57l17 57t31
+19s4 Key{wide_wide_string} 5|39b4 52r13 53r62
+X 5 a-stzhas.adb
+43V13*Rotate_Left{2|19M9} 44>7 45>7 46b30 53r14
+44m7 Value{2|19M9}
+45i7 Amount{natural}
+48m4 Tmp{2|19M9} 51m4 53m7 53r27 56r11
+52i8 J{integer} 53r67
+

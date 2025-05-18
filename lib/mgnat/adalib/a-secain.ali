@@ -1,0 +1,60 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.strings.equal_case_insensitive%b  a-secain.adb  13e8876f NE PU SU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.strings%s		a-string.ads		a-string.ali
+
+U ada.strings.equal_case_insensitive%s  a-secain.ads  3971e3f1 EE PU SU
+W ada.strings%s		a-string.ads		a-string.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-charac.ads		20050819211548 b6f39c34
+D a-chahan.ads		20050819211658 5be68b91
+D a-string.ads		20060220230356 87b4230b
+D a-secain.ads		20060220172344 bec5c0fa
+D a-secain.adb		20060220172344 f6cbcc04
+D system.ads		20050820125040 15131902
+X 1 ada.ads
+18K9*Ada 21e8 5|16r10 19r14 6|36r6 36r36 38r10 65r5
+X 2 a-charac.ads
+18K13*Characters 21e19 6|36r10 36r40
+X 3 a-chahan.ads
+38K24*Handling 157e28 6|36w21 36r51
+64V13*To_Lower{character} 6|54r10 54r34
+X 4 a-string.ads
+16K13*Strings 35e16 5|16r14 19r18 6|38r14 65r9
+X 5 a-secain.ads
+16V22*Equal_Case_Insensitive{boolean} 4|16k13 5|17>4 17>10 19r26 6|38b22
+. 65l17 65t39
+17s4 Left{string} 6|39b4 41r20 45r7 49r7 54r20 58r15
+17s10 Right{string} 6|39b10 42r20 45r22 54r44
+X 6 a-secain.adb
+41i4 LI{integer} 54r26 58r10 62m7 62r13
+42i4 RI{integer} 54r51 63m7 63r13
+

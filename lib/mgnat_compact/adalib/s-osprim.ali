@@ -1,0 +1,66 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.os_primitives%b  s-osprim.adb		31cbd98b PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.java%s	i-java.ads		i-java.ali
+W system%s		system.ads		system.ali
+
+U system.os_primitives%s  s-osprim.ads		a53b0dc6 EE PK
+W system%s		system.ads		system.ali
+
+D interfac.ads		20021213031652 279b6d6d
+D i-java.ads		20021213045752 07b0c01c
+D system.ads		20050820125040 15131902
+D s-osprim.ads		20040602215716 b02814c4
+D s-osprim.adb		20041021205822 86530d53
+X 1 interfac.ads
+23K9*Interfaces 168e15 5|23r6 29r39 44r28
+X 2 i-java.ads
+43K20*Java 143e20 5|23w17 29r50 44r39
+51I12*long{long_integer} 5|29r55 44r44
+X 3 system.ads
+44K9*System 165e11 4|45r9 80r5 5|25r14 83r5
+X 4 s-osprim.ads
+45K16*OS_Primitives 3|44k9 4|80l12 80e25 5|25b21 83l12 83t25
+48o4*Max_Sensible_Delay{duration}
+57V13*Clock{duration} 5|41b13 49l8 49t13 58r32 74r27
+61N4*Relative 5|61r17
+62N4*Absolute_Calendar
+63N4*Absolute_RT
+68U14*Timed_Delay 68>27 68>44 5|55b14 81l8 81t19
+68o27 Time{duration} 5|55b27 62r22 63r22 65r22 66r22
+68i44 Mode{integer} 5|55b44 61r10
+X 5 s-osprim.adb
+29V13 Current_Time_100ns{2|51I12} 30b<c,get_Ticks>22 45r10
+33U14 Sleep 33>21 34b25 73r13
+33i21 Time{integer}
+44i7 Millisecs{2|51I12} 47r24 48r21
+56o7 Rel_Time{duration} 62m10 65m10 69r10 73r29 78m13
+57o7 Abs_Time{duration} 63m10 66m10 76r23 78r25
+58o7 Check_Time{duration} 63r29 65r29 74m13 76r35 78r36
+

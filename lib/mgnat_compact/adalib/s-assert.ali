@@ -1,0 +1,53 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.assertions%b	s-assert.adb		b063e4e6 PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+
+U system.assertions%s	s-assert.ads		904423f0 EE PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D system.ads		20050820125040 15131902
+D s-assert.ads		19981202210304 85573af2
+D s-assert.adb		19970821013804 ed3b76b0
+X 1 ada.ads
+18K9*Ada 21e8 5|36r6 46r7
+X 2 a-except.ads
+89K13*Exceptions 185e19 5|36w10 46r11
+102U14*Raise_Exception 5|46r22
+X 3 system.ads
+44K9*System 165e11 4|36r9 45r5 5|38r14 49r5
+X 4 s-assert.ads
+36K16*Assertions 3|44k9 4|45l12 45e22 5|38b21 49l12 49t22
+38X4*Assert_Failure 5|46r39
+41U14*Raise_Assert_Failure 41>36 42r22 5|44b14 47l8 47t28
+41s36 Msg{string} 5|44b36 46r64
+

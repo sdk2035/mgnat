@@ -1,0 +1,74 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvvnvnnnnnnnnnnnnnnnn
+
+U system.storage_elements%b  s-stoele.adb	1d22210e PK
+W system%s		system.ads		system.ali
+
+U system.storage_elements%s  s-stoele.ads	eeed5e9e BN EE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stoele.adb		20040925170400 e6dc6692
+X 1 system.ads
+44K9*System 165e11 2|26r9 91r5 3|36r14 90r5
+71M9*Address 2|49r25 49r65 54r49 54r65 59r25 59r65 64r32 70r15 81r57 86r33
+. 3|43r25 43r65 48r49 48r65 53r25 53r65 58r32 63r27 71r57 76r33 77r31
+72m4*Null_Address{71M9} 3|45r14 50r14 55r14 73r14 83r18
+74N4*Storage_Unit 2|40r37 41r33 45r41
+76N4*Memory_Size 2|79r32
+84V13*"="{boolean} 3|83r16
+X 2 s-stoele.ads
+26K16*Storage_Elements 1|44k9 2|27r14 91l12 91e28 3|36b21 90l12 90t28
+31I9*Storage_Offset<integer> 38r29 38r55 44r13 49r42 54r25 59r42 64r48 71r15
+. 72r15 3|43r42 48r25 53r42 58r48 63r44 64r13
+38I12*Storage_Count{31I9}
+40M9*Storage_Element 41r8 44r49
+43A9*Storage_Array(40M9) 45r8
+49V13*"+"{1|71M9} 49>18 49>34 3|43b13 46l8 46t11
+49m18 Left{1|71M9} 3|43b18
+49i34 Right{31I9} 3|43b34
+54V13*"+"{1|71M9} 54>18 54>41 3|48b13 51l8 51t11
+54i18 Left{31I9} 3|48b18
+54m41 Right{1|71M9} 3|48b41
+59V13*"-"{1|71M9} 59>18 59>34 3|53b13 56l8 56t11
+59m18 Left{1|71M9} 3|53b18
+59i34 Right{31I9} 3|53b34
+64V13*"-"{31I9} 64>18 64>24 3|58b13 61l8 61t11
+64m18 Left{1|71M9} 3|58b18
+64m24 Right{1|71M9} 3|58b24
+69V13*"mod"{31I9} 70>7 71>7 3|63b13 67l8 67t13
+70m7 Left{1|71M9} 3|63b20
+71i7 Right{31I9} 3|63b36
+79M9*Integer_Address 81r33 86r49 3|71r33 76r49 86r17
+81V13*To_Address{1|71M9} 81>25 82r34 83r19 84r26 3|71b13 74l8 74t18
+81m25 Value{79M9} 3|71b25
+86V13*To_Integer{79M9} 86>25 87r34 88r19 89r26 3|76b13 88l8 88t18
+86m25 Value{1|71M9} 3|76b25 83r10 86r45
+X 3 s-stoele.adb
+77V16*Hash_Code{integer} 77>27 78b<c,hash_code>25 86r34
+77m27 A{1|71M9}
+

@@ -1,0 +1,55 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.img_char%b	s-imgcha.adb		48aa4003 PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U system.img_char%s	s-imgcha.ads		a44513ef EE PR PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-imgcha.ads		20050820215300 b1560aed
+D s-imgcha.adb		19951120073016 f9fc4aee
+D s-secsta.ads		19990726073750 38cfbadd
+X 1 system.ads
+44K9*System 165e11 2|38r9 44r5 3|36r14 171r5
+X 2 s-imgcha.ads
+38K16*Img_Char 1|44k9 2|39r22 44l12 44e20 3|36b21 171l12 171t20
+41V13*Image_Character{string} 41>30 3|42b13 169l8 169t23
+41e30 V{character} 3|42b30 125r10 126r19 134r13 135r19 150r56 165r19
+X 3 s-imgcha.adb
+43A15 Cname{string} 45r11 50r41 87r41
+45a7 S{43A15} 126m10 128r13 129r20 131r20 135m10 137r13 138r16 139r23 141r23
+. 164m10 165m10 166m10 167r17
+47E15 C0_Range{character} 50r28 125r15
+50a7 C0(43A15) 126r15
+84E15 C1_Range{character} 87r28 134r18
+87a7 C1(43A15) 135r15
+150i16 VP{natural} 154r47 155r48 156r47
+151a16 St{string} 154m16 155m16 156m16 157r23
+

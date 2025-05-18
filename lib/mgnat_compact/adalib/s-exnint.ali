@@ -1,0 +1,44 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.exn_int%s	s-exnint.ads		0d2abd8c EE PU PK
+W system%s		system.ads		system.ali
+W system.exn_gen%s	s-exngen.adb		s-exngen.ali
+
+D system.ads		20050820125040 15131902
+D s-exngen.ads		19951120072738 eecfc69f
+D s-exngen.adb		19951120072736 2e80249d
+D s-exnint.ads		19951120072744 f6f66211
+X 1 system.ads
+44K9*System 165e11 4|38r6 40r9 44r10 46r5
+X 2 s-exngen.ads
+43K16*Exn_Gen 66e19 4|38w13 44r17
+61v13*Exn_Integer_Type 4|44r25
+X 4 s-exnint.ads
+40K16*Exn_Int 1|44k9 4|41r14 46l12 46e19
+43V13*Exn_Integer[2|61]{integer}
+

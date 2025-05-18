@@ -1,0 +1,154 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U gnat.registry%b	g-regist.adb		3cf11cf9 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U gnat.registry%s	g-regist.ads		7eb8a860 BN EE PK
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D gnat.ads		20021213031646 e279999f
+D g-regist.ads		20060412194714 89d228fd
+D g-regist.adb		20060412204730 a0302d06
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 3 gnat.ads
+38K9*GNAT 41e9 4|47r9 118r5 5|37r14 263r5
+X 4 g-regist.ads
+47K14*Registry 3|38k9 4|118l10 118e18 5|37b19 263l10 263t18
+49M9*HKEY<6|71M9> 54r42 55r42 56r42 57r42 58r42 59r42 65r18 68r18 75r18 78r18
+. 83r31 86r36 89r37 93r36 96r37 99r39 108r46 5|41r42 42r35 47r42 48r35 53r42
+. 54r37 59r42 60r36 65r42 66r29 71r42 72r39 82r31 83r36 94r18 97r18 99r36
+. 101r36 115r37 116r46 127r39 128r41 139r46 149r39 155r33 179r18 183r17 206r18
+. 209r18 211r34 213r36 228r18 235r37 251r18 255r38
+54V13*HKEY_CLASSES_ROOT{49M9} 5|41b13 46l8 46t25
+55V13*HKEY_CURRENT_USER{49M9} 5|47b13 52l8 52t25
+56V13*HKEY_CURRENT_CONFIG{49M9} 5|53b13 58l8 58t27
+57V13*HKEY_LOCAL_MACHINE{49M9} 5|59b13 64l8 64t26
+58V13*HKEY_USERS{49M9} 5|65b13 70l8 70t18
+59V13*HKEY_PERFORMANCE_DATA{49M9} 5|71b13 76l8 76t29
+61E9*Key_Mode 61e44 67r18 77r18 5|96r18 208r18
+61n22*Read_Only{61E9} 77r30 5|208r30
+61n33*Read_Write{61E9} 67r30 5|96r30 104r17 216r17
+64V13*Create_Key{49M9} 65>7 66>7 67>7 5|93b13 109l8 109t18
+65m7 From_Key{49M9} 5|94b7 105r31 107r31
+66s7 Sub_Key{string} 5|95b7 105r41 107r41
+67e7 Mode{61E9} 5|96b7 104r10
+74V13*Open_Key{49M9} 75>7 76>7 77>7 5|186r18 205b13 221l8 221t16
+75m7 From_Key{49M9} 5|206b7 217r29 219r29
+76s7 Sub_Key{string} 5|207b7 217r39 219r39
+77e7 Mode{61E9} 5|208b7 216r10
+83U14*Close_Key 83>25 5|82b14 87l8 87t17 187r7
+83m25 Key{49M9} 5|82b25 86r20
+86V13*Key_Exists{boolean} 86>25 86>42 5|178b13 199l8 199t18
+86m25 From_Key{49M9} 5|179b7 186r28
+86s42 Sub_Key{string} 5|180b7 186r38
+89V13*Query_Value{string} 89>26 89>43 5|227b13 244l8 244t19
+89m26 From_Key{49M9} 5|228b7 242r31
+89s43 Sub_Key{string} 5|229b7 242r41
+93U14*Set_Value 93>25 93>42 93>60 5|250b14 261l8 261t17
+93m25 From_Key{49M9} 5|251b7 260r17
+93s42 Sub_Key{string} 5|252b7 260r27
+93s60 Value{string} 5|253b7 260r36
+96U14*Delete_Key 96>26 96>43 5|115b14 121l8 121t18
+96m26 From_Key{49M9} 5|115b26 120r25
+96s43 Sub_Key{string} 5|115b43 120r35
+99U14*Delete_Value 99>28 99>45 5|127b14 133l8 133t20
+99m28 From_Key{49M9} 5|127b28 132r20
+99s45 Sub_Key{string} 5|127b45 132r30
+103U22 Action 104>10 105>10 106>10 107=10 5|165r10
+104i10 Index{positive}
+105s10 Sub_Key{string}
+106s10 Value{string}
+107b10 Quit{boolean}
+108u14*For_Every_Key_Value 108>35 5|139b14 172l8 172t27
+108m35 From_Key{49M9} 5|139b35 161r38 164r34
+X 5 g-regist.adb
+42V16*ClassesRoot{4|49M9} 43b<c,getClassesRoot>25 45r14
+48V16*CurrentUser{4|49M9} 49b<c,getCurrentUser>25 51r14
+54V16*CurrentConfig{4|49M9} 55b<c,getCurrentConfig>25 57r14
+60V16*LocalMachine{4|49M9} 61b<c,getLocalMachine>25 63r14
+66V16*Users{4|49M9} 67b<c,getUsers>25 69r14
+72V16*PerformanceData{4|49M9} 73b<c,getPerformanceData>25 75r14
+83U17*RegCloseKey 83>30 84b<c,RegCloseKey>25 86r7
+83m30 Key{4|49M9}
+99V16*CreateSubKey{4|49M9} 99>30 100>10 101>10 102b<c,CreateSubKey>25 105r17
+. 107r17
+99m30 Key{4|49M9}
+100s10 Sub_Key{string}
+101b10 Mode{boolean}
+116U17*DeleteSubKeyTree 116>35 117>10 118b<c,DeleteSubKeyTree>25 120r7
+116m35 From_Key{4|49M9}
+117s10 Sub_Key{string}
+128U17*DeleteValue 128>30 129>10 130b<c,DeleteValue>25 132r7
+128m30 From_Key{4|49M9}
+129s10 Sub_Key{string}
+140a7 Sub_Key{string} 141r29 163r41 166r18
+143a7 Value{string} 144r29 164r47 167r18
+146i7 Sub_Key_Len{natural} 163m10 166r32
+147i7 Value_Len{natural} 164m10 167r30
+148i7 Num_Values{natural} 161m7 162r21
+149V16*InitEnumeration{integer} 149>33 150b<c,InitEnumeration>25 161r21
+149m33 Key{4|49M9}
+152V16*RegEnumName{integer} 152>29 152>42 153b<c,RegEnumName>25 163r25
+152i29 I{integer}
+152s42 Name{string}
+155V16*Enumerate{integer} 155>27 155>39 155>52 157b<c,Enumerate>25 164r23
+155m27 Key{4|49M9}
+155i39 I{integer}
+155s52 Name{string}
+159b7 Quit{boolean} 168m18 170r20
+162i11 I{integer} 163r38 164r44 165r18
+183m7 New_Key{4|49M9} 186m7 187r18
+211V16*OpenSubKey{4|49M9} 211>28 212>10 213>10 214b<c,OpenSubKey>25 217r17
+. 219r17
+211m28 Key{4|49M9}
+212s10 Sub_Key{string}
+213b10 Mode{boolean}
+232a7 Value{string} 233r29 242r50 243r14
+235V16*GetValue{integer} 235>26 236>10 237>10 238b<c,RegGetValue>25 242r21
+235m26 From_Key{4|49M9}
+236s10 Sub_Key{string}
+237s10 Result{string}
+240i7 Size_Value{integer} 242m7 243r26
+255U17*SetValue 255>27 256>10 257>10 258b<c,RegSetValue>25 260r7
+255m27 From_Key{4|49M9}
+256s10 Sub_Key{string}
+257s10 Result{string}
+X 6 system.ads
+44K9*System 4|46w6 49r21 5|35w6 39r8 6|165e11
+71M9*Address 4|49r28
+

@@ -1,0 +1,52 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.exp_mod%b	s-expmod.adb		4e8669d6 PK
+W system%s		system.ads		system.ali
+
+U system.exp_mod%s	s-expmod.ads		2794aadf EE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-expmod.ads		19951120072852 3287b3dd
+D s-expmod.adb		19951120072848 7c01da0b
+X 1 system.ads
+44K9*System 165e11 2|40r9 49r5 3|36r14 91r5
+X 2 s-expmod.ads
+40K16*Exp_Mod 1|44k9 2|41r14 49l12 49e19 3|36b21 91l12 91t19
+43V13*Exp_Modular{integer} 44>7 45>7 46>7 3|42b13 89l8 89t19
+44i7 Left{integer} 3|43b7 49r27
+45i7 Modulus{integer} 3|44b7 61r37
+46i7 Right{natural} 3|45b7 50r27
+X 3 s-expmod.adb
+48i7 Result{integer} 78m16 78r32 87r14
+49i7 Factor{integer} 78r40 83m13 83r29 83r37
+50i7 Exp{natural} 75r10 77r16 81m13 81r20 82r23
+52V16 Mult{integer} 52>22 52>25 53r22 57b16 62l11 62t15 78r26 83r23
+52i22 X{integer} 57b22 60r32
+52i25 Y{integer} 57b25 60r56
+

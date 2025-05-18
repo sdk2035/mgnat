@@ -1,0 +1,49 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.wch_con%s	s-wchcon.ads		015e1570 EE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-wchcon.ads		19980525181154 144d0c72
+X 1 system.ads
+44K9*System 165e11 2|40r9 176r5
+X 2 s-wchcon.ads
+40K16*WCh_Con 1|44k9 2|41r14 176l12 176e19
+91I9*WC_Encoding_Method<short_short_integer> 97r24 105r26 113r30 121r24 128r25
+. 147r29 152r42 164r6 168r6
+97i4*WCEM_Hex{91I9} 153r7 164r31 164r43
+105i4*WCEM_Upper{91I9} 154r7 168r31
+113i4*WCEM_Shift_JIS{91I9} 155r7
+121i4*WCEM_EUC{91I9} 156r7
+128i4*WCEM_UTF8{91I9} 157r7 168r45
+147i4*WCEM_Brackets{91I9} 158r7
+152a4*WC_Encoding_Letters(character)
+163I12*WC_ESC_Encoding_Method{91I9}
+167I12*WC_Upper_Half_Encoding_Method{91I9}
+172N4*WC_Longest_Sequence
+

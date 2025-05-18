@@ -1,0 +1,42 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U io_exceptions%s	ioexcept.ads		ff65f95f NE PU
+W ada%s			ada.ads			ada.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-ioexce.ads		19981212023736 a50c222b
+D ioexcept.ads		20021213031656 5a69db74
+D system.ads		20050820125040 15131902
+X 1 ada.ads
+18K9*Ada 21e8 3|19r6 20r31
+X 2 a-ioexce.ads
+18K13*IO_Exceptions 30e22 3|19w10 20r35
+X 3 ioexcept.ads
+20K9*IO_Exceptions=20:35
+

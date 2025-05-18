@@ -1,0 +1,44 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.program_info%b	s-proinf.adb		fcf90472 PK
+W system%s		system.ads		system.ali
+
+U system.program_info%s	s-proinf.ads		8af64eba EE PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-proinf.ads		19960501222440 9fe557b8
+D s-proinf.adb		19960501222444 631c53ca
+X 1 system.ads
+44K9*System 165e11 2|38r9 47r5 3|36r14 45r5
+X 2 s-proinf.ads
+38K16*Program_Info 1|44k9 2|47l12 47e24 3|36b21 45l12 45t24
+40V13*Default_Task_Stack{integer} 3|40b13 43l8 43t26
+X 3 s-proinf.adb
+38N4 Default_Stack_Size 42r14
+

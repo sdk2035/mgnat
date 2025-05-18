@@ -1,0 +1,91 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U ada.tags%b		a-tags.adb		a9865cec PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U ada.tags%s		a-tags.ads		95451da4 BN EB EE PR PK
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 1 ada.ads
+18K9*Ada 21e8 3|33r9 83r5 4|36r14 118r5
+X 3 a-tags.ads
+33K13*Tags 1|18k9 3|34r25 83l9 83e13 4|36b18 118l9 118t13
+40M9*Tag 41r22 43r32 44r32 45r54 47r59 47r71 50r20 51r20 53r29 53r41 58r38
+. 58r53 63c9 73r22 73r29 75r35 79r36 4|44r38 44r53 55r32 56r30 66r31 67r29
+. 77r53 78r51 86r59 86r71 92r35 99r20 100r20 107r29 107r41 112r36
+41m4*No_Tag{40M9} 73c4
+43V13*Expanded_Name{string} 43>28 4|55b13 60l8 60t21
+43m28 T{40M9} 4|55b28 59r24
+44V13*External_Tag{string} 44>28 4|66b13 71l8 71t20
+44m28 T{40M9} 4|66b27 70r23
+45V13*Internal_Tag{40M9} 45>28 4|77b13 84l8 84t20 89r14
+45s28 External{string} 4|77b27 81r23
+47V13*Descendant_Tag{40M9} 47>29 47>48 4|86b13 90l8 90t22
+47s29 External{string} 4|86b29 89r28
+47m48 Ancestor{40M9} 4|86b48 87r29
+49V13*Is_Descendant_At_Same_Level{boolean} 50>7 51>7 4|98b13 105l8 105t35
+50m7 Descendant{40M9} 4|99b7 102r29
+51m7 Ancestor{40M9} 4|100b7 101r29
+53V13*Parent_Tag{40M9} 53>25 4|107b13 110l8 110t18
+53m25 T{40M9} 4|107b25 109r14
+55X4*Tag_Error 4|83r28
+58V13 CW_Membership{boolean} 58>28 58>43 59r26 4|44b13 49l8 49t21
+58m28 Obj_Tag{40M9} 4|44b28
+58m43 Typ_Tag{40M9} 4|44b43
+72M9*Interface_Tag<5|71M9>
+75V13 Get_Access_Level{natural} 75>31 4|92b13 96l8 96t24
+75m31 T{40M9} 4|92b31 93r29
+79U14 Set_Access_Level 79>32 79>41 4|112b14 117l8 117t24
+79m32 T{40M9} 4|112b32 113r29
+79i41 Value{natural} 4|112b41 114r29
+X 4 a-tags.adb
+38P9 String_Access(string) 56r42 67r41
+56V16*Ada_Name{38P9} 56>26 57b28 59r14
+56m26 T{3|40M9}
+67V16*Ext_Tag{38P9} 67>25 68b28 70r14
+67m25 T{3|40M9}
+78V16*Int_Tag{3|40M9} 78>25 79b28 81r14
+78s25 External{string}
+X 5 system.ads
+44K9*System 3|31w6 63r20 72r30 73r34 5|165e11
+71M9*Address 3|63r27 72r37
+72m4*Null_Address{71M9} 3|73r41
+

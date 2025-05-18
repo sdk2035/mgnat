@@ -1,0 +1,104 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnn
+
+U system%s		system.ads		15131902 EE PU PK
+
+D system.ads		20050820125040 15131902
+X 1 system.ads
+44K9*System 45r14 165l5 165e11
+50E9*Name 50e35 51r27
+50n18*SYSTEM_NAME_GNAT{50E9} 51r35
+51e4*System_Name{50E9}
+55N4*Min_Int
+56N4*Max_Int
+58N4*Max_Binary_Modulus
+59N4*Max_Nonbinary_Modulus
+61N4*Max_Base_Digits
+62N4*Max_Digits
+64N4*Max_Mantissa 65r49
+65N4*Fine_Delta
+67N4*Tick
+71M9*Address 72r28 80r33 81r33 82r33 83r33 84r33 111c9 112r28
+72m4*Null_Address{71M9} 112c4
+74N4*Storage_Unit
+75N4*Word_Size
+76N4*Memory_Size 111r24
+80V13*"<"{boolean} 80>19 80>25 86b30
+80m19 Left{71M9}
+80m25 Right{71M9}
+81V13*"<="{boolean} 81>19 81>25 87b30
+81m19 Left{71M9}
+81m25 Right{71M9}
+82V13*">"{boolean} 82>19 82>25 88b30
+82m19 Left{71M9}
+82m25 Right{71M9}
+83V13*">="{boolean} 83>19 83>25 89b30
+83m19 Left{71M9}
+83m25 Right{71M9}
+84V13*"="{boolean} 84>19 84>25 90b30
+84m19 Left{71M9}
+84m25 Right{71M9}
+94E9*Bit_Order 94e57 95r33 96r26
+94n23*High_Order_First{94E9}
+94n41*Low_Order_First{94E9}
+95e4*Default_Bit_Order{94E9}
+100i4*Max_Priority{positive}
+101i4*Max_Interrupt_Priority{positive}
+103I12*Any_Priority{integer} 104r34 105r34
+104I12*Priority{103I12} 107r32
+105I12*Interrupt_Priority{103I12}
+107i4*Default_Priority{104I12}
+131b4 AAMP{boolean}
+132b4 Backend_Divide_Checks{boolean}
+133b4 Backend_Overflow_Checks{boolean}
+134b4 Command_Line_Args{boolean}
+135b4 Configurable_Run_Time{boolean}
+136b4 Denorm{boolean}
+137b4 Duration_32_Bits{boolean}
+138b4 Exit_Status_Supported{boolean}
+139b4 Fractional_Fixed_Ops{boolean}
+140b4 Frontend_Layout{boolean}
+141b4 Functions_Return_By_DSP{boolean}
+142b4 Machine_Overflows{boolean}
+143b4 Machine_Rounds{boolean}
+144b4 OpenVMS{boolean}
+145b4 Preallocated_Stacks{boolean}
+146b4 Signed_Zeros{boolean}
+147b4 Stack_Check_Default{boolean}
+148b4 Stack_Check_Probes{boolean}
+149b4 Support_64_Bit_Divides{boolean}
+150b4 Support_Aggregates{boolean}
+151b4 Support_Composite_Assign{boolean}
+152b4 Support_Composite_Compare{boolean}
+153b4 Support_Long_Shifts{boolean}
+154b4 Suppress_Standard_Library{boolean}
+155b4 Use_Ada_Main_Program_Name{boolean}
+156b4 ZCX_By_Default{boolean}
+157b4 GCC_ZCX_Support{boolean}
+158b4 Front_End_ZCX_Support{boolean}
+162b4 High_Integrity_Mode{boolean}
+163b4 Long_Shifts_Inlined{boolean}
+

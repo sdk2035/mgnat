@@ -1,0 +1,49 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U interfaces.java.lang.priority%s  i-jalapr.ads	cc94aa9e NE PR PK
+W interfaces.java.lang%s  i-javlan.ads		i-javlan.ali
+
+D interfac.ads		20021213031652 279b6d6d
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalapr.ads		20031210020918 2617667a
+D system.ads		20050820125040 15131902
+X 1 interfac.ads
+23K9*Interfaces 168e15 4|7r9 24r5 26r22
+X 2 i-java.ads
+43K20*Java 1|23k9 2|143e20 4|7r20 24r16 26r33
+X 3 i-javlan.ads
+33K25*Lang 2|43k20 3|35e25 4|7r25 24r21 26r38
+X 4 i-jalapr.ads
+7K30*Priority 3|33k25 4|24l26 24e34 26r43
+10E9*ValueType 15e15 16r29 17r8
+11n7*Lowest{10E9} 18r7
+12n7*BelowNormal{10E9} 19r7
+13n7*Normal{10E9} 20r7
+14n7*AboveNormal{10E9} 21r7
+15n7*Highest{10E9} 22r7
+

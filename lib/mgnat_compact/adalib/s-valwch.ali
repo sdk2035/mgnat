@@ -1,0 +1,77 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnn
+
+U system.val_wchar%b	s-valwch.adb		02524dc1 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.img_char%s	s-imgcha.adb		s-imgcha.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.val_util%s	s-valuti.adb		s-valuti.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+W system.wch_stw%s	s-wchstw.adb		s-wchstw.ali
+
+U system.val_wchar%s	s-valwch.ads		19480ace EE PR PK
+W system%s		system.ads		system.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D system.ads		20050820125040 15131902
+D s-imgcha.ads		20050820215300 b1560aed
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-valuti.ads		19960414164052 91c8d4b2
+D s-valwch.ads		19960128044116 18161fbe
+D s-valwch.adb		19970807042528 2f4df8c0
+D s-wchcon.ads		19980525181154 144d0c72
+D s-wchstw.ads		19980525181158 b08c727f
+X 3 system.ads
+44K9*System 165e11 9|36r6 38r9 44r15 48r5 10|36r6 36r27 37r6 37r27 38r6 38r27
+. 40r14 114r5
+X 8 s-valuti.ads
+38K16*Val_Util 110e20 10|36w13 36r34
+41U14*Normalize_String 10|56r7
+X 9 s-valwch.ads
+38K16*Val_WChar 3|44k9 9|39r22 48l12 48e21 10|40b21 114l12 114t21
+42V13*Value_Wide_Character{wide_character} 43>8 44>8 10|46b13 112l8 112t28
+43s8 Str{string} 10|47b8 53r19 53r33
+44i8 EM{11|91I9} 10|48b8 74r66
+X 10 s-valwch.adb
+51i7 F{natural} 56m28 60r13 64r17 65r58 74r49 98r19 104r19
+52i7 L{natural} 56m31 60r34 64r13 74r58 98r24 104r24
+53a7 S{string} 56m25 60r10 60r31 65r55 74r46 88r13 91r13 98r16 104r16
+73a16 WS{wide_string} 77r19 81r26 81r30
+97e14 C{character} 98r46 99r58
+103e14 C{character} 104r46 105r58
+X 11 s-wchcon.ads
+40K16*WCh_Con 9|36w13 44r22 10|37w13 37r34 11|176e19
+91I9*WC_Encoding_Method<short_short_integer> 9|44r30 10|48r15
+X 12 s-wchstw.ads
+41K16*WCh_StW 10|38w13 38r34 12|62e19
+44V13*String_To_Wide_String{wide_string} 10|74r23
+

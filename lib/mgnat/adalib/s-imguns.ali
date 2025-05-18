@@ -1,0 +1,59 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.img_uns%b	s-imguns.adb		adfdae1d PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U system.img_uns%s	s-imguns.ads		6ac3527d EE PR PK
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D system.ads		20050820125040 15131902
+D s-imguns.ads		19951120073124 82daea35
+D s-imguns.adb		19951120073120 d22de562
+D s-secsta.ads		19990726073750 38cfbadd
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 1 system.ads
+44K9*System 165e11 2|40r6 42r9 46r14 51r11 61r5 3|36r6 36r33 38r14 90r5
+X 2 s-imguns.ads
+42K16*Img_Uns 1|44k9 2|43r22 61l12 61e19 3|38b21 90l12 90t19
+45V13*Image_Unsigned{string} 46>7 3|44b13 56l8 56t22
+46m7 V{5|47M9} 3|45b7 54r27
+50U14*Set_Image_Unsigned 51>7 52<7 53=7 3|54r7 62b14 88l8 88t26
+51m7 V{5|47M9} 3|63b7 86r19
+52s7 S{string} 3|64b7 75m13 79m13
+53i7 P{natural} 3|65b7 74m13 74r18 75r16 78m13 78r18 79r16
+X 3 s-imguns.adb
+48i7 P{natural} 52m7 53r10 54m33 55r22
+49a7 S{string} 53m7 54m30 55r14
+67U17 Set_Digits 67>29 70b17 73r13 81l11 81t21 86r7
+67m29 T{5|47M9} 70b29 72r13 73r25 75r43 79r42
+X 5 s-unstyp.ads
+42K16*Unsigned_Types 2|40w13 46r21 51r18 3|36w13 36r40 5|234e26
+47M9*Unsigned 2|46r36 51r33 3|45r14 49r24 63r11 67r33 70r33
+

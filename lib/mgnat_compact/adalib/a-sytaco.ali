@@ -1,0 +1,97 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnvnvnnnnvnnnnnnnnvnnnvnnvnnnnnnnnnnnnnnnnvnnnv2nnnnnnnnnv1+nn
+
+U ada.synchronous_task_control%b  a-sytaco.adb	2d607b16 PK
+W ada%s			ada.ads			ada.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U ada.synchronous_task_control%s  a-sytaco.ads	a3ff19ea EE PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-sytaco.ads		20040602225108 ca383b0a
+D a-sytaco.adb		20050820214534 e758401c
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D interfac.ads		20021213031652 279b6d6d
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalaob.ads		20060606191518 27c397ee
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-tasinf.ads		20040925171754 04bafbd6
+D s-taspri.ads		20050820220208 d94fa01c
+D s-taskin.ads		20040925171702 dfe0bf9d
+D s-taprob.ads		20040925153816 f36e012f
+D s-tpoben.ads		20040925153832 2e4363ad
+D s-tpobop.ads		20040602224202 04c73873
+D s-unstyp.ads		19990721075830 fd0aa14a
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 6|42r9 71r5 7|36r14 131r5
+X 6 a-sytaco.ads
+42K13*Synchronous_Task_Control 1|18k9 6|71l9 71e33 7|36b18 131l9 131t33
+44W9*Suspension_Object 46r35 48r36 50r32 52r45 69l8 69e25 7|42b19 93l8 93t25
+. 99r32 108r36 117r35 126r45
+46U14*Set_True 46=24 7|117b14 120l8 120t16
+46w24 S{44W9} 7|117b24 119r7
+48U14*Set_False 48=25 7|108b14 111l8 111t17
+48w25 S{44W9} 7|108b25 110r7
+50V13*Current_State{boolean} 50>28 7|99b13 102l8 102t21
+50w28 S{44W9} 7|99b28 101r14
+52U14*Suspend_Until_True 52=34 7|126b14 129l8 129t26
+52w34 S{44W9} 7|126b34 128r7
+60Y13 Wait 7|75b13 78l11 78t15 86r13 90r18
+61U17 Set_False 7|57b17 60l11 60t20 110r9
+62U17 Set_True 7|66b17 69l11 69t19 119r9
+63V16 Get_Open{boolean} 7|48b16 51l11 51t19 101r16
+64Y13 Wait_Exception 7|84b13 91l11 91t25 128r9
+68b7 Open{boolean} 7|50r17 59r10 68r10 75r23 77r10
+X 14 system.ads
+44K9*System 6|40w6 66r24 14|165e11
+103I12*Any_Priority{integer} 6|66r31
+

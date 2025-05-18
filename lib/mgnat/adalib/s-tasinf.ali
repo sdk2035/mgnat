@@ -1,0 +1,46 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.task_info%b	s-tasinf.adb		2923ffba PK
+W system%s		system.ads		system.ali
+
+U system.task_info%s	s-tasinf.ads		11a9e2d4 EB EE PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-tasinf.ads		20040925171754 04bafbd6
+D s-tasinf.adb		20040925171754 2d99046c
+X 1 system.ads
+44K9*System 165e11 2|44r9 93r5 3|42r14 44r5
+X 2 s-tasinf.ads
+44K16*Task_Info 1|44k9 2|93l12 93e21 3|42b21 44l12 44t21
+75E9*Scope_Type 82e21 84r31
+76n7*Process_Scope{75E9}
+79n7*System_Scope{75E9}
+82n7*Default_Scope{75E9} 90r55
+84E9*Task_Info_Type<75E9> 90r37
+90e4*Unspecified_Task_Info{84E9}
+

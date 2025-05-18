@@ -1,0 +1,55 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U gnat.bubble_sort_a%b	g-busora.adb		7b39f0c7 PK
+W gnat%s		gnat.ads		gnat.ali
+
+U gnat.bubble_sort_a%s	g-busora.ads		d50dbe06 EE PR PK
+W gnat%s		gnat.ads		gnat.ali
+
+D gnat.ads		20021213031646 e279999f
+D g-busora.ads		20021213045924 37742799
+D g-busora.adb		20021213045924 4c4dd75e
+D system.ads		20050820125040 15131902
+X 1 gnat.ads
+38K9*GNAT 41e9 2|44r9 68r5 3|35r14 61r5
+X 2 g-busora.ads
+44K14*Bubble_Sort_A 1|38k9 2|45r22 68l10 68e23 3|35b19 61l10 61t23
+51P9*Move_Procedure 61r40 3|41r40
+51i45 From{natural}
+51i61 To{natural}
+56P9*Lt_Function(boolean) 61r61 3|41r61
+56i41 Op1{natural}
+56i46 Op2{natural}
+61U14*Sort 61>20 61>33 61>56 3|41b14 59l8 59t12
+61i20 N{natural} 3|41b20 48r24
+61p33 Move{51P9} 3|41b33 50r16 51r16 52r16
+61p56 Lt{56P9} 3|41b56 49r16
+X 3 g-busora.adb
+42b7 Switched{boolean} 46m10 53m16 57r24
+48i14 J{integer} 49r20 49r27 50r22 51r22 51r29 52r25
+

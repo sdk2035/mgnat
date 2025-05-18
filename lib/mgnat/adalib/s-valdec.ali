@@ -1,0 +1,59 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.val_dec%b	s-valdec.adb		e41ff44e PK
+W system%s		system.ads		system.ali
+W system.exn_llf%s	s-exnllf.ads		s-exnllf.ali
+W system.val_real%s	s-valrea.adb		s-valrea.ali
+
+U system.val_dec%s	s-valdec.ads		75104a32 EE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-exngen.ads		19951120072738 eecfc69f
+D s-exnllf.ads		19951120072754 6d090461
+D s-valdec.ads		19960414163844 60035330
+D s-valdec.adb		19960414163834 e9f41a85
+D s-valrea.ads		19960414164018 6de8bdfb
+X 1 system.ads
+44K9*System 165e11 4|40r9 84r5 5|36r6 36r27 38r14 74r5
+X 4 s-valdec.ads
+40K16*Val_Dec 1|44k9 4|41r14 84l12 84e19 5|38b21 74l12 74t19
+43V13*Scan_Decimal{integer} 44>7 45^7 46>7 47>7 5|49b13 61l8 61t20
+44s7 Str{string} 5|50b7 59r25
+45p7 Ptr(integer) 5|51b7 59r30
+46i7 Max{integer} 5|52b7 59r35
+47i7 Scale{integer} 5|53b7 60r37
+76V13*Value_Decimal{integer} 76>28 76>42 5|69b13 72l8 72t21
+76s28 Str{string} 5|69b28 71r35
+76i42 Scale{integer} 5|69b42 71r50
+X 5 s-valdec.adb
+56f7 Val{long_long_float} 59m7 60r23
+X 6 s-valrea.ads
+36K16*Val_Real 5|36w13 36r34 6|75e20
+39V13*Scan_Real{long_long_float} 5|59r14
+69V13*Value_Real{long_long_float} 5|71r23
+

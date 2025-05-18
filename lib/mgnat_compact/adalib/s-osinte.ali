@@ -1,0 +1,79 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U system.os_interface%s	s-osinte.ads		90c2ea58 NE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.java%s	i-java.ads		i-java.ali
+W interfaces.java.lang%s  i-javlan.ads		i-javlan.ali
+W interfaces.java.lang.thread%s  i-jalath.ads	i-jalath.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D interfac.ads		20021213031652 279b6d6d
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalaob.ads		20060606191518 27c397ee
+D i-jalapr.ads		20031210020918 2617667a
+D i-jalath.ads		20050819212248 84b66ee0
+D system.ads		20050820125040 15131902
+D s-osinte.ads		20031210151952 01679dba
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 interfac.ads
+23K9*Interfaces 168e15 12|45r6 49r26 51r7
+X 6 i-java.ads
+43K20*Java 143e20 12|45r17 49r37 51r18
+X 7 i-javlan.ads
+33K25*Lang 35e25 12|45r22 49r42 51r23
+X 10 i-jalath.ads
+24K30*Thread 54e32 12|45w27 49r47 51r28
+27R9*Typ<8|26R9> 27e47 12|49r54
+29P9*Ref(27R9) 12|51r35
+32U14*Set_Priority
+35V14*Get_Priority{9|10E9}
+37U14*Set_Daemon
+38U14*Start
+X 11 system.ads
+44K9*System 165e11 12|47r9 58r35 59r32 67r5 69r22
+71M9*Address 12|58r42 59r39
+X 12 s-osinte.ads
+47K16*OS_Interface 11|44k9 12|67l12 67e24 69r29
+49R9*Thread<10|27R9> 10|32p14 35p14 37p14 38p14 12|49e74 50p13 50r39 52r33
+. 63r29
+50V13*Get_Thread{10|29P9} 50^25 66b25
+50p25 This(49R9)
+52P9*Thread_Id(49R9) 58r58
+58V13*new_Thread{52P9} 58>25 64r29
+58m25 Self_Id{11|71M9}
+59V13*Get_Self_Id{11|71M9} 65b25
+

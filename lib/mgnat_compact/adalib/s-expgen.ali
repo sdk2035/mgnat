@@ -1,0 +1,56 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnvnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.exp_gen%b	s-expgen.adb		f18969e3 PK
+W system%s		system.ads		system.ali
+
+U system.exp_gen%s	s-expgen.ads		8d342672 BN EE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-expgen.ads		19951120072820 98273f70
+D s-expgen.adb		20031119211824 69ae5693
+X 1 system.ads
+44K9*System 165e11 2|43r9 44r14 66r5 3|36r14 183r5
+X 2 s-expgen.ads
+43K16*Exp_Gen 1|44k9 2|44r21 66l12 66e19 3|36b21 183l12 183t19
+49F12 Type_Of_Base 52r15 54r15 3|43r15 45r15 47r16 48r16
+51v13*Exp_Float_Type 52>7 53>7 3|42b13 132l8 132t22
+52*7 Left{49F12} 3|43b7 48r32
+53i7 Right{integer} 3|44b7 49r27
+59I12 Type_Of_Base 62r15 64r15 3|142r15 144r15 146r16 147r16
+61v13*Exp_Integer_Type 62>7 63>7 3|141b13 181l8 181t24
+62*7 Left{59I12} 3|142b7 147r32
+63i7 Right{natural} 3|143b7 148r27
+X 3 s-expgen.adb
+47*7 Result{2|49F12} 69m19 69r29 83r17 106m22 106r32 123r29
+48*7 Factor{2|49F12} 69r38 79m16 79r26 79r35 88r13 106r41 116m19 116r29 116r38
+49i7 Exp{integer} 58r10 65r16 73m13 73r20 74r23 102r19 110m16 110r23 111r26
+146*7 Result{2|59I12} 165m19 165r29 180r14
+147*7 Factor{2|59I12} 165r38 175m16 175r26 175r35
+148i7 Exp{natural} 159r10 161r16 169m13 169r20 170r23
+

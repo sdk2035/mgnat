@@ -1,0 +1,38 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.powten_table%s	s-powtab.ads		5556a8c1 EE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-powtab.ads		19991210110140 4045b1c3
+X 1 system.ads
+44K9*System 165e11 2|38r9 74r5
+X 2 s-powtab.ads
+38K16*Powten_Table 1|44k9 2|39r14 74l12 74e24
+41N4*Maxpow 49r34
+49a4*Powten(long_long_float)
+

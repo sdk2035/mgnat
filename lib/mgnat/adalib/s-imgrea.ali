@@ -1,0 +1,144 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.img_real%b	s-imgrea.adb		d64c4322 PK
+W system%s		system.ads		system.ali
+W system.fat_llf%s	s-fatllf.ads		s-fatllf.ali
+W system.img_llu%s	s-imgllu.adb		s-imgllu.ali
+W system.img_uns%s	s-imguns.adb		s-imguns.ali
+W system.powten_table%s	s-powtab.ads		s-powtab.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U system.img_real%s	s-imgrea.ads		28a94a10 EE PR PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-fatgen.ads		20060214165348 df07f9b2
+D s-fatllf.ads		20060214165348 67594a9a
+D s-imgllu.ads		19951120073102 287d86e3
+D s-imgrea.ads		19951120073118 3dba5312
+D s-imgrea.adb		19990503085706 fc1e6c6f
+D s-imguns.ads		19951120073124 82daea35
+D s-powtab.ads		19991210110140 4045b1c3
+D s-secsta.ads		19990726073750 38cfbadd
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 1 system.ads
+44K9*System 165e11 5|38r9 73r5 6|36r6 36r33 37r6 37r33 38r6 38r33 39r6 39r33
+. 41r14 616r5
+X 4 s-imgllu.ads
+42K16*Img_LLU 61e19 6|36w13 36r40
+50U14*Set_Image_Long_Long_Unsigned 6|346r13
+X 5 s-imgrea.ads
+38K16*Img_Real 1|44k9 5|39r22 73l12 73e20 6|41b21 616l12 616t20
+41V13*Image_Ordinary_Fixed_Point{string} 42>7 43>7 6|74b13 90l8 90t34
+42f7 V{long_long_float} 6|75b7 83r10 88r23
+43i7 Aft{natural} 6|76b7 88r35
+51V13*Image_Floating_Point{string} 52>7 53>7 6|96b13 112l8 112t28
+52f7 V{long_long_float} 6|97b7 105r27 110r23
+53i7 Digs{natural} 6|98b7 110r35
+59U14*Set_Image_Real 60>7 61<7 62=7 63>7 64>7 65>7 6|88r7 110r7 118b14 614l8
+. 614t22
+60f7 V{long_long_float} 6|119b7 430r10 431r15 436r13 437r16 442r13 443r64
+61s7 S{string} 6|120b7 359m10
+62i7 P{natural} 6|121b7 358m10 358r15 359r13
+63i7 Fore{natural} 6|122b7 401r15 449r31 550r34 559r34 588r31
+64i7 Aft{natural} 6|123b7 126r48 401r26
+65i7 Exp{natural} 6|124b7 403r13 404r22 454r13 457r40 483r13 610r21
+X 6 s-imgrea.adb
+59N4 Maxdigs 498r32 508r33 571r21 578r27 581r35
+63N4 Unsdigs 335r25
+67V13 Is_Negative{boolean} 67>26 68b30 105r14 443r51
+67f26 V{long_long_float}
+79i7 P{natural} 85m10 88m29 89r22
+80a7 S{string} 84m10 88m26 89r14
+101i7 P{natural} 107m10 110m29 111r22
+102a7 S{string} 106m10 110m26 111r14
+126i7 NFrac{natural} 452r21 489r29 549r22 553r24 559r50 560r34 562r31 571r13
+. 572r27 581r27 597r27
+127e7 Sign{character} 368r13 432m10 438m10 444m13 446m13 475r15
+128f7 X{long_long_float} 195r13 201r22 203m16 221r22 250m13 255r16 261r22
+. 263m16 275r22 304m13 317m10 317r15 319r13 320m13 320r18 335r13 338r54 347r64
+. 431m10 437m10 474r10 498r19 526m19 526r24 534m19 534r24 540m19 540r24
+129i7 Scale{integer} 204m16 204r25 251m13 251r22 264m16 264r25 305m13 305r22
+. 321m13 321r22 426m7 515r33 584m16 584r25 597r19
+130i7 Expon{integer} 597m10 602r13 604r43 607r44
+132N7 Field_Max 137r31
+137a7 Digs{string} 339m16 348m16 389r18 517m22 583m16 589r15 604m51 607m52
+141i7 Ndigs{natural} 336m13 339m22 345m13 348m22 516m22 516r31 517r28 549r13
+. 553r32 554r26 559r42 560r26 562r23 562r42 582m16 582r25 583r22 591r23 600m10
+. 604m57 607m58 610r27 611r23
+144U17 Adjust_Scale 144>31 186b17 324l11 324t23 508r19 572r13 578r13
+144i31 S{natural} 186b31 195r25 202r40 223r32 234r36 255r29 262r39 277r32
+. 288r36 319r26
+153U17 Convert_Integer 330b17 350l11 350t26 509r19 527r19 573r13 579r13
+158U17 Set 158>22 178r22 356b17 360l11 360t14 370r16 373r13 377r16 389r13
+. 408r13 419r13 450r10 451r10 455r13 456r13 465r10 466r10 467r10 475r10 476r10
+. 477r10 478r10 551r13 552r13 561r13 589r10 590r10 599r10 603r13 606r13
+158e22 C{character} 356b22 359r19
+161U17 Set_Blanks_And_Sign 161>38 366b17 380l11 380t30 449r10 550r13 559r13
+. 588r10
+161i38 N{integer} 366b38 369r27 376r27
+167U17 Set_Digs 167>27 167>30 179r22 386b17 391l11 391t19 554r13 560r13 562r13
+. 591r10 611r10
+167i27 S{natural} 386b27 388r19
+167i30 E{natural} 386b30 388r24
+170U17 Set_Special_Fill 170>35 397b17 410l11 410t27 468r10 479r10
+170i35 N{natural} 397b35 401r32
+175U17 Set_Zeros 175>28 180r22 416b17 421l11 421t20 452r10 457r13 553r13
+. 610r10
+175i28 N{integer} 416b28 418r24
+187i10 Lo{natural} 216m13 220r24 225r22 231m22 236r22 270m13 274r24 279r22
+. 290r22 296m22
+188i10 Hi{natural} 217m13 220r29 225r28 236r28 242m22 271m13 274r29 279r28
+. 285m22 290r28
+189i10 Mid{natural} 220m16 221r34 226m22 226r29 231r28 237m22 237r29 242r28
+. 251r30 274m16 275r34 281m22 281r29 285r28 292m22 292r29 296r28 305r30
+190f10 XP{long_long_float} 201m16 202r26 203r21 221m16 223r19 227m22 227r28
+. 234r22 238m22 238r28 250r18 261m16 262r26 263r21 275m16 277r19 280m22 280r28
+. 288r22 291m22 291r28 304r18
+369i17 J{integer}
+376i17 J{integer}
+388i14 J{integer} 389r24
+398i10 F{natural} 401m10 404m13 404r18 407r24
+407i14 J{integer}
+418i14 J{integer}
+489i13 NF{natural} 515r41 525r22 533r22 534r36 535m19 541m19 541r25
+515i23 J{integer}
+581i17 J{integer}
+X 7 s-imguns.ads
+42K16*Img_Uns 6|37w13 37r40 7|61e19
+50U14*Set_Image_Unsigned 6|337r13 604r13 607r13
+X 8 s-powtab.ads
+38K16*Powten_Table 6|38w13 38r40 8|74e24
+41N4*Maxpow 6|201r34 204r33 217r19 261r34 264r33 271r19 533r27 540r36 541r30
+49a4*Powten(long_long_float) 6|195r17 201r26 202r32 221r26 223r24 234r28
+. 255r21 261r26 262r31 275r26 277r24 288r28 319r18 335r17 498r24 534r28 540r28
+X 10 s-unstyp.ads
+42K16*Unsigned_Types 6|39w13 39r40 10|234e26
+47M9*Unsigned 6|63r26 338r16 604r33 607r33
+49M9*Long_Long_Unsigned 6|61r19 347r16
+

@@ -1,0 +1,42 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U calendar%s		calendar.ads		16563f1c NE
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-calend.ads		19981212023726 979f5d2f
+D calendar.ads		20021213031642 81c96233
+D system.ads		20050820125040 15131902
+X 1 ada.ads
+18K9*Ada 21e8 3|18r6 20r26
+X 2 a-calend.ads
+40K13*Calendar 119e17 3|18w10 20r30
+X 3 calendar.ads
+20K9*Calendar=20:30
+

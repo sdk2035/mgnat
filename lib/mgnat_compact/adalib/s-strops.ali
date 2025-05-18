@@ -1,0 +1,72 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.string_ops%b	s-strops.adb		6406efc7 PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U system.string_ops%s	s-strops.ads		cacad10a BN EE PR PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-strops.ads		19980415014434 dfd9c808
+D s-strops.adb		19980415014424 bbdf27cf
+X 1 system.ads
+44K9*System 165e11 3|38r9 64r5 4|36r14 149r5
+81V13*"<="{boolean} 4|44r19 92r19
+X 3 s-strops.ads
+38K16*String_Ops 1|44k9 3|39r22 64l12 64e22 4|36b21 149l12 149t22
+41V13*Str_Concat{string} 41>25 41>28 4|42b13 58l8 58t18
+41s25 X{string} 4|42b25 44r10 49r37 50r25 50r36 53r16 53r28 54r16 54r26
+41s28 Y{string} 4|42b28 45r17 49r48 54r49
+44V13*Str_Concat_SC{string} 44>28 44>40 4|90b13 105l8 105t21
+44s28 X{string} 4|90b28 92r10 97r25 97r36 100r16 100r28
+44e40 Y{character} 4|90b40 93r23 101r27
+47V13*Str_Concat_CS{string} 47>28 47>43 4|77b13 84l8 84t21
+47e28 X{character} 4|77b28 81r16
+47s43 Y{string} 4|77b43 78r24 82r26
+50V13*Str_Concat_CC{string} 50>28 50>31 4|64b13 71l8 71t21
+50e28 X{character} 4|64b28 68r16
+50e31 Y{character} 4|64b31 69r16
+53V13*Str_Equal{boolean} 53>24 53>27 4|111b13 125l8 125t17
+53s24 A{string} 4|111b24 113r10 117r19 118r16 118r43
+53s27 B{string} 4|111b27 113r22 118r25 118r33
+56U14*Str_Normalize 56=29 62r19 4|131b14 136l8 136t21
+56s29 A{string} 4|131b29 133r16 134m10
+59U14*Wide_Str_Normalize 59=34 63r19 4|142b14 147l8 147t26
+59s34 A{wide_string} 4|142b34 144r16 145m10
+X 4 s-strops.adb
+49i13 L{natural} 50r46
+50a13 R{string} 53m13 54m13 54r38 55r20
+65a7 R{string} 68m7 69m7 70r14
+78a7 R{string} 81m7 82m7 82r15 83r14
+97a13 R{string} 100m13 101m13 101r16 102r20
+117i14 J{integer} 118r19 118r28
+133i11 J{integer} 134r13
+144i11 J{integer} 145r13
+

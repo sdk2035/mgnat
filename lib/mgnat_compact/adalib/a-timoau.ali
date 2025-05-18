@@ -1,0 +1,204 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnvnvnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.text_io.modular_aux%b  a-timoau.adb	fc668921 PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+W system%s		system.ads		system.ali
+W system.img_biu%s	s-imgbiu.adb		s-imgbiu.ali
+W system.img_llb%s	s-imgllb.adb		s-imgllb.ali
+W system.img_llu%s	s-imgllu.adb		s-imgllu.ali
+W system.img_llw%s	s-imgllw.adb		s-imgllw.ali
+W system.img_uns%s	s-imguns.adb		s-imguns.ali
+W system.img_wiu%s	s-imgwiu.adb		s-imgwiu.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.val_llu%s	s-valllu.adb		s-valllu.ali
+W system.val_uns%s	s-valuns.adb		s-valuns.ali
+
+U ada.text_io.modular_aux%s  a-timoau.ads	37a37a52 EE PK
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D a-tigeau.ads		19971119133946 c2a8a867
+D a-timoau.ads		19971119133952 e29644e9
+D a-timoau.adb		20040925164050 1232a9a6
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-imgbiu.ads		19951120073004 afd0f1a2
+D s-imgllb.ads		19951120073040 d8f788db
+D s-imgllu.ads		19951120073102 287d86e3
+D s-imgllw.ads		19951120073110 479fed4d
+D s-imguns.ads		19951120073124 82daea35
+D s-imgwiu.ads		19951120073138 72e0f842
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D s-valllu.ads		19960414164000 d2665433
+D s-valuns.ads		19960414164036 f4f3989a
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 11|45r17 91r5 12|36r6 36r35 47r14 305r5
+X 9 a-textio.ads
+51K13*Text_IO 1|18k9 9|428e16 11|45r21 91r9 12|36r10 36r39 47r18 305r9
+54P9*File_Type(317R9) 11|50r18 55r18 60r18 66r18 12|56r17 68r18 93r18 160r17
+. 208r18 233r18
+76I12*Field{integer} 11|52r18 57r18 62r18 68r18 12|70r18 72r27 95r18 97r27
+. 210r18 213r26 235r18 238r26 262r26 288r26
+81I12*Number_Base{integer} 11|63r18 69r18 84r17 89r17 12|211r18 236r18 260r17
+. 286r17
+277X4*Data_Error 12|131r16 152r16
+278X4*Layout_Error 12|273r16 299r16
+X 10 a-tigeau.ads
+39K29*Generic_Aux 191e28 12|36w18 36r47
+48U14*Check_End_Of_Field 12|85r7 110r7
+84U14*Load_Width 12|78r10 103r10
+91U14*Load_Skip 12|168r7
+105U14*Load 12|185r13
+112U14*Load 12|180r10 188r10
+123U14*Load 12|176r7 197r13
+131U14*Load_Digits 12|177r7
+139U14*Load_Digits 12|198r13
+152U14*Load_Extended_Digits 12|184r13
+162U14*Put_Item 12|225r7 250r7
+176U14*String_Skip 12|79r10 104r10 125r7 146r7
+X 11 a-timoau.ads
+45K29*Modular_Aux 9|51k13 11|91l17 91e28 12|47b26 305l17 305t28
+47K12*U=47:29 51r19 56r19 61r18 67r18 73r18 78r18 83r17 88r17
+49U14*Get_Uns 50>7 51<7 52>7 12|67b14 86l8 86t15
+50p7 File{9|54P9} 12|68b7 78r22 81r24 85r27
+51m7 Item{32|47M9} 12|69b7 84m7
+52i7 Width{9|76I12} 12|70b7 77r10 78r28 85r49
+54U14*Get_LLU 55>7 56<7 57>7 12|92b14 111l8 111t15
+55p7 File{9|54P9} 12|93b7 103r22 106r24 110r27
+56m7 Item{32|49M9} 12|94b7 109m7
+57i7 Width{9|76I12} 12|95b7 102r10 103r28 110r49
+59U14*Put_Uns 60>7 61>7 62>7 63>7 12|207b14 226l8 226t15
+60p7 File{9|54P9} 12|208b7 225r17
+61m7 Item{32|47M9} 12|209b7 218r30 220r36 222r36
+62i7 Width{9|76I12} 12|210b7 217r29 220r42 222r48
+63i7 Base{9|81I12} 12|211b7 217r10 219r13 222r42
+65U14*Put_LLU 66>7 67>7 68>7 69>7 12|232b14 251l8 251t15
+66p7 File{9|54P9} 12|233b7 250r17
+67m7 Item{32|49M9} 12|234b7 243r40 245r46 247r46
+68i7 Width{9|76I12} 12|235b7 242r29 245r52 247r58
+69i7 Base{9|81I12} 12|236b7 242r10 244r13 247r52
+71U14*Gets_Uns 72>7 73<7 74<7 12|117b14 132l8 132t16
+72s7 From{string} 12|118b7 125r20 126r30 126r48
+73m7 Item{32|47M9} 12|119b7 126m7
+74i7 Last{positive} 12|120b7 127m7
+76U14*Gets_LLU 77>7 78<7 79<7 12|138b14 153l8 153t16
+77s7 From{string} 12|139b7 146r20 147r40 147r58
+78m7 Item{32|49M9} 12|140b7 147m7
+79i7 Last{positive} 12|141b7 148m7
+81U14*Puts_Uns 82<7 83>7 84>7 12|257b14 277l8 277t16
+82s7 To{string} 12|258b7 267r42 269r48 272r16 275m10 275r14 275r26
+83m7 Item{32|47M9} 12|259b7 267r36 269r36
+84i7 Base{9|81I12} 12|260b7 266r10 269r42
+86U14*Puts_LLU 87<7 88>7 89>7 12|283b14 303l8 303t16
+87s7 To{string} 12|284b7 293r52 295r58 298r16 301m10 301r14 301r26
+88m7 Item{32|49M9} 12|285b7 293r46 295r46
+89i7 Base{9|81I12} 12|286b7 292r10 295r52
+X 12 a-timoau.adb
+55U14 Load_Modular 56>7 57<7 58=7 81r10 106r10 159b14 201l8 201t20
+56p7 File{9|54P9} 160b7 168r18 176r13 177r20 180r16 184r35 185r19 188r16
+. 197r19 198r26
+57s7 Buf{string} 161b7 176m19 177m26 180m22 184m41 185m25 185r35 188m22 197m25
+. 198m32
+58i7 Ptr{natural} 162b7 176m24 177m31 180m27 183r25 184m46 185m30 188m27
+. 197m30 198m37
+72a7 Buf{string} 78m35 79r23 81m30 84r30 85r33
+73i7 Stop{integer} 78m40 81m35 84r47 85r38
+74i7 Ptr{integer} 79m28 84m35 85r44
+97a7 Buf{string} 103m35 104r23 106m30 109r40 110r33
+98i7 Stop{integer} 103m40 106m35 109r57 110r38
+99i7 Ptr{integer} 104m28 109m45 110r44
+122i7 Pos{integer} 125m26 126m36 127r15
+143i7 Pos{integer} 146m26 147m46 148r15
+164i7 Hash_Loc{natural} 183m13 185r40
+165b7 Loaded{boolean} 177m36 179r10 180m42 182r13 188m42 190r13
+213a7 Buf{string} 218m36 220m49 222m55 225r23
+214i7 Ptr{natural} 218m41 220m54 222m60 225r33
+238a7 Buf{string} 243m46 245m59 247m65 250r23
+239i7 Ptr{natural} 243m51 245m64 247m70 250r33
+262a7 Buf{string} 267m53 269m59 275r49
+263i7 Ptr{natural} 267m58 269m64 272r10 275r37 275r59
+288a7 Buf{string} 293m63 295m69 301r49
+289i7 Ptr{natural} 293m68 295m74 298r10 301r37 301r59
+X 15 system.ads
+44K9*System 11|43r6 47r22 12|38r6 38r28 39r6 39r28 40r6 40r28 41r6 41r28
+. 42r6 42r28 43r6 43r28 44r6 44r28 45r6 45r28 49r8 15|165e11
+X 19 s-imgbiu.ads
+42K16*Img_BIU 12|38w13 38r35 19|76e19
+61U14*Set_Image_Based_Unsigned 12|222r10 269r10
+X 20 s-imgllb.ads
+42K16*Img_LLB 12|40w13 40r35 20|76e19
+61U14*Set_Image_Based_Long_Long_Unsigned 12|247r10 295r10
+X 21 s-imgllu.ads
+42K16*Img_LLU 12|41w13 41r35 21|61e19
+50U14*Set_Image_Long_Long_Unsigned 12|243r10
+X 22 s-imgllw.ads
+42K16*Img_LLW 12|42w13 42r35 22|73e19
+59U14*Set_Image_Width_Long_Long_Unsigned 12|245r10 293r10
+X 23 s-imguns.ads
+42K16*Img_Uns 12|39w13 39r35 23|61e19
+50U14*Set_Image_Unsigned 12|218r10
+X 24 s-imgwiu.ads
+42K16*Img_WIU 12|43w13 43r35 24|73e19
+59U14*Set_Image_Width_Unsigned 12|220r10 267r10
+X 32 s-unstyp.ads
+42K16*Unsigned_Types 11|43w13 47r29 12|49r15 32|234e26
+47M9*Unsigned 11|51r21 61r20 73r20 83r19 12|69r19 119r18 209r18 259r17
+49M9*Long_Long_Unsigned 11|56r21 67r20 78r20 88r19 12|94r19 140r18 234r18
+. 285r17
+X 33 s-valllu.ads
+41K16*Val_LLU 12|45w13 45r35 33|83e19
+44V13*Scan_Long_Long_Unsigned{32|49M9} 12|109r15 147r15
+X 34 s-valuns.ads
+41K16*Val_Uns 12|44w13 44r35 34|83e19
+44V13*Scan_Unsigned{32|47M9} 12|84r15 126r15
+

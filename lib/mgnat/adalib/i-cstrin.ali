@@ -1,0 +1,148 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnn
+
+U interfaces.c.strings%b  i-cstrin.adb		8577b8d9 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W system%s		system.ads		system.ali
+W system.address_to_access_conversions%s
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W unchecked_conversion%s
+
+U interfaces.c.strings%s  i-cstrin.ads		96d03490 EE PR PK
+W interfaces.c%s	i-c.adb			i-c.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D interfac.ads		20021213031652 279b6d6d
+D i-c.ads		20021213045752 d7e8c1a2
+D i-cstrin.ads		20030111231242 bac6b2ae
+D i-cstrin.adb		20030111232230 9e42cefe
+D system.ads		20050820125040 15131902
+D s-atacco.ads		19960128010218 b4e0dd8b
+D s-atacco.adb		19951120072648 4552c4ed
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D unchconv.ads		20021213031438 34860a55
+X 3 interfac.ads
+23K9*Interfaces 168e15 5|42r9 105r5 6|39r14 322r5
+X 4 i-c.ads
+20K20*C 3|23k9 4|141e17 5|42r20 105r16 6|39r25 322r16
+55M9*size_t 5|49r35 70r19 77r19 80r49 84r19 90r19 6|55r44 59r56 62r30 72r44
+. 96r17 121r39 163r56 178r49 179r20 224r19 237r27 243r19 274r19 302r53
+67E9*char<character> 6|41r62 47r44 51r28 140r44 152r28
+69e4*nul{67E9} 6|121r16 166r24 187r40 286r26 313r26 318r26
+74A9*char_array(67E9) 5|45r41 58r40 66r48 71r16 85r19 6|59r37 95r40 163r37
+. 225r19 255r48 256r16 275r16 277r16 303r16
+79V13*To_C{74A9} 6|133r30 248r29
+84V13*To_Ada{string} 6|296r14 314r20 319r14
+139X4*Terminator_Error 6|210r16
+X 5 i-cstrin.ads
+42K22*Strings 4|20k20 5|43r22 105l18 105e25 6|39b27 322l18 322t25
+45P9*char_array_access(4|74A9) 54r22 6|200r22
+47M9*chars_ptr 49r55 51r24 56r19 58r59 60r49 62r34 66r30 69r19 73r30 76r19
+. 80r31 83r19 89r19 97c9 99r24 6|47r26 51r41 55r25 55r59 62r45 65r32 72r25
+. 72r59 74r21 81r34 95r59 97r17 131r49 140r26 152r41 178r31 202r19 223r19
+. 228r15 242r19 255r30 273r19 294r30 302r30
+49A9*chars_ptr_array(47M9)
+51m4*Null_Ptr{47M9} 99c4 6|83r17 88r15 182r17 206r17 213r17 259r17 280r17
+. 306r17
+53V13*To_Chars_Ptr{47M9} 54>7 55>7 6|199b13 216l8 216t20
+54p7 Item{45P9} 6|200b7 205r10 208r43 208r55
+55b7 Nul_Check{boolean} 6|201b7 207r13
+58V13*New_Char_Array{47M9} 58>29 6|95b13 125l8 125t22 133r14
+58a29 Chars{4|74A9} 6|95b29 103r41 104r37 108r19 111r28 111r35 119r28 121r48
+60V13*New_String{47M9} 60>25 6|131b13 134l8 134t18
+60s25 Str{string} 6|131b25 133r36
+62U14*Free 62=20 6|81b14 89l8 89t12
+62m20 Item{47M9} 6|81b20 83r10 87r15 88m7
+64X4*Dereference_Error 6|183r16 260r16 281r16 307r16
+66V13*Value{4|74A9} 66>20 6|255b13 270l8 270t13 296r22
+66m20 Item{47M9} 6|255b20 256r41 259r10 266r30
+68V13*Value{4|74A9} 69>7 70>7 6|272b13 292l8 292t13
+69m7 Item{47M9} 6|273b7 280r10 285r30
+70m7 Length{4|55M9} 6|274b7 277r33
+73V13*Value{string} 73>20 6|294b13 297l8 297t13
+73m20 Item{47M9} 6|294b20 296r29
+75V13*Value{string} 76>7 77>7 6|302b13 320l8 320t13
+76m7 Item{47M9} 6|302b20 306r10 311r30
+77m7 Length{4|55M9} 6|302b41 303r33 310r21 318r15
+80V13*Strlen{4|55M9} 80>21 6|178b13 193l8 193t14 231r50 256r33
+80m21 Item{47M9} 6|178b21 182r10 187r19
+82U14*Update 83>7 84>7 85>7 86>7 6|109r10 117r10 222b14 239l8 239t14 248r7
+83m7 Item{47M9} 6|109r18 117r18 223b7 228r28 231r58
+84m7 Offset{4|55M9} 6|110r18 118r18 224b7 228r35 231r25
+85a7 Chars{4|74A9} 6|111r18 119r18 225b7 231r34 235r16 236r16
+86b7 Check{boolean} 6|112r18 120r18 226b7 231r10
+88U14*Update 89>7 90>7 91>7 92>7 6|241b14 249l8 249t14
+89m7 Item{47M9} 6|242b7 248r15
+90m7 Offset{4|55M9} 6|243b7 248r21
+91s7 Str{string} 6|244b7 248r35
+92b7 Check{boolean} 6|245b7 248r41
+94X4*Update_Error 6|232r16
+X 6 i-cstrin.adb
+41K12 Char_Access[8|21] 141r11 153r11
+47V13 Peek{4|67E9} 47>19 48r19 140b13 146l8 146t12 187r13 266r24 285r24 311r24
+47m19 From{5|47M9} 140b19
+51U14 Poke 51>20 51>34 52r19 121r10 152b14 157l8 157t12 236r10
+51e20 Value{4|67E9} 152b20
+51m34 Into{5|47M9} 121r21 152b34 236r27
+55V13 "+"{5|47M9} 55>18 55>36 72b13 75l8 75t11 121r37 187r24 228r33 237r25
+. 266r35 285r35 311r35
+55m18 Left{5|47M9} 72b18 74r14
+55m36 Right{4|55M9} 72b36 74r32
+59V13 Position_Of_Nul{4|55M9} 59>30 103r16 163b13 172l8 172t23 208r18
+59a30 Into{4|74A9} 103r33 163b30 165r16 166r13 171r14 208r35
+62V13 C_Malloc{5|47M9} 62>23 63b<c,__gnat_malloc>22 104r18
+62m23 Size{4|55M9}
+65U14 C_Free 65>22 66b<c,__gnat_free>22 87r7
+65m22 Address{5|47M9}
+96m7 Index{4|55M9} 103m7 104r29 108r10 111r50
+97m7 Pointer{5|47M9} 104m7 109r28 117r28 121r29 124r14
+165m11 J{4|55M9} 166r19 167r20
+179m7 Item_Index{4|55M9} 187r26 188r20 191m10 191r24
+228m7 Index{5|47M9} 236r35 237m10 237r19
+235m11 J{4|55M9} 236r23
+256a7 Result{4|74A9} 265r16 266m10 269r14
+265m11 J{4|55M9} 266r18 266r37
+277a7 Result{4|74A9} 284r16 285m10 286r13 287r20 291r14
+284m11 J{4|55M9} 285r18 285r37 286r21 287r33
+303a7 Result{4|74A9} 311m10 313r13 314r28 318m7 319r22
+310m11 J{4|55M9} 311r18 311r37 313r21 314r41
+X 7 system.ads
+44K9*System 5|40r6 97r26 6|36w6 36r18 37r6 7|165e11
+X 8 s-atacco.ads
+21k16*Address_To_Access_Conversions 6|37w13 41r31 8|33e41
+X 14 s-stoele.ads
+26K16*Storage_Elements 5|40w13 97r33 14|91e28
+79M9*Integer_Address 5|97r50
+

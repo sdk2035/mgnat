@@ -1,0 +1,57 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.strings.hash%b	a-strhas.adb		0b1125e8 NE PU SU
+W ada.strings%s		a-string.ads		a-string.ali
+
+U ada.strings.hash%s	a-strhas.ads		b60ca7fb EE PU SU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings%s		a-string.ads		a-string.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-contai.ads		20050817131724 050b27b6
+D a-string.ads		20060220230356 87b4230b
+D a-strhas.ads		20060220172428 34b3a346
+D a-strhas.adb		20060220172428 3fa286ae
+D system.ads		20050820125040 15131902
+X 1 ada.ads
+18K9*Ada 21e8 4|16r6 18r10 20r14 5|38r10 39r8 55r5
+X 2 a-contai.ads
+16K13*Containers 22e19 4|16w10 18r49 5|38r49 39r12
+19M9*Hash_Type 4|18r60 5|38r60 42r16 43r32 46r10
+X 3 a-string.ads
+16K13*Strings 35e16 4|18r14 20r18 5|38r14 55r9
+X 4 a-strhas.ads
+18V22*Hash{2|19M9} 3|16k13 4|18>28 20r26 5|38b22 55l17 55t21
+18s28 Key{string} 5|38b28 50r13 51r52
+X 5 a-strhas.adb
+41V13*Rotate_Left{2|19M9} 42>7 43>7 44b30 51r14
+42m7 Value{2|19M9}
+43i7 Amount{natural}
+46m4 Tmp{2|19M9} 49m4 51m7 51r27 54r11
+50i8 J{integer} 51r57
+

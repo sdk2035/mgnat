@@ -1,0 +1,108 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.file_control_block%s  s-ficobl.ads	8bbb7125 EE PK
+W ada%s			ada.ads			ada.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 11|42r6 85r30
+X 5 a-stream.ads
+40K13*Streams 72e16 11|42w10 85r34
+43H9*Root_Stream_Type 70e64 11|85r42
+57x14*Read
+63x14*Write
+X 8 interfac.ads
+23K9*Interfaces 168e15 11|43r6 87r16
+X 9 i-cstrea.ads
+43K20*C_Streams 349e25 11|43w17 87r27
+54M12*FILEs{10|71M9} 11|87r37
+X 10 system.ads
+44K9*System 165e11 11|45r9 157r5
+71M9*Address
+X 11 s-ficobl.ads
+45K16*File_Control_Block 10|44k9 11|157l12 157e30
+62P9*Pstring(string) 90r14 95r14
+65E9*File_Mode 65e66 100r14
+65n23*In_File{65E9}
+65n32*Inout_File{65E9}
+65n44*Out_File{65E9}
+65n54*Append_File{65E9}
+70E9*Shared_Status_Type 70e46 117r23
+70n32*Yes{70E9}
+70n37*No{70E9}
+70n41*None{70E9}
+82R9*AFCB 83r32 85c9 139r44 145r40 151r39
+83P9*AFCB_Ptr(82R9) 124r14 125r14 139r57
+85H9*AFCB<5|43R9> 5|57p14 63p14 11|129e14 139p13 145p14 151p14
+87m7*Stream{9|54M12}
+90p7*Name{62P9}
+95p7*Form{62P9}
+100e7*Mode{65E9}
+104b7*Is_Regular_File{boolean}
+107b7*Is_Temporary_File{boolean}
+111b7*Is_System_File{boolean}
+114b7*Is_Text_File{boolean}
+117e7*Shared_Status{70E9}
+120e7*Access_Method{character}
+124p7*Next{83P9}
+125p7*Prev{83P9}
+139y13*AFCB_Allocate{83P9} 139>28
+139r28 Control_Block{85R9}
+145x14*AFCB_Close 145^26
+145p26 File(85R9)
+151x14*AFCB_Free 151^25
+151p25 File(85R9)
+

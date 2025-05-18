@@ -1,0 +1,47 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.exp_lli%s	s-explli.ads		efb910aa EE PU PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.arith_64%s	s-arit64.adb		s-arit64.ali
+W system.exp_gen%s	s-expgen.adb		s-expgen.ali
+
+D interfac.ads		20021213031652 279b6d6d
+D system.ads		20050820125040 15131902
+D s-arit64.ads		19961219232852 2261a1ca
+D s-expgen.ads		19951120072820 98273f70
+D s-expgen.adb		20031119211824 69ae5693
+D s-explli.ads		19951120072836 628d36d8
+X 2 system.ads
+44K9*System 165e11 6|38r6 40r9 44r10 46r5
+X 4 s-expgen.ads
+43K16*Exp_Gen 66e19 6|38w13 44r17
+61v13*Exp_Integer_Type 6|44r25
+X 6 s-explli.ads
+40K16*Exp_LLI 2|44k9 6|41r14 46l12 46e19
+43V13*Exp_Long_Long_Integer[4|61]{long_long_integer}
+

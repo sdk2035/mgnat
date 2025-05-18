@@ -1,0 +1,44 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.wid_bool%b	s-widboo.adb		627865ff PK
+W system%s		system.ads		system.ali
+
+U system.wid_bool%s	s-widboo.ads		4b75f369 EE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-widboo.ads		19951120073954 5e66ea6b
+D s-widboo.adb		19951120073950 3c1e8f94
+X 1 system.ads
+44K9*System 165e11 2|38r9 45r5 3|36r14 55r5
+X 2 s-widboo.ads
+38K16*Wid_Bool 1|44k9 2|39r14 45l12 45e20 3|36b21 55l12 55t20
+41V13*Width_Boolean{natural} 41>28 41>32 3|42b13 53l8 53t21
+41b28 Lo{boolean} 3|42b28 44r10 47r13
+41b32 Hi{boolean} 3|42b32 44r15
+

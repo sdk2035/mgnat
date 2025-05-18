@@ -1,0 +1,59 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnn
+
+U ada.streams%s		a-stream.ads		7df3772d EE PU PK
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 1 ada.ads
+18K9*Ada 21e8 3|40r9 72r5
+X 3 a-stream.ads
+40K13*Streams 1|18k9 3|41r14 72l9 72e16
+43H9*Root_Stream_Type 57p14 58r23 63p14 64r23 70c9 70e64
+45M9*Stream_Element 55r49
+47I9*Stream_Element_Offset<integer> 52r7 52r40 55r14 60r20
+51I12*Stream_Element_Count{47I9}
+54A9*Stream_Element_Array(45M9) 59r20 65r19
+57x14*Read 58=7 59<7 60<7
+58r7 Stream{43R9}
+59a7 Item{54A9}
+60i7 Last{47I9}
+63x14*Write 64=7 65>7
+64r7 Stream{43R9}
+65a7 Item{54A9}
+

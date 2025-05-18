@@ -1,0 +1,59 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U gnat.spelling_checker%b  g-speche.adb		80737498 PK
+W gnat%s		gnat.ads		gnat.ali
+
+U gnat.spelling_checker%s  g-speche.ads		67f83c38 EE PU PK
+W gnat%s		gnat.ads		gnat.ali
+
+D gnat.ads		20021213031646 e279999f
+D g-speche.ads		20021213045924 8581a5a7
+D g-speche.adb		20021213045924 05f2d13f
+D system.ads		20050820125040 15131902
+X 1 gnat.ads
+38K9*GNAT 41e9 2|39r9 58r5 3|35r14 156r5
+X 2 g-speche.ads
+39K14*Spelling_Checker 1|38k9 2|40r14 58l10 58e26 3|35b19 156l10 156t26
+42V13*Is_Bad_Spelling_Of{boolean} 43>7 44>7 3|41b13 154l8 154t26
+43s7 Found{string} 3|42b7 46r32 47r32 48r32 66r13 80r35 87r27 91r44 92r55
+. 96r40 97r49 98r55 112r21 113r36 124r16 125r23 138r16 139r23
+44s7 Expect{string} 3|43b7 50r32 51r32 52r32 66r27 80r16 86r19 91r22 92r27
+. 96r22 97r27 98r27 111r13 113r21 124r34 125r46 138r34 139r50
+X 3 g-speche.adb
+46i7 FN{natural} 58r10 71r13 78r13 79r24 122r13 123r24 136r13 137r24
+47i7 FF{natural} 66r20 80r42 87r34 91r51 92r62 96r47 97r56 98r62 124r23 125r30
+. 138r23 139r30
+48i7 FL{natural} 92r76 98r76 112r28 113r43 125r40 139r44
+50i7 EN{natural} 59r18 61r13 71r29 78r18 122r18 136r18
+51i7 EF{natural} 66r35 80r24 86r27 91r30 92r35 96r30 97r35 98r35 124r42 125r54
+. 138r42 139r58
+52i7 EL{natural} 92r49 98r49 111r21 113r29 125r68 139r68
+79i14 J{integer} 80r29 80r47 86r32 87r39 91r35 91r56 92r40 92r67 96r35 96r52
+. 97r40 97r61 98r40 98r67
+123i14 J{integer} 124r28 124r47 125r35 125r59
+137i14 J{integer} 138r28 138r47 139r35 139r63
+

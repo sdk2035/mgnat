@@ -1,0 +1,117 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnvnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.img_dec%b	s-imgdec.adb		aec2f44e PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U system.img_dec%s	s-imgdec.ads		3b88babe EE PR PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D system.ads		20050820125040 15131902
+D s-imgdec.ads		19951120073026 2e9ba3bc
+D s-imgdec.adb		19970719193402 407c9b54
+D s-imgint.ads		19951120073034 c025cca6
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 3 system.ads
+44K9*System 165e11 4|39r9 83r5 5|36r6 36r26 38r14 359r5
+X 4 s-imgdec.ads
+39K16*Img_Dec 3|44k9 4|40r22 83l12 83e19 5|38b21 359l12 359t19
+42V13*Image_Decimal{string} 43>7 44>7 5|44b13 65l8 65t21
+43i7 V{integer} 5|45b7 53r26
+44i7 Scale{integer} 5|46b7 53r35 53r61
+50U14*Set_Image_Decimal 51>7 52<7 53=7 54>7 55>7 56>7 57>7 5|53r7 71b14 85l8
+. 85t25
+51i7 V{integer} 5|72b7 80r39
+52s7 S{string} 5|73b7 84m46
+53i7 P{natural} 5|74b7 84m49
+54i7 Scale{integer} 5|75b7 84r52
+55i7 Fore{natural} 5|76b7 84r59
+56i7 Aft{natural} 5|77b7 84r65
+57i7 Exp{natural} 5|78b7 84r70
+67U14*Set_Decimal_Digits 68=7 69>7 70<7 71=7 72>7 73>7 74>7 75>7 5|84r7 91b14
+. 357l8 357t26
+68s7 Digs{string} 5|92b7 101r36 104r26 172r31 173m16 175m16 190r16 192r40
+. 195m22 198m22 206m16 243r18 262r15 293m39 296m40
+69i7 NDigs{natural} 5|93b7 112r23 115r23
+70s7 S{string} 5|94b7 217m10
+71i7 P{natural} 5|95b7 216m10 216r15 217r13
+72i7 Scale{integer} 5|96b7 118r45 318r23
+73i7 Fore{natural} 5|97b7 260r31 325r34 335r34
+74i7 Aft{natural} 5|98b7 124r64 261r17
+75i7 Exp{natural} 5|99b7 259r10 299r22
+X 5 s-imgdec.adb
+49i7 P{natural} 53m32 59r18 59r36 61r25 63r25
+50a7 S{string} 53m29 58r10 58r32 59m10 59r28 60m10 61r17 63r17
+80a7 Digs{string} 84r27 84r33
+101b7 Minus{boolean} 224r13
+104b7 Zero{boolean} 176m16 282r13
+109i7 FD{natural} 167r20 180m13 207m16 262r21 263m10 263r16 268r25 268r29
+. 271r25 330r25 341r28 349r28 349r32 351r28
+112i7 LD{natural} 162r18 181m13 187m13 188r19 271r29 318r17 330r29 341r32
+. 351r54
+115i7 ND{natural} 118r40 182m13 188m13 208m16 208r22 264m10 264r16 267r13
+. 272r46 289m10 293m45 296m46 299r28 300r25 329r46 340r16 342r50 352r50
+118i7 Digits_Before_Point{integer} 179m13 179r36 209m16 209r39 285r22 324r13
+. 335r41 340r21 342r28 349r37 351r33 352r55
+124i7 Digits_After_Point{natural} 267r19 268r34 272r25 318r31 329r25 344r28
+. 352r28
+127i7 Expon{integer} 283m13 285m13 291r13 293r32 296r33
+130U17 Round 130>24 156b17 212l11 212t16 261r10 318r10
+130i24 N{natural} 156b24 162r13 167r16 172r16 187r19 190r22 191r38
+138U17 Set 138>22 139r22 214b17 218l11 218t14 228r16 231r13 235r16 243r13
+. 250r13 262r10 265r10 288r10 292r13 295r13 326r13 327r13 343r16 350r16
+138e22 C{character} 214b22 217r19
+142U17 Set_Blanks_And_Sign 142>38 220b17 238l11 238t30 260r10 325r13 335r13
+142i38 N{integer} 220b38 221r25
+148U17 Set_Digits 148>29 148>32 149r22 240b17 245l11 245t21 268r13 271r13
+. 300r10 330r13 341r16 349r16 351r16
+148i29 S{natural} 240b29 242r19
+148i32 E{natural} 240b32 242r24
+152U17 Set_Zeroes 152>29 153r22 247b17 252l11 252t21 272r13 299r10 329r13
+. 342r16 344r16 352r16
+152i29 N{integer} 247b29 249r24
+157e10 D{character} 192m19 194r22 195r34
+191i20 J{integer} 192r46 195r28 198r28
+221i10 W{integer} 225m13 225r18 227r27 234r27
+227i17 J{integer}
+234i17 J{integer}
+242i14 J{integer} 243r24
+249i14 J{integer}
+X 6 s-imgint.ads
+40K16*Img_Int 5|36w13 36r33 6|57e19
+43V13*Image_Integer{string} 5|80r24
+46U14*Set_Image_Integer 5|293r13 296r13
+

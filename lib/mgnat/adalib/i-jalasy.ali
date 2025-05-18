@@ -1,0 +1,45 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U interfaces.java.lang.system%s  i-jalasy.ads	94a54e78 NE PR PK
+W interfaces.java.lang%s  i-javlan.ads		i-javlan.ali
+
+D interfac.ads		20021213031652 279b6d6d
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalasy.ads		20030111182250 7e26829c
+D system.ads		20050820125040 15131902
+X 1 interfac.ads
+23K9*Interfaces 168e15 4|33r9 40r5 42r22
+X 2 i-java.ads
+43K20*Java 1|23k9 2|143e20 4|33r20 40r16 42r33
+51I12*long{long_integer} 4|36r40
+X 3 i-javlan.ads
+33K25*Lang 2|43k20 3|35e25 4|33r25 40r21 42r38
+X 4 i-jalasy.ads
+33K30*System 3|33k25 4|40l26 40e32 42r43
+36V13*Current_Time_Millis{2|51I12} 39b25
+

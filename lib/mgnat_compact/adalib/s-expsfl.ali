@@ -1,0 +1,51 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnvnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.exp_sflt%s	s-expsfl.ads		e09c2668 EE PU PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.exp_gen%s	s-expgen.adb		s-expgen.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D system.ads		20050820125040 15131902
+D s-expgen.ads		19951120072820 98273f70
+D s-expgen.adb		20031119211824 69ae5693
+D s-expsfl.ads		19951120072854 6da8001a
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 3 system.ads
+44K9*System 165e11 6|38r6 40r9 44r10 46r5
+X 4 s-expgen.ads
+43K16*Exp_Gen 66e19 6|38w13 44r17
+51v13*Exp_Float_Type 6|44r25
+X 6 s-expsfl.ads
+40K16*Exp_SFlt 3|44k9 6|41r14 46l12 46e20
+43V13*Exp_Short_Float[4|51]{short_float}
+

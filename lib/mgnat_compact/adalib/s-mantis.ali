@@ -1,0 +1,47 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.mantissa%b	s-mantis.adb		1ac23755 PK
+W system%s		system.ads		system.ali
+
+U system.mantissa%s	s-mantis.ads		a955ebad EE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-mantis.ads		19960318121604 bc46f2af
+D s-mantis.adb		19970517001026 a684c5fa
+X 1 system.ads
+44K9*System 165e11 2|39r9 46r5 3|36r14 57r5
+X 2 s-mantis.ads
+39K16*Mantissa 1|44k9 2|40r14 46l12 46e20 3|36b21 57l12 57t20
+42V13*Mantissa_Value{natural} 42>29 42>36 3|42b13 55l8 55t22
+42i29 First{integer} 3|42b29 45r41
+42i36 Last{integer} 3|42b36 45r56
+X 3 s-mantis.adb
+43i7 Result{natural} 51m10 51r20 54r14
+45i7 Val{integer} 49r13 50m10 50r17
+

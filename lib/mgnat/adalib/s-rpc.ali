@@ -1,0 +1,96 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnvvnnnnnnnnnnnnnnn
+
+U system.rpc%b		s-rpc.adb		5b5f85e6 PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+
+U system.rpc%s		s-rpc.ads		bce38ed5 EE PK
+W ada%s			ada.ads			ada.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D system.ads		20050820125040 15131902
+D s-rpc.ads		19980427121718 a8d7db18
+D s-rpc.adb		20050820215818 2b87f65a
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 1 ada.ads
+18K9*Ada 21e8 7|44r6 56r22 57r8 61r20 62r20 66r19 95r22 96r8 8|44r6 44r26
+. 69r20 70r20 82r19
+X 2 a-except.ads
+89K13*Exceptions 185e19 8|44w10 44r30
+102U14*Raise_Exception 8|73r7 85r7 98r7 110r7
+X 3 a-stream.ads
+40K13*Streams 72e16 7|44w10 56r26 57r12 61r24 62r24 66r23 95r26 96r12 8|69r24
+. 70r24 82r23
+43H9*Root_Stream_Type 70e64 7|57r20 96r20
+45M9*Stream_Element
+47I9*Stream_Element_Offset<integer> 7|62r32 8|70r32
+51I12*Stream_Element_Count{47I9} 7|56r34 95r34
+54A9*Stream_Element_Array(45M9) 7|61r32 66r31 8|69r32 82r31
+X 6 system.ads
+44K9*System 165e11 7|46r9 98r5 8|46r14 125r5
+X 7 s-rpc.ads
+46K16*RPC 6|44k9 7|98l12 98e15 8|46b21 125l12 125t15
+48I9*Partition_ID<short_short_integer> 71r23 78r23 89r22 8|93r22 106r22 118r22
+53X4*Communication_Error
+55R9*Params_Stream_Type<3|43R9> 56d7 59P14 60r23 64P14 65r23 70p14 72r27
+. 73r27 77p14 79r27 85r29 86r29 94c9 96e53 8|68r23 81r23 94r26 95r26 107r26
+56i7*Initial_Size{3|51I12} 95r7
+59U14*Read<3|57p14> 60=7 61<7 62<7 8|67b14 74l8 74t12
+60r7 Stream{55R9} 8|68b7
+61a7 Item{3|54A9} 8|69b7
+62i7 Last{3|47I9} 8|70b7
+64U14*Write<3|63p14> 65=7 66>7 8|80b14 86l8 86t13
+65r7 Stream{55R9} 8|81b7
+66a7 Item{3|54A9} 8|82b7
+70U14*Do_RPC 71>7 72^7 73^7 8|92b14 99l8 99t14
+71i7 Partition{48I9} 8|93b7
+72p7 Params(55R9) 8|94b7
+73p7 Result(55R9) 8|95b7
+77U14*Do_APC 78>7 79^7 8|105b14 111l8 111t14
+78i7 Partition{48I9} 8|106b7
+79p7 Params(55R9) 8|107b7
+83P9*RPC_Receiver 90r22 8|119r22
+85p9 Params(55R9)
+86p9 Result(55R9)
+88U14*Establish_RPC_Receiver 89>7 90>7 8|117b14 123l8 123t30
+89i7 Partition{48I9} 8|118b7
+90p7 Receiver{83P9} 8|119b7
+X 8 s-rpc.adb
+54a4 CRLF{string} 57r12 58r12
+56a4 Msg{string} 73r48 85r48 98r48 110r48
+

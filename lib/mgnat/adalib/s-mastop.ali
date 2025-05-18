@@ -1,0 +1,44 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.machine_state_operations%b  s-mastop.adb  515a992f PK
+W system%s		system.ads		system.ali
+
+U system.machine_state_operations%s  s-mastop.ads  4afad471 EE PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-mastop.ads		20040603030724 5fe9cd73
+D s-mastop.adb		20040603030746 0eb3545c
+X 1 system.ads
+44K9*System 165e11 2|39r9 54r5 3|40r14 60r5
+X 2 s-mastop.ads
+39K16*Machine_State_Operations 1|44k9 2|54l12 54e36 3|40b21 60l12 60t36
+41I9*Machine_State<integer> 48r43 51r45 3|46r43 48r14 55r45 57r12
+48V13*Allocate_Machine_State{41I9} 3|46b13 49l8 49t30
+51U14*Free_Machine_State 51=34 3|55b14 58l8 58t26
+51i34 M{41I9} 3|55b34 57m7
+

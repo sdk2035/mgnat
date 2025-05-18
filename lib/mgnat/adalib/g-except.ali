@@ -1,0 +1,49 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U gnat.exceptions%s	g-except.ads		b7e7e17f EE PU PK
+W gnat%s		gnat.ads		gnat.ali
+W system%s		system.ads		system.ali
+
+D gnat.ads		20021213031646 e279999f
+D g-except.ads		20000517131524 408d61e2
+D system.ads		20050820125040 15131902
+X 1 gnat.ads
+38K9*GNAT 41e9 2|42r9 76r5
+X 2 g-except.ads
+42K14*Exceptions 1|38k9 2|43r14 76l10 76e20
+45M9*Exception_Type 48r18 49r18 50r18 51r18 54r35 68c9
+48m4*CE{45M9} 70m22
+49m4*PE{45M9} 71m22
+50m4*SE{45M9} 72m22
+51m4*TE{45M9} 73m22
+54U14*Raise_Exception 54>31 54>51 55b<c,__gnat_raise_exception>22 56r22
+54m31 E{45M9}
+54s51 Message{string}
+X 3 system.ads
+44K9*System 2|40w6 68r31 3|165e11
+71M9*Address 2|68r38
+

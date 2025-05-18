@@ -1,0 +1,78 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnvnnnnnnnvnvnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.numerics.short_complex_elementary_functions%b  a-nscefu.ads  d65fde0f EE PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.aux%s	a-numaux.ads		a-numaux.ali
+W ada.numerics.generic_complex_elementary_functions%s
+W ada.numerics.generic_complex_types%s
+W ada.numerics.generic_elementary_functions%s
+W ada.numerics.short_complex_types%s  a-nscoty.ads  a-nscoty.ali
+W system%s		system.ads		system.ali
+W system.exn_llf%s	s-exnllf.ads		s-exnllf.ali
+W system.fat_sflt%s	s-fatsfl.ads		s-fatsfl.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U ada.numerics.short_complex_elementary_functions%s  a-nscefu.ads  9a3e4b5d EB EE PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.generic_complex_elementary_functions%s
+W ada.numerics.generic_complex_types%s
+W ada.numerics.short_complex_types%s  a-nscoty.ads  a-nscoty.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-numeri.ads		20050820212018 efa2335e
+D a-numaux.ads		20040925145828 6fbb5392
+D a-ngcefu.ads		20040925145828 831c58ae
+D a-ngcefu.adb		20040925145828 2ae8c39a
+D a-ngcoty.ads		20040925145828 555a0f0e
+D a-ngelfu.ads		20040925145828 0b41cace
+D a-ngelfu.adb		20040925150604 11f3d5bd
+D a-nscefu.ads		20040925145828 d65fde0f
+D a-nscefu.ads		20040925145828 d65fde0f
+D a-nscoty.ads		20040925145828 20dffea2
+D system.ads		20050820125040 15131902
+D s-exngen.ads		19951120072738 eecfc69f
+D s-exnllf.ads		19951120072754 6d090461
+D s-fatgen.ads		20060214165348 df07f9b2
+D s-fatsfl.ads		20060214165348 c9e6b333
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 1 ada.ads
+18K9*Ada 21e8 11|16r6 17r6 19r9 20r7 21r44
+X 3 a-numeri.ads
+16K13*Numerics 1|18k9 3|27e17 11|16r10 17r10 19r13 20r11 21r48
+X 5 a-ngcefu.ads
+21k22*Generic_Complex_Elementary_Functions 55e54 11|17w19 20r20
+X 11 a-nscefu.ads
+19K22*Short_Complex_Elementary_Functions[5|21] 3|16k13
+X 12 a-nscoty.ads
+18K22*Short_Complex_Types[7|41] 11|16w19 21r57
+

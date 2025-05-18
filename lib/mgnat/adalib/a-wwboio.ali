@@ -1,0 +1,134 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnvnnnnnnnnnnnnnnnnnvnnnnnvnnnnnnnnnnvnnnnnnnnnvnnnnnnvnvnnnnnnnnnnnnnn
+
+U ada.wide_text_io.wide_bounded_io%b  a-wwboio.adb  4259bf39 PK GE
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+
+U ada.wide_text_io.wide_bounded_io%s  a-wwboio.ads  fc42b192 BN EE PK GE
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.wide_bounded%s  a-stwibo.adb	a-stwibo.ali
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-string.ads		20060220230356 87b4230b
+D a-stwibo.ads		19971119133902 14594140
+D a-stwima.ads		19981102164152 53d30b5b
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-uncdea.ads		19951215031606 dc667e6d
+D a-witeio.ads		20060220234430 8203425d
+D a-wwboio.ads		20060220172542 6a18b28f
+D a-wwboio.adb		20060220172542 76243186
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D s-wchcon.ads		19980525181154 144d0c72
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 14|18r6 22r10 24r9 52r5 15|34r6 34r28 35r6 37r14 52r13 181r5
+X 7 a-string.ads
+16K13*Strings 35e16 14|18r10 22r14
+X 8 a-stwibo.ads
+42K21*Wide_Bounded 484e29 14|18w18 22r22
+49k12*Generic_Bounded_Length 482e30 14|22r35
+53R12 Bounded_Wide_String 14|26r42[21] 29r45[21] 32r31[21] 36r31[21] 39r27[21]
+. 43r27[21] 46r27[21] 50r27[21] 15|66r42[14|21] 76r45[14|21] 87r31[14|21]
+. 114r31[14|21] 140r27[14|21] 152r27[14|21] 163r27[14|21] 175r27[14|21]
+65V16 To_Bounded_Wide_String{53R12[14|21]} 15|68r27[14|21] 79r27[14|21] 105r28[14|21]
+. 132r28[14|21]
+70V16 To_Wide_String{wide_string} 15|143r25[14|21] 155r31[14|21] 166r30[14|21]
+. 178r36[14|21]
+X 12 a-uncdea.ads
+22u15*Unchecked_Deallocation 15|35w10 52r17
+X 13 a-witeio.ads
+53K13*Wide_Text_IO 1|18k9 13|464e21 14|24r13 52r9 15|34w10 34r32 37r18 181r9
+57P9*File_Type(324R9) 14|29r14 35r14 42r14 49r14 15|76r14 113r14 151r14 174r14
+247U14*Put 15|155r7
+248U14*Put 15|143r7
+250U14*Get_Line 15|122r7 126r10
+255U14*Get_Line 15|95r7 99r10
+259V13*Get_Line{wide_string} 15|79r51
+262V13*Get_Line{wide_string} 15|68r51
+265U14*Put_Line 15|178r7
+269U14*Put_Line 15|166r7
+X 14 a-wwboio.ads
+21K17 Wide_Bounded 26r29 29r32 32r18 36r18 39r14 43r14 46r14 50r14 15|66r29
+. 68r14 76r32 79r14 87r18 105r15 114r18 132r15 140r14 143r12 152r14 155r18
+. 163r14 166r17 175r14 178r23
+24k26*Wide_Bounded_IO 13|53k13 14|21z17 52l22 52e37 15|37b31 181l22 181t37
+26V13*Get_Line{8|53R12[21]} 15|66b13 69l8 69t16
+28V13*Get_Line{8|53R12[21]} 29>7 15|75b13 80l8 80t16
+29p7 File{13|57P9} 15|76b7 79r61
+31U14*Get_Line 32<7 15|86b14 106l8 106t16
+32r7 Item{8|53R12[21]} 15|87b7 105m7
+34U14*Get_Line 35>7 36<7 15|112b14 133l8 133t16
+35p7 File{13|57P9} 15|113b7 122r17 126r20
+36r7 Item{8|53R12[21]} 15|114b7 132m7
+38U14*Put 39>7 15|139b14 144l8 144t11
+39r7 Item{8|53R12[21]} 15|140b7 143r41
+41U14*Put 42>7 43>7 15|150b14 156l8 156t11
+42p7 File{13|57P9} 15|151b7 155r12
+43r7 Item{8|53R12[21]} 15|152b7 155r47
+45U14*Put_Line 46>7 15|162b14 167l8 167t16
+46r7 Item{8|53R12[21]} 15|163b7 166r46
+48U14*Put_Line 49>7 50>7 15|173b14 179l8 179t16
+49p7 File{13|57P9} 15|174b7 178r17
+50r7 Item{8|53R12[21]} 15|175b7 178r52
+X 15 a-wwboio.adb
+39P9 Wide_String_Access(wide_string) 41r33 48r33 52r54 91r16 92r16 118r16
+. 119r16
+41U14 Free 41=20 48b14 60l8 60t12 101r10 128r10
+41p20 WSA{39P9} 48b20 57r10 58m22
+49s7 Null_Wide_String{wide_string} 57r21
+51U17 Deallocate[12|22] 58r10
+89a7 Buffer{wide_string} 95m17 96r32 98r20 99m20 100r46
+90i7 Last{natural} 95m25 96r45 98r13 99m28 100r59
+91p7 Str1{39P9} 96m7 100r35 101m16 102m10 105r52
+92p7 Str2{39P9} 100m10 102r18
+116a7 Buffer{wide_string} 122m23 123r32 125r20 126m26 127r46
+117i7 Last{natural} 122m31 123r45 125r13 126m34 127r59
+118p7 Str1{39P9} 123m7 127r35 128m16 129m10 132r52
+119p7 Str2{39P9} 127m10 129r18
+

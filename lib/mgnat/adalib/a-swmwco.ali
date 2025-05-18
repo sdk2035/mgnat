@@ -1,0 +1,225 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnvnnnnnvnnvnnnnnnnnnnnnnnnn
+
+U ada.strings.wide_maps.wide_constants%s  a-swmwco.ads  3c28267f EE PR PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.wide_latin_1%s  a-cwila1.ads	a-cwila1.ali
+W ada.strings.wide_maps%s  a-stwima.adb		a-stwima.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-charac.ads		20050819211548 b6f39c34
+D a-cwila1.ads		20050819211836 8368ae0d
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-stream.ads		20050819212200 01274ccf
+D a-string.ads		20060220230356 87b4230b
+D a-stwima.ads		19981102164152 53d30b5b
+D a-swmwco.ads		20050820214448 ec938329
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 1 ada.ads
+18K9*Ada 21e8 9|40r6 42r9 68r22 454r5
+X 2 a-charac.ads
+18K13*Characters 21e19 9|40r10 68r26
+X 3 a-cwila1.ads
+39K24*Wide_Latin_1 324e32 9|40w21 68r37
+46e4*NUL{wide_character} 9|73r10 174r15 181r15
+78e4*US{wide_character} 9|73r17
+84e4*Space{wide_character} 9|81r10
+100e4*Solidus{wide_character} 9|161r38
+104e4*Colon{wide_character} 9|162r15
+111e4*Commercial_At{wide_character} 9|162r38
+115e4*Left_Square_Bracket{wide_character} 9|163r15
+121e4*Grave{wide_character} 9|163r38
+122e4*LC_A{wide_character} 9|90r10 100r15 119r15 142r15 151r15
+127e4*LC_F{wide_character} 9|142r23
+147e4*LC_Z{wide_character} 9|90r33 100r39 119r38 151r38
+148e4*Left_Curly_Bracket{wide_character} 9|164r15
+151e4*Tilde{wide_character} 9|81r25 164r38
+152e4*DEL{wide_character} 9|74r10 174r22
+196e4*APC{wide_character} 9|74r17
+204e4*No_Break_Space{wide_character} 9|165r15
+246e4*Inverted_Question{wide_character} 9|165r38
+250e4*UC_A_Grave{wide_character} 9|91r10 110r15 152r15 192r12 298r12 337r11
+251e4*UC_A_Acute{wide_character} 9|193r12 299r12 338r11
+252e4*UC_A_Circumflex{wide_character} 9|194r12 300r12 339r11
+253e4*UC_A_Tilde{wide_character} 9|195r12 301r12 340r11
+254e4*UC_A_Diaeresis{wide_character} 9|196r12 302r12 341r11
+255e4*UC_A_Ring{wide_character} 9|197r12 303r12 342r11
+256e4*UC_AE_Diphthong{wide_character} 9|120r15 120r38 198r12 304r12
+257e4*UC_C_Cedilla{wide_character} 9|199r12 305r12 343r11
+258e4*UC_E_Grave{wide_character} 9|200r12 306r12 344r11
+259e4*UC_E_Acute{wide_character} 9|201r12 307r12 345r11
+260e4*UC_E_Circumflex{wide_character} 9|202r12 308r12 346r11
+261e4*UC_E_Diaeresis{wide_character} 9|203r12 309r12 347r11
+262e4*UC_I_Grave{wide_character} 9|204r12 310r12 348r11
+263e4*UC_I_Acute{wide_character} 9|205r12 311r12 349r11
+264e4*UC_I_Circumflex{wide_character} 9|206r12 312r12 350r11
+265e4*UC_I_Diaeresis{wide_character} 9|207r12 313r12 351r11
+269e4*UC_Icelandic_Eth{wide_character} 9|125r15 125r38 208r12 314r12
+270e4*UC_N_Tilde{wide_character} 9|209r12 315r12 352r11
+271e4*UC_O_Grave{wide_character} 9|210r12 316r12 353r11
+272e4*UC_O_Acute{wide_character} 9|211r12 317r12 354r11
+273e4*UC_O_Circumflex{wide_character} 9|212r12 318r12 355r11
+274e4*UC_O_Tilde{wide_character} 9|213r12 319r12 356r11
+275e4*UC_O_Diaeresis{wide_character} 9|91r33 110r38 152r38 214r12 320r12
+. 357r11
+276e4*Multiplication_Sign{wide_character} 9|166r15 166r38
+277e4*UC_O_Oblique_Stroke{wide_character} 9|92r10 111r15 153r15 215r12 321r12
+. 358r11
+278e4*UC_U_Grave{wide_character} 9|216r12 322r12 359r11
+279e4*UC_U_Acute{wide_character} 9|217r12 323r12 360r11
+280e4*UC_U_Circumflex{wide_character} 9|218r12 324r12 361r11
+281e4*UC_U_Diaeresis{wide_character} 9|219r12 325r12 362r11
+282e4*UC_Y_Acute{wide_character} 9|220r12 326r12 363r11
+283e4*UC_Icelandic_Thorn{wide_character} 9|111r38 123r15 123r38 221r12 327r12
+284e4*LC_German_Sharp_S{wide_character} 9|101r15 122r15 122r38
+288e4*LC_A_Grave{wide_character} 9|225r12 265r12 364r11
+289e4*LC_A_Acute{wide_character} 9|226r12 266r12 365r11
+290e4*LC_A_Circumflex{wide_character} 9|227r12 267r12 366r11
+291e4*LC_A_Tilde{wide_character} 9|228r12 268r12 367r11
+292e4*LC_A_Diaeresis{wide_character} 9|229r12 269r12 368r11
+293e4*LC_A_Ring{wide_character} 9|230r12 270r12 369r11
+294e4*LC_AE_Diphthong{wide_character} 9|121r15 121r38 231r12 271r12
+295e4*LC_C_Cedilla{wide_character} 9|232r12 272r12 370r11
+296e4*LC_E_Grave{wide_character} 9|233r12 273r12 371r11
+297e4*LC_E_Acute{wide_character} 9|234r12 274r12 372r11
+298e4*LC_E_Circumflex{wide_character} 9|235r12 275r12 373r11
+299e4*LC_E_Diaeresis{wide_character} 9|236r12 276r12 374r11
+300e4*LC_I_Grave{wide_character} 9|237r12 277r12 375r11
+301e4*LC_I_Acute{wide_character} 9|238r12 278r12 376r11
+302e4*LC_I_Circumflex{wide_character} 9|239r12 279r12 377r11
+303e4*LC_I_Diaeresis{wide_character} 9|240r12 280r12 378r11
+307e4*LC_Icelandic_Eth{wide_character} 9|126r15 126r38 241r12 281r12
+308e4*LC_N_Tilde{wide_character} 9|242r12 282r12 379r11
+309e4*LC_O_Grave{wide_character} 9|243r12 283r12 380r11
+310e4*LC_O_Acute{wide_character} 9|244r12 284r12 381r11
+311e4*LC_O_Circumflex{wide_character} 9|245r12 285r12 382r11
+312e4*LC_O_Tilde{wide_character} 9|246r12 286r12 383r11
+313e4*LC_O_Diaeresis{wide_character} 9|92r33 101r38 153r38 247r12 287r12
+. 384r11
+314e4*Division_Sign{wide_character} 9|167r15 167r38
+315e4*LC_O_Oblique_Stroke{wide_character} 9|93r10 102r15 154r15 248r12 288r12
+. 385r11
+316e4*LC_U_Grave{wide_character} 9|249r12 289r12 386r11
+317e4*LC_U_Acute{wide_character} 9|250r12 290r12 387r11
+318e4*LC_U_Circumflex{wide_character} 9|251r12 291r12 388r11
+319e4*LC_U_Diaeresis{wide_character} 9|252r12 292r12 389r11
+320e4*LC_Y_Acute{wide_character} 9|253r12 293r12 390r11
+321e4*LC_Icelandic_Thorn{wide_character} 9|124r15 124r38 254r12 294r12
+322e4*LC_Y_Diaeresis{wide_character} 9|93r33 102r38 154r38 391r11
+X 5 a-finali.ads
+45H9*Controlled 59e72 9|77r10 85r10 96r10 105r10 114r10 129r10 136r10 145r10
+. 157r10 170r10 177r10 184r10 257r10 330r10 451r10
+X 7 a-string.ads
+16K13*Strings 1|18k9 7|35e16 9|42r13 454r9
+20e4*Wide_Space{wide_character} 9|161r13
+X 8 a-stwima.ads
+42K21*Wide_Maps 7|16k13 8|260e26 9|42r21 45r37 46r37 47r37 48r37 49r37 50r37
+. 51r37 52r37 53r37 54r37 55r37 56r37 58r37 61r37 64r37 454r17
+49R9*Wide_Character_Set 193e14 9|45r47 46r47 47r47 48r47 49r47 50r47 51r47
+. 52r47 53r47 54r47 55r47 56r47 76r40 84r40 95r40 104r40 113r40 128r40 135r40
+. 144r40 156r40 169r40 176r40 183r40
+64A9*Wide_Character_Ranges(58R9) 9|72r48 80r48 88r48 99r48 108r48 117r48
+. 132r48 139r48 148r48 160r48 173r48 180r48
+140R9*Wide_Character_Mapping 240e14 9|58r47 61r47 64r47 256r30 329r30 450r25
+170K12 AF=170:27 9|77r7 85r7 96r7 105r7 114r7 129r7 136r7 145r7 157r7 170r7
+. 177r7 184r7 257r7 330r7 451r7
+230R9 Wide_Character_Mapping_Values 233e14 9|187r42 260r42 333r37
+230i40*Length{natural} 9|188r7 261r7 334r7
+231a7*Domain{wide_string} 9|190r7 263r7 336r7
+232a7*Rangev{wide_string} 9|223r7 296r7 393r7
+235P9 Wide_Character_Mapping_Values_Access(230R9)
+239p7*Map{235P9} 9|258r7
+X 9 a-swmwco.ads
+42K31*Wide_Constants 8|42k21 9|43r22 454l27 454e41
+45r4*Control_Set{8|49R9} 76c4
+46r4*Graphic_Set{8|49R9} 84c4
+47r4*Letter_Set{8|49R9} 95c4
+48r4*Lower_Set{8|49R9} 104c4
+49r4*Upper_Set{8|49R9} 113c4
+50r4*Basic_Set{8|49R9} 128c4
+51r4*Decimal_Digit_Set{8|49R9} 135c4
+52r4*Hexadecimal_Digit_Set{8|49R9} 144c4
+53r4*Alphanumeric_Set{8|49R9} 156c4
+54r4*Special_Graphic_Set{8|49R9} 169c4
+55r4*ISO_646_Set{8|49R9} 176c4
+56r4*Character_Set{8|49R9} 183c4
+58r4*Lower_Case_Map{8|140R9} 256c4
+61r4*Upper_Case_Map{8|140R9} 329c4
+64r4*Basic_Map{8|140R9} 450c4
+68K12 W=68:37 73r8 73r15 74r8 74r15 81r8 81r23 90r8 90r31 91r8 91r31 92r8
+. 92r31 93r8 93r31 100r13 100r37 101r13 101r36 102r13 102r36 110r13 110r36
+. 111r13 111r36 119r13 119r36 120r13 120r36 121r13 121r36 122r13 122r36 123r13
+. 123r36 124r13 124r36 125r13 125r36 126r13 126r36 142r13 142r21 151r13 151r36
+. 152r13 152r36 153r13 153r36 154r13 154r36 161r36 162r13 162r36 163r13 163r36
+. 164r13 164r36 165r13 165r36 166r13 166r36 167r13 167r36 174r13 174r20 181r13
+. 192r10 193r10 194r10 195r10 196r10 197r10 198r10 199r10 200r10 201r10 202r10
+. 203r10 204r10 205r10 206r10 207r10 208r10 209r10 210r10 211r10 212r10 213r10
+. 214r10 215r10 216r10 217r10 218r10 219r10 220r10 221r10 225r10 226r10 227r10
+. 228r10 229r10 230r10 231r10 232r10 233r10 234r10 235r10 236r10 237r10 238r10
+. 239r10 240r10 241r10 242r10 243r10 244r10 245r10 246r10 247r10 248r10 249r10
+. 250r10 251r10 252r10 253r10 254r10 265r10 266r10 267r10 268r10 269r10 270r10
+. 271r10 272r10 273r10 274r10 275r10 276r10 277r10 278r10 279r10 280r10 281r10
+. 282r10 283r10 284r10 285r10 286r10 287r10 288r10 289r10 290r10 291r10 292r10
+. 293r10 294r10 298r10 299r10 300r10 301r10 302r10 303r10 304r10 305r10 306r10
+. 307r10 308r10 309r10 310r10 311r10 312r10 313r10 314r10 315r10 316r10 317r10
+. 318r10 319r10 320r10 321r10 322r10 323r10 324r10 325r10 326r10 327r10 337r9
+. 338r9 339r9 340r9 341r9 342r9 343r9 344r9 345r9 346r9 347r9 348r9 349r9
+. 350r9 351r9 352r9 353r9 354r9 355r9 356r9 357r9 358r9 359r9 360r9 361r9
+. 362r9 363r9 364r9 365r9 366r9 367r9 368r9 369r9 370r9 371r9 372r9 373r9
+. 374r9 375r9 376r9 377r9 378r9 379r9 380r9 381r9 382r9 383r9 384r9 385r9
+. 386r9 387r9 388r9 389r9 390r9 391r9
+70E12 WC{wide_character} 82r8 82r22 181r20
+72a4 Control_Ranges{8|64A9} 78r7
+80a4 Graphic_Ranges{8|64A9} 86r7
+88a4 Letter_Ranges{8|64A9} 97r7
+99a4 Lower_Ranges{8|64A9} 106r7
+108a4 Upper_Ranges{8|64A9} 115r7
+117a4 Basic_Ranges{8|64A9} 130r7
+132a4 Decimal_Digit_Ranges{8|64A9} 137r7
+139a4 Hexadecimal_Digit_Ranges{8|64A9} 146r7
+148a4 Alphanumeric_Ranges{8|64A9} 158r7
+160a4 Special_Graphic_Ranges{8|64A9} 171r7
+173a4 ISO_646_Ranges{8|64A9} 178r7
+180a4 Character_Ranges{8|64A9} 185r7
+187r4 Lower_Case_Mapping{8|230R9} 258r14
+260r4 Upper_Case_Mapping{8|230R9} 331r7
+333r4 Basic_Mapping{8|230R9} 452r7
+

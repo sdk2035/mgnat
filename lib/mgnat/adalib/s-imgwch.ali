@@ -1,0 +1,66 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnn
+
+U system.img_wchar%b	s-imgwch.adb		ebcfca78 PK
+W system%s		system.ads		system.ali
+W system.img_char%s	s-imgcha.adb		s-imgcha.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+W system.wch_wts%s	s-wchwts.adb		s-wchwts.ali
+
+U system.img_wchar%s	s-imgwch.ads		b4d68cb4 EE PR PK
+W system%s		system.ads		system.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+
+D system.ads		20050820125040 15131902
+D s-imgcha.ads		20050820215300 b1560aed
+D s-imgwch.ads		19951120073130 b58899c4
+D s-imgwch.adb		19980525181150 fed556d7
+D s-secsta.ads		19990726073750 38cfbadd
+D s-wchcon.ads		19980525181154 144d0c72
+D s-wchwts.ads		20060220220310 058903f4
+X 1 system.ads
+44K9*System 165e11 3|38r6 40r9 45r14 53r5 4|36r6 36r27 37r6 37r27 38r6 38r27
+. 40r14 87r5
+X 2 s-imgcha.ads
+38K16*Img_Char 44e20 4|36w13 36r34
+41V13*Image_Character{string} 4|61r17
+X 3 s-imgwch.ads
+40K16*Img_WChar 1|44k9 3|41r22 53l12 53e21 4|40b21 87l12 87t21
+43V13*Image_Wide_Character{string} 44>7 45>7 4|46b13 85l8 85t28
+44e7 V{wide_character} 4|47b7 51r53 79r20
+45i7 EM{6|91I9} 4|48b7 59r28 82r44
+X 4 s-imgwch.adb
+51i7 Val{natural} 57r10 58r18 61r49 66r13 69r13
+52a7 WS{wide_string} 78m10 79m10 80m10 82r40
+X 6 s-wchcon.ads
+40K16*WCh_Con 3|38w13 45r21 4|37w13 37r34 6|176e19
+91I9*WC_Encoding_Method<short_short_integer> 3|45r29 4|48r14
+167I12*WC_Upper_Half_Encoding_Method{91I9} 4|59r38
+X 7 s-wchwts.ads
+41K16*WCh_WtS 4|38w13 38r34 7|64e19
+44V13*Wide_String_To_String{string} 4|82r17
+

@@ -1,0 +1,68 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnvnnnnnnnvnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.numerics.long_long_elementary_functions%b  a-nllefu.ads  3d43ceb0 EE PU PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.aux%s	a-numaux.ads		a-numaux.ali
+W ada.numerics.generic_elementary_functions%s
+W system%s		system.ads		system.ali
+W system.exn_llf%s	s-exnllf.ads		s-exnllf.ali
+W system.fat_llf%s	s-fatllf.ads		s-fatllf.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U ada.numerics.long_long_elementary_functions%s  a-nllefu.ads  d9a03720 EB EE PU PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.generic_elementary_functions%s
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-numeri.ads		20050820212018 efa2335e
+D a-numaux.ads		20040925145828 6fbb5392
+D a-ngelfu.ads		20040925145828 0b41cace
+D a-ngelfu.adb		20040925150604 11f3d5bd
+D a-nllefu.ads		20040925145828 3d43ceb0
+D a-nllefu.ads		20040925145828 3d43ceb0
+D system.ads		20050820125040 15131902
+D s-exngen.ads		19951120072738 eecfc69f
+D s-exnllf.ads		19951120072754 6d090461
+D s-fatgen.ads		20060214165348 df07f9b2
+D s-fatllf.ads		20060214165348 67594a9a
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 1 ada.ads
+18K9*Ada 21e8 8|16r6 18r9 19r7
+X 3 a-numeri.ads
+16K13*Numerics 1|18k9 3|27e17 8|16r10 18r13 19r11
+X 5 a-ngelfu.ads
+19k22*Generic_Elementary_Functions 73e46 8|16w19 19r20
+X 8 a-nllefu.ads
+18K22*Long_Long_Elementary_Functions[5|19] 3|16k13 8|21r14
+

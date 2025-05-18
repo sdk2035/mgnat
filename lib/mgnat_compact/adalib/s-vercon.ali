@@ -1,0 +1,55 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.version_control%b  s-vercon.adb	c69f2796 PK
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U system.version_control%s  s-vercon.ads	84a40581 EE PU PK
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D system.ads		20050820125040 15131902
+D s-unstyp.ads		19990721075830 fd0aa14a
+D s-vercon.ads		19970917123458 6cbdbdc9
+D s-vercon.adb		20041021211108 57283b15
+X 1 system.ads
+44K9*System 165e11 3|40r6 42r9 50r14 57r5 4|36r6 36r33 37r14 44r14 61r5
+X 2 s-unstyp.ads
+42K16*Unsigned_Types 234e26 3|40w13 50r21 4|36w13 36r40 44r21
+47M9*Unsigned 3|50r36 4|44r36 48r11 49r27
+X 3 s-vercon.ads
+42K16*Version_Control 1|44k9 3|44r17 57l12 57e27 4|37b21 61l12 61t27
+46A12*Version_String{string} 51r14 4|45r14 47r11
+49V13*Get_Version_String{46A12} 50>7 4|43b13 59l8 59t26
+50m7 V{2|47M9} 4|44b7 48r23
+X 4 s-vercon.adb
+47a7 S{3|46A12} 54m10 58r14
+48m7 D{2|47M9} 54r22 55m10 55r15
+49a7 H(character) 54r19
+53i11 J{integer} 54r13
+

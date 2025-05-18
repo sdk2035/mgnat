@@ -1,0 +1,62 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.decimal%b		a-decima.adb		cc3f0d95 PK
+W ada%s			ada.ads			ada.ali
+
+U ada.decimal%s		a-decima.ads		15d899b2 BN EE PU PK
+W ada%s			ada.ads			ada.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-decima.ads		19981212023728 690ca250
+D a-decima.adb		19981212023728 a533afc5
+D system.ads		20050820125040 15131902
+X 1 ada.ads
+18K9*Ada 21e8 2|40r9 71r5 3|36r14 64r5
+X 2 a-decima.ads
+40K13*Decimal 1|18k9 2|41r14 71l9 71e16 3|36b18 64l9 64t16
+48N4*Max_Scale
+49N4*Min_Scale
+51N4*Min_Delta
+52N4*Max_Delta
+54N4*Max_Decimal_Digits
+57D12 Dividend_Type 63r22 3|43r22 53r25
+58D12 Divisor_Type 64r22 3|44r22 54r25
+59D12 Quotient_Type 65r23 3|45r23 55r26
+60D12 Remainder_Type 66r23 3|46r23 56r26
+62u14*Divide 63>7 64>7 65<7 66<7 69r19 3|42b14 62l8 62t14
+63*7 Dividend{57D12} 3|43b7 61r15
+64*7 Divisor{58D12} 3|44b7 61r25
+65*7 Quotient{59D12} 3|45b7 61m34
+66*7 Remainder{60D12} 3|46b7 61m44
+X 3 a-decima.adb
+52U17*Divide 53>10 54>10 55<10 56<10 58b33 61r7
+53*10 Dividend{2|57D12}
+54*10 Divisor{2|58D12}
+55*10 Quotient{2|59D12}
+56*10 Remainder{2|60D12}
+

@@ -1,0 +1,150 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.tasking.debug%b  s-tasdeb.adb		a0569c18 PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.task_primitives%s  s-taspri.ads	s-taspri.ali
+W system.task_primitives.operations%s  s-taprop.adb  s-taprop.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+
+U system.tasking.debug%s  s-tasdeb.ads		db7e22e6 EE PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W system%s		system.ads		system.ali
+W system.os_interface%s	s-osinte.ads		s-osinte.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D interfac.ads		20021213031652 279b6d6d
+D i-c.ads		20021213045752 d7e8c1a2
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalaob.ads		20060606190930 538eed4e
+D i-jalapr.ads		20031210020918 2617667a
+D i-jalath.ads		20050819212248 84b66ee0
+D system.ads		20050820125040 15131902
+D s-osinte.ads		20031210151952 01679dba
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-tasinf.ads		20040925171754 04bafbd6
+D s-taspri.ads		20050820220208 d94fa01c
+D s-taprop.ads		20040602223354 544681de
+D s-taskin.ads		20040925171702 dfe0bf9d
+D s-tasdeb.ads		20040925174844 0df17efe
+D s-tasdeb.adb		20040925174954 f9e16338
+D unchconv.ads		20021213031438 34860a55
+X 5 interfac.ads
+23K9*Interfaces 168e15 23|40r6 46r19 47r29 24|52r8
+X 6 i-c.ads
+20K20*C 141e17 23|40w17 46r30 47r40 24|52r19
+35I9*int<integer> 23|46r32
+44M9*unsigned_long 23|47r42
+X 12 system.ads
+44K9*System 165e11 23|41r6 42r6 44r9 49r23 130r5 24|47r6 49r14 54r25 247r5
+X 13 s-osinte.ads
+47K16*OS_Interface 67e24 23|42w13 55r43 116r47 123r46 24|64r43 217r47 234r46
+52P9*Thread_Id(49R9) 23|55r56 116r60 123r59 24|64r56 217r60 234r59
+X 20 s-taspri.ads
+42K16*Task_Primitives 104e27 24|47r13 54r32
+X 21 s-taprop.ads
+49K32*Operations 476e38 24|47w29 54r48
+134V13*Self{22|117P9} 24|85r19 94r12 121r29 175r45 186r45
+450V13*Suspend_Task{boolean} 24|225r20
+459V13*Resume_Task{boolean} 24|242r20
+X 22 s-taskin.ads
+56K16*Tasking 12|44k9 22|977e19 23|41w13 44r16 49r30 130r12 24|49r21 247r12
+115R9*Ada_Task_Control_Block 943e14
+117P9*Task_ID(115R9) 23|51r38 62r25 71r35 88r37 91r18 93r18 97r17 107r18
+. 114r24 24|83r25 101r38 129r14 145r40 155r21 157r21 164r20 175r29 183r21
+. 186r29 208r27 218r14 235r14
+464p7*All_Tasks_Link{117P9} 24|137r24 226r24 243r24
+554p4*All_Tasks_List{117P9} 24|133r12 222r12 239r12
+760r7*Common{383R9} 24|137r17 226r17 243r17
+925i7*User_State{long_integer} 24|94r17
+X 23 s-tasdeb.ads
+44K24*Debug 22|56k16 23|130l20 130e25 24|49b29 247l20 247t25
+46I12*int{6|35I9}
+47M12*unsigned_long{6|44M9}
+49K12*ST=49:30 24|101r35 129r11 145r37 155r18 157r18 164r17 175r26 183r18
+. 186r26 208r24 218r11 235r11
+51a4*Known_Tasks(22|117P9)
+55U14*Task_Creation_Hook 55>34 24|64b14 68l8 68t26
+55p34 Thread{13|52P9} 24|64b34 65r32
+59U14*Task_Termination_Hook 24|74b14 77l8 77t29
+62V13*Self{22|117P9} 24|83b13 86l8 86t12
+65U14*List_Tasks 24|128b14 139l8 139t18
+69U14*Print_Current_Task 24|119b14 122l8 122t26
+70U14*Print_Task_Info_Header 24|110b14 113l8 113t30 132r7
+71U14*Print_Task_Info 71>31 24|101b14 104l8 104t23 121r7 136r10
+71p31 T{22|117P9} 24|101b31
+86U14*Set_User_State 86>30 24|92b14 95l8 95t22
+86i30 Value{long_integer} 24|92b30 94r31
+88U14*Print_Accept_Info 88>33 24|145b14 148l8 148t25
+88p33 T{22|117P9} 24|145b33
+90U14*Trace 91>7 92>7 93>7 94>7 24|154b14 161l8 161t13 168r7 178r7 189r7
+91p7 Self_ID{22|117P9} 24|155b7
+92s7 Msg{string} 24|156b7
+93p7 Other_ID{22|117P9} 24|157b7
+94e7 Flag{character} 24|158b7
+96U14*Trace 97>7 98>7 99>7 24|163b14 169l8 169t13
+97p7 Self_ID{22|117P9} 24|164b7 168r14
+98s7 Msg{string} 24|165b7 168r23
+99e7 Flag{character} 24|166b7 168r34
+101U14*Trace 102>7 103>7 24|171b14 179l8 179t13
+102s7 Msg{string} 24|172b7 178r23
+103e7 Flag{character} 24|173b7 178r34
+105U14*Trace 106>7 107>7 108>7 24|181b14 190l8 190t13
+106s7 Msg{string} 24|182b7 189r23
+107p7 Other_ID{22|117P9} 24|183b7
+108e7 Flag{character} 24|184b7 189r34
+110U14*Set_Trace 111>7 112>7 24|196b14 202l8 202t17
+111e7 Flag{character} 24|197b7 201r17
+112b7 Value{boolean} 24|198b7 201r26
+114V13*Image{string} 114>20 24|208b13 211l8 211t13
+114p20 T{22|117P9} 24|208b20
+116U14*Suspend_All_Tasks 116>33 24|217b14 228l8 228t25
+116p33 Thread_Self{13|52P9} 24|217b33 225r37
+123U14*Resume_All_Tasks 123>32 24|234b14 245l8 245t24
+123p32 Thread_Self{13|52P9} 24|234b32 242r36
+X 24 s-tasdeb.adb
+54K12 STPO=54:48 85r14 94r7 121r24 175r40 186r40 225r15 242r15
+56A9 Trace_Flag_Set(boolean) 58r15
+58a4 Trace_On{56A9} 201m7
+129p7 C{22|117P9} 133m7 135r13 136r27 137m10 137r15
+175p7 Self_ID{22|117P9} 178r14
+186p7 Self_ID{22|117P9} 189r14
+218p7 C{22|117P9} 222m7 224r13 225r34 226m10 226r15
+219b7 R{boolean} 225m10
+235p7 C{22|117P9} 239m7 241r13 242r33 243m10 243r15
+236b7 R{boolean} 242m10
+

@@ -1,0 +1,52 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.val_bool%b	s-valboo.adb		b6416a90 PK
+W system%s		system.ads		system.ali
+W system.val_util%s	s-valuti.adb		s-valuti.ali
+
+U system.val_bool%s	s-valboo.ads		90ac4fe3 EE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-valboo.ads		19951120073754 85bf56e1
+D s-valboo.adb		19951120073750 a236e8c3
+D s-valuti.ads		19960414164052 91c8d4b2
+X 1 system.ads
+44K9*System 165e11 2|36r9 42r5 3|36r6 36r27 38r14 66r5
+X 2 s-valboo.ads
+36K16*Val_Bool 1|44k9 2|37r14 42l12 42e20 3|38b21 66l12 66t20
+39V13*Value_Boolean{boolean} 39>28 3|44b13 64l8 64t21
+39s28 Str{string} 3|44b28 47r19 47r33
+X 3 s-valboo.adb
+45i7 F{natural} 50m28 52r13 56r13
+46i7 L{natural} 50m31 52r18 56r18
+47a7 S{string} 50m25 52r10 56r10
+X 4 s-valuti.ads
+38K16*Val_Util 3|36w13 36r34 4|110e20
+41U14*Normalize_String 3|50r7
+

@@ -1,0 +1,68 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.strings.hash_case_insensitive%b  a-shcain.adb  b4d6c12a NE PU SU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.strings%s		a-string.ads		a-string.ali
+
+U ada.strings.hash_case_insensitive%s  a-shcain.ads  c313ee93 EE PU SU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings%s		a-string.ads		a-string.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-charac.ads		20050819211548 b6f39c34
+D a-chahan.ads		20050819211658 5be68b91
+D a-contai.ads		20050817131724 050b27b6
+D a-string.ads		20060220230356 87b4230b
+D a-shcain.ads		20060220172356 41acea2e
+D a-shcain.adb		20060220172356 ae9ca095
+D system.ads		20050820125040 15131902
+X 1 ada.ads
+18K9*Ada 21e8 6|16r6 18r10 21r14 7|36r6 36r35 40r10 43r8 59r5
+X 2 a-charac.ads
+18K13*Characters 21e19 7|36r10 36r39
+X 3 a-chahan.ads
+38K24*Handling 157e28 7|36w21 36r50
+64V13*To_Lower{character} 7|55r52
+X 4 a-contai.ads
+16K13*Containers 22e19 6|16w10 19r25 7|41r25 43r12
+19M9*Hash_Type 6|19r36 7|41r36 45r10 48r16 49r32
+X 5 a-string.ads
+16K13*Strings 35e16 6|18r14 21r18 7|40r14 59r9
+X 6 a-shcain.ads
+18V22*Hash_Case_Insensitive{4|19M9} 5|16k13 6|19>4 21r26 7|40b22 59l17 59t38
+19s4 Key{string} 7|41b4 54r13 55r62
+X 7 a-shcain.adb
+45m4 Tmp{4|19M9} 53m4 55m7 55r27 58r11
+47V13*Rotate_Left{4|19M9} 48>7 49>7 50b30 55r14
+48m7 Value{4|19M9}
+49i7 Amount{natural}
+54i8 J{integer} 55r67
+

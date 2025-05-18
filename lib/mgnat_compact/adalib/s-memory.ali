@@ -1,0 +1,85 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnn
+
+U system.memory%b	s-memory.adb		5d66ec68 PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U system.memory%s	s-memory.ads		26ab6f2c EB EE PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D system.ads		20050820125040 15131902
+D s-memory.ads		20040603022634 33b8762e
+D s-memory.adb		20041021205702 4e6b8572
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 1 ada.ads
+18K9*Ada 21e8 5|52r6 57r8
+X 2 a-except.ads
+89K13*Exceptions 185e19 5|52w10 57r12
+102U14*Raise_Exception 5|80r10 97r10 128r10 136r10
+X 3 system.ads
+44K9*System 165e11 4|48r9 53r42 57r26 61r14 63r14 72r5 5|53r6 55r14 58r8
+. 60r45 63r28 67r13 67r51 74r42 75r21 96r19 107r26 119r14 121r14 123r21 135r19
+. 142r5
+71M9*Address 4|53r49 57r33 61r21 63r21 5|60r52 63r35 67r20 67r58 74r49 75r28
+. 107r33 119r21 121r21 123r28
+72m4*Null_Address{71M9} 5|96r26 135r26
+84V13*"="{boolean} 5|96r17 135r17
+X 4 s-memory.ads
+48K16*Memory 3|44k9 4|72l12 72e18 5|55b21 142l12 142t18
+51M9*size_t 53r27 62r14 5|60r30 67r36 74r27 76r21 79r17 120r14 124r30 127r17
+53V13*Alloc{3|71M9} 53>20 68r22 5|74b13 101l8 101t13
+53m20 Size{51M9} 5|74b20 76r31 79r10 88r10
+57U14*Free 57>20 69r22 5|107b14 112l8 112t12
+57m20 Ptr{3|71M9} 5|107b20 110r15
+60V13*Realloc{3|71M9} 61>7 62>7 70r22 5|118b13 140l8 140t15
+61m7 Ptr{3|71M9} 5|119b7 132r28
+62m7 Size{51M9} 5|120b7 124r40 127r10
+X 5 s-memory.adb
+60V13 c_malloc{3|71M9} 60>23 61b<c,malloc>22 93r17
+60m23 Size{4|51M9}
+63U14 c_free 63>22 64b<c,free>22 110r7
+63m22 Ptr{3|71M9}
+66V13 c_realloc{3|71M9} 67>7 67>29 68b<c,realloc>22 132r17
+67m7 Ptr{3|71M9}
+67m29 Size{4|51M9}
+75m7 Result{3|71M9} 93m7 96r10 100r14
+76m7 Actual_Size{4|51M9} 89m10 93r27
+123m7 Result{3|71M9} 132m7 135r10 139r14
+124m7 Actual_Size{4|51M9} 132r33
+X 6 s-soflin.ads
+47K16*Soft_Links 5|53w13 58r15 6|369e22
+63P9*No_Param_Proc
+144p4*Abort_Defer{63P9} 5|92r7 109r7 131r7
+148p4*Abort_Undefer{63P9} 5|94r7 111r7 133r7
+

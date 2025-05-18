@@ -1,0 +1,44 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.img_bool%b	s-imgboo.adb		e7690930 PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U system.img_bool%s	s-imgboo.ads		b0211d66 EE PR PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-imgboo.ads		19951120073012 a5320464
+D s-imgboo.adb		19951120073008 425b0d54
+D s-secsta.ads		19990726073750 38cfbadd
+X 1 system.ads
+44K9*System 165e11 2|38r9 44r5 3|36r14 51r5
+X 2 s-imgboo.ads
+38K16*Img_Bool 1|44k9 2|39r22 44l12 44e20 3|36b21 51l12 51t20
+41V13*Image_Boolean{string} 41>28 3|42b13 49l8 49t21
+41b28 V{boolean} 3|42b28 44r10
+

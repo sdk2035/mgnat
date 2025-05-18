@@ -1,0 +1,127 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnvnnnnnvvnvnnnnnnnnnnnnnnnn
+
+U system.tasking.protected_objects%b  s-taprob.adb  648e1e09 PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.task_primitives%s  s-taspri.ads	s-taspri.ali
+W system.task_primitives.operations%s  s-taprop.adb  s-taprop.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+
+U system.tasking.protected_objects%s  s-taprob.ads  2c8ebeb2 EB EE PK
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D interfac.ads		20021213031652 279b6d6d
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalaob.ads		20060606191518 27c397ee
+D i-jalapr.ads		20031210020918 2617667a
+D i-jalath.ads		20050819212248 84b66ee0
+D system.ads		20050820125040 15131902
+D s-osinte.ads		20031210151952 01679dba
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-tasinf.ads		20040925171754 04bafbd6
+D s-taspri.ads		20050820220208 d94fa01c
+D s-taprop.ads		20040602223354 544681de
+D s-taskin.ads		20040925171702 dfe0bf9d
+D s-taprob.ads		20040925153816 f36e012f
+D s-taprob.adb		20040602223354 1ba9365c
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 23|45r6 50r8
+X 2 a-except.ads
+89K13*Exceptions 185e19 23|45w10 50r12
+102U14*Raise_Exception 23|100r10 114r10
+X 11 system.ads
+44K9*System 165e11 22|53r9 136r16 146r13 147r13 213r17 225r5 23|41r6 48r14
+. 51r8 73r28 77r25 127r5
+71M9*Address 22|136r23 146r20 147r20
+103I12*Any_Priority{integer} 22|213r24 23|77r32
+104I12*Priority{103I12} 23|73r35
+X 19 s-taspri.ads
+42K16*Task_Primitives 104e27 22|212r25 23|41r13 51r15
+44R9*Lock 87e14 22|212r41
+X 20 s-taprop.ads
+49K32*Operations 476e38 23|41w29 51r31
+149U14*Initialize_Lock 23|76r7
+172U14*Finalize_Lock 23|59r7
+178U14*Write_Lock 23|97r7
+201U14*Read_Lock 23|111r7
+223U14*Unlock 23|124r7
+X 21 s-taskin.ads
+56K16*Tasking 11|44k9 21|977e19 22|53r16 225r12 23|48r21 127r12
+215N4*Null_Entry 22|127r39
+217N4*Max_Entry 22|129r38
+223I9*Entry_Index<integer> 22|131r38
+584i4*Unspecified_Priority{integer} 23|72r26
+X 22 s-taprob.ads
+53K24*Protected_Objects 21|56k16 22|225l20 225e37 23|48b29 127l20 127t37
+127N4*Null_Protected_Entry 132r12
+129N4*Max_Protected_Entry 132r36
+131I9*Protected_Entry_Index<21|223I9> 137r16 148r13
+134P9*Barrier_Function_Pointer(boolean) 156r17
+136m9 O{11|71M9}
+137i9 E{131I9}
+144P9*Entry_Action_Pointer 157r17
+146m9 O{11|71M9}
+147m9 P{11|71M9}
+148i9 E{131I9}
+155R9*Entry_Body 158e14 162r41
+156p7*Barrier{134P9}
+157p7*Action{144P9}
+162P9*Entry_Body_Access(155R9)
+164R9*Protection 174r41 211c9 214e14 216r8 220r51 23|57r51
+174P9*Protection_Access(164R9) 176r23 179r26 184r29 190r39 202r31 23|67r26
+. 84r29 108r39 122r31
+176p4*Null_PO{174P9}
+178U14*Initialize_Protection 179>7 180>7 23|66b14 78l8 78t29
+179p7 Object{174P9} 23|67b7 76m39 77r7
+180i7 Ceiling_Priority{integer} 23|68b7 70r34
+184U14*Lock 184>20 23|84b14 102l8 102t12
+184p20 Object{174P9} 23|84b20 97m19
+190U14*Lock_Read_Only 190>30 23|108b14 116l8 116t22
+190p30 Object{174P9} 23|108b30 111m18
+202U14*Unlock 202>22 23|122b14 125l8 125t14
+202p22 Object{174P9} 23|122b22 124m15
+212r7*L{19|44R9} 23|59r29 76r46 97r26 111r25 124r22
+213i7*Ceiling{11|103I12} 23|77r14
+220U14 Finalize_Protection 220=35 23|57b14 60l8 60t27
+220r35 Object{164R9} 23|57b35 59m22
+X 23 s-taprob.adb
+70i7 Init_Priority{integer} 72r10 73m10 76r24 77r46
+85b7 Ceiling_Violation{boolean} 97m36 99r10
+109b7 Ceiling_Violation{boolean} 111m35 113r10
+

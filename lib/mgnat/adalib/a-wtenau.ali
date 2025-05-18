@@ -1,0 +1,158 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnvnnnvvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvvvnnnnnnnnnnnnnn
+
+U ada.wide_text_io.enumeration_aux%b  a-wtenau.adb  57f6d4c1 PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+W ada.wide_text_io.generic_aux%s  a-wtgeau.adb	a-wtgeau.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W system%s		system.ads		system.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+
+U ada.wide_text_io.enumeration_aux%s  a-wtenau.ads  c88baec7 EE PK
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-charac.ads		20050819211548 b6f39c34
+D a-chahan.ads		20050819211658 5be68b91
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-witeio.ads		20060220234430 8203425d
+D a-wtenau.ads		20021213045930 4a88ec9a
+D a-wtenau.adb		20040925164220 25907d17
+D a-wtgeau.ads		19971120004952 05b3c10e
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D s-wchcon.ads		19980525181154 144d0c72
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 12|39r17 73r5 13|36r6 36r40 37r6 37r40 41r14 43r19 354r5
+X 2 a-charac.ads
+18K13*Characters 21e19 13|37r10 37r44
+X 3 a-chahan.ads
+38K24*Handling 157e28 13|37w21 37r55
+49V13*Is_Letter{boolean} 13|112r35 140r26 295r25 311r23 313r23
+53V13*Is_Digit{boolean} 13|141r31
+99V13*Is_Character{boolean} 13|169r19 209r24 247r16 294r13 309r15
+116V13*To_Character{character} 13|171r50 212r47 248r35 295r36 311r34 313r34
+128V13*To_Wide_Character{wide_character} 13|171r21 212r18
+X 11 a-witeio.ads
+53K13*Wide_Text_IO 1|18k9 11|464e21 12|39r21 73r9 13|36r10 36r44 41r18 43r23
+. 354r9
+57P9*File_Type(324R9) 12|42r16 59r15 13|43r36 67r16 152r15
+79I12*Field{integer} 12|61r15 13|154r15
+86E9*Type_Set 86e45 12|62r15 69r15 13|155r15 196r15
+86n22*Lower_Case{86E9} 13|163r16 207r22
+211U14*Get 13|83r10 92r10 101r10 121r13
+213U14*Put 13|185r10
+247U14*Put 13|177r13 181r10
+279X4*End_Error 13|245r19
+280X4*Data_Error 13|265r19 274r22 284r16 297r19 334r16
+281X4*Layout_Error 13|202r16
+308N4 LM 13|88r18
+345i7*WC_Method{29|91I9} 13|134r24
+443V13 Nextc{integer} 13|77r13 86r16 95r16 124r19
+X 12 a-wtenau.ads
+39K34*Enumeration_Aux 11|53k13 12|73l22 73e37 13|41b31 354l22 354t37
+41U14*Get_Enum_Lit 42>7 43<7 44<7 13|66b14 145l8 145t20
+42p7 File{11|57P9} 13|67b7 76r23 77r25 83r15 86r28 92r15 95r28 101r15 121r18
+. 124r31 134r19
+43s7 Buf{wide_string} 13|68b7 84m26 93m26 102m26 122m29 129r26
+44i7 Buflen{natural} 13|69b7 75m7 84m31 93m31 102m31 122m34 129r31
+50U14*Scan_Enum_Lit 51>7 52<7 53<7 13|231b14 321l8 321t21
+51s7 From{wide_string} 13|232b7 241r16 244r21 247r30 248r49 261r10 264r20
+. 270r13 271r20 273r23 278r19 294r27 295r50 305r23 306r19 315r38
+52i7 Start{natural} 13|233b7 241m7 244r13 247r36 248r55 253m13 253r22 261r16
+. 262r18 294r33 295r56 304r18
+53i7 Stop{natural} 13|234b7 262m10 264r13 267m13 267r21 270r19 271r26 273r16
+. 276m16 276r24 278r25 304m10 305r16 306r25 315r44 317m13 317r21
+58U14*Put 59>7 60>7 61>7 62>7 13|151b14 187l8 187t11
+59p7 File{11|57P9} 13|152b7 161r31 177r18 181r15 185r15
+60s7 Item{wide_string} 13|153b7 158r54 163r36 165r34 165r48 168r22 169r33
+. 171r64 173r32 181r21 184r36
+61i7 Width{11|79I12} 13|154b7 158r46
+62e7 Set{11|86E9} 13|155b7 163r10
+66U14*Puts 67<7 68>7 69>7 13|193b14 225l8 225t12
+67s7 To{wide_string} 13|194b7 201r24 205r17 211m16 214m16 220r23 221m13
+68s7 Item{wide_string} 13|195b7 201r10 206r19 208r24 209r38 212r61 214r28
+69e7 Set{11|86E9} 13|196b7 207r16
+X 13 a-wtenau.adb
+43P12 TFT{11|57P9} 76r18 77r20 86r23 95r23 124r26 161r26
+50U14 Store_Char 51>7 52<7 53=7 84r10 93r10 102r10 122r13 327b14 339l8 339t18
+51e7 WC{wide_character} 328b7 337r23
+52s7 Buf{wide_string} 329b7 333r16 337m10
+53i7 Ptr{integer} 330b7 333r10 336m10 336r17 337r15
+60V13 To_Lower{character} 60>23 171r40 212r37 345b13 352l8 352t16
+60e23 C{character} 345b23 347r10 348r47 350r17
+71i7 ch{16|60I12} 77m7 82r10 86m10 88r13 88r29 95m10 97r13 112r13 112r61
+. 124m13 126r23 128r16 131r19 135r24 140r52 141r56
+72e7 WC{wide_character} 83m21 84r22 92m21 93r22 101m21 102r22 121m24 122r25
+157i7 Actual_Width{integer} 161r38 184r21
+165a13 Iteml{wide_string} 170m19 173m19 177r24
+168i17 J{integer} 169r39 170r26 171r70 173r26 173r38
+184i11 J{integer}
+198i7 Ptr{natural} 205m10 211r20 214r20 217m13 217r20 220r16 221r17 222m13
+. 222r20
+206i14 J{integer} 209r44 212r67 214r34
+236e7 WC{wide_character} 306m13 309r29 311r48 313r48 315r20
+X 14 a-wtgeau.ads
+45K26*Generic_Aux 13|36w23 36r57 14|189e33
+74U14*Check_On_One_Line 13|161r7
+80V13*Is_Blank{boolean} 13|248r25
+90U14*Load_Skip 13|76r7
+X 15 interfac.ads
+23K9*Interfaces 13|38r6 38r40 15|168e15
+X 16 i-cstrea.ads
+43K20*C_Streams 13|38w17 38r51 16|349e25
+60I12*int{integer} 13|71r13
+82i4*EOF{60I12} 13|88r34 126r28
+X 17 system.ads
+44K9*System 13|39r6 39r40 17|165e11
+X 29 s-wchcon.ads
+40K16*WCh_Con 13|39w13 39r47 29|176e19
+91I9*WC_Encoding_Method<short_short_integer>
+167I12*WC_Upper_Half_Encoding_Method{91I9} 13|134r37
+

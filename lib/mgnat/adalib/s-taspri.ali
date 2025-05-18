@@ -1,0 +1,88 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.task_primitives%s  s-taspri.ads	9fd25450 EE PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.java%s	i-java.ads		i-java.ali
+W interfaces.java.lang%s  i-javlan.ads		i-javlan.ali
+W interfaces.java.lang.object%s  i-jalaob.ads	i-jalaob.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D interfac.ads		20021213031652 279b6d6d
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalaob.ads		20060606190930 538eed4e
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-taspri.ads		20050820220208 d94fa01c
+X 5 interfac.ads
+23K9*Interfaces 168e15 14|40r6 69r25 90r16
+X 6 i-java.ads
+43K20*Java 143e20 14|40r17 69r36 90r27
+X 7 i-javlan.ads
+33K25*Lang 35e25 14|40r22 69r41 90r32
+X 8 i-jalaob.ads
+23K30*Object 50e32 14|40w27 69r46 90r37
+28P9*Ref(26R9) 14|69r53 90r44
+X 9 system.ads
+44K9*System 165e11 14|42r9 80r17 80r40 81r24 81r47 95r25 95r48 104r5
+103I12*Any_Priority{integer} 14|80r24 80r47 81r31 81r54 95r32 95r55
+X 14 s-taspri.ads
+42K16*Task_Primitives 9|44k9 14|104l12 104e27
+44R9*Lock 45r32 78c9 87e14
+45P9*Lock_Ptr(44R9) 83r15 99r17 100r17
+48P9*RTS_Lock(8|26R9) 49r36 69c9 72r35 75r34 79r19 93r24
+49P9*RTS_Lock_Ptr(48P9)
+55P9*Task_Body_Access
+59R9*Private_Data 89c9 102e14
+66M9 Private_Task_Serial_Number 84r15
+70P9 Owner_ID(integer) 82r15 85r15
+72U14 monitorenter 72>28 73b24
+72p28 Lock{48P9}
+75U14 monitorexit 75>27 76b24
+75p27 Lock{48P9}
+79p7*L{48P9}
+80i7*Ceiling{9|103I12}
+81i7*Saved_Priority{9|103I12}
+82p7*Owner{70P9}
+83p7*Next{45P9}
+84m7*Level{66M9}
+85p7*Buddy{70P9}
+86b7*Frozen{boolean}
+90p7*Thread{8|28P9}
+93p7*L{48P9}
+95i7*Active_Priority{9|103I12}
+99p7*Locking{45P9}
+100p7*Locks{45P9}
+101i7*Wakeups{natural}
+

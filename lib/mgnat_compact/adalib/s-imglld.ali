@@ -1,0 +1,76 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnvnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.img_lld%b	s-imglld.adb		6081e982 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.img_dec%s	s-imgdec.adb		s-imgdec.ali
+W system.img_lli%s	s-imglli.adb		s-imglli.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U system.img_lld%s	s-imglld.ads		5b6afaa7 EE PR PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D system.ads		20050820125040 15131902
+D s-imgdec.ads		19951120073026 2e9ba3bc
+D s-imglld.ads		19951120073048 4e79e3a5
+D s-imglld.adb		19961020035350 27df5182
+D s-imglli.ads		19951120073054 27bcf819
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 3 system.ads
+44K9*System 165e11 5|39r9 67r5 6|36r6 36r26 37r6 37r26 39r14 89r5
+X 4 s-imgdec.ads
+39K16*Img_Dec 83e19 6|36w13 36r33
+67U14*Set_Decimal_Digits 6|86r7
+X 5 s-imglld.ads
+39K16*Img_LLD 3|44k9 5|40r22 67l12 67e19 6|39b21 89l12 89t19
+42V13*Image_Long_Long_Decimal{string} 43>7 44>7 6|45b13 67l8 67t31
+43i7 V{long_long_integer} 6|46b7 55r10
+44i7 Scale{integer} 6|47b7 55r19 55r45
+50U14*Set_Image_Long_Long_Decimal 51>7 52<7 53=7 54>7 55>7 56>7 57>7 6|54r7
+. 73b14 87l8 87t35
+51i7 V{long_long_integer} 6|74b7 82r49
+52s7 S{string} 6|75b7 86m46
+53i7 P{natural} 6|76b7 86m49
+54i7 Scale{integer} 6|77b7 86r52
+55i7 Fore{natural} 6|78b7 86r59
+56i7 Aft{natural} 6|79b7 86r65
+57i7 Exp{natural} 6|80b7 86r70
+X 6 s-imglld.adb
+50i7 P{natural} 55m16 61r18 61r36 63r25 65r25
+51a7 S{string} 55m13 60r10 60r32 61m10 61r28 62m10 63r17 65r17
+82a7 Digs{string} 86r27 86r33
+X 7 s-imglli.ads
+40K16*Img_LLI 6|37w13 37r33 7|57e19
+43V13*Image_Long_Long_Integer{string} 6|82r24
+

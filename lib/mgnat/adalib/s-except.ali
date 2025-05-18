@@ -1,0 +1,74 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.exceptions%s	s-except.ads		ccfc4888 EE PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D system.ads		20050820125040 15131902
+D s-except.ads		20050820215624 14f3e02c
+X 1 ada.ads
+18K9*Ada 21e8 4|42r6 48r24
+X 2 a-except.ads
+89K13*Exceptions 185e19 4|42w10 48r28
+91M9*Exception_Id 4|89r16
+X 3 system.ads
+44K9*System 165e11 4|44w6 46r9 59r27 64r24 107r36 118r47 192r5
+71M9*Address 4|59r34 64r31 107r43
+72m4*Null_Address{71M9} 4|118r54
+X 4 s-except.ads
+46K16*Exceptions 3|44k9 4|192l12 192e22
+48K12*AEX=48:28 89r12
+59M12*Handler_Loc{3|71M9} 92r17
+64M12*Code_Loc{3|71M9} 83r12 84r12 128r14
+82R9*Handler_Record 94e14 96r42
+83m7*Lo{64M12}
+84m7*Hi{64M12}
+89m7*Id{2|91M9}
+92m7*Handler{59M12}
+96P9*Handler_Record_Ptr(82R9) 97r60
+97A9*Handler_Record_List(96P9) 142r25
+107M12*Subprogram_Info_Type{3|71M9} 118r23 136r25
+118m4*No_Info{107M12}
+127R9*Subprogram_Descriptor 127d32 147e14 149r39 150r39 151r39 152r39 155r49
+127i32*Num_Handlers{natural} 142r51
+128m7*Code{64M12}
+136m7*Subprogram_Info{107M12}
+142a7*Handler_Records{97A9}
+149R12*Subprogram_Descriptor_0{127R9}
+150R12*Subprogram_Descriptor_1{127R9}
+151R12*Subprogram_Descriptor_2{127R9}
+152R12*Subprogram_Descriptor_3{127R9}
+155P9*Subprogram_Descriptor_Ptr(127R9) 158r37
+157A9*Subprogram_Descriptor_List(155P9) 161r15
+160R9*Subprogram_Descriptors_Record 160d40 162e14 165r17
+160i40*Count{natural} 161r48
+161a7*SDesc{157A9}
+164P9*Subprogram_Descriptors_Ptr(160R9)
+

@@ -1,0 +1,94 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U interfaces.java%s	i-java.ads		202bad71 EE PR PK
+W interfaces%s		interfac.ads		interfac.ali
+
+D interfac.ads		20021213031652 279b6d6d
+D i-java.ads		20021213045752 07b0c01c
+D system.ads		20050820125040 15131902
+X 1 interfac.ads
+23K9*Interfaces 168e15 2|43r9 143r5
+X 2 i-java.ads
+43K20*Java 1|23k9 2|143l16 143e20
+46B12*boolean{boolean} 57r58
+47E12*char{wide_character} 68r55
+48I12*byte{short_short_integer} 79r55
+49I12*short{short_integer} 90r56
+50I12*int{integer} 101r54
+51I12*long{long_integer} 112r55
+52F12*float{float} 123r56
+53F12*double{long_float} 134r57
+57A9*boolean_Arr_Obj(46E12) 58r41
+58P9*boolean_Arr(57A9) 60r58
+60A9*boolean_Arr_2_Obj(58P9) 61r41
+61P9*boolean_Arr_2(60A9) 63r58
+63A9*boolean_Arr_3_Obj(61P9) 64r41
+64P9*boolean_Arr_3(63A9)
+68A9*char_Arr_Obj(47E12) 69r38
+69P9*char_Arr(68A9) 71r55
+71A9*char_Arr_2_Obj(69P9) 72r38
+72P9*char_Arr_2(71A9) 74r55
+74A9*char_Arr_3_Obj(72P9) 75r38
+75P9*char_Arr_3(74A9)
+79A9*byte_Arr_Obj(48I12) 80r38
+80P9*byte_Arr(79A9) 82r55
+82A9*byte_Arr_2_Obj(80P9) 83r38
+83P9*byte_Arr_2(82A9) 85r55
+85A9*byte_Arr_3_Obj(83P9) 86r38
+86P9*byte_Arr_3(85A9)
+90A9*short_Arr_Obj(49I12) 91r39
+91P9*short_Arr(90A9) 93r56
+93A9*short_Arr_2_Obj(91P9) 94r39
+94P9*short_Arr_2(93A9) 96r56
+96A9*short_Arr_3_Obj(94P9) 97r39
+97P9*short_Arr_3(96A9)
+101A9*int_Arr_Obj(50I12) 102r37
+102P9*int_Arr(101A9) 104r54
+104A9*int_Arr_2_Obj(102P9) 105r37
+105P9*int_Arr_2(104A9) 107r54
+107A9*int_Arr_3_Obj(105P9) 108r37
+108P9*int_Arr_3(107A9)
+112A9*long_Arr_Obj(51I12) 113r38
+113P9*long_Arr(112A9) 115r55
+115A9*long_Arr_2_Obj(113P9) 116r38
+116P9*long_Arr_2(115A9) 118r55
+118A9*long_Arr_3_Obj(116P9) 119r38
+119P9*long_Arr_3(118A9)
+123A9*float_Arr_Obj(52F12) 124r39
+124P9*float_Arr(123A9) 126r56
+126A9*float_Arr_2_Obj(124P9) 127r39
+127P9*float_Arr_2(126A9) 129r56
+129A9*float_Arr_3_Obj(127P9) 130r39
+130P9*float_Arr_3(129A9)
+134A9*double_Arr_Obj(53F12) 135r40
+135P9*double_Arr(134A9) 137r57
+137A9*double_Arr_2_Obj(135P9) 138r40
+138P9*double_Arr_2(137A9) 140r57
+140A9*double_Arr_3_Obj(138P9) 141r40
+141P9*double_Arr_3(140A9)
+

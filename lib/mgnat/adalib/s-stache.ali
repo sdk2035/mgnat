@@ -1,0 +1,66 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.stack_checking%b  s-stache.adb		c905fe7e PK
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U system.stack_checking%s  s-stache.ads		1957a8a8 EE PK
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D system.ads		20050820125040 15131902
+D s-stache.ads		19990409121032 f7baf636
+D s-stache.adb		20050820220056 c5414fd4
+D s-stoele.ads		19980907140906 fbfe479c
+X 1 system.ads
+44K9*System 165e11 2|40r6 46r9 49r15 49r33 50r15 50r33 51r15 73r20 89r23
+. 107r5 3|38r6 38r35 40r14 52r42 83r20 102r5
+71M9*Address 2|49r22 50r22 89r30 3|52r49
+72m4*Null_Address{71M9} 2|49r40 50r40
+X 2 s-stache.ads
+46K16*Stack_Checking 1|44k9 2|107l12 107e26 3|40b21 102l12 102t26
+48R9*Stack_Info 58r36 95r31
+49m7*Limit{1|71M9}
+50m7*Base{1|71M9}
+51i7*Size{4|31I9}
+58P9*Stack_Access(48R9) 76r42 81r50 90r14 98r32 102r31 3|52r65 62r50 96r42
+66b4*Multi_Processor{boolean}
+72U14*Set_Stack_Size 73>7 3|82b14 88l8 88t22
+73i7 Stack_Size{4|31I9} 3|83b7 85r29
+76U14*Update_Stack_Cache 76>34 3|96b14 100l8 100t26
+76p34 Stack{58P9} 3|96b34 97r29
+81U14*Invalidate_Stack_Cache 81>38 3|62b14 66l8 66t30
+81p38 Any_Stack{58P9} 3|62b38 63r29
+88V13*Stack_Check{58P9} 89>7 105r22 3|52b13 56l8 56t19
+89m7 Stack_Address{1|71M9} 3|52b26 53r29
+95r4 Null_Stack_Info{48R9} 98m48
+98p4 Null_Stack{58P9} 102r47 3|55r14
+102p4 Cache{58P9} 104m22
+X 4 s-stoele.ads
+26K16*Storage_Elements 2|40w13 51r22 73r27 3|38w13 38r42 83r27 4|91e28
+31I9*Storage_Offset<integer> 2|51r39 73r44 3|83r44
+

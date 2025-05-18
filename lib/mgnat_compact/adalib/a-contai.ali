@@ -1,0 +1,40 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.containers%s	a-contai.ads		79df1c54 EE PU PK
+W ada%s			ada.ads			ada.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-contai.ads		20050817131724 050b27b6
+D system.ads		20050820125040 15131902
+X 1 ada.ads
+18K9*Ada 21e8 2|16r9 22r5
+X 2 a-contai.ads
+16K13*Containers 1|18k9 2|17r14 22l9 22e19
+19M9*Hash_Type
+20I9*Count_Type<integer>
+

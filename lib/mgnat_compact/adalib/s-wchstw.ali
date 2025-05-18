@@ -1,0 +1,93 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvvvnnnnnnnnnnnnnn
+
+U system.wch_stw%b	s-wchstw.adb		f7c0b43d PK
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+W system.wch_jis%s	s-wchjis.adb		s-wchjis.ali
+
+U system.wch_stw%s	s-wchstw.ads		b1d2670f EE PU PK
+W system%s		system.ads		system.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+
+D interfac.ads		20021213031652 279b6d6d
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-wchcon.ads		19980525181154 144d0c72
+D s-wchjis.ads		19951120073932 bbf2970f
+D s-wchstw.ads		19980525181158 b08c727f
+D s-wchstw.adb		20000204164510 cf683052
+X 1 interfac.ads
+23K9*Interfaces 168e15 7|36w6 36r26
+41M9*Unsigned_16 7|54r12 55r12 56r12 57r12 61r47 71r47
+75V13*Shift_Left{41M9} 7|172r24 178r27
+X 2 system.ads
+44K9*System 165e11 6|39r6 41r9 46r14 62r5 7|37r6 37r26 38r6 38r26 40r14 221r5
+X 4 s-wchcon.ads
+40K16*WCh_Con 176e19 6|39w13 46r21 7|37w13 37r33
+91I9*WC_Encoding_Method<short_short_integer> 6|46r29 7|48r14
+97i4*WCEM_Hex{91I9} 7|101r15
+105i4*WCEM_Upper{91I9} 7|117r15
+113i4*WCEM_Shift_JIS{91I9} 7|134r15
+121i4*WCEM_EUC{91I9} 7|149r15
+128i4*WCEM_UTF8{91I9} 7|164r15
+147i4*WCEM_Brackets{91I9} 7|192r15
+X 5 s-wchjis.ads
+39K16*WCh_JIS 80e19 7|38w13 38r33
+42V13*EUC_To_JIS{wide_character} 7|154r29
+75V13*Shift_JIS_To_JIS{wide_character} 7|139r29
+X 6 s-wchstw.ads
+41K16*WCh_StW 2|44k9 6|42r14 62l12 62e19 7|40b21 221l12 221t19
+44V13*String_To_Wide_String{wide_string} 45>7 46>7 7|46b13 219l8 219t29
+45s7 S{string} 7|47b7 51r30 59r34 85r22 86r25 87r27 88r29 94r13 105r19 110r64
+. 121r19 122r40 123r40 127r64 138r19 139r47 139r55 142r64 153r19 154r41 154r49
+. 157r64 168r19 169r40 170r40 177r43 185r64 196r19 197r27 198r27 205r64 214r55
+46i7 EM{4|91I9} 7|48b7 97r12
+X 7 s-wchstw.adb
+51a7 R{wide_string} 84m10 110m19 124m19 127m19 139m19 142m19 154m19 157m19
+. 182m19 185m19 205m19 214m10 218r14
+52i7 RP{natural} 84r13 95m7 103m16 103r22 110r22 119m16 119r22 124r22 127r22
+. 136m16 136r22 139r22 142r22 151m16 151r22 154r22 157r22 166m16 166r22 182r22
+. 185r22 194m16 194r22 205r22 213m10 213r16 214r13 218r22
+53i7 SP{natural} 85r25 86r28 87r30 88r32 94m7 102r19 105r22 106m19 106r25
+. 108m19 108r25 110r67 111m19 111r25 118r19 121r22 122r43 123r43 125m19 125r25
+. 127r67 128m19 128r25 135r19 138r22 139r50 139r58 140m19 140r25 142r67 143m19
+. 143r25 150r19 153r22 154r44 154r52 155m19 155r25 157r67 158m19 158r25 165r19
+. 168r22 169r43 170r43 174m19 174r25 177r46 179m22 179r28 185r67 186m19 186r25
+. 193r19 196r22 197r30 198r30 200m19 200r25 202m19 202r25 205r67 206m19 206r25
+. 212r13 214r58 215m10 215r16
+54m7 U1{1|41M9} 122m19 124r55 169m19 172r36 176r22
+55m7 U2{1|41M9} 123m19 124r60 170m19 173r27
+56m7 U3{1|41M9} 177m22 178r48
+57m7 U{1|41M9} 172m19 178m22 178r39 182r49
+59i7 Last{natural} 102r25 118r24 135r24 150r24 165r24 193r25 212r19
+61V16 Get_Hex{1|41M9} 61>25 71b16 80l11 80t18 85r13 86r16 87r18 88r20
+61e25 C{character} 71b25 73r13 74r35 75r16 76r35 78r35
+65U17 Get_Hex_4 82b17 89l11 89t20 107r19 201r19
+

@@ -1,0 +1,61 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.string_ops_concat_5%b  s-sopco5.adb	497a78dc PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.string_ops_concat_4%s  s-sopco4.adb	s-sopco4.ali
+
+U system.string_ops_concat_5%s  s-sopco5.ads	69038541 EE PR PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-strops.ads		19980415014434 dfd9c808
+D s-sopco3.ads		19980110182950 bb5015db
+D s-sopco4.ads		19980110182952 ac4d87c0
+D s-sopco5.ads		19980110182952 7c109c43
+D s-sopco5.adb		19980111234516 356ae49f
+X 1 system.ads
+44K9*System 165e11 6|38r9 44r5 7|36r14 66r5
+81V13*"<="{boolean} 7|44r20
+X 6 s-sopco5.ads
+38K16*String_Ops_Concat_5 1|44k9 6|39r22 44l12 44e31 7|36b21 66l12 66t31
+41V13*Str_Concat_5{string} 41>27 41>31 41>35 41>39 41>43 7|42b13 64l8 64t20
+41s27 S1{string} 7|42b27 44r10 49r39 53r25 53r37 56r16 56r34 56r57 57r16
+. 57r34 58r16 58r34 59r16 59r34 60r16
+41s31 S2{string} 7|42b31 45r17 49r51 57r57
+41s35 S3{string} 7|42b35 45r22 50r45 58r57
+41s39 S4{string} 7|42b39 45r27 51r45 59r57
+41s43 S5{string} 7|42b43 45r32 52r45 60r57
+X 7 s-sopco5.adb
+49i13 L12{natural} 50r39 57r45 58r27
+50i13 L13{natural} 51r39 58r45 59r27
+51i13 L14{natural} 52r39 59r45 60r27
+52i13 L15{natural} 53r48
+53a13 R{string} 56m13 57m13 58m13 59m13 60m13 60r34 61r20
+

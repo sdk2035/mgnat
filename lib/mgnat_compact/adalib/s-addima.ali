@@ -1,0 +1,52 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.address_image%b  s-addima.adb		8b4433fc NE PU SU
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U system.address_image%s  s-addima.ads		a2e24fa8 EE SU
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-addima.ads		20021118235330 b7f156aa
+D s-addima.adb		20000517175130 3cb56556
+D s-secsta.ads		19990726073750 38cfbadd
+X 1 system.ads
+44K9*System 165e11 2|40r10 3|36r10 53r5
+71M9*Address 2|40r36 3|36r36 38r28
+X 2 s-addima.ads
+40V17*Address_Image{string} 1|44k9 2|40>32 3|36b17 53l12 53t25
+40m32 A{1|71M9} 3|36b32 44r36
+X 3 s-addima.adb
+38V13*Hash_Code{integer} 38>24 39b<c,hash_code>22 44r25
+38m24 A{1|71M9}
+41a4 Result{string} 47r13 48m7 52r11
+42a4 Hexdigs(character) 48r21
+44i4 Addr{integer} 48r30 49m7 49r15
+47i8 B{integer} 48r15
+

@@ -1,0 +1,53 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.wid_llu%b	s-widllu.adb		b7c3bdda PK
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U system.wid_llu%s	s-widllu.ads		d804228a EE PU PK
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D system.ads		20050820125040 15131902
+D s-unstyp.ads		19990721075830 fd0aa14a
+D s-widllu.ads		19951120074024 301d9ac2
+D s-widllu.adb		19951120074020 7ad48652
+X 1 system.ads
+44K9*System 165e11 3|40r6 42r9 46r16 51r5 4|36r6 36r33 38r14 77r5
+X 2 s-unstyp.ads
+42K16*Unsigned_Types 234e26 3|40w13 46r23 4|36w13 36r40
+49M9*Long_Long_Unsigned 3|46r38 4|45r16 49r11 63r15
+X 3 s-widllu.ads
+42K16*Wid_LLU 1|44k9 3|43r14 51l12 51e19 4|38b21 77l12 77t19
+45V13*Width_Long_Long_Unsigned{natural} 46>7 46>11 4|44b13 75l8 75t32
+46m7 Lo{2|49M9} 4|45b7 52r10 63r39
+46m11 Hi{2|49M9} 4|45b11 52r15 63r43
+X 4 s-widllu.adb
+48i7 W{natural} 58m10 69m13 69r18 72r17
+49m7 T{2|49M9} 63m10 67r16 68m13 68r18
+

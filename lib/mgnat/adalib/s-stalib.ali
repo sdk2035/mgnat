@@ -1,0 +1,65 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.standard_library%b  s-stalib.adb	db52b687 PK
+W system%s		system.ads		system.ali
+W system.memory%s	s-memory.adb		s-memory.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U system.standard_library%s  s-stalib.ads	93251449 BN EE PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D system.ads		20050820125040 15131902
+D s-memory.ads		20040603022634 33b8762e
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stalib.adb		20040603022502 96667a72
+D s-stoele.ads		19980907140906 fbfe479c
+X 3 system.ads
+44K9*System 165e11 7|42r9 74r5 8|48r6 56r6 61r14 78r7 89r10 93r5
+X 4 s-memory.ads
+48K16*Memory 72e18 8|56w13
+X 5 s-soflin.ads
+47K16*Soft_Links 369e22 8|48w13 78r14 89r17
+63P9*No_Param_Proc
+148p4*Abort_Undefer{63P9} 8|78r25
+198p4*Adafinal{63P9} 8|89r28
+X 7 s-stalib.ads
+42K16*Standard_Library 3|44k9 7|74l12 74e28 8|61b21 93l12 93t28
+44E9*Exception_Trace_Kind 57e7 61r22
+45n7*RM_Convention{44E9} 61r46
+50n7*Every_Raise{44E9}
+54n7*Unhandled_Raise{44E9}
+61e4*Exception_Trace{44E9} 62r19
+65U14*Abort_Undefer_Direct 66r19 8|76b14 79l8 79t28
+70U14*Adafinal 8|85b14 91l8 91t16
+X 8 s-stalib.adb
+63b4 Runtime_Finalized{boolean} 87r14 88m10
+67i4 Inside_Elab_Final_Code{integer} 68m22
+

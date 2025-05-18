@@ -1,0 +1,83 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.strings.unbounded.hash%b  a-stunha.adb	2f8144c0 NE PR SU
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+U ada.strings.unbounded.hash%s  a-stunha.ads	b707c90f EE PR SU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-charac.ads		20050819211548 b6f39c34
+D a-chlat1.ads		19981212023728 e2279e26
+D a-contai.ads		20050817131724 050b27b6
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-stream.ads		20050819212200 01274ccf
+D a-string.ads		20060220230356 87b4230b
+D a-strmap.ads		20050820192112 36dd7df9
+D a-strunb.ads		20060220221202 3aeb20e9
+D a-stunha.ads		20060220172438 88e7ce50
+D a-stunha.adb		20060220172438 a7668a90
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 1 ada.ads
+18K9*Ada 21e8 11|16r6 18r10 21r22 12|38r10 41r8 57r5
+X 4 a-contai.ads
+16K13*Containers 22e19 11|16w10 19r35 12|39r35 41r12
+19M9*Hash_Type 11|19r46 12|39r46 44r16 45r32 48r10
+X 8 a-string.ads
+16K13*Strings 35e16 11|18r14 21r26 12|38r14 57r9
+X 10 a-strunb.ads
+41K21*Unbounded 435e26 11|18r22 21r34 12|38r22 57r17
+44R9*Unbounded_String 396e14 11|19r10 12|39r10
+50P9*String_Access(string)
+394p7*Reference{50P9} 12|53r56
+395i7*Last{natural} 12|52r22
+X 11 a-stunha.ads
+18V32*Hash{4|19M9} 10|41k21 11|19>4 21r44 12|38b32 57l27 57t31
+19r4 Key{10|44R9} 12|39b4 52r18 53r52 53r56
+X 12 a-stunha.adb
+43V13*Rotate_Left{4|19M9} 44>7 45>7 46b30 53r14
+44m7 Value{4|19M9}
+45i7 Amount{natural}
+48m4 Tmp{4|19M9} 51m4 53m7 53r27 56r11
+52i8 J{integer} 53r67
+

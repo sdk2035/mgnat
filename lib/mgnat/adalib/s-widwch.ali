@@ -1,0 +1,71 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnvnnnnnnnnnvnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.wid_wchar%b	s-widwch.adb		19fa23b6 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.img_char%s	s-imgcha.adb		s-imgcha.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+
+U system.wid_wchar%s	s-widwch.ads		13345d85 EE PU PK
+W system%s		system.ads		system.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D system.ads		20050820125040 15131902
+D s-imgcha.ads		20050820215300 b1560aed
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-wchcon.ads		19980525181154 144d0c72
+D s-widwch.ads		19951120074030 126a48f5
+D s-widwch.adb		19980525181204 1fdd6731
+X 3 system.ads
+44K9*System 165e11 9|38r6 40r9 45r16 51r5 10|36r6 36r26 38r14 102r5
+X 8 s-wchcon.ads
+40K16*WCh_Con 176e19 9|38w13 45r23 10|36w13 36r33
+91I9*WC_Encoding_Method<short_short_integer> 9|45r31 10|46r16
+97i4*WCEM_Hex{91I9} 10|64r21
+105i4*WCEM_Upper{91I9} 10|67r21
+113i4*WCEM_Shift_JIS{91I9} 10|70r21
+121i4*WCEM_EUC{91I9} 10|73r21
+128i4*WCEM_UTF8{91I9} 10|76r21
+147i4*WCEM_Brackets{91I9} 10|83r21
+X 9 s-widwch.ads
+40K16*Wid_WChar 3|44k9 9|41r14 51l12 51e21 10|38b21 102l12 102t21
+43V13*Width_Wide_Character{natural} 44>7 44>11 45>7 10|44b13 100l8 100t28
+44e7 Lo{wide_character} 10|45b7 55r16
+44e11 Hi{wide_character} 10|45b11 55r22 77r22
+45i7 EM{8|91I9} 10|46b7 62r18
+X 10 s-widwch.adb
+49i7 W{natural} 53m7 65r39 68r39 71r39 74r39 78r42 80r42 84r39 94m16 94r34
+. 99r14
+50i7 P{natural} 56m10 60r13 92r71
+55e11 C{wide_character} 56r35
+92a16 S{string} 94r37
+

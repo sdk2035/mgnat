@@ -1,0 +1,47 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.wid_lli%b	s-widlli.adb		e9c98be0 PK
+W system%s		system.ads		system.ali
+
+U system.wid_lli%s	s-widlli.ads		b463ff24 EE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-widlli.ads		19951120074016 a170e626
+D s-widlli.adb		19951120074012 48b96dc6
+X 1 system.ads
+44K9*System 165e11 2|40r9 49r5 3|36r14 77r5
+X 2 s-widlli.ads
+40K16*Wid_LLI 1|44k9 2|41r14 49l12 49e19 3|36b21 77l12 77t19
+43V13*Width_Long_Long_Integer{natural} 44>7 44>11 3|42b13 75l8 75t31
+44i7 Lo{long_long_integer} 3|43b7 50r10 62r45
+44i11 Hi{long_long_integer} 3|43b11 50r15 63r45
+X 3 s-widlli.adb
+46i7 W{natural} 56m10 69m13 69r18 72r17
+47i7 T{long_long_integer} 61m10 67r16 68m13 68r18
+

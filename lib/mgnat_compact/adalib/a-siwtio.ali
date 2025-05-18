@@ -1,0 +1,82 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnvnvnnnvnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.short_integer_wide_text_io%b  a-siwtio.ads  bb6ec9f9 EE PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+W ada.wide_text_io.integer_aux%s  a-wtinau.adb	a-wtinau.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+W system.wch_wts%s	s-wchwts.adb		s-wchwts.ali
+
+U ada.short_integer_wide_text_io%s  a-siwtio.ads  45b9b046 EB EE PK
+W ada%s			ada.ads			ada.ali
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-siwtio.ads		19981212023738 bb6ec9f9
+D a-siwtio.ads		19981212023738 bb6ec9f9
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-witeio.ads		20060220234430 8203425d
+D a-wtinau.ads		19971119134016 4559a6ed
+D a-wtinio.ads		19961226155022 f35aa03a
+D a-wtinio.adb		20000718101940 d2d65fc1
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D s-wchcon.ads		19980525181154 144d0c72
+D s-wchwts.ads		20060220220310 058903f4
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 7|18r6 20r9 21r7
+X 7 a-siwtio.ads
+20K13*Short_Integer_Wide_Text_IO[13|27] 1|18k9
+X 11 a-witeio.ads
+53K13*Wide_Text_IO 7|18w10 21r11 11|464e21
+X 13 a-wtinio.ads
+27k26*Integer_IO 7|21r24 13|62e32
+

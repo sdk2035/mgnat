@@ -1,0 +1,97 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.pool_local%b	s-pooloc.adb		310060a7 PK
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U system.pool_local%s	s-pooloc.ads		fb2daf74 EB EE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-pooglo.ads		19951120073214 73a7a50f
+D s-pooloc.ads		19980427121714 666754e5
+D s-pooloc.adb		20040925165536 ac9973de
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stopoo.ads		19990322104048 d510f235
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 3 a-finali.ads
+53U14*Initialize<9|51p14>
+X 7 system.ads
+44K9*System 165e11 11|36r6 37r6 39r9 58r6 60r19 67r26 68r22 69r22 73r22 74r22
+. 75r22 79r5 12|42r6 44r14 46r24 54r26 68r22 86r5
+71M9*Address 11|60r26 67r33 73r29 12|54r33 68r29
+72m4*Null_Address{71M9} 11|60r37
+X 9 s-finroo.ads
+53U14*Adjust
+X 10 s-pooglo.ads
+40K16*Pool_Global 77e23 11|37w13 58r13
+54R9*Unbounded_No_Reclaim_Pool<18|46R9> 55e61 11|58r25
+57V13*Storage_Size{17|38I12}<18|63p13>
+X 11 s-pooloc.ads
+39K16*Pool_Local 7|44k9 11|79l12 79e22 12|44b21 86l12 86t22
+57R9*Unbounded_Reclaim_Pool<10|54R9> 3|53P14 9|53p14 10|57P13 11|61e18 65P14
+. 66r29 71P14 72r29 77P14 77r38 12|53r29 67r29 80r38
+60m11*First{7|71M9}
+65U14*Allocate<10|61p14> 66=7 67<7 68>7 69>7 12|52b14 60l8 60t16
+66r7 Pool{57R9} 12|53b7
+67m7 Address{7|71M9} 12|54b7
+68i7 Storage_Size{17|38I12} 12|55b7
+69i7 Alignment{17|38I12} 12|56b7
+71U14*Deallocate<10|67p14> 72=7 73>7 74>7 75>7 12|66b14 74l8 74t18
+72r7 Pool{57R9} 12|67b7
+73m7 Address{7|71M9} 12|68b7
+74i7 Storage_Size{17|38I12} 12|69b7
+75i7 Alignment{17|38I12} 12|70b7
+77U14*Finalize<10|54p9> 77=24 12|80b14 84l8 84t16
+77r24 Pool{57R9} 12|80b24 81r29
+X 12 s-pooloc.adb
+46K12 SSE=46:31 55r22 56r22 69r22 70r22
+X 17 s-stoele.ads
+26K16*Storage_Elements 11|36w13 68r29 69r29 74r29 75r29 12|42w13 46r31 17|91e28
+31I9*Storage_Offset<integer>
+38I12*Storage_Count{31I9} 11|68r46 69r46 74r46 75r46 12|55r26 56r26 69r26
+. 70r26
+

@@ -1,0 +1,54 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.exp_uns%b	s-expuns.adb		dcd427b3 PK
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U system.exp_uns%s	s-expuns.ads		76293493 EE PU PK
+W system%s		system.ads		system.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D system.ads		20050820125040 15131902
+D s-expuns.ads		19970718214102 9e308cdb
+D s-expuns.adb		19970718214100 bfee0a22
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 1 system.ads
+44K9*System 165e11 2|41r6 43r9 47r15 49r15 51r5 3|36r6 36r33 38r14 77r5
+X 2 s-expuns.ads
+43K16*Exp_Uns 1|44k9 2|44r14 51l12 51e19 3|38b21 77l12 77t19
+46V13*Exp_Unsigned{4|47M9} 47>7 48>7 3|44b13 75l8 75t20
+47m7 Left{4|47M9} 3|45b7 50r29
+48i7 Right{natural} 3|46b7 51r28
+X 3 s-expuns.adb
+49m7 Result{4|47M9} 65m16 65r26 74r14
+50m7 Factor{4|47M9} 65r35 70m13 70r23 70r32
+51i7 Exp{natural} 62r10 64r16 68m13 68r20 69r23
+X 4 s-unstyp.ads
+42K16*Unsigned_Types 2|41w13 47r22 49r22 3|36w13 36r40 4|234e26
+47M9*Unsigned 2|47r37 49r37 3|45r15 47r15 49r17 50r17
+

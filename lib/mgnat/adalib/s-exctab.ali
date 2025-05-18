@@ -1,0 +1,44 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.exception_table%b  s-exctab.adb	c5dc7162 PK
+W system%s		system.ads		system.ali
+
+U system.exception_table%s  s-exctab.ads	0c079ba3 EB EE PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-exctab.ads		20030111234704 0c079ba3
+D s-exctab.adb		20050820215720 c9dbeac1
+X 1 system.ads
+44K9*System 165e11 2|36w6 38r9 41r52 45r5 3|37r14 42r52 45r14 51r5
+71M9*Address 2|41r59 3|42r59
+72m4*Null_Address{71M9} 3|45r21
+X 2 s-exctab.ads
+38K16*Exception_Table 1|44k9 2|45l12 45e27 3|37b21 51l12 51t27
+41V13*Internal_Exception{1|71M9} 41>33 3|42b13 46l8 46t26
+41s33 X{string} 3|42b33 43r29
+

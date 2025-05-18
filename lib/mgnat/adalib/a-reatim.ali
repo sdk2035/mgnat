@@ -1,0 +1,183 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U ada.real_time%b	a-reatim.adb		f5c84275 PK
+W ada%s			ada.ads			ada.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.arith_64%s	s-arit64.adb		s-arit64.ali
+W system.task_primitives%s  s-taspri.ads	s-taspri.ali
+W system.task_primitives.operations%s  s-taprop.adb  s-taprop.ali
+
+U ada.real_time%s	a-reatim.ads		9f4c7107 EE PK
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+W system.task_primitives%s  s-taspri.ads	s-taspri.ali
+W system.task_primitives.operations%s  s-taprop.adb  s-taprop.ali  EA
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-reatim.ads		20060220233246 b7decb3b
+D a-reatim.adb		20060220233344 16500890
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D interfac.ads		20021213031652 279b6d6d
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalaob.ads		20060606190930 538eed4e
+D i-jalapr.ads		20031210020918 2617667a
+D i-jalath.ads		20050819212248 84b66ee0
+D system.ads		20050820125040 15131902
+D s-arit64.ads		19961219232852 2261a1ca
+D s-osinte.ads		20031210151952 01679dba
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-tasinf.ads		20040925171754 04bafbd6
+D s-taspri.ads		20050820220208 d94fa01c
+D s-taprop.ads		20040602223354 544681de
+D s-taskin.ads		20040925171702 dfe0bf9d
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 3|43r9 132r5 4|40r14 241r5
+X 3 a-reatim.ads
+43K13*Real_Time 1|18k9 3|132l9 132e18 4|40b18 241l9 241t18
+45O9*Time 46r26 47r26 57r26 59r26 59r63 60r45 60r63 61r26 61r63 62r26 62r45
+. 64r33 65r33 66r33 67r33 99r25 100r65 103c9 105r26 105r34 107r26 107r34
+. 4|64r25 64r57 66r14 69r44 69r57 71r14 85r25 85r57 87r14 90r32 125r26 127r14
+. 179r25 180r15 207r10 211r17 218r65 220r14
+46o4*Time_First{45O9} 105c4 4|186r14
+47o4*Time_Last{45O9} 107c4 4|187r24
+48N4*Time_Unit
+50O9*Time_Span 51r31 52r32 53r32 54r32 56r20 59r45 60r26 61r45 62r63 69r33
+. 69r63 70r33 70r63 71r27 71r63 72r26 72r63 73r45 73r63 74r33 75r26 75r63
+. 77r28 77r46 79r33 80r33 81r33 82r33 84r32 85r50 87r48 88r48 89r48 91r42
+. 94r42 99r64 100r47 109c9 111r31 111r44 113r31 113r44 115r31 117r31 119r20
+. 120r13 4|48r25 48r60 50r14 53r42 53r60 55r14 64r39 69r25 74r32 74r50 76r14
+. 85r39 90r45 92r14 95r32 95r50 97r14 100r26 100r44 111r32 116r25 116r60
+. 118r14 134r48 143r48 152r42 161r47 170r42 179r64 197r31 218r47 227r31 236r48
+. 238r14
+51o4*Time_Span_First{50O9} 111c4
+52o4*Time_Span_Last{50O9} 113c4
+53o4*Time_Span_Zero{50O9} 115c4 4|102r14
+54o4*Time_Span_Unit{50O9} 117c4 4|136r14 145r14 163r14
+56o4*Tick{50O9} 119c4
+57V13*Clock{45O9} 4|125b13 128l8 128t13
+59V13*"+"{45O9} 59>19 59>37 4|64b13 67l8 67t11 220r24
+59o19 Left{45O9} 4|64b18 66r30
+59o37 Right{50O9} 4|64b31 66r48
+60V13*"+"{45O9} 60>19 60>37 4|69b13 72l8 72t11
+60o19 Left{50O9} 4|69b18 71r30
+60o37 Right{45O9} 4|69b36 71r48
+61V13*"-"{45O9} 61>19 61>37 4|85b13 88l8 88t11
+61o19 Left{45O9} 4|85b18 87r30
+61o37 Right{50O9} 4|85b31 87r48
+62V13*"-"{50O9} 62>19 62>37 4|90b13 93l8 93t11 197r48 211r15
+62o19 Left{45O9} 4|90b18 92r35
+62o37 Right{45O9} 4|90b24 92r53
+64V13*"<"{boolean} 64>19 64>25 4|194r16 200r12
+64o19 Left{45O9}
+64o25 Right{45O9}
+65V13*"<="{boolean} 65>19 65>25
+65o19 Left{45O9}
+65o25 Right{45O9}
+66V13*">"{boolean} 66>19 66>25 4|207r20
+66o19 Left{45O9}
+66o25 Right{45O9}
+67V13*">="{boolean} 67>19 67>25
+67o19 Left{45O9}
+67o25 Right{45O9}
+69V13*"+"{50O9} 69>19 69>25 4|74b13 77l8 77t11
+69o19 Left{50O9} 4|74b18 76r35
+69o25 Right{50O9} 4|74b24 76r53
+70V13*"-"{50O9} 70>19 70>25 4|95b13 98l8 98t11 102r29
+70o19 Left{50O9} 4|95b18 97r35
+70o25 Right{50O9} 4|95b24 97r53
+71V13*"-"{50O9} 71>19 4|100b13 103l8 103t11
+71o19 Right{50O9} 4|100b18 102r31
+72V13*"*"{50O9} 72>19 72>37 4|48b13 51l8 51t11 136r29 136r34 145r29 145r34
+. 154r31 163r29 172r31
+72o19 Left{50O9} 4|48b18 50r35
+72i37 Right{integer} 4|48b36 50r43
+73V13*"*"{50O9} 73>19 73>37 4|53b13 56l8 56t11
+73i19 Left{integer} 4|53b18 55r25
+73o37 Right{50O9} 4|53b34 55r42
+74V13*"/"{integer} 74>19 74>25 4|111b13 114l8 114t11
+74o19 Left{50O9} 4|111b18 113r33
+74o25 Right{50O9} 4|111b24 113r51
+75V13*"/"{50O9} 75>19 75>37 4|116b13 119l8 119t11
+75o19 Left{50O9} 4|116b18 118r35
+75i37 Right{integer} 4|116b36 118r43
+77V13*"abs"{50O9} 77>20 130b30
+77o20 Right{50O9}
+79V13*"<"{boolean} 79>19 79>25 126b30
+79o19 Left{50O9}
+79o25 Right{50O9}
+80V13*"<="{boolean} 80>19 80>25 127b30
+80o19 Left{50O9}
+80o25 Right{50O9}
+81V13*">"{boolean} 81>19 81>25 128b30
+81o19 Left{50O9}
+81o25 Right{50O9}
+82V13*">="{boolean} 82>19 82>25 129b30
+82o19 Left{50O9}
+82o25 Right{50O9}
+84V13*To_Duration{duration} 84>27 4|227b13 230l8 230t19
+84o27 TS{50O9} 4|227b26 229r24
+85V13*To_Time_Span{50O9} 85>27 4|236b13 239l8 239t20
+85o27 D{duration} 4|236b27 238r25
+87V13*Nanoseconds{50O9} 87>27 4|161b13 164l8 164t19
+87i27 NS{integer} 4|161b26 163r31
+88V13*Microseconds{50O9} 88>27 4|134b13 137l8 137t20
+88i27 US{integer} 4|134b27 136r31
+89V13*Milliseconds{50O9} 89>27 4|143b13 146l8 146t20 154r14 172r14
+89i27 MS{integer} 4|143b27 145r31
+91V13*Seconds{50O9} 91>22 92r19 4|170b13 173l8 173t15
+91i22 S{integer} 4|170b22 172r28
+94V13*Minutes{50O9} 94>22 95r19 4|152b13 155l8 155t15
+94i22 M{integer} 4|152b22 154r28
+97I9*Seconds_Count<integer> 99r40 100r27 4|179r40 197r16 218r27
+99U14*Split 99>21 99<31 99<55 4|179b14 212l8 212t13
+99o21 T{45O9} 4|179b21 186r10 189r24 200r10 207r22 211r13
+99i31 SC{97I9} 4|179b31 195m10 197m10 201m10 201r17 207r16 208m10 208r16
+. 211r23
+99o55 TS{50O9} 4|179b55 211m7
+100V13*Time_Of{45O9} 100>22 100>42 4|218b13 221l8 221t15
+100i22 SC{97I9} 4|218b22 220r20
+100o42 TS{50O9} 4|218b42 220r26
+X 4 a-reatim.adb
+180o7 T_Val{3|45O9} 187m10 189m10 194r10 197r42
+X 13 system.ads
+44K9*System 3|40r6 120r24 4|37r6 127r20 13|165e11
+X 22 s-taspri.ads
+42K16*Task_Primitives 3|40r13 120r31 4|37r13 127r27 22|104e27
+X 23 s-taprop.ads
+49K32*Operations 3|40w29 120r47 4|37w29 127r43 23|476e38
+317V13*Monotonic_Clock{duration} 4|127r54
+323V13*RT_Resolution{duration} 3|120r58
+

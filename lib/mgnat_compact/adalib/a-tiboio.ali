@@ -1,0 +1,136 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnvnnnnnnnnnnnnnnnnnvnnnnnvnnnnnnnnnnvnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.text_io.bounded_io%b  a-tiboio.adb	88d8ae5b PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+
+U ada.text_io.bounded_io%s  a-tiboio.ads	8861a63d BN EE PK GE
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.bounded%s	a-strbou.adb		a-strbou.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-charac.ads		20050819211548 b6f39c34
+D a-chlat1.ads		19981212023728 e2279e26
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-string.ads		20060220230356 87b4230b
+D a-strbou.ads		20050820214034 512a8c69
+D a-strmap.ads		20050820192112 36dd7df9
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D a-tiboio.ads		20060220164330 f174b5a5
+D a-tiboio.adb		20060220232740 8df5fa62
+D a-uncdea.ads		19951215031606 dc667e6d
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 15|18r6 22r10 24r9 52r5 16|34r6 34r23 35r6 37r14 52r13 69r41
+. 81r41 183r5
+X 9 a-string.ads
+16K13*Strings 35e16 15|18r10 22r14
+X 10 a-strbou.ads
+42K21*Bounded 466e24 15|18w18 22r22
+49k12*Generic_Bounded_Length 464e30 15|22r30
+53R12 Bounded_String 15|26r37[21] 29r40[21] 32r26[21] 36r26[21] 39r22[21]
+. 43r22[21] 46r22[21] 50r22[21] 16|66r37[15|21] 77r40[15|21] 89r26[15|21]
+. 116r26[15|21] 142r22[15|21] 154r22[15|21] 165r22[15|21] 177r22[15|21]
+65V16 To_Bounded_String{53R12[15|21]} 16|69r22[15|21] 81r22[15|21] 107r23[15|21]
+. 134r23[15|21]
+70V16 To_String{string} 16|145r20[15|21] 157r26[15|21] 168r25[15|21] 180r31[15|21]
+X 14 a-textio.ads
+51K13*Text_IO 1|18k9 14|428e16 15|24r13 52r9 16|34w10 34r27 37r18 69r45 81r45
+. 183r9
+54P9*File_Type(317R9) 15|29r14 35r14 42r14 49r14 16|77r14 115r14 153r14 176r14
+244U14*Put 16|157r7
+245U14*Put 16|145r7
+247U14*Get_Line 16|124r7 128r10
+252U14*Get_Line 16|97r7 101r10
+256V13*Get_Line{string} 16|81r53
+259V13*Get_Line{string} 16|69r53
+262U14*Put_Line 16|180r7
+266U14*Put_Line 16|168r7
+X 15 a-tiboio.ads
+21K17 Bounded 26r29 29r32 32r18 36r18 39r14 43r14 46r14 50r14 16|66r29 69r14
+. 77r32 81r14 89r18 107r15 116r18 134r15 142r14 145r12 154r14 157r18 165r14
+. 168r17 177r14 180r23
+24k21*Bounded_IO 14|51k13 15|21z17 52l17 52e27 16|37b26 183l17 183t27
+26V13*Get_Line{10|53R12[21]} 16|66b13 70l8 70t16
+28V13*Get_Line{10|53R12[21]} 29>7 16|76b13 82l8 82t16
+29p7 File{14|54P9} 16|77b7 81r63
+31U14*Get_Line 32<7 16|88b14 108l8 108t16
+32r7 Item{10|53R12[21]} 16|89b7 107m7
+34U14*Get_Line 35>7 36<7 16|114b14 135l8 135t16
+35p7 File{14|54P9} 16|115b7 124r17 128r20
+36r7 Item{10|53R12[21]} 16|116b7 134m7
+38U14*Put 39>7 16|141b14 146l8 146t11
+39r7 Item{10|53R12[21]} 16|142b7 145r31
+41U14*Put 42>7 43>7 16|152b14 158l8 158t11
+42p7 File{14|54P9} 16|153b7 157r12
+43r7 Item{10|53R12[21]} 16|154b7 157r37
+45U14*Put_Line 46>7 16|164b14 169l8 169t16
+46r7 Item{10|53R12[21]} 16|165b7 168r36
+48U14*Put_Line 49>7 50>7 16|175b14 181l8 181t16
+49p7 File{14|54P9} 16|176b7 180r17
+50r7 Item{10|53R12[21]} 16|177b7 180r42
+X 16 a-tiboio.adb
+39P9 String_Access(string) 41r32 48r32 52r49 93r16 94r16 120r16 121r16
+41U14 Free 41=20 48b14 60l8 60t12 103r10 130r10
+41p20 SA{39P9} 48b20 57r10 58m22
+49a7 Null_String{string} 57r20
+51U17 Deallocate[17|22] 58r10
+91a7 Buffer{string} 97m17 98r27 100r20 101m20 102r41
+92i7 Last{natural} 97m25 98r40 100r13 101m28 102r54
+93p7 Str1{39P9} 98m7 102r30 103m16 104m10 107r42
+94p7 Str2{39P9} 102m10 104r18
+118a7 Buffer{string} 124m23 125r27 127r20 128m26 129r41
+119i7 Last{natural} 124m31 125r40 127r13 128m34 129r54
+120p7 Str1{39P9} 125m7 129r30 130m16 131m10 134r42
+121p7 Str2{39P9} 129m10 131r18
+X 17 a-uncdea.ads
+22u15*Unchecked_Deallocation 16|35w10 52r17
+

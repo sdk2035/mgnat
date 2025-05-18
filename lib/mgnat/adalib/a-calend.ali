@@ -1,0 +1,175 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnvnnnnnnnvnvnvnnnnnnnnnnnnnnnnnnvnnnnnnnvnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U ada.calendar%b	a-calend.adb		e9ee2bec PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.arith_64%s	s-arit64.adb		s-arit64.ali
+W system.os_primitives%s  s-osprim.adb		s-osprim.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U ada.calendar%s	a-calend.ads		eb4b66cd BN EE PK
+W ada%s			ada.ads			ada.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-calend.ads		19981212023726 979f5d2f
+D a-calend.adb		20021213050602 36e3d597
+D a-except.ads		20040603025648 d80fa8a4
+D interfac.ads		20021213031652 279b6d6d
+D system.ads		20050820125040 15131902
+D s-arit64.ads		19961219232852 2261a1ca
+D s-osprim.ads		20040602215716 b02814c4
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 1 ada.ads
+18K9*Ada 21e8 2|40r9 119r5 3|44r14 397r5
+X 2 a-calend.ads
+40K13*Calendar 1|18k9 2|119l9 119e17 3|44b18 397l9 397t17
+42O9*Time 54r26 56r29 57r29 58r29 59r29 62r17 73r17 75r25 75r60 76r43 76r60
+. 77r25 77r60 78r25 78r43 80r33 81r33 82r33 83r33 117c9 3|127r25 127r56 130r22
+. 137r43 137r56 140r15 151r25 151r57 154r21 161r25 161r39 175r32 184r33 193r32
+. 202r33 215r26 217r14 224r25 239r27 254r29 270r17 297r17 366r9 376r26
+48I12*Year_Number{integer} 56r42 63r21 69r17 3|225r12 240r12 255r12 271r21
+. 293r17 376r39 377r12
+49I12*Month_Number{integer} 57r42 64r21 70r17 3|116r36 226r12 239r40 241r12
+. 256r12 272r21 294r17 378r12
+50I12*Day_Number{integer} 58r42 65r21 71r17 3|116r53 224r38 227r12 242r12
+. 257r12 273r21 295r17 379r12
+52O12*Day_Duration{duration} 59r42 66r21 72r17 3|228r12 243r12 254r42 258r12
+. 274r21 296r17 380r12
+54V13*Clock{42O9} 88r19 3|215b13 218l8 218t13
+56V13*Year{48I12} 56>22 90r19 3|376b13 385l8 385t12
+56o22 Date{42O9} 3|376b19 383r14
+57V13*Month{49I12} 57>22 91r19 3|239b13 248l8 248t13
+57o22 Date{42O9} 3|239b20 246r14
+58V13*Day{50I12} 58>22 92r19 3|224b13 233l8 233t11
+58o22 Date{42O9} 3|224b18 231r14
+59V13*Seconds{52O12} 59>22 3|254b13 263l8 263t15
+59o22 Date{42O9} 3|254b22 261r14
+61U14*Split 62>7 63<7 64<7 65<7 66<7 3|231r7 246r7 261r7 269b14 286l8 286t13
+. 383r7
+62o7 Date{42O9} 3|270b7 279r26
+63i7 Year{48I12} 3|271b7 281m7
+64i7 Month{49I12} 3|272b7 282m7
+65i7 Day{50I12} 3|273b7 283m7
+66o7 Seconds{52O12} 3|274b7 284m7
+68V13*Time_Of{42O9} 69>7 70>7 71>7 72>7 3|292b13 370l8 370t15
+69i7 Year{48I12} 3|293b7 303r36 313r21 326r46
+70i7 Month{49I12} 3|294b7 314r21 325r31 326r32 335r25
+71i7 Day{50I12} 3|295b7 315r21 325r10 326r19 334r25
+72o7 Seconds{52O12} 3|296b7 301r50 316r21 368r16
+75V13*"+"{42O9} 75>18 75>35 3|127b13 135l8 135t11
+75o18 Left{42O9} 3|127b18 130r15
+75o35 Right{duration} 3|127b31 130r28
+76V13*"+"{42O9} 76>18 76>35 3|137b13 145l8 145t11
+76o18 Left{duration} 3|137b18 140r21
+76o35 Right{42O9} 3|137b35 140r29
+77V13*"-"{42O9} 77>18 77>35 3|151b13 159l8 159t11
+77o18 Left{42O9} 3|151b18 154r14
+77o35 Right{duration} 3|151b31 154r27
+78V13*"-"{duration} 78>18 78>35 3|161b13 169l8 169t11
+78o18 Left{42O9} 3|161b18 164r24
+78o35 Right{42O9} 3|161b31 164r42
+80V13*"<"{boolean} 80>19 80>25 3|175b13 178l8 178t11
+80o19 Left{42O9} 3|175b18 177r24
+80o25 Right{42O9} 3|175b24 177r42
+81V13*"<="{boolean} 81>19 81>25 3|184b13 187l8 187t12
+81o19 Left{42O9} 3|184b19 186r24
+81o25 Right{42O9} 3|184b25 186r43
+82V13*">"{boolean} 82>19 82>25 3|193b13 196l8 196t11
+82o19 Left{42O9} 3|193b18 195r24
+82o25 Right{42O9} 3|193b24 195r42
+83V13*">="{boolean} 83>19 83>25 3|202b13 205l8 205t12
+83o19 Left{42O9} 3|202b19 204r24
+83o25 Right{42O9} 3|202b25 204r43
+85X4*Time_Error 3|134r16 144r16 158r16 168r16 328r16
+X 3 a-calend.adb
+46K12 SSL=46:31 48r13 217r20 394r7 395r7
+66P9 Char_Pointer(character) 84r19
+67I12 int{integer} 73r19 74r19 75r19 76r19 77r19 78r19 79r19 80r19 81r19
+. 82r19
+68I12 long{long_integer} 83r19 89r22 93r31 279r20
+72R9 tm 85e14 87r34 276r24 300r29
+73i7*tm_msec{67I12} 285r62
+74i7*tm_sec{67I12} 284r36 331r14
+75i7*tm_min{67I12} 284r57 332r14
+76i7*tm_hour{67I12} 285r26 333r14
+77i7*tm_mday{67I12} 283r26 334r14
+78i7*tm_mon{67I12} 282r26 335r14
+79i7*tm_year{67I12} 281r26 352r14
+80i7*tm_wday{67I12}
+81i7*tm_yday{67I12}
+82i7*tm_isdst{67I12} 357r14
+83i7*tm_gmtoff{68I12}
+84p7*tm_zone{66P9}
+87P9 tm_Pointer(72R9) 93r43 96r26
+89I12 time_t{68I12} 96r45 299r29
+93U14 localtime_r 93>27 93>37 94b<c,__gnat_localtime_r>22 279r7
+93i27 C{68I12}
+93p37 res{87P9}
+96V13 mktime{89I12} 96>21 97b<c,mktime>22 358r22
+96p21 TM{87P9}
+108N4 Unix_Year_Min 342r25
+109N4 Unix_Year_Max 347r25
+116a4 Days_In_Month(2|50I12) 325r16
+119N4 Days_In_4_Years 120r47
+120N4 Seconds_In_4_Years 121r57
+121o4 Seconds_In_4_YearsD{duration} 344r47 349r47
+225i7 DY{2|48I12} 231m20
+226i7 DM{2|49I12} 231m24
+227i7 DD{2|50I12} 231m28 232r14
+228o7 DS{2|52O12} 231m32
+240i7 DY{2|48I12} 246m20
+241i7 DM{2|49I12} 246m24 247r14
+242i7 DD{2|50I12} 246m28
+243o7 DS{2|52O12} 246m32
+255i7 DY{2|48I12} 261m20
+256i7 DM{2|49I12} 261m24
+257i7 DD{2|50I12} 261m28
+258o7 DS{2|52O12} 261m32 262r14
+276r7 Tm_Val{72R9} 279m46 281r19 282r19 283r19 284r29 284r50 285r19 285r55
+299i7 Result_Secs{89I12} 358m7 366r25
+300r7 TM_Val{72R9} 331m7 332m7 333m7 334m7 335m7 352m7 357m7 358m30
+301i7 Int_Secs{integer} 331r25 332r26 333r26 368r36
+303i7 Year_Val{integer} 342r13 343m10 343r22 347r13 348m10 348r22 352r25
+304o7 Duration_Adjust{duration} 344m10 344r29 349m10 349r29 367r15
+377i7 DY{2|48I12} 383m20 384r14
+378i7 DM{2|49I12} 383m24
+379i7 DD{2|50I12} 383m28
+380o7 DS{2|52O12} 383m32
+X 6 system.ads
+44K9*System 3|36r6 41r6 46r24 395r20 6|165e11
+X 8 s-osprim.ads
+45K16*OS_Primitives 3|41w13 395r27 8|80e25
+57V13*Clock{duration} 3|395r41
+X 9 s-soflin.ads
+47K16*Soft_Links 3|36w13 46r31 9|369e22
+81P9*Get_Duration_Call(duration) 3|48r17
+261p4*Clock{81P9} 3|217r24 394r11 395m11
+

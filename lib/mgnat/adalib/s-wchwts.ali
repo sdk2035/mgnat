@@ -1,0 +1,80 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.wch_wts%b	s-wchwts.adb		ce0aad91 PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.wch_cnv%s	s-wchcnv.adb		s-wchcnv.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+
+U system.wch_wts%s	s-wchwts.ads		04d71684 EE PU PK
+W system%s		system.ads		system.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+
+D interfac.ads		20021213031652 279b6d6d
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-wchcnv.ads		20060221001556 7337e026
+D s-wchcnv.adb		20060221001556 704bdd2d
+D s-wchcon.ads		19980525181154 144d0c72
+D s-wchjis.ads		19951120073932 bbf2970f
+D s-wchwts.ads		20060220220310 058903f4
+D s-wchwts.adb		20060220220310 acf94231
+X 2 system.ads
+44K9*System 165e11 8|39r6 41r9 46r12 61r12 64r5 9|34r6 34r26 35r6 35r26 37r14
+. 124r5
+X 4 s-wchcnv.ads
+39K16*WCh_Cnv 88e19 9|35w13 35r33
+42I9*UTF_32_Code<integer> 9|44r12 58r12
+80u14*UTF_32_To_Char_Sequence 9|67r36
+X 6 s-wchcon.ads
+40K16*WCh_Con 176e19 8|39w13 46r19 61r19 9|34w13 34r33
+91I9*WC_Encoding_Method<short_short_integer> 8|46r27 61r27 9|47r12 61r12
+. 89r12 109r12
+X 8 s-wchwts.ads
+41K16*WCh_WtS 2|44k9 8|64l12 64e19 9|37b21 124l12 124t19
+44V13*Wide_String_To_String{string} 45>7 46>7 9|87b13 101l8 101t29
+45s7 S{wide_string} 9|88b7 91r29 96r17 97r54
+46i7 EM{6|91I9} 9|89b7 97r70
+59V13*Wide_Wide_String_To_String{string} 60>7 61>7 9|107b13 122l8 122t34
+60s7 S{wide_wide_string} 9|108b7 111r29 117r17 118r59
+61i7 EM{6|91I9} 9|109b7 118r75
+X 9 s-wchwts.adb
+43U14 Store_UTF_32_Character 44>7 45<7 46=7 47>7 57b14 81l8 81t30 97r10 118r10
+44i7 U{4|42I9} 58b7 80r20
+45s7 S{string} 59b7 76m10
+46i7 P{integer} 60b7 75m10 75r15 76r13
+47i7 EM{6|91I9} 61b7 80r23
+63U17 Out_Char 63>27 64r22 67r61 73b17 77l11 77t19
+63e27 C{character} 73b27 76r19
+67U17 Store_Chars[4|80] 80r7
+91a7 R{string} 97m63 100r14
+92i7 RP{natural} 95m7 97m66 100r22
+96i11 SP{integer} 97r57
+111a7 R{string} 118m68 121r14
+112i7 RP{natural} 115m7 118m71 121r22
+117i11 SP{integer} 118r62
+

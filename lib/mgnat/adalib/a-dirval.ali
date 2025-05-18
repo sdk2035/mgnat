@@ -1,0 +1,75 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnn
+
+U ada.directories.validity%b  a-dirval.adb	e4b03f2f PK
+W ada.directories%s	a-direct.adb		a-direct.ali
+
+U ada.directories.validity%s  a-dirval.ads	0646125b EE PK
+W ada.directories%s	a-direct.adb		a-direct.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-calend.ads		19981212023726 979f5d2f
+D a-charac.ads		20050819211548 b6f39c34
+D a-chlat1.ads		19981212023728 e2279e26
+D a-direct.ads		20060408184602 2c7cfac9
+D a-dirval.ads		20060220172242 2a3ae892
+D a-dirval.adb		20060408183348 ce8ad7bd
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-string.ads		20060220230356 87b4230b
+D a-strmap.ads		20050820192112 36dd7df9
+D a-strunb.ads		20060220221202 3aeb20e9
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 1 ada.ads
+18K9*Ada 21e8 6|37r17 51r5 7|37r14 106r5
+X 5 a-direct.ads
+78K13*Directories 1|18k9 5|422e20 6|37r21 51r9 7|37r18 106r9
+X 6 a-dirval.ads
+37K33*Validity 5|78k13 6|51l21 51e29 7|37b30 106l21 106t29
+39V13*Is_Valid_Simple_Name{boolean} 39>35 7|76b13 95l8 95t28
+39s35 Name{string} 7|76b35 81r10 85r19 86r16 86r39
+42V13*Is_Valid_Path_Name{boolean} 42>33 7|52b13 70l8 70t26
+42s33 Name{string} 7|52b35 56r10 60r19 61r16
+45V13*Is_Path_Name_Case_Sensitive{boolean} 7|43b13 46l8 46t35
+48V13*OpenVMS{boolean} 7|101b13 104l8 104t15
+X 7 a-dirval.adb
+60i14 J{integer} 61r22
+85i14 J{integer} 86r22 86r45
+

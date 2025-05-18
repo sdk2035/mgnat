@@ -1,0 +1,60 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnvnnnnnnnnnvnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnn
+
+U system.wwd_wchar%b	s-wwdwch.adb		85882438 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.img_char%s	s-imgcha.adb		s-imgcha.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.wch_stw%s	s-wchstw.adb		s-wchstw.ali
+
+U system.wwd_wchar%s	s-wwdwch.ads		42b483e2 EE PU PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D system.ads		20050820125040 15131902
+D s-imgcha.ads		20050820215300 b1560aed
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-wchcon.ads		19980525181154 144d0c72
+D s-wchstw.ads		19980525181158 b08c727f
+D s-wwdwch.ads		19951120074052 57a79ae0
+D s-wwdwch.adb		20041021211636 d22fbed8
+X 3 system.ads
+44K9*System 165e11 10|38r9 48r5 11|36r14 78r5
+X 10 s-wwdwch.ads
+38K16*Wwd_WChar 3|44k9 10|39r14 48l12 48e21 11|36b21 78l12 78t21
+41V13*Wide_Width_Wide_Character{natural} 42>7 42>11 11|42b13 76l8 76t33
+42e7 Lo{wide_character} 11|43b7 52r16
+42e11 Hi{wide_character} 11|43b11 52r22
+X 11 s-wwdwch.adb
+46i7 W{natural} 50m7 59r33 70m16 70r34 75r14
+47i7 P{natural} 53m10 58r13 67r56
+52e11 C{wide_character} 53r35
+66a16 S{wide_string} 70r37
+

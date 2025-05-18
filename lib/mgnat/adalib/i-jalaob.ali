@@ -1,0 +1,67 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U interfaces.java.lang.object%s  i-jalaob.ads	b90d21aa NE PR PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces.java.lang%s  i-javlan.ads		i-javlan.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D interfac.ads		20021213031652 279b6d6d
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalaob.ads		20060606190930 538eed4e
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 5 interfac.ads
+23K9*Interfaces 168e15 8|23r9 37r29 50r5
+X 6 i-java.ads
+43K20*Java 5|23k9 6|143e20 8|23r20 37r40 50r16
+46B12*boolean{boolean} 8|31r40 32r55
+50I12*int{integer} 8|32r43
+X 7 i-javlan.ads
+33K25*Lang 6|43k20 7|35e25 8|23r25 37r45 50r21
+X 8 i-jalaob.ads
+23K30*Object 7|33k25 8|37r50 50l26 50e32 51r22
+26R9*Typ 28r33 29r33 40c9 40e42 41r29
+28P9*Ref(26R9) 31r28 32r28 33r29 35r31
+29P9*Ref_Class(26R9)
+31V13*Wait{6|46E12} 31>21
+31p21 This{28P9}
+32V13*Wait{6|46E12} 32>21 32>33 43b25
+32p21 This{28P9}
+32i33 Timeout{6|50I12}
+33U14*Notify 33>22 45b25
+33p22 This{28P9}
+35V13*new_Object{28P9} 48r29
+37K12*J_Object=37:50
+

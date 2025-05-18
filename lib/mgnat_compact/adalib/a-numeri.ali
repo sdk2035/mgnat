@@ -1,0 +1,41 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.numerics%s	a-numeri.ads		937608bc EE PU PK
+W ada%s			ada.ads			ada.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-numeri.ads		20050820212018 efa2335e
+D system.ads		20050820125040 15131902
+X 1 ada.ads
+18K9*Ada 21e8 2|16r9 27r5
+X 2 a-numeri.ads
+16K13*Numerics 1|18k9 2|17r14 27l9 27e17
+19X4*Argument_Error
+21N4*Pi
+24N4*e
+

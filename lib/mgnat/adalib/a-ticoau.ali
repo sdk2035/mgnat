@@ -1,0 +1,139 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnvnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.text_io.complex_aux%b  a-ticoau.adb	a623fcc0 PK
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+W system%s		system.ads		system.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+U ada.text_io.complex_aux%s  a-ticoau.ads	2d908e9c EE PK
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D a-ticoau.ads		20060220164126 05af116d
+D a-ticoau.adb		20060220164126 e90a1b77
+D a-tiflau.ads		19971119133942 b5940daf
+D a-tigeau.ads		19971119133946 c2a8a867
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-imgrea.ads		19951120073118 3dba5312
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 10|42r9 71r5 11|34r6 34r35 35r6 39r14 41r24 204r5
+X 9 a-textio.ads
+51K13*Text_IO 1|18k9 9|428e16 10|42r13 71r9 11|34r10 34r39 35r10 39r18 41r28
+. 204r9
+54P9*File_Type(317R9) 10|45r19 51r15 11|48r19 143r15
+76I12*Field{integer} 10|48r15 54r15 55r15 56r15 68r15 69r15 11|51r15 53r28
+. 146r15 147r15 148r15 166r19 167r19 169r35 170r35
+210U14*Put 11|151r7 153r7 155r7
+277X4*Data_Error 11|68r22 88r22 131r19
+278X4*Layout_Error 11|186r16
+X 10 a-ticoau.ads
+42K21*Complex_Aux 9|51k13 10|71l17 71e28 11|39b26 204l17 204t28
+44U14*Get 45>7 46<7 47<7 48>7 11|47b14 92l8 92t11
+45p7 File{9|54P9} 11|48b7 63r22 75r21 77r16 78r19 79r21 80r16 81r19 84r24
+. 85r19
+46f7 ItemR{long_long_float} 11|49b7 64m33 78m25
+47f7 ItemI{long_long_float} 11|50b7 64m40 81m25
+48i7 Width{9|76I12} 11|51b7 62r10 63r28
+50U14*Put 51>7 52>7 53>7 54>7 55>7 56>7 11|142b14 156l8 156t11
+51p7 File{9|54P9} 11|143b7 151r12 152r16 153r12 154r16 155r12
+52f7 ItemR{long_long_float} 11|144b7 152r22
+53f7 ItemI{long_long_float} 11|145b7 154r22
+54i7 Fore{9|76I12} 11|146b7 152r29 154r29
+55i7 Aft{9|76I12} 11|147b7 152r35 154r35
+56i7 Exp{9|76I12} 11|148b7 152r40 154r40
+58U14*Gets 59>7 60<7 61<7 62<7 11|64r10 98b14 136l8 136t12
+59s7 From{string} 11|99b7 108r20 110r10 117r17 117r30 119r20 119r37 121r10
+. 125r17 125r30 128r23 128r40 130r13
+60f7 ItemR{long_long_float} 11|100b7 117m42
+61f7 ItemI{long_long_float} 11|101b7 125m42
+62i7 Last{positive} 11|102b7 135m7
+64U14*Puts 65<7 66>7 67>7 68>7 69>7 11|162b14 202l8 202t12
+65s7 To{string} 11|163b7 185r28 191m7 191r11 192m7 192r11 192r27 193m7 193r11
+. 195m7 195r11 196m7 196r11 196r29 198r16 198r39 199m10
+66f7 ItemR{long_long_float} 11|164b7 179r23
+67f7 ItemI{long_long_float} 11|165b7 181r23
+68i7 Aft{9|76I12} 11|166b7 179r49 181r49
+69i7 Exp{9|76I12} 11|167b7 179r54 181r54
+X 11 a-ticoau.adb
+41K12 Aux=41:36 78r10 81r10 117r7 125r7 152r7 154r7
+53a7 Buf{string} 63m35 64r16 67r30 77m22 80m22 85m25
+54i7 Stop{integer} 63m40 64r26 66r30
+55i7 Ptr{integer} 64m47 66r19 76m10 77m27 80m27 85m30
+56b7 Paren{boolean} 77m37 83r13 85m40 87r20
+66i14 J{integer} 67r35
+104b7 Paren{boolean} 112m10 114m10 127r10
+105i7 Pos{integer} 108m26 110r16 111m10 111r17 117r23 117m49 119r26 119m49
+. 121r16 122m10 122r17 125r23 125m49 128r29 128m52 130r19 135r15
+169a7 I_String{string} 181m30 196r45
+170a7 R_String{string} 179m30 192r47
+172i7 Iptr{natural} 180m7 181m40 185r17 196r21 196r60 198r49
+173i7 Rptr{natural} 178m7 179m40 185r10 192r38 192r62 193r22 198r27
+198i11 J{integer} 199r14
+X 12 a-tiflau.ads
+44K29*Float_Aux 11|35w18 41r36 12|76e26
+53U14*Get 11|78r14 81r14
+58U14*Put 11|152r11 154r11
+65U14*Gets 11|117r11 125r11
+X 13 a-tigeau.ads
+39K29*Generic_Aux 11|34w18 34r47 13|191e28
+81V13*Is_Blank{boolean} 11|67r20
+84U14*Load_Width 11|63r10
+91U14*Load_Skip 11|75r10 79r10 84r13
+96U14*Load 11|77r10 85r13
+105U14*Load 11|80r10
+176U14*String_Skip 11|108r7 119r7 128r10
+X 16 system.ads
+44K9*System 11|37r6 37r27 16|165e11
+X 20 s-imgrea.ads
+38K16*Img_Real 11|37w13 37r34 20|73e20
+59U14*Set_Image_Real 11|179r7 181r7
+

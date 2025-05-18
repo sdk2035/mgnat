@@ -1,0 +1,80 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnvnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.strings.unbounded.aux%b  a-stunau.adb	2f7ff678 PK
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+U ada.strings.unbounded.aux%s  a-stunau.ads	43e8713c BN EE PR PK
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-charac.ads		20050819211548 b6f39c34
+D a-chlat1.ads		19981212023728 e2279e26
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-stream.ads		20050819212200 01274ccf
+D a-string.ads		20060220230356 87b4230b
+D a-strmap.ads		20050820192112 36dd7df9
+D a-strunb.ads		20060220221202 3aeb20e9
+D a-stunau.ads		19980427121422 790351d5
+D a-stunau.adb		19980427121420 567ca7ad
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 1 ada.ads
+18K9*Ada 21e8 10|41r9 72r5 11|36r14 75r5
+X 7 a-string.ads
+16K13*Strings 1|18k9 7|35e16 10|41r13 72r9 11|36r18 75r9
+X 9 a-strunb.ads
+41K21*Unbounded 7|16k13 9|435e26 10|41r21 72r17 11|36r26 75r17
+44R9*Unbounded_String 396e14 10|44r30 58r38 66r38 11|42r30 51r38 69r38
+50P9*String_Access(string) 10|44r55 66r60 11|42r55 59r19 69r60
+394p7*Reference{50P9} 11|44r16 53r13 54r13 64r16 72r10
+412U14 Finalize<5|49p14> 11|63r13 71r7
+X 10 a-stunau.ads
+41K31*Aux 9|41k21 10|42r22 72l27 72e30 11|36b36 75l27 75t30
+44V13*Get_String{9|50P9} 44>25 45r19 11|42b13 45l8 45t18
+44r25 U{9|44R9} 11|42b25 44r14
+58U14*Set_String 58=26 58>56 59r19 11|51b14 67l8 67t18
+58r26 UP{9|44R9} 11|51b26 53r10 54r10 63m23 64m13
+58s56 S{string} 11|51b56 53r32 54r30 58r46 62r42
+66U14*Set_String 66=26 66>56 11|69b14 73l8 73t18
+66r26 UP{9|44R9} 11|69b26 71m17 72m7
+66p56 S{9|50P9} 11|69b56 72r23
+X 11 a-stunau.adb
+58A21 String_1{string} 62r32
+59p13 Tmp{9|50P9} 62m13 64r29
+

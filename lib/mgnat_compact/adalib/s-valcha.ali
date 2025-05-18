@@ -1,0 +1,63 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnvnnnnvnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.val_char%b	s-valcha.adb		08453ed1 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.img_char%s	s-imgcha.adb		s-imgcha.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.val_util%s	s-valuti.adb		s-valuti.ali
+
+U system.val_char%s	s-valcha.ads		98236a1f EE PR PK
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D system.ads		20050820125040 15131902
+D s-imgcha.ads		20050820215300 b1560aed
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-valcha.ads		19951120073802 8d30731d
+D s-valcha.adb		19951120073758 14bd997e
+D s-valuti.ads		19960414164052 91c8d4b2
+X 3 system.ads
+44K9*System 165e11 8|36r9 43r5 9|36r6 36r27 38r14 77r5
+X 8 s-valcha.ads
+36K16*Val_Char 3|44k9 8|37r22 43l12 43e20 9|38b21 77l12 77t20
+40V13*Value_Character{character} 40>30 9|44b13 75l8 75t23
+40s30 Str{string} 9|44b30 47r19 47r33
+X 9 s-valcha.adb
+45i7 F{natural} 50m28 54r14 54r32 55r50 61r19 67r19
+46i7 L{natural} 50m31 54r10 54r53 61r24 67r24
+47a7 S{string} 50m25 54r29 54r50 55r47 61r16 67r16
+60e14 C{character} 61r46 62r23
+66e14 C{character} 67r46 68r23
+X 10 s-valuti.ads
+38K16*Val_Util 9|36w13 36r34 10|110e20
+41U14*Normalize_String 9|50r7
+

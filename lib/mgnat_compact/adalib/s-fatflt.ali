@@ -1,0 +1,51 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnvvnvnnnnnnnnnnnnnnnn
+
+U system.fat_flt%s	s-fatflt.ads		38f4223f EE PU PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+W system%s		system.ads		system.ali
+W system.assertions%s	s-assert.adb		s-assert.ali
+W system.fat_gen%s
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-unccon.ads		19951001012526 51e09df2
+D system.ads		20050820125040 15131902
+D s-assert.ads		19981202210304 85573af2
+D s-fatflt.ads		20060214165348 f2e0c28f
+D s-fatgen.ads		20060214165348 df07f9b2
+D s-fatgen.adb		20060214170754 c227c18b
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 3 system.ads
+44K9*System 165e11 5|37r6 39r9 47r30 49r5
+X 5 s-fatflt.ads
+39K16*Fat_Flt 3|44k9 5|49l12 49e19
+47K12*Attr_Float[6|43]
+X 6 s-fatgen.ads
+43k16*Fat_Gen 5|37w13 47r37 6|131e19
+

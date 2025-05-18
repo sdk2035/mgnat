@@ -1,0 +1,54 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.img_lli%b	s-imglli.adb		510ff08f PK
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U system.img_lli%s	s-imglli.ads		32afe11b EE PR PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-imglli.ads		19951120073054 27bcf819
+D s-imglli.adb		19951120073052 76b30896
+D s-secsta.ads		19990726073750 38cfbadd
+X 1 system.ads
+44K9*System 165e11 2|40r9 57r5 3|36r14 99r5
+X 2 s-imglli.ads
+40K16*Img_LLI 1|44k9 2|41r22 57l12 57e19 3|36b21 99l12 99t19
+43V13*Image_Long_Long_Integer{string} 43>38 3|42b13 56l8 56t31
+43i38 V{long_long_integer} 3|42b38 47r10 54r36
+46U14*Set_Image_Long_Long_Integer 47>7 48<7 49=7 3|54r7 62b14 97l8 97t35
+47i7 V{long_long_integer} 3|63b7 88r10 89r23 94r22
+48s7 S{string} 3|64b7 77m13 81m13 93m10
+49i7 P{natural} 3|65b7 76m13 76r18 77r16 80m13 80r18 81r16 92m10 92r15 93r13
+X 3 s-imglli.adb
+43i7 P{natural} 48m10 49r13 51m10 54m42 55r22
+44a7 S{string} 49m10 54m39 55r14
+67U17 Set_Digits 67>29 72b17 75r13 83l11 83t21 89r10 94r10
+67i29 T{long_long_integer} 72b29 74r13 75r25 77r43 81r42
+

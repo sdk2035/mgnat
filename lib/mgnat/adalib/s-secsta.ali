@@ -1,0 +1,49 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnn
+
+U system.secondary_stack%b  s-secsta.adb	9265b782 PK
+W system%s		system.ads		system.ali
+
+U system.secondary_stack%s  s-secsta.ads	2ddca3df EE PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-secsta.adb		20050820215938 aaaa0d5f
+X 1 system.ads
+44K9*System 165e11 2|44r9 49r33 50r29 58r5 3|36r14 42r33 45r14 52r29 58r5
+71M9*Address 2|49r40 50r36 3|42r40 52r36
+72m4*Null_Address{71M9} 3|45r21
+X 2 s-secsta.ads
+44K16*Secondary_Stack 1|44k9 2|58l12 58e27 3|36b21 58l12 58t27
+46N4*Default_Secondary_Stack_Size
+49U14*SS_Init 49<23 49>49 3|42b14 46l8 46t15
+49m23 Stk{1|71M9} 3|42b23 45m7
+49i49 Size{natural} 3|42b49 43r29
+50U14*SS_Free 50>23 3|52b14 56l8 56t15
+50m23 Stk{1|71M9} 3|52b23 53r29
+54i4 SS_Pool{integer}
+

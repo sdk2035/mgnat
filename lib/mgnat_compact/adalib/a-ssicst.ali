@@ -1,0 +1,122 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnvnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.streams.stream_io.c_streams%b  a-ssicst.adb  621a294a PK
+W ada.streams.stream_io%s  a-ststio.adb		a-ststio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W system%s		system.ads		system.ali
+W system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+W system.file_io%s	s-fileio.adb		s-fileio.ali
+W unchecked_conversion%s
+
+U ada.streams.stream_io.c_streams%s  a-ssicst.ads  381e3969 EE PK
+W ada.streams.stream_io%s  a-ststio.adb		a-ststio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-ststio.ads		19971119133900 8e0cdb96
+D a-ssicst.ads		19981212023738 c4e4e15e
+D a-ssicst.adb		19981212023738 d484b134
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-fileio.ads		19980427121710 d973579d
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 8|42r9 56r5 9|41r14 84r5
+X 6 a-stream.ads
+40K13*Streams 1|18k9 6|72e16 8|42r13 56r9 9|41r18 84r9
+X 7 a-ststio.ads
+43K21*Stream_IO 6|40k13 7|192e26 8|42r21 56r17 9|41r26 84r17
+47P9*File_Type(155R9) 8|46r27 50r25 9|54r27 65r25
+49E9*File_Mode 49e54 8|51r21 9|48r49 66r21
+155R9 Stream_AFCB<15|85R9> 172e14 9|70r28
+X 8 a-ssicst.ads
+42K31*C_Streams 7|43k21 8|56l27 56e36 9|41b36 84l27 84t36
+44K12*ICS=44:35 46r45 52r21
+46V13*C_Stream{13|54M12} 46>23 9|54b13 58l8 58t16
+46p23 F{7|47P9} 9|54b23 56r32 57r14
+49U14*Open 50=7 51>7 52>7 53>7 9|64b14 82l8 82t12
+50p7 File{7|47P9} 9|65b7 73m34
+51e7 Mode{7|49E9} 9|66b7 75r38
+52m7 C_Stream{13|54M12} 9|67b7 81r30
+53s7 Form{string} 9|68b7 77r30
+X 9 a-ssicst.adb
+43K12 FIO=43:31 56r7 73r7
+44K12 FCB=44:31 46r18 48r60
+46P12 AP{15|83P9} 56r28 73r30
+48V13 To_FCB[27|22]{15|65E9} 75r30
+70r7 File_Control_Block{7|155R9} 74m30
+X 12 interfac.ads
+23K9*Interfaces 8|40r6 44r24 9|36r6 36r32 12|168e15
+X 13 i-cstrea.ads
+43K20*C_Streams 8|40w17 44r35 9|36w17 36r43 13|349e25
+54M12*FILEs{14|71M9} 8|46r49 52r25 9|54r45 67r21
+X 14 system.ads
+44K9*System 9|37r6 38r6 43r24 44r24 14|165e11
+71M9*Address
+X 15 s-ficobl.ads
+45K16*File_Control_Block 9|38w13 44r31 15|157e30
+65E9*File_Mode 9|48r64 15|65e66
+83P9*AFCB_Ptr(82R9) 9|46r22
+87m7*Stream{13|54M12} 9|57r16
+X 16 s-fileio.ads
+43K16*File_IO 9|37w13 43r31 16|258e19
+52U14*Open 9|73r11
+53p7 File_Ptr{15|83P9} 9|73r17
+54c7 Dummy_FCB<15|85R9> 9|74r17
+55e7 Mode{15|65E9} 9|75r17
+56s7 Name{string} 9|76r17
+57s7 Form{string} 9|77r17
+58e7 Amethod{character} 9|78r17
+59b7 Creat{boolean} 9|79r17
+60b7 Text{boolean} 9|80r17
+61m7 C_Stream{13|54M12} 9|81r17
+152U14*Check_File_Open 9|56r11
+X 27 unchconv.ads
+22v10*Unchecked_Conversion 9|39w6 48r27
+

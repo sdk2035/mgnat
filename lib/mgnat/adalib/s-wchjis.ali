@@ -1,0 +1,68 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.wch_jis%b	s-wchjis.adb		1effceb2 PK
+W system%s		system.ads		system.ali
+
+U system.wch_jis%s	s-wchjis.ads		aee18e0d EE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-wchjis.ads		19951120073932 bbf2970f
+D s-wchjis.adb		19951120073928 a50d59bd
+X 1 system.ads
+44K9*System 165e11 2|39r9 80r5 3|36r14 173r5
+X 2 s-wchjis.ads
+39K16*WCh_JIS 1|44k9 2|40r14 80l12 80e19 3|36b21 173l12 173t19
+42V13*EUC_To_JIS{wide_character} 42>25 42>31 3|46b13 66l8 66t18
+42e25 EUC1{character} 3|46b25 47r48
+42e31 EUC2{character} 3|46b31 48r48
+47U14*JIS_To_EUC 48>7 49<7 50<7 3|72b14 89l8 89t18
+48e7 J{wide_character} 3|73b7 77r54 78r54
+49e7 EUC1{character} 3|74b7 82m10 86m10
+50e7 EUC2{character} 3|75b7 83m10 87m10
+60U14*JIS_To_Shift_JIS 61>7 62<7 63<7 3|95b14 127l8 127t24
+61e7 J{wide_character} 3|96b7 108r50 109r50
+62e7 SJ1{character} 3|97b7 116m10 124m10
+63e7 SJ2{character} 3|98b7 117m10 125m10
+75V13*Shift_JIS_To_JIS{wide_character} 75>31 75>36 3|133b13 171l8 171t24
+75e31 SJ1{character} 3|133b31 144r31
+75e36 SJ2{character} 3|133b36 145r31
+X 3 s-wchjis.adb
+38M9 Byte 40r32 47r25 48r25 100r14 101r14 108r15 109r15 134r15 135r15 136r15
+. 137r15
+40m4 EUC_Hankaku_Kana{38M9} 55r18 82r33
+47m7 EUC1B{38M9} 55r10 59r13 63r31
+48m7 EUC2B{38M9} 51r10 56r37 63r60
+77i7 JIS1{natural} 81r10 86r33
+78i7 JIS2{natural} 83r33 87r33
+100m7 JIS1{38M9} 108m7 111r10 112m10 112r18 115r11 116r33 124r33
+101m7 JIS2{38M9} 109m7 117r32 120r13 121m13 121r21 125r32
+134m7 SJIS1{38M9} 144m7 147r10 148m10 148r19 152r19 160r19
+135m7 SJIS2{38M9} 145m7 151r10 153r18 156r13 157m13 157r22 161r18
+136m7 JIS1{38M9} 152m10 160m10 164r10 169r52
+137m7 JIS2{38M9} 153m10 161m10 165r17 169r69
+

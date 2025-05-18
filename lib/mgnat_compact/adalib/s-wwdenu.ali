@@ -1,0 +1,80 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnvnnvnnnnnnnnnnvnvnnnnnnnnvnnnnvnnvnvnnnnnnnnnnnnnn
+
+U system.wwd_enum%b	s-wwdenu.adb		00afecc1 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+W system.wch_stw%s	s-wchstw.adb		s-wchstw.ali
+W unchecked_conversion%s
+
+U system.wwd_enum%s	s-wwdenu.ads		35acff83 EE PU PK
+W system%s		system.ads		system.ali
+W system.wch_con%s	s-wchcon.ads		s-wchcon.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D system.ads		20050820125040 15131902
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+D s-wchcon.ads		19980525181154 144d0c72
+D s-wchstw.ads		19980525181158 b08c727f
+D s-wwdenu.ads		19980218220414 34f2eaf3
+D s-wwdenu.adb		19951120074042 a41a726a
+D unchconv.ads		20021213031438 34860a55
+X 3 system.ads
+44K9*System 165e11 9|38r6 40r9 46r16 53r5 10|38r6 38r26 39r6 39r26 41r14
+. 78r5
+71M9*Address 9|44r16 10|48r16 57r52
+X 7 s-wchcon.ads
+40K16*WCh_Con 176e19 9|38w13 46r23 10|39w13 39r33
+91I9*WC_Encoding_Method<short_short_integer> 9|46r31 10|50r16
+X 8 s-wchstw.ads
+41K16*WCh_StW 62e19 10|38w13 38r33
+44V13*String_To_Wide_String{wide_string} 10|68r15
+X 9 s-wwdenu.ads
+40K16*WWd_Enum 3|44k9 9|41r14 53l12 53e20 10|41b21 78l12 78t20
+43V13*Wide_Width_Enumeration{natural} 44>7 45>7 45>11 46>7 10|47b13 76l8
+. 76t30
+44m7 Table{3|71M9} 10|48b7 59r46
+45i7 Lo{natural} 10|49b7 65r16
+45i11 Hi{natural} 10|49b11 65r22
+46i7 EM{7|91I9} 10|50b7 68r49
+X 10 s-wwdenu.adb
+53P12 String_Access(string) 54r11 55r45
+55A12 Enum_Table(53P12) 56r37
+56P12 Enum_Table_Ptr(55A12) 57r61 59r20
+57V16 A_To_T[11|22]{56P12} 59r38
+59p7 T{56P12} 68r38
+60i7 W{natural} 63m7 71m13 71r31 75r14
+65i11 J{integer} 68r41
+67a13 WS{wide_string} 71r34
+X 11 unchconv.ads
+22v10*Unchecked_Conversion 10|36w6 57r30
+

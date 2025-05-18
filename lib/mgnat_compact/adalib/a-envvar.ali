@@ -1,0 +1,86 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnn
+
+U ada.environment_variables%b  a-envvar.adb	94ddcd9e PK
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U ada.environment_variables%s  a-envvar.ads	9109aa7a EE PR PK
+W ada%s			ada.ads			ada.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-envvar.ads		20060411190108 eddd9198
+D a-envvar.adb		20060411190424 6c134504
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+X 1 ada.ads
+18K9*Ada 21e8 2|18r9 62r5 3|37r14 221r5
+X 2 a-envvar.ads
+18K13*Environment_Variables 1|18k9 2|19r25 62l9 62e30 3|37b18 221l9 221t30
+21V13*Value{string} 21>20 3|182b13 219l8 219t13
+21s20 Name{string} 3|182b20 195r39 198r20 198r36
+28V13*Exists{boolean} 28>21 3|72b13 83l8 83t14
+28s21 Name{string} 3|72b21 76r47 79r20 79r36
+33U14*Set 33>19 33>34 3|161b14 176l8 176t11
+33s19 Name{string} 3|161b19 162r30 169r20 169r36
+33s34 Value{string} 3|161b34 163r30 172r21 172r38
+44U14*Clear 44>21 3|44b14 55l8 55t13
+44s21 Name{string} 3|44b21 48r30 51r20 51r36
+49U14*Clear 3|61b14 66l8 66t13
+X 3 a-envvar.adb
+38M9 Object<4|71M9> 45r39 54r22 187r23 190r50 193r26 212r22
+45U17*Clear_Env_Var 45>32 46b<c,__gnat_unsetenv>25 54r7
+45m32 Name{38M9}
+48a7 F_Name{string} 51m7 52m7 52r15 54m30
+62U17*Clear_Env 63b<c,__gnat_clearenv>25 65r7
+73V16*Get_Env_Value_Ptr{boolean} 73>35 74b<c,__gnat_isenv>25 82r14
+73s35 Name{string}
+76a7 F_Name{string} 79m7 80m7 80r15 82r33
+162a7 F_Name{string} 169m7 170m7 170r15 175r22
+163a7 F_Value{string} 172m7 173m7 173r16 175r30
+165U17*Set_Env_Value 165>32 165>38 166b<c,__gnat_setenv>25 175r7
+165s32 Name{string}
+165s38 Value{string}
+185U17*Get_Env_Value_Ptr 185>36 186<10 187<10 188b<c,__gnat_getenv>25 201r7
+185s36 Name{string}
+186i10 Length{integer}
+187m10 Value{38M9}
+190U17*Strncpy 190>26 190>40 190>58 191b<c,strncpy>25 212r13
+190m26 Astring_Addr{38M9}
+190m40 Cstring{38M9}
+190i58 N{integer}
+193m7 Env_Value_Ptr{38M9} 202m36 204r26 212r47
+194i7 Env_Value_Length{integer} 202m18 208r10 210r43 213r16
+195a7 F_Name{string} 198m7 199m7 199r15 202r10
+210a13 Result{string} 212m30 214r20
+X 4 system.ads
+44K9*System 3|34w6 38r23 183r16 204r10 204r43 4|165e11
+71M9*Address 3|38r30 183r23 204r17
+72m4*Null_Address{71M9} 3|204r50
+84V13*"="{boolean} 3|204r41
+

@@ -1,0 +1,91 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.wide_text_io.text_streams%b  a-wttest.adb	676a9beb PK
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+W system%s		system.ads		system.ali
+W system.file_io%s	s-fileio.adb		s-fileio.ali
+
+U ada.wide_text_io.text_streams%s  a-wttest.ads	308e27b9 EE PK
+W ada%s			ada.ads			ada.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.wide_text_io%s	a-witeio.adb		a-witeio.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-witeio.ads		20060220234430 8203425d
+D a-wttest.ads		19971119134022 b3aa292b
+D a-wttest.adb		19961226155048 0db3e55d
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-fileio.ads		19980427121710 d973579d
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D s-wchcon.ads		19980525181154 144d0c72
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 10|18r6 20r9 26r5 11|38r14 50r5
+X 6 a-stream.ads
+40K13*Streams 72e16 10|18w10 22r37
+43H9*Root_Stream_Type 70e64 10|22r45
+X 9 a-witeio.ads
+53K13*Wide_Text_IO 1|18k9 9|464e21 10|20r13 26r9 11|38r18 50r9
+57P9*File_Type(324R9) 10|24r31 11|44r31
+322K12 FCB=322:31 11|46r39
+X 10 a-wttest.ads
+20K26*Text_Streams 9|53k13 10|26l22 26e34 11|38b31 50l22 50t34
+22P9*Stream_Access(6|43R9) 24r49 11|44r49 47r14
+24V13*Stream{22P9} 24>21 11|44b13 48l8 48t14
+24p21 File{9|57P9} 11|44b21 46r53 47r29
+X 14 system.ads
+44K9*System 11|36r6 46r7 14|165e11
+X 15 s-ficobl.ads
+83P9*AFCB_Ptr(82R9) 11|46r43
+X 16 s-fileio.ads
+43K16*File_IO 11|36w13 46r14 16|258e19
+152U14*Check_File_Open 11|46r22
+

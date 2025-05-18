@@ -1,0 +1,114 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnvnnnnnnnnnnnnnvnnnnnnnnnvnnnnnnnnnnvnnnnnnnnnnnnnvvnvnnnnnnnnnnnnnnnn
+
+U ada.exceptions%b	a-except.adb		59269c14 PK
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+U ada.exceptions%s	a-except.ads		b1c88a44 BN EE PK
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-except.adb		20041021203618 e2d0c108
+D a-excpol.adb		20021213031512 63f9f5b8 ada.exceptions.poll
+D system.ads		20050820125040 15131902
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stoele.ads		19980907140906 fbfe479c
+X 1 ada.ads
+18K9*Ada 21e8 2|89r9 185r5 3|42r14 171r5
+X 2 a-except.ads
+89K13*Exceptions 1|18k9 2|185l9 185e19 3|42b18 171l9 171t19
+91M9*Exception_Id 92r23 98r33 102r35 118r67 135c9 138r23 138r39 147r42 3|77r33
+. 78r30 105r17 108r31 123r17 126r31
+92m4*Null_Id{91M9} 138c4 3|113r15
+94M9*Exception_Occurrence 95r51 96r31 99r33 110r37 112r38 118r38 119r41 126r20
+. 127r16 130r16 140c9 144r31 145r24 154r45 161r47 170r45 3|44r19
+95P9*Exception_Occurrence_Access(94M9) 131r16 3|45r19
+96m4*Null_Occurrence{94M9} 144c4 3|140r15
+98V13*Exception_Name{string} 98>29 3|77b13 83l8 83t22 91r14
+98m29 X{91M9} 3|77b29 82r24
+99V13*Exception_Name{string} 99>29 3|89b13 92l8 92t22
+99m29 X{94M9} 3|89b29 91r50
+102U14*Raise_Exception 102>31 102>49 3|104b14 116l8 116t23
+102m31 E{91M9} 3|105b7 113r10 114r48
+102s49 Message{string} 3|106b7 114r51
+110V13*Exception_Message{string} 110>33 3|65b13 71l8 71t25
+110m33 X{94M9} 3|65b32 70r25
+112U14*Reraise_Occurrence 112>34 3|138b14 143l8 143t26
+112m34 X{94M9} 3|138b34 140r10 141r39
+118V14*Exception_Identity{91M9} 118>34 180b25 3|91r30
+118m34 X{94M9}
+119V14*Exception_Information{string} 119>37 3|53b13 59l8 59t29
+119m37 X{94M9} 3|53b36 58r22
+125U14*Save_Occurrence 126<7 127>7 3|158b14 161l8 161t23 167r7
+126m7 Target{94M9} 3|158b31 160m7
+127m7 Source{94M9} 3|158b48 160r17
+129V13*Save_Occurrence{95P9} 130>7 3|163b13 169l8 169t23
+130m7 Source{94M9} 3|163b30 167r36
+147U14 Raise_Exception_Always 147>38 147>56 148r22 3|122b14 132l8 132t30
+147m38 E{91M9} 3|123b7 131r45
+147s56 Message{string} 3|124b7 131r48
+154U14 Reraise_Occurrence_Always 154>41 155r22 3|114r10 131r7 149b14 152l8
+. 152t33
+154m41 X{94M9} 3|149b41 151r36
+161U14 Reraise_Occurrence_No_Defer 161>43 162r22 182b25 3|141r10 151r7
+161m43 X{94M9}
+166U14 Poll 167r19 3|98b14 4|54b11 61l5 61t9
+170V13 Current_Target_Exception{94M9} 172b25
+X 3 a-except.adb
+44+12 EO{2|94M9} 53r40 54r28 65r36 66r31 89r33 108r64 126r64 138r38 149r45
+. 158r44 158r57 163r39 164r36
+45P12 EOA{2|95P9} 163r50 164r25
+47P9 String_Access(string) 54r39 66r42 78r51
+54V16*E_Info{47P9} 54>24 55b28 58r14
+54+24 X{44+12}
+66V16*E_Message{47P9} 66>27 67b28 70r14
+66+27 X{44+12}
+78V16*Ada_Name{47P9} 78>26 79b28 82r14
+78m26 X{2|91M9}
+108V16*Create_EO{44+12} 108>27 108>45 109b28 114r37
+108m27 E{2|91M9}
+108s45 M{string}
+126V16*Create_EO{44+12} 126>27 126>45 127b28 131r34
+126m27 E{2|91M9}
+126s45 M{string}
+164p7 Target{45P12} 167r24 168r14
+X 5 system.ads
+44K9*System 2|87w6 135r29 138r53 140r37 145r46 4|45r6 58r7 5|165e11
+71M9*Address 2|135r36 140r44
+72m4*Null_Address{71M9} 2|138r60 145r53
+84V13*"="{boolean} 3|113r12 140r12
+X 7 s-soflin.ads
+47K16*Soft_Links 4|45w13 58r14 7|369e22
+71P9*Get_Integer_Call(integer)
+158p4*Check_Abort_Status{71P9} 4|58r25
+

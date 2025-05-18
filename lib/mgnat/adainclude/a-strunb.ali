@@ -1,0 +1,72 @@
+V "GNAT Lib v2.01"
+A -gnatg
+A -gnatp
+A -O
+A -gnatyN
+A -nostdinc
+A -gnata
+A -gnatde
+P SS
+R nnnvnnnnnnnnnnvnvvnnnvnnnnvnvnnnnnnnnvnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnn
+
+U ada.strings.unbounded%b  a-strunb.adb		03217981 PK
+W ada.strings%s		a-string.ads		a-string.ali
+
+U ada.strings.unbounded%s  a-strunb.ads		05ff2d03 EE PR PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.adb		a-finali.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-stream.ads		20050819212200 01274ccf
+D a-string.ads		19941113020428 e7a57e0d
+D a-strunb.ads		20050821024408 0c3eeae7
+D a-strunb.adb		20050821001916 0f1f9366
+D a-tags.ads		20050820130606 a4dc1151
+D a-tags.adb		20050820214748 9f37f28b
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 1 ada.ads
+18K9*Ada 21e8 6|40r6 42r9 67r33 74r5 7|36r14 72r5
+X 3 a-finali.ads
+42K13*Finalization 68e21 6|40w10 67r37
+45H9*Controlled 59e72 6|67r50
+X 5 a-string.ads
+18K13*Strings 1|18k9 5|32e16 6|42r13 74r9 7|36r18 72r9
+X 6 a-strunb.ads
+42K21*Unbounded 5|18k13 6|43r22 74l17 74e26 7|36b26 72l17 72t26
+45R9*Unbounded_String 3|47P14 48P14 49P14 61P13 6|49p13 49r35 51p13 52r18
+. 56p13 58r18 67c9 70e14 7|42r35 51r18 61r18
+47P9*String_Access(string) 69r19
+49V13*"="{boolean} 49>18 49>24 7|42b13 48l8 48t11
+49r18 Left{45R9} 7|42b18 43r29
+49r24 Right{45R9} 7|42b24 44r29
+51V13*"="{boolean} 52>7 53>7 7|50b13 57l8 57t11
+52r7 Left{45R9} 7|51b7 56r14
+53s7 Right{string} 7|52b7 56r35
+56V13*"="{boolean} 57>7 58>7 7|59b13 70l8 70t11
+57s7 Left{string} 7|60b7 64r29
+58r7 Right{45R9} 7|61b7 65r29
+65a4 Null_String{string} 69m36
+69p7*Reference{47P9} 7|56r19
+

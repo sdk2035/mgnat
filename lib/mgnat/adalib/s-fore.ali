@@ -1,0 +1,46 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U system.fore%b		s-fore.adb		f88893b0 PK
+W system%s		system.ads		system.ali
+
+U system.fore%s		s-fore.ads		55de27dd EE PU PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-fore.ads		19951120072950 40cd3edf
+D s-fore.adb		19951120072946 b845ad6f
+X 1 system.ads
+44K9*System 165e11 2|38r9 45r5 3|36r14 60r5
+X 2 s-fore.ads
+38K16*Fore 1|44k9 2|39r14 45l12 45e16 3|36b21 60l12 60t16
+41V13*Fore{natural} 41>19 41>23 3|42b13 59l8 59t12
+41f19 Lo{long_long_float} 3|42b19 43r55
+41f23 Hi{long_long_float} 3|42b23 43r63
+X 3 s-fore.adb
+43f7 T{long_long_float} 53r13 54m10 54r15
+44i7 R{natural} 49m7 55m10 55r15 58r14
+

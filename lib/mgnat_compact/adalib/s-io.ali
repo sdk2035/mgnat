@@ -1,0 +1,58 @@
+V "GNAT Lib v2.01"
+A -compact
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnn
+
+U system.io%b		s-io.adb		75c1f54d PK
+W system%s		system.ads		system.ali
+
+U system.io%s		s-io.ads		ab8f19c9 EE PR PK
+W system%s		system.ads		system.ali
+
+D system.ads		20050820125040 15131902
+D s-io.ads		19980218215744 be9c00cb
+D s-io.adb		20000204164508 cb5df586
+X 1 system.ads
+44K9*System 165e11 2|41r9 53r5 3|36r14 88r5
+X 2 s-io.ads
+41K16*IO 1|44k9 2|42r22 53l12 53e14 3|36b21 88l12 88t14
+44U14*Put 44>19 3|53b14 60l8 60t11
+44i19 X{integer} 3|53b19 59r16
+46U14*Put 46>19 3|45r10 62b14 69l8 69t11 74r10
+46e19 C{character} 3|62b19 68r17
+48U14*Put 48>19 3|71b14 76l8 76t11 84r7
+48s19 S{string} 3|71b19 73r16 74r15
+49U14*Put_Line 49>24 3|82b14 86l8 86t16
+49s24 S{string} 3|82b24 84r12
+51U14*New_Line 51>24 3|42b14 47l8 47t16 85r7
+51i24 Spacing{positive} 3|42b24 44r21
+X 3 s-io.adb
+44i11 J{integer}
+55U17*Put_Int 55>26 56b<c,put_int>25 59r7
+55i26 X{integer}
+64U17*Put_Char 64>27 65b<c,put_char>25 68r7
+64e27 C{character}
+73i11 J{integer} 74r18
+

@@ -1,0 +1,78 @@
+V "GNAT Lib v2.01"
+A -g
+A -O
+A -gnatg
+A -gnatp
+A -gnata
+A -gnatyN
+A -gnatya
+A -gnatyb
+A -gnatyc
+A -gnatye
+A -gnatyf
+A -gnatyh
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatym
+A -gnatyp
+A -gnatyr
+A -gnatys
+A -gnatyt
+A -gnatyu
+A -gnatyx
+P SS
+R nnnvnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U ada.strings.wide_unbounded.aux%b  a-swunau.adb  a6b4db2c PK
+W ada.strings.wide_unbounded%s  a-stwiun.adb	a-stwiun.ali
+
+U ada.strings.wide_unbounded.aux%s  a-swunau.ads  200b7f49 BN EE PR PK
+W ada.strings.wide_unbounded%s  a-stwiun.adb	a-stwiun.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-stream.ads		20050819212200 01274ccf
+D a-string.ads		20060220230356 87b4230b
+D a-stwima.ads		19981102164152 53d30b5b
+D a-stwiun.ads		20060220230758 b6b99742
+D a-swunau.ads		20060220172500 96b2e80b
+D a-swunau.adb		20060220172500 30063327
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 1 ada.ads
+18K9*Ada 21e8 8|39r9 77r5 9|34r14 78r5
+X 5 a-string.ads
+16K13*Strings 1|18k9 5|35e16 8|39r13 77r9 9|34r18 78r9
+X 7 a-stwiun.ads
+41K21*Wide_Unbounded 5|16k13 7|441e31 8|39r21 77r17 9|34r26 78r17
+44R9*Unbounded_Wide_String 403e14 8|43r11 60r19 70r19 9|41r11 55r19 69r19
+50P9*Wide_String_Access(wide_string) 8|44r15 71r12 9|42r15 70r12
+401p7*Reference{50P9} 9|46r14 61r13 64r10 74r10 75r21
+402i7*Last{natural} 9|47r14 59r24 65r10 75r10
+420U14 Finalize<3|49p14> 9|60r10 73r7
+X 8 a-swunau.ads
+39K36*Aux 7|41k21 8|77l32 77e35 9|34b41 78l32 78t35
+42U14*Get_Wide_String 43>7 44<7 45<7 46r19 9|40b14 48l8 48t23
+43r7 U{7|44R9} 9|41b7 46r12 47r12
+44p7 S{7|50P9} 9|42b7 46m7
+45i7 L{natural} 9|43b7 47m7
+59U14*Set_Wide_String 60=7 61>7 62r19 9|54b14 66l8 66t23
+60r7 UP{7|44R9} 9|55b7 59r21 60m20 61m10 64r7 65m7
+61s7 S{wide_string} 9|56b7 59r10 61r48 64r26 64r39 65r18
+69U14*Set_Wide_String 70=7 71>7 9|68b14 76l8 76t23
+70r7 UP{7|44R9} 9|69b7 73m17 74m7 75m7 75r18
+71p7 S{7|50P9} 9|70b7 74r23
+
