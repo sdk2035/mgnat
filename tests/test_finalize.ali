@@ -1,0 +1,68 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnvnnnnnnnnnnnvnvnnnnvnnnnvnvnnnnnnvnvnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_finalize%b	test_finalize.adb	5b99d11b NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-charac.ads		20050819211548 b6f39c34
+D a-chlat1.ads		19981212023728 e2279e26
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-string.ads		20060220230356 87b4230b
+D a-strmap.ads		20050820192112 36dd7df9
+D a-strunb.ads		20060220221202 3aeb20e9
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-uncdea.ads		19951215031606 dc667e6d
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D test_finalize.adb	20021210032052 bd148f9f
+X 1 ada.ads
+18K9*Ada 21e8 25|1r6 2r5 3r6 20r29
+X 8 a-string.ads
+16K13*Strings 35e16 25|1r10 2r9
+X 10 a-strunb.ads
+41K21*Unbounded 435e26 25|1w18 2r17
+44R9*Unbounded_String 396e14 25|5r8 7r11 13r11
+46r4*Null_Unbounded_String{44R9} 25|17r9
+58V13*To_Unbounded_String{44R9} 25|11r9 15r12 22r14
+X 13 a-uncdea.ads
+19+9 Object 25|20r74
+20P9 Name(19+9) 25|20r56
+22u15*Unchecked_Deallocation 25|3w10 20r33
+X 25 test_finalize.adb
+4U11*test_finalize 4b11 25l5 25t18
+5r4 x{10|44R9} 11m4 17m4
+6R9 fred 8e14 9r32 19r27 20r84
+7r7 z{10|44R9} 22r9
+9P9 fred_ptr(6R9) 19r11 20r64
+13r7 y{10|44R9} 15m7
+19p7 q{9P9} 22r7 23m12
+20U17 free[13|22] 23r7
+

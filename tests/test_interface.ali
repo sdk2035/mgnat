@@ -1,0 +1,59 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnvnnnnvnnnnnnnnnnnnvnnnnnvnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_interface%b	test_interface.adb	ae7f2532 NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W test_interface_pkg%s	test_interface_pkg.adb	test_interface_pkg.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D test_interface.adb	20060214002926 4c0cbfec
+D test_interface_pkg.ads  20060214004850 ca4c052f
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 24|2r6 3r5
+X 9 a-textio.ads
+51K13*Text_IO 428e16 24|2w10 3r9
+266U14*Put_Line 24|9r7
+X 24 test_interface.adb
+5U11*test_interface 5b11 20l5 20t19
+6U14 bob 6b14 6>19 10l8 10t11 17r4 19r4
+6c19 x<25|4R9> 8r7
+11p4 ptr{25|15P9} 13r64 16r39 17r32
+12p4 tim{25|8P9} 16m4 18m4 19r8
+13p4 ptr2{25|11P9} 18r65
+X 25 test_interface_pkg.ads
+1K9*test_interface_pkg 24|1w6 6r23 11r10 11r43 12r10 13r11 13r39 15r4 16r11
+. 17r8 18r11 18r39 25|20e23
+2i4*x{integer} 24|15m23
+4H9*Int1 24|6r42 17r27
+8P9*int1_ptr(4R9) 24|12r29 16r30 18r30
+11P9*t_ptr(10R9) 24|13r30 13r58
+12R9*T1<10R9> 24|11r62 25|14e14
+15P9*T1_Ptr(12R9) 24|11r29 18r58
+

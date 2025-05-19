@@ -1,0 +1,4725 @@
+-------------------- BUILDING --------------------
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake array_range.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake bug20030120a.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake bug20030120b.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake bug20030121a.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake bug20050830.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake bug20050909a.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake echo_args.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake fred.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake hello.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake hello_ada.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake hello_file.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake seq_io.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_array_bounds.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_assembly.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_assign.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_assign2.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_atc.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_attributes.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_bool_addrof.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_byte_array.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_calendar.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_case.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_case2.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_case3.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_composite.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_controlled.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_controlled_pkg.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_device_error.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_direct_io.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_enum_attrib.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_enum_get.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_environment.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_eof.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_exception.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_exports_main.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_file.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_file2.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_finalize.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_fix_io.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_gen.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_generic_enum_main.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_handling.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_interface.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_interfaces.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_long_float.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_loop.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_lower.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_main.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_mod_64.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_multidimensional_arrays.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_numeric_exception.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_pkg.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_proc.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_procedure_access.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_record_array.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_record_layout.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_return_convert.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_rounding.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_scalar_rename.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_seq_file.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_slice_assign.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_tag_attribute.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_tag_record.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_task.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_task_.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_task_string.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_task_termination.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_unchecked_conv.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_valuetype.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_valuetype_array.adb 
+
+c:\d\rsrch\a#\mgnat\tests>mgnatmake test_wide.adb 
+-------------------- TESTING -------------------- pause
+
+c:\d\rsrch\a#\mgnat\tests>array_range
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+c:\d\rsrch\a#\mgnat\tests>bug20030120a
+
+c:\d\rsrch\a#\mgnat\tests>bug20030120b
+
+c:\d\rsrch\a#\mgnat\tests>bug20030121a
+
+c:\d\rsrch\a#\mgnat\tests>bug20050830
+past divide
+ 0
+ 1000000000000000
+answer below should be 1000x 
+ 37987
+ 37987000
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37987
+bob1
+bob2
+ 746308
+ 37987000
+ 72625513
+ 41801058
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+56252-99935-58755-71788-72822
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37988
+bob1
+bob2
+ 746308
+ 37988000
+ 72625513
+ 34403010
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+76709-35745-58082-98446-26355
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37988
+bob1
+bob2
+ 746308
+ 37988000
+ 72625513
+ 34403010
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+76709-35745-58082-98446-26355
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37989
+bob1
+bob2
+ 746308
+ 37989000
+ 72625513
+ 46954574
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+52700-13921-42159-99901-76296
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37989
+bob1
+bob2
+ 746308
+ 37989000
+ 72625513
+ 46954574
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+52700-13921-42159-99901-76296
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37990
+bob1
+bob2
+ 746308
+ 37990000
+ 72625513
+ 9927072
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+27966-76323-48001-52034-20925
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37990
+bob1
+bob2
+ 746308
+ 37990000
+ 72625513
+ 9927072
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+27966-76323-48001-52034-20925
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37991
+bob1
+bob2
+ 746308
+ 37991000
+ 72625513
+ 14095297
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+88509-89472-28661-88810-31777
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37991
+bob1
+bob2
+ 746308
+ 37991000
+ 72625513
+ 14095297
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+88509-89472-28661-88810-31777
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37991
+bob1
+bob2
+ 746308
+ 37991000
+ 72625513
+ 14095297
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+88509-89472-28661-88810-31777
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37992
+bob1
+bob2
+ 746308
+ 37992000
+ 72625513
+ 12980701
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+37323-51986-80097-45643-73911
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37992
+bob1
+bob2
+ 746308
+ 37992000
+ 72625513
+ 12980701
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+37323-51986-80097-45643-73911
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37992
+bob1
+bob2
+ 746308
+ 37992000
+ 72625513
+ 12980701
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+37323-51986-80097-45643-73911
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37993
+bob1
+bob2
+ 746308
+ 37993000
+ 72625513
+ 42958237
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+39581-68708-83745-49694-43114
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37993
+bob1
+bob2
+ 746308
+ 37993000
+ 72625513
+ 42958237
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+39581-68708-83745-49694-43114
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37994
+bob1
+bob2
+ 746308
+ 37994000
+ 72625513
+ 31630886
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+39282-59870-94797-54514-97477
+press enter to continue
+returning keygen_withbug
+about to reset
+start of reset
+year 2006
+month 2
+day 14
+past x1
+seconds 37994
+bob1
+bob2
+ 746308
+ 37994000
+ 72625513
+ 31630886
+before assign
+after assign
+past reset
+returning generate
+starting keytotext
+returning keytotext
+39282-59870-94797-54514-97477
+press enter to continue
+Terminate batch job (Y/N)? -------------- bug20050909a (compilation error) 
+
+c:\d\rsrch\a#\mgnat\tests>echo_args test 2 3 4  
+command name:echo_args
+number of arguments: 4
+ "test" "2" "3" "4"
+press enter to exit
+
+c:\d\rsrch\a#\mgnat\tests>float_test  
+
+c:\d\rsrch\a#\mgnat\tests>fred  
+
+c:\d\rsrch\a#\mgnat\tests>hello  
+hello there
+
+c:\d\rsrch\a#\mgnat\tests>hello_ada  
+hello Ada .NET!
+The year is 2006
+The month is 2
+The day is 14
+The second is 37998.00
+You should see 2002, 2 and 2. 
+The year is 2002
+The month is 2
+The day is 2
+
+c:\d\rsrch\a#\mgnat\tests>hello_file  
+Enter your name: bob
+bob, please look in timeinfo.txt 3
+
+c:\d\rsrch\a#\mgnat\tests>seq_io  
+
+c:\d\rsrch\a#\mgnat\tests>test_array_bounds  
+
+c:\d\rsrch\a#\mgnat\tests>test_assembly  
+hello
+
+c:\d\rsrch\a#\mgnat\tests>test_assign
+
+c:\d\rsrch\a#\mgnat\tests>test_assign2
+hello1
+hello2
+
+c:\d\rsrch\a#\mgnat\tests>test_atc
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+ 10
+ 11
+vvvvvvvvvvvvv-- will result in mgnat.adalib.constraint_error 
+
+c:\d\rsrch\a#\mgnat\tests>test_attributes  
+
+c:\d\rsrch\a#\mgnat\tests>test_bool_addrof  
+
+c:\d\rsrch\a#\mgnat\tests>test_byte_array  
+Byte value (should be 255):  255
+Byte value after assigning to single byte (should be 255):  255
+
+c:\d\rsrch\a#\mgnat\tests>test_calendar  
+ 2006 2 14 38119
+ 2006 2 15 40119
+
+c:\d\rsrch\a#\mgnat\tests>test_case
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+good
+no news is good news-- should have 3006 goods
+
+c:\d\rsrch\a#\mgnat\tests>test_case2
+
+c:\d\rsrch\a#\mgnat\tests>test_case3
+vvvvvvvvvvvvv-- will result in system.nullreferenceexception 
+
+c:\d\rsrch\a#\mgnat\tests>test_composite  
+
+c:\d\rsrch\a#\mgnat\tests>test_controlled  
+hi
+larry initializing
+initializing
+there
+larry initializing
+initializing
+there
+larry initializing
+initializing
+there
+larry initializing
+initializing
+there
+larry initializing
+initializing
+there
+larry initializing
+initializing
+there
+larry initializing
+initializing
+there
+larry initializing
+initializing
+there
+larry initializing
+initializing
+there
+larry initializing
+initializing
+there
+finalizing
+larry finalizing
+finalizing
+larry finalizing
+finalizing
+larry finalizing
+finalizing
+larry finalizing
+finalizing
+larry finalizing
+finalizing
+larry finalizing
+finalizing
+larry finalizing
+finalizing
+larry finalizing
+finalizing
+larry finalizing
+finalizing
+larry finalizing
+vvvvvvvvvvvvv-- will result in mgnat.adalib._abort_signal 
+
+c:\d\rsrch\a#\mgnat\tests>test_device_error  
+
+c:\d\rsrch\a#\mgnat\tests>test_direct_io  
+Name_and_Create_Log. Properly was not open. Log created
+Test_Direct_Io Began.
+Log_File_Named_And_Created is TRUE
+In Test_Direct_Io
+Integer_File_Name = Integer_File.Io
+Integer_File was already open.
+A 1 has been writen to the Integer_File.The size of the Integer_File is  1
+Log file written; program will now end.
+
+c:\d\rsrch\a#\mgnat\tests>test_enum_attrib  
+RED
+
+c:\d\rsrch\a#\mgnat\tests>test_enum_get  
+enter red, green or blue
+RED
+red
+REDGREENGREEN
+c:\d\rsrch\a#\mgnat\tests>test_environment  
+C:\Documents and Settings\Martin.Carlisle\Desktop
+
+c:\d\rsrch\a#\mgnat\tests>test_eof  
+redgreengreenblueredredgreen
+c:\d\rsrch\a#\mgnat\tests>test_exception  
+Yes
+
+c:\d\rsrch\a#\mgnat\tests>test_exports_main  
+
+c:\d\rsrch\a#\mgnat\tests>test_file
+Name = c:\d\rsrch\a#\mgnat\tests\blah
+character : 0
+character : 1
+character : 2
+character : 3
+character : 4
+character : 5
+character : 6
+character : 7
+character : 8
+character : 9
+character : 11
+character : 14
+character : 15
+character : 16
+character : 17
+character : 18
+character : 19
+character : 20
+character : 21
+character : 22
+character : 23
+character : 24
+character : 25
+character : 26
+character : 27
+character : 28
+character : 29
+character : 30
+character : 31
+character : 32
+character : 33
+character : 34
+character : 35
+character : 36
+character : 37
+character : 38
+character : 39
+character : 40
+character : 41
+character : 42
+character : 43
+character : 44
+character : 45
+character : 46
+character : 47
+character : 48
+character : 49
+character : 50
+character : 51
+character : 52
+character : 53
+character : 54
+character : 55
+character : 56
+character : 57
+character : 58
+character : 59
+character : 60
+character : 61
+character : 62
+character : 63
+character : 64
+character : 65
+character : 66
+character : 67
+character : 68
+character : 69
+character : 70
+character : 71
+character : 72
+character : 73
+character : 74
+character : 75
+character : 76
+character : 77
+character : 78
+character : 79
+character : 80
+character : 81
+character : 82
+character : 83
+character : 84
+character : 85
+character : 86
+character : 87
+character : 88
+character : 89
+character : 90
+character : 91
+character : 92
+character : 93
+character : 94
+character : 95
+character : 96
+character : 97
+character : 98
+character : 99
+character : 100
+character : 101
+character : 102
+character : 103
+character : 104
+character : 105
+character : 106
+character : 107
+character : 108
+character : 109
+character : 110
+character : 111
+character : 112
+character : 113
+character : 114
+character : 115
+character : 116
+character : 117
+character : 118
+character : 119
+character : 120
+character : 121
+character : 122
+character : 123
+character : 124
+character : 125
+character : 126
+character : 127
+character : 128
+character : 129
+character : 130
+character : 131
+character : 132
+character : 133
+character : 134
+character : 135
+character : 136
+character : 137
+character : 138
+character : 139
+character : 140
+character : 141
+character : 142
+character : 143
+character : 144
+character : 145
+character : 146
+character : 147
+character : 148
+character : 149
+character : 150
+character : 151
+character : 152
+character : 153
+character : 154
+character : 155
+character : 156
+character : 157
+character : 158
+character : 159
+character : 160
+character : 161
+character : 162
+character : 163
+character : 164
+character : 165
+character : 166
+character : 167
+character : 168
+character : 169
+character : 170
+character : 171
+character : 172
+character : 173
+character : 174
+character : 175
+character : 176
+character : 177
+character : 178
+character : 179
+character : 180
+character : 181
+character : 182
+character : 183
+character : 184
+character : 185
+character : 186
+character : 187
+character : 188
+character : 189
+character : 190
+character : 191
+character : 192
+character : 193
+character : 194
+character : 195
+character : 196
+character : 197
+character : 198
+character : 199
+character : 200
+character : 201
+character : 202
+character : 203
+character : 204
+character : 205
+character : 206
+character : 207
+character : 208
+character : 209
+character : 210
+character : 211
+character : 212
+character : 213
+character : 214
+character : 215
+character : 216
+character : 217
+character : 218
+character : 219
+character : 220
+character : 221
+character : 222
+character : 223
+character : 224
+character : 225
+character : 226
+character : 227
+character : 228
+character : 229
+character : 230
+character : 231
+character : 232
+character : 233
+character : 234
+character : 235
+character : 236
+character : 237
+character : 238
+character : 239
+character : 240
+character : 241
+character : 242
+character : 243
+character : 244
+character : 245
+character : 246
+character : 247
+character : 248
+character : 249
+character : 250
+character : 251
+character : 252
+character : 253
+character : 254
+character : 255
+
+c:\d\rsrch\a#\mgnat\tests>test_file2
+we expect end of file error as newline
+is skipped on get
+character : 0
+character : 1
+character : 2
+character : 3
+character : 4
+character : 5
+character : 6
+character : 7
+character : 8
+character : 9
+character : 11
+character : 14
+character : 15
+character : 16
+character : 17
+character : 18
+character : 19
+character : 20
+character : 21
+character : 22
+character : 23
+character : 24
+character : 25
+character : 26
+character : 27
+character : 28
+character : 29
+character : 30
+character : 31
+character : 32
+character : 33
+character : 34
+character : 35
+character : 36
+character : 37
+character : 38
+character : 39
+character : 40
+character : 41
+character : 42
+character : 43
+character : 44
+character : 45
+character : 46
+character : 47
+character : 48
+character : 49
+character : 50
+character : 51
+character : 52
+character : 53
+character : 54
+character : 55
+character : 56
+character : 57
+character : 58
+character : 59
+character : 60
+character : 61
+character : 62
+character : 63
+character : 64
+character : 65
+character : 66
+character : 67
+character : 68
+character : 69
+character : 70
+character : 71
+character : 72
+character : 73
+character : 74
+character : 75
+character : 76
+character : 77
+character : 78
+character : 79
+character : 80
+character : 81
+character : 82
+character : 83
+character : 84
+character : 85
+character : 86
+character : 87
+character : 88
+character : 89
+character : 90
+character : 91
+character : 92
+character : 93
+character : 94
+character : 95
+character : 96
+character : 97
+character : 98
+character : 99
+character : 100
+character : 101
+character : 102
+character : 103
+character : 104
+character : 105
+character : 106
+character : 107
+character : 108
+character : 109
+character : 110
+character : 111
+character : 112
+character : 113
+character : 114
+character : 115
+character : 116
+character : 117
+character : 118
+character : 119
+character : 120
+character : 121
+character : 122
+character : 123
+character : 124
+character : 125
+character : 126
+character : 127
+character : 128
+character : 129
+character : 130
+character : 131
+character : 132
+character : 133
+character : 134
+character : 135
+character : 136
+character : 137
+character : 138
+character : 139
+character : 140
+character : 141
+character : 142
+character : 143
+character : 144
+character : 145
+character : 146
+character : 147
+character : 148
+character : 149
+character : 150
+character : 151
+character : 152
+character : 153
+character : 154
+character : 155
+character : 156
+character : 157
+character : 158
+character : 159
+character : 160
+character : 161
+character : 162
+character : 163
+character : 164
+character : 165
+character : 166
+character : 167
+character : 168
+character : 169
+character : 170
+character : 171
+character : 172
+character : 173
+character : 174
+character : 175
+character : 176
+character : 177
+character : 178
+character : 179
+character : 180
+character : 181
+character : 182
+character : 183
+character : 184
+character : 185
+character : 186
+character : 187
+character : 188
+character : 189
+character : 190
+character : 191
+character : 192
+character : 193
+character : 194
+character : 195
+character : 196
+character : 197
+character : 198
+character : 199
+character : 200
+character : 201
+character : 202
+character : 203
+character : 204
+character : 205
+character : 206
+character : 207
+character : 208
+character : 209
+character : 210
+character : 211
+character : 212
+character : 213
+character : 214
+character : 215
+character : 216
+character : 217
+character : 218
+character : 219
+character : 220
+character : 221
+character : 222
+character : 223
+character : 224
+character : 225
+character : 226
+character : 227
+character : 228
+character : 229
+character : 230
+character : 231
+character : 232
+character : 233
+character : 234
+character : 235
+character : 236
+character : 237
+character : 238
+character : 239
+character : 240
+character : 241
+character : 242
+character : 243
+character : 244
+character : 245
+character : 246
+character : 247
+character : 248
+character : 249
+character : 250
+character : 251
+character : 252
+character : 253
+character : 254
+character : 255
+vvvvvvvvvvvvv-- will result in mgnat.adalib.program_error 
+
+c:\d\rsrch\a#\mgnat\tests>test_finalize  
+
+c:\d\rsrch\a#\mgnat\tests>test_gen  
+
+c:\d\rsrch\a#\mgnat\tests>test_generic_enum_main  
+
+c:\d\rsrch\a#\mgnat\tests>test_handling  
+c:Ctrl+N
+Ctrl+N
+ctrl+n
+
+c:\d\rsrch\a#\mgnat\tests>test_interface  
+hello world
+success!
+hello world
+success!
+
+c:\d\rsrch\a#\mgnat\tests>test_long_float  
+A=8.181919084260000E-02
+B=8.181919380514880E-02
+C=8.181919380514880E-02
+
+c:\d\rsrch\a#\mgnat\tests>test_loop  
+ 1
+ 2
+ 3
+ 4
+ 5
+
+c:\d\rsrch\a#\mgnat\tests>test_lower  
+original:Hi there, Bill!
+UPPER:HI THERE, BILL!
+LOWER:t:hi there, bill!
+
+c:\d\rsrch\a#\mgnat\tests>test_main
+
+c:\d\rsrch\a#\mgnat\tests>test_mod_64
+ 1
+ 2
+ 2
+ 4
+ 3
+ 8
+ 4
+ 16
+ 5
+ 32
+ 6
+ 64
+ 7
+ 128
+ 8
+ 256
+ 9
+ 512
+ 10
+ 1024
+ 11
+ 2048
+ 12
+ 4096
+ 13
+ 8192
+ 14
+ 16384
+ 15
+ 32768
+ 16
+ 65536
+ 17
+ 131072
+ 18
+ 262144
+ 19
+ 524288
+ 20
+ 1048576
+ 21
+ 2097152
+ 22
+ 4194304
+ 23
+ 8388608
+ 24
+ 16777216
+ 25
+ 33554432
+ 26
+ 67108864
+ 27
+ 134217728
+ 28
+ 268435456
+ 29
+ 536870912
+ 30
+ 1073741824
+ 31
+ 2147483648
+ 32
+ 4294967296
+ 33
+ 8589934592
+ 34
+ 17179869184
+ 35
+ 34359738368
+ 36
+ 68719476736
+ 37
+ 137438953472
+ 38
+ 274877906944
+ 39
+ 549755813888
+ 40
+ 1099511627776
+ 41
+ 2199023255552
+ 42
+ 4398046511104
+ 43
+ 8796093022208
+ 44
+ 17592186044416
+ 45
+ 35184372088832
+ 46
+ 70368744177664
+ 47
+ 140737488355328
+ 48
+ 281474976710656
+ 49
+ 562949953421312
+ 50
+ 1125899906842624
+ 51
+ 2251799813685248
+ 52
+ 4503599627370496
+ 53
+ 9007199254740992
+ 54
+ 18014398509481984
+ 55
+ 36028797018963968
+ 56
+ 72057594037927936
+ 57
+ 144115188075855872
+ 58
+ 288230376151711744
+ 59
+ 576460752303423488
+ 60
+ 1152921504606846976
+ 61
+ 2305843009213693952
+ 62
+ 4611686018427387904
+ 63
+ 9223372036854775808
+
+c:\d\rsrch\a#\mgnat\tests>test_multidimensional_arrays
+
+c:\d\rsrch\a#\mgnat\tests>test_numeric_exception
+should see exception handled
+exception handled
+should see another exception handled
+another exception handled
+
+c:\d\rsrch\a#\mgnat\tests>test_proc
+
+c:\d\rsrch\a#\mgnat\tests>test_procedure_access
+bob 3
+ 4
+tim 3bob
+bob 3
+ 4
+
+c:\d\rsrch\a#\mgnat\tests>test_record_array
+ 1: 1: 1:!! 1 1 1
+ 1: 1: 2:!! 1 1 2
+ 1: 1: 3:!! 1 1 3
+ 1: 1: 4:!! 1 1 4
+ 1: 2: 1:!! 1 2 1
+ 1: 2: 2:!! 1 2 2
+ 1: 2: 3:!! 1 2 3
+ 1: 2: 4:!! 1 2 4
+ 2: 1: 1:!! 2 1 1
+ 2: 1: 2:!! 2 1 2
+ 2: 1: 3:!! 2 1 3
+ 2: 1: 4:!! 2 1 4
+ 2: 2: 1:!! 2 2 1
+ 2: 2: 2:!! 2 2 2
+ 2: 2: 3:!! 2 2 3
+ 2: 2: 4:!! 2 2 4
+ 3: 1: 1:!! 3 1 1
+ 3: 1: 2:!! 3 1 2
+ 3: 1: 3:!! 3 1 3
+ 3: 1: 4:!! 3 1 4
+ 3: 2: 1:!! 3 2 1
+ 3: 2: 2:!! 3 2 2
+ 3: 2: 3:!! 3 2 3
+ 3: 2: 4:!! 3 2 4
+-------------- test_return_convert (MGNAT BUG) 
+
+c:\d\rsrch\a#\mgnat\tests>test_rounding  
+-------------- test_scalar_rename (compilation error) 
+
+c:\d\rsrch\a#\mgnat\tests>test_seq_file  
+-- reading --
+character : 0
+character : 1
+character : 2
+character : 3
+character : 4
+character : 5
+character : 6
+character : 7
+character : 8
+character : 9
+character : 10
+character : 11
+character : 12
+character : 13
+character : 14
+character : 15
+character : 16
+character : 17
+character : 18
+character : 19
+character : 20
+character : 21
+character : 22
+character : 23
+character : 24
+character : 25
+character : 26
+character : 27
+character : 28
+character : 29
+character : 30
+character : 31
+character : 32
+character : 33
+character : 34
+character : 35
+character : 36
+character : 37
+character : 38
+character : 39
+character : 40
+character : 41
+character : 42
+character : 43
+character : 44
+character : 45
+character : 46
+character : 47
+character : 48
+character : 49
+character : 50
+character : 51
+character : 52
+character : 53
+character : 54
+character : 55
+character : 56
+character : 57
+character : 58
+character : 59
+character : 60
+character : 61
+character : 62
+character : 63
+character : 64
+character : 65
+character : 66
+character : 67
+character : 68
+character : 69
+character : 70
+character : 71
+character : 72
+character : 73
+character : 74
+character : 75
+character : 76
+character : 77
+character : 78
+character : 79
+character : 80
+character : 81
+character : 82
+character : 83
+character : 84
+character : 85
+character : 86
+character : 87
+character : 88
+character : 89
+character : 90
+character : 91
+character : 92
+character : 93
+character : 94
+character : 95
+character : 96
+character : 97
+character : 98
+character : 99
+character : 100
+character : 101
+character : 102
+character : 103
+character : 104
+character : 105
+character : 106
+character : 107
+character : 108
+character : 109
+character : 110
+character : 111
+character : 112
+character : 113
+character : 114
+character : 115
+character : 116
+character : 117
+character : 118
+character : 119
+character : 120
+character : 121
+character : 122
+character : 123
+character : 124
+character : 125
+character : 126
+character : 127
+character : 128
+character : 129
+character : 130
+character : 131
+character : 132
+character : 133
+character : 134
+character : 135
+character : 136
+character : 137
+character : 138
+character : 139
+character : 140
+character : 141
+character : 142
+character : 143
+character : 144
+character : 145
+character : 146
+character : 147
+character : 148
+character : 149
+character : 150
+character : 151
+character : 152
+character : 153
+character : 154
+character : 155
+character : 156
+character : 157
+character : 158
+character : 159
+character : 160
+character : 161
+character : 162
+character : 163
+character : 164
+character : 165
+character : 166
+character : 167
+character : 168
+character : 169
+character : 170
+character : 171
+character : 172
+character : 173
+character : 174
+character : 175
+character : 176
+character : 177
+character : 178
+character : 179
+character : 180
+character : 181
+character : 182
+character : 183
+character : 184
+character : 185
+character : 186
+character : 187
+character : 188
+character : 189
+character : 190
+character : 191
+character : 192
+character : 193
+character : 194
+character : 195
+character : 196
+character : 197
+character : 198
+character : 199
+character : 200
+character : 201
+character : 202
+character : 203
+character : 204
+character : 205
+character : 206
+character : 207
+character : 208
+character : 209
+character : 210
+character : 211
+character : 212
+character : 213
+character : 214
+character : 215
+character : 216
+character : 217
+character : 218
+character : 219
+character : 220
+character : 221
+character : 222
+character : 223
+character : 224
+character : 225
+character : 226
+character : 227
+character : 228
+character : 229
+character : 230
+character : 231
+character : 232
+character : 233
+character : 234
+character : 235
+character : 236
+character : 237
+character : 238
+character : 239
+character : 240
+character : 241
+character : 242
+character : 243
+character : 244
+character : 245
+character : 246
+character : 247
+character : 248
+character : 249
+character : 250
+character : 251
+character : 252
+character : 253
+character : 254
+character : 255
+
+c:\d\rsrch\a#\mgnat\tests>test_slice_assign  
+
+c:\d\rsrch\a#\mgnat\tests>test_tag_attribute  
+test_tag_attribute_pkg.bob_child2
+test_tag_attribute_pkg.bob_child1
+hello
+-------------- test_tag_record (MGNAT BUG) 
+
+c:\d\rsrch\a#\mgnat\tests>test_task
+started
+hi
+sent  1
+accepted  1
+sent  2
+accepted  2
+sent  3
+accepted  3
+accepted  4
+sent  4
+sent  5
+accepted  5
+
+c:\d\rsrch\a#\mgnat\tests>test_task_string  
+started
+
+c:\d\rsrch\a#\mgnat\tests>test_task_termination  
+Task started
+
+c:\d\rsrch\a#\mgnat\tests>test_unchecked_conv
+14 converted is: 14
+expect 1077936128
+3.0 unchecked converted is: 1077936128
+
+c:\d\rsrch\a#\mgnat\tests>test_valuetype  
+
+c:\d\rsrch\a#\mgnat\tests>test_valuetype_array
+
+c:\d\rsrch\a#\mgnat\tests>test_wide

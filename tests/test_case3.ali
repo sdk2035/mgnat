@@ -1,0 +1,73 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_case3%b		test_case3.adb		24b6047d NE SU IL
+W interfaces%s		interfac.ads		interfac.ali
+
+D interfac.ads		20021213031652 279b6d6d
+D system.ads		20050820125040 15131902
+D test_case3.adb	20050829202532 24b6047d
+X 3 test_case3.adb
+1U11*test_case3 1b11 31l5 31t15
+2E9 Token_Type 10e73 12r24 13r24 14r27 15r30 16r32 17r24
+2n24 Plus{2E9}
+2n30 Minus{2E9}
+2n37 Times{2E9}
+2n44 Divide{2E9}
+2n52 Exponent{2E9}
+2n62 Left_Paren{2E9}
+3n7 Right_Paren{2E9}
+3n20 And_T{2E9}
+3n27 Or_T{2E9}
+3n33 Mod_T{2E9}
+3n40 Rem_T{2E9}
+3n47 Id{2E9}
+3n51 Number{2E9}
+3n59 Equal{2E9}
+3n66 Greater{2E9}
+4n7 Less{2E9}
+4n13 Greater_Equal{2E9}
+4n28 Less_Equal{2E9}
+4n40 String_T{2E9}
+4n50 Proc_Id{2E9}
+4n59 Comma{2E9}
+5n7 Sin{2E9} 14r44 16r49 18r36
+5n11 Cos{2E9}
+5n15 Tan{2E9}
+5n19 Cot{2E9}
+5n23 Arcsin{2E9}
+5n30 Arccos{2E9} 14r49
+6n7 Arctan{2E9} 15r47
+6n14 Arccot{2E9} 15r55
+7n7 Sinh{2E9} 12r41
+7n12 Tanh{2E9}
+7n17 Cosh{2E9}
+7n22 Arccosh{2E9}
+7n30 Arcsinh{2E9}
+7n38 Arctanh{2E9}
+8n7 Coth{2E9}
+8n12 Arccoth{2E9}
+8n20 Sqrt{2E9}
+8n25 Log{2E9}
+8n29 Floor{2E9}
+8n35 Ceiling{2E9}
+8n43 Abs_F{2E9} 12r47
+9n7 E{2E9} 13r41 17r45
+9n9 Pi{2E9} 13r44 16r54 17r41
+10n7 Semicolon{2E9}
+10n18 Colon_Equal{2E9}
+10n31 Left_Bracket{2E9}
+10n45 Right_Bracket{2E9}
+10n60 End_Of_Input{2E9}
+12E12 Func_Id1{2E9} 24r21
+13E12 Func_Id0{2E9} 22r21
+14E12 Func_Id1or2{2E9} 26r21
+15E12 Func_Id1or2or3{2E9} 28r21
+16E12 Func_Token_Types{2E9} 18r16
+17E12 Func_Id2{2E9}
+18e4 Func_Kind{16E12} 21r18
+19i4 x{integer} 23m19 25m19 27m19 29m19
+

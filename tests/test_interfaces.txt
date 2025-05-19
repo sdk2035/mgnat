@@ -1,0 +1,69 @@
+package dll is
+   pragma Preelaborate;
+end dll;
+pragma Extensions_Allowed(On);
+
+with Mssyst.Object;
+with Mssyst.String;
+use Mssyst.String;
+with type MSSyst.Object.Ref is access;
+
+package dll.Interface_A is
+   type Typ;
+   type Ref is access all Typ'Class;
+   type Typ (Self : access Mssyst.Object.Typ'Class)
+      is abstract new Mssyst.Object.Typ with null record;
+   function get_Version(
+      This : access Typ) return Mssyst.String.Ref;
+   pragma Convention(MSIL,Typ);
+   pragma Import(MSIL,get_Version,"get_Version");
+
+end Dll.Interface_A;
+pragma Extensions_Allowed(Off);
+pragma Import(MSIL,dll.interface_a,
+   ".ver 0:0:0:0 .publickeytoken=(  )", -- Not used :-)
+   "[dll]dll.interface_a");
+
+pragma Extensions_Allowed(On);
+
+with Mssyst.Object;
+with Mssyst.String;
+use Mssyst.String;
+
+with type dll.Interface_A.Ref is access; with type MSSyst.Object.Ref is access;
+
+package dll.Interface_B is
+   type Typ;
+   type Ref is access all Typ'Class;
+   type Typ is new MSSyst.Object.Typ with record
+      null;
+   end record;
+   function new_b(
+      This : Ref := null) return Ref;
+   function asInterface(
+      This : access Typ) return Interface_a.Ref;
+   pragma Convention(MSIL,Typ);
+   pragma MSIL_Constructor(new_b);
+   pragma Import(MSIL,new_b,"new_b");
+   pragma Import(MSIL,asInterface,"asInterface");
+ 
+end Dll.Interface_B;
+pragma Extensions_Allowed(Off);
+pragma Import(MSIL,dll.interface_b,
+   ".ver 0:0:0:0 .publickeytoken=(  )",  -- Not used :-)
+   "[dll]dll.interface_b");
+
+pragma Extensions_Allowed(On); with Ada.Text_IO; use Ada.Text_IO;
+
+with Mssyst.String;
+use Mssyst.String;
+use Mssyst;
+
+with dll.Interface_a; use dll.Interface_a; with dll.Interface_b; use dll.Interface_b;
+
+procedure test_interfaces is
+   b : dll.Interface_b.Ref;
+begin
+   b := new_b;
+   Put_Line (+Get_Version (asinterface (b))); 
+end test_interfaces;

@@ -1,0 +1,63 @@
+V "GNAT Lib v3.15"
+A -c
+P
+R nnvnnnnvnnnnnvvvvvvnnnnnnnnnnnnvnvnnnnnnnnnnnnnnvvnn
+
+U page_definition%b	page_definition.adb	91a157bf PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W defines%s		defines.adb		defines.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+
+U page_definition%s	page_definition.ads	ad982b53 EE PK
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20021213045750 a0108083
+D a-except.ads		20030111184846 8c16c4f0
+D a-finali.ads		19981212023736 d4be2e87
+D a-filico.ads		19981212023738 83058640
+D a-ioexce.ads		19981212023736 d52e128a
+D a-stream.ads		19971119133848 90e5c6f7
+D a-tags.ads		19990924104636 d9f34d7b
+D a-textio.ads		20000214171636 98d7a37c
+D defines.ads		20021031185316 f5687a57
+D interfac.ads		20021213031652 6e859da6
+D i-cstrea.ads		20021213045752 7f5efb6f
+D page_definition.ads	20021031185316 86cf4254
+D page_definition.adb	20021031185316 e2066fbc
+D system.ads		20021213031700 9be97a6f
+D s-ficobl.ads		19990215165032 14416104
+D s-finimp.ads		19990723121124 c7f98dd8
+D s-finroo.ads		19960921225930 561babbc
+D s-imgint.ads		19951120073034 b221cfe9
+D s-parame.ads		20020514142604 37dc3a84
+D s-secsta.ads		19990726073750 aafc656f
+D s-soflin.ads		19991227152932 95657dfd
+D s-stache.ads		19990409121032 ced985be
+D s-stalib.ads		19990924104638 2d9390a0
+D s-stoele.ads		19980907140906 c6bef0ad
+D s-stratt.ads		19981014005624 9fdf8f81
+D s-strops.ads		19980415014434 1113d1f7
+D s-unstyp.ads		19990721075830 05ad3732
+D text_io.ads		20021213031704 2b576907
+D unchconv.ads		20021213031438 1b7a14c5
+X 8 a-textio.ads
+54P9*File_Type 12|21r48 13|22r48
+71I12*Positive_Count 13|30r28
+168U14*New_Line 13|24r15 31r15
+189U14*Set_Col 13|28r15
+201V13*Page{71I12} 13|30r58
+244U14*Put 13|25r15 29r15
+X 9 defines.ads
+14K9*Defines 24e12 13|14r6 26r33
+16a4*Version{string} 13|26r41
+X 12 page_definition.ads
+16K9*Page_Definition 23l5 23e20 13|16b14 34l5 34t20
+19i4*Page_Length{integer}
+21U14*Print_Header 13|22b14 32l8 32t20
+21P28 Output{8|54P9} 13|22b28 24r25 25r20 28r24 29r20 30r64 31r25
+X 28 text_io.ads
+21K9*Text_IO=21:29 12|14r6 21r40 13|22r40 24r7 25r7 28r7 29r7 30r20 30r50
+. 31r7
+

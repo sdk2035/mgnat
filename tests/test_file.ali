@@ -1,0 +1,83 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_file%b		test_file.adb		518f3f7c NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W system%s		system.ads		system.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-imgint.ads		19951120073034 c025cca6
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-strops.ads		19980415014434 dfd9c808
+D s-sopco3.ads		19980110182950 bb5015db
+D s-sopco4.ads		19980110182952 ac4d87c0
+D s-sopco5.ads		19980110182952 7c109c43
+D s-unstyp.ads		19990721075830 fd0aa14a
+D test_file.adb		20041030201154 1e55ba2e
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 29|1r6 9r11 14r4 15r32 18r28 20r7 23r10 25r7 27r7 28r33 32r17
+. 33r10 34r10 37r7
+X 9 a-textio.ads
+51K13*Text_IO 428e16 29|1w10 9r15 14r8 15r36 18r32 20r11 23r14 25r11 27r11
+. 28r37 32r21 33r14 34r14 37r11
+54P9*File_Type(317R9) 29|9r23
+55n23*In_File{55E9} 29|28r45
+55n32*Out_File{55E9} 29|15r44
+89U14*Create 29|14r16
+90p7 File{54P9} 29|14r24
+91e7 Mode{55E9} 29|15r24
+92s7 Name{string} 29|16r24
+95U14*Open 29|27r19
+96p7 File{54P9} 29|27r25
+97e7 Mode{55E9} 29|28r25
+98s7 Name{string} 29|29r25
+101U14*Close 29|25r19 37r19
+107V13*Name{string} 29|18r40
+186V13*End_Of_File{boolean} 29|32r29
+208U14*Get 29|33r22
+210U14*Put 29|23r22
+266U14*Put_Line 29|20r19 34r22
+X 10 interfac.ads
+23K9*Interfaces 168e15 29|3r6
+X 11 i-cstrea.ads
+43K20*C_Streams 349e25 29|3w17
+X 12 system.ads
+44K9*System 165e11 29|5w6
+X 29 test_file.adb
+7U11*test_file 7b11 40l5 40t14
+9p4 file{9|54P9} 14m32 18r46 23r27 25m26 27m33 32r42 33r27 37m26
+10e4 ch{character} 33m33 35r2
+18a7 filename{string} 20r41 29r33
+22i11 I{integer} 23r48
+

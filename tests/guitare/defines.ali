@@ -1,0 +1,26 @@
+V "GNAT Lib v3.15"
+A -c
+P
+R nnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnn
+
+U defines%b		defines.adb		b8ccf4d2 PK
+W interfaces%s		interfac.ads		interfac.ali
+
+U defines%s		defines.ads		f5687a57 EE PK
+
+D defines.ads		20021031185316 f5687a57
+D defines.adb		20021031185316 4da48e85
+D interfac.ads		20021213031652 6e859da6
+D system.ads		20021213031700 9be97a6f
+X 1 defines.ads
+14K9*Defines 24l5 24e12 2|14b14 37l5 37t12
+16a4*Version{string}
+18E9*Switch 18e28 20r33 22r32 2|16r15 22r33 32r32
+18n20*ON{18E9}
+18n24*OFF{18E9} 2|16r25
+20U14*Set_GUI 2|22b14 26l8 26t15
+20e23 Mode{18E9} 2|22b23 25r19
+22V13*Is_GUI_Mode{18E9} 2|32b13 35l8 35t19
+X 2 defines.adb
+16e4 GUI_Mode{1|18E9} 25m7 34r14
+

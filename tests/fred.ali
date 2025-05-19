@@ -1,0 +1,19 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U fred%b		fred.adb		2d79760e NE SU
+W my_types%s		my_types.ads		my_types.ali
+
+D fred.adb		20030305205126 8b69b44f
+D my_types.ads		20030305205138 a610c241
+D system.ads		20050820125040 15131902
+X 1 fred.adb
+2U11*Fred 2b11 6l5 6t9
+3f4 x{2|2F6} 5m4
+X 2 my_types.ads
+1K9*My_Types 1|1w6 3r8 2|3e13
+2F6*Feet<float> 1|3r17
+

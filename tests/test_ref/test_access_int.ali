@@ -1,0 +1,97 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnnnnnnnnnvnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_access_int%b	test_access_int.adb	3cd803fa NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_conversion%s
+W msil_types%s		msil_types.ads		msil_types.ali
+W system%s		system.ads		system.ali
+W system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W test_ref_cs%s		test_ref_cs.ads		test_ref_cs.ali
+W test_ref_cs.class1%s	test_ref_cs-class1.ads	test_ref_cs-class1.ali
+
+D ada.ads		20021213045750 0ff28bf9
+D a-except.ads		20040603025648 5e7c4f2c
+D a-finali.ads		19981212023736 c3f9b3ba
+D a-filico.ads		19981212023738 e9795d27
+D a-ioexce.ads		19981212023736 eb14c912
+D a-stream.ads		19971119133848 0312df70
+D a-tags.ads		19990924104636 99899bb5
+D a-tags.adb		20030111185050 cbc796fd
+D a-textio.ads		20040925162736 bcb230f2
+D a-unccon.ads		19951001012526 d663c076
+D interfac.ads		20021213031652 53464f1d
+D i-cstrea.ads		20040819161736 efd8ea72
+D msil_types.ads	20041202173932 7f0bad3a
+D mssyst.ads		20041030171602 23c9c191
+D mssyst-globalization.ads  20041030171606 48b91955
+D mssyst-globalization-numberstyles.ads  20041030171608 123601dc
+D mssyst-object.ads	20041030171604 4249f4d6
+D mssyst-reflection.ads	20041030171604 54d25043
+D mssyst-reflection-bindingflags.ads  20041030171606 45a2f3af
+D mssyst-reflection-callingconventions.ads  20041030171606 c6e36371
+D mssyst-reflection-memberinfo.ads  20041030171604 e1b04130
+D mssyst-reflection-membertypes.ads  20041030171606 b3b91ae0
+D mssyst-reflection-parametermodifier.ads  20041030171606 c807376d
+D mssyst-reflection-typeattributes.ads  20041030171606 55110194
+D mssyst-sbyte.ads	20041030171606 e2b0017c
+D mssyst-string.ads	20041030171604 efa41fe9
+D mssyst-type_k.ads	20041030171606 9b0b6273
+D mssyst-typecode.ads	20041030171606 1d6c61f0
+D mssyst-uint32.ads	20041030171606 243f0c1e
+D mssyst-valuetype.ads	20041030171604 87742e2c
+D system.ads		20040925053602 5671cff3
+D s-ficobl.ads		19990215165032 fff58b17
+D s-finimp.ads		19990723121124 65a9fabe
+D s-finroo.ads		19960921225930 2ea1c3a8
+D s-imgboo.ads		19951120073012 dae4f7a9
+D s-imgint.ads		19951120073034 0d572232
+D s-parame.ads		20040925171846 0d7d4443
+D s-secsta.ads		19990726073750 527ced4e
+D s-soflin.ads		20040603020420 af2e17c6
+D s-stache.ads		19990409121032 43b71b44
+D s-stalib.ads		20040603021332 f890015e
+D s-stoele.ads		19980907140906 d1faf2c5
+D s-stratt.ads		19981014005624 30bb59ed
+D s-unstyp.ads		19990721075830 4d8c50b9
+D test_access_int.adb	20041202202040 6576f322
+D test_ref_cs.ads	20041202190842 3cd8cc05
+D test_ref_cs-class1.ads  20041202202044 1a056295
+D unchconv.ads		20021213031438 3f1a3a35
+X 1 ada.ads
+18K9*Ada 21e8 45|3r6 5r6 15r4 17r4 19r4
+X 9 a-textio.ads
+51K13*Text_IO 418e16 45|5w10 15r8 17r8 19r8
+260U14*Put_Line 45|15r16 17r16 19r16
+X 10 a-unccon.ads
+22v14*Unchecked_Conversion 45|3w10
+X 13 msil_types.ads
+7K9*Msil_Types 71e15 45|1w6 9r8 11r16 19r25
+29I9*unsigned_integer<integer> 45|11r27 19r36
+59M9*int32_addrof 45|9r19
+X 17 mssyst-object.ads
+18R9*Typ
+X 31 system.ads
+44K9*System 163e11 45|2w6
+X 45 test_access_int.adb
+6U11*test_access_int 6b11 20l5 20t20
+7i4 q{integer} 14m32 15r39
+8i4 g{integer} 13m10
+9m4 z{13|59M9} 13m4
+10b4 b{boolean} 16m33 17r39
+11i4 r{13|29I9} 18m33 19r59
+X 46 test_ref_cs.ads
+6K9*test_ref_cs 45|4r6 14r4 16r4 18r4 46|8e16
+X 47 test_ref_cs-class1.ads
+14K21*Class1 45|4w18 14r16 16r16 18r16 47|38e23
+26U14*test_bool 45|16r23
+28U14*test_int 45|14r23
+30U14*test_uint 45|18r23
+

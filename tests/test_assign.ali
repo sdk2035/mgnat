@@ -1,0 +1,21 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_assign%b		test_assign.adb		55cfe97e NE SU
+
+D system.ads		20050820125040 15131902
+D test_assign.adb	20040531212914 55cfe97e
+X 2 test_assign.adb
+1U11*Test_Assign 1b11 26l5 26t16
+3A9 Int_Array(integer) 5r14 17r16
+4R9 Tst_Record 6e14 8r39 18r16
+5a7 Ints{3A9} 14r35 18r31
+8A9 Tst_Array(4R9) 14r10 19r16
+14a4 Rec{8A9}
+17a4 Null_Ints{3A9} 18r39
+18r4 Null_Rec{4R9} 19r40
+19a4 Rec2{8A9}
+

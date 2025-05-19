@@ -1,0 +1,15 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_multidimensional_arrays%b  test_multidimensional_arrays.adb  313939b9 NE SU IL
+
+D system.ads		20050820125040 15131902
+D test_multidimensional_arrays.adb  20060209200020 313939b9
+X 2 test_multidimensional_arrays.adb
+1U11*test_multidimensional_arrays 1b11 6l5 6t33
+2A9 seven_array(boolean) 3r8
+3a4 x{2A9} 5m4
+

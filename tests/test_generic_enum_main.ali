@@ -1,0 +1,22 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_generic_enum_main%b  test_generic_enum_main.adb  a2bb7df4 NE SU
+W test_generic_enum%s	test_generic_enum.adb	test_generic_enum.ali
+
+D system.ads		20050820125040 15131902
+D test_generic_enum.ads	20041008195832 9420cf8f
+D test_generic_enum.adb	20041008200132 deda5cb1
+D test_generic_enum_main.adb  20041008200156 369bb27b
+X 2 test_generic_enum.ads
+3k9*Test_Generic_Enum 5e22 4|1w6 4r27
+4U14 bob 4|6r12[4]
+X 4 test_generic_enum_main.adb
+2U11*Test_Generic_Enum_Main 2b11 7l5 7t27
+3E9 Any 3e22 4r45
+3n17 Test{3E9} 6r16
+4K12 New_Bla[2|3] 6r4
+

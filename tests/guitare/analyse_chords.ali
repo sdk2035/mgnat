@@ -1,0 +1,222 @@
+V "GNAT Lib v3.15"
+A -c
+P
+R nnvvnnnvnnnnnvvvvvvnvvvnvnnnnnnvnvnnnnnnnnnnvnnnvvnn
+
+U analyse_chords%b	analyse_chords.adb	a2decdf3 PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W chords%s		chords.adb		chords.ali
+W interfaces%s		interfac.ads		interfac.ali
+W io%s			io_std.adb		io_std.ali
+W search_utilities%s	search_utilities.adb	search_utilities.ali  ED
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+
+U analyse_chords%s	analyse_chords.ads	0a183d51 EE PK
+W notes%s		notes.adb		notes.ali
+
+D ada.ads		20021213045750 a0108083
+D a-charac.ads		19981212023728 a61fb5a9
+D a-chlat1.ads		19981212023728 06a18501
+D a-except.ads		20030111184846 8c16c4f0
+D a-finali.ads		19981212023736 d4be2e87
+D a-filico.ads		19981212023738 83058640
+D a-ioexce.ads		19981212023736 d52e128a
+D a-stream.ads		19971119133848 90e5c6f7
+D a-string.ads		19941113020428 6440c304
+D a-strmap.ads		20021213045928 e6fc9a3a
+D a-strunb.ads		19981102164152 d5fc5eb1
+D a-tags.ads		19990924104636 d9f34d7b
+D a-textio.ads		20000214171636 98d7a37c
+D analyse_chords.ads	20021031185316 970177ee
+D analyse_chords.adb	20021031185316 4dc94ae4
+D chords.ads		20021031185316 7ebe6822
+D fingerboard_data.ads	20021031185316 9355ccf6
+D fingerings.ads	20021031185316 edd7381a
+D instrument.ads	20021031185316 c6d17775
+D interfac.ads		20021213031652 6e859da6
+D i-cstrea.ads		20021213045752 7f5efb6f
+D io.ads		20030114052218 c28b0cc7
+D notes.ads		20021031185316 9d194abf
+D positions_io.ads	20021031185316 ee3af506
+D scales.ads		20021031185316 14b4e6d6
+D search_utilities.ads	20021031185316 11dfcaad
+D search_utilities.adb	20021031185316 f27b833e
+D system.ads		20021213031700 9be97a6f
+D s-ficobl.ads		19990215165032 14416104
+D s-finimp.ads		19990723121124 c7f98dd8
+D s-finroo.ads		19960921225930 561babbc
+D s-parame.ads		20020514142604 37dc3a84
+D s-secsta.ads		19990726073750 aafc656f
+D s-soflin.ads		19991227152932 95657dfd
+D s-stache.ads		19990409121032 ced985be
+D s-stalib.ads		19990924104638 2d9390a0
+D s-stoele.ads		19980907140906 c6bef0ad
+D s-stratt.ads		19981014005624 9fdf8f81
+D s-strops.ads		19980415014434 1113d1f7
+D s-sopco3.ads		19980110182950 2c68d1c8
+D s-unstyp.ads		19990721075830 05ad3732
+D unchconv.ads		20021213031438 1b7a14c5
+X 1 ada.ads
+18K9*Ada 21e8 15|14r6 322r14 514r11 702r11
+X 9 a-string.ads
+18K13*Strings 32e16 15|14r10 322r18 514r15 702r15
+X 11 a-strunb.ads
+43K21*Unbounded 383e26 15|14r18 322r26 514r23 702r23
+46R9*Unbounded_String 15|323r23 523r18 703r20
+60V13*To_Unbounded_String{46R9} 15|327r24 532r22 564r22 715r21
+63V13*To_String{string} 15|337r23 559r26 594r26 723r20
+79V13*"&"{46R9} 15|331r38 331r47 331r73 335r35 335r45 538r34 541r34 544r34
+. 547r34 550r34 557r34 570r34 573r34 576r34 579r34 582r34 585r34 592r28 718r35
+. 718r42 718r55 721r32
+89V13*"&"{46R9} 15|557r28
+X 14 analyse_chords.ads
+17K9*Analyse_Chords 26l5 26e19 15|20b14 792l5 792t19
+19U14*Find_Name 15|699b14 734l8 734t17
+19A25 Set{23|27A9} 15|699b25 706r39 725r22 729r31
+20s25 Fingerings{string} 15|700b25 717r10 718r44
+23U14*Synonym 15|740b14 790l8 790t15
+23s23 Chord_Name{string} 15|740b23 758r16 758r36 759r13 767r42 772r21 772r44
+. 779r34 783r29
+X 15 analyse_chords.adb
+24I12 Intervals_Value{integer} 25r45 350r64 354r42 355r50
+25A9 Intervals_Type 31r24 309r38 349r64 470r28 641r19
+27P9 String_Ptr(string) 32r24 33r24 34r24
+29R9 Chords_Info 35e17 37r55 287r40 292r37 298r25 312r19
+31a10*Profile{25A9} 289r19 289r35 294r19 294r35 478r25
+32p10*Name1{27P9} 328r60
+33p10*Name2{27P9} 330r30 332r32
+34p10*Description{27P9} 340r45
+37A9 Profiles_Type 41r24 300r25
+39i4 Number_Of_Notes{natural} 706m7 708r10 728r10
+41a4 Profiles{37A9} 328r45 330r13 332r15 340r30 479r40
+287V13 Inferior{boolean} 290l8 290t16 301i25
+287r23 Left{29R9} 289r14
+287r29 Right{29R9} 289r29
+292V13 Equal{boolean} 295l8 295t13 302i25
+292r20 Left{29R9} 294r14
+292r26 Right{29R9} 294r29
+297K12 Profile 479r13 479r62
+308U14 Analyse 506l8 506t15 687r13
+308e23 Root_Note{23|19E9} 327r58 331r62
+309a23 Intervals{25A9} 312r50 470r46
+311i7 Idx{positive} 328r55 330r23 332r25 340r40 479m50
+312r7 Chord_Rec{29R9} 478m13 479r29
+321U17 Print_Chord_Name 342l11 342t27 481r16
+321s35 Special_Attribute{string} 335r47
+323R10 Chord_Name{11|46R9} 327m10 331m13 331r27 335m10 335r24 337r34
+349U17 Without_Note_To_Be_Checked 457l11 457t37 474r13
+349a45 Intervals{25A9} 367r13 367r24 374r33 375r31 447m10 450m16
+350i45 Note{24I12} 380r31 403r15
+351b45 Result{boolean} 363m10 455m10
+354A15 Intervals_Lookup 355r29
+355a10 Defined_Interval{354A15} 375m13 380r13 385r27 386r12 388r25 389r12
+. 390r12 392r28 393r12 396r30 397r12 407m19 414m19 421m19 428m19 435m19 448r38
+. 449r16
+357b10 Seventh_Chord{boolean} 385m10 413r19 427r19
+357b25 Ninth_Chord{boolean} 388m10 406r19
+358b10 Eleventh_Chord{boolean} 392m10 434r19
+358b26 Thirteenth_Chord{boolean} 396m10 420r19
+359i10 Indice{positive} 446m10 450r27 451m16 451r26
+374i14 Interval_Indice{integer} 375r42
+448i14 Interval_Number{integer} 449r34 450r38
+463V16 Check_Profile{boolean} 487l11 487t24 492r10 494r13 496r13 498r13 500r13
+. 502r13
+463i31 Special_Note{natural} 473r13 474r58
+464s31 Special_Attribute{string} 481r34
+468b10 Found{boolean} 479m55 480r16 483r20
+469b10 To_Be_Checked{boolean} 475m41 477r13
+470a10 Local_Intervals{25A9} 474m41 478r36
+512U14 Alteredbass_Analyse 631l8 631t27 729r10
+512A35 Set{23|27A9} 604r48
+516A12 Notes_Array_Type 518r21
+518a7 Notes_Array{516A12} 601r12 605m13 619r47 620r47 621r47 622r47
+519i7 I{positive} 601m7 605r26 606m13 606r18
+521U17 Analyse 597l11 597t18 619r28
+521e26 First{23|19E9} 526r36 532r56 619r37
+521e33 Second{23|19E9} 526r43 620r37
+521e41 Third{23|19E9} 526r51 621r37
+521e48 Sup{23|19E9} 557r49 622r37
+522e10 Triad{16|26E9} 526m10 528r13 535r18 567r18
+523R10 Chord{11|46R9} 532m13 538m19 538r28 541m19 541r28 544m19 544r28 547m19
+. 547r28 550m19 550r28 557m13 557r22 559r37 564m13 570m19 570r28 573m19 573r28
+. 576m19 576r28 579m19 579r28 582m19 582r28 585m19 585r28 592m13 592r22 594r37
+603e11 Note{23|19E9} 604r34 605r32
+611i11 I_First{integer} 613r28 615r33 617r37 619r60
+612i14 I_Second{integer} 613r16 615r61 617r63 620r60
+614i20 I_Third{integer} 615r22 615r50 618r36 621r60
+616i26 I_Sup{integer} 617r28 617r54 618r27 622r60
+637U14 Analyse_Notes 693l8 693t21 725r7 786r7
+637A29 Set{23|27A9} 649r35 663r44 678r44
+641a7 Intervals{25A9} 652m13 665m22 680m22 687r33
+642i7 I{positive} 655m13 665r33 667m22 667r27 680r33 682m22 682r27
+646e11 Root_Note{23|19E9} 648r35 658r16 660r40 666r49 673r16 675r65 681r49
+. 687r22
+659e20 Other_Note{23|19E9} 662r44 666r60
+674e20 Other_Note{23|19E9} 677r44 681r60
+703R7 Chord_Name{11|46R9} 715m7 718m10 718r24 721m7 721r21 723r31
+744R7 Chord1{16|23R9} 767m10 768r52 779m10 780r37
+745R7 Chord2{16|23R9} 771m10 773r52
+747A7 Note_Set1{23|27A9} 768m10 776r17
+748A7 Note_Set2{23|27A9} 773m10 776r29
+749A7 Set{23|27A9} 776m10 780m10 786r22
+751i7 Cut{natural} 760m13 765r10 767r59 772r33
+758i11 I{integer} 759r25 759r30 760r20
+X 16 chords.ads
+21K9*Chords 15|17r6 22r8 522r18 526r19 528r22 528r41 537r21 540r21 543r21
+. 546r21 549r21 569r21 572r21 575r21 578r21 581r21 584r21 744r19 745r19 767r20
+. 768r23 769r52 771r20 773r23 774r52 779r20 780r19 16|86e11
+23R9*Chord_Type 15|744r26 745r26 16|84e17
+25n31*NO{25E9} 15|769r59 774r59
+26E9*Triad_Type 15|522r25 528r29 16|26e76
+26n24*MAJOR{26E9} 15|569r28
+26n31*MINOR{26E9} 15|537r28 572r28
+26n38*DIMINISHED{26E9} 15|540r28 575r28
+26n50*AUGMENTED{26E9} 15|543r28 578r28
+26n61*SUS4{26E9} 15|546r28 581r28
+26n67*SUS2{26E9} 15|549r28 584r28
+26n73*NO{26E9} 15|528r48
+36V13*Parse{23R9} 15|767r27 771r27 779r27
+36s20 From{string} 15|767r34 772r13
+41V13*Get_Notes{23|27A9} 15|768r30 773r30 780r26
+41R24 From{23R9} 15|768r41 773r41
+42e24 Without{25E9} 15|769r41 774r41
+63V13*Is_Triad{26E9} 15|526r26
+X 22 io.ads
+22K9*IO 15|18r6 325r10 337r10 339r10 340r10 341r10 530r13 559r13 561r13 562r13
+. 594r13 709r10 711r10 723r7 732r7 783r7 784r7 788r7 22|52e7
+31U14*Put_Line 15|337r13 340r13 559r16 594r16 709r13 723r10 783r10
+33U14*New_Line 15|341r13 561r16 711r13 732r10 784r10 788r10
+35U14*Set_Col 15|325r13 339r13 530r16 562r16
+X 23 notes.ads
+15K9*Notes 14|15r6 19r41 15|308r38 327r45 331r49 512r44 516r50 521r54 532r43
+. 557r36 603r19 604r13 604r62 637r38 639r16 646r24 648r13 650r35 658r28 660r18
+. 660r54 662r22 664r44 666r24 673r28 675r18 675r43 677r22 679r44 681r24 699r41
+. 706r26 742r16 747r19 748r19 749r19 23|96e10
+19E9*Note_Type 15|308r44 516r56 521r60 603r25 639r22 646r30 658r34 660r24
+. 660r60 673r34 675r24 675r49 23|20e51
+25n24*STRICT{25E9} 15|604r68 650r41 664r50 679r50
+27A9*Set_Of_Notes 14|19r47 15|512r50 637r44 699r47 742r22 747r25 748r25 749r25
+45V13*Semitones_Between{natural} 15|666r30 681r30
+51V13*Image{string} 15|327r51 331r55 532r49 557r42
+69V13*Exist{boolean} 15|604r19 648r19 662r28 677r28
+69e20 Note{19E9} 15|604r26 648r26 662r35 677r35
+70A20 Into{27A9} 15|604r40 649r26 663r35 678r35
+71e20 Check{25E9} 15|604r53 650r26 664r35 679r35
+80V13*Count{natural} 15|706r32
+81V13*"+"{27A9} 15|776r27
+X 26 search_utilities.ads
+107k9*Search_Utilities 15|16r6 297r27 26|184e21
+125n28*Ordered 15|479r70[297]
+156U13*Search 15|479r21[297]
+

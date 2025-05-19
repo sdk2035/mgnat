@@ -1,0 +1,65 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnnnnnnnnnnnnvnvnnvvnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U test_long_float%b	test_long_float.adb	40e08c60 NE SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.long_float_text_io%s  a-lfteio.ads	a-lfteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 0ff28bf9
+D a-except.ads		20040603025648 5e7c4f2c
+D a-finali.ads		19981212023736 c3f9b3ba
+D a-filico.ads		19981212023738 e9795d27
+D a-ioexce.ads		19981212023736 eb14c912
+D a-lfteio.ads		19981212023736 aa30f77b
+D a-stream.ads		19971119133848 0312df70
+D a-tags.ads		19990924104636 99899bb5
+D a-tags.adb		20030111185050 cbc796fd
+D a-textio.ads		20040925162736 bcb230f2
+D a-tiflau.ads		19971119133942 8cf30f36
+D a-tiflio.ads		19971119133944 b50ef570
+D a-tiflio.adb		19990730090712 ba4b5165
+D interfac.ads		20021213031652 53464f1d
+D i-cstrea.ads		20040819161736 efd8ea72
+D system.ads		20040925053602 5671cff3
+D s-ficobl.ads		19990215165032 fff58b17
+D s-finimp.ads		19990723121124 65a9fabe
+D s-finroo.ads		19960921225930 2ea1c3a8
+D s-parame.ads		20040925171846 0d7d4443
+D s-secsta.ads		19990726073750 527ced4e
+D s-soflin.ads		20040603020420 af2e17c6
+D s-stache.ads		19990409121032 43b71b44
+D s-stalib.ads		20040603021332 f890015e
+D s-stoele.ads		19980907140906 d1faf2c5
+D s-stratt.ads		19981014005624 30bb59ed
+D s-unstyp.ads		19990721075830 4d8c50b9
+D test_long_float.adb	20041118180944 56624be9
+D unchconv.ads		20021213031438 3f1a3a35
+X 1 ada.ads
+18K9*Ada 21e8 28|1r6 2r6 6r27 14r4 16r4 17r4 18r4 19r4 23r4 25r4 28r7
+X 6 a-lfteio.ads
+20K13*Long_Float_Text_IO 28|2w10 18r8
+X 10 a-textio.ads
+51K13*Text_IO 418e16 28|1w10 6r31 14r8 16r8 17r8 19r8 23r8 25r8 28r11
+76I12*Field{integer}
+169U14*New_Line 28|16r16 19r16 25r16
+245U14*Put 28|14r16 17r16 23r16
+260U14*Put_Line 28|28r19
+X 12 a-tiflio.ads
+49k21*Float_IO 92e25 28|6r39
+71U14 Put 28|15r12[6] 18r27[6|20] 24r12[6]
+73i7 Fore{10|76I12} 28|15r20[6] 18r35[6|20] 24r20[6]
+74i7 Aft{10|76I12} 28|15r31[6] 18r46[6|20] 24r31[6]
+X 28 test_long_float.adb
+4U11*Test_Long_Float 4b11 31l5 31t20
+6K12 LFlt_IO 15r4 24r4
+8f4 A{long_float} 12m4 15r17 18r32 27r7
+8f7 B{long_float} 21m4 24r17 27r11
+

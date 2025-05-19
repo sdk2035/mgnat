@@ -1,0 +1,53 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_eof%b		test_eof.adb		82ed24c1 NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D test_eof.adb		20021126150428 aad2bb30
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 24|1r6 2r5
+X 9 a-textio.ads
+51K13*Text_IO 428e16 24|1w10 2r9
+54P9*File_Type(317R9) 24|5r11
+55n23*In_File{55E9} 24|8r31
+95U14*Open 24|8r4
+96p7 File{54P9} 24|8r9
+97e7 Mode{55E9} 24|8r23
+98s7 Name{string} 24|8r40
+186V13*End_Of_File{boolean} 24|9r14
+208U14*Get 24|10r7
+211U14*Put 24|11r7
+X 24 test_eof.adb
+4U11*test_eof 4b11 13l5 13t13
+5p4 file{9|54P9} 8m17 9r26 10r11
+6e4 x{character} 10m16 11r11
+

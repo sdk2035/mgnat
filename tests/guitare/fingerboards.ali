@@ -1,0 +1,119 @@
+V "GNAT Lib v3.15"
+A -c
+P
+R nnvnnnnvnnnnnvvvvvvnnvnnnnnnnnnnnvnnnnnnnnnnnnnnvvnn
+
+U fingerboards%b	fingerboards.adb	1153a679 PK
+W interfaces%s		interfac.ads		interfac.ali
+W io%s			io_std.adb		io_std.ali
+
+U fingerboards%s	fingerboards.ads	492bf420 EE PK
+W fingerboard_data%s	fingerboard_data.ads	fingerboard_data.ali
+W instrument%s		instrument.adb		instrument.ali  ED
+W notes%s		notes.adb		notes.ali  ED
+
+D ada.ads		20021213045750 a0108083
+D a-except.ads		20030111184846 8c16c4f0
+D a-finali.ads		19981212023736 d4be2e87
+D a-filico.ads		19981212023738 83058640
+D a-ioexce.ads		19981212023736 d52e128a
+D a-stream.ads		19971119133848 90e5c6f7
+D a-tags.ads		19990924104636 d9f34d7b
+D a-textio.ads		20000214171636 98d7a37c
+D fingerboard_data.ads	20021031185316 9355ccf6
+D fingerboards.ads	20021031185316 81b6051c
+D fingerboards.adb	20021031185316 526eafa2
+D fingerings.ads	20021031185316 edd7381a
+D instrument.ads	20021031185316 c6d17775
+D interfac.ads		20021213031652 6e859da6
+D i-cstrea.ads		20021213045752 7f5efb6f
+D io.ads		20030114052218 c28b0cc7
+D notes.ads		20021031185316 9d194abf
+D positions_io.ads	20021031185316 ee3af506
+D system.ads		20021213031700 9be97a6f
+D s-ficobl.ads		19990215165032 14416104
+D s-finimp.ads		19990723121124 c7f98dd8
+D s-finroo.ads		19960921225930 561babbc
+D s-parame.ads		20020514142604 37dc3a84
+D s-secsta.ads		19990726073750 aafc656f
+D s-soflin.ads		19991227152932 95657dfd
+D s-stache.ads		19990409121032 ced985be
+D s-stalib.ads		19990924104638 2d9390a0
+D s-stoele.ads		19980907140906 c6bef0ad
+D s-stratt.ads		19981014005624 9fdf8f81
+D s-unstyp.ads		19990721075830 05ad3732
+D unchconv.ads		20021213031438 1b7a14c5
+X 9 fingerboard_data.ads
+18K9*Fingerboard_Data 31e21 10|17r6 21r8
+23e10*Note{17|19E9} 11|96r57 99r57 134r48
+24b10*Set{boolean} 11|69r47 95r57 98r57 124r41
+27I12*Fret_Range{natural} 10|29r41 34r42 42r43 11|18r28 41r41 68r22 122r43
+. 132r42
+29A9*Fingerboard_Type 10|35r33 11|20r28 141r33
+X 10 fingerboards.ads
+19K9*Fingerboards 51l5 51e17 11|16b14 29r10 30r10 32r10 33r10 43r7 44r7 53r10
+. 54r10 54r46 178l5 178t17
+24E9*Fingerboard_Size 24e49 28r41 11|26r37
+24n30*STANDARD{24E9} 11|28r17 176r25
+24n40*EXTENDED{24E9}
+27U14*Display 11|150b14 153l8 153t15
+28U14*Set_Display 11|26b14 35l8 35t19 176r4
+28e27 Size{24E9} 11|26b27 28r10 176r17
+29U14*Set_Display 11|41b14 45l8 45t19
+29i27 From{9|27I12} 11|41b27 43r34
+29i33 To{9|27I12} 11|41b33 44r34
+30V13*Is_Manual_Size{boolean} 11|51b13 59l8 59t22
+32U14*Set_Notes 11|111b14 115l8 115t17
+32A25 Notes_In_The_Fingerboard{17|27A9} 11|111b25 113r28
+33V13*Get_Note{17|19E9} 11|131b13 135l8 135t16
+33i23 String_Number{13|19I12} 11|131b23 134r27
+34i23 Fret{9|27I12} 11|132b23 134r42
+35U14*Get 11|141b14 144l8 144t11
+35a19 Into{9|29A9} 11|141b19 143m7
+40U14*Clear 11|65b14 72l8 72t13
+41U14*Set_Note 11|121b14 125l8 125t16
+41i24 String_Number{13|19I12} 11|121b24 124r20
+42i24 Fret{9|27I12} 11|122b24 124r35
+46A12*String_Tune{13|42A9} 49r37 11|169r37
+48U14*Set_Standard_Tune 11|159b14 163l8 163t25 177r4
+49U14*Set_Tune 11|169b14 173l8 173t16
+49a24 My_Tune{46A12} 11|169b24 171r28
+X 11 fingerboards.adb
+18i4 First_Fret{9|27I12} 29m23 32m23 43m20 53r23 152r23
+18i16 Last_Fret{9|27I12} 30m23 33m23 44m20 54r23 54r59 152r35
+19A4 Fingerboard_Notes{17|27A9} 93r33 94r43 113m7 152r46
+20a4 Fingerboard{9|29A9} 69m13 95m16 96m16 98m16 99m16 124m7 134r14 143r15
+. 152r65
+67i11 String_Number{13|19I12} 69r26
+68i14 Fret{9|27I12} 69r41
+78U14 Set_Fingerboard 105l8 105t23 114r7 162r7 172r7
+80I15 String_Range{13|19I12} 87r35
+83e7 Note{17|19E9} 89m10 93m27 94r29 96r65 99r65 101m27
+87i11 Guitar_String_Number{80I15} 90r23 95r29 96r29 98r29 99r29
+92i14 Fret{integer} 95r51 96r51 98r51 99r51
+X 13 instrument.ads
+17K9*Instrument 10|16r6 22r8 46r27 11|81r9 81r41 89r18 161r7 171r7 13|50e15
+19I12*String_Numbers{positive} 10|33r42 41r43 11|67r28 80r31 121r43 131r42
+27i10*First_String{19I12} 11|81r25
+28i10*Last_String{19I12} 11|81r57
+33r4*Info 11|81r20 81r52
+42A9*String_Tune 10|46r38
+44U14*Set_Standard_Tune 11|161r18
+45U14*Set_Tune 11|171r18
+47V13*Get_Note_For_String{17|19E9} 11|89r29
+47i34 Number{19I12} 11|90r13
+X 16 io.ads
+22K9*IO 11|14r6 152r7 16|52e7
+40U14*Fingerboard 11|152r10
+X 17 notes.ads
+15K9*Notes 10|15r6 32r55 34r61 11|19r28 83r14 93r13 94r16 101r13 101r40 111r55
+. 132r61 17|96e10
+19E9*Note_Type 10|34r67 11|83r20 132r67 17|20e51
+22n26*PLUS_ONE_HALF{22E9} 11|101r46
+27A9*Set_Of_Notes 10|32r61 11|19r34 111r61
+57U14*Modify 11|101r19
+57e47 Ton{22E9} 11|101r33
+69V13*Exist{boolean} 11|94r22
+70A20 Into{27A9} 11|94r35
+76U14*Adjust 11|93r19
+

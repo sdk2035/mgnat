@@ -1,0 +1,30 @@
+gnatmake test_long_float -cargs -gnatU -O2 -gnatn -largs -lm
+gcc -c -gnatU -O2 -gnatn test_long_float.adb
+gnatbind -x test_long_float.ali
+gnatlink -lm test_long_float.ali
+--------
+GNAT Ada
+--------
+test_long_float
+A=8.181919084260000E-02
+B=8.181919380514879E-02
+mgnatmake test_long_float
+mgnat -c test_long_float.adb
+mgnatbind -x test_long_float.ali
+mgnatlink test_long_float.ali
+
+Assembling 'b~test_long_float.il' , no listing file, to EXE --> 'test_long_float.exe'
+Source file is ANSI
+
+
+Assembling './test_long_float.il' , no listing file, to EXE --> 'test_long_float.exe'
+Source file is ANSI
+
+Operation completed successfully
+--------
+A#
+--------
+test_long_float
+A=8.181919380514880E-02
+B=8.181919380514880E-02
+TILT !!!

@@ -1,0 +1,18 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_proc%b		test_proc.adb		a643bd52 NE SU IL
+W pkg%s			pkg.adb			pkg.ali
+
+D pkg.ads		20060209161206 609f371f
+D system.ads		20050820125040 15131902
+D test_proc.adb		20060209161304 c6dc8a4d
+X 1 pkg.ads
+1K9*Pkg 3e8 3|1w6 4r4
+2U14*Dummy 3|4r8
+X 3 test_proc.adb
+2U11*test_proc 2b11 5l5 5t14
+

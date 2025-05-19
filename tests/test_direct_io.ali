@@ -1,0 +1,152 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnvnnnnnnnnvnnvnvnnnvnnnnnvnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_direct_io%b	test_direct_io.adb	c2c156c5 NE SU
+W ada%s			ada.ads			ada.ali
+W ada.direct_io%s
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W interfaces.java%s	i-java.ads		i-java.ali
+W interfaces.java.lang%s  i-javlan.ads		i-javlan.ali
+W interfaces.java.lang.object%s  i-jalaob.ads	i-jalaob.ali
+W log%s			log.adb			log.ali
+W system%s		system.ads		system.ali
+W system.direct_io%s	s-direio.adb		s-direio.ali
+W system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+W system.file_io%s	s-fileio.adb		s-fileio.ali
+W system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+W system.img_lli%s	s-imglli.adb		s-imglli.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W unchecked_conversion%s
+
+D ada.ads		20021213045750 7cd43be2
+D a-charac.ads		20050819211548 b6f39c34
+D a-chlat1.ads		19981212023728 e2279e26
+D a-direio.ads		19990930075710 09184de9
+D a-direio.adb		20050601194758 adac960d
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-string.ads		20060220230356 87b4230b
+D a-strbou.ads		20050820214034 512a8c69
+D a-strmap.ads		20050820192112 36dd7df9
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D a-tiinio.ads		19971119133950 75fbf922
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalaob.ads		20060412204852 538eed4e
+D log.ads		20050601024200 71d6ede7
+D system.ads		20050820125040 15131902
+D s-direio.ads		19960506012518 7355c8bf
+D s-ficobl.ads		19990215165032 ed792749
+D s-fileio.ads		19980427121710 d973579d
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-imgboo.ads		19951120073012 a5320464
+D s-imglli.ads		19951120073054 27bcf819
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-strops.ads		19980415014434 dfd9c808
+D s-sopco3.ads		19980110182950 bb5015db
+D s-sopco4.ads		19980110182952 ac4d87c0
+D s-sopco5.ads		19980110182952 7c109c43
+D s-unstyp.ads		19990721075830 fd0aa14a
+D test_direct_io.adb	20050822144930 9230693a
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 44|1r6 3r6 7r25 11r30
+X 4 a-direio.ads
+48k13*Direct_IO 158e18 44|3w10 11r34
+50P9 File_Type(25|57R9) 44|14r44[11]
+52E9 File_Mode
+52n23 In_File{52E9[44|11]} 44|54r48[11]
+52n32 Inout_File{52E9[44|11]} 44|39r55[11]
+63I9 Count<long_integer>
+65I12 Positive_Count{63I9[44|11]} 44|13r46[11] 15r37[11]
+71U14 Create 44|39r15[11]
+73e7 Mode{52E9[44|11]} 44|39r36[11]
+74s7 Name{string} 44|39r67[11]
+77U14 Open 44|54r18[11]
+80s7 Name{string} 44|54r57[11]
+83U14 Close 44|69r15[11]
+92V13 Is_Open{boolean} 44|48r22[11]
+112U14 Write 44|63r15[11]
+114i7 Item{integer} 44|63r35[11]
+116U14 Set_Index 44|68r15[11]
+116i46 To{65I12[44|11]} 44|68r39[11]
+119V13 Size{63I9[44|11]} 44|66r87[11] 67r92[11]
+127X4 Status_Error 44|84r22[11]
+128X4 Mode_Error 44|96r22[11]
+129X4 Name_Error 44|90r22[11]
+130X4 Use_Error 44|102r22[11]
+131X4 Device_Error 44|108r22[11]
+132X4 End_Error 44|78r23[11]
+133X4 Data_Error 44|114r22[11]
+X 6 a-except.ads
+94M9*Exception_Occurrence
+X 16 a-textio.ads
+51K13*Text_IO 428e16 44|1w10 7r29
+66I9*Count<integer>
+169U14*New_Line 44|74r9
+245U14*Put 44|64r9 66r9
+266U14*Put_Line 44|23r9 24r9 44r12 45r12 51r15 58r12 61r12 75r9
+X 23 log.ads
+30K9*Log 133e8 44|2w6 9r44 26r4 32r4 34r4 35r4 36r4 37r23 41r7 42r7 49r7
+. 57r7 60r7 65r4 67r4 71r4 72r4 79r7 85r7 91r7 97r7 103r7 109r7 115r7 121r7
+. 125r7 126r7
+36I12*Count{16|66I9}
+41b4*Log_To_Crt{boolean} 44|32m8 37r27
+65V13*Must_Name_And_Create_Log{boolean} 44|9r48
+67s10 Log_File_Name{string} 44|9r74
+88U14*Close_Log 44|72r8 126r11
+90U14*Put_Line_F 44|26r8 35r8 36r8 41r11 42r11 49r11 57r11 60r11 65r8 67r8
+. 71r8 125r11
+114U14*Set_Line_Length 44|34r8
+114i31 To{36I12} 44|34r24
+127U14*Log_Exception 44|79r11 85r11 91r11 97r11 103r11 109r11 115r11 121r11
+128m10 The_Exception_Occurrence{6|94M9} 44|80r10 86r10 92r10 98r10 104r10
+. 110r10 116r10 122r10
+129s29 Error_Message{string} 44|81r10 87r10 93r10 99r10 105r10 111r10 117r10
+. 123r10
+X 44 test_direct_io.adb
+4U11*Test_Direct_Io 4b11 128l5 128t19
+5a4 Package_Name{string} 20r48 81r56 87r53 93r57 99r57 105r56 111r59 117r57
+. 123r59
+7K12 T_Io=7:29 23r4 24r4 44r7 45r7 51r10 58r7 61r7 64r4 66r4 74r4 75r4
+9b4 Log_File_Named_And_Created{boolean} 25r10 27r10
+11K12 Integer_Io[4|48] 13r35 14r33 15r26 39r4 39r44 48r11 54r7 54r37 63r4
+. 66r76 67r81 68r4 69r4 78r12 84r11 90r11 96r11 102r11 108r11 114r11
+13I12 Positive_Count_Type{4|65I12[11]} 66r50 67r55
+14P12 Integer_File_Type{4|50P9[11]} 18r24
+15I12 Index_Type{4|65I12[11]}
+18p4 Integer_File{14P12} 39m22 48r30 54m23 63r21 66r93 67r98 68r25 69m22
+19a4 Integer_File_Name{string} 39r76 43r12 46r12 54r65
+20a4 Location{string} 41r30 44r29
+21b4 Test{boolean} 40r7 50r10
+78m9 E{6|94M9} 80r38
+84m9 S{6|94M9} 86r38
+90m9 N{6|94M9} 92r38
+96m9 M{6|94M9} 98r38
+102m9 U{6|94M9} 104r38
+108m9 D{6|94M9} 110r38
+114m9 A{6|94M9} 116r38
+120m9 O{6|94M9} 122r38
+

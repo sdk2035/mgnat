@@ -1,0 +1,82 @@
+V "GNAT Lib v3.15"
+M P W=b
+A -c
+P
+R nnvnnnnvnnnnnvvvvvvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvvnn
+
+U guitare%b		guitare.adb		b5bb66a2 NE SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W commands%s		commands.adb		commands.ali
+W defines%s		defines.adb		defines.ali
+W notes%s		notes.adb		notes.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 a0108083
+D a-except.ads		20030111184846 8c16c4f0
+D a-finali.ads		19981212023736 d4be2e87
+D a-filico.ads		19981212023738 83058640
+D a-ioexce.ads		19981212023736 d52e128a
+D a-stream.ads		19971119133848 90e5c6f7
+D a-tags.ads		19990924104636 d9f34d7b
+D a-textio.ads		20000214171636 98d7a37c
+D commands.ads		20021031185316 e4a70f2c
+D defines.ads		20021031185316 f5687a57
+D guitare.adb		20030114053020 a1bafa1a
+D interfac.ads		20021213031652 6e859da6
+D i-cstrea.ads		20021213045752 7f5efb6f
+D notes.ads		20021031185316 9d194abf
+D system.ads		20021213031700 9be97a6f
+D s-ficobl.ads		19990215165032 14416104
+D s-finimp.ads		19990723121124 c7f98dd8
+D s-finroo.ads		19960921225930 561babbc
+D s-parame.ads		20020514142604 37dc3a84
+D s-secsta.ads		19990726073750 aafc656f
+D s-soflin.ads		19991227152932 95657dfd
+D s-stache.ads		19990409121032 ced985be
+D s-stalib.ads		19990924104638 2d9390a0
+D s-stoele.ads		19980907140906 c6bef0ad
+D s-stratt.ads		19981014005624 9fdf8f81
+D s-unstyp.ads		19990721075830 05ad3732
+D unchconv.ads		20021213031438 1b7a14c5
+X 1 ada.ads
+18K9*Ada 21e8 11|15r6 34r4 35r4 37r4 51r10 52r10 57r13 63r18 64r16 65r16
+. 66r16 75r4 76r4 78r4
+X 8 a-textio.ads
+51K13*Text_IO 418e16 11|15r10 34r8 35r8 37r8 51r14 52r14 57r17 63r22 64r20
+. 65r20 66r20 75r8 76r8 78r8
+146U14*Flush 11|52r22
+169U14*New_Line 11|34r16 37r16 57r25 65r28 75r16 78r16
+172U14*Skip_Line 11|64r28
+245U14*Put 11|51r22
+260U14*Put_Line 11|35r16 66r28 76r16
+271X4*Data_Error 11|63r30
+X 9 commands.ads
+17K9*Commands 49e13 11|16r6 24r20 25r20 40r17 41r17 42r17 45r17 56r13 59r23
+. 68r16
+19E9*Command 22e63 11|24r29
+24A12*Input_Line{string} 11|25r29
+26A4*Note_Set1 11|40m26
+27A4*Note_Set2 11|41m26
+28A4*Note_Set3 11|42m26
+36U14*Display_All 11|68r25
+38V13*Read_Init_File{boolean} 11|45r26
+41U14*Get 11|56r22
+45V13*Execute{boolean} 11|59r32
+X 10 defines.ads
+14K9*Defines 24e12 11|18r6 22r13 32r4 32r21 35r39 77r20
+16a4*Version{string} 11|35r47 77r28
+18E9*Switch 18e28 11|22r21
+18n24*OFF{18E9} 11|32r29
+20U14*Set_GUI 11|32r12
+X 11 guitare.adb
+20U11*Guitare 80l5 80t12
+24e4 Command_Input{9|19E9} 56m27 59r41
+25a4 Arguments{9|24A12} 56m42 59r56
+26i4 Last{natural} 56m53 59r72
+27b4 End_Batch{boolean} 45m4 47r11
+X 14 notes.ads
+15K9*Notes 11|17r6 40r4 41r4 42r4 14|96e10
+83U14*Clear 11|40r10 41r10 42r10
+

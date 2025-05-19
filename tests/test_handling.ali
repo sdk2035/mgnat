@@ -1,0 +1,61 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_handling%b	test_handling.adb	6240c6f5 NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-charac.ads		20050819211548 b6f39c34
+D a-chahan.ads		20050819211658 5be68b91
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D test_handling.adb	20021125033206 1199d295
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 26|1r6 2r5 3r6 4r5
+X 2 a-charac.ads
+18K13*Characters 21e19 26|3r10 4r9
+X 3 a-chahan.ads
+38K24*Handling 157e28 26|3w21 4r20
+64V13*To_Lower{character} 26|13r8
+68V13*To_Lower{string} 26|16r13
+X 11 a-textio.ads
+51K13*Text_IO 428e16 26|1w10 2r9
+211U14*Put 26|13r4
+266U14*Put_Line 26|14r4 15r4 16r4
+X 26 test_handling.adb
+5U11*test_handling 5b11 17l5 17t18
+6V13 copy{string} 6b13 6>18 10l8 10t12 15r13
+6s18 x{string} 7r21
+7a7 y{string} 9r14
+11e4 c{character} 13r17
+

@@ -1,0 +1,95 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnvnnnnnnnnnnnnnnnnnvnnnnnvnnnnnnnnvnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_seq_file%b	test_seq_file.adb	d7794906 NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
+W ada.sequential_io%s
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
+W interfaces.java%s	i-java.ads		i-java.ali
+W interfaces.java.lang%s  i-javlan.ads		i-javlan.ali
+W interfaces.java.lang.object%s  i-jalaob.ads	i-jalaob.ali
+W system%s		system.ads		system.ali
+W system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
+W system.file_io%s	s-fileio.adb		s-fileio.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.sequential_io%s  s-sequio.adb		s-sequio.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+W unchecked_conversion%s
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-sequio.ads		19981212023738 e0031e61
+D a-sequio.adb		20050601194842 3634e0c7
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalaob.ads		20060412204852 538eed4e
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-fileio.ads		19980427121710 d973579d
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-imgint.ads		19951120073034 c025cca6
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-sequio.ads		19960127211956 b9751759
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-strops.ads		19980415014434 dfd9c808
+D s-sopco3.ads		19980110182950 bb5015db
+D s-sopco4.ads		19980110182952 ac4d87c0
+D s-sopco5.ads		19980110182952 7c109c43
+D s-unstyp.ads		19990721075830 fd0aa14a
+D test_seq_file.adb	20041030035138 1f45c896
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 36|1r6 2r6 6r26 22r4 30r7
+X 6 a-sequio.ads
+47k13*Sequential_IO 128e22 36|2w10 6r30
+49P9 File_Type(25|47R9) 36|8r22[6]
+51E9 File_Mode
+51n23 In_File{51E9[36|6]} 36|25r32[6]
+51n32 Out_File{51E9[36|6]} 36|14r34[6]
+66U14 Create 36|13r11[6]
+67p7 File{49P9[36|6]} 36|13r19[6]
+68e7 Mode{51E9[36|6]} 36|14r19[6]
+69s7 Name{string} 36|15r19[6]
+72U14 Open 36|24r11[6]
+73p7 File{49P9[36|6]} 36|24r17[6]
+74e7 Mode{51E9[36|6]} 36|25r17[6]
+75s7 Name{string} 36|26r17[6]
+78U14 Close 36|20r11[6] 33r11[6]
+93U14 Read 36|29r14[6]
+94U14 Write 36|18r14[6]
+96V13 End_Of_File{boolean} 36|28r21[6]
+X 11 a-textio.ads
+51K13*Text_IO 428e16 36|1w10 22r8 30r11
+266U14*Put_Line 36|22r16 30r19
+X 36 test_seq_file.adb
+4U11*test_seq_file 4b11 35l5 35t18
+6K12 fileio[6|47] 8r15 13r4 14r27 18r7 20r4 24r4 25r25 28r14 29r7 33r4
+8p4 file{6|49P9[6]} 13m27 18r21 20m18 24m25 28r34 29r20 33m18
+9e4 ch{character} 29m26 31r2
+10a4 filename{string} 15r27 26r25
+17i8 I{integer} 18r42
+

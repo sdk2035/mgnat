@@ -1,0 +1,60 @@
+V "GNAT Lib v2.01"
+A -c
+P SS
+R nnnvnnnnvnnnnnnvnvnnvnvnnnnvnnnnnnnnnnvnnnnnnnnvnnnnnnnvnnnnnnnnnnnnnnnn
+
+U bug20050909a%b	bug20050909a.adb	24d1fb46 PK
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_conversion%s
+
+U bug20050909a%s	bug20050909a.ads	b7449291 EE PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-unccon.ads		19951001012526 51e09df2
+D bug20050909a.ads	20050909140814 b7449291
+D bug20050909a.adb	20050909140804 c275f425
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+X 1 ada.ads
+18K9*Ada 21e8 10|7r6 10r28 11r28
+X 8 a-unccon.ads
+22v14*Unchecked_Conversion 10|7w10 10r32 11r32
+X 9 bug20050909a.ads
+7K9*Bug20050909a 17l5 17e17 10|9b14 28l5 28t17
+9R9*Fred 11e14 13r32 15p14 15r36 10|16r37 22r27
+10i7*X{integer}
+13P9*Fred_Ptr(9R9) 10|22r11
+15U14*Set_Tag 15^22 15>42 10|16b14 19l8 19t15
+15p22 This(9R9) 10|16b23
+15i42 Param{integer} 10|16b43
+X 10 bug20050909a.adb
+10V13 Convert[8|22]{integer} 25r17
+11V13 convert[8|22]{float}
+21U14 Bob 21b14 26l8 26t11
+22p7 G{9|13P9} 25r7
+23f7 larry{float} 25r25
+

@@ -1,0 +1,67 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnnnnnnnnnnnnnvnvnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U bob%b			bug20030121a.adb	d1d8d303 NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D bug20030121a.adb	20030121191448 f9e74cf2
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 10|1r6 3r28 4r23
+X 9 a-textio.ads
+51K13*Text_IO 428e16 10|1w10 3r32 4r27
+66I9*Count<integer>
+71I12*Positive_Count{66I9}
+169U14*New_Line 10|92r13
+199V13*Line{71I12} 10|80r46 84r45
+245U14*Put 10|90r13
+276X4*End_Error 10|57r30 89r20
+277X4*Data_Error 10|47r29
+X 10 bug20030121a.adb
+2U11*bob 2b11 97l5 97t8
+3K12 Text_IO=3:32 47r21 57r22 80r38 84r37 89r12
+4K12 IO=4:27 90r10 92r10
+5X4 Bad_Note_Format 64r19
+10U14 Find_Chord_Name 10b14 10>31 94l8 94t23
+10s31 From{string} 12r25 24r23 39r18 50r39 50r57 55r27 56r16 71r28
+12i7 Last{natural} 24r16 25m13 25r21 39m10 45m16 45r24 49m22 49r30 50r32
+. 50r63 55r19
+14b7 Fingering_Mode{boolean} 77m13
+16i7 Line_Number_Before{integer} 80m7 81m7
+16i27 Line_Number_After{integer} 84m7 85m7
+22U17 Get_Notes 22b17 27l11 27t20
+33U17 Get_Fingerings 33b17 66l11 66t25
+35i10 Fret{integer}
+42i14 String_Number{integer}
+55i14 K{integer} 56r22
+71i10 Last{natural}
+

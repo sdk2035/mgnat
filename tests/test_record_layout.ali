@@ -1,0 +1,23 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_record_layout%b	test_record_layout.adb	e2a73b36 NE SU
+
+D system.ads		20050820125040 15131902
+D test_record_layout.adb  20031209201342 e2a73b36
+X 2 test_record_layout.adb
+1U11*Test_Record_Layout 1b11 23l5 23t23
+2M9 Mod4 5r11 6r11 7r11 8r11
+3I9 short_Int<integer> 10r14
+4R9 Fred 11e14 12r8 20r10
+5m7 X{2M9} 22r8
+6m7 Y{2M9}
+7m7 Z{2M9}
+8m7 W{2M9}
+9e7 C{character}
+10i7 short{3I9}
+20r4 bob{4R9} 22m4
+

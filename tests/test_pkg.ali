@@ -1,0 +1,19 @@
+V "GNAT Lib v2.01"
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U test_pkg%b		test_pkg.adb		2442a428 PK IL
+
+U test_pkg%s		test_pkg.ads		dd392cb7 EE PK IL
+
+D system.ads		20050820125040 15131902
+D test_pkg.ads		20030107205630 dd392cb7
+D test_pkg.adb		20030107205702 f97b889f
+X 2 test_pkg.ads
+1K9*test_pkg 7l5 7e13 3|1b14 9l5 9t13
+3U14*fred 3|3b14 6l8 6t12
+5i4*x{integer}
+X 3 test_pkg.adb
+2i4 y{integer} 8m4
+

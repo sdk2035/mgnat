@@ -1,0 +1,12 @@
+package body Test_Dll1 is
+
+   ----------
+   -- Fred --
+   ----------
+
+   task body Fred is
+   begin
+      null;
+   end Fred;
+
+end Test_Dll1;

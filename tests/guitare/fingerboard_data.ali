@@ -1,0 +1,28 @@
+V "GNAT Lib v3.15"
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnvnn
+
+U fingerboard_data%s	fingerboard_data.ads	c89df13c EE PK
+W instrument%s		instrument.adb		instrument.ali
+W notes%s		notes.adb		notes.ali
+
+D fingerboard_data.ads	20021031185316 9355ccf6
+D instrument.ads	20021031185316 c6d17775
+D notes.ads		20021031185316 9d194abf
+D system.ads		20021213031700 9be97a6f
+X 1 fingerboard_data.ads
+18K9*Fingerboard_Data 31l5 31e21
+21R9*Note_Type 25e17 28r46
+23e10*Note{3|19E9}
+24b10*Set{boolean}
+27I12*Fret_Range{natural} 28r31
+28A9*String_Type 29r66
+29A9*Fingerboard_Type
+X 2 instrument.ads
+17K9*Instrument 1|16r6 29r36 2|50e15
+19I12*String_Numbers{positive} 1|29r47
+X 3 notes.ads
+15K9*Notes 1|15r6 23r17 3|96e10
+19E9*Note_Type 1|23r23 3|20e51
+

@@ -1,0 +1,5 @@
+procedure Test_Wide is
+   X : Wide_Character;
+begin
+   X := 'z';
+end test_wide;

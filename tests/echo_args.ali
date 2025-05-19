@@ -1,0 +1,79 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U echo_args%b		echo_args.adb		1a3dfb41 NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-comlin.ads		19990831065000 4aa4499e
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-inteio.ads		19981212023736 03bc737c
+D a-ioexce.ads		19981212023736 a50c222b
+D a-numeri.ads		20050820212018 efa2335e
+D a-nuelfu.ads		20040925145828 b3ddb2e1
+D a-ngelfu.ads		20040925145828 0b41cace
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D a-tiinio.ads		19971119133950 75fbf922
+D echo_args.adb		20021123233944 c8c7ecb3
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-imgint.ads		19951120073034 c025cca6
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-strops.ads		19980415014434 dfd9c808
+D s-sopco3.ads		19980110182950 bb5015db
+D s-sopco4.ads		19980110182952 ac4d87c0
+D s-sopco5.ads		19980110182952 7c109c43
+D s-unstyp.ads		19990721075830 fd0aa14a
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 16|1r6 2r6 3r6 4r5 5r6 9r4 9r43 10r4 11r21 13r16 14r7 14r31
+. 16r4 17r4 18r4
+X 2 a-comlin.ads
+40K13*Command_Line 102e21 16|1w10 9r47 11r25 13r20 14r35
+43V13*Argument_Count{natural} 16|11r38 13r33
+50V13*Argument{string} 16|14r48
+59V13*Command_Name{string} 16|9r60
+X 6 a-inteio.ads
+20K13*Integer_Text_IO[15|49] 16|5w10
+X 8 a-numeri.ads
+16K13*Numerics 27e17 16|3r10 4r9
+X 9 a-nuelfu.ads
+18K22*Elementary_Functions[10|19] 16|3w19 4r18
+X 14 a-textio.ads
+51K13*Text_IO 428e16 16|2w10 9r8 10r8 14r11 16r8 17r8 18r8
+169U14*New_Line 16|16r16
+172U14*Skip_Line 16|18r16
+245U14*Put 16|14r19
+266U14*Put_Line 16|9r16 10r16 17r16
+X 16 echo_args.adb
+7U11*echo_args 7b11 19l5 19t14
+13i8 i{integer} 14r57
+

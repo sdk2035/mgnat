@@ -1,0 +1,23 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P
+R nnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_exports_main%b	test_exports_main.adb	3a712d6b NE SU IL
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W test_exports%s	test_exports.adb	test_exports.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-calend.ads		19981212023726 979f5d2f
+D a-caldel.ads		19981212023724 c565f6eb
+D system.ads		20050820125040 15131902
+D test_exports.ads	20041115033028 4c10f030
+D test_exports_main.adb	20041115033100 7661dd5b
+X 5 test_exports.ads
+1K9*Test_Exports 7e17 6|1w6 5r9
+2V13*Open_Graph_Window{integer} 6|5r22
+X 6 test_exports_main.adb
+2U11*test_exports_main 2b11 7l5 7t22
+3i4 y{integer} 5m4
+

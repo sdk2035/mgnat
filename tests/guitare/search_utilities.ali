@@ -1,0 +1,85 @@
+V "GNAT Lib v3.15"
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvvnn
+
+U search_utilities%b	search_utilities.adb	e3a44993 PK GE
+
+U search_utilities%s	search_utilities.ads	8a36b0c2 EE PK GE
+W system%s		system.ads		system.ali
+
+D search_utilities.ads	20021031185316 11dfcaad
+D search_utilities.adb	20021031185316 f27b833e
+D system.ads		20021213031700 9be97a6f
+X 1 search_utilities.ads
+84+8 Component_Type 92r52 100r37 106r38 145r47 157r47 168r43 179r43 2|136r47
+. 247r41 264r37 283r37
+85E8 Index_Type 92r28 147r47 151r47 151r66 159r47 162r47 162r66 182r43 182r62
+. 183r12 2|138r47 142r47 142r65 167r14 169r14 171r14 172r12 172r29 172r53
+. 181r20 186r19 189r17 189r34 190r11 207r15 213r18 249r41 252r41 252r59 270r25
+. 286r37 286r56 287r12 289r25
+92A8 Array_Type 146r47 158r47 169r43 180r43 2|137r47 248r41 265r37 284r37
+100V17 "<"{boolean} 2|177r32
+100+21 Left{84+8}
+100+26 Right{84+8}
+106V17 "="{boolean} 2|174r34 193r30 211r35 216r31
+106+21 Left{84+8}
+106+27 Right{84+8}
+107k9*Search_Utilities 184l5 184e21 2|127b14 298l5 298t21
+108V12 Version{string} 2|130b12 133l7 133t14
+125E8 Data_Order_Type 125e48 150r47 161r47 170r43 181r43 2|141r47 251r41
+. 266r37 285r37
+125n28 Ordered{125E8} 2|236r14
+125n36 Not_Ordered{125E8} 150r66 161r66 170r62 181r62 2|141r66 235r14 251r60
+. 266r56 285r56
+134I8 Performance_Instrumentation_Type<long_integer> 149r47 2|140r47 144r25
+. 149r38 153r35 154r37 157r36 254r25 271r25 291r25
+144U13 Search 2|135b13 241l7 241t13 256r5 273r5 293r5
+145+5 Component{84+8} 2|136b5 174r37 177r34 193r32 211r38 216r33
+146a5 Search_Array{92A8} 2|137b5 167r31 167r53 168r12 169r31 169r53 170r12
+. 171r31 171r53 174r14 177r12 178r21 183r22 193r10 207r32 207r54 208r9 210r23
+. 211r14 216r10 230r8 230r28
+147e5 Location_Found{85E8} 2|138b5 194m9 197m9 217m9 220m9 231m7
+148b5 Component_Found{boolean} 2|139b5 195m9 198m9 218m9 221m9 232m7
+149i5 Number_of_Comparisons{134I8} 2|140b5 240m5
+150e5 Order_Strategy{125E8} 2|141b5 234r12
+151e5 No_Match_Index{85E8} 2|142b5 197r27 220r27 231r25
+156U13 Search 2|246b13 258l7 258t13
+157+5 Component{84+8} 2|247b5 256r13
+158a5 Search_Array{92A8} 2|248b5 256r24
+159e5 Location_Found{85E8} 2|249b5 256m38
+160b5 Component_Found{boolean} 2|250b5 256m54
+161e5 Order_Strategy{125E8} 2|251b5 257r26
+162e5 No_Match_Index{85E8} 2|252b5 257r42
+167V12 Search{boolean} 2|263b12 277l7 277t13
+168+5 Component{84+8} 2|264b5 273r13
+169a5 Search_Array{92A8} 2|265b5 273r24
+170e5 Order_Strategy{125E8} 2|266b5 274r26
+178V12 Search{85E8} 2|282b12 297l7 297t13
+179+5 Component{84+8} 2|283b5 293r13
+180a5 Search_Array{92A8} 2|284b5 293r24
+181e5 Order_Strategy{125E8} 2|285b5 294r26
+182e5 No_Match_Index{85E8} 2|286b5 294r42
+X 2 search_utilities.adb
+128a3 Version_Number{string} 132r12
+144i5 Local_Comparisons{1|134I8} 175m45 212m45 240r30
+148U15 Update_Performance_Instrumentation 160l9 160t43 175r9 212r9
+149i7 Instrumentation_Count{1|134I8} 153r10 154r12 155m11 155r36 157m11
+166U15 Binary_Search 200l9 200t22 236r29
+167e7 High{1|85E8} 172r45 174r53 186m11 189r50
+169e7 Low{1|85E8} 172r69 174r60 181m13 190r27
+171e7 Curr{1|85E8} 174r28 177r26 178r14 181r37 183r15 186r36 189m9 193r24
+. 194r27
+206U15 Sequential_Search 223l9 223t26 235r29
+207e7 Index{1|85E8} 210r14 211r28 213m9 213r35 216r24 217r27
+254i5 Dummy_Comparisons{1|134I8} 257m7
+269b5 Component_Found{boolean} 273m54 276r12
+270e5 Dummy_Location{1|85E8} 273m38
+271i5 Dummy_Comparisons{1|134I8} 274m7
+289e5 Location_Found{1|85E8} 293m38 296r12
+290b5 Dummy_Component{boolean} 293m54
+291i5 Dummy_Comparisons{1|134I8} 294m7
+X 3 system.ads
+41K9*System 1|81r6 134r56 3|155e11
+52N4*Max_Int 1|134r63
+

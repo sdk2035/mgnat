@@ -1,0 +1,76 @@
+V "GNAT Lib v2.01"
+A -c
+P SS
+R nnnnnnvnnnnnnnnvnvnvnvvnnnnnnnnnnnnnvvvnnnnnvnnnnnnnnnnvnnnnnv2nv1nnnnnnnn
+
+U test_task_pkg%b	test_task_pkg.adb	ffa72371 PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+
+U test_task_pkg%s	test_task_pkg.ads	878daee2 EE PK
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalaob.ads		20060412204852 538eed4e
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-imgint.ads		19951120073034 c025cca6
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-strops.ads		19980415014434 dfd9c808
+D s-sopco3.ads		19980110182950 bb5015db
+D s-sopco4.ads		19980110182952 ac4d87c0
+D s-sopco5.ads		19980110182952 7c109c43
+D s-tasinf.ads		20040925171754 04bafbd6
+D s-taspri.ads		20050820220208 d94fa01c
+D s-taskin.ads		20040925171702 dfe0bf9d
+D s-taprob.ads		20040925153816 f36e012f
+D s-tpoben.ads		20040925153832 2e4363ad
+D s-tasren.ads		20040602223354 02b02214
+D s-tassta.ads		20040925182000 3f8dde08
+D s-unstyp.ads		19990721075830 fd0aa14a
+D test_task_pkg.ads	20031210004318 878daee2
+D test_task_pkg.adb	20031210142448 50151262
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 40|1r6 2r5
+X 9 a-textio.ads
+51K13*Text_IO 428e16 40|1w10 2r9
+266U14*Put_Line 40|13r7 19r9
+X 39 test_task_pkg.ads
+1K9*Test_Task_Pkg 6l5 6e18 40|4b14 27l5 27t18
+2T14*Bob 4l8 4e11 40|10b14 25l8 25t11
+3Y13 Fred 40|16b17 18l14 18t18
+3i18 X{integer} 40|17r18
+X 40 test_task_pkg.adb
+11i7 y{integer} 17m13 19r46 20r20
+16i22 X{integer}
+

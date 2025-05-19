@@ -1,0 +1,100 @@
+V "GNAT Lib v2.01"
+A -c
+P SS
+R nnnvnnnnvnnnnnnvnvvnnvvnnvnvnvnnnnnnvnvnnnnnnnnnvnnnnnnvnnnnnnnnnnnnnnnn
+
+U test_controlled_pkg%b	test_controlled_pkg.adb	becf3966 PK IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+
+U test_controlled_pkg%s	test_controlled_pkg.ads	8e6b2e13 EE PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.adb		a-finali.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-charac.ads		20050819211548 b6f39c34
+D a-chlat1.ads		19981212023728 e2279e26
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-string.ads		20060220230356 87b4230b
+D a-strmap.ads		20050820192112 36dd7df9
+D a-strunb.ads		20060220221202 3aeb20e9
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D a-uncdea.ads		19951215031606 dc667e6d
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D test_controlled_pkg.ads  20031210003954 5ae4b713
+D test_controlled_pkg.adb  20031210003944 10726fe9
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 30|1r6 2r5 4r6 5r5 31|1r6 2r5 3r6 6r26
+X 5 a-finali.ads
+42K13*Finalization 68e21 30|1w10 2r9
+45H9*Controlled 59e72 30|8r22 15r21
+48U14*Adjust<21|53p14>
+61V13 "="{boolean}<21|46p9>
+X 9 a-string.ads
+16K13*Strings 35e16 30|4r10 5r9
+X 11 a-strunb.ads
+41K21*Unbounded 435e26 30|4w18 5r17
+44R9*Unbounded_String 396e14 30|17r11
+X 14 a-textio.ads
+51K13*Text_IO 428e16 31|1w10 2r9
+266U14*Put_Line 31|15r7 25r7 35r7 44r7
+X 15 a-uncdea.ads
+22u15*Unchecked_Deallocation 31|3w10 6r30
+X 30 test_controlled_pkg.ads
+7K9*test_controlled_pkg 23l5 23e24 31|5b14 6r53 7r7 47l5 47t24
+8R9*larry<5|45R9> 5|48P14 61P13 30|10e14 11r33 12P14 12r39 13P14 13r37 18r11
+. 31|6r73 33r38 42r40
+9i7*z{integer} 31|45r12
+11P9*larry_ptr(8R9) 31|7r27
+12U14*Initialize<5|47p14> 12=25 31|42b14 46l8 46t18
+12r25 This{8R9} 31|42b26 45m7
+13U14*Finalize<5|49p14> 13=23 31|33b14 36l8 36t16
+13r23 This{8R9} 31|33b24
+15R9*fred<5|45R9> 5|48P14 61P13 30|19e14 20r32 21P14 21r39 22P14 22r37 31|13r38
+. 23r40
+16i7*x{integer}
+17r7*y{11|44R9}
+18r7*z{8R9}
+20P9*fred_ptr(15R9)
+21U14*Initialize<5|47p14> 21=25 31|23b14 27l8 27t18
+21r25 This{15R9} 31|23b26
+22U14*Finalize<5|49p14> 22=23 31|13b14 17l8 17t16
+22r23 This{15R9} 31|13b24
+X 31 test_controlled_pkg.adb
+6U14 free[15|22]
+

@@ -1,0 +1,11 @@
+with Ada.Characters.Conversions;
+with Ada.Text_Io;
+use Ada.Text_Io;
+
+procedure Test_Wide is
+   X : Wide_Character;
+   q : wide_string(1..20) := (others => 'a');
+begin
+   X := 'z';
+   put_line(ada.characters.conversions.to_string(q));
+end test_wide;

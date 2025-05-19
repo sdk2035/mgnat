@@ -1,0 +1,22 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P
+R nnnvnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_composite%b	test_composite.adb	ad7f5c9e NE SU IL
+
+D system.ads		20050820125040 15131902
+D test_composite.adb	20041030051308 ad7f5c9e
+X 2 test_composite.adb
+1U11*test_composite 1b11 16l5 16t19
+2i5*imp_z{integer} 3m23 4r29
+4i5 z{integer} 8r22 12r19
+5R10 rec 6r32 7c10 10e15 14r14 15r14
+6P10 rec_ptr(5R10) 9r12 11r11
+8a8 s{string}
+9p8 n{6P10}
+11p5 q{6P10} 14m5
+11p7 x{6P10} 15m5 15r21
+12a5 y{string} 15r19
+

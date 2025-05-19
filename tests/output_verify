@@ -1,0 +1,1246 @@
+-------------------- BUILDING --------------------
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake array_range.adb 
+
+Assembling 'b~array_range.il' , no listing file, to EXE --> 'array_range.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\msil_types.il' , no listing file, to EXE --> 'array_range.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst.il' , no listing file, to EXE --> 'array_range.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst-globalization.il' , no listing file, to EXE --> 'array_range.exe'
+Source file is ANSI
+
+
+Assembling './array_range.il' , no listing file, to EXE --> 'array_range.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake bug20030120a.adb 
+
+Assembling 'b~bug20030120a.il' , no listing file, to EXE --> 'bug20030120a.exe'
+Source file is ANSI
+
+
+Assembling './bug20030120a.il' , no listing file, to EXE --> 'bug20030120a.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake bug20030120b.adb 
+
+Assembling 'b~bug20030120b.il' , no listing file, to EXE --> 'bug20030120b.exe'
+Source file is ANSI
+
+
+Assembling './bug20030120b.il' , no listing file, to EXE --> 'bug20030120b.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake bug20030121a.adb 
+
+Assembling 'b~bug20030121a.il' , no listing file, to EXE --> 'bug20030121a.exe'
+Source file is ANSI
+
+
+Assembling './bug20030121a.il' , no listing file, to EXE --> 'bug20030121a.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake bug20050830.adb 
+
+Assembling 'b~bug20050830.il' , no listing file, to EXE --> 'bug20050830.exe'
+Source file is ANSI
+
+
+Assembling './discrete_random.il' , no listing file, to EXE --> 'bug20050830.exe'
+Source file is ANSI
+
+
+Assembling './bug20050830.il' , no listing file, to EXE --> 'bug20050830.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake bug20050909a.adb 
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake echo_args.adb 
+
+Assembling 'b~echo_args.il' , no listing file, to EXE --> 'echo_args.exe'
+Source file is ANSI
+
+
+Assembling './echo_args.il' , no listing file, to EXE --> 'echo_args.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake fred.adb 
+
+Assembling 'b~fred.il' , no listing file, to EXE --> 'fred.exe'
+Source file is ANSI
+
+
+Assembling './my_types.il' , no listing file, to EXE --> 'fred.exe'
+Source file is ANSI
+
+
+Assembling './fred.il' , no listing file, to EXE --> 'fred.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake hello.adb 
+
+Assembling 'b~hello.il' , no listing file, to EXE --> 'hello.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\msil_types.il' , no listing file, to EXE --> 'hello.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst.il' , no listing file, to EXE --> 'hello.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst-globalization.il' , no listing file, to EXE --> 'hello.exe'
+Source file is ANSI
+
+
+Assembling './hello.il' , no listing file, to EXE --> 'hello.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake hello_ada.adb 
+
+Assembling 'b~hello_ada.il' , no listing file, to EXE --> 'hello_ada.exe'
+Source file is ANSI
+
+
+Assembling './hello_ada.il' , no listing file, to EXE --> 'hello_ada.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake hello_file.adb 
+
+Assembling 'b~hello_file.il' , no listing file, to EXE --> 'hello_file.exe'
+Source file is ANSI
+
+
+Assembling './hello_file.il' , no listing file, to EXE --> 'hello_file.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake seq_io.adb 
+
+Assembling 'b~seq_io.il' , no listing file, to EXE --> 'seq_io.exe'
+Source file is ANSI
+
+
+Assembling './seq_io.il' , no listing file, to EXE --> 'seq_io.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_array_bounds.adb 
+
+Assembling 'b~test_array_bounds.il' , no listing file, to EXE --> 'test_array_bounds.exe'
+Source file is ANSI
+
+
+Assembling './test_array_bounds.il' , no listing file, to EXE --> 'test_array_bounds.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_assembly.adb 
+
+Assembling 'b~test_assembly.il' , no listing file, to EXE --> 'test_assembly.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\msil_types.il' , no listing file, to EXE --> 'test_assembly.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst.il' , no listing file, to EXE --> 'test_assembly.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst-globalization.il' , no listing file, to EXE --> 'test_assembly.exe'
+Source file is ANSI
+
+
+Assembling './test_assembly.il' , no listing file, to EXE --> 'test_assembly.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_assign.adb 
+
+Assembling 'b~test_assign.il' , no listing file, to EXE --> 'test_assign.exe'
+Source file is ANSI
+
+
+Assembling './test_assign.il' , no listing file, to EXE --> 'test_assign.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_assign2.adb 
+
+Assembling 'b~test_assign2.il' , no listing file, to EXE --> 'test_assign2.exe'
+Source file is ANSI
+
+
+Assembling './test_assign2.il' , no listing file, to EXE --> 'test_assign2.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_atc.adb 
+
+Assembling 'b~test_atc.il' , no listing file, to EXE --> 'test_atc.exe'
+Source file is ANSI
+
+
+Assembling './test_atc.il' , no listing file, to EXE --> 'test_atc.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_attributes.adb 
+
+Assembling 'b~test_attributes.il' , no listing file, to EXE --> 'test_attributes.exe'
+Source file is ANSI
+
+
+Assembling './test_attributes.il' , no listing file, to EXE --> 'test_attributes.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_bool_addrof.adb 
+
+Assembling 'b~test_bool_addrof.il' , no listing file, to EXE --> 'test_bool_addrof.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\msil_types.il' , no listing file, to EXE --> 'test_bool_addrof.exe'
+Source file is ANSI
+
+
+Assembling './test_bool_addrof.il' , no listing file, to EXE --> 'test_bool_addrof.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_byte_array.adb 
+
+Assembling 'b~test_byte_array.il' , no listing file, to EXE --> 'test_byte_array.exe'
+Source file is ANSI
+
+
+Assembling './test_byte_array.il' , no listing file, to EXE --> 'test_byte_array.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_calendar.adb 
+
+Assembling 'b~test_calendar.il' , no listing file, to EXE --> 'test_calendar.exe'
+Source file is ANSI
+
+
+Assembling './test_calendar.il' , no listing file, to EXE --> 'test_calendar.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_case.adb 
+
+Assembling 'b~test_case.il' , no listing file, to EXE --> 'test_case.exe'
+Source file is ANSI
+
+
+Assembling './test_case.il' , no listing file, to EXE --> 'test_case.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_case2.adb 
+
+Assembling 'b~test_case2.il' , no listing file, to EXE --> 'test_case2.exe'
+Source file is ANSI
+
+
+Assembling './test_case2.il' , no listing file, to EXE --> 'test_case2.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_case3.adb 
+
+Assembling 'b~test_case3.il' , no listing file, to EXE --> 'test_case3.exe'
+Source file is ANSI
+
+
+Assembling './test_case3.il' , no listing file, to EXE --> 'test_case3.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_composite.adb 
+
+Assembling 'b~test_composite.il' , no listing file, to EXE --> 'test_composite.exe'
+Source file is ANSI
+
+
+Assembling './test_composite.il' , no listing file, to EXE --> 'test_composite.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_controlled.adb 
+
+Assembling 'b~test_controlled.il' , no listing file, to EXE --> 'test_controlled.exe'
+Source file is ANSI
+
+
+Assembling './test_controlled_pkg.il' , no listing file, to EXE --> 'test_controlled.exe'
+Source file is ANSI
+
+
+Assembling './test_controlled.il' , no listing file, to EXE --> 'test_controlled.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_controlled_pkg.adb 
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_device_error.adb 
+
+Assembling 'b~test_device_error.il' , no listing file, to EXE --> 'test_device_error.exe'
+Source file is ANSI
+
+
+Assembling './test_device_error.il' , no listing file, to EXE --> 'test_device_error.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_direct_io.adb 
+
+Assembling 'b~test_direct_io.il' , no listing file, to EXE --> 'test_direct_io.exe'
+Source file is ANSI
+
+
+Assembling './log.il' , no listing file, to EXE --> 'test_direct_io.exe'
+Source file is ANSI
+
+
+Assembling './test_direct_io.il' , no listing file, to EXE --> 'test_direct_io.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_enum_attrib.adb 
+
+Assembling 'b~test_enum_attrib.il' , no listing file, to EXE --> 'test_enum_attrib.exe'
+Source file is ANSI
+
+
+Assembling './test_enum_attrib.il' , no listing file, to EXE --> 'test_enum_attrib.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_enum_get.adb 
+
+Assembling 'b~test_enum_get.il' , no listing file, to EXE --> 'test_enum_get.exe'
+Source file is ANSI
+
+
+Assembling './test_enum_get.il' , no listing file, to EXE --> 'test_enum_get.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_environment.adb 
+
+Assembling 'b~test_environment.il' , no listing file, to EXE --> 'test_environment.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\msil_types.il' , no listing file, to EXE --> 'test_environment.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst.il' , no listing file, to EXE --> 'test_environment.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst-globalization.il' , no listing file, to EXE --> 'test_environment.exe'
+Source file is ANSI
+
+
+Assembling './test_environment.il' , no listing file, to EXE --> 'test_environment.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_eof.adb 
+
+Assembling 'b~test_eof.il' , no listing file, to EXE --> 'test_eof.exe'
+Source file is ANSI
+
+
+Assembling './test_eof.il' , no listing file, to EXE --> 'test_eof.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_exception.adb 
+
+Assembling 'b~test_exception.il' , no listing file, to EXE --> 'test_exception.exe'
+Source file is ANSI
+
+
+Assembling './test_exception.il' , no listing file, to EXE --> 'test_exception.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_exports_main.adb 
+
+Assembling 'b~test_exports_main.il' , no listing file, to EXE --> 'test_exports_main.exe'
+Source file is ANSI
+
+
+Assembling './test_exports.il' , no listing file, to EXE --> 'test_exports_main.exe'
+Source file is ANSI
+
+
+Assembling './test_exports_main.il' , no listing file, to EXE --> 'test_exports_main.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_file.adb 
+
+Assembling 'b~test_file.il' , no listing file, to EXE --> 'test_file.exe'
+Source file is ANSI
+
+
+Assembling './test_file.il' , no listing file, to EXE --> 'test_file.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_file2.adb 
+
+Assembling 'b~test_file2.il' , no listing file, to EXE --> 'test_file2.exe'
+Source file is ANSI
+
+
+Assembling './test_file2.il' , no listing file, to EXE --> 'test_file2.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_finalize.adb 
+
+Assembling 'b~test_finalize.il' , no listing file, to EXE --> 'test_finalize.exe'
+Source file is ANSI
+
+
+Assembling './test_finalize.il' , no listing file, to EXE --> 'test_finalize.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_fix_io.adb 
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_gen.adb 
+
+Assembling 'b~test_gen.il' , no listing file, to EXE --> 'test_gen.exe'
+Source file is ANSI
+
+
+Assembling './gen_pkg.il' , no listing file, to EXE --> 'test_gen.exe'
+Source file is ANSI
+
+
+Assembling './test_gen.il' , no listing file, to EXE --> 'test_gen.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_generic_enum_main.adb 
+
+Assembling 'b~test_generic_enum_main.il' , no listing file, to EXE --> 'test_generic_enum_main.exe'
+Source file is ANSI
+
+
+Assembling './test_generic_enum.il' , no listing file, to EXE --> 'test_generic_enum_main.exe'
+Source file is ANSI
+
+
+Assembling './test_generic_enum_main.il' , no listing file, to EXE --> 'test_generic_enum_main.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_handling.adb 
+
+Assembling 'b~test_handling.il' , no listing file, to EXE --> 'test_handling.exe'
+Source file is ANSI
+
+
+Assembling './test_handling.il' , no listing file, to EXE --> 'test_handling.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_interface.adb 
+
+Assembling 'b~test_interface.il' , no listing file, to EXE --> 'test_interface.exe'
+Source file is ANSI
+
+
+Assembling './test_interface_pkg.il' , no listing file, to EXE --> 'test_interface.exe'
+Source file is ANSI
+
+
+Assembling './test_interface.il' , no listing file, to EXE --> 'test_interface.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_interfaces.adb 
+
+Assembling 'b~test_interfaces.il' , no listing file, to EXE --> 'test_interfaces.exe'
+Source file is ANSI
+
+
+Assembling './dll.il' , no listing file, to EXE --> 'test_interfaces.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\msil_types.il' , no listing file, to EXE --> 'test_interfaces.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst.il' , no listing file, to EXE --> 'test_interfaces.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst-globalization.il' , no listing file, to EXE --> 'test_interfaces.exe'
+Source file is ANSI
+
+
+Assembling './test_interfaces.il' , no listing file, to EXE --> 'test_interfaces.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_long_float.adb 
+
+Assembling 'b~test_long_float.il' , no listing file, to EXE --> 'test_long_float.exe'
+Source file is ANSI
+
+
+Assembling './test_long_float.il' , no listing file, to EXE --> 'test_long_float.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_loop.adb 
+
+Assembling 'b~test_loop.il' , no listing file, to EXE --> 'test_loop.exe'
+Source file is ANSI
+
+
+Assembling './test_loop.il' , no listing file, to EXE --> 'test_loop.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_lower.adb 
+
+Assembling 'b~test_lower.il' , no listing file, to EXE --> 'test_lower.exe'
+Source file is ANSI
+
+
+Assembling './test_lower.il' , no listing file, to EXE --> 'test_lower.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_main.adb 
+
+Assembling 'b~test_main.il' , no listing file, to EXE --> 'test_main.exe'
+Source file is ANSI
+
+
+Assembling './test_pkg.il' , no listing file, to EXE --> 'test_main.exe'
+Source file is ANSI
+
+
+Assembling './test_main.il' , no listing file, to EXE --> 'test_main.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_mod_64.adb 
+
+Assembling 'b~test_mod_64.il' , no listing file, to EXE --> 'test_mod_64.exe'
+Source file is ANSI
+
+
+Assembling './test_mod_64.il' , no listing file, to EXE --> 'test_mod_64.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_numeric_exception.adb 
+
+Assembling 'b~test_numeric_exception.il' , no listing file, to EXE --> 'test_numeric_exception.exe'
+Source file is ANSI
+
+
+Assembling './test_numeric_exception.il' , no listing file, to EXE --> 'test_numeric_exception.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_pkg.adb 
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_procedure_access.adb 
+
+Assembling 'b~test_procedure_access.il' , no listing file, to EXE --> 'test_procedure_access.exe'
+Source file is ANSI
+
+
+Assembling './package_procedure_access.il' , no listing file, to EXE --> 'test_procedure_access.exe'
+Source file is ANSI
+
+
+Assembling './test_procedure_access.il' , no listing file, to EXE --> 'test_procedure_access.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_record_array.adb 
+
+Assembling 'b~test_record_array.il' , no listing file, to EXE --> 'test_record_array.exe'
+Source file is ANSI
+
+
+Assembling './test_record_array.il' , no listing file, to EXE --> 'test_record_array.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_record_layout.adb 
+
+Assembling 'b~test_record_layout.il' , no listing file, to EXE --> 'test_record_layout.exe'
+Source file is ANSI
+
+
+Assembling './test_record_layout.il' , no listing file, to EXE --> 'test_record_layout.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_return_convert.adb 
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_rounding.adb 
+
+Assembling 'b~test_rounding.il' , no listing file, to EXE --> 'test_rounding.exe'
+Source file is ANSI
+
+
+Assembling './test_rounding.il' , no listing file, to EXE --> 'test_rounding.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_scalar_rename.adb 
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_seq_file.adb 
+
+Assembling 'b~test_seq_file.il' , no listing file, to EXE --> 'test_seq_file.exe'
+Source file is ANSI
+
+
+Assembling './test_seq_file.il' , no listing file, to EXE --> 'test_seq_file.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_slice_assign.adb 
+
+Assembling 'b~test_slice_assign.il' , no listing file, to EXE --> 'test_slice_assign.exe'
+Source file is ANSI
+
+
+Assembling './test_slice_assign.il' , no listing file, to EXE --> 'test_slice_assign.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_tag_attribute.adb 
+
+Assembling 'b~test_tag_attribute.il' , no listing file, to EXE --> 'test_tag_attribute.exe'
+Source file is ANSI
+
+
+Assembling './test_tag_attribute_pkg.il' , no listing file, to EXE --> 'test_tag_attribute.exe'
+Source file is ANSI
+
+
+Assembling './test_tag_attribute.il' , no listing file, to EXE --> 'test_tag_attribute.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_tag_record.adb 
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_task.adb 
+
+Assembling 'b~test_task.il' , no listing file, to EXE --> 'test_task.exe'
+Source file is ANSI
+
+
+Assembling './test_task_pkg.il' , no listing file, to EXE --> 'test_task.exe'
+Source file is ANSI
+
+
+Assembling './test_task.il' , no listing file, to EXE --> 'test_task.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_task_.adb 
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_task_termination.adb 
+
+Assembling 'b~test_task_termination.il' , no listing file, to EXE --> 'test_task_termination.exe'
+Source file is ANSI
+
+
+Assembling './test_task_termination.il' , no listing file, to EXE --> 'test_task_termination.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_unchecked_conv.adb 
+
+Assembling 'b~test_unchecked_conv.il' , no listing file, to EXE --> 'test_unchecked_conv.exe'
+Source file is ANSI
+
+
+Assembling './test_unchecked_conv.il' , no listing file, to EXE --> 'test_unchecked_conv.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_valuetype.adb 
+
+Assembling 'b~test_valuetype.il' , no listing file, to EXE --> 'test_valuetype.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\msil_types.il' , no listing file, to EXE --> 'test_valuetype.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst.il' , no listing file, to EXE --> 'test_valuetype.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst-drawing.il' , no listing file, to EXE --> 'test_valuetype.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst-globalization.il' , no listing file, to EXE --> 'test_valuetype.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst-windows.il' , no listing file, to EXE --> 'test_valuetype.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst-windows-forms.il' , no listing file, to EXE --> 'test_valuetype.exe'
+Source file is ANSI
+
+
+Assembling './test_valuetype.il' , no listing file, to EXE --> 'test_valuetype.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_valuetype_array.adb 
+
+Assembling 'b~test_valuetype_array.il' , no listing file, to EXE --> 'test_valuetype_array.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\msil_types.il' , no listing file, to EXE --> 'test_valuetype_array.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst.il' , no listing file, to EXE --> 'test_valuetype_array.exe'
+Source file is ANSI
+
+
+Assembling 'c:\d\rsrch\a#\mgnat\include\mssyst-drawing.il' , no listing file, to EXE --> 'test_valuetype_array.exe'
+Source file is ANSI
+
+
+Assembling './test_valuetype_array.il' , no listing file, to EXE --> 'test_valuetype_array.exe'
+Source file is ANSI
+
+Operation completed successfully
+
+C:\d\rsrch\a#\mgnat\tests>mgnatmake test_wide.adb 
+
+Assembling 'b~test_wide.il' , no listing file, to EXE --> 'test_wide.exe'
+Source file is ANSI
+
+
+Assembling './test_wide.il' , no listing file, to EXE --> 'test_wide.exe'
+Source file is ANSI
+
+Operation completed successfully
+-------------------- TESTING -------------------- pause
+
+C:\d\rsrch\a#\mgnat\tests>peverify array_range.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in array_range.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify bug20030120a.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in bug20030120a.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify bug20030120b.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in bug20030120b.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify bug20030121a.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in bug20030121a.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify bug20050830.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in bug20050830.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify echo_args.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in echo_args.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify float_test.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in float_test.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify fred.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in fred.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify hello.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in hello.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify hello_ada.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in hello_ada.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify hello_file.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in hello_file.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify seq_io.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in seq_io.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_array_bounds.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_array_bounds.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_assembly.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_assembly.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_assign.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_assign.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_assign2.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_assign2.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_atc.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_atc.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_attributes.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_attributes.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_bool_addrof.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+[IL]: Error: [c:\d\rsrch\a#\mgnat\tests\test_bool_addrof.exe : test_bool_addrof::test_bool_addrof] [offset 0x0000000A] [opcode stloc] [found Int32] [expected address of SByte] Unexpected type on the stack. 
+[IL]: Error: [c:\d\rsrch\a#\mgnat\tests\test_bool_addrof.exe : test_bool_addrof::test_bool_addrof] [offset 0x0000000A] [opcode stloc] [found Int32] [expected address of SByte] Unexpected type on the stack. 
+2 Errors Verifying test_bool_addrof.exe
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_byte_array.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_byte_array.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_calendar.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_calendar.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_case.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_case.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_case2.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_case2.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_case3.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_case3.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_composite.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_composite.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_controlled.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_controlled.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_device_error.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_device_error.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_direct_io.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_direct_io.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_enum_attrib.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_enum_attrib.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_enum_get.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_enum_get.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_environment.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_environment.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_eof.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_eof.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_exception.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_exception.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_exports_main.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_exports_main.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_file.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_file.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_file2.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_file2.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_finalize.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_finalize.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_gen.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_gen.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_generic_enum_main.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_generic_enum_main.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_handling.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_handling.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_interface.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_interface.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_long_float.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_long_float.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_loop.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_loop.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_lower.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_lower.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_main.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_main.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_mod_64.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_mod_64.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_numeric_exception.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_numeric_exception.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_procedure_access.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_procedure_access.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_record_array.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_record_array.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_rounding.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_rounding.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_seq_file.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_seq_file.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_slice_assign.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_slice_assign.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_tag_attribute.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_tag_attribute.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_task.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_task.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_task_termination.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_task_termination.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_unchecked_conv.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+[IL]: Error: [c:\d\rsrch\a#\mgnat\tests\test_unchecked_conv.exe : test_unchecked_conv::test_unchecked_conv] [offset 0x00000097] [opcode ldind.i4] [found address of Single] [expected address of Int32] Unexpected type on the stack. 
+1 Errors Verifying test_unchecked_conv.exe
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_valuetype.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_valuetype.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_valuetype_array.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_valuetype_array.exe Verified
+
+C:\d\rsrch\a#\mgnat\tests>peverify test_wide.exe 
+
+Microsoft (R) .NET Framework PE Verifier  Version 1.1.4322.573
+Copyright (C) Microsoft Corporation 1998-2002. All rights reserved.
+
+All Classes and Methods in test_wide.exe Verified

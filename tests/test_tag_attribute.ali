@@ -1,0 +1,61 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnvnnnnnnnnnnnnnnnnnvnnnnnvnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_tag_attribute%b	test_tag_attribute.adb	ae2d1868 NE SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W test_tag_attribute_pkg%s  test_tag_attribute_pkg.ads  test_tag_attribute_pkg.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D test_tag_attribute.adb  20031209182436 7e662b21
+D test_tag_attribute_pkg.ads  20031209181512 04f693fc
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 24|1r6 2r5 4r6 5r5 10r8 20r13
+X 7 a-tags.ads
+33K13*Tags 83e13 24|4w10 5r9 10r12 20r17
+40M9*Tag 24|10r17
+44V13*External_Tag{string} 24|20r22
+X 9 a-textio.ads
+51K13*Text_IO 428e16 24|1w10 2r9
+266U14*Put_Line 24|20r4 21r4 23r7
+X 24 test_tag_attribute.adb
+7U11*Test_Tag_Attribute 7b11 26l5 26t23
+8a4 A{25|4A9} 13r13 15m10 17m10 20r35 22r7 22r20
+10m4 q{7|40M9}
+13i8 I{integer} 14r10 15r12 17r12
+X 25 test_tag_attribute_pkg.ads
+1K9*Test_Tag_Attribute_Pkg 24|3w6 8r8 15r22 17r22 21r13 25|7e27
+3P9*Bob_Ptr(2R9)
+4A9*Bob_Ptr_Array(3P9) 24|8r31
+5R9*Bob_Child1<2R9> 24|15r45 21r36 25|5e54
+6R9*Bob_Child2<2R9> 24|17r45 25|6e54
+

@@ -1,0 +1,79 @@
+V "GNAT Lib v2.01"
+A -c
+P SS
+R nnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnvnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U test_ref_cs.class1%s	test_ref_cs-class1.ads	59d603aa NE PK IL
+W msil_types%s		msil_types.ads		msil_types.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.object%s	mssyst-object.ads	mssyst-object.ali
+W test_ref_cs%s		test_ref_cs.ads		test_ref_cs.ali
+
+D ada.ads		20021213045750 0ff28bf9
+D a-except.ads		20040603025648 5e7c4f2c
+D a-tags.ads		19990924104636 99899bb5
+D a-tags.adb		20030111185050 cbc796fd
+D msil_types.ads	20041202173932 7f0bad3a
+D mssyst.ads		20041030171602 23c9c191
+D mssyst-globalization.ads  20041030171606 48b91955
+D mssyst-globalization-numberstyles.ads  20041030171608 123601dc
+D mssyst-object.ads	20041030171604 4249f4d6
+D mssyst-reflection.ads	20041030171604 54d25043
+D mssyst-reflection-bindingflags.ads  20041030171606 45a2f3af
+D mssyst-reflection-callingconventions.ads  20041030171606 c6e36371
+D mssyst-reflection-memberinfo.ads  20041030171604 e1b04130
+D mssyst-reflection-membertypes.ads  20041030171606 b3b91ae0
+D mssyst-reflection-parametermodifier.ads  20041030171606 c807376d
+D mssyst-reflection-typeattributes.ads  20041030171606 55110194
+D mssyst-sbyte.ads	20041030171606 e2b0017c
+D mssyst-string.ads	20041030171604 efa41fe9
+D mssyst-type_k.ads	20041030171606 9b0b6273
+D mssyst-typecode.ads	20041030171606 1d6c61f0
+D mssyst-uint32.ads	20041030171606 243f0c1e
+D mssyst-valuetype.ads	20041030171604 87742e2c
+D system.ads		20040925053602 5671cff3
+D s-secsta.ads		19990726073750 527ced4e
+D s-soflin.ads		20040603020420 af2e17c6
+D s-stache.ads		19990409121032 43b71b44
+D s-stoele.ads		19980907140906 d1faf2c5
+D test_ref_cs.ads	20041202190842 3cd8cc05
+D test_ref_cs-class1.ads  20041202202044 1a056295
+X 5 msil_types.ads
+7K9*Msil_Types 71e15 29|8w6 9r5 27r11 29r11 31r11
+55M9*unsigned_integer_addrof 29|31r22
+59M9*int32_addrof 29|29r22
+63M9*bool_addrof 29|27r22
+X 6 mssyst.ads
+6K9*MSSyst 8e11 29|7r6 13r6 21r20
+X 9 mssyst-object.ads
+11K16*Object 46e18 29|7w13 13w13 21r27
+12R9*Typ 20e14 29|21r34
+18R9*Typ
+26V13*Equals{boolean}
+29V13*GetHashCode{integer}
+31V13*GetType{19|48P9}
+36V13*ToString{18|27P9}
+X 18 mssyst-string.ads
+27P9 Ref(integer)
+X 19 mssyst-type_k.ads
+48P9 Ref(integer)
+X 28 test_ref_cs.ads
+6K9*test_ref_cs 8e16 29|14r9 38r5 40r20
+X 29 test_ref_cs-class1.ads
+14K21*Class1 28|6k9 29|38l17 38e23 40r32
+15R9*Typ 16r27 21c9 33r27
+16P9*Ref(15R9) 17r34 18r47 25r14 25r34
+17P9*Ref_addrof(16P9)
+18A9*Ref_Arr(16P9) 19r33
+19P9*Ref_Array(18A9) 20r40
+20P9*Ref_Array_addrof(19P9)
+21R9*Typ<9|18R9> 9|26p13 29p13 31p13 36p13 29|23e14
+24V13*new_Class1{16P9} 25>7 34r28
+25p7 This{16P9}
+26U14*test_bool 27>7 35b23
+27m7 x{5|63M9}
+28U14*test_int 29>7 36b23
+29m7 x{5|59M9}
+30U14*test_uint 31>7 37b23
+31m7 x{5|55M9}
+

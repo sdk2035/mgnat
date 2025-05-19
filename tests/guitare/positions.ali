@@ -1,0 +1,192 @@
+V "GNAT Lib v3.15"
+A -c
+P
+R nnvnnnnvnnvnnvvvvvvnnvvnnnnvnnnvnvnnnnnnnnnnnnnnvvnn
+
+U positions%b		positions.adb		21136044 PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+W defines%s		defines.adb		defines.ali
+W fingerings%s		fingerings.adb		fingerings.ali
+W instrument%s		instrument.adb		instrument.ali
+W interfaces%s		interfac.ads		interfac.ali
+W io%s			io_std.adb		io_std.ali
+W notes%s		notes.adb		notes.ali
+W positions_io%s	positions_io.adb	positions_io.ali
+W system%s		system.ads		system.ali
+W system.img_enum%s	s-imgenu.adb		s-imgenu.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.val_enum%s	s-valenu.adb		s-valenu.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U positions%s		positions.ads		7a67ebc9 EE PK
+W chords%s		chords.adb		chords.ali
+W fingerboard_data%s	fingerboard_data.ads	fingerboard_data.ali
+W fingerings%s		fingerings.adb		fingerings.ali
+
+D ada.ads		20021213045750 a0108083
+D a-except.ads		20030111184846 8c16c4f0
+D a-finali.ads		19981212023736 d4be2e87
+D a-filico.ads		19981212023738 83058640
+D a-ioexce.ads		19981212023736 d52e128a
+D a-stream.ads		19971119133848 90e5c6f7
+D a-tags.ads		19990924104636 d9f34d7b
+D a-textio.ads		20000214171636 98d7a37c
+D a-tienau.ads		19971119133936 a07287f1
+D a-tienio.ads		20000417084722 18c7435c
+D a-tienio.adb		19990802111228 69ccfdaa
+D chords.ads		20021031185316 7ebe6822
+D defines.ads		20021031185316 f5687a57
+D fingerboard_data.ads	20021031185316 9355ccf6
+D fingerings.ads	20021031185316 edd7381a
+D instrument.ads	20021031185316 c6d17775
+D interfac.ads		20021213031652 6e859da6
+D i-cstrea.ads		20021213045752 7f5efb6f
+D io.ads		20030114052218 c28b0cc7
+D notes.ads		20021031185316 9d194abf
+D positions.ads		20021031185316 7a5b7707
+D positions.adb		20021031185316 1fd9f802
+D positions_io.ads	20021031185316 ee3af506
+D scales.ads		20021031185316 14b4e6d6
+D system.ads		20021213031700 9be97a6f
+D s-ficobl.ads		19990215165032 14416104
+D s-finimp.ads		19990723121124 c7f98dd8
+D s-finroo.ads		19960921225930 561babbc
+D s-imgenu.ads		20021213045234 20631dce
+D s-imgint.ads		19951120073034 b221cfe9
+D s-parame.ads		20020514142604 37dc3a84
+D s-secsta.ads		19990726073750 aafc656f
+D s-soflin.ads		19991227152932 95657dfd
+D s-stache.ads		19990409121032 ced985be
+D s-stalib.ads		19990924104638 2d9390a0
+D s-stoele.ads		19980907140906 c6bef0ad
+D s-stratt.ads		19981014005624 9fdf8f81
+D s-unstyp.ads		19990721075830 05ad3732
+D s-valenu.ads		20030115233808 87644494
+D text_io.ads		20021213031704 2b576907
+D unchconv.ads		20021213031438 1b7a14c5
+X 8 a-textio.ads
+83n22*Lower_Case{83E9} 22|236r58
+169U14*New_Line 22|240r21
+245U14*Put 22|235r24 237r24 238r24
+X 10 a-tienio.ads
+50k21*Enumeration_IO 79e31 22|232r27
+64U14 Put 22|236r25[231]
+67e7 Set{8|83E9} 22|236r43[231]
+X 12 chords.ads
+21K9*Chords 86e11 21|14r6 21r43 24r43 22|39r43 42r43 44r22 45r10 46r23
+23R9*Chord_Type 84e17 21|21r50 22|39r50
+25E9*Without_Note_Type 25e67 21|24r50 22|42r50
+41V13*Get_Notes{20|27A9} 22|44r29
+41R24 From{23R9} 22|44r40
+42e24 Without{25E9} 22|44r55
+47V13*Is_Bass_Defined{boolean} 22|45r17
+49V13*Get_Bass{20|19E9} 22|46r30
+X 13 defines.ads
+14K9*Defines 24e12 22|20r6 70r16 229r10 229r32
+18E9*Switch 18e28 22|70r24
+18n24*OFF{18E9} 22|229r40
+22V13*Is_GUI_Mode{18E9} 22|229r18
+X 14 fingerboard_data.ads
+18K9*Fingerboard_Data 31e21 21|15r6 22r43 22|32r18 40r43
+23e10*Note{20|19E9} 22|190r71
+24b10*Set{boolean} 22|187r47
+29A9*Fingerboard_Type 21|22r60 22|32r35 40r60
+X 15 fingerings.ads
+18K9*Fingerings 59e15 21|16r6 23r43 26r30 22|19r6 26r8 33r18 41r43 59r30
+. 73r36 78r33 88r33 98r44 101r31 103r31 104r32 122r22 124r30 149r23 154r27
+. 166r22 184r10 188r16 201r16 204r16 232r43
+21E12*Level_Type{20E9} 21|23r54 26r41 22|33r29 41r54 59r41 73r47 102r31 232r54
+. 234r32
+24I12*Fretted_Position{integer} 22|103r42 104r43 149r34
+26A9*Fingering_Type 22|78r44 88r44 98r55 101r42
+28U14*Analyse 22|166r33
+32U14*Set 22|184r21 188r27 201r27 204r27
+34i19 Fret{24I12} 22|189r32
+35e19 Note{20|19E9} 22|190r32
+40V13*Get_Fret{24I12} 22|122r33 154r38
+44V13*Get_Note{20|19E9} 22|124r41
+X 16 instrument.ads
+17K9*Instrument 50e15 22|17r6 87r33 91r34 92r12 92r44 164r21 165r24 167r24
+. 167r47 186r34 217r31 220r34
+19I12*String_Numbers{positive} 22|87r44 91r45
+23n29*GUITAR 22|165r35
+23n37*BASS 22|167r58
+23n43*MANDOLINE 22|167r35
+27i10*First_String{19I12} 22|92r28 217r47 220r50
+28i10*Last_String{19I12} 22|92r60
+30i10*Fret_Range{integer} 22|186r50
+33r4*Info 22|92r23 92r55 186r45 217r42 220r45
+36V13*Get 22|164r32
+X 19 io.ads
+22K9*IO 52e7 22|21r6 213r7 227r7
+33U14*New_Line 22|227r10
+45U14*Clear_Lower 22|213r10
+X 20 notes.ads
+15K9*Notes 96e10 22|16r6 25r8 28r18 29r18 113r29 115r29 118r16 134r22
+19E9*Note_Type 20e51 22|29r24 115r35
+27A9*Set_Of_Notes 22|28r24 113r35
+66U14*Set 22|134r28
+66e19 Note{19E9} 22|134r33
+66A40 Into{27A9} 22|134r48
+83U14*Clear 22|118r22
+X 21 positions.ads
+19K9*Positions 30l5 30e14 22|23b14 51r7 52r7 173r31 249l5 249t14
+21U14*Initialise 22|39b14 53l8 53t18
+21R26 Chord{12|23R9} 22|39b26 44r48 45r34 46r40
+22a26 Fingerboard{14|29A9} 22|40b26 52r32
+23e26 Level{15|21E12} 22|41b26 51r26
+24e26 Without{12|25E9} 22|42b26 44r66
+26V13*Get_Level{15|21E12} 22|59b13 62l8 62t17
+28U14*Display 22|68b14 247l8 247t15
+X 22 positions.adb
+28A4 Chord_Notes{20|27A9} 44m7 138r31
+29e4 Bass_Note{20|19E9} 46m10 129r33
+30b4 Bass_Set{boolean} 47m10 49m10 128r33
+32a4 Fingerboard{14|29A9} 52m17 187r16 190r40
+33e4 Level{15|21E12} 51m17 61r14 173r41
+72E12 Mode_Gene 72e50 89r33
+72n26 ALL_STRING{72E12} 218r44
+72n38 SOME_STRING{72E12} 199r20 205r65 221r47
+73A12 Nb_Chord_Type 77r33
+75I15 Rank_Range{integer} 86r33 99r44 215r19
+77a7 Nb_Chord{73A12} 172m19 172r39 237r44
+78A7 Current_Fingering{15|26A9} 218m25 221m28
+79b7 One_Found_For_This_Rank{boolean} 175m22 216m10 219r17
+85U17 Find_Position 194r19 205r16 209l11 209t24 217r10 220r13
+86i10 Rank{75I15} 186r19 186r27 192r39 194r34 202r36 205r31
+87i10 String_Number{16|19I12} 184r37 187r29 188r43 190r53 191r19 194r42 200r16
+. 201r43 204r43 205r39
+88A10 Fingering{15|26A9} 184m26 188m32 192r28 194m57 201m32 202r25 204m32
+. 205m54
+89e10 Mode{72E12} 194r68 199r13
+91I18 String_Range{16|19I12} 120r37 152r37 191r35 200r32
+98U20 Analyse 181l14 181t21 192r19 202r16
+98A29 Fingering{15|26A9} 101r60 122r43 124r51 154r48
+99i29 Rank{75I15} 162r27 174r57
+101A13 Local_Fingering{15|26A9} 166r42 174r40
+102e13 Level{15|21E12} 166m66 172r29 172r49 173r22
+103i13 Min_Fret{15|24I12} 155r42 156m22 162r16
+105b13 Exist{boolean} 166m59 168m22 171r19
+111V22 Check_Notes{boolean} 143l17 143t28 162r41
+113A16 Notes_Set{20|27A9} 118m29 134m56 138r19
+114b16 First_Note{boolean} 127r25 132m22
+115e16 Note{20|19E9} 124m22 129r46 134r41
+120i20 String_Number{91I18} 122r54 124r62
+147q13 FIND_MIN_FRET 160l17 160e30
+149i16 Fret{15|24I12} 154m19 155r22 155r53 156r34
+152i20 String_Number{91I18} 154r59
+186i14 I{integer} 187r44 189r40 190r68
+215i11 Rank{75I15} 217r25 220r28
+231K21 Level_IO 236r16
+234e17 Other_Level{15|21E12} 236r30 237r54
+X 23 positions_io.ads
+17K9*Positions_IO 22|18r6 174r22 225r7 23|45e17
+40U14*Put 22|174r35
+43U14*Flush 22|225r20
+X 40 text_io.ads
+21K9*Text_IO=21:29 22|14r6 232r19 235r16 236r50 237r16 238r16 240r13
+

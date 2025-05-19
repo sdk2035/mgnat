@@ -1,0 +1,178 @@
+V "GNAT Lib v3.15"
+A -c
+P
+R nnvnnnnvnnnnnvvvvvvnnvnnnnnnnnnvnvnnnnnnnnnnnnnnvvnn
+
+U key%b			key.adb			c544c209 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W chords%s		chords.adb		chords.ali
+W interfaces%s		interfac.ads		interfac.ali
+W io%s			io_std.adb		io_std.ali
+W notes%s		notes.adb		notes.ali
+W roman_number%s	roman_number.adb	roman_number.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U key%s			key.ads			bc16f232 EE PK
+W scales%s		scales.adb		scales.ali
+
+D ada.ads		20021213045750 a0108083
+D a-except.ads		20030111184846 8c16c4f0
+D a-finali.ads		19981212023736 d4be2e87
+D a-filico.ads		19981212023738 83058640
+D a-ioexce.ads		19981212023736 d52e128a
+D a-stream.ads		19971119133848 90e5c6f7
+D a-tags.ads		19990924104636 d9f34d7b
+D a-textio.ads		20000214171636 98d7a37c
+D chords.ads		20021031185316 7ebe6822
+D fingerboard_data.ads	20021031185316 9355ccf6
+D fingerings.ads	20021031185316 edd7381a
+D instrument.ads	20021031185316 c6d17775
+D interfac.ads		20021213031652 6e859da6
+D i-cstrea.ads		20021213045752 7f5efb6f
+D io.ads		20030114052218 c28b0cc7
+D key.ads		20021031185316 a8a214e4
+D key.adb		20021031185316 424b9852
+D notes.ads		20021031185316 9d194abf
+D positions_io.ads	20021031185316 ee3af506
+D roman_number.ads	20021031185316 25d609e2
+D scales.ads		20021031185316 14b4e6d6
+D system.ads		20021213031700 9be97a6f
+D s-ficobl.ads		19990215165032 14416104
+D s-finimp.ads		19990723121124 c7f98dd8
+D s-finroo.ads		19960921225930 561babbc
+D s-parame.ads		20020514142604 37dc3a84
+D s-secsta.ads		19990726073750 aafc656f
+D s-soflin.ads		19991227152932 95657dfd
+D s-stache.ads		19990409121032 ced985be
+D s-stalib.ads		19990924104638 2d9390a0
+D s-stoele.ads		19980907140906 c6bef0ad
+D s-stratt.ads		19981014005624 9fdf8f81
+D s-sopco3.ads		19980110182950 2c68d1c8
+D s-unstyp.ads		19990721075830 05ad3732
+D text_io.ads		20021213031704 2b576907
+D unchconv.ads		20021213031438 1b7a14c5
+X 8 a-textio.ads
+71I12*Positive_Count 17|151r30 162r30
+169U14*New_Line 17|184r15 219r15 299r15
+245U14*Put 17|239r15 291r27 293r27
+260U14*Put_Line 17|183r15
+X 9 chords.ads
+21K9*Chords 86e11 17|17r6 69r15 72r18 84r18 96r18 100r18 265r21 268r22 269r38
+. 269r63 270r21
+23R9*Chord_Type 84e17 17|265r28
+25n31*NO 17|269r70
+26n24*MAJOR 17|72r25
+26n31*MINOR 17|84r25
+26n38*DIMINISHED 17|96r25
+26n50*AUGMENTED 17|100r25
+36V13*Parse{23R9} 17|268r29
+41V13*Get_Notes{18|27A9} 17|269r45
+52V13*Get_Root{18|19E9} 17|270r28
+63V13*Is_Triad 17|69r22
+63e23 Root{18|19E9} 17|69r32
+63e29 Third{18|19E9} 17|70r32
+63e36 Fifth{18|19E9} 17|71r32
+X 15 io.ads
+22K9*IO 52e7 17|19r6 120r10 134r7 139r10 140r10 144r7 145r7 151r10 156r7
+. 162r10 166r7
+30U14*Put 17|120r13
+31U14*Put_Line 17|139r13 144r10
+33U14*New_Line 17|140r13 145r10 156r10 166r10
+35U14*Set_Col 17|151r13 162r13
+45U14*Clear_Lower 17|134r10
+X 16 key.ads
+16K9*Key 29l5 29e8 17|21b14 303l5 303t8
+20U14*Put_Common_Chords 17|128b14 168l8 168t25
+21R7 For_Scale{21|30R9} 17|128b33 136r26 138r27
+23U14*Put_Progression 17|174b14 221l8 221t23
+24R7 For_Scale{21|30R9} 17|174b31 181r26
+25s7 Chords_Numbers{string} 17|175b31 186r22 189r27 192r31 193r12 199r30
+. 200r12 205r26 207r33 211r16
+27U14*Find 17|227b14 301l8 301t12
+27s20 From_Chords{string} 17|227b20 240r16 248r25 249r21 252r28 257r24 257r50
+. 260r20 261r21 268r36 274r27
+X 17 key.adb
+23A12 Chord_Sig{string} 27r20 28r20
+25R9 Chord_Kind_Type 29e17 31r59
+27a10*Regular{23A12} 73r32 85r32 97r32 101r32 150r47 213r69
+28a10*Seventh{23A12} 76r38 78r38 88r38 91r38 98r32 102r32 161r47
+31A9 Progression_Type 33r18
+33a4 Progression{31A9} 73m16 76m22 78m22 85m16 88m22 91m22 97m16 98m16 101m16
+. 102m16 150r31 161r31 213r42
+35a4 Scale_Note{21|33A9} 53m7 64r16 64r36 67r37 67r53 69r41 70r41 71r41 148r16
+. 148r36 150r15 159r16 159r36 161r15 213r15
+36i4 Number_Of_Note{natural} 54m7 64r55 148r55 159r55
+42U14 Get_Common_Chords 110l8 110t25 136r7 181r7
+42R33 For_Scale{21|30R9} 53r49 54r52 56r27 60r30
+46i7 Root_Seven_Interval{natural} 66m10 74r21 86r21
+48i7 First_Interval{positive} 70r57
+49i7 Second_Interval{positive} 59m10 71r57
+64i11 I{integer} 67r49 67r65 69r53 70r53 71r53 73r29 76r35 78r35 85r29 88r35
+. 91r35 97r29 98r29 101r29 102r29
+116U14 Put 122l8 122t11 150r10 161r10 213r10
+116e19 Note{18|19E9} 120r31
+117s19 Signature{string} 119r10 119r21 120r39
+148i11 I{integer} 150r27 150r44 151r51
+159i11 I{integer} 161r27 161r44 162r51
+177i7 Token_Start{positive} 186m7 192r16 193r28 194m13 194r28 196r25 207r49
+. 211r32 215m10
+177i20 Token_Stop{positive} 187m7 189r13 196m10 199r16 200r28 201m13 201r27
+. 205r13 207r64 211r47 215r25
+178i7 Chord_Number{positive} 206m13 209m13 213r27 213r55
+231i7 First{natural} 240m7 248r16 249r34 250m13 250r22 252r20 254r18 268r49
+. 276m10
+231i14 Last{natural} 254m10 257r16 257r63 258m13 258r21 260r13 261m13 268r58
+. 274r20 276r19
+232A7 All_Notes{18|27A9} 242m20 269m13 269r26 284r40
+233A7 All_Root_Notes{18|27A9} 243m20 271m30 286r39
+234A7 Scale_Notes{18|27A9} 283m13 285r40 287r39
+235R7 Scale{21|30R9} 282m50 283r46
+265R13 Chord{9|23R9} 268m13 269r56 270r38
+266e13 Root{18|19E9} 270m13 271r24
+280e11 Scale_Mode{21|19E9} 282r65 290r19
+281e14 Note{18|19E9} 282r36 289r27
+X 18 notes.ads
+15K9*Notes 17|16r6 67r12 116r34 120r18 229r11 232r24 233r24 234r24 242r7
+. 243r7 266r21 271r13 281r22 284r16 286r15 288r40 289r16 18|96e10
+19E9*Note_Type 17|116r40 266r27 281r28 18|20e51
+25n24*STRICT{25E9} 17|288r46
+27A9*Set_Of_Notes 17|232r30 233r30 234r30
+45V13*Semitones_Between{natural} 17|67r18
+51V13*Image{string} 17|120r24
+53U14*Put 17|289r22
+66U14*Set 17|271r19
+81V13*"+"{27A9} 17|269r36
+83U14*Clear 17|242r13 243r13
+85V13*Included{boolean} 17|284r22 286r21
+85A23 Set{27A9} 17|284r32 286r31
+85A28 Into{27A9} 17|285r32 287r31
+86e23 Check{25E9} 17|288r31
+X 20 roman_number.ads
+18K9*Roman_Number 17|18r6 207r15 210r15 20|28e17
+26V13*Get{positive} 17|207r28 210r28
+X 21 scales.ads
+17K9*Scales 16|14r6 18r8 21r22 24r27 17|31r36 35r21 42r48 44r11 53r25 54r25
+. 56r10 60r13 128r48 130r11 138r10 174r51 235r24 280r25 280r41 282r13 283r28
+. 290r32 21|77e11
+19n24*MAJOR{19E9} 17|280r32 290r39
+19n31*MINOR{19E9} 17|280r48
+21n43*PENTATONIC_MAJOR{19E9} 17|57r12
+21n61*PENTATONIC_MINOR{19E9} 17|57r32
+23n41*CHROMATIC{19E9} 17|60r43 138r40
+30R9*Scale_Type 16|21r29 24r34 17|42r55 128r55 174r58 235r31 21|75e17
+32I12*Notes_Range{positive} 17|31r43
+33A9*Scale_Notes_Type 17|35r28
+39U14*Create 17|282r20
+39e22 Base{18|19E9} 17|282r28
+40R22 Into{30R9} 17|282r42
+41e22 Mode{19E9} 17|282r57
+52V13*Get_Scale_Notes{33A9} 17|53r32
+53V13*Get_Mode{19E9} 17|56r17 60r20 138r17
+54V13*Get_Notes{18|27A9} 17|283r35
+56V13*Get_Number_Of_Note{positive} 17|54r32
+X 35 text_io.ads
+21K9*Text_IO=21:29 17|14r6 151r22 162r22 183r7 184r7 219r7 239r7 291r19 293r19
+. 299r7
+

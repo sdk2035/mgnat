@@ -1,0 +1,60 @@
+V "GNAT Lib v2.01"
+A -c
+P SS
+R nnvnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U package_procedure_access%b  package_procedure_access.adb  82fdf704 PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+
+U package_procedure_access%s  package_procedure_access.ads  64844cbe EE PK IL
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D package_procedure_access.ads  20030116195402 64844cbe
+D package_procedure_access.adb  20030116222522 ce46244b
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-imgint.ads		19951120073034 c025cca6
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-strops.ads		19980415014434 dfd9c808
+D s-sopco3.ads		19980110182950 bb5015db
+D s-sopco4.ads		19980110182952 ac4d87c0
+D s-sopco5.ads		19980110182952 7c109c43
+D s-unstyp.ads		19990721075830 fd0aa14a
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 13|1r6 2r5
+X 9 a-textio.ads
+51K13*Text_IO 428e16 13|1w10 2r9
+266U14*Put_Line 13|7r7
+X 12 package_procedure_access.ads
+1K9*package_procedure_access 5l5 5e29 13|3b14 9l5 9t29
+2P9*proc_ptr
+2i39 x{integer}
+2s55 z{string}
+4U14*tim 4>18 4>34 13|5b14 8l8 8t11
+4i18 x{integer} 13|5b18 7r38
+4s34 z{string} 13|5b34 7r43
+

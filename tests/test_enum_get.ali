@@ -1,0 +1,77 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnnnnnnnnnnvnnvnvnnnvnnnnnvnnnnnnnnvnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U test_enum_get%b	test_enum_get.adb	84d18e65 NE SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+W system%s		system.ads		system.ali
+W system.img_enum%s	s-imgenu.adb		s-imgenu.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.val_enum%s	s-valenu.adb		s-valenu.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D a-tienau.ads		20060220164606 563ac8c6
+D a-tienio.ads		20000417084722 28486b05
+D a-tienio.adb		19990802111228 5cf8a99d
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-imgenu.ads		20050820215306 ff7e14c6
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D s-valenu.ads		20030115233808 4a59ba63
+D test_enum_get.adb	20021125040402 acee1194
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 29|1r6 2r5 5r28 11r4 14r4
+X 9 a-textio.ads
+51K13*Text_IO 428e16 29|1w10 2r9 5r32 11r8 14r8
+54P9*File_Type(317R9) 29|7r11
+55n23*In_File{55E9} 29|15r52 19r52
+95U14*Open 29|15r4 19r4
+96p7 File{54P9} 29|15r9 19r9
+97e7 Mode{55E9} 29|15r44 19r44
+98s7 Name{string} 29|15r23 19r23
+101U14*Close 29|18r4 26r4
+169U14*New_Line 29|14r16
+247U14*Get_Line 29|16r4
+266U14*Put_Line 29|11r16 17r4
+X 11 a-tienio.ads
+50k21*Enumeration_IO 79e31 29|5r40
+55U14 Get 29|20r13[5] 22r13[5] 24r13[5]
+56U14 Get 29|12r13[5]
+64U14 Put 29|13r13[5] 21r13[5] 23r13[5] 25r13[5]
+X 29 test_enum_get.adb
+3U11*test_enum_get 3b11 27l5 27t18
+4E9 colors 4e37 5r55 6r8
+4n20 red{4E9}
+4n25 green{4E9}
+4n32 blue{4E9}
+5K12 color_io[11|50] 12r4 13r4 20r4 21r4 22r4 23r4 24r4 25r4
+6e4 x{4E9} 12m17 13r17 20m22 21r17 22m22 23r17 24m22 25r17
+7p4 file{9|54P9} 15m17 16r13 18m10 19m17 20r17 22r17 24r17 26m10
+8a4 line{string} 16m18 17r13
+9i4 last{natural} 16m23 17r21
+

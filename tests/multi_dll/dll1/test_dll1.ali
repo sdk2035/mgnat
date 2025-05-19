@@ -1,0 +1,120 @@
+V "GNAT Lib v2.01"
+A -c
+A -gnatwu
+A -g
+A -gnato
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnvnvnnnnnnnnnnnvnnnnnnv1nv1+nnnnnn
+
+U test_dll1%b		test_dll1.adb		163479f7 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.string%s	mssyst-string.ads	mssyst-string.ali
+W mssyst.windows%s	mssyst-windows.ads	mssyst-windows.ali
+W mssyst.windows.forms%s  mssyst-windows-forms.ads  mssyst-windows-forms.ali
+W mssyst.windows.forms.dialogresult%s  mssyst-windows-forms-dialogresult.ads  mssyst-windows-forms-dialogresult.ali
+W mssyst.windows.forms.messagebox%s  mssyst-windows-forms-messagebox.ads  mssyst-windows-forms-messagebox.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+
+U test_dll1%s		test_dll1.ads		576e3b8f EE PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D interfac.ads		20021213031652 279b6d6d
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalaob.ads		20051115150508 538eed4e
+D msil_types.ads	20050914013234 84bfb4bb
+D mssyst.ads		20050914013248 82dcb036
+D mssyst-charenumerator.ads  20050914133428 90cec6c2
+D mssyst-globalization.ads  20050914013252 13e8d46f
+D mssyst-globalization-cultureinfo.ads  20050914133430 52043da0
+D mssyst-globalization-culturetypes.ads  20050914133430 f4281640
+D mssyst-globalization-numberstyles.ads  20050914133430 31ec47ea
+D mssyst-iformatprovider.ads  20050914133428 c126b837
+D mssyst-object.ads	20050914133428 666c968e
+D mssyst-reflection.ads	20050914013250 25abbfbc
+D mssyst-reflection-bindingflags.ads  20050914133430 3c70990b
+D mssyst-reflection-callingconventions.ads  20050914133430 92fd5d54
+D mssyst-reflection-memberinfo.ads  20050914133428 1ad6dc82
+D mssyst-reflection-membertypes.ads  20050914133430 56d70037
+D mssyst-reflection-parametermodifier.ads  20050914133430 89e8ba24
+D mssyst-reflection-typeattributes.ads  20050914133430 ce851fa5
+D mssyst-sbyte.ads	20050914133430 72837417
+D mssyst-string.ads	20050914133428 51ab1021
+D mssyst-text.ads	20050914013248 a7ed250d
+D mssyst-text-encoding.ads  20050914133430 00cd13bd
+D mssyst-type_k.ads	20050914133430 497122e7
+D mssyst-typecode.ads	20050914133430 0ece307a
+D mssyst-uint32.ads	20050914133430 b357978d
+D mssyst-valuetype.ads	20050914133428 9203d319
+D mssyst-windows.ads	20050914013316 8e5e07ed
+D mssyst-windows-forms.ads  20050914013316 c6ce9829
+D mssyst-windows-forms-dialogresult.ads  20050914133502 c70064de
+D mssyst-windows-forms-iwin32window.ads  20050914133500 416cb6fa
+D mssyst-windows-forms-messagebox.ads  20050914133504 2454e6c9
+D mssyst-windows-forms-messageboxbuttons.ads  20050914133504 6d9a02c6
+D mssyst-windows-forms-messageboxdefaultbutton.ads  20050914133504 6d583e37
+D mssyst-windows-forms-messageboxicon.ads  20050914133504 08f5e4cc
+D mssyst-windows-forms-messageboxoptions.ads  20050914133504 ce4a7eb7
+D system.ads		20050820125040 15131902
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-tasinf.ads		20040925171754 04bafbd6
+D s-taspri.ads		20050820220208 d94fa01c
+D s-taskin.ads		20040925171702 dfe0bf9d
+D s-taprob.ads		20040925153816 f36e012f
+D s-tpoben.ads		20040925153832 2e4363ad
+D s-tasren.ads		20040602223354 02b02214
+D s-tassta.ads		20040925182000 3f8dde08
+D s-unstyp.ads		19990721075830 fd0aa14a
+D test_dll1.ads		20051115014442 576e3b8f
+D test_dll1.adb		20051115020304 356b4867
+D unchconv.ads		20021213031438 34860a55
+X 13 mssyst.ads
+6K9*MSSyst 7e11 64|1r6 2r10 3r6 4r5 5r6 6r6
+X 20 mssyst-object.ads
+18R9*Typ
+X 29 mssyst-string.ads
+20K16*String 410e18 64|1w13 2r17
+22P9*Ref(21R9) 64|2r24
+365V13*"+"{22P9} 64|28r33
+X 36 mssyst-windows.ads
+6K16*Windows 7e19 64|3r13 4r12 5r13 6r13
+X 37 mssyst-windows-forms.ads
+6K24*Forms 7e25 64|3w21 4r20 5r21 6r21
+X 38 mssyst-windows-forms-dialogresult.ads
+15K30*DialogResult 70e38 64|6w27 26r16
+16E9*ValueType 24e10 64|26r29
+X 40 mssyst-windows-forms-messagebox.ads
+19K30*MessageBox 92e36 64|5w27 28r17
+80V13*Show{38|16E9} 64|28r28
+X 63 test_dll1.ads
+1K9*Test_Dll1 6l5 6e14 64|8b14 32l5 32t14
+2T17*Fred 4l11 4e15 64|14b14 17l8 17t12 20r11
+3Y16 Bob 64|16b14 22r9
+X 64 test_dll1.adb
+19U14 Tom 19b14 23l8 23t11 29r7
+20t7 Y{63|2T17} 22r7
+25U14 Dick 25b14 30l8 30t12
+26e7 Result{38|16E9} 28m7
+

@@ -1,0 +1,107 @@
+V "GNAT Lib v2.01"
+A -c
+A -gnatA
+A -gnatWb
+A -gnatiw
+A -c
+A -g
+A -g
+A -gnatws
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvvnvvnnnnnnnnnnnnnn
+
+U ada_test_dll2%b	b~test_dll2.adb		91a4df93 PK IL
+
+U ada_test_dll2%s	b~test_dll2.ads		a4ae4d72 EE PK IL
+W system%s		system.ads		system.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D b~test_dll2.ads	20051115191908 378b593b
+D b~test_dll2.adb	20051115191908 a62f86a8
+D system.ads		20050820125040 15131902
+D s-stalib.ads		20040603021332 86360d4b
+X 1 b~test_dll2.ads
+3K9*ada_test_dll2 114l5 114e18 2|4b14 215l5 215t18
+6U14*adafinal 7r22 2|201b14 204l8 204t16
+9U14*adainit 10r22 2|9b14 199l8 199t15
+12M9*Version_32 13r22 14r22 15r22 16r22 17r22 18r22 19r22 20r22 21r22 22r22
+. 23r22 24r22 25r22 26r22 27r22 28r22 29r22 30r22 31r22 32r22 33r22 34r22
+. 35r22 36r22 37r22 38r22 39r22 40r22 41r22 42r22 43r22 44r22
+13m4*u00001{12M9} 46r22
+14m4*u00002{12M9} 47r22
+15m4*u00003{12M9} 48r22
+16m4*u00004{12M9} 49r22
+17m4*u00005{12M9} 50r22
+18m4*u00006{12M9} 51r22
+19m4*u00007{12M9} 52r22
+20m4*u00008{12M9} 53r22
+21m4*u00009{12M9} 54r22
+22m4*u00010{12M9} 55r22
+23m4*u00011{12M9} 56r22
+24m4*u00012{12M9} 57r22
+25m4*u00013{12M9} 58r22
+26m4*u00014{12M9} 59r22
+27m4*u00015{12M9} 60r22
+28m4*u00016{12M9} 61r22
+29m4*u00017{12M9} 62r22
+30m4*u00018{12M9} 63r22
+31m4*u00019{12M9} 64r22
+32m4*u00020{12M9} 65r22
+33m4*u00021{12M9} 66r22
+34m4*u00022{12M9} 67r22
+35m4*u00023{12M9} 68r22
+36m4*u00024{12M9} 69r22
+37m4*u00025{12M9} 70r22
+38m4*u00026{12M9} 71r22
+39m4*u00027{12M9} 72r22
+40m4*u00028{12M9} 73r22
+41m4*u00029{12M9} 74r22
+42m4*u00030{12M9} 75r22
+43m4*u00031{12M9} 76r22
+44m4*u00032{12M9} 77r22
+X 2 b~test_dll2.adb
+7b4 Elab_Done{boolean} 59r10 62m10
+10b7*E09{boolean} 10m42 84r14 86m10
+11b7*E08{boolean} 11m42 88r14 177r14 179m10
+12b7*E06{boolean} 12m42 91r14 173r14 175m10
+13b7*E26{boolean} 13m42 94r14 96m10
+14b7*E23{boolean} 14m42 98r14 100m10
+15b7*E30{boolean} 15m42 102r14 104m10
+16b7*E12{boolean} 16m42 106r14 108m10
+17b7*E11{boolean} 17m42 110r14 169r14 171m10
+18b7*E27{boolean} 18m42 113r14 115m10
+19b7*E25{boolean} 19m42 117r14 120r14 122m10
+20b7*E29{boolean} 20m42 124r14 127r14 129m10
+21b7*E18{boolean} 21m42 131r14 134r14 136m10
+22b7*E14{boolean} 22m42 138r14 141r14 143m10
+23b7*E04{boolean} 23m42 145r14 188r14 190m10
+24b7*E22{boolean} 24m42 148r14 151r14 153m10
+25b7*E20{boolean} 25m42 155r14 158r14 160m10
+26b7*E16{boolean} 26m42 162r14 165r14 167m10
+27b7*E32{boolean} 27m42 181r14 184r14 186m10
+28b7*E02{boolean} 28m42 192r14 195r14 197m10
+30a7 Restrictions{string} 72r38
+34a7 Interrupt_States{string} 73r38
+37U17*Set_Globals 38>10 39>10 40>10 41>10 42>10 43>10 44>10 45>10 46>10 47>10
+. 48>10 49>10 50>10 51b<c,__gnat_set_globals>25 65r7
+38i10 Main_Priority{integer} 66r10
+39i10 Time_Slice_Value{integer} 67r10
+40e10 WC_Encoding{character} 68r10
+41e10 Locking_Policy{character} 69r10
+42e10 Queuing_Policy{character} 70r10
+43e10 Task_Dispatching_Policy{character} 71r10
+44s10 Restrictions{string} 72r10
+45s10 Interrupt_States{string} 73r10
+46i10 Num_Interrupt_States{integer} 74r10
+47i10 Unreserve_All_Interrupts{integer} 75r10
+48i10 Exception_Tracebacks{integer} 76r10
+49i10 Zero_Cost_Exceptions{integer} 77r10
+50i10 Detect_Blocking{integer} 78r10
+53U17*Install_Handler 54b<c,__gnat_install_handler>25 81r10
+56i7*Handler_Installed{integer} 57m25 80r10
+X 3 system.ads
+44K9*System 1|1w6 2r6 2|203r7 3|165e11
+X 4 s-stalib.ads
+42K16*Standard_Library 1|2w13 2|203r14 4|74e28
+70U14*Adafinal 2|203r31
+

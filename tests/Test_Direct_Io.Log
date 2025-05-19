@@ -1,0 +1,9 @@
+Log_File_Named_And_Created is TRUE
+Starting Test_Direct_Io
+Log And_Crt_Setting is TRUE
+In Test_Direct_Io
+Integer_File_Name = Integer_File.Io
+Integer_File was already open.
+A 1 has been writen to the Integer_File.
+The size of the Integer_File is  1
+Will now close Log file.

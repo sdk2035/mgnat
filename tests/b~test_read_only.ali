@@ -1,0 +1,127 @@
+V "GNAT Lib v2.01"
+A -c
+A -gnatA
+A -gnatWb
+A -gnatiw
+A -c
+A -g
+A -g
+A -g
+A -gnatws
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvvnvvnnnnnnnnnnnnnnn
+
+U ada_test_read_only%b	b~test_read_only.adb	9b23db52 PK IL
+
+U ada_test_read_only%s	b~test_read_only.ads	5ab17790 EE PK IL
+W system%s		system.ads		system.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D b~test_read_only.ads	20060412210626 c99463d9
+D b~test_read_only.adb	20060412210626 52b7b88b
+D system.ads		20050820125040 15131902
+D s-stalib.ads		20040603021332 86360d4b
+X 1 b~test_read_only.ads
+3K9*ada_test_read_only 150l5 150e23 2|4b14 260l5 260t23
+6U14*adafinal 7r22 2|246b14 249l8 249t16
+9U14*adainit 10r22 2|9b14 244l8 244t15
+12M9*Version_32 13r22 14r22 15r22 16r22 17r22 18r22 19r22 20r22 21r22 22r22
+. 23r22 24r22 25r22 26r22 27r22 28r22 29r22 30r22 31r22 32r22 33r22 34r22
+. 35r22 36r22 37r22 38r22 39r22 40r22 41r22 42r22 43r22 44r22 45r22 46r22
+. 47r22 48r22 49r22 50r22 51r22 52r22 53r22 54r22 55r22 56r22
+13m4*u00001{12M9} 58r22
+14m4*u00002{12M9} 59r22
+15m4*u00003{12M9} 60r22
+16m4*u00004{12M9} 61r22
+17m4*u00005{12M9} 62r22
+18m4*u00006{12M9} 63r22
+19m4*u00007{12M9} 64r22
+20m4*u00008{12M9} 65r22
+21m4*u00009{12M9} 66r22
+22m4*u00010{12M9} 67r22
+23m4*u00011{12M9} 68r22
+24m4*u00012{12M9} 69r22
+25m4*u00013{12M9} 70r22
+26m4*u00014{12M9} 71r22
+27m4*u00015{12M9} 72r22
+28m4*u00016{12M9} 73r22
+29m4*u00017{12M9} 74r22
+30m4*u00018{12M9} 75r22
+31m4*u00019{12M9} 76r22
+32m4*u00020{12M9} 77r22
+33m4*u00021{12M9} 78r22
+34m4*u00022{12M9} 79r22
+35m4*u00023{12M9} 80r22
+36m4*u00024{12M9} 81r22
+37m4*u00025{12M9} 82r22
+38m4*u00026{12M9} 83r22
+39m4*u00027{12M9} 84r22
+40m4*u00028{12M9} 85r22
+41m4*u00029{12M9} 86r22
+42m4*u00030{12M9} 87r22
+43m4*u00031{12M9} 88r22
+44m4*u00032{12M9} 89r22
+45m4*u00033{12M9} 90r22
+46m4*u00034{12M9} 91r22
+47m4*u00035{12M9} 92r22
+48m4*u00036{12M9} 93r22
+49m4*u00037{12M9} 94r22
+50m4*u00038{12M9} 95r22
+51m4*u00039{12M9} 96r22
+52m4*u00040{12M9} 97r22
+53m4*u00041{12M9} 98r22
+54m4*u00042{12M9} 99r22
+55m4*u00043{12M9} 100r22
+56m4*u00044{12M9} 101r22
+X 2 b~test_read_only.adb
+7b4 Elab_Done{boolean} 65r10 68m10
+10b7*E04{boolean} 10m42 90r14 92m10
+11b7*E34{boolean} 11m42 94r14 96m10
+12b7*E23{boolean} 12m42 98r14 100m10
+13b7*E12{boolean} 13m42 102r14 104m10
+14b7*E11{boolean} 14m42 106r14 154r14 156m10
+15b7*E18{boolean} 15m42 109r14 112r14 114m10
+16b7*E25{boolean} 16m42 116r14 119r14 121m10
+17b7*E14{boolean} 17m42 123r14 126r14 128m10
+18b7*E03{boolean} 18m42 130r14 176r14 178m10
+19b7*E22{boolean} 19m42 133r14 136r14 138m10
+20b7*E20{boolean} 20m42 140r14 143r14 145m10
+21b7*E16{boolean} 21m42 147r14 150r14 152m10
+22b7*E09{boolean} 22m42 158r14 161r14 163m10
+23b7*E07{boolean} 23m42 165r14 167m10
+24b7*E44{boolean} 24m42 169r14 172r14 174m10
+25b7*E42{boolean} 25m42 180r14 183r14 185m10
+26b7*E35{boolean} 26m42 187r14 189m10
+27b7*E33{boolean} 27m42 191r14 194r14 196m10
+28b7*E31{boolean} 28m42 198r14 201r14 203m10
+29b7*E37{boolean} 29m42 205r14 208r14 210m10
+30b7*E29{boolean} 30m42 212r14 215r14 217m10
+31b7*E40{boolean} 31m42 219r14 222r14 224m10
+32b7*E38{boolean} 32m42 226r14 228m10
+33b7*E27{boolean} 33m42 230r14 233r14 235m10
+34b7*E06{boolean} 34m42 237r14 240r14 242m10
+36a7 Restrictions{string} 78r38
+40a7 Interrupt_States{string} 79r38
+43U17*Set_Globals 44>10 45>10 46>10 47>10 48>10 49>10 50>10 51>10 52>10 53>10
+. 54>10 55>10 56>10 57b<c,__gnat_set_globals>25 71r7
+44i10 Main_Priority{integer} 72r10
+45i10 Time_Slice_Value{integer} 73r10
+46e10 WC_Encoding{character} 74r10
+47e10 Locking_Policy{character} 75r10
+48e10 Queuing_Policy{character} 76r10
+49e10 Task_Dispatching_Policy{character} 77r10
+50s10 Restrictions{string} 78r10
+51s10 Interrupt_States{string} 79r10
+52i10 Num_Interrupt_States{integer} 80r10
+53i10 Unreserve_All_Interrupts{integer} 81r10
+54i10 Exception_Tracebacks{integer} 82r10
+55i10 Zero_Cost_Exceptions{integer} 83r10
+56i10 Detect_Blocking{integer} 84r10
+59U17*Install_Handler 60b<c,__gnat_install_handler>25 87r10
+62i7*Handler_Installed{integer} 63m25 86r10
+X 3 system.ads
+44K9*System 1|1w6 2r6 2|248r7 3|165e11
+X 4 s-stalib.ads
+42K16*Standard_Library 1|2w13 2|248r14 4|74e28
+70U14*Adafinal 2|248r31
+

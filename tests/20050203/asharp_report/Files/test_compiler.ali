@@ -1,0 +1,85 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_compiler%b	test_compiler.adb	4c71f0ec NE SU
+W ada.exceptions%s	a-except.adb		a-except.ali
+W mssyst%s		mssyst.ads		mssyst.ali
+W mssyst.console%s	mssyst-console.ads	mssyst-console.ali
+W mssyst.string%s	mssyst-string.ads	mssyst-string.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+
+D ada.ads		20021213045750 0ff28bf9
+D a-except.ads		20040603025648 5e7c4f2c
+D a-tags.ads		19990924104636 99899bb5
+D a-tags.adb		20030111185050 cbc796fd
+D msil_types.ads	20041202173932 7f0bad3a
+D mssyst.ads		20041030171602 23c9c191
+D mssyst-charenumerator.ads  20041030171604 61339ef6
+D mssyst-collections.ads  20041030171604 f74b44bc
+D mssyst-collections-ienumerable.ads  20041030171604 a12063c5
+D mssyst-console.ads	20041030171604 99c8ce6e
+D mssyst-decimal.ads	20041030171604 916898e5
+D mssyst-globalization.ads  20041030171606 48b91955
+D mssyst-globalization-cultureinfo.ads  20041030171606 d32c4869
+D mssyst-globalization-culturetypes.ads  20041030171606 214d4dd0
+D mssyst-globalization-numberstyles.ads  20041030171608 123601dc
+D mssyst-icloneable.ads	20041030171604 87bcea8b
+D mssyst-icomparable.ads  20041030171604 038c453b
+D mssyst-iconvertible.ads  20041030171604 8941e8cc
+D mssyst-iformatprovider.ads  20041030171604 fac35132
+D mssyst-iformattable.ads  20041030171604 7e402581
+D mssyst-io.ads		20041030171608 f8449787
+D mssyst-io-seekorigin.ads  20041030171610 6a95c635
+D mssyst-io-stream.ads	20041030171608 c08b9c10
+D mssyst-io-textreader.ads  20041030171610 fe0e2437
+D mssyst-io-textwriter.ads  20041030171610 9e28228b
+D mssyst-marshalbyrefobject.ads  20041030171604 be9bd9c2
+D mssyst-object.ads	20041030171604 4249f4d6
+D mssyst-reflection.ads	20041030171604 54d25043
+D mssyst-reflection-bindingflags.ads  20041030171606 45a2f3af
+D mssyst-reflection-callingconventions.ads  20041030171606 c6e36371
+D mssyst-reflection-memberinfo.ads  20041030171604 e1b04130
+D mssyst-reflection-membertypes.ads  20041030171606 b3b91ae0
+D mssyst-reflection-parametermodifier.ads  20041030171606 c807376d
+D mssyst-reflection-typeattributes.ads  20041030171606 55110194
+D mssyst-sbyte.ads	20041030171606 e2b0017c
+D mssyst-string.ads	20041030171604 efa41fe9
+D mssyst-text.ads	20041030171604 de64ecad
+D mssyst-text-encoding.ads  20041030171608 f74c845b
+D mssyst-type_k.ads	20041030171606 9b0b6273
+D mssyst-typecode.ads	20041030171606 1d6c61f0
+D mssyst-uint32.ads	20041030171606 243f0c1e
+D mssyst-valuetype.ads	20041030171604 87742e2c
+D system.ads		20040925053602 5671cff3
+D s-imgint.ads		19951120073034 0d572232
+D s-secsta.ads		19990726073750 527ced4e
+D s-soflin.ads		20040603020420 af2e17c6
+D s-stache.ads		19990409121032 43b71b44
+D s-stoele.ads		19980907140906 d1faf2c5
+D s-strops.ads		19980415014434 50559886
+D s-sopco3.ads		19980110182950 9b8594ac
+D s-sopco4.ads		19980110182952 bb61d283
+D s-sopco5.ads		19980110182952 e336c4e1
+D s-unstyp.ads		19990721075830 4d8c50b9
+D test_compiler.adb	20050526161450 3a1d216b
+X 6 mssyst.ads
+6K9*MSSyst 8e11 54|1r6 1r26 2r6 2r25
+X 10 mssyst-console.ads
+19K16*Console 163e19 54|1w13 1r33
+144U14*WriteLine 54|9r4 12r4 15r4 18r4
+X 27 mssyst-object.ads
+18R9*Typ
+X 36 mssyst-string.ads
+25K16*String 420e18 54|2w13 2r32
+27P9*Ref(26R9)
+375V13*"+"{27P9} 54|9r47 12r14 15r21 18r21
+X 54 test_compiler.adb
+5U11*Test_Compiler 5b11 20t4
+6i4 My_Integer{integer} 9r36 15r28 18r36
+

@@ -1,0 +1,12 @@
+with Ada.Text_IO;
+use Ada.Text_IO;
+procedure Test_Read_Only is
+   File : File_Type;
+begin
+   Open(
+      File => File,
+      Mode => In_File,
+      Name => "c:\d\rsrch\a#\mgnat\lib\mgnat\adalib\gnat.ali");
+end Test_Read_Only;
+
+

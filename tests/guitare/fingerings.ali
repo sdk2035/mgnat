@@ -1,0 +1,146 @@
+V "GNAT Lib v3.15"
+A -c
+P
+R nnvvnnnvnnvnnvvvvvvnnvnnnnnnnnnvnvnnnnnnnnnnnnnnvvnn
+
+U fingerings%b		fingerings.adb		e8007138 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W interfaces%s		interfac.ads		interfac.ali
+W search_utilities%s	search_utilities.adb	search_utilities.ali  ED
+W system%s		system.ads		system.ali
+W system.img_enum%s	s-imgenu.adb		s-imgenu.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops_concat_4%s  s-sopco4.adb	s-sopco4.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U fingerings%s		fingerings.ads		b61f05d0 EE PK
+W instrument%s		instrument.adb		instrument.ali
+W notes%s		notes.adb		notes.ali
+
+D ada.ads		20021213045750 a0108083
+D a-except.ads		20030111184846 8c16c4f0
+D a-finali.ads		19981212023736 d4be2e87
+D a-filico.ads		19981212023738 83058640
+D a-ioexce.ads		19981212023736 d52e128a
+D a-stream.ads		19971119133848 90e5c6f7
+D a-tags.ads		19990924104636 d9f34d7b
+D a-textio.ads		20000214171636 98d7a37c
+D fingerings.ads	20021031185316 edd7381a
+D fingerings.adb	20021031185316 3f5fea88
+D instrument.ads	20021031185316 c6d17775
+D interfac.ads		20021213031652 6e859da6
+D i-cstrea.ads		20021213045752 7f5efb6f
+D notes.ads		20021031185316 9d194abf
+D search_utilities.ads	20021031185316 11dfcaad
+D search_utilities.adb	20021031185316 f27b833e
+D system.ads		20021213031700 9be97a6f
+D s-ficobl.ads		19990215165032 14416104
+D s-finimp.ads		19990723121124 c7f98dd8
+D s-finroo.ads		19960921225930 561babbc
+D s-imgenu.ads		20021213045234 20631dce
+D s-imgint.ads		19951120073034 b221cfe9
+D s-parame.ads		20020514142604 37dc3a84
+D s-secsta.ads		19990726073750 aafc656f
+D s-soflin.ads		19991227152932 95657dfd
+D s-stache.ads		19990409121032 ced985be
+D s-stalib.ads		19990924104638 2d9390a0
+D s-stoele.ads		19980907140906 c6bef0ad
+D s-stratt.ads		19981014005624 9fdf8f81
+D s-sopco4.ads		19980110182952 a91f4193
+D s-unstyp.ads		19990721075830 05ad3732
+D text_io.ads		20021213031704 2b576907
+D unchconv.ads		20021213031438 1b7a14c5
+X 8 a-textio.ads
+169U14*New_Line 10|416r21
+260U14*Put_Line 10|411r21 412r21 414r21
+X 9 fingerings.ads
+18K9*Fingerings 59l5 59e15 10|17b14 311r10 320r16 321r16 422l5 422t15
+20E9*Options_Type 20e63 21r26 22r25
+20n26*Easy{20E9} 21r45 10|26r7 335r19
+20n32*Medium{20E9} 10|82r7
+20n40*Difficult{20E9} 21r53 10|148r7
+20n51*Common{20E9} 22r44 10|209r32 331r25
+20n59*Any{20E9} 22r54
+21E12*Level_Type{20E9} 30r42 10|23r34 228r42 314r23 403r17 414r42
+22E12*Kind_Type{20E9} 37r29 38r30 10|209r19 362r29 371r29
+24I12*Fretted_Position{integer} 34r42 42r30 53r14 10|19r39 243r17 243r37
+. 244r17 244r37 245r17 245r37 287r19 288r26 351r42 382r30
+26A9*Fingering_Type 28r42 32r42 40r42 44r42 57c9 10|226r42 230r26 237r47
+. 349r42 380r42 391r42
+28U14*Analyse 10|226b14 311r21 320r27 321r27 343l8 343t15
+28A23 Fingering{26A9} 10|226b23 230r44
+29b23 Exist{boolean} 10|227b23 311m29 321m35 332m10 336m10
+30e23 Level{21E12} 10|228b23 320m35 335m10
+32U14*Set 10|349b14 356l8 356t11
+32A19 Fingering{26A9} 10|349b19 354m7 355m7
+33i19 String_Number{11|19I12} 10|350b19 354r18 355r18
+34i19 Fret{24I12} 10|351b19 354r41
+35e19 Note{14|19E9} 10|352b19 355r41
+37U14*Set 10|362b14 365l8 365t11
+37e19 Kind{22E12} 10|362b19 364r23
+38V14*Get_Kind{22E12} 10|371b13 374l8 374t16
+40V13*Get_Fret{24I12} 10|380b13 385l8 385t16
+40A23 Fingering{26A9} 10|380b23 384r14
+41i23 String_Number{11|19I12} 10|381b23 384r25
+44V13*Get_Note{14|19E9} 10|391b13 396l8 396t16
+44A23 Fingering{26A9} 10|391b23 395r14
+45i23 String_Number{11|19I12} 10|392b23 395r25
+52R9 Position_Note 55e14 57r64
+53i7*Fret{24I12} 10|252r30 254r40 255r41 258r33 260r42 261r43 265r33 266r40
+. 298r33 299r33 299r55 339r59 354r33 384r40
+54e7*Note{14|19E9} 10|355r33 395r40
+X 10 fingerings.adb
+19A9 Position 20r59 216r46 231r26 306r44
+20A9 Array_Of_Position 21r41 26r24 82r24 148r24 218r46
+21P9 Array_Of_Position_Ptr(20A9) 23r49
+23A9 Positions_Type 25r25
+25a4 Positions{23A9} 317r46 404r16 404r47 405r13 405r41
+209e4 Current_Mode{9|22E12} 331r10 364m7 373r14
+215K12 Search_Position 220r18 220r53 316r22 406r28
+220e4 Search_Mode{15|125E8} 318r46 406m13
+230A7 Local_Fingering{9|26A9} 329m18 339r37
+231a7 Current_Position{19A9} 338r19 339m13 341r20
+233i7 Number_Of_Fret{positive} 291m13 333r13 334r10
+234i7 Number_Of_Fretted_String{natural} 259m19 259r47 334r39
+235b7 Is_Common{boolean} 270m19 331r45
+237U17 Normalise 304l11 304t20 329r7
+237A28 Fingering{9|26A9} 250r19 252r16 254r26 255r27 258r19 260r28 261r29
+. 265r19 266r26 297r22 298r19 299m19 299r41
+239E15 State_Type 239e56 241r18
+239n30 Out_Of{239E15} 241r32 271r30
+239n39 Into{239E15} 272r28 277r27
+239n46 Exit_From{239E15} 269r27 278r28
+241e10 State{239E15} 269r19 271r22 272m19 277r19 278m19
+243i10 Min0{9|24I12} 254r19 255m19 295r13 299r62
+244i10 Min{9|24I12} 260r22 261m22 287r13 291r37
+245i10 Max{9|24I12} 265r40 266m19 288r20 291r31
+250i14 I{integer} 252r27 254r37 255r38 258r30 260r39 261r40 265r30 266r37
+297i17 I{integer} 298r30 299r30 299r52
+306U17 Seek_For 326l11 326t19 341r10
+306a27 My_Position{19A9} 316r46
+308b10 Exist{boolean} 316m13 319r16
+313l10 Scan_Level 322r21 325l19 325e29
+314e14 Level{9|21E12} 317r57 320r44
+338i14 I{integer} 339r31 339r54
+402l4 LEVEL_LOOP 417r18 420l13 420e23
+403e8 Level{9|21E12} 404r27 404r58 405r24 405r52 414r60
+404i11 K{integer} 405r32 405r60 415r59
+X 11 instrument.ads
+17K9*Instrument 9|16r6 33r42 41r42 45r42 57r34 10|350r42 381r42 392r42 11|50e15
+19I12*String_Numbers{positive} 9|33r53 41r53 45r53 57r45 10|350r53 381r53
+. 392r53
+X 14 notes.ads
+15K9*Notes 9|15r6 35r42 35r61 46r30 54r14 54r34 10|352r42 352r61 393r30 14|96e10
+19E9*Note_Type 9|35r48 46r36 54r20 10|352r48 393r36 14|20e51
+19n23*C{19E9} 9|35r67 54r40 10|352r67
+X 15 search_utilities.ads
+107k9*Search_Utilities 10|15r6 216r10 15|184e21
+125E8*Data_Order_Type 10|220r34[215]
+125n28*Ordered{125E8} 10|220r69[215]
+125n36*Not_Ordered{125E8} 10|406r44[215]
+167V12*Search{boolean} 10|316r38[215]
+X 32 text_io.ads
+21K9*Text_IO=21:29 10|14r6 411r13 412r13 414r13 416r13
+

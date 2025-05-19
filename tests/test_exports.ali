@@ -1,0 +1,17 @@
+V "GNAT Lib v2.01"
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U test_exports%b	test_exports.adb	02dc5832 PK
+
+U test_exports%s	test_exports.ads	4c10f030 EE PK
+
+D system.ads		20050820125040 15131902
+D test_exports.ads	20041115033028 4c10f030
+D test_exports.adb	20041115033044 4ecca802
+X 2 test_exports.ads
+1K9*Test_Exports 7l5 7e17 3|1b14 13l5 13t17
+2V13*Open_Graph_Window{integer} 2>31 4r26 3|8b13 11t7
+2i31 Size{integer} 3|8b32
+

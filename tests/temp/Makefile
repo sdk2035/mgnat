@@ -1,0 +1,1701 @@
+##############################################################################
+#                                                                            #
+#                          GNAT COMPILER COMPONENTS                          #
+#                                                                            #
+#                             j M a k e f i l e                              #
+#                                                                            #
+#                             $Revision: 1.97 $                              #
+#                                                                            #
+#           Copyright (C) 1998-2000 Ada Core Technologies, Inc.              #
+#                                                                            #
+#  GNAT is free software;  you can  redistribute it  and/or modify it under  #
+#  terms of the  GNU General Public License as published  by the Free Soft-  #
+#  ware  Foundation;  either version 2,  or (at your option) any later ver-  #
+#  sion.  GNAT is distributed in the hope that it will be useful, but WITH-  #
+#  OUT ANY WARRANTY;  without even the  implied warranty of MERCHANTABILITY  #
+#  or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License  #
+#  for  more details.  You should have  received  a copy of the GNU General  #
+#  Public License  distributed with GNAT;  see file COPYING.  If not, write  #
+#  to  the Free Software Foundation,  59 Temple Place - Suite 330,  Boston,  #
+#  MA 02111-1307, USA.                                                       #
+#                                                                            #
+#  MGNAT - The GNAT Ada 95 toolchain for the Java Virtual Machine is         #
+#          maintained by Ada Core Technologies, Inc. - http://www.gnat.com   #
+#                                                                            #
+##############################################################################
+
+# RV: compiler flag -gnatwF changed to -gnatwUV
+
+# Makefile to build the MGNAT toolchain to be used with GNU make
+
+# On Microsoft Windows systems you need, in addition to GNU make all the
+# standard UNIX utilities such as: sh, cp, rm, sed, tar, touch, etc.
+
+# NOTE on Directory Names:
+# -----------------------
+# 1. Do not put a trailing "/" or "\" at the end of directory names.
+# 2. Use absolute paths. Do not use relative paths.
+# 3. On Windows use "/" or "\\" as directory separator. Don't just use "\".
+#    (for instance write "D:\\icons\\ACT.ico" not "D:\icons\ACT.ico").
+#    Note that some implementations of the UNIX tools (e.g. Cygnus CDK) only
+#    understand "/" as a directory separator.
+
+###########################################
+# Makefile Parameters that You *Must* Set #
+###########################################
+
+BUILD_DIR = c:/d/rsrch/a\#/mgnat
+DLL_DIR = c:/d/rsrch/a\#/mgnat/dll
+DLL_DOS_DIR = c:\d\rsrch\a\#\mgnat\dll
+# Directory inside which the MGNAT build is to take place. See the section
+# on "MGNAT Build Directory Organization" below.
+
+GNAT_DIR = c:/d/rsrch/a\#/mgnat/src
+# Directory containing the GNAT sources
+
+################################
+# Makefile Optional Parameters #
+################################
+
+MGNAT_DIR = $(GNAT_DIR)
+# Directory containing the Ada, C and Java sources specific to MGNAT
+
+INSTALL_BASE = c:
+# Directory where the MGNAT release is to be installed. If empty "/" is used.
+
+#############################
+# Makefile Build Parameters #
+#############################
+
+DEBUG_MGNAT = yes
+# Set this variable if you want to be able to debug the MGNAT toolchain
+
+JDK11_LIB =
+# Needed only if you are using Sun's JDK 1.1.*. Leave this blank for JDK 1.2.*.
+# Path separator followed by the zip file containing the JDK 1.1 lib
+# installed on the machine on which you are doing the build.  For instance, on
+# Unix this may be ":/opt/jdk1.1.7/lib/classes.zip".
+# On NT ";D:\\jdk1.1.7\\lib\\classes.zip". This variable must be set for Sun's
+# JDK 1.1 because of the incorrect implementation of the "-classpath" switch in
+# the Java compiler, javac.
+
+######################
+# Release Parameters #
+######################
+
+VERSION = 1.20d
+# The current version number of MGNAT
+
+HOST = ${shell gcc -dumpmachine}
+# Name of the host computer on which the MGNAT executables were built. When the
+# HOST is Windows NT this variable is set to "nt" and it is overriden below.
+
+TGZ = tgz
+# The suffix for the split files corresponding to the MGNAT `src', `doc' and
+# `examples' directory. This suffix can either be "tgz" , in which case we use
+# commands `tar' and `gzip' or "zip" in which case we use the `zip' command.
+
+ACT_ICON =
+# This must either be empty or contain "-i <file-location-of-ACT-icon>"
+
+CHECKOUT_EXAMPLES = 
+# The command to check out the MGNAT examples in the current directory.
+# Something like:
+#     cvs -z 9 checkout MGNAT; mv MGNAT\examples .; rm -rf MGNAT
+# or
+#     cp -r d:\\MGNAT\\examples .
+
+###############################
+# Windows Specific Parameters #
+###############################
+
+# The variable EXE should be set only on Windows
+ifneq (,${findstring Windows, ${shell uname}})
+   EXE            = .exe
+   PATH_SEPARATOR = ;
+   HOST           = nt
+else
+ifneq (,${findstring CYGWIN32, ${shell uname}})
+   EXE            = .exe
+   PATH_SEPARATOR = ;
+   HOST           = nt
+else
+   EXE            =
+   PATH_SEPARATOR = :
+endif
+endif
+
+######################################
+# MGNAT Build Directory Organization #
+######################################
+
+# $(BUILD_DIR)
+#     |
+#     +--> bin  [The MGNAT executables]
+#     |
+#     +--> lib  [Ada 95 library of MGNAT]
+#     |     |
+#     |     +--> mgnat
+#     |            |
+#     |            +--> adainclude [Ada library sources: spec and bodies]
+#     |            |
+#     |            +--> adalib     [.ali files of the Ada library]
+#     |
+#     +--> obj   [Contains the objects for the MGNAT compilation tools.
+#     |           These objects must be compiled with $(GNATMAKE_CUR_LIB)]
+#     |
+#     +--> objs  [Contains the objects for the regular MGNAT tools.
+#                 These objects must be compiled with $(GNATMAKE_STD)]
+
+BIN  = $(BUILD_DIR)/bin
+LIB  = $(BUILD_DIR)/lib
+       ADAINCLUDE = $(LIB)/mgnat/adainclude
+       ADALIB     = $(LIB)/mgnat/adalib
+OBJ  = $(BUILD_DIR)/obj
+INC  = $(BUILD_DIR)/include
+OBJS = $(BUILD_DIR)/objs
+
+
+########################################
+# MGNAT Install Directory Organization #
+########################################
+
+INSTALL_HOME  = mgnat-$(VERSION)
+INSTALL_SPLIT = $(INSTALL_BASE)/split-$(VERSION)
+INSTALL_DIR   = $(INSTALL_BASE)/$(INSTALL_HOME)
+
+# $(INSTALL_DIR)
+#     |
+#     +--> bin  [same as in $(BUILD_DIR)]
+#     |
+#     +--> lib  [same as in $(BUILD_DIR)]
+#     |     |
+#     |     +--> mgnat
+#     |            |
+#     |            +--> adainclude
+#     |            |
+#     |            +--> adalib
+#     |
+#     +--> doc [MGNAT documentation in various formats]
+#     |
+#     +--> src [copy of all MGNAT sources]
+#     |
+#     +--> examples [MGNAT examples]
+
+INSTALL_BIN = $(INSTALL_DIR)/bin
+INSTALL_LIB = $(INSTALL_DIR)/lib
+              INSTALL_ADAINCLUDE = $(INSTALL_LIB)/mgnat/adainclude
+              INSTALL_ADALIB     = $(INSTALL_LIB)/mgnat/adalib
+INSTALL_DOC = $(INSTALL_DIR)/doc
+INSTALL_SRC = $(INSTALL_DIR)/src
+INSTALL_INC = $(INSTALL_DIR)/include
+INSTALL_EXAMPLES = $(INSTALL_DIR)/examples
+
+###############################################
+# Documentation for the Main Makefile Targets #
+###############################################
+
+#  bin  : Build the MGNAT executables and put them in $(BUILD_DIR)/bin.
+#         (The .o & .ali files produced by the build are in $(BUILD_DIR)/obj
+#          and in $(BUILD_DIR)/objs).
+#  lib  : Build the MGNAT library in $(BUILD_DIR)/lib.
+#  all  : All of the above.
+#
+#  clean_bin : Clean $(BUILD_DIR)/bin, $(BUILD_DIR)/obj, $(BUILD_DIR)/objs
+#  clean_lib : Clean $(BUILD_DIR)/lib
+#  clean     : All of the above
+#
+#  install : copy
+#               $(BUILD_DIR)/bin into $(INSTALL_DIR)/bin
+#               $(BUILD_DIR)/lib into $(INSTALL_DIR)/lib
+#
+#  src : Copy the sources used for targets bin & lib above into $(INSTALL_SRC).
+#        Create $(INSTALL_SRC)/Makefile which is a copy of this Makefile with
+#        variables BUILD_DIR and GNAT_DIR properly initialized so that users
+#        can type:
+#              cd $(INSTALL_SRC); make
+#        to build the MGNAT executables on targets for which such executables
+#        are not provided directly.
+#        Finally create $(INSTALL_HOME)-src.$(TGZ) file in $(INSTALL_SPLIT).
+#
+#  doc : Build the MGNAT documentation and put it in $(INSTALL_DIR)/doc and
+#        create $(INSTALL_HOME)-doc.$(TGZ) in $(INSTALL_SPLIT).
+#
+#  examples : checks out the MGNAT examples with the $(CHECKOUT_EXAMPLES)
+#             command into $(INSTALL_EXAMPLES), create file
+#             $(INSTALL_HOME)-examples.$(TGZ) in $(INSTALL_SPLIT) and build
+#             the examples.
+#
+#  package : Create the following files in $(INSTALL_BASE)/:
+#            - $(INSTALL_HOME)-$(HOST).tgz     [on UNIX systems]
+#            - $(INSTALL_HOME)-$(HOST).exe     [on Windows systems]
+#        containing the corresponding bin, lib, src, doc, and examples
+#        directory of $(INSTALL_DIR).
+#
+#  release : Make targets: all, install, src, doc, examples, package.
+#
+#  help : Print a succint help message.
+#
+#  co   : Check out the latest MGNAT sources in the current directory.
+
+########################################
+# Shell Commands Used in this Makefile #
+########################################
+
+CD    = cd
+CP    = cp -p -f
+ECHO  = echo
+MKDIR = mkdir -p
+MV    = mv -f
+PWD   = pwd
+RM    = rm -f
+RMDIR = rmdir
+SED   = sed
+SHELL = /bin/sh
+TOUCH = touch
+
+########################################
+# Other Commands Used in this Makefile #
+########################################
+
+CO       = gco
+DVIPS    = dvips
+ERROR    = $(ECHO) ERROR:
+FAIL     = exit 1
+GZIP     = gzip -9
+MAKEHTML = makeinfo --html --force
+MAKEINFO = makeinfo --force
+MAKETEXT = makeinfo --force --no-headers --no-split
+READONLY = chmod a-wx
+TAR      = tar cf
+TEX      = tex
+TEXINDEX = texindex
+TO_UNIX  = flip -u
+TO_DOS   = flip -d
+ZIP      = zip -9 -r -q
+
+################################
+# Compiler & Linker Parameters #
+################################
+
+# The following parameters control the optimization and debugging
+# options with which the MGNAT executables and MGNAT library are built.
+
+ifndef DEBUG_MGNAT
+   C_FLAGS    = -O2
+   TOOL_FLAGS = -O2 -gnatgp -gnata -gnatwUV
+   LIB_FLAGS  = -O  -gnatgp -gnata
+   STRIP      = -s
+   JAR        = jar c0f
+else
+   C_FLAGS    = -O
+   TOOL_FLAGS = -g -O -gnatgpa -gnatwUV
+   LIB_FLAGS  = -g -O -gnatgpa
+   STRIP      =
+   JAR        = jar c0f
+endif
+
+#################################
+# Compilation & Linker Commands #
+#################################
+
+MGNAT_INCLUDES =  -aO. -aI. -aI$(MGNAT_DIR)/ -aI$(GNAT_DIR)/
+# Include directories to use when building the MGNAT executables
+
+NO_STD_LIB = -nostdinc -nostdlib
+# Switches specifing to gnatmake that it should not use the installed GNAT lib
+
+GCC_PATHS  = ${shell gnatls -v | $(SED) -n -e 's/\\/\//g' -e '/ada/p'}
+GCC_ADAINC = -aI${firstword ${filter %/adainclude/,$(GCC_PATHS)}}
+GCC_ADALIB = -aO${firstword ${filter %/adalib/,$(GCC_PATHS)}}
+# adainclude and adalib directories of the installed GNAT
+
+GNATMAKE_CMD = gnatmake $(TOOL_FLAGS) -I-
+
+GNATMAKE_CUR_LIB = $(GNATMAKE_CMD) -a $(MGNAT_INCLUDES)
+#GNATMAKE_CUR_LIB = $(GNATMAKE_CMD) -a $(NO_STD_LIB) $(MGNAT_INCLUDES)
+# Compiles sources using the library it finds in $(GNAT_DIR).  To build the
+# compiler tools and in general any MGNAT tool that with low-level compiler
+# packages you must build it using the GNAT library sources which are in
+# $(GNAT_DIR).  This can potentially create a problem since the version of
+# the GNAT compiler that you use to build MGNAT is not necessarily consistent
+# with the version of the GNAT library sources that are used by the MGNAT
+# compiler and tools. However, you have to do this nonstandard build if the
+# current MGNAT sources use library routines which are present only in the
+# current GNAT library sources and not in the installed GNAT library.
+
+GNATMAKE_STD = $(GNATMAKE_CMD) $(GCC_ADALIB) $(GCC_ADAINC) $(MGNAT_INCLUDES)
+# Compiles sources using the library of the installed GNAT.
+# Regular MGNAT tools that do not with low-level GNAT compiler packages can and
+# should be built using the library that comes with the installed GNAT compiler
+# (that is, if want to you build MGNAT like any normal Ada application).
+
+EXTRA_LINK_FLAGS = libadvapi32.a
+#LINK_FLAGS       = -largs ${MGNAT_C_SRCS:%.c=%.o} ${GNAT_C_SRCS:%.c=%.o} \
+LINK_FLAGS = $(EXTRA_LINK_FLAGS)
+# Linker flags used to build the $(GNATMAKE_CUR_LIB) executables
+
+GCC = gcc -c $(C_FLAGS)
+# C compiler to build the C objects
+
+MGNAT = $(BIN)/mgnat $(LIB_FLAGS)
+# MGNAT compiler to build the Ada part of the MGNAT library
+
+JAVAC = javac -deprecation -classpath $(LIB)$(JDK11_LIB)
+CSC = csc
+# The Java compiler to build the Java part of the MGNAT library
+
+###########################################
+# List of MGNAT Tools Running on the HOST #
+###########################################
+
+HOST_TOOLS_EXE = mgnat$(EXE) ${HOST_TOOLS:%=%$(EXE)}
+
+HOST_TOOLS = \
+  $(MGNAT_CUR_LIB_TOOLS) \
+  $(MGNAT_STD_TOOLS)
+
+# MGNAT tools that with low-level GNAT compiler packages.
+# These tools need to be built with $(GNATMAKE_CUR_LIB).
+MGNAT_CUR_LIB_TOOLS = \
+  mgnatmake \
+  mgnatbind \
+  mgnatlink 
+#  mgnatls   \
+#  mgnatfind \
+#  mgnatxref
+
+# MGNAT tools that do not with low-level GNAT compiler packages.
+# These tools need to be built with $(GNATMAKE_STD).
+MGNAT_STD_TOOLS = \
+#  mgnatpsta \
+  jvmlist   \
+  jvmstrip  \
+  jvm2ada   \
+  jarmake
+
+#########################
+# Main Makefile Targets #
+#########################
+
+.PHONY : info     help
+.PHONY : do_all
+.PHONY : bin      check_vars create_bin_dirs mgnat $(HOST_TOOLS)
+.PHONY : lib      create_lib_dirs ada_lib java_lib jar_files
+.PHONY : all      print_vars
+.PHONY : install  create_install_dirs cp_bin cp_lib cp_inc
+.PHONY : src      cp_srcs make_split src_tgz
+.PHONY : doc      build_docs create_doc_dir cleanup_doc_dir doc_tgz 
+.PHONY : examples examples_tgz build_examples
+.PHONY :          unixify_src unixify_doc
+.PHONY : package  package_it_all packag_test do_package
+.PHONY : release  check_release_vars
+.PHONY : clean    clean_bin clean_lib
+.PHONY : co
+.PHONY : mgnat_cur_lib_prerequisites gen_cur_lib_srcs gen_cur_lib_c_objects
+.PHONY : cp_lib_srcs alis
+
+# If $(BUILD_DIR) is not set print the help message instead of doing bin
+ifeq ($(BUILD_DIR),)
+info : help
+else
+do_all : all
+endif
+
+bin      : check_vars create_bin_dirs mgnat $(HOST_TOOLS)
+lib      : check_vars create_lib_dirs ada_lib java_lib jar_files
+all      : print_vars bin
+install  : check_vars create_install_dirs cp_bin cp_lib cp_inc
+
+src      : cp_srcs $(INSTALL_SRC)/Makefile src_tgz
+doc      : build_docs doc_tgz
+examples : $(INSTALL_EXAMPLES)/Makefile examples_tgz build_examples
+package  : package_it_all 
+release  : check_release_vars all install src doc examples package
+
+############################
+# Makefile Cleanup Targets #
+############################
+
+clean : clean_bin clean_lib
+
+clean_bin : check_vars
+	$(CD) $(BIN); $(RM) $(HOST_TOOLS_EXE)
+	$(RM) $(OBJ)/*
+	$(RM) $(OBJS)/*
+
+clean_lib : check_vars
+	$(RM) $(ADALIB)/*.ali
+	$(RM) $(ADALIB)/*.il
+	$(RM) $(ADAINCLUDE)/*.ad[bs]
+	$(RM) $(LIB)/*.jar
+
+########
+# Help #
+########
+
+help :
+	@$(ECHO)
+	@$(ECHO) Important Makefile variables:
+	@$(ECHO)
+	@$(ECHO) "  BUILD_DIR : MGNAT build directory"
+	@$(ECHO) "  GNAT_DIR  : Directory containing GNAT sources"
+	@$(ECHO)
+	@$(ECHO) "Targets (see the beginning of Makefile for more info):"
+	@$(ECHO)
+	@$(ECHO) "  bin     : Build MGNAT executables"
+	@$(ECHO) "  lib     : Build the MGNAT library"
+	@$(ECHO) "  all     : All of the above"
+	@$(ECHO) "  clean   : Cleanup the build"
+	@$(ECHO) "  release : Build a complete release from scratch"
+
+#######################
+# MGNAT Documentation #
+#######################
+
+MGNAT_DOCS = \
+  mgnat_ug.texi \
+  mgnatdoc.txt
+
+#################
+# MGNAT Sources #
+#################
+
+# These are only the Ada & C sources specific to MGNAT & its tools.
+# Sources common to GNAT and MGNAT are not listed here.
+
+MGNAT_H_SRCS = \
+	jconfig.h
+
+MGNAT_C_SRCS = \
+  jpatch.c   \
+  jmissing.c
+
+MGNAT_ADA_SRCS = \
+  $(MGNAT_VERSION_OF_GNAT_SOURCES)            \
+  $(MGNAT_LOW_LEVEL)                          \
+  $(MGNAT_COMPILER_LOW_LEVEL)                 \
+  $(MGNAT_COMPILER_TREE_TRAVERSAL)            \
+  $(MGNAT_COMPILER_HIGH_LEVEL_CODE_GENERATOR) \
+#  $(MGNAT_COMPILER_LOW_LEVEL_CODE_GENERATOR)  \
+  $(MGNAT_TOOL_COMMON_LOW_LEVEL)              \
+  $(MGNAT_TOOL_JVM2ADA)                       \
+  $(MGNAT_TOOL_JVMLIST)                       \
+  $(MGNAT_TOOL_JVMSTRIP)                      \
+  $(MGNAT_TOOL_JARMAKE)
+
+# MGNAT specific versions of regular GNAT sources
+MGNAT_VERSION_OF_GNAT_SOURCES = \
+  jbackend.adb \
+  jdefault.adb \
+  jgettarg.ads
+
+# Low-level files used throughout MGNAT
+MGNAT_LOW_LEVEL = \
+  j_basics.ads j_basics.adb \
+  j_types.ads  j_types.adb
+
+# Low-level files used in the compiler
+MGNAT_COMPILER_LOW_LEVEL = \
+  j_stack.ads  j_stack.adb  \
+  j_string.ads j_string.adb \
+  j_table.ads  j_table.adb
+
+# The MGNAT code that traverses the GNAT tree to generate Java bytecode
+MGNAT_COMPILER_TREE_TRAVERSAL = \
+  jx_drive.ads jx_drive.adb \
+  jx_decl.ads  jx_decl.adb  \
+  jx_uplev.ads jx_uplev.adb \
+  jx_swtch.ads jx_swtch.adb \
+  jx_ch3.ads   jx_ch3.adb   \
+  jx_ch4.ads   jx_ch4.adb   \
+  jx_ch5.ads   jx_ch5.adb   \
+  jx_ch6.ads   jx_ch6.adb   \
+  jx_ch7.ads   jx_ch7.adb   \
+  jx_ch8.ads   jx_ch8.adb   \
+  jx_ch11.ads jx_ch11.adb   \
+  jx_ch12.ads jx_ch12.adb
+
+# High-level Java bytecode generator
+MGNAT_COMPILER_HIGH_LEVEL_CODE_GENERATOR = \
+  jvm.ads      jvm.adb      \
+  jvm-api.ads  jvm-api.adb  \
+  jvm-code.ads jvm-code.adb \
+  jvm-dbg.ads  jvm-dbg.adb  \
+  jvm-emit.ads jvm-emit.adb \
+  jvm-info.ads jvm-info.adb \
+  jvm-map.ads  jvm-map.adb  \
+  jvm-pool.ads jvm-pool.adb
+
+# Low-level bytecode class file generator
+MGNAT_COMPILER_LOW_LEVEL_CODE_GENERATOR = \
+  jvm_file.ads jvm_file.adb \
+  jvm_test.ads jvm_test.adb \
+  jvm_walk.ads jvm_walk.adb
+
+# Low-level files used in the tools
+MGNAT_TOOL_COMMON_LOW_LEVEL = \
+  j_utils.ads  j_utils.adb  \
+  j_zip.ads    j_zip.adb
+
+# jvm2ada sources
+MGNAT_TOOL_JVM2ADA = \
+  jvm2ada.ads  jvm2ada.adb  \
+  j_parser.ads j_parser.adb \
+  j_list.ads   j_list.adb   \
+  jvm_ada.ads  jvm_ada.adb
+
+# jvmlist sources
+MGNAT_TOOL_JVMLIST = \
+  jvm_view.ads jvm_view.adb \
+  jvmlist.ads  jvmlist.adb
+
+# jvmstrip sources
+MGNAT_TOOL_JVMSTRIP = \
+  jvmstrip.ads jvmstrip.adb
+
+# jarmake sources
+MGNAT_TOOL_JARMAKE = \
+  jarmake.ads jarmake.adb
+
+###############################################################
+# C Sources Needed by the MGNAT build for $(GNATMAKE_CUR_LIB) #
+###############################################################
+
+GNAT_C_HEADERS = \
+  a-ada.h    \
+  a-adaint.h \
+  a-raise.h  \
+  a-types.h
+
+GNAT_C_SRCS = \
+  a-adaint.c \
+  a-argv.c   \
+  a-cio.c    \
+  a-cstrea.c \
+  a-exit.c   \
+  a-final.c  \
+  a-init.c   \
+  a-link.c   \
+  a-raise.c  \
+  a-sysdep.c \
+  a-traceb.c
+
+###################################################
+# Names of the JAR Archives for the MGNAT Library #
+###################################################
+
+MGNAT_JAR = mgnat.jar
+# Contains the entire MGNAT Ada and Java library
+
+##############################
+# MGNAT Java Library Sources #
+##############################
+
+MGNAT_LIB_CS_SRCS = \
+  $(MGNAT_LIB_JAVA_SRCS_ACCESS_TO_ELEMENTARY_ADA_TYPES)       \
+  $(MGNAT_LIB_JAVA_SRCS_ADA_PREDEFINED_EXCEPTIONS)            \
+  $(MGNAT_LIB_JAVA_SRCS_ADA_PACKAGE_STANDARD)                 \
+  $(MGNAT_LIB_JAVA_SRCS_ADA_ACTIVATION_RECORD_INFRASTRUCTURE) \
+  $(MGNAT_LIB_JAVA_SRCS_ADA_OBJECT_IO_INFRASTRUCTURE)         \
+  $(MGNAT_LIB_JAVA_SRCS_ADA_STREAM_INFRASTRUCTURE)         \
+  $(MGNAT_LIB_JAVA_SRCS_ADA_TASKING_INFRASTRUCTURE)           \
+  $(MGNAT_LIB_JAVA_SRCS_SUBSET_C_LIBRARY_IMPLEMENTATION)
+
+# Java classes used when compiling Ada access to elementary types
+MGNAT_LIB_JAVA_SRCS_ACCESS_TO_ELEMENTARY_ADA_TYPES = \
+  Acc.cs \
+  Dbl.cs \
+  Flt.cs \
+  Int.cs \
+  Lng.cs
+
+# Ada's predefined exceptions expressed in terms of Java classes
+MGNAT_LIB_JAVA_SRCS_ADA_PREDEFINED_EXCEPTIONS = \
+  _abort_signal.cs    \
+  constraint_error.cs \
+  program_error.cs    \
+  storage_error.cs    \
+  tasking_error.cs
+
+# Java classes that would result from compiling Ada's package standard
+MGNAT_LIB_JAVA_SRCS_ADA_PACKAGE_STANDARD = \
+  standard\$$access_string.cs
+
+# Classes needed for the implementation of nested subprograms
+MGNAT_LIB_JAVA_SRCS_ADA_ACTIVATION_RECORD_INFRASTRUCTURE = \
+  Ada_AR.cs
+
+# Classes needed for the implementation of Direct_IO and Sequential_IO
+MGNAT_LIB_JAVA_SRCS_ADA_OBJECT_IO_INFRASTRUCTURE = \
+  Object_File.cs
+
+# Classes needed for the implementation of stream attributes and stream files
+MGNAT_LIB_JAVA_SRCS_ADA_STREAM_INFRASTRUCTURE = \
+  PushbackReader.cs  \
+  Prim_Input_Stream.cs  \
+  Prim_Output_Stream.cs \
+  Prim_Conversions.cs
+
+# Classes needed for the implementation of Ada tasking
+MGNAT_LIB_JAVA_SRCS_ADA_TASKING_INFRASTRUCTURE = \
+  ada_wrapper.cs
+
+# Subset implementation of the C library called by Ada library routines
+MGNAT_LIB_JAVA_SRCS_SUBSET_C_LIBRARY_IMPLEMENTATION = \
+  GNAT_libc.cs
+
+############################################
+# MGNAT Ada Library Sources - JVM Specific #
+############################################
+
+MGNAT_LIB_ADA_SRCS = \
+  $(MGNAT_LIB_3J_SRCS)            \
+  $(MGNAT_LIB_4J_SRCS)            \
+  $(MGNAT_LIB_4J_NO_COMPILE_SRCS) \
+  $(GNAT_LIB_4_SRCS)              \
+  $(MGNAT_LIB_5J_SRCS)            \
+  $(MGNAT_LIB_6J_SRCS)            \
+  $(MGNAT_LIB_JAVA_API_SRCS)
+
+# GNAT.* sources
+MGNAT_LIB_3J_SRCS = \
+  $(MGNAT_LIB_GNAT_EXCEPTIONS)
+
+# Ada.* sources
+MGNAT_LIB_4J_SRCS = \
+  $(MGNAT_LIB_ADA_EXCEPTIONS) \
+  $(MGNAT_LIB_ADA_CALENDAR) \
+  $(MGNAT_LIB_ADA_STREAM_IO) \
+  $(MGNAT_LIB_ADA_TAGS)
+
+# Ada.* generic sources
+MGNAT_LIB_4J_NO_COMPILE_SRCS = \
+  $(MGNAT_LIB_ADA_DIRECT_IO) \
+  $(MGNAT_LIB_ADA_SEQUENTIAL_IO)
+
+# Ada.* sources that are used for several targets including the JVM
+GNAT_LIB_4_SRCS = \
+  $(MGNAT_LIB_ADA_EXCEPTIONS_POOL)
+
+# System.* sources
+MGNAT_LIB_5J_SRCS = \
+  $(MGNAT_LIB_SYSTEM_ADDRESS_IMAGE)               \
+  $(MGNAT_LIB_SYSTEM_FINALIZATION_IMPLEMENTATION) \
+  $(MGNAT_LIB_SYSTEM_OS_INTERFACE)                \
+  $(MGNAT_LIB_SYSTEM_OS_PRIMITIVES)               \
+  $(MGNAT_LIB_SYSTEM_PARAMETERS)                  \
+  $(MGNAT_LIB_SYSTEM_POOL_GLOBAL)                 \
+  $(MGNAT_LIB_SYSTEM_POOL_LOCAL)                  \
+  $(MGNAT_LIB_SYSTEM_POOL_SIZE)                   \
+  $(MGNAT_LIB_SYSTEM_SECONDARY_STACK)             \
+  $(MGNAT_LIB_SYSTEM_STACK_CHECKING)              \
+  $(MGNAT_LIB_SYSTEM_STANDARD_LIBRARY)            \
+  $(MGNAT_LIB_SYSTEM_STORAGE_ELEMENTS)            \
+  $(MGNAT_LIB_SYSTEM_STREAM_ATTRIBUTES)           \
+  $(MGNAT_LIB_SYSTEM_TASK_PRIMITIVES_OPERATIONS)  \
+  $(MGNAT_LIB_SYSTEM_TASKING_DEBUG)               \
+  $(MGNAT_LIB_SYSTEM_TASK_PRIMITIVES)             \
+  $(MGNAT_LIB_SYSTEM_TASK_ATTRIBUTES)             \
+
+# Interfaces.* sources
+MGNAT_LIB_6J_SRCS = \
+  $(MGNAT_LIB_INTERFACES_C_STREAMS)
+
+
+# Exceptions
+MGNAT_LIB_GNAT_EXCEPTIONS     = \
+  3jexcept.ads
+MGNAT_LIB_ADA_CALENDAR      = \
+  4jcalend.ads 4jcalend.adb
+MGNAT_LIB_ADA_EXCEPTIONS      = \
+  4jexcept.ads 4jexcept.adb
+MGNAT_LIB_ADA_EXCEPTIONS_POOL = \
+  4wexcpol.adb
+
+# I/O
+MGNAT_LIB_ADA_DIRECT_IO       = \
+               4jdireio.adb
+MGNAT_LIB_ADA_SEQUENTIAL_IO   = \
+               4jsequio.adb
+MGNAT_LIB_ADA_STREAM_IO       = \
+               4jststio.adb
+
+# Storage Pools
+MGNAT_LIB_SYSTEM_POOL_GLOBAL = \
+               5jpooglo.adb
+MGNAT_LIB_SYSTEM_POOL_LOCAL  = \
+               5jpooloc.adb
+MGNAT_LIB_SYSTEM_POOL_SIZE   = \
+               5jpoosiz.adb
+
+# Tasking
+MGNAT_LIB_SYSTEM_OS_INTERFACE               = \
+  5josinte.ads
+MGNAT_LIB_SYSTEM_OS_PRIMITIVES              = \
+               5josprim.adb
+MGNAT_LIB_SYSTEM_PARAMETERS                 = \
+  5jparame.ads
+MGNAT_LIB_SYSTEM_TASK_PRIMITIVES_OPERATIONS = \
+               5jtaprop.adb
+MGNAT_LIB_SYSTEM_TASKING_DEBUG              = \
+               5jtasdeb.adb
+MGNAT_LIB_SYSTEM_TASK_PRIMITIVES            = \
+  5jtaspri.ads
+MGNAT_LIB_SYSTEM_TASK_ATTRIBUTES            = \
+               5jtataat.adb
+
+# Miscellaneous
+MGNAT_LIB_ADA_TAGS = \
+  4jtags.ads   4jtags.adb
+MGNAT_LIB_SYSTEM_ADDRESS_IMAGE = \
+               5jaddima.adb
+MGNAT_LIB_SYSTEM_FINALIZATION_IMPLEMENTATION = \
+  5jfinimp.ads 5jfinimp.adb
+MGNAT_LIB_SYSTEM_SECONDARY_STACK = \
+  5jsecsta.ads 5jsecsta.adb
+MGNAT_LIB_SYSTEM_STACK_CHECKING = \
+               5jstache.adb
+MGNAT_LIB_SYSTEM_STANDARD_LIBRARY = \
+  5jstalib.ads
+MGNAT_LIB_SYSTEM_STORAGE_ELEMENTS = \
+               5jstoele.adb
+MGNAT_LIB_SYSTEM_STREAM_ATTRIBUTES = \
+               5jstratt.adb
+MGNAT_LIB_INTERFACES_C_STREAMS = \
+               6jcstrea.adb
+
+# Bindings to the needed Java API classes
+# ??? Incorporate these in the [45]j*.ad? files that use them and the needed
+# ??? routines to GNAT_libc.java
+MGNAT_LIB_JAVA_API_SRCS = \
+  i-jalaob.ads \
+  i-jalasy.ads \
+  i-jalath.ads \
+  i-java.ads   \
+  i-javlan.ads \
+\
+  java.ads
+
+##################################################
+# MGNAT Ada Library Sources - Target Independent #
+##################################################
+
+# Library sources common with GNAT that should not be compiled because
+# they contain top-level generics, subunits, or package specs importing
+# every entity they define.
+GNAT_LIB_NOCOMPILE_SRCS = \
+  a-direio.ads a-direio.adb \
+  a-ngcefu.ads a-ngcefu.adb \
+  a-ngcoty.ads a-ngcoty.adb \
+  a-ngelfu.ads a-ngelfu.adb \
+  a-nudira.ads a-nudira.adb \
+  a-sequio.ads a-sequio.adb \
+  a-ticoio.ads a-ticoio.adb \
+  a-tideio.ads a-tideio.adb \
+  a-tienio.ads a-tienio.adb \
+  a-tifiio.ads a-tifiio.adb \
+  a-tiflio.ads a-tiflio.adb \
+  a-tiinio.ads a-tiinio.adb \
+  a-timoio.ads a-timoio.adb \
+  a-wtcoio.ads a-wtcoio.adb \
+  a-wtdeio.ads a-wtdeio.adb \
+  a-unccon.ads              \
+  a-uncdea.ads              \
+  a-wtcoio.ads a-wtcoio.adb \
+  a-wtenio.ads a-wtenio.adb \
+  a-wtfiio.ads a-wtfiio.adb \
+  a-wtflio.ads a-wtflio.adb \
+  a-wtinio.ads a-wtinio.adb \
+  a-wtmoio.ads a-wtmoio.adb \
+  directio.ads              \
+  sequenio.ads              \
+\
+  g-busorg.ads g-busorg.adb \
+  g-hesorg.ads g-hesorg.adb \
+\
+  i-cstrea.ads              \
+\
+  s-atacco.ads s-atacco.adb \
+  s-fatgen.ads s-fatgen.adb \
+\
+  unchconv.ads              \
+  unchdeal.ads
+
+# Sources common with GNAT that do not contain top level generics
+GNAT_LIB_SRCS = \
+  ada.ads                   \
+  a-caldel.ads a-caldel.adb \
+  a-chahan.ads a-chahan.adb \
+  a-charac.ads              \
+  a-chlat1.ads              \
+  a-colire.ads a-colire.adb \
+  a-comlin.ads a-comlin.adb \
+  a-cwila1.ads              \
+  a-decima.ads a-decima.adb \
+  a-dynpri.ads a-dynpri.adb \
+  a-filico.ads a-filico.adb \
+  a-finali.ads a-finali.adb \
+  a-flteio.ads              \
+  a-fwteio.ads              \
+  a-inteio.ads              \
+  a-ioexce.ads              \
+  a-iwteio.ads              \
+  a-lfteio.ads              \
+  a-lfwtio.ads              \
+  a-liteio.ads              \
+  a-liwtio.ads              \
+  a-llftio.ads              \
+  a-llfwti.ads              \
+  a-llitio.ads              \
+  a-lliwti.ads              \
+  a-ncelfu.ads              \
+  a-nlcefu.ads              \
+  a-nlcoty.ads              \
+  a-nlelfu.ads              \
+  a-nllcef.ads              \
+  a-nllcty.ads              \
+  a-nllefu.ads              \
+  a-nscefu.ads              \
+  a-nscoty.ads              \
+  a-nselfu.ads              \
+  a-nucoty.ads              \
+  a-nuelfu.ads              \
+  a-nuflra.ads a-nuflra.adb \
+  a-numaux.ads              \
+  a-numeri.ads              \
+  a-reatim.ads a-reatim.adb \
+  a-retide.ads a-retide.adb \
+  a-sfteio.ads              \
+  a-sfwtio.ads              \
+  a-siteio.ads              \
+  a-siwtio.ads              \
+  a-ssicst.ads a-ssicst.adb \
+  a-ssitio.ads              \
+  a-ssiwti.ads              \
+  a-stmaco.ads              \
+  a-strbou.ads a-strbou.adb \
+  a-stream.ads              \
+  a-strfix.ads a-strfix.adb \
+  a-string.ads              \
+  a-strmap.ads a-strmap.adb \
+  a-strsea.ads a-strsea.adb \
+  a-strunb.ads a-strunb.adb \
+  a-ststio.ads              \
+  a-stunau.ads a-stunau.adb \
+  a-stwibo.ads a-stwibo.adb \
+  a-stwifi.ads a-stwifi.adb \
+  a-stwima.ads a-stwima.adb \
+  a-stwise.ads a-stwise.adb \
+  a-stwiun.ads a-stwiun.adb \
+  a-suteio.ads a-suteio.adb \
+  a-swmwco.ads              \
+  a-swuwti.ads a-swuwti.adb \
+  a-sytaco.ads a-sytaco.adb \
+  a-taside.ads a-taside.adb \
+  a-teioed.ads a-teioed.adb \
+  a-textio.ads a-textio.adb \
+  a-ticoau.ads a-ticoau.adb \
+  a-tideau.ads a-tideau.adb \
+  a-tienau.ads a-tienau.adb \
+  a-tiflau.ads a-tiflau.adb \
+  a-tigeau.ads a-tigeau.adb \
+  a-tiinau.ads a-tiinau.adb \
+  a-timoau.ads a-timoau.adb \
+  a-titest.ads a-titest.adb \
+  a-witeio.ads a-witeio.adb \
+  a-wtcoau.ads a-wtcoau.adb \
+  a-wtdeau.ads a-wtdeau.adb \
+  a-wtedit.ads a-wtedit.adb \
+  a-wtenau.ads a-wtenau.adb \
+  a-wtflau.ads a-wtflau.adb \
+  a-wtgeau.ads a-wtgeau.adb \
+  a-wtinau.ads a-wtinau.adb \
+  a-wtmoau.ads a-wtmoau.adb \
+  a-wttest.ads a-wttest.adb \
+\
+  calendar.ads              \
+\
+  gnat.ads                  \
+  g-busora.ads g-busora.adb \
+  g-casuti.ads g-casuti.adb \
+  g-hesora.ads g-hesora.adb \
+  g-htable.ads g-htable.adb \
+  g-io_aux.ads g-io_aux.adb \
+  g-regexp.ads g-regexp.adb \
+  g-regpat.ads g-regpat.adb \
+  g-speche.ads g-speche.adb \
+  g-tasloc.ads g-tasloc.adb \
+\
+  interfac.ads              \
+  i-c.ads      i-c.adb      \
+\
+  ioexcept.ads              \
+\
+  system.ads                \
+  s-addima.ads              \
+  s-arit64.ads s-arit64.adb \
+  s-assert.ads s-assert.adb \
+  s-bitops.ads s-bitops.adb \
+  s-chepoo.ads              \
+  s-direio.ads s-direio.adb \
+  s-exnflt.ads              \
+  s-exngen.ads s-exngen.adb \
+  s-exnint.ads              \
+  s-exnlfl.ads              \
+  s-exnlin.ads              \
+  s-exnllf.ads              \
+  s-exnlli.ads              \
+  s-exnsfl.ads              \
+  s-exnsin.ads              \
+  s-exnssi.ads              \
+  s-expflt.ads              \
+  s-expgen.ads s-expgen.adb \
+  s-expint.ads              \
+  s-explfl.ads              \
+  s-explin.ads              \
+  s-expllf.ads              \
+  s-explli.ads              \
+  s-expllu.ads s-expllu.adb \
+  s-expmod.ads s-expmod.adb \
+  s-expsfl.ads              \
+  s-expsin.ads              \
+  s-expssi.ads              \
+  s-expuns.ads s-expuns.adb \
+  s-fatflt.ads              \
+  s-fatlfl.ads              \
+  s-fatllf.ads              \
+  s-fatsfl.ads              \
+  s-ficobl.ads              \
+  s-fileio.ads s-fileio.adb \
+  s-finroo.ads s-finroo.adb \
+  s-fore.ads   s-fore.adb   \
+  s-imgbiu.ads s-imgbiu.adb \
+  s-imgboo.ads s-imgboo.adb \
+  s-imgcha.ads s-imgcha.adb \
+  s-imgdec.ads s-imgdec.adb \
+  s-imgint.ads s-imgint.adb \
+  s-imgllb.ads s-imgllb.adb \
+  s-imglld.ads s-imglld.adb \
+  s-imglli.ads s-imglli.adb \
+  s-imgllu.ads s-imgllu.adb \
+  s-imgllw.ads s-imgllw.adb \
+  s-imgrea.ads s-imgrea.adb \
+  s-imguns.ads s-imguns.adb \
+  s-imgwch.ads s-imgwch.adb \
+  s-imgwiu.ads s-imgwiu.adb \
+  s-io.ads     s-io.adb     \
+  s-mantis.ads s-mantis.adb \
+  s-osprim.ads              \
+  s-parame.adb              \
+  s-pooglo.ads              \
+  s-pooloc.ads              \
+  s-poosiz.ads              \
+  s-powtab.ads              \
+  s-proinf.ads s-proinf.adb \
+  s-rpc.ads    s-rpc.adb    \
+  s-sequio.ads s-sequio.adb \
+  s-soflin.ads s-soflin.adb \
+  s-sopco3.ads s-sopco3.adb \
+  s-sopco4.ads s-sopco4.adb \
+  s-sopco5.ads s-sopco5.adb \
+  s-stache.ads              \
+               s-stalib.adb \
+  s-stoele.ads              \
+  s-stopoo.ads              \
+  s-stratt.ads              \
+  s-strops.ads s-strops.adb \
+  s-taasde.ads s-taasde.adb \
+  s-tadeca.ads s-tadeca.adb \
+  s-tadert.ads s-tadert.adb \
+  s-taenca.ads s-taenca.adb \
+  s-taprob.ads s-taprob.adb \
+  s-taprop.ads              \
+  s-tarest.ads s-tarest.adb \
+  s-tasdeb.ads              \
+  s-tasinf.ads s-tasinf.adb \
+  s-tasini.ads s-tasini.adb \
+  s-taskin.ads s-taskin.adb \
+  s-tasque.ads s-tasque.adb \
+  s-tasren.ads s-tasren.adb \
+  s-tasres.ads              \
+  s-tassta.ads s-tassta.adb \
+  s-tasuti.ads s-tasuti.adb \
+  s-tataat.ads              \
+  s-tpoben.ads s-tpoben.adb \
+  s-tpobop.ads s-tpobop.adb \
+  s-tposen.ads s-tposen.adb \
+  s-unstyp.ads              \
+  s-valboo.ads s-valboo.adb \
+  s-valcha.ads s-valcha.adb \
+  s-valdec.ads s-valdec.adb \
+  s-valenu.ads s-valenu.adb \
+  s-valint.ads s-valint.adb \
+  s-vallld.ads s-vallld.adb \
+  s-vallli.ads s-vallli.adb \
+  s-valllu.ads s-valllu.adb \
+  s-valrea.ads s-valrea.adb \
+  s-valuns.ads s-valuns.adb \
+  s-valuti.ads s-valuti.adb \
+  s-valwch.ads s-valwch.adb \
+  s-vercon.ads s-vercon.adb \
+  s-wchcnv.ads s-wchcnv.adb \
+  s-wchcon.ads              \
+  s-wchjis.ads s-wchjis.adb \
+  s-wchstw.ads s-wchstw.adb \
+  s-wchwts.ads s-wchwts.adb \
+  s-widboo.ads s-widboo.adb \
+  s-widcha.ads s-widcha.adb \
+  s-widenu.ads s-widenu.adb \
+  s-widlli.ads s-widlli.adb \
+  s-widllu.ads s-widllu.adb \
+  s-widwch.ads s-widwch.adb \
+  s-wwdcha.ads s-wwdcha.adb \
+  s-wwdenu.ads s-wwdenu.adb \
+  s-wwdwch.ads s-wwdwch.adb \
+\
+  text_io.ads
+
+# List of inapplicable, unsupported, or unimplemented library units
+#
+# a-astaco.ads a-astaco.adb   # Asynchronous Task Control (unsupported)
+# a-colien.ads a-colien.adb   # Command Line Environment (C imports)
+# a-diocst.ads a-diocst.adb   # Direct_IO.C_Streams (direct I/O unsupported)
+# a-exctra.ads a-exctra.adb   # Exceptions.Traceback (unsupp/inapp)
+# a-interr.ads a-interr.adb   # Interrupts (unsupp/inapp)
+# a-intnam.ads                # Interrupts.Names (unsupp/inapp)
+# a-siocst.ads a-siocst.adb   # Sequential_IO.C_Streams (Seq. I/O unsupported)
+# a-storio.ads a-storio.adb   # Storage_IO (unsupported)
+# a-tasatt.ads a-tasatt.adb   # Task_Attributes (unsupported)
+# a-tiocst.ads a-tiocst.adb   # Text_IO.C_Streams (unsupported)
+# a-wtcstr.ads a-wtcstr.adb   # Wide_Text_IO.C_Streams (unsupported)
+#
+# g-calend.ads g-calend.adb   # Calendar (unimplemented, C imports)
+# g-catiio.ads g-catiio.adb   # Calendar.Time_IO (unsupported)
+# g-comlin.ads g-comlin.adb   # Command_Line (unimplemented, C imports)
+# g-curexc.ads                # Current_Exception (unimp, intrinsic imports)
+# g-debpoo.ads g-debpoo.adb   # Debug_Pools (unimplemented, C imports)
+# g-debuti.ads g-debuti.adb   # Debug_Utilities (unsupp/inapp)
+# g-dirope.ads g-dirope.adb   # Directory_Operations (unimplemented, C imports)
+# g-flocon.ads                # Float_Control (unsupp/inapp, C import)
+# g-io.ads     g-io.adb       # IO (unimplemented, C imports)
+# g-locfil.ads g-locfil.adb   # Lock_Files (unimplemented, C imports)
+# g-os_lib.ads g-os_lib.adb   # OS_Lib (unimplemented, C imports)
+# g-spipat.ads g-spipat.adb   # Spitbol.Patterns (unsupported)
+# g-spipat.ads g-spipat.adb   # Spitbol (unsupported, uses g-io, g-debuti)
+# g-sptabo.ads                # Spitbol.Table_Boolean (unsupported)
+# g-sptain.ads                # Spitbol.Table_Integer (unsupported)
+# g-sptavs.ads                # Spitbol.Table_Vstring (unsupported)
+# g-table.ads  g-table.adb    # Table (unsupported, C imports)
+# g-thread.ads g-thread.adb   # Threads (unsupported, compile-time bomb)
+# g-traceb.ads g-traceb.adb   # Traceback (unsupported)
+# g-trasym.ads g-trasym.adb   # Traceback.Symbolic (unsupported, C import)
+#
+# i-cexten.ads                # C.Extensions (unsupported)
+# i-cobol.ads  i-cobol.adb    # COBOL (unsupported/inapplicable)
+# i-cpoint.ads i-cpoint.adb   # C.Pointers (unsupported/inapplicable)
+# i-cpp.ads    i-cpp.adb      # CPP (unsupported)
+# i-csthre.ads i-csthre.adb   # C.Sthreads (unsupported)
+# i-cstrin.ads i-cstrin.adb   # C.Strings (unsupported/inapplicable)
+# i-fortra.ads i-fortra.adb   # Fortran (unsupported/inapplicable)
+# i-os2err.ads                # OS2Lib.Errors (unsupported/inapplicable)
+# i-os2lib.ads i-os2lib.adb   # OS2Lib (unsupported/inapplicable)
+# i-os2syn.ads                # OS2Lib.Synchronization (unsupp/inapp)
+# i-os2thr.ads                # OS2Lib.Threads (unsupp/inapp)
+# i-pacdec.ads i-pacdec.adb   # Packed_Decimal (unimplemented)
+# i-vxwork.ads                # VxWorks (unsupported/inapplicable)
+#
+# s-addima.ads a-addima.adb   # Address_Image (unsupp/inapp)
+# s-asthan.ads s-asthan.adb   # AST_Handling (DEC package, inapp)
+# s-auxdec.ads s-auxdec.adb   # Aux_DEC (DEC package, inapp)
+# s-debpoo.ads s-debpoo.adb   # Debug_Pools (unsupported)
+# s-errrep.ads s-errrep.adb   # Error_Reporting (unsupported, C imports)
+# s-inmaop.ads                # Interrupt_Management.Operations (unsupp/inapp)
+# s-interr.ads s-interr.adb   # Interrupts (unsupp/inapp)
+# s-intman.ads                # Interrupt_Management (unsupp/inapp)
+# s-maccod.ads                # Machine_Code (unsupp/inapp)
+# s-mastop.ads s-mastop.adb   # Machine_State_Operations (unsupp/inapp)
+# s-pack??.ads s-pack??.adb   # Pack_03-Pack_63 (packed arrays unsupported)
+# s-parint.ads s-parint.adb   # Partition_Interface (unsupported)
+#
+# NOTE: We currently provide dummy bodies for the following three
+# pool-related run-time packages. The front end needs these to be
+# present for checking purpsose even when using storage pools that
+# do not depend on them.
+#
+# s-pooglo.ads s-pooglo.adb   # Pool_Global (unimplemented, C imports)
+# s-pooloc.ads s-pooloc.adb   # Pool_Local (unimplemented, C imports)
+# s-poosiz.ads s-poosiz.adb   # Pool_Size (unimplemented, compile-time bomb)
+#
+# s-shamem.ads s-shamem.adb   # Shared_Memory (unsupp, depends on g-oslib)
+# s-tpinop.ads s-tpinop.adb   # Task_Prims.Interrupt_Ops (unsupp/inapp)
+# s-traceb.ads s-traceb.adb   # Traceback (unsupp/inapp)
+# s-vaflop.ads s-vaflop.adb   # Vax_Float_Operations (DEC package, uses s-io)
+# s-vmexta.ads s-vmexta.adb   # VMS_Exception_Table (VMS package, inapp)
+
+# The following files in the GNAT should NOT be part of the MGNAT library
+GNAT_LIB_SRCS_TO_EXCLUDE = \
+               a-excpol.adb \
+\
+  s-except.ads              \
+  s-exctab.ads s-exctab.adb
+
+# This list should be empty. These are the unwanted GNAT library sources that
+# made it into MGNAT by mistake.
+UNWANTED_GNAT_LIB_SRCS = \
+  ${filter $(GNAT_LIB_SRCS_TO_EXCLUDE),$(GNAT_LIB_NOCOMPILE_SRCS)} \
+  ${filter $(GNAT_LIB_SRCS_TO_EXCLUDE),$(GNAT_LIB_SRCS)}
+
+#############################
+# Internal Makefile Targets #
+#############################
+
+print_vars :
+	@$(ECHO) "************************************************************"
+	@$(ECHO) "*"
+	@$(ECHO) "*  BUILD_DIR          =" $(BUILD_DIR)
+	@$(ECHO) "*  GNAT_DIR           =" $(GNAT_DIR)
+	@$(ECHO) "*"
+	@$(ECHO) "*  MGNAT_DIR          =" $(MGNAT_DIR)
+	@$(ECHO) "*  INSTALL_BASE       =" $(INSTALL_BASE)
+	@$(ECHO) "*"
+	@$(ECHO) "*  DEBUG_MGNAT        =" $(DEBUG_MGNAT)
+	@$(ECHO) "*  JDK11_LIB          =" $(JDK11_LIB)
+	@$(ECHO) "*"
+	@$(ECHO) "*  VERSION            =" $(VERSION)
+	@$(ECHO) "*  HOST               =" $(HOST)
+	@$(ECHO) "*  TGZ                =" $(TGZ)
+	@$(ECHO) "*  ACT_ICON           =" $(ACT_ICON)
+	@$(ECHO) "*  CHECKOUT_EXAMPLES  =" $(CHECKOUT_EXAMPLES)
+	@$(ECHO) "*"
+	@$(ECHO) "*  EXE                =" $(EXE)
+	@$(ECHO) "*"
+	@$(ECHO) "************************************************************"
+
+###################
+# Makefile Checks #
+###################
+
+check_vars :
+	@if [ -z "$(BUILD_DIR)" ]; then \
+	    $(ERROR) You must set the BUILD_DIR variable;         $(FAIL); fi
+	@if [ -z "$(GNAT_DIR)" ]; then \
+	    $(ERROR) You must set the GNAT_DIR variable;          $(FAIL); fi
+	@if [ ! -f $(GNAT_DIR)/sem.ads ]; then \
+	    $(ERROR) Cannot find GNAT sources in $(GNAT_DIR);     $(FAIL); fi
+        @if [ -z "$(MGNAT_DIR)" ]; then \
+            $(ERROR) You must set the MGNAT_DIR variable;         $(FAIL); fi
+	@if [ ! -f $(MGNAT_DIR)/jvm.ads ]; then \
+            $(ERROR) Cannot find MGNAT sources in $(MGNAT_DIR);   $(FAIL); fi
+	@if [ ! -z "${strip $(UNWANTED_GNAT_LIB_SRCS)}" ]; then \
+            $(ERROR) Unwanted $(UNWANTED_GNAT_LIB_SRCS) in MGNAT; $(FAIL); fi
+
+VERSION_FOUND = \
+  ${findstring $(VERSION), ${shell fgrep $(VERSION) $(GNAT_DIR)/gnatvsn.ads}}
+
+check_release_vars :
+	@if [ -z "$(VERSION_FOUND)" ]; then \
+	    $(ERROR) wrong $(GNAT_DIR)/gnatvsn.ads version;       $(FAIL); fi
+	@if [ ! -z "$(DEBUG_MGNAT)" ]; then \
+            $(ERROR) DEBUG_MGNAT must be empty to build release;  $(FAIL); fi
+
+########################
+# Checking Out Sources #
+########################
+
+co :
+	@$(CO) $(MGNAT_DOCS);
+	@$(CO) $(MGNAT_H_SRCS);
+	@$(CO) $(MGNAT_C_SRCS);
+	@$(CO) $(MGNAT_ADA_SRCS);
+	@$(CO) $(MGNAT_LIB_JAVA_SRCS);
+	@$(CO) $(MGNAT_LIB_ADA_SRCS)
+
+##################################
+# Creating the Build Directories #
+##################################
+
+create_bin_dirs :
+	@if [ -z "$(BUILD_DIR)" ]; then \
+	    $(ERROR) You must set the BUILD_DIR variable; $(FAIL); fi
+	test -d $(BIN)  || $(MKDIR) $(BIN)
+	test -d $(OBJ)  || $(MKDIR) $(OBJ)
+	test -d $(OBJS) || $(MKDIR) $(OBJS)
+
+create_lib_dirs :
+	@if [ -z "$(BUILD_DIR)" ]; then \
+	    $(ERROR) You must set the BUILD_DIR variable; $(FAIL); fi
+	test -d $(ADAINCLUDE) || $(MKDIR) $(ADAINCLUDE)
+	test -d $(ADALIB)     || $(MKDIR) $(ADALIB)
+
+########################################
+# Rules to Build the MGNAT Executables #
+########################################
+a-adaint.o: a-adaint.c
+	($(CD) $(GNAT_DIR); \
+         gcc -c a-adaint.c )
+
+mgnat : mgnat_cur_lib_prerequisites a-adaint.o
+	( $(CD) $(OBJ);                                      \
+          $(GNATMAKE_CUR_LIB) -o $(BIN)/mgnat$(EXE) gnat1drv    \
+			      -largs $(GNAT_DIR)/a-adaint.o $(STRIP) $(LINK_FLAGS)  )
+
+$(MGNAT_CUR_LIB_TOOLS) : mgnat_cur_lib_prerequisites a-adaint.o
+	( $(CD) $(OBJ);                                      \
+          $(GNATMAKE_CUR_LIB) -o $(BIN)/$@$(EXE) ${@:mg%=g%} \
+			      -largs $(GNAT_DIR)/a-adaint.o $(STRIP) $(LINK_FLAGS)  )
+
+mgnat_cur_lib_prerequisites : gen_cur_lib_srcs
+#mgnat_cur_lib_prerequisites : gen_cur_lib_srcs gen_cur_lib_c_objects
+
+$(MGNAT_STD_TOOLS) : mgnat_std_prerequisites a-adaint.o
+	( $(CD) $(OBJS);                                                 \
+          $(GNATMAKE_STD) -o $(BIN)/$@$(EXE) ${@:mg%=g%} -largs $(GNAT_DIR)\a-adaint.o $(STRIP) )
+
+mgnat_std_prerequisites : gen_std_srcs
+
+##################################################################
+# Target-dependent Ada & C sources needed by $(GNATMAKE_CUR_LIB) #
+##################################################################
+
+GNAT_SRCS_TO_PATCH = \
+  ali.adb      \
+  comperr.adb  \
+  hostparm.ads \
+  lib-writ.adb \
+  makeusg.adb  \
+  osint.adb    \
+  par-ch10.adb
+
+gen_cur_lib_srcs : $(OBJ)/treeprs.ads  $(OBJ)/nmake.ads    \
+\
+           ${GNAT_SRCS_TO_PATCH:%=$(OBJ)/%}        \
+\
+           $(OBJ)/back_end.adb $(OBJ)/get_targ.ads \
+           $(OBJ)/sdefault.adb                     \
+\
+           $(OBJ)/config.h
+
+
+# Rules to build treeprs.adb & nmake.adb
+
+$(OBJ)/treeprs.ads  : $(GNAT_DIR)/xtreeprs.adb \
+                      $(GNAT_DIR)/treeprs.adt  \
+                      $(GNAT_DIR)/sinfo.ads
+	$(CP) $? $(OBJ); $(CD) $(OBJ); gnatmake xtreeprs; ./xtreeprs
+
+$(OBJ)/nmake.ads    : $(GNAT_DIR)/xnmake.adb   \
+                      $(GNAT_DIR)/nmake.adt    \
+                      $(GNAT_DIR)/sinfo.ads
+	$(CP) $? $(OBJ); $(CD) $(OBJ); gnatmake xnmake; ./xnmake
+
+
+# GNAT sources to patch
+
+$(OBJ)/hostparm.ads : $(GNAT_DIR)/hostparm.ads
+	$(SED) -e "s/Java_VM :.*;/Java_VM : constant Boolean := True;/" $< > $@
+
+# GNAT uses variables "save_argc" and "save_argv" defined in GCC's "toplev.c".
+# These variables are used to retrieve the command line that was input to GNAT
+# so that GNAT can output it to .ali files. Because MGNAT does not use
+# "toplev.c", the equivalent variables that must be used by MGNAT are
+# "gnat_argc" and "gnat_argv" which are defined in a-argv.c.
+
+$(OBJ)/lib-writ.adb : $(GNAT_DIR)/lib-writ.adb
+	$(SED) -e "s/(C, save_argv);/(C, save_argv, \"gnat_argv\");/" \
+	       -e "s/(C, save_argc);/(C, save_argc, \"gnat_argc\");/" $< > $@
+
+$(OBJ)/osint.adb : $(GNAT_DIR)/osint.adb
+	$(SED) -e "s/\"Get_Libraries_From_Registry\");/\
+                  \"MGNAT_Get_Libraries_From_Registry\");/" $< > $@
+
+$(OBJ)/ali.adb      : $(GNAT_DIR)/ali.adb
+	$(SED) -e "s/gcc/mgnat/" $< > $@
+$(OBJ)/comperr.adb : $(GNAT_DIR)/comperr.adb
+	$(SED) -e "s/gcc/mgnat/" \
+	       -e "s/README.GNATPRO/the MGNAT readme/" $< > $@
+$(OBJ)/makeusg.adb  : $(GNAT_DIR)/makeusg.adb
+	$(SED) -e "s/gcc/mgnat/" $< > $@
+$(OBJ)/par-ch10.adb : $(GNAT_DIR)/par-ch10.adb
+	$(SED) -e "s/gcc/mgnat/" $< > $@
+
+
+# MGNAT specific file replacements
+
+$(OBJ)/back_end.adb : $(MGNAT_DIR)/jbackend.adb
+	$(CP) $< $@
+$(OBJ)/get_targ.ads : $(MGNAT_DIR)/jgettarg.ads
+	$(CP) $< $@
+$(OBJ)/sdefault.adb : $(MGNAT_DIR)/jdefault.adb
+	$(CP) $< $@
+
+
+# C headers needed when compiling $(GNAT_C_SRCS)
+
+$(OBJ)/config.h     : $(MGNAT_DIR)/jconfig.h
+	$(CP) $< $@
+$(OBJ)/tree.h       :
+	$(TOUCH) $@
+$(OBJ)/defaults.h   :
+	$(TOUCH) $@
+
+##############################################################
+# Target-dependent Ada & C sources needed by $(GNATMAKE_STD) #
+##############################################################
+
+gen_std_srcs : $(OBJS)/get_targ.ads $(OBJS)/sdefault.adb
+
+# MGNAT specific file replacements
+
+$(OBJS)/get_targ.ads : $(MGNAT_DIR)/jgettarg.ads
+	$(CP) $< $@
+$(OBJS)/sdefault.adb : $(MGNAT_DIR)/jdefault.adb
+	$(CP) $< $@
+
+#########################################################################
+# Rules to generate the C objects needed to build the MGNAT executables #
+#########################################################################
+
+MGNAT_C_OBJS = ${MGNAT_C_SRCS:%.c=$(OBJ)/%.o}
+GNAT_C_OBJS  = ${GNAT_C_SRCS:%.c=$(OBJ)/%.o}
+
+gen_cur_lib_c_objects : $(MGNAT_C_OBJS) $(GNAT_C_OBJS)
+
+${GNAT_C_OBJS} : $(OBJ)/%.o : $(GNAT_DIR)/%.c ${GNAT_C_HEADERS:%=$(GNAT_DIR)/%}
+	$(CD) $(OBJ); $(GCC) -I. -I$(GNAT_DIR)/ $<
+
+${MGNAT_C_OBJS} : $(OBJ)/%.o : $(MGNAT_DIR)/%.c
+	$(CD) $(OBJ); $(GCC) -I. -I$(MGNAT_DIR)/ $<
+
+####################################################
+# Rules to Build the Ada Part of the MGNAT Library #
+####################################################
+
+MGNAT_ADAINCLUDE_COMPILE = \
+  ${MGNAT_LIB_3J_SRCS:3j%=g-%} \
+  ${MGNAT_LIB_4J_SRCS:4j%=a-%} \
+  ${MGNAT_LIB_5J_SRCS:5j%=s-%} \
+  ${MGNAT_LIB_6J_SRCS:6j%=i-%} \
+  $(MGNAT_LIB_JAVA_API_SRCS)   \
+  $(GNAT_LIB_SRCS)
+
+MGNAT_ADAINCLUDE_UNIT_NAMES = ${sort ${basename $(MGNAT_ADAINCLUDE_COMPILE)}}
+MGNAT_ADALIB_ALI_FILES      = ${MGNAT_ADAINCLUDE_UNIT_NAMES:%=%.ali}
+
+ada_lib : clean_lib cp_lib_srcs
+	$(CP) $(MGNAT_DIR)/jMakefile $(ADALIB)/Makefile
+	$(CP) $(MGNAT_DIR)/a-aaaaaa.il $(ADALIB)/a-aaaaaa.il
+	$(MAKE) -C $(ADALIB) BUILD_DIR=$(BUILD_DIR) GNAT_DIR=$(GNAT_DIR) alis
+	$(RM) $(ADALIB)/Makefile
+	$(READONLY) $(ADALIB)/*.ali
+
+cp_lib_srcs :
+	$(CD) $(GNAT_DIR);   $(CP) $(GNAT_LIB_NOCOMPILE_SRCS) $(ADAINCLUDE)
+	( $(CD) $(ADAINCLUDE);                                              \
+	  for src in $(MGNAT_LIB_3J_SRCS); do                               \
+	     $(CP) $(MGNAT_DIR)/$$src `$(ECHO) $$src | $(SED) 's/^3j/g-/'`; \
+	  done;                                                             \
+	  for src in $(MGNAT_LIB_4J_SRCS); do                               \
+	     $(CP) $(MGNAT_DIR)/$$src `$(ECHO) $$src | $(SED) 's/^4j/a-/'`; \
+	  done;                                                             \
+	  for src in $(MGNAT_LIB_4J_NO_COMPILE_SRCS); do                    \
+	     $(CP) $(MGNAT_DIR)/$$src `$(ECHO) $$src | $(SED) 's/^4j/a-/'`; \
+	  done;                                                             \
+	  for src in $(MGNAT_LIB_5J_SRCS); do                               \
+	     $(CP) $(MGNAT_DIR)/$$src `$(ECHO) $$src | $(SED) 's/^5j/s-/'`; \
+	  done;                                                             \
+	  for src in $(MGNAT_LIB_6J_SRCS); do                               \
+	     $(CP) $(MGNAT_DIR)/$$src `$(ECHO) $$src | $(SED) 's/^6j/i-/'`; \
+	  done;                                                             \
+	)
+	( $(CD) $(ADAINCLUDE);                                              \
+	  for src in $(GNAT_LIB_4_SRCS); do                                 \
+	    $(CP) $(GNAT_DIR)/$$src  `$(ECHO) $$src | $(SED) 's/^4./a-/'`;  \
+	  done;                                                             \
+	)
+	$(CD) $(MGNAT_DIR);  $(CP) $(MGNAT_LIB_JAVA_API_SRCS) $(ADAINCLUDE)
+	$(CD) $(GNAT_DIR);   $(CP) $(GNAT_LIB_SRCS)           $(ADAINCLUDE)
+
+alis : $(MGNAT_ADALIB_ALI_FILES)
+
+%.ali : $(ADAINCLUDE)/%.adb  $(ADAINCLUDE)/%.ads
+        $(MGNAT) -I$(ADAINCLUDE) $<
+
+%.ali : $(ADAINCLUDE)/%.ads
+        $(MGNAT) -I$(ADAINCLUDE) $<
+
+#####################################################
+# Rules to Build the Java Part of the MGNAT Library #
+#####################################################
+
+java_lib :
+	$(CD) $(MGNAT_DIR); $(CP) $(ADALIB)/mgnat.dll .
+	$(CD) $(MGNAT_DIR); $(CSC) /debug /t:module /out:mgnatcs.netmodule /R:mgnat.dll $(MGNAT_LIB_CS_SRCS)
+	al /target:lib /out:mgnatcs.dll /keyfile:$(DLL_DIR)/TestKey.snk mgnatcs.netmodule
+	$(CP) mgnat.dll mgnatcs.dll mgnatcs.netmodule $(DLL_DIR)
+	$(CD) $(DLL_DIR); ./register_mgnat.bat
+
+############################################
+# Rules to Build the Final MGNAT JAR files #
+############################################
+
+# On Windows systems you must call jar from the Windows shell (cmd.exe)
+# rather than sh, otherwise jar skips some *.class files.
+jar_files :
+	$(ECHO) "no jar file needed"
+
+###########################################
+# MGNAT Installation: create_install_dirs #
+###########################################
+
+create_install_dirs :
+	test -d $(INSTALL_BIN)        || $(MKDIR) $(INSTALL_BIN)
+	test -d $(INSTALL_ADAINCLUDE) || $(MKDIR) $(INSTALL_ADAINCLUDE)
+	test -d $(INSTALL_ADALIB)     || $(MKDIR) $(INSTALL_ADALIB)
+	test -d $(INSTALL_INC)        || $(MKDIR) $(INSTALL_INC)
+	test -d $(INSTALL_SRC)        || $(MKDIR) $(INSTALL_SRC)
+
+##############################
+# MGNAT Installation: cp_bin #
+##############################
+
+BIN_DOTLESS         = ${shell $(CD) $(BIN);         $(PWD)}
+INSTALL_BIN_DOTLESS = ${shell $(CD) $(INSTALL_BIN); $(PWD)}
+
+cp_bin :
+	if [ "$(BIN_DOTLESS)" != "$(INSTALL_BIN_DOTLESS)" ]; then        \
+	   $(CD) $(INSTALL_BIN); $(RM) $(HOST_TOOLS_EXE);                \
+	   $(CD) $(BIN);         $(CP) $(HOST_TOOLS_EXE) $(INSTALL_BIN); \
+	fi
+
+##############################
+# MGNAT Installation: cp_lib #
+##############################
+
+LIB_DOTLESS         = ${shell $(CD) $(LIB);         $(PWD)}
+INSTALL_LIB_DOTLESS = ${shell $(CD) $(INSTALL_LIB); $(PWD)}
+
+cp_lib :
+	if [ "$(LIB_DOTLESS)" != "$(INSTALL_LIB_DOTLESS)" ]; then \
+	   $(RM) $(INSTALL_ADAINCLUDE)/*;                         \
+	   $(RM) $(INSTALL_ADALIB)/*;                             \
+	   $(RM) $(INSTALL_LIB)/*.jar;                            \
+	   $(CP) $(ADAINCLUDE)/*        $(INSTALL_ADAINCLUDE);    \
+	   $(CP) $(ADALIB)/*            $(INSTALL_ADALIB);        \
+	fi
+	cmd /c "gacutil /if $(DLL_DOS_DIR)\mgnat.dll"
+	cmd /c "gacutil /if $(DLL_DOS_DIR)\mgnatcs.dll"
+
+##############################
+# MGNAT Installation: cp_inc #
+##############################
+
+INC_DOTLESS         = ${shell $(CD) $(INC);         $(PWD)}
+INSTALL_INC_DOTLESS = ${shell $(CD) $(INSTALL_INC); $(PWD)}
+
+cp_inc :
+	if [ "$(INC_DOTLESS)" != "$(INSTALL_INC_DOTLESS)" ]; then \
+	   $(RM) $(INSTALL_INC)/*.jar;                            \
+	   $(CP) $(INC)/*        $(INSTALL_INC);    \
+	fi
+
+#####################################################
+# Rules to Copy the MGNAT Sources in $(INSTALL_SRC) #
+#####################################################
+
+MGNAT_DEPS = ${foreach tool,                                   \
+                gnat1drv $(MGNAT_CUR_LIB_TOOLS:mgnat%=gnat%),  \
+		${shell $(CD) $(OBJ); $(GNATMAKE_CUR_LIB) -M $(tool)}} \
+             ${foreach tool, $(MGNAT_STD_TOOLS:mgnat%=gnat%),  \
+		${shell $(CD) $(OBJS); $(GNATMAKE_STD) -M $(tool)}}
+# List of all MGNAT dependencies for the compiler and $(MGNAT_HOST_TOOLS)
+
+MGNAT_ALL_SRCS = ${sort ${notdir ${filter $(GNAT_DIR)/%,$(MGNAT_DEPS)}}}
+# List of all the sources needed by MGNAT
+
+MGNAT_GNAT_SRCS = ${filter-out $(MGNAT_ADA_SRCS),$(MGNAT_ALL_SRCS)}
+# Eliminate from the above list the sources that are only MGNAT specific
+
+# Sources common to both GNAT and MGNAT
+GNAT_SRCS = \
+  sinfo.ads             \
+  nmake.adt             \
+  treeprs.adt           \
+  xtreeprs.adb          \
+  xnmake.adb            \
+  $(GNAT_SRCS_TO_PATCH) \
+  $(MGNAT_GNAT_SRCS)
+
+GNAT_DIR_DOTLESS    = ${shell $(CD) $(GNAT_DIR);    $(PWD)}
+INSTALL_SRC_DOTLESS = ${shell $(CD) $(INSTALL_SRC); $(PWD)}
+
+cp_srcs : $(INSTALL_BASE)/$(INSTALL_HOME)-README.txt
+	if [ "$(GNAT_DIR_DOTLESS)" != "$(INSTALL_SRC_DOTLESS)" ]; then \
+	   $(RM) $(INSTALL_SRC)/*;                                     \
+	   ( $(CD) $(GNAT_DIR);                                        \
+	     $(CP) COPYING                    $(INSTALL_SRC);          \
+	     $(CP) $(GNAT_SRCS)               $(INSTALL_SRC);          \
+	     $(CP) $(GNAT_C_HEADERS)          $(INSTALL_SRC);          \
+	     $(CP) $(GNAT_C_SRCS)             $(INSTALL_SRC);          \
+	     $(CP) $(GNAT_LIB_NOCOMPILE_SRCS) $(INSTALL_SRC);          \
+	     $(CP) $(GNAT_LIB_SRCS)           $(INSTALL_SRC);          \
+	   );                                                          \
+           ( $(CD) $(MGNAT_DIR);                                       \
+             $(CP) $(MGNAT_H_SRCS)            $(INSTALL_SRC);          \
+             $(CP) $(MGNAT_C_SRCS)            $(INSTALL_SRC);          \
+             $(CP) $(MGNAT_ADA_SRCS)          $(INSTALL_SRC);          \
+             $(CP) $(MGNAT_LIB_JAVA_SRCS)     $(INSTALL_SRC);          \
+             $(CP) $(MGNAT_LIB_ADA_SRCS)      $(INSTALL_SRC);          \
+	     $(CP) jMakefile                  $(INSTALL_SRC);          \
+             $(CP) $(MGNAT_DOCS)              $(INSTALL_SRC);          \
+	   )                                                           \
+	fi
+
+$(INSTALL_BASE)/$(INSTALL_HOME)-README.txt : $(MGNAT_DIR)/mgnatdoc.txt
+	$(SED) -e "s/<version>/$(VERSION)/"  $< > $@
+
+$(INSTALL_SRC)/Makefile : $(MGNAT_DIR)/jMakefile
+	$(SED) -e "s/^BUILD_DIR =/BUILD_DIR = \$${shell pwd}\/../"       \
+	       -e "s/^GNAT_DIR =/GNAT_DIR = \$${shell pwd}/"       $< > $@
+
+############################################################
+# Rules to Build the MGNAT Documentation in $(INSTALL_SRC) #
+############################################################
+
+build_docs : create_doc_dir               \
+             $(INSTALL_DOC)/mgnat_ug.texi \
+             $(INSTALL_DOC)/mgnat_ug.ps   \
+             $(INSTALL_DOC)/mgnat_ug.info \
+             $(INSTALL_DOC)/mgnat_ug.html \
+             $(INSTALL_DOC)/mgnat_ug.txt  \
+	     cleanup_doc_dir
+
+create_doc_dir :
+	test -d $(INSTALL_DOC) || $(MKDIR) $(INSTALL_DOC)
+
+$(INSTALL_DOC)/mgnat_ug.texi :
+	$(SED) -e "s/<version>/$(VERSION)/" $(MGNAT_DIR)/mgnat_ug.texi > $@
+
+$(INSTALL_DOC)/mgnat_ug.ps :
+	$(CD) $(INSTALL_DOC); $(TEX)      mgnat_ug.texi
+	$(CD) $(INSTALL_DOC); $(TEXINDEX) mgnat_ug.cp
+	$(CD) $(INSTALL_DOC); $(TEX)      mgnat_ug.texi
+	$(CD) $(INSTALL_DOC); $(DVIPS)    mgnat_ug.dvi
+
+$(INSTALL_DOC)/mgnat_ug.info :
+	$(CD) $(INSTALL_DOC); $(MAKEINFO) mgnat_ug.texi -o mgnat_ug.info
+
+$(INSTALL_DOC)/mgnat_ug.html :
+	$(CD) $(INSTALL_DOC); $(MAKEHTML) mgnat_ug.texi
+
+$(INSTALL_DOC)/mgnat_ug.txt :
+	$(CD) $(INSTALL_DOC); $(MAKETEXT) mgnat_ug.texi -o mgnat_ug.txt
+
+cleanup_doc_dir :
+	( $(CD) $(INSTALL_DOC);                                             \
+	  $(RM) *.aux *.cp *.dvi *.cps *.fn *.ky *.log *.pg *.toc *.tp *.vr )
+
+##########################################
+# Rules to checks out the MGNAT examples #
+##########################################
+
+# WARNING: there should NOT be a ";" after PATH=... in the line below
+#          or the build on Solaris will fail.
+build_examples :
+	$(MAKE) -C $(INSTALL_EXAMPLES) distclean
+	( PATH="$(INSTALL_BIN)$(PATH_SEPARATOR)$(PATH)" \
+	  $(MAKE) -C $(INSTALL_EXAMPLES) build           )
+	$(MAKE) -C $(INSTALL_EXAMPLES) clean
+
+$(INSTALL_EXAMPLES)/Makefile :
+	$(CD) $(INSTALL_DIR) ; $(CHECKOUT_EXAMPLES)
+
+######################################
+# Rules to Package the MGNAT Release #
+######################################
+
+src_tgz      : unixify_src src.$(TGZ)
+doc_tgz      : unixify_doc doc.$(TGZ)
+examples_tgz : unixify_examples examples.$(TGZ)
+
+unixify_src :
+ifeq ($(EXE),.exe)
+	$(CD) $(INSTALL_SRC); $(TO_UNIX) *
+endif
+
+unixify_doc:
+ifeq ($(EXE),.exe)
+	$(CD) $(INSTALL_DOC); $(TO_UNIX) *.texi *.ps *.txt *.html
+endif
+
+unixify_examples:
+ifeq ($(EXE),.exe)
+	$(MAKE) -C $(INSTALL_EXAMPLES) FLIP="$(TO_UNIX)" flip
+endif
+
+%.tgz : make_split 
+	( $(CD)   $(INSTALL_BASE)/;                           \
+	  $(TAR)  $(INSTALL_HOME)-$*.tar $(INSTALL_HOME)/$*;  \
+	  $(GZIP) $(INSTALL_HOME)-$*.tar;                     \
+	  $(MV)   $(INSTALL_HOME)-$*.tar.gz                   \
+		  $(INSTALL_SPLIT)/$(INSTALL_HOME)-$*.tgz     )
+
+%.zip : make_split
+	( $(CD)  $(INSTALL_BASE)/;                            \
+	  $(ZIP) $(INSTALL_HOME)-$*.zip $(INSTALL_HOME)/$*;   \
+	  $(MV)  $(INSTALL_HOME)-$*.zip $(INSTALL_SPLIT)      )
+
+make_split :
+	test -d $(INSTALL_SPLIT) || $(MKDIR) $(INSTALL_SPLIT)
+
+package_it_all : package_test do_package
+
+package_test :
+	test -d $(INSTALL_BIN) || ($(ERROR) $(INSTALL_BIN) not found; $(FAIL))
+	test -d $(INSTALL_LIB) || ($(ERROR) $(INSTALL_LIB) not found; $(FAIL))
+	test -d $(INSTALL_DOC) || ($(ERROR) $(INSTALL_DOC) not found; $(FAIL))
+	test -d $(INSTALL_SRC) || ($(ERROR) $(INSTALL_SRC) not found; $(FAIL))
+	test -d $(INSTALL_EXAMPLES) || ($(ERROR) $(INSTALL_EXAMPLES) not found; $(FAIL))
+
+ifeq ($(EXE),.exe)
+# First convert all ASCII files in the examples to dos format 
+do_package :
+	$(MAKE) -C $(INSTALL_EXAMPLES) FLIP="$(TO_DOS)" flip
+	( $(CD)     $(INSTALL_BASE)/;                          \
+	  $(RM) -r  $(INSTALL_DIR)/obj;                        \
+	  $(RM) -r  $(INSTALL_DIR)/objs;                       \
+	  $(TO_DOS) $(INSTALL_HOME)-README.txt;                \
+          $(TO_DOS) $(INSTALL_DOC)/mgnat_ug.txt;               \
+	  $(ZIP)    $(INSTALL_HOME)-$(HOST).zip                \
+	            $(INSTALL_HOME)-README.txt $(INSTALL_HOME) )
+	( $(CD) $(INSTALL_BASE)/;                                             \
+	  $(CP) $(INSTALL_HOME)-README.txt $(INSTALL_HOME)-README-dos.txt;    \
+	  $(TO_UNIX) $(INSTALL_HOME)-README.txt;                              \
+          $(ECHO) "This will install MGNAT version $(VERSION)"   > msg999.txt;\
+	  $(ECHO) "-y"                                           > sw000.txt; \
+	  $(ECHO) "-d C:\\ "                                    >> sw000.txt; \
+	  $(ECHO) $(ACT_ICON)                                   >> sw000.txt; \
+	  $(ECHO) "-m msg999.txt"                               >> sw000.txt; \
+	  $(ECHO) "-win32"                                      >> sw000.txt; \
+          $(ECHO) "-st\"MGNAT $(VERSION) INSTALLATION\""        >> sw000.txt; \
+	  $(ECHO) "-o"                                          >> sw000.txt; \
+	  $(ECHO) "-c notepad $(INSTALL_HOME)-README.txt"       >> sw000.txt; \
+	  winzipse $(INSTALL_HOME)-$(HOST).zip @sw000.txt;                    \
+	)
+	@$(ECHO)
+	@$(ECHO) Release completed.
+else
+do_package :
+	( $(CD)    $(INSTALL_BASE)/;                                          \
+	  $(RM) -r $(INSTALL_DIR)/obj;                                        \
+	  $(RM) -r $(INSTALL_DIR)/objs;                                       \
+	  $(TAR)   $(INSTALL_HOME)-$(HOST).tar                                \
+	           $(INSTALL_HOME)-README.txt $(INSTALL_HOME);                \
+	  $(GZIP)  $(INSTALL_HOME)-$(HOST).tar;                               \
+	  $(MV)    $(INSTALL_HOME)-$(HOST).tar.gz $(INSTALL_HOME)-$(HOST).tgz )
+	@$(ECHO)
+	@$(ECHO) Release completed.
+endif
+
+force :
+

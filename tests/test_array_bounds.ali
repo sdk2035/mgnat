@@ -1,0 +1,18 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P
+R nnvnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnvnnnnnvnnnnnnnnnnnnnnnnnnn
+
+U test_array_bounds%b	test_array_bounds.adb	6a6e5ec5 NE SU IL
+
+D system.ads		20050820125040 15131902
+D test_array_bounds.adb	20030115230944 6a6e5ec5
+X 2 test_array_bounds.adb
+2U11*test_array_bounds 2b11 12l5 12t22
+3U14 fred 3b14 3>20 6l8 6t12 8r17 10r4
+3s20 x{string}
+7P9 larry 8r8
+7s35 x{string}
+8p4 y{7P9} 11r4
+

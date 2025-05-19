@@ -1,0 +1,1 @@
+pragma Source_File_Name (Io, Body_File_Name => "io_std.adb");

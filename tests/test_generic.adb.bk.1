@@ -1,0 +1,14 @@
+with mssyst.string;
+use mssyst.string;
+with Mssyst.Collections.Generic_K.Dictionary;
+with ada.text_io;
+procedure bob is
+   package fred is new mssyst.collections.generic_k.dictionary(
+      Mssyst.String.Ref,Integer);
+   pragma Import(MSIL, Fred);
+   X : Fred.Ref;
+begin
+   x := fred.new_dictionary;
+   X.Add(+"hello",3);
+   ada.Text_IO.Put_Line("hello");
+end bob;

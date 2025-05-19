@@ -1,0 +1,83 @@
+D:\asharp\mgnat\errore_compiler>type test_compiler.adb
+with MSSyst.Console; use MSSyst.Console;
+with MSSyst.String; use MSSyst.String;
+
+-- Test for the (possible) compiler error
+procedure Test_Compiler is
+   My_Integer : constant Integer := 10;
+begin
+   -- This is ok
+   WriteLine("Hello");
+
+   -- This is ok
+   WriteLine(Integer'Image(My_Integer));
+
+   -- This is ok
+   WriteLine("Hello"&Integer'Image(My_Integer));
+
+   -- This in NOT OK :(
+   WriteLine("Hello"&Integer'Image(My_Integer)&" post");
+end;
+
+D:\asharp\mgnat\errore_compiler>..\bin\mgnatmake.exe test_compiler
+mgnat -c test_compiler.adb
++===========================GNAT BUG DETECTED==============================+
+| 2.02p (20041118) (.NET VM) Assert_Failure sinfo.adb:2210                 |
+| Error detected at test_compiler.adb:18:47                                |
+| Please submit bug report by email to report@gnat.com.                    |
+| Use a subject line meaningful to you and us to track the bug.            |
+| Include the entire contents of this bug box in the report.               |
+| Include the exact mgnat or gnatmake command that you entered.            |
+| Also include sources listed below in gnatchop format                     |
+| (concatenated together with no headers between files).                   |
+| (use plain ASCII or MIME attachment).                                    |
+| See gnatinfo.txt for full info on procedure for submitting bugs.         |
++==========================================================================+
+
+Please include these source files with error report
+Note that list may not be accurate in some cases,
+so please double check that the problem can still
+be reproduced with the set of files listed.
+
+test_compiler.adb
+D:\asharp\mgnat\include\mssyst.ads
+D:\asharp\mgnat\include\mssyst-console.ads
+D:\asharp\mgnat\include\mssyst-object.ads
+D:\asharp\mgnat\include\msil_types.ads
+D:\asharp\mgnat\include\mssyst-string.ads
+D:\asharp\mgnat\include\mssyst-typecode.ads
+D:\asharp\mgnat\include\mssyst-sbyte.ads
+D:\asharp\mgnat\include\mssyst-globalization.ads
+D:\asharp\mgnat\include\mssyst-globalization-numberstyles.ads
+D:\asharp\mgnat\include\mssyst-valuetype.ads
+D:\asharp\mgnat\include\mssyst-uint32.ads
+D:\asharp\mgnat\include\mssyst-type_k.ads
+D:\asharp\mgnat\include\mssyst-reflection.ads
+D:\asharp\mgnat\include\mssyst-reflection-membertypes.ads
+D:\asharp\mgnat\include\mssyst-reflection-bindingflags.ads
+D:\asharp\mgnat\include\mssyst-reflection-typeattributes.ads
+D:\asharp\mgnat\include\mssyst-reflection-parametermodifier.ads
+D:\asharp\mgnat\include\mssyst-reflection-callingconventions.ads
+D:\asharp\mgnat\include\mssyst-reflection-memberinfo.ads
+D:\asharp\mgnat\include\mssyst-io-textwriter.ads
+D:\asharp\mgnat\include\mssyst-io.ads
+D:\asharp\mgnat\include\mssyst-marshalbyrefobject.ads
+D:\asharp\mgnat\include\mssyst-io-textreader.ads
+D:\asharp\mgnat\include\mssyst-io-stream.ads
+D:\asharp\mgnat\include\mssyst-io-seekorigin.ads
+D:\asharp\mgnat\include\mssyst-decimal.ads
+D:\asharp\mgnat\include\mssyst-icomparable.ads
+D:\asharp\mgnat\include\mssyst-iformattable.ads
+D:\asharp\mgnat\include\mssyst-iconvertible.ads
+D:\asharp\mgnat\include\mssyst-iformatprovider.ads
+
+
+
+
+
+
+
+
+list may be incomplete
+compilation abandoned
+mgnatmake: "test_compiler.adb" compilation error

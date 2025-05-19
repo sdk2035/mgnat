@@ -1,0 +1,18 @@
+V "GNAT Lib v2.01"
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U gen_pkg%b		gen_pkg.adb		e28b4511 PK GE IL
+
+U gen_pkg%s		gen_pkg.ads		255fbeee BN EE PK GE IL
+
+D gen_pkg.ads		20041101045902 255fbeee
+D gen_pkg.adb		20041101045902 c7d4fbff
+D system.ads		20050820125040 15131902
+X 1 gen_pkg.ads
+3+9 item_type 5r35 2|3r35
+4k9*gen_pkg 3z9 6l5 6e12 2|2b14 7l5 7t12
+5U14*do_something 5>28 2|3b14 6l8 6t20
+5*28 item{3+9} 2|3b28
+

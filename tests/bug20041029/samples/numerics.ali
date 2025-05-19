@@ -1,0 +1,38 @@
+V "GNAT Lib v2.01"
+A -c
+P
+R nnnnnnnnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+
+U numerics%b		numerics.adb		402b04d4 PK GE
+
+U numerics%s		numerics.ads		f3f37b1a BN EE PK GE
+
+D numerics.ads		19990322015046 f3f37b1a
+D numerics.adb		19990322015046 b3d87fce
+D numerics-regula_falsi.adb  19990322012402 5b9bc600 numerics.regula_falsi
+D system.ads		20040925053602 5671cff3
+X 1 numerics.ads
+22F9 Real 29r31 29r44 30r45 31r45 32r45 33r29 33r43 34r34 2|23r45 24r45 25r45
+. 26r29 26r43 27r34 3|22r42 23r42 24r41 25r26 25r40 26r31 28r11 29r11 30r11
+. 31r17
+24k9*Numerics 22z9 36l5 36e13 2|21b14 29l5 29t13
+26X4*Numeric_Exception 3|37r13
+29V21 F{22F9} 29>24 3|34r10 35r10 43r13
+29f24 X{22F9}
+30v13*Regula_Falsi 30>27 31>27 32>27 3|22b10 55l5 55t17
+30f27 Start_Value1{22F9} 3|22b24 28r19
+31f27 Start_Value2{22F9} 3|23b24 29r19
+32f27 Precision{22F9} 3|24b24 41r29
+X 2 numerics.adb
+23v13 Regula_Falsi
+23f27 Start_Value1{1|22F9}
+24f27 Start_Value2{1|22F9}
+25f27 Precision{1|22F9}
+X 3 numerics-regula_falsi.adb
+28f4 X{1|22F9} 34r13 42r23 44m7 47r18 53r11
+29f4 A{1|22F9} 35r13 42r14 47m13
+30f4 N{1|22F9} 42m7 43r16 44r13
+31f4 VX{1|22F9} 34m4 36r12 41r22 42r18 42r34 46r18 47r27 50m7
+31f8 VA{1|22F9} 35m4 36r7 42r27 42r39 47m21
+31f12 VN{1|22F9} 43m7 45r10 46r13 50r13
+

@@ -1,0 +1,9 @@
+hello Ada .NET!
+The year is 2006
+The month is 2
+The day is 14
+The second is 38000.00
+You should see 2002, 2 and 2. 
+The year is 2002
+The month is 2
+The day is 2

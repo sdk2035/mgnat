@@ -1,0 +1,20 @@
+V "GNAT Lib v2.01"
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U test_generic_enum%b	test_generic_enum.adb	4afa933e PK GE
+
+U test_generic_enum%s	test_generic_enum.ads	9420cf8f BN EE PK GE
+
+D system.ads		20050820125040 15131902
+D test_generic_enum.ads	20041008195832 9420cf8f
+D test_generic_enum.adb	20041008200132 deda5cb1
+X 2 test_generic_enum.ads
+2E9 Any_Type 4r25 3|3r8 8r26
+3k9*Test_Generic_Enum 2z9 5l5 5e22 3|1b14 13l5 13t22
+4U14*bob 4>18 3|8b14 11l8 11t11
+4*18 x{2E9} 3|8b19 10r10
+X 3 test_generic_enum.adb
+3*4 y{2|2E9} 10m7
+

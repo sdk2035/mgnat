@@ -1,0 +1,111 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnnnnnnnnnnnnnnnnnvvvnvnnnnnnnnnnnnvvvnnnvnvvnnnnnnnnnnnnnnnv2nv1nv1+nnnnnn
+
+U test_attributes%b	test_attributes.adb	c3c77a21 NE SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_3%s  s-sopco3.adb	s-sopco3.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D i-java.ads		20021213045752 07b0c01c
+D i-javlan.ads		20021213045752 ea83cce4
+D i-jalaob.ads		20060412204852 538eed4e
+D system.ads		20050820125040 15131902
+D s-fatflt.ads		20060214165348 f2e0c28f
+D s-fatgen.ads		20060214165348 df07f9b2
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-imgint.ads		19951120073034 c025cca6
+D s-imgrea.ads		19951120073118 3dba5312
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-strops.ads		19980415014434 dfd9c808
+D s-sopco3.ads		19980110182950 bb5015db
+D s-sopco4.ads		19980110182952 ac4d87c0
+D s-sopco5.ads		19980110182952 7c109c43
+D s-tasinf.ads		20040925171754 04bafbd6
+D s-taspri.ads		20050820220208 d94fa01c
+D s-taskin.ads		20040925171702 dfe0bf9d
+D s-taprob.ads		20040925153816 f36e012f
+D s-tpoben.ads		20040925153832 2e4363ad
+D s-tasren.ads		20040602223354 02b02214
+D s-tassta.ads		20040925182000 3f8dde08
+D s-unstyp.ads		19990721075830 fd0aa14a
+D s-valint.ads		19960414163902 299c5e55
+D test_attributes.adb	20051010151208 ebf8e5d0
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 43|1r6 2r5
+X 9 a-textio.ads
+51K13*Text_IO 428e16 43|1w10 2r9
+266U14*Put_Line 43|44r4 47r7 51r7 55r6 59r4 61r4 63r4 68r4 70r4 72r4 74r4
+. 76r4 86r4 102r4 113r4
+X 43 test_attributes.adb
+4U11*Test_Attributes 4b11 124l5 124t20
+5I12 Sub_Integer{integer} 31r9
+6F12 Sub_Float{float} 33r9 87r9 88r9 89r10 90r9
+7O9 Fixed 34r9 91r10 92r9 93r9 94r9 95r9
+8D9 Fixed_Digit 35r9 97r9 98r9 99r10 100r9
+9E9 Enum 9e34 36r9 103r9 103r20 104r18 104r28 105r9
+9n18 One{9E9}
+9n23 Two{9E9} 36r24
+9n28 Three{9E9}
+10A9 Arr(integer) 40r9
+12R9 Rec 12d14 14e14 41r9
+12i14 Num{integer}
+16T14 Go 18l8 18e10 20b14 28l8 28t10 42r9
+17Y13 Start 21r22 24b17
+21i7 I{integer}
+30i4 I{integer} 45m4 46r7 49m4 50r7 53m4 54r7 57m4 58m4 59r50 60m4 61r49
+. 62m4 63r49 79m4 83m4 84m4 87m4 88m4 90m4 93m4 94m4 95m4 97m4 98m4 100m4
+. 104m4 105m4 109m4 119m4 122m4
+31i4 SI{5I12}
+32f4 F{float} 65m4 67r23 68r40 69m4 69r26 70r44 71m4 71r25 72r43 73m4 74r45
+. 75m4 76r44 77m4 78m4 78r23 83r18 84r34 89r33 91m5 92m4
+33f4 Sf{6F12} 89m4 89r30
+34o4 Fx{7O9}
+35d4 Fd{8D9} 99m4 99r29
+36e4 E{9E9} 103m4 103r31
+37b4 B{boolean} 107m4 108m4 121m4
+38e4 C{character} 111m4 111r39
+39a4 S{string} 115r15 116r15 117r15 117r26 118r15 118r29 119r9
+40a4 A{10A9}
+41r4 R{12R9} 121r9 122r9
+42t4 T{16T14} 107r9 108r9 109r9
+115i8 Idx{integer}
+116i8 Idx{integer}
+117i8 Idx{integer}
+118i8 Idx{integer}
+

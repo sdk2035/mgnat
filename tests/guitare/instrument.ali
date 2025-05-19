@@ -1,0 +1,50 @@
+V "GNAT Lib v3.15"
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnn
+
+U instrument%b		instrument.adb		2a3307b9 PK
+
+U instrument%s		instrument.ads		5bc83dca EE PK
+W notes%s		notes.adb		notes.ali
+
+D instrument.ads	20021031185316 c6d17775
+D instrument.adb	20021031185316 ece270cc
+D notes.ads		20021031185316 9d194abf
+D system.ads		20021213031700 9be97a6f
+X 1 instrument.ads
+17K9*Instrument 50l5 50e15 2|16b14 90l5 90t15
+19I12*String_Numbers{positive} 27r26 28r26 29r26 42r31 47r46 2|82r46
+23E9*Instrument_Type 23e53 35r35 36r24 2|19r25 21r38 36r35 47r24
+23n29*GUITAR{23E9} 35r54 2|22r7 36r54 60r15
+23n37*BASS{23E9} 2|25r7 62r15
+23n43*MANDOLINE{23E9} 2|28r7 64r15
+25R9*Info_Type 31e17 33r11 2|21r58
+27i10*First_String{19I12}
+28i10*Last_String{19I12}
+29i10*Number_String{19I12}
+30i10*Fret_Range{integer}
+33r4*Info{25R9} 2|39m7
+35U14*Set 2|36b14 41l8 41t11 89r4
+35e19 Instrument{23E9} 2|36b19 38r29 39r32
+36V13*Get{23E9} 2|47b13 50l8 50t11 59r12
+42A9*String_Tune 45r37 2|18r25 73r37
+44U14*Set_Standard_Tune 2|40r7 56b14 67l8 67t25
+45U14*Set_Tune 2|73b14 76l8 76t16
+45a24 My_Tune{42A9} 2|73b24 75r24
+47V13*Get_Note_For_String{3|19E9} 2|82b13 86l8 86t27
+47i34 Number{19I12} 2|82b34 85r29
+X 2 instrument.adb
+18a4 Guitar_String{1|42A9} 61m13 63m13 65m13 75m7 85r14
+19e4 Current_Instrument{1|23E9} 38m7 49r14
+21a4 Instrument_Info 39r15
+X 3 notes.ads
+15K9*Notes 1|15r6 42r50 48r41 2|57r11 83r41 3|96e10
+19E9*Note_Type 1|42r56 48r47 2|83r47 3|20e51
+19n23*C{19E9} 2|63r43 63r46 65r43 65r46
+19n34*D{19E9} 2|61r37 63r37 65r34
+19n45*E{19E9} 2|61r31 61r46 63r31 65r40
+20n27*G{19E9} 2|61r40 63r40 65r31
+20n38*A{19E9} 2|61r34 63r34 65r37
+20n49*B{19E9} 2|61r43
+

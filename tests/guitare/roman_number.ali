@@ -1,0 +1,58 @@
+V "GNAT Lib v3.15"
+A -c
+P
+R nnvvnnnvnnnnnvvvvvvnnvnnnnnnnnnnnvnnnnnnnnnnnnnnvvnn
+
+U roman_number%b	roman_number.adb	24dcf874 PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U roman_number%s	roman_number.ads	25d609e2 EE PK
+
+D ada.ads		20021213045750 a0108083
+D a-except.ads		20030111184846 8c16c4f0
+D a-finali.ads		19981212023736 d4be2e87
+D a-filico.ads		19981212023738 83058640
+D a-ioexce.ads		19981212023736 d52e128a
+D a-stream.ads		19971119133848 90e5c6f7
+D a-tags.ads		19990924104636 d9f34d7b
+D a-textio.ads		20000214171636 98d7a37c
+D interfac.ads		20021213031652 6e859da6
+D i-cstrea.ads		20021213045752 7f5efb6f
+D roman_number.ads	20021031185316 25d609e2
+D roman_number.adb	20021031185316 2a5d9891
+D system.ads		20021213031700 9be97a6f
+D s-ficobl.ads		19990215165032 14416104
+D s-finimp.ads		19990723121124 c7f98dd8
+D s-finroo.ads		19960921225930 561babbc
+D s-parame.ads		20020514142604 37dc3a84
+D s-secsta.ads		19990726073750 aafc656f
+D s-soflin.ads		19991227152932 95657dfd
+D s-stache.ads		19990409121032 ced985be
+D s-stalib.ads		19990924104638 2d9390a0
+D s-stoele.ads		19980907140906 c6bef0ad
+D s-stratt.ads		19981014005624 9fdf8f81
+D s-unstyp.ads		19990721075830 05ad3732
+D text_io.ads		20021213031704 2b576907
+D unchconv.ads		20021213031438 1b7a14c5
+X 8 a-textio.ads
+245U14*Put 12|58r15
+X 11 roman_number.ads
+18K9*Roman_Number 28l5 28e17 12|20b14 78l5 78t17
+20X4*Bad_Roman_Number 12|49r16 61r16 75r13
+22V13*Image{string} 12|44b13 50l8 50t13
+22i20 Number{positive} 12|44b20 46r28
+24U14*Put 12|56b14 62l8 62t11
+24i19 Number{positive} 12|56b19 58r34
+26V13*Get{positive} 12|68b13 76l8 76t11
+26s18 Number{string} 12|68b18 71r36
+X 12 roman_number.adb
+22P9 String_Access(string) 23r59
+23A9 Roman_String_Type 25r19
+25a4 Roman_String{23A9} 46r14 58r20 70r16 71r13
+70i11 I{integer} 71r27 72r20
+X 25 text_io.ads
+21K9*Text_IO=21:29 12|18r6 58r7
+

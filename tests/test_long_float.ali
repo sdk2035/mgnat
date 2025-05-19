@@ -1,0 +1,67 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnnnnnnnnnnnnnvnvnnvvnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnn
+
+U test_long_float%b	test_long_float.adb	97d78b0b NE SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W system%s		system.ads		system.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D a-tiflau.ads		19971119133942 b5940daf
+D a-tiflio.ads		19971119133944 9e591677
+D a-tiflio.adb		19990730090712 f4c5ae9d
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-unstyp.ads		19990721075830 fd0aa14a
+D test_long_float.adb	20041118210528 bfe814fa
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 27|1r6 5r27 14r4 16r4 20r4 22r4 25r7 30r4 32r4
+X 9 a-textio.ads
+51K13*Text_IO 428e16 27|1w10 5r31 14r8 16r8 20r8 22r8 25r11 30r8 32r8
+76I12*Field{integer}
+169U14*New_Line 27|16r16 22r16 32r16
+245U14*Put 27|14r16 20r16 30r16
+266U14*Put_Line 27|25r19
+X 11 a-tiflio.ads
+49k21*Float_IO 92e25 27|5r39
+71U14 Put 27|15r12[5] 21r12[5] 31r12[5]
+73i7 Fore{9|76I12} 27|15r20[5] 21r20[5] 31r20[5]
+74i7 Aft{9|76I12} 27|15r31[5] 21r31[5] 31r31[5]
+77U14 Get 27|28r12[5]
+78s7 From{string} 27|28r17[5]
+79f7 Item{long_float} 27|28r47[5]
+80i7 Last{positive} 27|28r58[5]
+X 27 test_long_float.adb
+3U11*Test_Long_Float 3b11 34l5 34t20
+5K12 LFlt_IO[11|49] 15r4 21r4 28r4 31r4
+7f4 A{long_float} 12m4 15r17 24r7
+7f7 B{long_float} 18m4 21r17 24r11
+7f10 C{long_float} 28m55 31r17
+8i4 Last{positive} 28m66
+

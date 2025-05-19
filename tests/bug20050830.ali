@@ -1,0 +1,129 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P SS
+R nnnnnvvnnnnnnnnvnvnvvvnnnnnvnnnnnnnnvnvnnnnnnnvnnnnnvvnnnnnnnnnnnnnnnnnn
+
+U bug20050830%b		bug20050830.adb		2c0cc371 NE SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W discrete_random%s	discrete_random.adb	discrete_random.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.arith_64%s	s-arit64.adb		s-arit64.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_lli%s	s-imglli.adb		s-imglli.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W system.string_ops_concat_5%s  s-sopco5.adb	s-sopco5.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20021213045750 7cd43be2
+D a-calend.ads		19981212023726 979f5d2f
+D a-except.ads		20040603025648 d80fa8a4
+D a-finali.ads		19981212023736 ee64b9e9
+D a-filico.ads		19981212023738 74630936
+D a-inteio.ads		19981212023736 03bc737c
+D a-ioexce.ads		19981212023736 a50c222b
+D a-stream.ads		20050819212200 01274ccf
+D a-tags.ads		20050911231422 fc823f44
+D a-tags.adb		20050912132130 550463a8
+D a-textio.ads		20060220232932 283f9ff1
+D a-tiinio.ads		19971119133950 75fbf922
+D bug20050830.adb	20050830224040 a617aa49
+D discrete_random.ads	20050830134842 14667950
+D discrete_random.adb	20050830140658 8320c90e
+D interfac.ads		20021213031652 279b6d6d
+D i-cstrea.ads		20050820211952 72f603a1
+D system.ads		20050820125040 15131902
+D s-arit64.ads		19961219232852 2261a1ca
+D s-ficobl.ads		19990215165032 ed792749
+D s-finimp.ads		19990723121124 ba562311
+D s-finroo.ads		19960921225930 7713303d
+D s-imgint.ads		19951120073034 c025cca6
+D s-imglli.ads		19951120073054 27bcf819
+D s-parame.ads		20040925171846 0fc6d899
+D s-secsta.ads		19990726073750 38cfbadd
+D s-soflin.ads		20040603020420 f8bab790
+D s-stache.ads		19990409121032 f7baf636
+D s-stalib.ads		20040603021332 86360d4b
+D s-stoele.ads		19980907140906 fbfe479c
+D s-stratt.ads		19981014005624 0eb420ae
+D s-strops.ads		19980415014434 dfd9c808
+D s-sopco3.ads		19980110182950 bb5015db
+D s-sopco4.ads		19980110182952 ac4d87c0
+D s-sopco5.ads		19980110182952 7c109c43
+D s-unstyp.ads		19990721075830 fd0aa14a
+D s-valint.ads		19960414163902 299c5e55
+D unchconv.ads		20021213031438 34860a55
+X 1 ada.ads
+18K9*Ada 21e8 13|2r6 3r5 4r6 5r5 6r6 86r10 86r31 102r35 103r35
+X 2 a-calend.ads
+40K13*Calendar 119e17 13|6w10 86r14 86r35 102r39 103r39
+42O9*Time 13|86r23
+52O12*Day_Duration{duration}
+54V13*Clock{42O9} 13|86r44
+59V13*Seconds{52O12} 13|102r48 103r48
+X 6 a-inteio.ads
+20K13*Integer_Text_IO[12|49] 13|4w10 5r9
+X 11 a-textio.ads
+51K13*Text_IO 428e16 13|2w10 3r9
+172U14*Skip_Line 13|108r7
+266U14*Put_Line 13|52r10 54r10 58r10 63r7 76r7 82r7 98r4 99r4 100r4 101r4
+. 102r4 103r4 106r7 107r7
+X 12 a-tiinio.ads
+79U14*Put 13|77r7[6|20] 78r7[6|20] 79r7[6|20] 80r7[6|20] 81r7[6|20]
+X 13 bug20050830.adb
+8U11*Bug20050830 8b11 110l5 110t16
+10I12 Inirange{integer} 11r47 13r39
+11K12 Random_Ini[14|53] 12r8
+13A9 Key_Type(10I12) 15r14 18r40 20r13 22r32 23r16 46r35 49r32 50r16 68r23
+15a4 Lastkey{13A9} 35r19 38m7
+16e4 C{character}
+18V13 Keygen_Withsolution{13A9} 18b13 42r17 44l8 44t27
+19r7 G{14|66R9[11]} 25r16 27r30
+20a7 Key{13A9} 33m7 35r13 36m10 38r18 39r14
+22V16 Generate{13A9} 22b16 30l11 30t19 33r14 36r17
+23a10 Key{13A9} 27m13 29r17
+26i14 I{integer} 27r17
+46V13 Keygen_Withbug{13A9} 46b13 65l8 65t22 106r27
+47r7 G{14|66R9[11]} 53r16 56r30
+49V16 Generate{13A9} 49b16 60l11 60t19 64r14
+50a10 Key{13A9} 56m13 59r17
+55i14 I{integer} 56r17
+67V13 Keytotext{string} 67b13 68>10 85l8 85t17 106r17
+68a10 Key{13A9} 77r21 78r21 79r21 80r21 81r21
+70a7 Section1{string} 77m11 83r15
+71a7 Section2{string} 78m11 83r32
+72a7 Section3{string} 79m11 83r49
+73a7 Section4{string} 80m11 84r16
+74a7 Section5{string} 81m11 84r33
+86o4 Now{2|42O9} 102r56 103r56
+87i4 x{19|45I12} 93m4 97r12
+87i6 y{19|45I12} 94m4 97r20
+87i8 z{19|45I12} 95m4 97r28
+87i10 q{19|45I12} 97m36 99r41
+87i12 r{19|45I12} 97m44 100r41
+X 14 discrete_random.ads
+53k9*Discrete_Random 13|1w6 11r30 14|117e20
+66R9 Generator 13|19r13[11] 47r11[11]
+68V13 Random{integer} 13|27r23[11] 56r23[11]
+70U14 Reset 13|25r10[11] 53r10[11]
+X 16 interfac.ads
+35I9*Integer_64<long_integer>
+X 18 system.ads
+44K9*System 13|7r6 87r16 96r4 99r13 100r13 18|165e11
+X 19 s-arit64.ads
+42K16*Arith_64 13|7w13 87r23 96r11 99r20 100r20 19|84e20
+45I12*Int64{16|35I9} 13|87r32 99r29 100r29
+59U14*Scaled_Divide 13|96r20
+60i7 X{45I12} 13|97r7
+60i10 Y{45I12} 13|97r15
+60i13 Z{45I12} 13|97r23
+61i7 Q{45I12} 13|97r31
+61i10 R{45I12} 13|97r39
+62b7 Round{boolean} 13|97r47
+

@@ -1,0 +1,13 @@
+V "GNAT Lib v2.01"
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U my_types%s		my_types.ads		a610c241 EE PK KM
+
+D my_types.ads		20030305205138 a610c241
+D system.ads		20050820125040 15131902
+X 1 my_types.ads
+1K9*My_Types 3l5 3e13
+2F6*Feet<float>
+

@@ -1,0 +1,22 @@
+--------------------------
+with gen_pkg;
+procedure test_gen is
+   package gen is new gen_pkg (integer);
+   test : integer := 0;
+begin
+   gen.do_something (test);
+end test_gen;
+--------------------------
+generic
+   type item_type is private;
+package gen_pkg  is
+   procedure do_something (item : item_type);
+end gen_pkg;
+--------------------------
+package body gen_pkg  is
+   procedure do_something (item : item_type) is
+   begin
+      null;
+   end do_something;
+end gen_pkg;
+--------------------------
