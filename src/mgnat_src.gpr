@@ -1,0 +1,101 @@
+project Mgnat_Src is
+
+   for Languages use ("Ada");
+   type Build_Type is
+      ("PRODUCTION", "DEBUG");
+   Build : Build_Type := external ("Build");
+
+   case Build is
+
+      when "DEBUG" =>
+         for Source_Dirs use (".\", ".\lib");
+         for Object_Dir use "..\obj\";
+         for Main use ("gnatmake.adb");
+         for Exec_Dir use "..\bin\";
+
+      when "PRODUCTION" =>
+         for Source_Dirs use (".\", ".\lib");
+         for Object_Dir use "..\obj\";
+         for Main use ("gnatmake.adb");
+         for Exec_Dir use "..\bin\";
+   end case;
+
+   package Binder is
+
+      case Build is
+
+         when "DEBUG" =>
+            for Default_Switches ("ada") use ("-E", "-static");
+
+         when "PRODUCTION" =>
+            for Default_Switches ("ada") use ("-static");
+      end case;
+   end Binder;
+
+   package Linker is
+
+      case Build is
+
+         when "DEBUG" =>
+            for Default_Switches ("ada") use ("-g");
+
+         when "PRODUCTION" =>
+            for Default_Switches ("ada") use ("");
+      end case;
+   end Linker;
+
+   package Builder is
+
+      case Build is
+
+         when "DEBUG" =>
+            for Default_Switches ("ada") use ("-g", "-gnatQ");
+            for Executable ("gnatmake.adb") use "mgnatmake";
+
+         when "PRODUCTION" =>
+            for Default_Switches ("ada") use ("", "-gnatQ");
+      end case;
+   end Builder;
+
+   package Compiler is
+
+      case Build is
+
+         when "DEBUG" =>
+            for Default_Switches ("ada") use ("-g", "-gnato", "-gnatf");
+            for Default_Switches ("c") use ("");
+            for Default_Switches ("c++") use ("");
+
+         when "PRODUCTION" =>
+            for Default_Switches ("ada") use ("-O2", "-gnato", "-gnatf");
+            for Default_Switches ("c") use ("");
+            for Default_Switches ("c++") use ("");
+      end case;
+   end Compiler;
+
+   package Ide is
+
+      case Build is
+
+         when "DEBUG" =>
+            for Compiler_Command ("ada") use "gnatmake";
+
+         when "PRODUCTION" =>
+            for Compiler_Command ("ada") use "gnatmake";
+      end case;
+   end Ide;
+
+   package Pretty_Printer is
+
+      case Build is
+
+         when "DEBUG" =>
+            for Default_Switches ("Ada") use ("");
+
+         when "PRODUCTION" =>
+            for Default_Switches ("Ada") use ("");
+      end case;
+   end Pretty_Printer;
+
+end Mgnat_Src;
+

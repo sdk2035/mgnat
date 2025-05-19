@@ -1,0 +1,755 @@
+------------------------------------------------------------------------------
+--                                                                          --
+--                         GNAT COMPILER COMPONENTS                         --
+--                                                                          --
+--                          G N A T . O S _ L I B                           --
+--                                                                          --
+--                                 B o d y                                  --
+--                                                                          --
+--                            $Revision: 1.79 $
+--                                                                          --
+--           Copyright (C) 1995-2002 Ada Core Technologies, Inc.            --
+--                                                                          --
+-- GNAT is free software;  you can  redistribute it  and/or modify it under --
+-- terms of the  GNU General Public License as published  by the Free Soft- --
+-- ware  Foundation;  either version 2,  or (at your option) any later ver- --
+-- sion.  GNAT is distributed in the hope that it will be useful, but WITH- --
+-- OUT ANY WARRANTY;  without even the  implied warranty of MERCHANTABILITY --
+-- or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License --
+-- for  more details.  You should have  received  a copy of the GNU General --
+-- Public License  distributed with GNAT;  see file COPYING.  If not, write --
+-- to  the Free Software Foundation,  59 Temple Place - Suite 330,  Boston, --
+-- MA 02111-1307, USA.                                                      --
+--                                                                          --
+-- As a special exception,  if other files  instantiate  generics from this --
+-- unit, or you link  this unit with other files  to produce an executable, --
+-- this  unit  does not  by itself cause  the resulting  executable  to  be --
+-- covered  by the  GNU  General  Public  License.  This exception does not --
+-- however invalidate  any other reasons why  the executable file  might be --
+-- covered by the  GNU Public License.                                      --
+--                                                                          --
+-- GNAT is maintained by Ada Core Technologies Inc (http://www.gnat.com).   --
+--                                                                          --
+------------------------------------------------------------------------------
+
+with Unchecked_Conversion;
+with System; use System;
+
+package body GNAT.OS_Lib is
+   --  don't generate native int, but instead Object
+   type Object is new System.Address;
+
+   -----------------------
+   -- Local Subprograms --
+   -----------------------
+
+   function Args_Length (Args : Argument_List) return Natural;
+   --  Returns total number of characters needed to create a string
+   --  of all Args terminated by ASCII.NUL characters
+
+   function C_String_Length (S : Object) return Integer;
+   --  Returns the length of a C string. Does check for null address
+   --  (returns 0).
+
+   procedure Spawn_Internal
+     (Program_Name : String;
+      Args         : Argument_List;
+      Result       : out Integer;
+      Pid          : out Process_Id;
+      Blocking     : Boolean);
+   --  Internal routine to implement the two Spawn (blocking/non blocking)
+   --  routines. If Blocking is set to True then the spawn is blocking
+   --  otherwise it is non blocking. In this latter case the Pid contains
+   --  the process id number. The first three parameters are as in Spawn.
+   --  Note that Spawn_Internal normalizes the argument list before calling
+   --  the low level system spawn routines (see Normalize_Arguments). Note
+   --  that Normalize_Arguments is designed to do nothing if it is called
+   --  more than once, so calling Normalize_Arguments before calling one
+   --  of the spawn routines is fine.
+
+   function To_Path_String_Access
+     (Path_Addr : Object;
+      Path_Len  : Integer)
+      return      String_Access;
+   --  Converts a C String to an Ada String. We could do this making use of
+   --  Interfaces.C.Strings but we prefer not to import that entire package
+
+   -----------------
+   -- Args_Length --
+   -----------------
+
+   function Args_Length (Args : Argument_List) return Natural is
+      Len : Natural := 0;
+
+   begin
+      for J in Args'Range loop
+         Len := Len + Args (J)'Length + 1; --  One extra for ASCII.NUL
+      end loop;
+
+      return Len;
+   end Args_Length;
+
+   -----------------------------
+   -- Argument_String_To_List --
+   -----------------------------
+
+   function Argument_String_To_List
+     (Arg_String : String)
+      return       Argument_List_Access
+   is
+      Max_Args : constant Integer := Arg_String'Length;
+      New_Argv : Argument_List (1 .. Max_Args);
+      New_Argc : Natural := 0;
+      Idx      : Integer;
+
+   begin
+      Idx := Arg_String'First;
+
+      loop
+         declare
+            Quoted  : Boolean := False;
+            Backqd  : Boolean := False;
+            Old_Idx : Integer;
+
+         begin
+            Old_Idx := Idx;
+
+            loop
+               --  An unquoted space is the end of an argument
+
+               if not (Backqd or Quoted)
+                 and then Arg_String (Idx) = ' '
+               then
+                  exit;
+
+               --  Start of a quoted string
+
+               elsif not (Backqd or Quoted)
+                 and then Arg_String (Idx) = '"'
+               then
+                  Quoted := True;
+
+               --  End of a quoted string and end of an argument
+
+               elsif (Quoted and not Backqd)
+                 and then Arg_String (Idx) = '"'
+               then
+                  Idx := Idx + 1;
+                  exit;
+
+               --  Following character is backquoted
+
+               elsif Arg_String (Idx) = '\' then
+                  Backqd := True;
+
+               --  Turn off backquoting after advancing one character
+
+               elsif Backqd then
+                  Backqd := False;
+
+               end if;
+
+               Idx := Idx + 1;
+               exit when Idx > Arg_String'Last;
+            end loop;
+
+            --  Found an argument
+
+            New_Argc := New_Argc + 1;
+            New_Argv (New_Argc) :=
+              new String'(Arg_String (Old_Idx .. Idx - 1));
+
+            --  Skip extraneous spaces
+
+            while Idx <= Arg_String'Last and then Arg_String (Idx) = ' ' loop
+               Idx := Idx + 1;
+            end loop;
+         end;
+
+         exit when Idx > Arg_String'Last;
+      end loop;
+
+      return new Argument_List'(New_Argv (1 .. New_Argc));
+   end Argument_String_To_List;
+
+   ---------------------
+   -- C_String_Length --
+   ---------------------
+
+   function C_String_Length (S : Object) return Integer is
+      function Strlen (S : Object) return Integer;
+      pragma Import (C, Strlen, "strlen");
+
+   begin
+      if System.Address (S) = Null_Address then
+         return 0;
+      else
+         return Strlen (S);
+      end if;
+   end C_String_Length;
+
+   ---------------
+   -- Copy_File --
+   ---------------
+
+   procedure Copy_File
+     (Name     : String;
+      Pathname : String;
+      Success  : out Boolean;
+      Mode     : Copy_Mode := Copy;
+      Preserve : Attribute := Time_Stamps)
+   is
+      Copy_Error : exception;
+      --  Internal exception raised to signal error in copy
+
+      function Build_Path (Dir : String; File : String) return String;
+      --  Returns pathname Dir catenated with File adding the directory
+      --  separator only if needed.
+
+      procedure Copy_To (To_Name : String);
+      --  Does a straight copy from source to designated destination file
+
+      procedure Copy_To (To_Name : String) is
+         procedure filecopy (name : string; to_name : string);
+         pragma Import (C, filecopy, "__gnat_filecopy");
+         procedure touch (name : string);
+         pragma Import (C, touch, "__gnat_touch");
+      begin
+         filecopy (Name, To_Name);
+         if Preserve = None then
+            touch (To_Name);
+         end if;
+      end Copy_To;
+
+      ----------------
+      -- Build_Path --
+      ----------------
+
+      function Build_Path (Dir : String; File : String) return String is
+         Res : String (1 .. Dir'Length + File'Length + 1);
+
+         Base_File_Ptr : Integer;
+         --  The base file name is File (Base_File_Ptr + 1 .. File'Last)
+
+         function Is_Dirsep (C : Character) return Boolean;
+         pragma Inline (Is_Dirsep);
+         --  Returns True if C is a directory separator. On Windows we
+         --  handle both styles of directory separator.
+
+         ---------------
+         -- Is_Dirsep --
+         ---------------
+
+         function Is_Dirsep (C : Character) return Boolean is
+         begin
+            return C = Directory_Separator or else C = '/';
+         end Is_Dirsep;
+
+      --  Start of processing for Build_Path
+
+      begin
+         --  Find base file name
+
+         Base_File_Ptr := File'Last;
+         while Base_File_Ptr >= File'First loop
+            exit when Is_Dirsep (File (Base_File_Ptr));
+            Base_File_Ptr := Base_File_Ptr - 1;
+         end loop;
+
+         declare
+            Base_File : String renames
+                          File (Base_File_Ptr + 1 .. File'Last);
+
+         begin
+            Res (1 .. Dir'Length) := Dir;
+
+            if Is_Dirsep (Dir (Dir'Last)) then
+               Res (Dir'Length + 1 .. Dir'Length + Base_File'Length) :=
+                 Base_File;
+               return Res (1 .. Dir'Length + Base_File'Length);
+
+            else
+               Res (Dir'Length + 1) := Directory_Separator;
+               Res (Dir'Length + 2 .. Dir'Length + 1 + Base_File'Length) :=
+                 Base_File;
+               return Res (1 .. Dir'Length + 1 + Base_File'Length);
+            end if;
+         end;
+      end Build_Path;
+
+   --  Start of processing for Copy_File
+
+   begin
+      Success := True;
+
+      --  The source file must exist
+
+      if not Is_Regular_File (Name) then
+         raise Copy_Error;
+      end if;
+
+      --  The source file exists
+
+      case Mode is
+
+         --  Copy case, target file must not exist
+
+         when Copy =>
+
+            --  If the target file exists, we have an error
+
+            if Is_Regular_File (Pathname) then
+               raise Copy_Error;
+
+            --  Case of target is a directory
+
+            elsif Is_Directory (Pathname) then
+               declare
+                  Dest : constant String := Build_Path (Pathname, Name);
+
+               begin
+                  --  If target file exists, we have an error, else do copy
+
+                  if Is_Regular_File (Dest) then
+                     raise Copy_Error;
+                  else
+                     Copy_To (Dest);
+                  end if;
+               end;
+
+            --  Case of normal copy to file (destination does not exist)
+
+            else
+               Copy_To (Pathname);
+            end if;
+
+         --  Overwrite case (destination file may or may not exist)
+
+         when Overwrite =>
+            if Is_Directory (Pathname) then
+               Copy_To (Build_Path (Pathname, Name));
+            else
+               Copy_To (Pathname);
+            end if;
+
+         --  Append case (destination file may or may not exist)
+
+         when Append =>
+
+            --  Appending to existing file
+
+            if Is_Regular_File (Pathname) then
+               --  mcc: unsupported at this time
+               raise Copy_Error;
+
+            --  Appending to directory, not allowed
+
+            elsif Is_Directory (Pathname) then
+               raise Copy_Error;
+
+            --  Appending when target file does not exist
+
+            else
+               Copy_To (Pathname);
+            end if;
+      end case;
+
+   --  All error cases are caught here
+
+   exception
+      when Copy_Error =>
+         Success := False;
+   end Copy_File;
+
+   -----------------
+   -- Delete_File --
+   -----------------
+
+   procedure Delete_File (Name : Object; Success : out Boolean);
+   procedure Delete_File (Name : Object; Success : out Boolean) is
+      R : Integer;
+
+      function unlink (A : Object) return Integer;
+      pragma Import (C, unlink, "unlink");
+
+   begin
+      R := unlink (Name);
+      Success := (R = 0);
+   end Delete_File;
+
+   procedure Delete_File (Name : String; Success : out Boolean) is
+      C_Name : String (1 .. Name'Length + 1);
+
+   begin
+      C_Name (1 .. Name'Length) := Name;
+      C_Name (C_Name'Last)      := ASCII.NUL;
+
+      Delete_File (Object (C_Name'Address), Success);
+   end Delete_File;
+
+   ----------------------
+   -- Is_Absolute_Path --
+   ----------------------
+
+   function Is_Absolute_Path (Name : String) return Boolean is
+      function Is_Absolute_Path (Name : String) return Integer;
+      pragma Import (C, Is_Absolute_Path, "__gnat_is_absolute_path");
+
+      F_Name : String (1 .. Name'Length + 1);
+
+   begin
+      F_Name (1 .. Name'Length) := Name;
+      F_Name (F_Name'Last)      := ASCII.NUL;
+
+      return Is_Absolute_Path (F_Name) /= 0;
+   end Is_Absolute_Path;
+
+   ------------------
+   -- Is_Directory --
+   ------------------
+
+   function Is_Directory (Name : String) return Boolean is
+      function C_Is_Directory (Name : String) return Boolean;
+      pragma Import (C, C_Is_Directory, "__gnat_is_directory");
+      F_Name : String (1 .. Name'Length + 1);
+
+   begin
+      F_Name (1 .. Name'Length) := Name;
+      F_Name (F_Name'Last)      := ASCII.NUL;
+      return C_Is_Directory (F_Name);
+   end Is_Directory;
+
+   ---------------------
+   -- Is_Regular_File --
+   ---------------------
+
+   function Is_Regular_File (Name : String) return Boolean is
+      function C_Is_File (Name : String) return Boolean;
+      pragma Import (C, C_Is_File, "__gnat_is_file");
+      F_Name : String (1 .. Name'Length + 1);
+
+   begin
+      F_Name (1 .. Name'Length) := Name;
+      F_Name (F_Name'Last)      := ASCII.NUL;
+      return C_Is_File (F_Name);
+   end Is_Regular_File;
+
+   ----------------------
+   -- Is_Writable_File --
+   ----------------------
+
+   function Is_Writable_File (Name : String) return Boolean is
+      function C_Is_Writable_File (Name : String) return Boolean;
+      pragma Import (C, C_Is_Writable_File, "__gnat_is_writable_file");
+      F_Name : String (1 .. Name'Length + 1);
+
+   begin
+      F_Name (1 .. Name'Length) := Name;
+      F_Name (F_Name'Last)      := ASCII.NUL;
+      return C_Is_Writable_File (F_Name);
+   end Is_Writable_File;
+
+   ------------------------
+   -- Non_Blocking_Spawn --
+   ------------------------
+
+   function Non_Blocking_Spawn
+     (Program_Name : String;
+      Args         : Argument_List)
+      return         Process_Id
+   is
+      Junk : Integer;
+      Pid  : Process_Id;
+
+   begin
+      Spawn_Internal (Program_Name, Args, Junk, Pid, Blocking => False);
+      return Pid;
+   end Non_Blocking_Spawn;
+
+   -------------------------
+   -- Normalize_Arguments --
+   -------------------------
+
+   procedure Normalize_Arguments (Args : in out Argument_List) is
+
+      procedure Quote_Argument (Arg : in out String_Access);
+      --  Add quote around argument if it contains spaces.
+
+      function Argument_Needs_Quote return Boolean;
+      pragma Import (C, Argument_Needs_Quote, "__gnat_argument_needs_quote");
+
+      --------------------
+      -- Quote_Argument --
+      --------------------
+
+      procedure Quote_Argument (Arg : in out String_Access) is
+         Res          : String (1 .. Arg'Length * 2);
+         J            : Positive := 1;
+         Quote_Needed : Boolean  := False;
+
+      begin
+         if Arg (Arg'First) /= '"' or else Arg (Arg'Last) /= '"' then
+
+            --  Starting quote
+
+            Res (J) := '"';
+
+            for K in Arg'Range loop
+
+               J := J + 1;
+
+               if Arg (K) = '"' then
+                  Res (J) := '\';
+                  J := J + 1;
+                  Res (J) := '"';
+
+               elsif Arg (K) = ' ' then
+                  Res (J) := Arg (K);
+                  Quote_Needed := True;
+
+               else
+                  Res (J) := Arg (K);
+               end if;
+
+            end loop;
+
+            if Quote_Needed then
+
+               --  Ending quote
+
+               J := J + 1;
+               Res (J) := '"';
+
+               declare
+                  Old : String_Access := Arg;
+
+               begin
+                  Arg := new String'(Res (1 .. J));
+                  Free (Old);
+               end;
+            end if;
+
+         end if;
+      end Quote_Argument;
+
+   begin
+      if Argument_Needs_Quote then
+         for K in Args'Range loop
+            if Args (K) /= null then
+               Quote_Argument (Args (K));
+            end if;
+         end loop;
+      end if;
+   end Normalize_Arguments;
+
+   ------------------------
+   -- Normalize_Pathname --
+   ------------------------
+
+   function Normalize_Pathname
+     (Name      : String)
+      return      String
+   is
+      Max_Path : constant Integer := 2048;
+      --  Maximum length of a path name
+
+      function Get_FullPath
+        (Dir    : String; Result : String) return Integer;
+      pragma Import (C, Get_FullPath, "__gnat_get_fullpath");
+
+      Path_Buffer : String (1 .. Max_Path + Max_Path + 2);
+      End_Path    : Natural := 0;
+   --  Start of processing for Normalize_Pathname
+
+   begin
+      --  Special case, if name is null, then return null
+
+      if Name'Length = 0 then
+         return "";
+      end if;
+      End_Path := Get_FullPath (Name, Path_Buffer);
+      return Path_Buffer (1 .. End_Path);
+   end Normalize_Pathname;
+
+   -----------------
+   -- Rename_File --
+   -----------------
+
+   procedure Rename_File
+     (Old_Name : String;
+      New_Name : String;
+      Success  : out Boolean)
+   is
+      function rename (From, To : String) return Boolean;
+      pragma Import (C, rename, "__gnat_filemove");
+      C_Old_Name : String (1 .. Old_Name'Length + 1);
+      C_New_Name : String (1 .. New_Name'Length + 1);
+
+   begin
+      C_Old_Name (1 .. Old_Name'Length) := Old_Name;
+      C_Old_Name (C_Old_Name'Last)      := ASCII.NUL;
+
+      C_New_Name (1 .. New_Name'Length) := New_Name;
+      C_New_Name (C_New_Name'Last)      := ASCII.NUL;
+
+      Success := rename (C_Old_Name, C_New_Name);
+   end Rename_File;
+
+   -----------
+   -- Spawn --
+   -----------
+
+   function Spawn
+     (Program_Name : String;
+      Args         : Argument_List)
+      return         Integer
+   is
+      Junk   : Process_Id;
+      Result : Integer;
+
+   begin
+      Spawn_Internal (Program_Name, Args, Result, Junk, Blocking => True);
+      return Result;
+   end Spawn;
+
+   procedure Spawn
+     (Program_Name : String;
+      Args         : Argument_List;
+      Success      : out Boolean)
+   is
+   begin
+      Success := (Spawn (Program_Name, Args) = 0);
+   end Spawn;
+
+   --------------------
+   -- Spawn_Internal --
+   --------------------
+
+   procedure Spawn_Internal
+     (Program_Name : String;
+      Args         : Argument_List;
+      Result       : out Integer;
+      Pid          : out Process_Id;
+      Blocking     : Boolean)
+   is
+
+      procedure Spawn (Args : Argument_List);
+      --  Call Spawn.
+
+      N_Args : Argument_List (Args'Range);
+      --  Normalized arguments
+
+      -----------
+      -- Spawn --
+      -----------
+
+      procedure Spawn (Args : Argument_List) is
+         type Chars is array (Positive range <>) of aliased Character;
+         type Char_Ptr is access constant Character;
+
+         Command_Len : constant Positive := Program_Name'Length + 1
+                                              + Args_Length (Args);
+         Command_Last : Natural := 0;
+         Command : aliased Chars (1 .. Command_Len);
+         --  Command contains all characters of the Program_Name and Args,
+         --  all terminated by ASCII.NUL characters
+
+         Arg_List_Len : constant Positive := Args'Length + 2;
+         Arg_List_Last : Natural := 0;
+         Arg_List : aliased array (1 .. Arg_List_Len) of Char_Ptr;
+         --  List with pointers to NUL-terminated strings of the
+         --  Program_Name and the Args and terminated with a null pointer.
+         --  We rely on the default initialization for the last null pointer.
+
+         procedure Add_To_Command (S : String);
+         --  Add S and a NUL character to Command, updating Last
+
+         function Portable_Spawn (Args : Object) return Integer;
+         pragma Import (C, Portable_Spawn, "__gnat_portable_spawn");
+
+         function Portable_No_Block_Spawn (Args : Object) return Process_Id;
+         pragma Import
+           (C, Portable_No_Block_Spawn, "__gnat_portable_no_block_spawn");
+
+         --------------------
+         -- Add_To_Command --
+         --------------------
+
+         procedure Add_To_Command (S : String) is
+            First : constant Natural := Command_Last + 1;
+
+         begin
+            Command_Last := Command_Last + S'Length;
+
+            --  Move characters one at a time, because Command has
+            --  aliased components.
+
+            for J in S'Range loop
+               Command (First + J - S'First) := S (J);
+            end loop;
+
+            Command_Last := Command_Last + 1;
+            Command (Command_Last) := ASCII.NUL;
+
+            Arg_List_Last := Arg_List_Last + 1;
+            Arg_List (Arg_List_Last) := Command (First)'Access;
+         end Add_To_Command;
+
+      --  Start of processing for Spawn
+
+      begin
+         Add_To_Command (Program_Name);
+
+         for J in Args'Range loop
+            Add_To_Command (Args (J).all);
+         end loop;
+
+         if Blocking then
+            Pid     := Invalid_Pid;
+            Result  := Portable_Spawn (Arg_List'Address);
+         else
+            Pid     := Portable_No_Block_Spawn (Arg_List'Address);
+            Result  := Boolean'Pos (Pid /= Invalid_Pid);
+         end if;
+      end Spawn;
+
+   --  Start of processing for Spawn_Internal
+
+   begin
+      --  Copy arguments into a local structure
+
+      for K in N_Args'Range loop
+         N_Args (K) := new String'(Args (K).all);
+      end loop;
+
+      --  Normalize those arguments
+
+      Normalize_Arguments (N_Args);
+
+      --  Call spawn using the normalized arguments
+
+      Spawn (N_Args);
+
+      --  Free arguments list
+
+      for K in N_Args'Range loop
+         Free (N_Args (K));
+      end loop;
+   end Spawn_Internal;
+
+   ------------------
+   -- Wait_Process --
+   ------------------
+
+   procedure Wait_Process (Pid : out Process_Id; Success : out Boolean) is
+      Status : aliased Integer;
+
+      function Portable_Wait (S : Object) return Process_Id;
+      pragma Import (C, Portable_Wait, "__gnat_portable_wait");
+
+   begin
+      Pid := Portable_Wait (Status'Address);
+      Success := (Status = 0);
+   end Wait_Process;
+
+end GNAT.OS_Lib;

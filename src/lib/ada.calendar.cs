@@ -1,0 +1,2 @@
+namespace ada.calendar {
+}

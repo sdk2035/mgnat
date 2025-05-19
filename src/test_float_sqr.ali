@@ -1,0 +1,15 @@
+V "GNAT Lib v2.01"
+M P W=b
+A -c
+P
+R nnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U test_float_sqr%b	test_float_sqr.adb	4d2c2157 NE SU
+
+D system.ads		20050820125040 15131902
+D test_float_sqr.adb	20060515215942 4d2c2157
+X 2 test_float_sqr.adb
+1U11*Test_Float_Sqr 1b11 11l5 11t19
+3V13 A{float} 3b13 6l8 6t9 10r16
+8f4 e{float} 10m4
+
